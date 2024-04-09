@@ -1,0 +1,469 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Promo Matrix</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Integrated Activations Tool" name="description">
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <link href="assets/css/vendor/dataTables.bootstrap5.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/vendor/responsive.bootstrap5.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/vendor/buttons.bootstrap5.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/vendor/select.bootstrap5.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" id="light-style">
+    <link href="assets/css/app-dark.min.css" rel="stylesheet" type="text/css" id="dark-style">
+</head>
+<body class="loading">
+    <div class="wrapper">
+
+        <!-- Sidebar -->
+        <div class="leftside-menu">
+            <a href="index.html" class="logo text-center lo go-light">
+                <span class="logo-lg"><img src="assets/images/logo.png" alt="" height="46"></span>
+                <span class="logo-sm"><img src="assets/images/logo_sm.png" alt="" height="46"></span>
+            </a>
+            <a href="index.html" class="logo text-center logo-dark">
+                <span class="logo-lg"><img src="assets/images/logo-light.png" alt="" height="46"></span>
+                <span class="logo-sm"><img src="assets/images/logo_sm_dark.png" alt="" height="46"></span>
+            </a>
+
+            <!--- Sidemenu -->
+            <div class="h-100">
+                <ul class="side-nav">
+                    <li class="side-nav-title side-nav-item">Home</li>
+                    <li class="side-nav-item">
+                        <a href="index.html" class="side-nav-link"><i class="uil-home-alt"></i><span>Dashboard</span></a>
+                    </li>
+
+                    <li class="side-nav-title side-nav-item">Custom</li>
+                    <li class="side-nav-item">
+                        <a data-bs-toggle="collapse" href="#sidebarNotesGenerator" aria-expanded="false" aria-controls="sidebarNotesGenerator" class="side-nav-link">
+                            <i class="uil-copy-alt"></i><span>Notes Generator</span><span class="menu-arrow"></span>
+                        </a>
+                        <div class="collapse" id="sidebarNotesGenerator">
+                            <ul class="side-nav-second-level">
+                                <li><a href="notes-for_activation.html">For Activation</a></li>
+                                <li><a href="notes-unsuccessful.html">Unsuccessful</a></li>
+                                <li><a href="notes-with_compliance.html">With Compliance</a></li>
+                                <li><a href="notes-docs_and_sup_for_approval.html">Docs and Sup Approval</a></li>
+                                <li><a href="notes-pldt_and_radius.html">PLDT and Radius</a></li>
+                                <li><a href="notes-demo_and_syndication.html">Demo and Syndication</a></li>
+                                <li><a href="notes-vsat.html">VSAT</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="side-nav-title side-nav-item">Utilities</li>
+                    <li class="side-nav-item"><a href="utilities-hpa_calculator.html" class="side-nav-link"><i class="uil-calcualtor"></i><span>HPA Calculator</span></a></li>
+                    <li class="side-nav-item"><a href="utilities-email_template.html" class="side-nav-link"><i class="uil-envelope-edit"></i><span>Email Template</span></a></li>
+
+                    <li class="side-nav-title side-nav-item mt-1">Plugins</li>
+                    <li class="side-nav-item"><a href="tables-promo_matrix.html" class="side-nav-link"><i class="uil-store"></i><span>Promo Matrix</span></a></li>
+                    <li class="side-nav-item"><a href="tables-channel_lineup.html" class="side-nav-link"><i class="uil-tv-retro"></i><span>Channel Line-up</span></a></li>
+                    <li class="side-nav-item"><a href="tables-id_only.html" class="side-nav-link"><i class="uil-user-square"></i><span>Salesman Code</span></a></li>
+                    <li class="side-nav-item"><a href="tables-mdu.html" class="side-nav-link"><i class="uil-building"></i><span>MDU Address</span></a></li>
+
+                    <li class="side-nav-item">
+                        <a data-bs-toggle="collapse" href="#sidebarBarangay" aria-expanded="false" aria-controls="sidebarMaps" class="side-nav-link">
+                            <i class="uil-location-point"></i><span>List of Barangay</span><span class="menu-arrow"></span>
+                        </a>
+                        <div class="collapse" id="sidebarBarangay">
+                            <ul class="side-nav-second-level">
+                                <li><a href="tables-caloocan.html">Barangay in Caloocan</a></li>
+                                <li><a href="tables-manila.html">Barangay in Manila</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <div class="clearfix"></div>
+            </div><!-- end Sidemenu -->
+
+        </div><!-- end Sidebar -->
+
+        <!-- Content -->
+        <div class="content-page">
+            <div class="content">
+
+                <!-- Topbar -->
+                <div class="navbar-custom">
+                    <ul class="list-unstyled topbar-menu float-end mb-0">
+                        <li class="notification-list">
+                            <a class="nav-link nav-user me-0">
+                                <span class="account-user-avatar"><img src="assets/images/users/user_nate.png" alt="user-image" class="rounded-circle"></span>
+                                <span>
+                                    <span class="account-user-name">Customer Experience Group</span>
+                                    <span class="account-position">Activation Officer</span>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <button class="button-menu-mobile open-left"><i class="mdi mdi-menu"></i></button>
+                </div>
+
+                <!-- Container-->
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="page-title-box">
+                                <div class="page-title-right">
+                                    <ol class="breadcrumb m-0">
+                                        <li class="breadcrumb-item"><a href="index.html">Integrateds Activation Tool</a></li>
+                                        <li class="breadcrumb-item active">Activations Promo Matrix</li>
+                                    </ol>
+                                </div>
+                                <h5 class="page-title">ACTIVATIONS PROMO MATRIX</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card border">
+                                <div class="card-body">
+                                    <span class="badge badge-danger-lighten p-1 mb-3">Updated: March 25, 2024</span>
+                                    <table id="basic-datatable" class="table dt-responsive nowrap w-100 table-bordered table-centered">
+                                        <thead class="table-dark">  
+                                            <tr>
+                                                <th class="w-75">Current Residential Offers</th>
+                                                <th class="w-75">Promo Code</th>
+                                                <th class="min-vw-100">Promo Period</th>
+                                                <th>Promo / Program Details</th>
+                                                <th>Qualified Customers</th>
+                                                <th>Sales Channel</th>
+                                                <th>POP Plans</th>
+                                                <th>Required Documents</th>
+                                                <th>Activations Call Out</th>
+                                                <th>Remarks / Special Instructions</th>
+                                                <th>Initial Cash Out</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>Commercial Plan Switcher Promo</td>
+                                                <td>SKYCOMSP23</td>
+                                                <td><pre>
+                                                    February 5 to April 30, 2024</pre></td>
+                                                <td><pre>
+                                                    1 Month Free Subscription for
+                                                    ALL TV connections</pre></td>
+                                                <td><pre>
+                                                    Commercial Establishments
+                                                    (e.g Food & Beverage stores, Offices,
+                                                    Retail Stores, Common areas, Terminals,
+                                                    Airports, Parking Areas)</pre></td>
+                                                <td><pre>
+                                                    Cignal Stores, Territory Partners,
+                                                    Multi Channel Sales Touchpoints</pre></td>
+                                                <td><pre>
+                                                    Basic 350,
+                                                    Sports Entertainment 550,
+                                                    Lifestyle Entertainment 550,
+                                                    General Entertainment 550</pre></td>
+                                                <td><pre>
+                                                    SAF, non-Cignal Pay TV SOA,
+                                                    ID of contact person,
+                                                    COR (Certificate of Registration)</pre></td>
+                                                <td><pre>
+                                                    Standard Callout guidelines
+                                                    and process will be followed</pre></td>
+                                                <td></td>
+                                                <td><pre>
+                                                    Standard Cash Out applies</pre></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Enhanced Postpaid Switcher Promo</td>
+                                                <td>EPOPSP</td>
+                                                <td><pre>
+                                                    October 25, 2023 to April 30, 2024</pre></td>
+                                                <td><pre>
+                                                    3 Months Free MSF; No Cash Out;
+                                                    Waived Activation Fee;
+                                                    Waived Installation Fee (up to P1500)</pre></td>
+                                                <td><pre>
+                                                    All existing Postpaid Cable Subscribers
+                                                    currently subscribed to other Cable
+                                                    Operators</pre></td>
+                                                <td><pre>
+                                                    All Channels</pre></td>
+                                                <td><pre>
+                                                    520 & up (Lease)</pre></td>
+                                                <td><pre>
+                                                    SAF, POID, Cable Bill or 
+                                                    Proof of Payment 
+                                                    (2 mos from Date of Application)</pre></td>
+                                                <td><pre>
+                                                    Standard Callout guidelines 
+                                                    and process will be followed</pre></td>
+                                                <td><pre>
+                                                    Purpose and Event drop down
+                                                    are the following:
+                                                    Sky - 2023 Sky Switcher;
+                                                    Other Cable Provider - None</pre></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Basic Theme Pack 300 Switcher Promo</td>
+                                                <td>EPOPSP</td>
+                                                <td><pre>
+                                                    January 31 to April 30, 2024</pre></td>
+                                                <td><pre>
+                                                    2 Months Free MSF; No Cash Out;
+                                                    Waived Installation Fee (up to P1500);
+                                                    P1000 Activation Fee - Charge to Bill</pre></td>
+                                                <td><pre>
+                                                    All existing Postpaid Cable Subscribers
+                                                    currently subscribed to other Cable
+                                                    Operators</pre></td>
+                                                <td><pre>
+                                                    All Channels</pre></td>
+                                                <td><pre>
+                                                    Basic Theme Pack 300</pre></td>
+                                                <td><pre>
+                                                    SAF, POID, Cable Bill or 
+                                                    Proof of Payment 
+                                                    (2 mos from Date of Application)</pre></td>
+                                                <td><pre>
+                                                    Standard Callout guidelines 
+                                                    and process will be followed</pre></td>
+                                                <td><pre>
+                                                    Purpose and Event drop down
+                                                    are the following:
+                                                    Sky - 2023 Sky Switcher;
+                                                    Other Cable Provider - None</pre></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Plan 290 Switcher Promo</td>
+                                                <td>EPOPSP</td>
+                                                <td><pre>
+                                                    March 27, 2023 to April 30, 2024</pre></td>
+                                                <td><pre>
+                                                    2 Months Free MSF; No Cash Out;
+                                                    Waived Installation Fee (up to P1500);
+                                                    P1000 Activation Fee - Charge to Bill</pre></td>
+                                                <td><pre>
+                                                    All existing Postpaid Cable Subscribers
+                                                    currently subscribed to other Cable
+                                                    Operators</pre></td>
+                                                <td><pre>
+                                                    All Channels</pre></td>
+                                                <td><pre>
+                                                    Plan 290</pre></td>
+                                                <td><pre>
+                                                    SAF, POID, Cable Bill or 
+                                                    Proof of Payment 
+                                                    (2 mos from Date of Application)</pre></td>
+                                                <td><pre>
+                                                    Standard Callout guidelines 
+                                                    and process will be followed</pre></td>
+                                                <td><pre>
+                                                    Purpose and Event drop down
+                                                    are the following:
+                                                    Sky - 2023 Sky Switcher;
+                                                    Other Cable Provider - None</pre></td>
+                                                <td></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Postpaid Installation Discount - Digital Sales</td>
+                                                <td></td>
+                                                <td><pre>
+                                                    until May 31, 2024</pre></td>
+                                                <td><pre>
+                                                    Installation Discount
+                                                    PLAN 290 LESS PHP 100
+                                                    PLAN 520 LESS PHP 500
+                                                    PLAN 720 LESS PHP 750
+                                                    PLAN 1050 LESS PHP 1,000
+                                                    PLAN 1350 LESS PHP 1,000
+                                                    PLAN 1650 LESS PHP 1,000
+                                                    PLAN 1990 LESS PHP 1,000
+                                                    Basic Theme Pack 300 LESS PHP 100</pre></td>
+                                                <td><pre>
+                                                    Open to new subscribers</pre></td>
+                                                <td><pre>
+                                                    Digital Sales</pre></td>
+                                                <td><pre>
+                                                    290 and up (HD Lite and Flexi)</pre></td>
+                                                <td><pre>
+                                                    SAF, POID, Service Bill 
+                                                    (ID only Policy Applies)</pre></td>
+                                                <td><pre>
+                                                    Not required except for those 
+                                                    with Compliance issues or 
+                                                    For Clarification</pre></td>
+                                                <td><pre>
+                                                    Purpose and Event drop down 
+                                                    are the following:  
+                                                    Digital Sales - Regular HD Lite; 
+                                                    Digital Sales - Regular HD Lite - ID ONLY; 
+                                                    Digital Sales - Regular Flexi</pre></td>
+                                                <td><pre>
+                                                    HD LITE - Installation Fees; 
+                                                    Activation Fees, Advance MSF (for ID only) 
+                                                    FLEXI - Installation Fees; 
+                                                    Cignal Kit; Advance MSF (for ID Only)</pre></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Postpaid Installation Discount - Key Accounts (Regular Promo)</td>
+                                                <td></td>
+                                                <td><pre>
+                                                    until May 31, 2024</pre></td>
+                                                <td><pre>
+                                                    Installation Discount
+                                                    PLAN 290 LESS PHP 100
+                                                    PLAN 520 LESS PHP 500
+                                                    PLAN 720 LESS PHP 750
+                                                    PLAN 1050 LESS PHP 1,000
+                                                    PLAN 1350 LESS PHP 1,000
+                                                    PLAN 1650 LESS PHP 1,000
+                                                    PLAN 1990 LESS PHP 1,000
+                                                    Basic Theme Pack 300 LESS PHP 100</pre></td>
+                                                <td><pre>
+                                                    Open to new subscribers</pre></td>
+                                                <td><pre>
+                                                    Key Partners</pre></td>
+                                                <td><pre>
+                                                    290 and up (HD Lite and Flexi)</pre></td>
+                                                <td><pre>
+                                                    SAF, POID, Service Bill 
+                                                    (ID only Policy Applies)</pre></td>
+                                                <td><pre>
+                                                    Standard Callout guidelines 
+                                                    and process will be followed</pre></td>
+                                                <td><pre>
+                                                    Purpose and Event drop down 
+                                                    are the following: 
+                                                    POP Discounted Install Fee - Key Accounts; 
+                                                    ID ONLY - POP Discounted Install Fee 
+                                                    - Key Accounts</pre></td>
+                                                <td><pre>
+                                                    HD LITE - Installation Fees; 
+                                                    Activation Fees, Advance MSF 
+                                                    FLEXI - Installation Fees; 
+                                                    Cignal Kit; Advance MSF</pre></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Postpaid Installation Discount - TP</td>
+                                                <td></td>
+                                                <td><pre>
+                                                    September 12, 2022 - May 31, 2024</pre></td>
+                                                <td><pre>
+                                                    Installation Discount
+                                                    PLAN 290 LESS PHP 100
+                                                    PLAN 520 LESS PHP 500
+                                                    PLAN 720 LESS PHP 750
+                                                    PLAN 1050 LESS PHP 1,000
+                                                    PLAN 1350 LESS PHP 1,000
+                                                    PLAN 1650 LESS PHP 1,000
+                                                    PLAN 1990 LESS PHP 1,000
+                                                    Basic Theme Pack 300 LESS PHP 100</pre></td>
+                                                <td><pre>
+                                                    Open to new subscribers 
+                                                    (SDU, MDU, VIP, SVIP)</pre></td>
+                                                <td><pre>
+                                                    All Channels</pre></td>
+                                                <td><pre>
+                                                    290 and up (HD Lite and Flexi)</pre></td>
+                                                <td><pre>
+                                                    SAF, POID, Service Bill 
+                                                    (ID only Policy Applies)</pre></td>
+                                                <td><pre>
+                                                    Standard Callout guidelines 
+                                                    and process will be followed</pre></td>
+                                                <td><pre>
+                                                    Purpose and Event drop down 
+                                                    are the following: 
+                                                    Postpaid Discounted Installation Fee - TP; 
+                                                    ID ONLY - POP Discounted Install Fee - TP</pre></td>
+                                                <td><pre>
+                                                    HD LITE - Installation Fees; 
+                                                    Activation Fees; 
+                                                    FLEXI - Installation Fees; Cignal Kit</pre></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Postpaid Installation Discount - MDU</td>
+                                                <td></td>
+                                                <td><pre>
+                                                    until May 31, 2024</pre></td>
+                                                <td><pre>
+                                                    Installation Discount
+                                                    PLAN 290 LESS PHP 100
+                                                    PLAN 520 LESS PHP 500
+                                                    PLAN 720 LESS PHP 750
+                                                    PLAN 1050 LESS PHP 1,000
+                                                    PLAN 1350 LESS PHP 1,000
+                                                    PLAN 1650 LESS PHP 1,000
+                                                    PLAN 1990 LESS PHP 1,000
+                                                    Basic Theme Pack 300 LESS PHP 100</pre></td>
+                                                <td><pre>
+                                                    Open to new subscribers</pre></td>
+                                                <td><pre>
+                                                    MDU</pre></td>
+                                                <td><pre>
+                                                    290 and up (HD Lite and Flexi)</pre></td>
+                                                <td><pre>
+                                                    SAF, POID, COR</pre></td>
+                                                <td><pre>
+                                                    Standard Callout guidelines 
+                                                    and process will be followed</pre></td>
+                                                <td><pre>
+                                                    Purpose and Event drop down:
+                                                    Postpaid Discounted Installation Fee - MDU</pre></td>
+                                                <td><pre>
+                                                    MDU - Charge to Bill
+                                                    (MDU Kit - P1490)</pre></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div> 
+                            </div>
+                        </div>
+                    </div>
+
+                </div> <!-- container -->
+
+            </div> <!-- content -->
+
+            <!-- Footer -->
+            <footer class="footer">
+                <div class="container-fluid">
+                    <div class="row small">
+                        <div class="col-md-6">
+                            <span>Project Initiative 2022-<script>document.write(new Date().getFullYear())</script></span>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="text-md-end footer-links d-none d-md-block">
+                                <a href="javascript: void(0);">&copy; Integrated Activations Tool</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        </div> <!-- end container page -->
+
+    </div><!-- end wrapper -->
+
+    <!-- bundle -->
+    <script src="assets/js/vendor.min.js"></script>
+    <script src="assets/js/app.min.js"></script>
+
+    <!-- third party js -->
+    <script src="assets/js/vendor/jquery.dataTables.min.js"></script>
+    <script src="assets/js/vendor/dataTables.bootstrap5.js"></script>
+    <script src="assets/js/vendor/dataTables.responsive.min.js"></script>
+    <script src="assets/js/vendor/responsive.bootstrap5.min.js"></script>
+    <script src="assets/js/vendor/dataTables.buttons.min.js"></script>
+    <script src="assets/js/vendor/buttons.bootstrap5.min.js"></script>
+    <script src="assets/js/vendor/buttons.html5.min.js"></script>
+    <script src="assets/js/vendor/buttons.flash.min.js"></script>
+    <script src="assets/js/vendor/buttons.print.min.js"></script>
+    <script src="assets/js/vendor/dataTables.keyTable.min.js"></script>
+    <script src="assets/js/vendor/dataTables.select.min.js"></script>
+
+    <!-- demo app -->
+    <script src="assets/js/pages/demo.datatable-init.js"></script>
+
+</body>
+</html>

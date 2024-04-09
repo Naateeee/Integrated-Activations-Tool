@@ -1,0 +1,294 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Dashboard</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Integrated Activations Tool" name="description">
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" id="light-style">
+    <link href="assets/css/app-dark.min.css" rel="stylesheet" type="text/css" id="dark-style">
+</head>
+<body class="loading">
+    <div class="wrapper">
+
+        <!-- Sidebar -->
+        <div class="leftside-menu">
+            <a href="index.html" class="logo text-center lo go-light">
+                <span class="logo-lg"><img src="assets/images/logo.png" alt="" height="46"></span>
+                <span class="logo-sm"><img src="assets/images/logo_sm.png" alt="" height="46"></span>
+            </a>
+            <a href="index.html" class="logo text-center logo-dark">
+                <span class="logo-lg"><img src="assets/images/logo-light.png" alt="" height="46"></span>
+                <span class="logo-sm"><img src="assets/images/logo_sm_dark.png" alt="" height="46"></span>
+            </a>
+
+            <!--- Sidemenu -->
+            <div class="h-100">
+                <ul class="side-nav">
+                    <li class="side-nav-title side-nav-item">Home</li>
+                    <li class="side-nav-item">
+                        <a href="index.html" class="side-nav-link"><i class="uil-home-alt"></i><span>Dashboard</span></a>
+                    </li>
+
+                    <li class="side-nav-title side-nav-item">Custom</li>
+                    <li class="side-nav-item">
+                        <a data-bs-toggle="collapse" href="#sidebarNotesGenerator" aria-expanded="false" aria-controls="sidebarNotesGenerator" class="side-nav-link">
+                            <i class="uil-copy-alt"></i><span>Notes Generator</span><span class="menu-arrow"></span>
+                        </a>
+                        <div class="collapse" id="sidebarNotesGenerator">
+                            <ul class="side-nav-second-level">
+                                <li><a href="notes-for_activation.html">For Activation</a></li>
+                                <li><a href="notes-unsuccessful.html">Unsuccessful</a></li>
+                                <li><a href="notes-with_compliance.html">With Compliance</a></li>
+                                <li><a href="notes-docs_and_sup_for_approval.html">Docs and Sup Approval</a></li>
+                                <li><a href="notes-pldt_and_radius.html">PLDT and Radius</a></li>
+                                <li><a href="notes-demo_and_syndication.html">Demo and Syndication</a></li>
+                                <li><a href="notes-vsat.html">VSAT</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="side-nav-title side-nav-item">Utilities</li>
+                    <li class="side-nav-item"><a href="utilities-hpa_calculator.html" class="side-nav-link"><i class="uil-calcualtor"></i><span>HPA Calculator</span></a></li>
+                    <li class="side-nav-item"><a href="utilities-email_template.html" class="side-nav-link"><i class="uil-envelope-edit"></i><span>Email Template</span></a></li>
+
+                    <li class="side-nav-title side-nav-item mt-1">Plugins</li>
+                    <li class="side-nav-item"><a href="tables-promo_matrix.html" class="side-nav-link"><i class="uil-store"></i><span>Promo Matrix</span></a></li>
+                    <li class="side-nav-item"><a href="tables-channel_lineup.html" class="side-nav-link"><i class="uil-tv-retro"></i><span>Channel Line-up</span></a></li>
+                    <li class="side-nav-item"><a href="tables-id_only.html" class="side-nav-link"><i class="uil-user-square"></i><span>Salesman Code</span></a></li>
+                    <li class="side-nav-item"><a href="tables-mdu.html" class="side-nav-link"><i class="uil-building"></i><span>MDU Address</span></a></li>
+
+                    <li class="side-nav-item">
+                        <a data-bs-toggle="collapse" href="#sidebarBarangay" aria-expanded="false" aria-controls="sidebarMaps" class="side-nav-link">
+                            <i class="uil-location-point"></i><span>List of Barangay</span><span class="menu-arrow"></span>
+                        </a>
+                        <div class="collapse" id="sidebarBarangay">
+                            <ul class="side-nav-second-level">
+                                <li><a href="tables-caloocan.html">Barangay in Caloocan</a></li>
+                                <li><a href="tables-manila.html">Barangay in Manila</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <div class="clearfix"></div>
+            </div><!-- end Sidemenu -->
+
+        </div><!-- end Sidebar -->
+
+        <!-- Content -->
+        <div class="content-page">
+            <div class="content">
+
+                <!-- Topbar -->
+                <div class="navbar-custom">
+                    <ul class="list-unstyled topbar-menu float-end mb-0">
+                        <li class="notification-list">
+                            <a class="nav-link nav-user me-0">
+                                <span class="account-user-avatar"><img src="assets/images/users/user_nate.png" alt="user-image" class="rounded-circle"></span>
+                                <span>
+                                    <span class="account-user-name">Customer Experience Group</span>
+                                    <span class="account-position">Activation Officer</span>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <button class="button-menu-mobile open-left"><i class="mdi mdi-menu"></i></button>
+                </div>
+
+                <!-- Container -->
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="page-title-box">
+                                <h5 class="page-title">DASHBOARD</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-6">
+
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="card border ribbon-box">
+                                        <div class="card-body">
+                                            <div class="ribbon ribbon-danger float-start"><i class="mdi mdi-access-point me-1"></i>Project Initiative</div>
+                                            <h4 class="text-primary float-end mt-0 header-title mb-3"></h4>
+
+                                            <div class="ribbon-content">
+                                                <table class="table mb-0 table-responsive table-hover table-bordered">
+                                                    <thead class="table-light">
+                                                    <tr>
+                                                        <th>Activations Initiatives</th>
+                                                        <th>Activations Handling</th>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    <tr>
+                                                        <td><abbrv>I. Additional Acceptable POB</abbrv><br>
+                                                            <abbrv>• Bank Statement</abbrv><br>
+                                                            <abbrv>• Insurance SOA</abbrv><br>
+                                                            <abbrv>• Radius SOA</abbrv>
+                                                        </td>
+                                                        <td><abbrv>1. Validate POB presented</abbrv><br>
+                                                            <abbrv>2. Proceed activation</abbrv><br>
+                                                            <abbrv>3. HPA - Plan 1990 4 boxes</abbrv><br>
+                                                            <abbrv>4. No need to create Sup approval ticket</abbrv>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><abbrv>II. Electric Bill - does not meet required amount for the desired plan</abbrv><br>
+                                                            <abbrv>III. POB - not under subscriber's name</abbrv><br>
+                                                        </td>
+                                                        <td><abbrv>1. Validate POB presented</abbrv><br>
+                                                            <abbrv>2. Proceed activation</abbrv><br>
+                                                            <abbrv>3. HPA - Plan Avail</abbrv><br>
+                                                            <abbrv>4. No need to create Sup approval ticket</abbrv>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <abbrv>IV. Electric Bill - Disconnection Notice</abbrv><br>
+                                                        </td>
+                                                        <td><abbrv>1. Validate POB presented</abbrv><br>
+                                                            <abbrv>2. Proceed activation</abbrv><br>
+                                                            <abbrv>3. HPA - Based on Financial Matrix</abbrv><br>
+                                                            <abbrv>4. No need to create Sup approval ticket</abbrv>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <abbrv>V. POB - Payment Receipt</abbrv><br>
+                                                        </td>
+                                                        <td><abbrv>1. Validate POB presented</abbrv><br>
+                                                            <abbrv>2. Proceed activation</abbrv><br>
+                                                            <abbrv>3. E-bill required</abbrv><br>
+                                                            <abbrv>4. HPA - Based on Financial Matrix</abbrv><br>
+                                                            <abbrv>5. No need to create Sup approval ticket</abbrv>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                            <abbrv>VI. POID - No Signature</abbrv><br>
+                                                        </td>
+                                                        <td><abbrv>1. Validate POID presented & signatory</abbrv><br>
+                                                            <abbrv>2. Proceed activation once approved</abbrv><br>
+                                                            <abbrv>3. No need to create Sup approval ticket</abbrv>
+                                                        </td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div> <!-- end ribbon-content -->
+
+                                        </div> <!-- end card-body-->
+                                    </div> <!-- end card-->
+                                </div> <!-- end col -->
+                            </div> <!-- end row -->
+
+                        </div> <!-- end main-col -->
+
+                        <div class="col-xl-6 col-lg-6">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="card border ribbon-box">
+                                        <div class="card-body">
+                                            <div class="ribbon ribbon-danger float-start"><i class="mdi mdi-access-point me-1"></i>Disapproval Codes</div>
+                                            <h4 class="text-danger float-start mt-0 header-title mb-3"></h4>
+
+                                            <div class="ribbon-content">
+                                                <table class="table mb-0 table-responsive table-hover table-bordered">
+                                                    <thead class="table-light">
+                                                    <tr>
+                                                        <th>Reason for Disapproval</th>
+                                                        <th>Code</th>
+                                                    </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                    <tr>
+                                                        <td>Tampered POB</td>
+                                                        <td>DXB</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Tampered POID</td>
+                                                        <td>DXI</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Installed in different house</td>
+                                                        <td>DXH</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Fraud Call</td>
+                                                        <td>DXF</td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td>Previously Disapproved Account</td>
+                                                        <td>DXA / (previously disapprove reason)</td>
+                                                    </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div> <!-- end ribbon-content -->
+
+                                        </div> <!-- end card-body-->
+                                    </div> <!-- end card-->
+                                </div> <!-- end col -->
+                            </div> <!-- end row -->
+
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <div class="card border ribbon-box">
+                                        <div class="card-body">
+                                            <div class="ribbon ribbon-danger float-start"><i class="mdi mdi-access-point me-1"></i>Activations Handling</div>
+                                            <h4 class="text-warning float-start mt-0 header-title mb-3"></h4>
+                                            <div class="ribbon-content">
+                                                <h5 class="mb-0">Telesales Account</h5>
+                                                <p class="card-text">TELESALES in Source field is no longer mandatory</p>
+                                                <h5 class="mb-0">Unsuccessful call out</h5>
+                                                <p class="card-text">INVALID in Type field is no longer mandatory</p>
+                                                <h5 class="mb-0">Call out Notes</h5>
+                                                <p class="card-text mb-0">I. <u>Called Number</u> - no need to indicate contact number if number called is available in SMS and based on SAF</p>
+                                                <p class="card-text mb-0">II. <u>Items Discussed</u> - unnecessary to indicate the plan and number of boxes if indicated in SAF (will put notes all discrepancies between SAF and call out)</p>
+                                                <p class="card-text">III. <u>Email address</u>, <u>Address</u> (Billing & Installation) - no need to indicate if written in SAF / if during call out there are discrepancies - AO will indicate based on SAF and put necessary details in SMS field accurately.</p>
+                                                <h5 class="mb-0">Activation Notes</h5>
+                                                <p class="card-text mb-0">I. <u>Plan Avail</u>, <u>Number of Boxes</u> and <u>Promotion</u> are no longer mandatory</p>
+                                                <p class="card-text">II. <u>HPA</u> and <u>Ticket Number</u> will retain</p>
+                                            </div>
+                                        </div> <!-- end card-body-->
+                                    </div> <!-- end card-->
+                                </div> <!-- end col -->
+                            </div> <!-- end row -->
+
+                        </div> <!-- end main-col -->
+
+                    </div> <!-- end main-row -->
+
+                </div> <!-- end container -->
+
+            </div> <!-- end content -->
+
+            <!-- Footer -->
+            <footer class="footer">
+                <div class="container-fluid">
+                    <div class="row small">
+                        <div class="col-md-6">
+                            <span>Project Initiative 2022-<script>document.write(new Date().getFullYear())</script></span>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="text-md-end footer-links d-none d-md-block">
+                                <a href="javascript: void(0);">&copy; Integrated Activations Tool</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        </div> <!-- end container page -->
+
+    </div> <!-- end wrapper -->
+
+    <script src="assets/js/vendor.min.js"></script>
+    <script src="assets/js/app.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,1090 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Barangay in Manila</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Integrated Activations Tool" name="description">
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <link href="assets/css/vendor/dataTables.bootstrap5.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/vendor/responsive.bootstrap5.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/vendor/buttons.bootstrap5.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/vendor/select.bootstrap5.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" id="light-style">
+    <link href="assets/css/app-dark.min.css" rel="stylesheet" type="text/css" id="dark-style">
+</head>
+<body class="loading">
+    <div class="wrapper">
+
+        <!-- Sidebar -->
+        <div class="leftside-menu">
+            <a href="index.html" class="logo text-center lo go-light">
+                <span class="logo-lg"><img src="assets/images/logo.png" alt="" height="46"></span>
+                <span class="logo-sm"><img src="assets/images/logo_sm.png" alt="" height="46"></span>
+            </a>
+            <a href="index.html" class="logo text-center logo-dark">
+                <span class="logo-lg"><img src="assets/images/logo-light.png" alt="" height="46"></span>
+                <span class="logo-sm"><img src="assets/images/logo_sm_dark.png" alt="" height="46"></span>
+            </a>
+
+            <!--- Sidemenu -->
+            <div class="h-100">
+                <ul class="side-nav">
+                    <li class="side-nav-title side-nav-item">Home</li>
+                    <li class="side-nav-item">
+                        <a href="index.html" class="side-nav-link"><i class="uil-home-alt"></i><span>Dashboard</span></a>
+                    </li>
+
+                    <li class="side-nav-title side-nav-item">Custom</li>
+                    <li class="side-nav-item">
+                        <a data-bs-toggle="collapse" href="#sidebarNotesGenerator" aria-expanded="false" aria-controls="sidebarNotesGenerator" class="side-nav-link">
+                            <i class="uil-copy-alt"></i><span>Notes Generator</span><span class="menu-arrow"></span>
+                        </a>
+                        <div class="collapse" id="sidebarNotesGenerator">
+                            <ul class="side-nav-second-level">
+                                <li><a href="notes-for_activation.html">For Activation</a></li>
+                                <li><a href="notes-unsuccessful.html">Unsuccessful</a></li>
+                                <li><a href="notes-with_compliance.html">With Compliance</a></li>
+                                <li><a href="notes-docs_and_sup_for_approval.html">Docs and Sup Approval</a></li>
+                                <li><a href="notes-pldt_and_radius.html">PLDT and Radius</a></li>
+                                <li><a href="notes-demo_and_syndication.html">Demo and Syndication</a></li>
+                                <li><a href="notes-vsat.html">VSAT</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="side-nav-title side-nav-item">Utilities</li>
+                    <li class="side-nav-item"><a href="utilities-hpa_calculator.html" class="side-nav-link"><i class="uil-calcualtor"></i><span>HPA Calculator</span></a></li>
+                    <li class="side-nav-item"><a href="utilities-email_template.html" class="side-nav-link"><i class="uil-envelope-edit"></i><span>Email Template</span></a></li>
+
+                    <li class="side-nav-title side-nav-item mt-1">Plugins</li>
+                    <li class="side-nav-item"><a href="tables-promo_matrix.html" class="side-nav-link"><i class="uil-store"></i><span>Promo Matrix</span></a></li>
+                    <li class="side-nav-item"><a href="tables-channel_lineup.html" class="side-nav-link"><i class="uil-tv-retro"></i><span>Channel Line-up</span></a></li>
+                    <li class="side-nav-item"><a href="tables-id_only.html" class="side-nav-link"><i class="uil-user-square"></i><span>Salesman Code</span></a></li>
+                    <li class="side-nav-item"><a href="tables-mdu.html" class="side-nav-link"><i class="uil-building"></i><span>MDU Address</span></a></li>
+
+                    <li class="side-nav-item">
+                        <a data-bs-toggle="collapse" href="#sidebarBarangay" aria-expanded="false" aria-controls="sidebarMaps" class="side-nav-link">
+                            <i class="uil-location-point"></i><span>List of Barangay</span><span class="menu-arrow"></span>
+                        </a>
+                        <div class="collapse" id="sidebarBarangay">
+                            <ul class="side-nav-second-level">
+                                <li><a href="tables-caloocan.html">Barangay in Caloocan</a></li>
+                                <li><a href="tables-manila.html">Barangay in Manila</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <div class="clearfix"></div>
+            </div><!-- end Sidemenu -->
+
+        </div><!-- end Sidebar -->
+
+        <!-- Content -->
+        <div class="content-page">
+            <div class="content">
+
+                <!-- Topbar -->
+                <div class="navbar-custom">
+                    <ul class="list-unstyled topbar-menu float-end mb-0">
+                        <li class="notification-list">
+                            <a class="nav-link nav-user me-0">
+                                <span class="account-user-avatar"><img src="assets/images/users/user_nate.png" alt="user-image" class="rounded-circle"></span>
+                                <span>
+                                    <span class="account-user-name">Customer Experience Group</span>
+                                    <span class="account-position">Activation Officer</span>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <button class="button-menu-mobile open-left"><i class="mdi mdi-menu"></i></button>
+                </div>
+
+                <!-- Container-->
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="page-title-box">
+                                <div class="page-title-right">
+                                    <ol class="breadcrumb m-0">
+                                        <li class="breadcrumb-item"><a href="index.html">Integrateds Activation Tool</a></li>
+                                        <li class="breadcrumb-item"><a href="#">List of Barangay</a></li>
+                                        <li class="breadcrumb-item active">Barangay in Manila</li>
+                                    </ol>
+                                </div>
+                                <h5 class="page-title">BARANGAY IN MANILA CITY</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card border">
+                                <div class="card-body">
+                                    <span class="badge badge-danger-lighten p-1 mb-3">updated List of Barangay in Manila City as of October 1, 2022</span>
+                                    <table id="basic-datatable" class="table dt-responsive table-bordered table-hover table-centered w-100 nowrap">
+                                        <thead class="table-dark">
+                                            <tr>
+                                                <th>CORRESPONDING SYSTEM NAME</th>
+                                                <th>CORRESPONDING BARANGAY</th>
+                                                <th>ZIP CODE</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr><td>Binondo</td><td>Barangay 0287</td><td>1006</td></tr>
+                                            <tr><td>Binondo</td><td>Barangay 0288</td><td>1006</td></tr>
+                                            <tr><td>Binondo</td><td>Barangay 0289</td><td>1006</td></tr>
+                                            <tr><td>Binondo</td><td>Barangay 0290</td><td>1006</td></tr>
+                                            <tr><td>Binondo</td><td>Barangay 0291</td><td>1006</td></tr>
+                                            <tr><td>Binondo</td><td>Barangay 0292</td><td>1006</td></tr>
+                                            <tr><td>Binondo</td><td>Barangay 0293</td><td>1006</td></tr>
+                                            <tr><td>Binondo</td><td>Barangay 0294</td><td>1006</td></tr>
+                                            <tr><td>Binondo</td><td>Barangay 0295</td><td>1006</td></tr>
+                                            <tr><td>Binondo</td><td>Barangay 0296</td><td>1006</td></tr>
+                                            <tr><td>Ermita</td><td>Barangay 0659</td><td>1045</td></tr>
+                                            <tr><td>Ermita</td><td>Barangay 0659-A</td><td>1045</td></tr>
+                                            <tr><td>Ermita</td><td>Barangay 0660</td><td>1045</td></tr>
+                                            <tr><td>Ermita</td><td>Barangay 0660-A</td><td>1045</td></tr>
+                                            <tr><td>Ermita</td><td>Barangay 0661</td><td>1045</td></tr>
+                                            <tr><td>Ermita</td><td>Barangay 0663</td><td>1045</td></tr>
+                                            <tr><td>Ermita</td><td>Barangay 0663-A</td><td>1045</td></tr>
+                                            <tr><td>Ermita</td><td>Barangay 0664</td><td>1045</td></tr>
+                                            <tr><td>Ermita</td><td>Barangay 0666</td><td>1045</td></tr>
+                                            <tr><td>Ermita</td><td>Barangay 0667</td><td>1045</td></tr>
+                                            <tr><td>Ermita</td><td>Barangay 0668</td><td>1045</td></tr>
+                                            <tr><td>Ermita</td><td>Barangay 0669</td><td>1045</td></tr>
+                                            <tr><td>Ermita</td><td>Barangay 0670</td><td>1045</td></tr>
+                                            <tr><td>Intramuros</td><td>Barangay 0654</td><td>1002</td></tr>
+                                            <tr><td>Intramuros</td><td>Barangay 0655</td><td>1002</td></tr>
+                                            <tr><td>Intramuros</td><td>Barangay 0656</td><td>1002</td></tr>
+                                            <tr><td>Intramuros</td><td>Barangay 0657</td><td>1002</td></tr>
+                                            <tr><td>Intramuros</td><td>Barangay 0658</td><td>1002</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0688</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0689</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0690</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0691</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0692</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0693</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0694</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0695</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0696</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0697</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0698</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0699</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0700</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0701</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0702</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0703</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0704</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0705</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0706</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0707</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0708</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0709</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0710</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0711</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0712</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0713</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0714</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0715</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0716</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0717</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0718</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0719</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0720</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0721</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0722</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0723</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0724</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0725</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0726</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0727</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0728</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0729</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0730</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0731</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0732</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0733</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0734</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0735</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0736</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0737</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0738</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0739</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0740</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0741</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0742</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0743</td><td>1004</td></tr>
+                                            <tr><td>Malate</td><td>Barangay 0744</td><td>1004</td></tr>
+                                            <tr><td>Paco</td><td>Barangay 0662</td><td>1007</td></tr>
+                                            <tr><td>Paco</td><td>Barangay 0664-A</td><td>1007</td></tr>
+                                            <tr><td>Paco</td><td>Barangay 0671</td><td>1007</td></tr>
+                                            <tr><td>Paco</td><td>Barangay 0672</td><td>1007</td></tr>
+                                            <tr><td>Paco</td><td>Barangay 0673</td><td>1007</td></tr>
+                                            <tr><td>Paco</td><td>Barangay 0674</td><td>1007</td></tr>
+                                            <tr><td>Paco</td><td>Barangay 0675</td><td>1007</td></tr>
+                                            <tr><td>Paco</td><td>Barangay 0676</td><td>1007</td></tr>
+                                            <tr><td>Paco</td><td>Barangay 0677</td><td>1007</td></tr>
+                                            <tr><td>Paco</td><td>Barangay 0678</td><td>1007</td></tr>
+                                            <tr><td>Paco</td><td>Barangay 0679</td><td>1007</td></tr>
+                                            <tr><td>Paco</td><td>Barangay 0680</td><td>1007</td></tr>
+                                            <tr><td>Paco</td><td>Barangay 0681</td><td>1007</td></tr>
+                                            <tr><td>Paco</td><td>Barangay 0682</td><td>1007</td></tr>
+                                            <tr><td>Paco</td><td>Barangay 0683</td><td>1007</td></tr>
+                                            <tr><td>Paco</td><td>Barangay 0684</td><td>1007</td></tr>
+                                            <tr><td>Paco</td><td>Barangay 0685</td><td>1007</td></tr>
+                                            <tr><td>Paco</td><td>Barangay 0686</td><td>1007</td></tr>
+                                            <tr><td>Paco</td><td>Barangay 0687</td><td>1007</td></tr>
+                                            <tr><td>Paco</td><td>Barangay 0809</td><td>1007</td></tr>
+                                            <tr><td>Paco</td><td>Barangay 0810</td><td>1007</td></tr>
+                                            <tr><td>Paco</td><td>Barangay 0811</td><td>1007</td></tr>
+                                            <tr><td>Paco</td><td>Barangay 0812</td><td>1007</td></tr>
+                                            <tr><td>Paco</td><td>Barangay 0813</td><td>1007</td></tr>
+                                            <tr><td>Paco</td><td>Barangay 0814</td><td>1007</td></tr>
+                                            <tr><td>Paco</td><td>Barangay 0815</td><td>1007</td></tr>
+                                            <tr><td>Paco</td><td>Barangay 0816</td><td>1007</td></tr>
+                                            <tr><td>Paco</td><td>Barangay 0817</td><td>1007</td></tr>
+                                            <tr><td>Paco</td><td>Barangay 0818</td><td>1007</td></tr>
+                                            <tr><td>Paco</td><td>Barangay 0819</td><td>1007</td></tr>
+                                            <tr><td>Paco</td><td>Barangay 0820</td><td>1007</td></tr>
+                                            <tr><td>Paco</td><td>Barangay 0821</td><td>1007</td></tr>
+                                            <tr><td>Paco</td><td>Barangay 0822</td><td>1007</td></tr>
+                                            <tr><td>Paco</td><td>Barangay 0823</td><td>1007</td></tr>
+                                            <tr><td>Paco</td><td>Barangay 0824</td><td>1007</td></tr>
+                                            <tr><td>Paco</td><td>Barangay 0825</td><td>1007</td></tr>
+                                            <tr><td>Paco</td><td>Barangay 0826</td><td>1007</td></tr>
+                                            <tr><td>Paco</td><td>Barangay 0827</td><td>1007</td></tr>
+                                            <tr><td>Paco</td><td>Barangay 0828</td><td>1007</td></tr>
+                                            <tr><td>Paco</td><td>Barangay 0829</td><td>1007</td></tr>
+                                            <tr><td>Paco</td><td>Barangay 0830</td><td>1007</td></tr>
+                                            <tr><td>Paco</td><td>Barangay 0831</td><td>1007</td></tr>
+                                            <tr><td>Paco</td><td>Barangay 0832</td><td>1007</td></tr>
+                                            <tr><td>Pandacan</td><td>Barangay 0833</td><td>1011</td></tr>
+                                            <tr><td>Pandacan</td><td>Barangay 0834</td><td>1011</td></tr>
+                                            <tr><td>Pandacan</td><td>Barangay 0835</td><td>1011</td></tr>
+                                            <tr><td>Pandacan</td><td>Barangay 0836</td><td>1011</td></tr>
+                                            <tr><td>Pandacan</td><td>Barangay 0837</td><td>1011</td></tr>
+                                            <tr><td>Pandacan</td><td>Barangay 0838</td><td>1011</td></tr>
+                                            <tr><td>Pandacan</td><td>Barangay 0839</td><td>1011</td></tr>
+                                            <tr><td>Pandacan</td><td>Barangay 0840</td><td>1011</td></tr>
+                                            <tr><td>Pandacan</td><td>Barangay 0841</td><td>1011</td></tr>
+                                            <tr><td>Pandacan</td><td>Barangay 0842</td><td>1011</td></tr>
+                                            <tr><td>Pandacan</td><td>Barangay 0843</td><td>1011</td></tr>
+                                            <tr><td>Pandacan</td><td>Barangay 0844</td><td>1011</td></tr>
+                                            <tr><td>Pandacan</td><td>Barangay 0845</td><td>1011</td></tr>
+                                            <tr><td>Pandacan</td><td>Barangay 0846</td><td>1011</td></tr>
+                                            <tr><td>Pandacan</td><td>Barangay 0847</td><td>1011</td></tr>
+                                            <tr><td>Pandacan</td><td>Barangay 0848</td><td>1011</td></tr>
+                                            <tr><td>Pandacan</td><td>Barangay 0849</td><td>1011</td></tr>
+                                            <tr><td>Pandacan</td><td>Barangay 0850</td><td>1011</td></tr>
+                                            <tr><td>Pandacan</td><td>Barangay 0851</td><td>1011</td></tr>
+                                            <tr><td>Pandacan</td><td>Barangay 0852</td><td>1011</td></tr>
+                                            <tr><td>Pandacan</td><td>Barangay 0853</td><td>1011</td></tr>
+                                            <tr><td>Pandacan</td><td>Barangay 0855</td><td>1011</td></tr>
+                                            <tr><td>Pandacan</td><td>Barangay 0856</td><td>1011</td></tr>
+                                            <tr><td>Pandacan</td><td>Barangay 0857</td><td>1011</td></tr>
+                                            <tr><td>Pandacan</td><td>Barangay 0858</td><td>1011</td></tr>
+                                            <tr><td>Pandacan</td><td>Barangay 0859</td><td>1011</td></tr>
+                                            <tr><td>Pandacan</td><td>Barangay 0860</td><td>1011</td></tr>
+                                            <tr><td>Pandacan</td><td>Barangay 0861</td><td>1011</td></tr>
+                                            <tr><td>Pandacan</td><td>Barangay 0862</td><td>1011</td></tr>
+                                            <tr><td>Pandacan</td><td>Barangay 0863</td><td>1011</td></tr>
+                                            <tr><td>Pandacan</td><td>Barangay 0864</td><td>1011</td></tr>
+                                            <tr><td>Pandacan</td><td>Barangay 0865</td><td>1011</td></tr>
+                                            <tr><td>Pandacan</td><td>Barangay 0867</td><td>1011</td></tr>
+                                            <tr><td>Pandacan</td><td>Barangay 0868</td><td>1011</td></tr>
+                                            <tr><td>Pandacan</td><td>Barangay 0869</td><td>1011</td></tr>
+                                            <tr><td>Pandacan</td><td>Barangay 0870</td><td>1011</td></tr>
+                                            <tr><td>Pandacan</td><td>Barangay 0871</td><td>1011</td></tr>
+                                            <tr><td>Pandacan</td><td>Barangay 0872</td><td>1011</td></tr>
+                                            <tr><td>Port Area</td><td>Barangay 0649</td><td>1018</td></tr>
+                                            <tr><td>Port Area</td><td>Barangay 0650</td><td>1018</td></tr>
+                                            <tr><td>Port Area</td><td>Barangay 0651</td><td>1018</td></tr>
+                                            <tr><td>Port Area</td><td>Barangay 0652</td><td>1018</td></tr>
+                                            <tr><td>Port Area</td><td>Barangay 0653</td><td>1018</td></tr>
+                                            <tr><td>Quiapo</td><td>Barangay 0306</td><td>1001</td></tr>
+                                            <tr><td>Quiapo</td><td>Barangay 0307</td><td>1001</td></tr>
+                                            <tr><td>Quiapo</td><td>Barangay 0308</td><td>1001</td></tr>
+                                            <tr><td>Quiapo</td><td>Barangay 0309</td><td>1001</td></tr>
+                                            <tr><td>Quiapo</td><td>Barangay 0383</td><td>1001</td></tr>
+                                            <tr><td>Quiapo</td><td>Barangay 0384</td><td>1001</td></tr>
+                                            <tr><td>Quiapo</td><td>Barangay 0385</td><td>1001</td></tr>
+                                            <tr><td>Quiapo</td><td>Barangay 0386</td><td>1001</td></tr>
+                                            <tr><td>Quiapo</td><td>Barangay 0387</td><td>1001</td></tr>
+                                            <tr><td>Quiapo</td><td>Barangay 0388</td><td>1001</td></tr>
+                                            <tr><td>Quiapo</td><td>Barangay 0389</td><td>1001</td></tr>
+                                            <tr><td>Quiapo</td><td>Barangay 0390</td><td>1001</td></tr>
+                                            <tr><td>Quiapo</td><td>Barangay 0391</td><td>1001</td></tr>
+                                            <tr><td>Quiapo</td><td>Barangay 0392</td><td>1001</td></tr>
+                                            <tr><td>Quiapo</td><td>Barangay 0393</td><td>1001</td></tr>
+                                            <tr><td>Quiapo</td><td>Barangay 0394</td><td>1001</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0395</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0396</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0397</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0398</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0399</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0400</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0401</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0402</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0403</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0404</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0405</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0406</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0407</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0408</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0409</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0410</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0411</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0412</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0413</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0414</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0415</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0416</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0417</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0418</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0419</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0420</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0421</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0422</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0423</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0424</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0425</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0426</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0427</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0428</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0429</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0430</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0431</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0432</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0433</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0434</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0435</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0436</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0437</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0438</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0439</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0440</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0441</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0442</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0443</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0444</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0445</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0446</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0447</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0448</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0449</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0450</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0451</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0452</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0453</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0454</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0455</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0456</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0457</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0458</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0459</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0460</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0461</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0462</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0463</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0464</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0465</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0466</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0467</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0468</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0469</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0470</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0471</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0472</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0473</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0474</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0475</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0476</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0477</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0478</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0479</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0480</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0481</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0482</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0483</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0484</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0485</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0486</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0487</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0488</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0489</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0490</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0491</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0492</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0493</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0494</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0495</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0496</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0497</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0498</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0499</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0500</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0501</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0502</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0503</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0504</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0505</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0506</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0507</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0508</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0509</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0510</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0511</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0512</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0513</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0514</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0515</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0516</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0517</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0518</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0519</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0520</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0521</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0522</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0523</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0524</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0525</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0526</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0527</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0528</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0529</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0530</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0531</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0532</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0533</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0534</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0535</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0536</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0537</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0538</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0539</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0540</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0541</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0542</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0543</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0544</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0545</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0546</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0547</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0548</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0549</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0550</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0551</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0552</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0553</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0554</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0555</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0556</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0557</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0558</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0559</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0560</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0561</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0562</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0563</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0564</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0565</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0566</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0567</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0568</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0569</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0570</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0571</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0572</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0573</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0574</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0575</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0576</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0577</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0578</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0579</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0580</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0581</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0582</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0583</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0584</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0585</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0586</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0587</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0587-A</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0588</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0589</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0590</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0591</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0592</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0593</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0594</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0595</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0596</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0597</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0598</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0599</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0600</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0601</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0602</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0603</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0604</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0605</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0606</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0607</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0608</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0609</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0610</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0611</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0612</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0613</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0614</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0615</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0616</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0617</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0618</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0619</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0620</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0621</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0622</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0623</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0624</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0625</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0626</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0627</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0628</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0629</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0630</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0631</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0632</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0633</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0634</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0635</td><td>1008</td></tr>
+                                            <tr><td>Sampaloc East</td><td>Barangay 0636</td><td>1008</td></tr>
+                                            <tr><td>San Miguel</td><td>Barangay 0637</td><td>1005</td></tr>
+                                            <tr><td>San Miguel</td><td>Barangay 0638</td><td>1005</td></tr>
+                                            <tr><td>San Miguel</td><td>Barangay 0639</td><td>1005</td></tr>
+                                            <tr><td>San Miguel</td><td>Barangay 0640</td><td>1005</td></tr>
+                                            <tr><td>San Miguel</td><td>Barangay 0641</td><td>1005</td></tr>
+                                            <tr><td>San Miguel</td><td>Barangay 0642</td><td>1005</td></tr>
+                                            <tr><td>San Miguel</td><td>Barangay 0643</td><td>1005</td></tr>
+                                            <tr><td>San Miguel</td><td>Barangay 0644</td><td>1005</td></tr>
+                                            <tr><td>San Miguel</td><td>Barangay 0645</td><td>1005</td></tr>
+                                            <tr><td>San Miguel</td><td>Barangay 0646</td><td>1005</td></tr>
+                                            <tr><td>San Miguel</td><td>Barangay 0647</td><td>1005</td></tr>
+                                            <tr><td>San Miguel</td><td>Barangay 0648</td><td>1005</td></tr>
+                                            <tr><td>San Nicolas</td><td>Barangay 0268</td><td>1010</td></tr>
+                                            <tr><td>San Nicolas</td><td>Barangay 0269</td><td>1010</td></tr>
+                                            <tr><td>San Nicolas</td><td>Barangay 0270</td><td>1010</td></tr>
+                                            <tr><td>San Nicolas</td><td>Barangay 0271</td><td>1010</td></tr>
+                                            <tr><td>San Nicolas</td><td>Barangay 0272</td><td>1010</td></tr>
+                                            <tr><td>San Nicolas</td><td>Barangay 0273</td><td>1010</td></tr>
+                                            <tr><td>San Nicolas</td><td>Barangay 0274</td><td>1010</td></tr>
+                                            <tr><td>San Nicolas</td><td>Barangay 0275</td><td>1010</td></tr>
+                                            <tr><td>San Nicolas</td><td>Barangay 0276</td><td>1010</td></tr>
+                                            <tr><td>San Nicolas</td><td>Barangay 0281</td><td>1010</td></tr>
+                                            <tr><td>San Nicolas</td><td>Barangay 0282</td><td>1010</td></tr>
+                                            <tr><td>San Nicolas</td><td>Barangay 0283</td><td>1010</td></tr>
+                                            <tr><td>San Nicolas</td><td>Barangay 0284</td><td>1010</td></tr>
+                                            <tr><td>San Nicolas</td><td>Barangay 0285</td><td>1010</td></tr>
+                                            <tr><td>San Nicolas</td><td>Barangay 0286</td><td>1010</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0745</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0746</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0747</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0748</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0749</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0750</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0751</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0752</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0753</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0754</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0755</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0756</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0757</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0758</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0759</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0760</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0761</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0762</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0763</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0764</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0765</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0766</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0767</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0768</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0769</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0770</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0771</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0772</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0773</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0774</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0775</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0776</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0777</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0778</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0779</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0780</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0781</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0782</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0783</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0784</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0785</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0786</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0787</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0788</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0789</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0790</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0791</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0792</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0793</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0794</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0795</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0796</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0797</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0798</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0799</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0800</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0801</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0802</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0803</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0804</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0805</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0806</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0807</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0808</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0818-A</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0866</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0873</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0874</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0875</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0876</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0877</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0878</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0879</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0880</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0881</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0882</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0883</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0884</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0885</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0886</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0887</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0888</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0889</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0890</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0891</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0892</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0893</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0894</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0895</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0896</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0897</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0898</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0899</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0900</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0901</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0902</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0903</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0904</td><td>1009</td></tr>
+                                            <tr><td>Santa Ana</td><td>Barangay 0905</td><td>1009</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0297</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0298</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0299</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0300</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0301</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0302</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0303</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0304</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0305</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0310</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0311</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0312</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0313</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0314</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0315</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0316</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0317</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0318</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0319</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0320</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0321</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0322</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0323</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0324</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0325</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0326</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0327</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0328</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0329</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0330</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0331</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0332</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0333</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0334</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0335</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0336</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0337</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0338</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0339</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0340</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0341</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0342</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0343</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0344</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0345</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0346</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0347</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0348</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0349</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0350</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0351</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0352</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0353</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0354</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0355</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0356</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0357</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0358</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0359</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0360</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0361</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0362</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0363</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0364</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0365</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0366</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0367</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0368</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0369</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0370</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0371</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0372</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0373</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0374</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0375</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0376</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0377</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0378</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0379</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0380</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0381</td><td>1003</td></tr>
+                                            <tr><td>Santa Cruz South</td><td>Barangay 0382</td><td>1003</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0001</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0010</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0100</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0101</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0102</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0103</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0104</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0105</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0106</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0107</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0108</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0109</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0011</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0110</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0111</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0112</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0116</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0117</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0118</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0119</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0012</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0120</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0121</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0122</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0123</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0124</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0125</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0126</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0127</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0128</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0129</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0013</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0130</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0131</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0132</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0133</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0134</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0135</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0136</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0137</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0138</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0139</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0014</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0140</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0141</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0142</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0143</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0144</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0145</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0146</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0147</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0148</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0149</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0015</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0150</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0151</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0152</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0153</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0154</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0155</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0156</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0157</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0158</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0159</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0016</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0160</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0161</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0162</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0163</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0164</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0165</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0166</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0167</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0168</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0169</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0017</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0170</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0171</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0172</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0173</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0174</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0175</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0176</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0177</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0178</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0179</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0018</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0180</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0181</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0182</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0183</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0184</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0185</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0186</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0187</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0188</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0189</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0019</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0190</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0191</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0192</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0193</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0194</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0195</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0196</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0197</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0198</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0199</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0002</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0020</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0200</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0201</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0202</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0202-A</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0203</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0204</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0205</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0206</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0207</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0208</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0209</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0210</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0211</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0212</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0213</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0214</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0215</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0216</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0217</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0218</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0219</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0220</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0221</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0222</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0223</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0224</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0225</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0226</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0227</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0228</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0229</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0230</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0231</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0232</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0233</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0234</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0235</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0236</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0237</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0238</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0239</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0240</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0241</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0242</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0243</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0244</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0245</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0246</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0247</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0248</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0249</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0025</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0250</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0251</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0252</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0253</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0254</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0255</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0256</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0257</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0258</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0259</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0026</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0260</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0261</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0262</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0263</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0264</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0265</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0266</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0267</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0028</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0029</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0003</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0030</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0031</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0032</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0033</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0034</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0035</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0036</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0037</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0038</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0039</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0004</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0041</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0042</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0043</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0044</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0045</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0046</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0047</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0048</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0049</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0005</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0050</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0051</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0052</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0053</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0054</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0055</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0056</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0057</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0058</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0059</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0006</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0060</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0061</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0062</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0063</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0064</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0065</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0066</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0067</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0068</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0069</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0007</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0070</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0071</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0072</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0073</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0074</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0075</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0076</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0077</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0078</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0079</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0008</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0080</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0081</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0082</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0083</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0084</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0085</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0086</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0087</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0088</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0089</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0009</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0090</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0091</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0092</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0093</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0094</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0095</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0096</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0097</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 098</td><td>1012</td></tr>
+                                            <tr><td>Tondo South</td><td>Barangay 0099</td><td>1012</td></tr>
+                                            <tr><td>Sampaloc West</td><td>Sampaloc West</td><td>1015</td></tr>
+                                            <tr><td>San Andres</td><td>San Andres</td><td>1017</td></tr>
+                                            <tr><td>Santa Cruz North</td><td>Santa Cruz North</td><td>1014</td></tr>
+                                            <tr><td>Santa Mesa</td><td>Santa Mesa</td><td>1016</td></tr>
+                                            <tr><td>Tondo North</td><td>Tondo North</td><td>1013</td></tr>
+                                        </tbody>
+                                        <tfoot></tfoot>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- end row-->
+
+                </div> <!-- container -->
+
+            </div> <!-- content -->
+
+            <!-- Footer -->
+            <footer class="footer">
+                <div class="container-fluid">
+                    <div class="row small">
+                        <div class="col-md-6">
+                            <span>Project Initiative 2022-<script>document.write(new Date().getFullYear())</script></span>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="text-md-end footer-links d-none d-md-block">
+                                <a href="javascript: void(0);">&copy; Integrated Activations Tool</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        </div> <!-- end container page -->
+
+    </div><!-- end wrapper -->
+
+    <!-- bundle -->
+    <script src="assets/js/vendor.min.js"></script>
+    <script src="assets/js/app.min.js"></script>
+
+    <!-- third party js -->
+    <script src="assets/js/vendor/jquery.dataTables.min.js"></script>
+    <script src="assets/js/vendor/dataTables.bootstrap5.js"></script>
+    <script src="assets/js/vendor/dataTables.responsive.min.js"></script>
+    <script src="assets/js/vendor/responsive.bootstrap5.min.js"></script>
+    <script src="assets/js/vendor/dataTables.buttons.min.js"></script>
+    <script src="assets/js/vendor/buttons.bootstrap5.min.js"></script>
+    <script src="assets/js/vendor/buttons.html5.min.js"></script>
+    <script src="assets/js/vendor/buttons.flash.min.js"></script>
+    <script src="assets/js/vendor/buttons.print.min.js"></script>
+    <script src="assets/js/vendor/dataTables.keyTable.min.js"></script>
+    <script src="assets/js/vendor/dataTables.select.min.js"></script>
+
+    <!-- demo app -->
+    <script src="assets/js/pages/demo.datatable-init.js"></script>
+
+</body>
+</html>

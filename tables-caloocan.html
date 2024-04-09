@@ -1,0 +1,375 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Barangay in Caloocan</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Integrated Activations Tool" name="description">
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <link href="assets/css/vendor/dataTables.bootstrap5.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/vendor/responsive.bootstrap5.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/vendor/buttons.bootstrap5.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/vendor/select.bootstrap5.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" id="light-style">
+    <link href="assets/css/app-dark.min.css" rel="stylesheet" type="text/css" id="dark-style">
+</head>
+<body class="loading">
+    <div class="wrapper">
+        
+        <!-- Sidebar -->
+        <div class="leftside-menu">
+            <a href="index.html" class="logo text-center lo go-light">
+                <span class="logo-lg"><img src="assets/images/logo.png" alt="" height="46"></span>
+                <span class="logo-sm"><img src="assets/images/logo_sm.png" alt="" height="46"></span>
+            </a>
+            <a href="index.html" class="logo text-center logo-dark">
+                <span class="logo-lg"><img src="assets/images/logo-light.png" alt="" height="46"></span>
+                <span class="logo-sm"><img src="assets/images/logo_sm_dark.png" alt="" height="46"></span>
+            </a>
+
+            <!--- Sidemenu -->
+            <div class="h-100">
+                <ul class="side-nav">
+                    <li class="side-nav-title side-nav-item">Home</li>
+                    <li class="side-nav-item">
+                        <a href="index.html" class="side-nav-link"><i class="uil-home-alt"></i><span>Dashboard</span></a>
+                    </li>
+
+                    <li class="side-nav-title side-nav-item">Custom</li>
+                    <li class="side-nav-item">
+                        <a data-bs-toggle="collapse" href="#sidebarNotesGenerator" aria-expanded="false" aria-controls="sidebarNotesGenerator" class="side-nav-link">
+                            <i class="uil-copy-alt"></i><span>Notes Generator</span><span class="menu-arrow"></span>
+                        </a>
+                        <div class="collapse" id="sidebarNotesGenerator">
+                            <ul class="side-nav-second-level">
+                                <li><a href="notes-for_activation.html">For Activation</a></li>
+                                <li><a href="notes-unsuccessful.html">Unsuccessful</a></li>
+                                <li><a href="notes-with_compliance.html">With Compliance</a></li>
+                                <li><a href="notes-docs_and_sup_for_approval.html">Docs and Sup Approval</a></li>
+                                <li><a href="notes-pldt_and_radius.html">PLDT and Radius</a></li>
+                                <li><a href="notes-demo_and_syndication.html">Demo and Syndication</a></li>
+                                <li><a href="notes-vsat.html">VSAT</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="side-nav-title side-nav-item">Utilities</li>
+                    <li class="side-nav-item"><a href="utilities-hpa_calculator.html" class="side-nav-link"><i class="uil-calcualtor"></i><span>HPA Calculator</span></a></li>
+                    <li class="side-nav-item"><a href="utilities-email_template.html" class="side-nav-link"><i class="uil-envelope-edit"></i><span>Email Template</span></a></li>
+
+                    <li class="side-nav-title side-nav-item mt-1">Plugins</li>
+                    <li class="side-nav-item"><a href="tables-promo_matrix.html" class="side-nav-link"><i class="uil-store"></i><span>Promo Matrix</span></a></li>
+                    <li class="side-nav-item"><a href="tables-channel_lineup.html" class="side-nav-link"><i class="uil-tv-retro"></i><span>Channel Line-up</span></a></li>
+                    <li class="side-nav-item"><a href="tables-id_only.html" class="side-nav-link"><i class="uil-user-square"></i><span>Salesman Code</span></a></li>
+                    <li class="side-nav-item"><a href="tables-mdu.html" class="side-nav-link"><i class="uil-building"></i><span>MDU Address</span></a></li>
+
+                    <li class="side-nav-item">
+                        <a data-bs-toggle="collapse" href="#sidebarBarangay" aria-expanded="false" aria-controls="sidebarMaps" class="side-nav-link">
+                            <i class="uil-location-point"></i><span>List of Barangay</span><span class="menu-arrow"></span>
+                        </a>
+                        <div class="collapse" id="sidebarBarangay">
+                            <ul class="side-nav-second-level">
+                                <li><a href="tables-caloocan.html">Barangay in Caloocan</a></li>
+                                <li><a href="tables-manila.html">Barangay in Manila</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <div class="clearfix"></div>
+            </div><!-- end Sidemenu -->
+
+        </div><!-- end Sidebar -->
+
+        <!-- Content -->
+        <div class="content-page">
+            <div class="content">
+
+                <!-- Topbar -->
+                <div class="navbar-custom">
+                    <ul class="list-unstyled topbar-menu float-end mb-0">
+                        <li class="notification-list">
+                            <a class="nav-link nav-user me-0">
+                                <span class="account-user-avatar"><img src="assets/images/users/user_nate.png" alt="user-image" class="rounded-circle"></span>
+                                <span>
+                                    <span class="account-user-name">Customer Experience Group</span>
+                                    <span class="account-position">Activation Officer</span>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <button class="button-menu-mobile open-left"><i class="mdi mdi-menu"></i></button>
+                </div>
+
+                <!-- Container-->
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="page-title-box">
+                                <div class="page-title-right">
+                                    <ol class="breadcrumb m-0">
+                                        <li class="breadcrumb-item"><a href="index.html">Integrateds Activation Tool</a></li>
+                                        <li class="breadcrumb-item"><a href="#">List of Barangay</a></li>
+                                        <li class="breadcrumb-item active">Barangay in Caloocan</li>
+                                    </ol>
+                                </div>
+                                <h5 class="page-title">BARANGAY IN CALOOCAN CITY</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card border">
+                                <div class="card-body">
+                                    <span class="badge badge-danger-lighten p-1 mb-3">updated List of Barangay in Caloocan City as of October 1, 2022</span>
+                                    <table id="basic-datatable" class="table dt-responsive table-bordered table-hover table-centered w-100 nowrap">
+                                        <thead class="table-dark">
+                                            <tr>
+                                                <th>BARANGAY</th>
+                                                <th>CORRESPONDING BARANGAY NAME</th>
+                                                <th>CORRESPONDING SYSTEM NAME</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr><td>Barangay 001</td><td>Sangandaan</td><td>Sangandaan</td></tr>
+                                            <tr><td>Barangay 002</td><td>Sangandaan</td><td>Sangandaan</td></tr>
+                                            <tr><td>Barangay 003</td><td>Sangandaan</td><td>Sangandaan</td></tr>
+                                            <tr><td>Barangay 004</td><td>Sangandaan</td><td>Sangandaan</td></tr>
+                                            <tr><td>Barangay 005</td><td>Sangandaan</td><td>Sangandaan</td></tr>
+                                            <tr><td>Barangay 006</td><td>Sangandaan</td><td>Sangandaan</td></tr>
+                                            <tr><td>Barangay 007</td><td>Sangandaan</td><td>Sangandaan</td></tr>
+                                            <tr><td>Barangay 008</td><td>Dagat-Dagatan</td><td>Dagat-Dagatan</td></tr>
+                                            <tr><td>Barangay 009</td><td>Sangandaan</td><td>Sangandaan</td></tr>
+                                            <tr><td>Barangay 010</td><td>Sangandaan</td><td>Sangandaan</td></tr>
+                                            <tr><td>Barangay 011</td><td>Poblacion</td><td>Poblacion</td></tr>
+                                            <tr><td>Barangay 012</td><td>Dagat-Dagatan</td><td>Dagat-Dagatan</td></tr>
+                                            <tr><td>Barangay 013</td><td>Poblacion (A. Mabini)</td><td>Poblacion</td></tr>
+                                            <tr><td>Barangay 014</td><td>Dagat-Dagatan</td><td>Dagat-Dagatan</td></tr>
+                                            <tr><td>Barangay 015</td><td>Poblacion (A. Mabini)</td><td>Poblacion</td></tr>
+                                            <tr><td>Barangay 016</td><td>Poblacion (A. Mabini)</td><td>Poblacion</td></tr>
+                                            <tr><td>Barangay 017</td><td>Poblacion (A. Mabini)</td><td>Poblacion</td></tr>
+                                            <tr><td>Barangay 018</td><td>Poblacion (A. Mabini)</td><td>Poblacion</td></tr>
+                                            <tr><td>Barangay 019</td><td>Poblacion (A. Mabini)</td><td>Poblacion</td></tr>
+                                            <tr><td>Barangay 020</td><td>C-3 Road Kaunlaran Village</td><td>Kaunlaran Village</td></tr>
+                                            <tr><td>Barangay 021</td><td>C-3 Road Kaunlaran Village</td><td>Kaunlaran Village</td></tr>
+                                            <tr><td>Barangay 022</td><td>C-3 Road Kaunlaran Village</td><td>Kaunlaran Village</td></tr>
+                                            <tr><td>Barangay 023</td><td>C-3 Road Kaunlaran Village</td><td>Kaunlaran Village</td></tr>
+                                            <tr><td>Barangay 024</td><td>C-3 Road Kaunlaran Village</td><td>Kaunlaran Village</td></tr>
+                                            <tr><td>Barangay 025</td><td>Maypajo</td><td>Maypajo</td></tr>
+                                            <tr><td>Barangay 026</td><td>Maypajo</td><td>Maypajo</td></tr>
+                                            <tr><td>Barangay 027</td><td>Maypajo</td><td>Maypajo</td></tr>
+                                            <tr><td>Barangay 028</td><td>Dagat-Dagatan</td><td>Dagat-Dagatan</td></tr>
+                                            <tr><td>Barangay 029</td><td>Maypajo</td><td>Maypajo</td></tr>
+                                            <tr><td>Barangay 030</td><td>Maypajo</td><td>Maypajo</td></tr>
+                                            <tr><td>Barangay 031</td><td>Maypajo</td><td>Maypajo</td></tr>
+                                            <tr><td>Barangay 032</td><td>Maypajo</td><td>Maypajo</td></tr>
+                                            <tr><td>Barangay 033</td><td>Maypajo</td><td>Maypajo</td></tr>
+                                            <tr><td>Barangay 034</td><td>Maypajo</td><td>Maypajo</td></tr>
+                                            <tr><td>Barangay 035</td><td>Maypajo</td><td>Maypajo</td></tr>
+                                            <tr><td>Barangay 036</td><td>Marulas</td><td>Marulas</td></tr>
+                                            <tr><td>Barangay 037</td><td>Marulas</td><td>Marulas</td></tr>
+                                            <tr><td>Barangay 038</td><td>Grace Park West</td><td>Grace Park West</td></tr>
+                                            <tr><td>Barangay 039</td><td>Grace Park West</td><td>Grace Park West</td></tr>
+                                            <tr><td>Barangay 040</td><td>Grace Park West</td><td>Grace Park West</td></tr>
+                                            <tr><td>Barangay 041</td><td>Grace Park West</td><td>Grace Park West</td></tr>
+                                            <tr><td>Barangay 042</td><td>Grace Park West</td><td>Grace Park West</td></tr>
+                                            <tr><td>Barangay 043</td><td>Grace Park West</td><td>Grace Park West</td></tr>
+                                            <tr><td>Barangay 044</td><td>Grace Park West</td><td>Grace Park West</td></tr>
+                                            <tr><td>Barangay 045</td><td>Grace Park West</td><td>Grace Park West</td></tr>
+                                            <tr><td>Barangay 046</td><td>Grace Park West</td><td>Grace Park West</td></tr>
+                                            <tr><td>Barangay 047</td><td>Grace Park West</td><td>Grace Park West</td></tr>
+                                            <tr><td>Barangay 048</td><td>Grace Park West</td><td>Grace Park West</td></tr>
+                                            <tr><td>Barangay 049</td><td>Grace Park West</td><td>Grace Park West</td></tr>
+                                            <tr><td>Barangay 050</td><td>Grace Park West</td><td>Grace Park West</td></tr>
+                                            <tr><td>Barangay 051</td><td>Grace Park West</td><td>Grace Park West</td></tr>
+                                            <tr><td>Barangay 052</td><td>Grace Park West</td><td>Grace Park West</td></tr>
+                                            <tr><td>Barangay 053</td><td>Grace Park West</td><td>Grace Park West</td></tr>
+                                            <tr><td>Barangay 054</td><td>Grace Park West</td><td>Grace Park West</td></tr>
+                                            <tr><td>Barangay 055</td><td>Grace Park West</td><td>Grace Park West</td></tr>
+                                            <tr><td>Barangay 056</td><td>Grace Park West</td><td>Grace Park West</td></tr>
+                                            <tr><td>Barangay 057</td><td>Grace Park West</td><td>Grace Park West</td></tr>
+                                            <tr><td>Barangay 058</td><td>Grace Park West</td><td>Grace Park West</td></tr>
+                                            <tr><td>Barangay 059</td><td>Grace Park West</td><td>Grace Park West</td></tr>
+                                            <tr><td>Barangay 060</td><td>Grace Park West</td><td>Grace Park West</td></tr>
+                                            <tr><td>Barangay 061</td><td>Grace Park West</td><td>Grace Park West</td></tr>
+                                            <tr><td>Barangay 062</td><td>Grace Park West</td><td>Grace Park West</td></tr>
+                                            <tr><td>Barangay 063</td><td>Grace Park West</td><td>Grace Park West</td></tr>
+                                            <tr><td>Barangay 064</td><td>Grace Park West</td><td>Grace Park West</td></tr>
+                                            <tr><td>Barangay 065</td><td>Grace Park West</td><td>Grace Park West</td></tr>
+                                            <tr><td>Barangay 066</td><td>Grace Park West</td><td>Grace Park West</td></tr>
+                                            <tr><td>Barangay 067</td><td>Grace Park West</td><td>Grace Park West</td></tr>
+                                            <tr><td>Barangay 068</td><td>Grace Park West</td><td>Grace Park West</td></tr>
+                                            <tr><td>Barangay 069</td><td>Grace Park West</td><td>Grace Park West</td></tr>
+                                            <tr><td>Barangay 070</td><td>Grace Park West</td><td>Grace Park West</td></tr>
+                                            <tr><td>Barangay 071</td><td>Grace Park West</td><td>Grace Park West</td></tr>
+                                            <tr><td>Barangay 072</td><td>Victory Liner Compound</td><td>Victory Liner Compound</td></tr>
+                                            <tr><td>Barangay 073</td><td>PNR Compound</td><td>PNR Compound</td></tr>
+                                            <tr><td>Barangay 074</td><td>Heroes Del 96</td><td>Heroes Del 96</td></tr>
+                                            <tr><td>Barangay 075</td><td>Heroes Del 96</td><td>Heroes Del 96</td></tr>
+                                            <tr><td>Barangay 076</td><td>Monumento</td><td>Monumento</td></tr>
+                                            <tr><td>Barangay 077</td><td>Caimito Road</td><td>Caimito Road</td></tr>
+                                            <tr><td>Barangay 078</td><td>Monumento</td><td>Monumento</td></tr>
+                                            <tr><td>Barangay 079</td><td>Caimito Road</td><td>Caimito Road</td></tr>
+                                            <tr><td>Barangay 080</td><td>Sangandaan (University Hills Subdivision)</td><td>Sangandaan</td></tr>
+                                            <tr><td>Barangay 081</td><td>Morning Breeze Subdivision</td><td>Morning Breeze Subdivision</td></tr>
+                                            <tr><td>Barangay 082</td><td>Morning Breeze Subdivision</td><td>Morning Breeze Subdivision</td></tr>
+                                            <tr><td>Barangay 083</td><td>Morning Breeze Subdivision</td><td>Morning Breeze Subdivision</td></tr>
+                                            <tr><td>Barangay 084</td><td>Morning Breeze Subdivision</td><td>Morning Breeze Subdivision</td></tr>
+                                            <tr><td>Barangay 085</td><td>Morning Breeze Subdivision</td><td>Morning Breeze Subdivision</td></tr>
+                                            <tr><td>Barangay 086</td><td>Grace Park East Calaanan Compound</td><td>Grace Park East</td></tr>
+                                            <tr><td>Barangay 087</td><td>Grace Park East</td><td>Grace Park East</td></tr>
+                                            <tr><td>Barangay 088</td><td>Grace Park East Ever Gotesco Grand Central</td><td>Grace Park East</td></tr>
+                                            <tr><td>Barangay 089</td><td>Grace Park East</td><td>Grace Park East</td></tr>
+                                            <tr><td>Barangay 090</td><td>Grace Park East</td><td>Grace Park East</td></tr>
+                                            <tr><td>Barangay 091</td><td>Grace Park East Our Lady of Grace</td><td>Grace Park East</td></tr>
+                                            <tr><td>Barangay 092</td><td>Grace Park East Madre Ignacia</td><td>Grace Park East</td></tr>
+                                            <tr><td>Barangay 093</td><td>Grace Park East</td><td>Grace Park East</td></tr>
+                                            <tr><td>Barangay 094</td><td>Grace Park East Biglang-Awa</td><td>Grace Park East</td></tr>
+                                            <tr><td>Barangay 095</td><td>Balintawak</td><td>Balintawak</td></tr>
+                                            <tr><td>Barangay 096</td><td>Grace Park East</td><td>Grace Park East</td></tr>
+                                            <tr><td>Barangay 097</td><td>Grace Park East</td><td>Grace Park East</td></tr>
+                                            <tr><td>Barangay 098</td><td>Grace Park East</td><td>Grace Park East</td></tr>
+                                            <tr><td>Barangay 099</td><td>Dorotea Compound Balintawak</td><td>Balintawak</td></tr>
+                                            <tr><td>Barangay 100</td><td>Grace Park East</td><td>Grace Park East</td></tr>
+                                            <tr><td>Barangay 101</td><td>Grace Park East Galino</td><td>Grace Park East</td></tr>
+                                            <tr><td>Barangay 102</td><td>Grace Park East 9th Avenue</td><td>Grace Park East</td></tr>
+                                            <tr><td>Barangay 103</td><td>Grace Park East</td><td>Grace Park East</td></tr>
+                                            <tr><td>Barangay 104</td><td>Grace Park East</td><td>Grace Park East</td></tr>
+                                            <tr><td>Barangay 105</td><td>Grace Park East</td><td>Grace Park East</td></tr>
+                                            <tr><td>Barangay 106</td><td>Grace Park East</td><td>Grace Park East</td></tr>
+                                            <tr><td>Barangay 107</td><td>Grace Park East</td><td>Grace Park East</td></tr>
+                                            <tr><td>Barangay 108</td><td>Grace Park East</td><td>Grace Park East</td></tr>
+                                            <tr><td>Barangay 109</td><td>Grace Park East</td><td>Grace Park East</td></tr>
+                                            <tr><td>Barangay 110</td><td>Grace Park East</td><td>Grace Park East</td></tr>
+                                            <tr><td>Barangay 111</td><td>Grace Park East</td><td>Grace Park East</td></tr>
+                                            <tr><td>Barangay 112</td><td>Grace Park East</td><td>Grace Park East</td></tr>
+                                            <tr><td>Barangay 113</td><td>Grace Park East</td><td>Grace Park East</td></tr>
+                                            <tr><td>Barangay 114</td><td>Grace Park East</td><td>Grace Park East</td></tr>
+                                            <tr><td>Barangay 115</td><td>Grace Park East</td><td>Grace Park East</td></tr>
+                                            <tr><td>Barangay 116</td><td>Grace Park East</td><td>Grace Park East</td></tr>
+                                            <tr><td>Barangay 117</td><td>Grace Park East</td><td>Grace Park East</td></tr>
+                                            <tr><td>Barangay 118</td><td>Grace Park East</td><td>Grace Park East</td></tr>
+                                            <tr><td>Barangay 119</td><td>Grace Park East</td><td>Grace Park East</td></tr>
+                                            <tr><td>Barangay 120</td><td>Grace Park East</td><td>Grace Park East</td></tr>
+                                            <tr><td>Barangay 121</td><td>Grace Park East</td><td>Grace Park East</td></tr>
+                                            <tr><td>Barangay 122</td><td>Grace Park East</td><td>Grace Park East</td></tr>
+                                            <tr><td>Barangay 123</td><td>Grace Park East</td><td>Grace Park East</td></tr>
+                                            <tr><td>Barangay 124</td><td>Grace Park East</td><td>Grace Park East</td></tr>
+                                            <tr><td>Barangay 125</td><td>Grace Park East</td><td>Grace Park East</td></tr>
+                                            <tr><td>Barangay 126</td><td>Barrio San Jose</td><td>San Jose</td></tr>
+                                            <tr><td>Barangay 127</td><td>Barrio San Jose</td><td>San Jose</td></tr>
+                                            <tr><td>Barangay 128</td><td>Barrio San Jose</td><td>San Jose</td></tr>
+                                            <tr><td>Barangay 129</td><td>Barrio San Jose</td><td>San Jose</td></tr>
+                                            <tr><td>Barangay 130</td><td>Barrio San Jose</td><td>San Jose</td></tr>
+                                            <tr><td>Barangay 131</td><td>Barrio San Jose</td><td>San Jose</td></tr>
+                                            <tr><td>Barangay 132</td><td>Bagong Barrio West</td><td>Bagong Barrio West</td></tr>
+                                            <tr><td>Barangay 133</td><td>Bagong Barrio West</td><td>Bagong Barrio West</td></tr>
+                                            <tr><td>Barangay 134</td><td>Bagong Barrio West</td><td>Bagong Barrio West</td></tr>
+                                            <tr><td>Barangay 135</td><td>Bagong Barrio West</td><td>Bagong Barrio West</td></tr>
+                                            <tr><td>Barangay 136</td><td>Bagong Barrio West</td><td>Bagong Barrio West</td></tr>
+                                            <tr><td>Barangay 137</td><td>Bagong Barrio West</td><td>Bagong Barrio West</td></tr>
+                                            <tr><td>Barangay 138</td><td>Bagong Barrio West</td><td>Bagong Barrio West</td></tr>
+                                            <tr><td>Barangay 139</td><td>Bagong Barrio West</td><td>Bagong Barrio West</td></tr>
+                                            <tr><td>Barangay 140</td><td>Bagong Barrio West</td><td>Bagong Barrio West</td></tr>
+                                            <tr><td>Barangay 141</td><td>Bagong Barrio West</td><td>Bagong Barrio West</td></tr>
+                                            <tr><td>Barangay 142</td><td>Bagong Barrio West</td><td>Bagong Barrio West</td></tr>
+                                            <tr><td>Barangay 143</td><td>Bagong Barrio West</td><td>Bagong Barrio West</td></tr>
+                                            <tr><td>Barangay 144</td><td>Bagong Barrio West</td><td>Bagong Barrio West</td></tr>
+                                            <tr><td>Barangay 145</td><td>Bagong Barrio West</td><td>Bagong Barrio West</td></tr>
+                                            <tr><td>Barangay 146</td><td>Bagong Barrio West</td><td>Bagong Barrio West</td></tr>
+                                            <tr><td>Barangay 147</td><td>Bagong Barrio West</td><td>Bagong Barrio West</td></tr>
+                                            <tr><td>Barangay 148</td><td>Bagong Barrio West</td><td>Bagong Barrio West</td></tr>
+                                            <tr><td>Barangay 149</td><td>Bagong Barrio West</td><td>Bagong Barrio West</td></tr>
+                                            <tr><td>Barangay 150</td><td>Bagong Barrio West</td><td>Bagong Barrio West</td></tr>
+                                            <tr><td>Barangay 151</td><td>Bagong Barrio West</td><td>Bagong Barrio West</td></tr>
+                                            <tr><td>Barangay 152</td><td>Bagong Barrio West</td><td>Bagong Barrio West</td></tr>
+                                            <tr><td>Barangay 153</td><td>Bagong Barrio West</td><td>Bagong Barrio West</td></tr>
+                                            <tr><td>Barangay 154</td><td>Bagong Barrio West</td><td>Bagong Barrio West</td></tr>
+                                            <tr><td>Barangay 155</td><td>Bagong Barrio West</td><td>Bagong Barrio West</td></tr>
+                                            <tr><td>Barangay 156</td><td>Bagong Barrio East</td><td>Bagong Barrio East</td></tr>
+                                            <tr><td>Barangay 157</td><td>Bagong Barrio East</td><td>Bagong Barrio East</td></tr>
+                                            <tr><td>Barangay 158</td><td>Baesa Eternal Gardens Memorial Park</td><td>Baesa</td></tr>
+                                            <tr><td>Barangay 159</td><td>Baesa</td><td>Baesa</td></tr>
+                                            <tr><td>Barangay 160</td><td>Libis Baesa</td><td>Libis Baesa</td></tr>
+                                            <tr><td>Barangay 161</td><td>Libis Reparo</td><td>Libis Reparo</td></tr>
+                                            <tr><td>Barangay 162</td><td>Santa Quiteria</td><td>Sta. Quiteria</td></tr>
+                                            <tr><td>Barangay 163</td><td>Santa Quiteria</td><td>Sta. Quiteria</td></tr>
+                                            <tr><td>Barangay 164</td><td>Talipapa</td><td>Fish Market</td></tr>
+                                            <tr><td>Barangay 165</td><td>Bagbaguin</td><td>Bagbaguin</td></tr>
+                                            <tr><td>Barangay 166</td><td>Kaybiga</td><td>Kaybiga</td></tr>
+                                            <tr><td>Barangay 167</td><td>Llano</td><td>Llano</td></tr>
+                                            <tr><td>Barangay 168</td><td>Deparo 1</td><td>Deparo 1</td></tr>
+                                            <tr><td>Barangay 169</td><td>BF Homes (Estrella Homes Santa Fe Homesite BF Homes Novaliches Phase 1 and 2)</td><td>BF Homes</td></tr>
+                                            <tr><td>Barangay 170</td><td>Deparo 2 (Amparo Novaville SM Homes Cefels 2 Subdvision BF Homes Novaliches Phase 3)</td><td>Deparo 2</td></tr>
+                                            <tr><td>Barangay 171</td><td>Bagumbong</td><td>Bagumbong</td></tr>
+                                            <tr><td>Barangay 172</td><td>Bagumbong (Urduja Village Merry Homes II Zabarte)</td><td>Bagumbong</td></tr>
+                                            <tr><td>Barangay 173</td><td>Bagumbong (Palmera Spring II Senate Village Hillcrest Village)</td><td>Bagumbong</td></tr>
+                                            <tr><td>Barangay 174</td><td>Camarin</td><td>Camarin</td></tr>
+                                            <tr><td>Barangay 175</td><td>Camarin</td><td>Camarin</td></tr>
+                                            <tr><td>Barangay 176</td><td>Bagong Silang</td><td>Bagong Silang</td></tr>
+                                            <tr><td>Barangay 177</td><td>Camarin (Cielito Homes Capitol Parkland Franville IV)</td><td>Camarin</td></tr>
+                                            <tr><td>Barangay 178</td><td>Camarin</td><td>Camarin</td></tr>
+                                            <tr><td>Barangay 179</td><td>Amparo (Amparo Subdivision Dela Costa Homes II Capitol Park Homes II Sacred Heart Village Roseville Subdivision)</td><td>AMPARO SUBDIVISION</td></tr>
+                                            <tr><td>Barangay 180</td><td>Tala (Miramonte Heights Soldiers Hills III and Victory Heights Subdivision)</td><td>TALA LEPROSARIUM</td></tr>
+                                            <tr><td>Barangay 181</td><td>Pangarap Village</td><td>Pangarap Village</td></tr>
+                                            <tr><td>Barangay 182</td><td>Pangarap Village</td><td>Pangarap Village</td></tr>
+                                            <tr><td>Barangay 183</td><td>Tala (Midway Park Subd. Mountain Heights Subd.)</td><td>TALA LEPROSARIUM</td></tr>
+                                            <tr><td>Barangay 184</td><td>Tala (Bankers' Village II Cefels Park III)</td><td>TALA LEPROSARIUM</td></tr>
+                                            <tr><td>Barangay 185</td><td>Tala (Malaria)</td><td>TALA LEPROSARIUM</td></tr>
+                                            <tr><td>Barangay 186</td><td>Tala (Barracks II LD Village)</td><td>TALA LEPROSARIUM</td></tr>
+                                            <tr><td>Barangay 187</td><td>Tala (Barrio San Lazaro Barrio San Jose Barrio Santo Niño Barrio San Roque Sto. Cristo San Isidro)</td><td>TALA LEPROSARIUM</td></tr>
+                                            <tr><td>Barangay 188</td><td>Tala (Phase 12 Riverside Concepcion Sta. Rita)</td><td>TALA LEPROSARIUM</td></tr>
+                                        </tbody>
+                                        <tfoot></tfoot>
+                                    </table>                                           
+                                </div> 
+                            </div>
+                        </div>
+                    </div> <!-- end row-->
+
+                </div> <!-- container -->
+
+            </div> <!-- content -->
+
+            <!-- Footer -->
+            <footer class="footer">
+                <div class="container-fluid">
+                    <div class="row small">
+                        <div class="col-md-6">
+                            <span>Project Initiative 2022-<script>document.write(new Date().getFullYear())</script></span>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="text-md-end footer-links d-none d-md-block">
+                                <a href="javascript: void(0);">&copy; Integrated Activations Tool</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        </div> <!-- end container page -->
+
+    </div><!-- end wrapper -->
+
+    <script src="assets/js/vendor.min.js"></script>
+    <script src="assets/js/app.min.js"></script>
+
+    <!-- third party js -->
+    <script src="assets/js/vendor/jquery.dataTables.min.js"></script>
+    <script src="assets/js/vendor/dataTables.bootstrap5.js"></script>
+    <script src="assets/js/vendor/dataTables.responsive.min.js"></script>
+    <script src="assets/js/vendor/responsive.bootstrap5.min.js"></script>
+    <script src="assets/js/vendor/dataTables.buttons.min.js"></script>
+    <script src="assets/js/vendor/buttons.bootstrap5.min.js"></script>
+    <script src="assets/js/vendor/buttons.html5.min.js"></script>
+    <script src="assets/js/vendor/buttons.flash.min.js"></script>
+    <script src="assets/js/vendor/buttons.print.min.js"></script>
+    <script src="assets/js/vendor/dataTables.keyTable.min.js"></script>
+    <script src="assets/js/vendor/dataTables.select.min.js"></script>
+
+    <!-- demo app -->
+    <script src="assets/js/pages/demo.datatable-init.js"></script>
+
+</body>
+</html>

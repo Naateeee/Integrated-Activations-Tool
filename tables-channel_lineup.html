@@ -1,0 +1,374 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Channel Lineup</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Integrated Activations Tool" name="description">
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <link href="assets/css/vendor/dataTables.bootstrap5.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/vendor/responsive.bootstrap5.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/vendor/buttons.bootstrap5.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/vendor/select.bootstrap5.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" id="light-style">
+    <link href="assets/css/app-dark.min.css" rel="stylesheet" type="text/css" id="dark-style">
+</head>
+<body class="loading">
+    <div class="wrapper">
+
+        <!-- Sidebar -->
+        <div class="leftside-menu">
+            <a href="index.html" class="logo text-center lo go-light">
+                <span class="logo-lg"><img src="assets/images/logo.png" alt="" height="46"></span>
+                <span class="logo-sm"><img src="assets/images/logo_sm.png" alt="" height="46"></span>
+            </a>
+            <a href="index.html" class="logo text-center logo-dark">
+                <span class="logo-lg"><img src="assets/images/logo-light.png" alt="" height="46"></span>
+                <span class="logo-sm"><img src="assets/images/logo_sm_dark.png" alt="" height="46"></span>
+            </a>
+
+            <!--- Sidemenu -->
+            <div class="h-100">
+                <ul class="side-nav">
+                    <li class="side-nav-title side-nav-item">Home</li>
+                    <li class="side-nav-item">
+                        <a href="index.html" class="side-nav-link"><i class="uil-home-alt"></i><span>Dashboard</span></a>
+                    </li>
+
+                    <li class="side-nav-title side-nav-item">Custom</li>
+                    <li class="side-nav-item">
+                        <a data-bs-toggle="collapse" href="#sidebarNotesGenerator" aria-expanded="false" aria-controls="sidebarNotesGenerator" class="side-nav-link">
+                            <i class="uil-copy-alt"></i><span>Notes Generator</span><span class="menu-arrow"></span>
+                        </a>
+                        <div class="collapse" id="sidebarNotesGenerator">
+                            <ul class="side-nav-second-level">
+                                <li><a href="notes-for_activation.html">For Activation</a></li>
+                                <li><a href="notes-unsuccessful.html">Unsuccessful</a></li>
+                                <li><a href="notes-with_compliance.html">With Compliance</a></li>
+                                <li><a href="notes-docs_and_sup_for_approval.html">Docs and Sup Approval</a></li>
+                                <li><a href="notes-pldt_and_radius.html">PLDT and Radius</a></li>
+                                <li><a href="notes-demo_and_syndication.html">Demo and Syndication</a></li>
+                                <li><a href="notes-vsat.html">VSAT</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="side-nav-title side-nav-item">Utilities</li>
+                    <li class="side-nav-item"><a href="utilities-hpa_calculator.html" class="side-nav-link"><i class="uil-calcualtor"></i><span>HPA Calculator</span></a></li>
+                    <li class="side-nav-item"><a href="utilities-email_template.html" class="side-nav-link"><i class="uil-envelope-edit"></i><span>Email Template</span></a></li>
+
+                    <li class="side-nav-title side-nav-item mt-1">Plugins</li>
+                    <li class="side-nav-item"><a href="tables-promo_matrix.html" class="side-nav-link"><i class="uil-store"></i><span>Promo Matrix</span></a></li>
+                    <li class="side-nav-item"><a href="tables-channel_lineup.html" class="side-nav-link"><i class="uil-tv-retro"></i><span>Channel Line-up</span></a></li>
+                    <li class="side-nav-item"><a href="tables-id_only.html" class="side-nav-link"><i class="uil-user-square"></i><span>Salesman Code</span></a></li>
+                    <li class="side-nav-item"><a href="tables-mdu.html" class="side-nav-link"><i class="uil-building"></i><span>MDU Address</span></a></li>
+
+                    <li class="side-nav-item">
+                        <a data-bs-toggle="collapse" href="#sidebarBarangay" aria-expanded="false" aria-controls="sidebarMaps" class="side-nav-link">
+                            <i class="uil-location-point"></i><span>List of Barangay</span><span class="menu-arrow"></span>
+                        </a>
+                        <div class="collapse" id="sidebarBarangay">
+                            <ul class="side-nav-second-level">
+                                <li><a href="tables-caloocan.html">Barangay in Caloocan</a></li>
+                                <li><a href="tables-manila.html">Barangay in Manila</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <div class="clearfix"></div>
+            </div><!-- end Sidemenu -->
+
+        </div><!-- end Sidebar -->
+
+        <!-- Content -->
+        <div class="content-page">
+            <div class="content">
+
+                <!-- Topbar -->
+                <div class="navbar-custom">
+                    <ul class="list-unstyled topbar-menu float-end mb-0">
+                        <li class="notification-list">
+                            <a class="nav-link nav-user me-0">
+                                <span class="account-user-avatar"><img src="assets/images/users/user_nate.png" alt="user-image" class="rounded-circle"></span>
+                                <span>
+                                    <span class="account-user-name">Customer Experience Group</span>
+                                    <span class="account-position">Activation Officer</span>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <button class="button-menu-mobile open-left"><i class="mdi mdi-menu"></i></button>
+                </div>
+
+                <!-- Container-->
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="page-title-box">
+                                <div class="page-title-right">
+                                    <ol class="breadcrumb m-0">
+                                        <li class="breadcrumb-item"><a href="index.html">Integrateds Activation Tool</a></li>
+                                        <li class="breadcrumb-item active">Channel Lineup</li>
+                                    </ol>
+                                </div>
+                                <h5 class="page-title">CIGNAL CHANNEL LINEUP</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card border">
+                                <div class="card-body">
+                                    <span class="badge badge-danger-lighten p-1 mb-3">updated Postpaid Residential Channel Line-up as of April 5, 2024</span>
+                                    <table id="basic-datatable" class="table dt-responsive w-100 nowrap table-bordered table-centered table-hover">
+                                        <thead class="text-center">
+                                            <tr class="table-dark">
+                                                <th colspan="3">Channel Line-Up</th>
+                                                <th colspan="4">Basic Theme Pack 300</th>
+                                                <th colspan="7">Postpaid Plan Residential</th>
+                                            </tr>
+                                            <tr class="table-secondary">
+                                                <th colspan="3">Total Channels</th>
+                                                <th>74</th>
+                                                <th>67</th>
+                                                <th>67</th>
+                                                <th>77</th>
+                                                <th>90</th>
+                                                <th>112</th>
+                                                <th>118</th>
+                                                <th>121</th>
+                                                <th>124</th>
+                                                <th>127</th>
+                                                <th>128</th>
+                                            </tr>
+                                            <tr class="table-light">
+                                                <th colspan="3">Total SD</th>
+                                                <th>56</th>
+                                                <th>49</th>
+                                                <th>54</th>
+                                                <th>57</th>
+                                                <th>76</th>
+                                                <th>85</th>
+                                                <th>88</th>
+                                                <th>90</th>
+                                                <th>93</th>
+                                                <th>95</th>
+                                                <th>96</th>
+                                            </tr>
+                                            <tr class="table-light">
+                                                <th colspan="3">Total HD</th>
+                                                <th>18</th>
+                                                <th>18</th>
+                                                <th>13</th>
+                                                <th>20</th>
+                                                <th>14</th>
+                                                <th>27</th>
+                                                <th>30</th>
+                                                <th>31</th>
+                                                <th>31</th>
+                                                <th>32</th>
+                                                <th>32</th>
+                                            </tr>
+                                            <tr class="table-dark">
+                                                <th>No</th>
+                                                <th>Channel Name</th>
+                                                <th>Category</th>
+                                                <th>All Things Ent</th>
+                                                <th>Sports Action</th>
+                                                <th>Pinoy & Asian</th>
+                                                <th>Fam Time</th>
+                                                <th>290</th>
+                                                <th>520</th>
+                                                <th>720</th>
+                                                <th>1050</th>
+                                                <th>1350</th>
+                                                <th>1650</th>
+                                                <th>1990</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr><td>4</td><td>PTV</td><td>Local</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>5</td><td>TV5</td><td>Local</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>6</td><td>One Sports</td><td>Local</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>7</td><td>GMA</td><td>Local</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>9</td><td>RPTV</td><td>Local</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>10</td><td>RPTV HD</td><td>Local</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>11</td><td>GTV</td><td>Local</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>13</td><td>IBC 13</td><td>Local</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>14</td><td>Net 25</td><td>Local</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>15</td><td>TV5 HD</td><td>Local</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>17</td><td>One Sports HD</td><td>Local</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>20</td><td>A2Zci</td><td>Local</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>21</td><td>Solar Flix</td><td>Local</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>24</td><td>Aliw</td><td>Local</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>28</td><td>RJ TV</td><td>Local</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>35</td><td>AllTV</td><td>Local</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>50</td><td>TAP Movies</td><td>Movies</td><td></td><td></td><td></td><td></td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>51</td><td>Thrill SD</td><td>Movies</td><td></td><td></td><td></td><td></td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>53</td><td>HBO</td><td>Movies</td><td></td><td></td><td></td><td></td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>54</td><td>HBO Hits SD</td><td>Movies</td><td></td><td></td><td></td><td></td><td></td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>57</td><td>ROCK Action</td><td>Movies</td><td></td><td>Sports Action</td><td></td><td></td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>58</td><td>HITS Movies</td><td>Movies</td><td>All Things Ent</td><td></td><td></td><td></td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>210</td><td>HBO HD</td><td>Movies</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>211</td><td>HBO Family HD</td><td>Movies</td><td></td><td></td><td></td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>212</td><td>Cinemax HD</td><td>Movies</td><td>All Things Ent</td><td></td><td></td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>213</td><td>HBO Signature HD</td><td>Movies</td><td></td><td></td><td></td><td>Fam Time</td><td></td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>214</td><td>HBO Hits HD</td><td>Movies</td><td>All Things Ent</td><td></td><td>Pinoy & Asian</td><td>Fam Time</td><td></td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>215</td><td>TAP Movies HD</td><td>Movies</td><td></td><td></td><td></td><td></td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>216</td><td>TAP Action Flix HD</td><td>Movies</td><td></td><td>Sports Action</td><td></td><td></td><td></td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>2</td><td>BuKo</td><td>Pinoy</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>3</td><td>Sari-Sari</td><td>Pinoy</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>22</td><td>Kapamilya Channel</td><td>Pinoy</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>39</td><td>tvN Movies Pinoy</td><td>Pinoy</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>40</td><td>Celestial Movies Pinoy</td><td>Pinoy</td><td></td><td></td><td>Pinoy & Asian</td><td></td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>41</td><td>Pinoy Box Office (PBO)</td><td>Pinoy</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>42</td><td>Viva Cinema</td><td>Pinoy</td><td></td><td></td><td>Pinoy & Asian</td><td></td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>43</td><td>Cinemo</td><td>Pinoy</td><td>All Things Ent</td><td></td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>44</td><td>JeepneyTV</td><td>Pinoy</td><td></td><td></td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>45</td><td>Cinema One</td><td>Pinoy</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>49</td><td>Tagalized Movie Channel (TMC)</td><td>Pinoy</td><td></td><td></td><td>Pinoy & Asian</td><td></td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>23</td><td>Kapamilya Channel HD</td><td>Pinoy</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>90</td><td>PBA Rush SD</td><td>Sports</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>91</td><td>One Sports +</td><td>Sports</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>94</td><td>Tap Sports</td><td>Sports</td><td></td><td>Sports Action</td><td></td><td></td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>95</td><td>Fight Sports</td><td>Sports</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>96</td><td>NBA TV Philippines</td><td>Sports</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>98</td><td>MPTV</td><td>Sports</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>260</td><td>PBA Rush HD</td><td>Sports</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>261</td><td>One Sports + HD</td><td>Sports</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td></td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>262</td><td>NBA TV Philippines HD</td><td>Sports</td><td></td><td>Sports Action</td><td></td><td></td><td></td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>263</td><td>UAAP Varsity Channel HD</td><td>Sports</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>271</td><td>Premier Football HD</td><td>Sports</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>272</td><td>Premier Sports HD</td><td>Sports</td><td></td><td>Sports Action</td><td></td><td></td><td></td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>273</td><td>Premier Sports 2 HD</td><td>Sports</td><td></td><td>Sports Action</td><td></td><td></td><td></td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>274</td><td>SPOTV 1 HD</td><td>Sports</td><td></td><td>Sports Action</td><td></td><td></td><td></td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>275</td><td>SPOTV 2 HD</td><td>Sports</td><td></td><td>Sports Action</td><td></td><td></td><td></td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>72</td><td>Nickelodeon SD</td><td>Kids</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>73</td><td>Animax</td><td>Kids</td><td></td><td></td><td>Pinoy & Asian</td><td></td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>74</td><td>Cartoon Network</td><td>Kids</td><td></td><td></td><td></td><td></td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>76</td><td>Cartoonito</td><td>Kids</td><td></td><td></td><td></td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>77</td><td>Nick Jr.</td><td>Kids</td><td>All Things Ent</td><td></td><td></td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>78</td><td>Moonbug Kids</td><td>Kids</td><td></td><td></td><td></td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>79</td><td>Dreamworks (Tagalized)</td><td>Kids</td><td></td><td></td><td></td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>220</td><td>Cartoon Network HD</td><td>Kids</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>221</td><td>Dreamworks (English) HD</td><td>Kids</td><td>All Things Ent</td><td></td><td></td><td>Fam Time</td><td></td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>1</td><td>One PH</td><td>News (Local & Int'l)</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>8</td><td>One News</td><td>News (Local & Int'l)</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>18</td><td>DZRH News TV</td><td>News (Local & Int'l)</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>130</td><td>CNN</td><td>News (Local & Int'l)</td><td></td><td></td><td></td><td></td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>131</td><td>FOX News Channel</td><td>News (Local & Int'l)</td><td></td><td></td><td></td><td></td><td></td><td></td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>132</td><td>CNBC</td><td>News (Local & Int'l)</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>133</td><td>Bloomberg</td><td>News (Local & Int'l)</td><td>All Things Ent</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>134</td><td>CNA</td><td>News (Local & Int'l)</td><td></td><td></td><td></td><td></td><td></td><td></td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>135</td><td>Al Jazeera TV</td><td>News (Local & Int'l)</td><td>All Things Ent</td><td>Sports Action</td><td></td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>136</td><td>BBC News</td><td>News (Local & Int'l)</td><td>All Things Ent</td><td>Sports Action</td><td></td><td></td><td></td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>137</td><td>Deustche Welle</td><td>News (Local & Int'l)</td><td>All Things Ent</td><td>Sports Action</td><td></td><td>Fam Time</td><td></td><td></td><td></td><td></td><td></td><td></td><td>1990</td></tr>
+                                            <tr><td>250</td><td>One News HD</td><td>News (Local & Int'l)</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>251</td><td>CNN HD</td><td>News (Local & Int'l)</td><td>All Things Ent</td><td>Sports Action</td><td></td><td>Fam Time</td><td></td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>120</td><td>ROCK Entertainment</td><td>General Ent</td><td>All Things Ent</td><td></td><td></td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>121</td><td>AXN</td><td>General Ent</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>122</td><td>HITS Now</td><td>General Ent</td><td>All Things Ent</td><td></td><td></td><td></td><td></td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>123</td><td>Lifetime SD</td><td>General Ent</td><td></td><td></td><td></td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>125</td><td>TAP TV</td><td>General Ent</td><td>All Things Ent</td><td></td><td></td><td></td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>127</td><td>Crime and Investigation</td><td>General Ent</td><td>All Things Ent</td><td>Sports Action</td><td></td><td>Fam Time</td><td></td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>128</td><td>Lotus Macau</td><td>General Ent</td><td>All Things Ent</td><td></td><td></td><td></td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>129</td><td>Tap Edge</td><td>General Ent</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>230</td><td>KIX HD</td><td>General Ent</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td></td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>235</td><td>Warner TV HD</td><td>General Ent</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>236</td><td>HITS HD</td><td>General Ent</td><td>All Things Ent</td><td></td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>101</td><td>TVUP</td><td>Educ / Docu</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>140</td><td>Discovery Channel SD</td><td>Educ / Docu</td><td>All Things Ent</td><td></td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>143</td><td>Animal Planet SD</td><td>Educ / Docu</td><td></td><td></td><td></td><td></td><td></td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>145</td><td>Discovery Asia</td><td>Educ / Docu</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>146</td><td>Knowledge Channel</td><td>Educ / Docu</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>148</td><td>TechStorm</td><td>Educ / Docu</td><td></td><td>Sports Action</td><td></td><td></td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>149</td><td>DepEd TV</td><td>Educ / Docu</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>243</td><td>History HD</td><td>Educ / Docu</td><td></td><td></td><td></td><td></td><td></td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>245</td><td>BBC Earth HD</td><td>Educ / Docu</td><td>All Things Ent</td><td></td><td></td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>62</td><td>Asian Food Network SD</td><td>Lifestyle</td><td></td><td></td><td></td><td></td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>63</td><td>TLC SD</td><td>Lifestyle</td><td></td><td></td><td></td><td>Fam Time</td><td></td><td></td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>64</td><td>Travel Channel SD</td><td>Lifestyle</td><td></td><td></td><td></td><td>Fam Time</td><td></td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>69</td><td>Metro Channel</td><td>Lifestyle</td><td></td><td></td><td></td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>200</td><td>Food Network HD</td><td>Lifestyle</td><td></td><td></td><td></td><td>Fam Time</td><td></td><td></td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>201</td><td>HGTV HD</td><td>Lifestyle</td><td>All Things Ent</td><td>Sports Action</td><td></td><td>Fam Time</td><td></td><td></td><td></td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>202</td><td>BBC Lifestyle HD</td><td>Lifestyle</td><td>All Things Ent</td><td></td><td></td><td>Fam Time</td><td></td><td></td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>207</td><td>Fashion TV HD</td><td>Lifestyle</td><td></td><td></td><td></td><td></td><td></td><td></td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>150</td><td>MYX</td><td>Music</td><td></td><td></td><td></td><td></td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>106</td><td>Xtreme Pinoy</td><td>Special Interest</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>107</td><td>Horse Racing</td><td>Special Interest</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>115</td><td>CLTV36</td><td>Regional</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>161</td><td>Arirang TV</td><td>Foreign Ch</td><td></td><td></td><td>Pinoy & Asian</td><td></td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>162</td><td>NHK World - Japan</td><td>Foreign Ch</td><td></td><td></td><td>Pinoy & Asian</td><td></td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>164</td><td>ABC Australia</td><td>Foreign Ch</td><td></td><td></td><td>Pinoy & Asian</td><td></td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>165</td><td>CCTV 4</td><td>Foreign Ch</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>166</td><td>CGTN Documentary</td><td>Foreign Ch</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>167</td><td>TV5 Monde</td><td>Foreign Ch</td><td></td><td></td><td></td><td></td><td></td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>169</td><td>France 24</td><td>Foreign Ch</td><td></td><td></td><td></td><td></td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>170</td><td>KBS World SD</td><td>Foreign Ch</td><td></td><td></td><td>Pinoy & Asian</td><td></td><td></td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>237</td><td>tvN Premium HD</td><td>Foreign Ch</td><td></td><td></td><td>Pinoy & Asian</td><td></td><td></td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>153</td><td>Word of God</td><td>Religious Ch</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>180</td><td>INC</td><td>Religious Ch</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>181</td><td>EWTN</td><td>Religious Ch</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>182</td><td>UNTV</td><td>Religious Ch</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>183</td><td>ZOE - Light TV 33</td><td>Religious Ch</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>185</td><td>GCTV</td><td>Religious Ch</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>186</td><td>SONSHINE</td><td>Religious Ch</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>
+                                            <tr><td>188</td><td>TV Maria</td><td>Religious Ch</td><td>All Things Ent</td><td>Sports Action</td><td>Pinoy & Asian</td><td>Fam Time</td><td>290</td><td>520</td><td>720</td><td>1050</td><td>1350</td><td>1650</td><td>1990</td></tr>                                            
+                                        </tbody>
+                                        <tfoot></tfoot>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- end row-->
+                        
+                </div> <!-- container -->
+
+            </div> <!-- content -->
+
+            <!-- Footer -->
+            <footer class="footer">
+                <div class="container-fluid">
+                    <div class="row small">
+                        <div class="col-md-6">
+                            <span>Project Initiative 2022-<script>document.write(new Date().getFullYear())</script></span>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="text-md-end footer-links d-none d-md-block">
+                                <a href="javascript: void(0);">&copy; Integrated Activations Tool</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        </div> <!-- end container page -->
+
+    </div><!-- end wrapper -->
+
+    <!-- bundle -->
+    <script src="assets/js/vendor.min.js"></script>
+    <script src="assets/js/app.min.js"></script>
+
+    <!-- third party js -->
+    <script src="assets/js/vendor/jquery.dataTables.min.js"></script>
+    <script src="assets/js/vendor/dataTables.bootstrap5.js"></script>
+    <script src="assets/js/vendor/dataTables.responsive.min.js"></script>
+    <script src="assets/js/vendor/responsive.bootstrap5.min.js"></script>
+    <script src="assets/js/vendor/dataTables.buttons.min.js"></script>
+    <script src="assets/js/vendor/buttons.bootstrap5.min.js"></script>
+    <script src="assets/js/vendor/buttons.html5.min.js"></script>
+    <script src="assets/js/vendor/buttons.flash.min.js"></script>
+    <script src="assets/js/vendor/buttons.print.min.js"></script>
+    <script src="assets/js/vendor/dataTables.keyTable.min.js"></script>
+    <script src="assets/js/vendor/dataTables.select.min.js"></script>
+    <!-- third party js ends -->
+
+    <!-- demo app -->
+    <script src="assets/js/pages/demo.datatable-init.js"></script>
+    <!-- end demo js-->
+
+</body>
+</html>

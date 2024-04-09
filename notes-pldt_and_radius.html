@@ -1,0 +1,579 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>PLDT and Radius</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Integrated Activations Tool" name="description">
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" id="light-style">
+    <link href="assets/css/app-dark.min.css" rel="stylesheet" type="text/css" id="dark-style">
+</head>
+<body class="loading">
+    <div class="wrapper">
+
+        <!-- Sidebar -->
+        <div class="leftside-menu">
+            <a href="index.html" class="logo text-center lo go-light">
+                <span class="logo-lg"><img src="assets/images/logo.png" alt="" height="46"></span>
+                <span class="logo-sm"><img src="assets/images/logo_sm.png" alt="" height="46"></span>
+            </a>
+            <a href="index.html" class="logo text-center logo-dark">
+                <span class="logo-lg"><img src="assets/images/logo-light.png" alt="" height="46"></span>
+                <span class="logo-sm"><img src="assets/images/logo_sm_dark.png" alt="" height="46"></span>
+            </a>
+
+            <!--- Sidemenu -->
+            <div class="h-100">
+                <ul class="side-nav">
+                    <li class="side-nav-title side-nav-item">Home</li>
+                    <li class="side-nav-item">
+                        <a href="index.html" class="side-nav-link"><i class="uil-home-alt"></i><span>Dashboard</span></a>
+                    </li>
+
+                    <li class="side-nav-title side-nav-item">Custom</li>
+                    <li class="side-nav-item">
+                        <a data-bs-toggle="collapse" href="#sidebarNotesGenerator" aria-expanded="false" aria-controls="sidebarNotesGenerator" class="side-nav-link">
+                            <i class="uil-copy-alt"></i><span>Notes Generator</span><span class="menu-arrow"></span>
+                        </a>
+                        <div class="collapse" id="sidebarNotesGenerator">
+                            <ul class="side-nav-second-level">
+                                <li><a href="notes-for_activation.html">For Activation</a></li>
+                                <li><a href="notes-unsuccessful.html">Unsuccessful</a></li>
+                                <li><a href="notes-with_compliance.html">With Compliance</a></li>
+                                <li><a href="notes-docs_and_sup_for_approval.html">Docs and Sup Approval</a></li>
+                                <li><a href="notes-pldt_and_radius.html">PLDT and Radius</a></li>
+                                <li><a href="notes-demo_and_syndication.html">Demo and Syndication</a></li>
+                                <li><a href="notes-vsat.html">VSAT</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="side-nav-title side-nav-item">Utilities</li>
+                    <li class="side-nav-item"><a href="utilities-hpa_calculator.html" class="side-nav-link"><i class="uil-calcualtor"></i><span>HPA Calculator</span></a></li>
+                    <li class="side-nav-item"><a href="utilities-email_template.html" class="side-nav-link"><i class="uil-envelope-edit"></i><span>Email Template</span></a></li>
+
+                    <li class="side-nav-title side-nav-item mt-1">Plugins</li>
+                    <li class="side-nav-item"><a href="tables-promo_matrix.html" class="side-nav-link"><i class="uil-store"></i><span>Promo Matrix</span></a></li>
+                    <li class="side-nav-item"><a href="tables-channel_lineup.html" class="side-nav-link"><i class="uil-tv-retro"></i><span>Channel Line-up</span></a></li>
+                    <li class="side-nav-item"><a href="tables-id_only.html" class="side-nav-link"><i class="uil-user-square"></i><span>Salesman Code</span></a></li>
+                    <li class="side-nav-item"><a href="tables-mdu.html" class="side-nav-link"><i class="uil-building"></i><span>MDU Address</span></a></li>
+
+                    <li class="side-nav-item">
+                        <a data-bs-toggle="collapse" href="#sidebarBarangay" aria-expanded="false" aria-controls="sidebarMaps" class="side-nav-link">
+                            <i class="uil-location-point"></i><span>List of Barangay</span><span class="menu-arrow"></span>
+                        </a>
+                        <div class="collapse" id="sidebarBarangay">
+                            <ul class="side-nav-second-level">
+                                <li><a href="tables-caloocan.html">Barangay in Caloocan</a></li>
+                                <li><a href="tables-manila.html">Barangay in Manila</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <div class="clearfix"></div>
+            </div><!-- end Sidemenu -->
+
+        </div><!-- end Sidebar -->
+
+        <!-- Content -->
+        <div class="content-page">
+            <div class="content">
+
+                <!-- Topbar -->
+                <div class="navbar-custom">
+                    <ul class="list-unstyled topbar-menu float-end mb-0">
+                        <li class="notification-list">
+                            <a class="nav-link nav-user me-0">
+                                <span class="account-user-avatar"><img src="assets/images/users/user_nate.png" alt="user-image" class="rounded-circle"></span>
+                                <span>
+                                    <span class="account-user-name">Customer Experience Group</span>
+                                    <span class="account-position">Activation Officer</span>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <button class="button-menu-mobile open-left"><i class="mdi mdi-menu"></i></button>
+                </div>
+                    
+                <!-- Container -->
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="page-title-box">
+                                <div class="page-title-right">
+                                    <ol class="breadcrumb m-0">
+                                        <li class="breadcrumb-item"><a href="index.html">Integrateds Activation Tool</a></li>
+                                        <li class="breadcrumb-item"><a href="#">Notes Generator</a></li>
+                                        <li class="breadcrumb-item active">PLDT and Radius</li>
+                                    </ol>
+                                </div>
+                                <h5 class="page-title">PLDT AND RADIUS</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card border">
+                                <div class="card-body">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <h4 class="header-title mb-3 text-dark">Account details</h4>
+
+                                            <ul class="nav nav-tabs nav-bordered mb-3">
+                                                <li class="nav-item">
+                                                    <a href="#input-types-pldt" data-bs-toggle="tab" aria-expanded="false" class="nav-link active" onclick="activationPLDT()">PLDT</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="#input-types-dualplay" data-bs-toggle="tab" aria-expanded="true" class="nav-link" onclick="activationDualPlay()">Dual Play</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="#input-types-standalone" data-bs-toggle="tab" aria-expanded="true" class="nav-link" onclick="activationStandalone()">Standalone</a>
+                                                </li>
+                                            </ul>
+
+                                            <div class="tab-content">
+
+                                                <div class="tab-pane show active" id="input-types-pldt">
+                                                    <form class="form-horizontal">
+                                                        <div class="row mb-2">
+                                                            <label class="col-4 col-form-label text-md-end text-danger">Account Number:</label>
+                                                            <div class="col-8">
+                                                                <input class="form-control" id="accountPLDT" oninput="activationPLDT()">
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mb-2">
+                                                            <label class="col-4 col-form-label text-md-end text-danger">Ticket Number:</label>
+                                                            <div class="col-8">
+                                                                <input class="form-control" id="ticketPLDT" oninput="activationPLDT()">
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mb-0">
+                                                                <label class="col-4 col-form-label text-md-end text-danger">Duplicate:</label>
+                                                            <div class="col-8">
+                                                                <div class="row mt-1">
+                                                                    <div class="col-6">
+                                                                        <input type="radio" class="form-check-input" name="customRadio" onclick="activationPLDT()" style="margin-right: .5rem;" id="sameCustomer">
+                                                                        <label class="form-check-label" for="sameCustomer">Same Customer</label>
+                                                                    </div>
+                                                                    <div class="col-6">
+                                                                        <input type="radio" class="form-check-input" name="customRadio" onclick="activationPLDT()" style="margin-right: .5rem;" id="diffCustomer">
+                                                                        <label class="form-check-label" for="diffCustomer">Diff Customer</label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mt-1">
+                                                            <label class="col-4 col-form-label text-md-end text-danger">Additional Box:</label>
+                                                            <div class="col-8">
+                                                                <div class="row mt-1">
+                                                                    <div class="col-6">
+                                                                        <input type="checkbox" class="form-check-input" onclick="activationPLDT()" style="margin-right: .5rem;" id="2ndBox">
+                                                                        <label class="form-check-label" for="2ndBox">2nd Box</label>
+                                                                    </div>
+                                                                    <div class="col-6">
+                                                                        <input type="checkbox" class="form-check-input" onclick="activationPLDT()" style="margin-right: .5rem;" id="3rdBox">
+                                                                        <label class="form-check-label" for="3rdBox">3rd Box</label>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+
+                                                <div class="tab-pane" id="input-types-dualplay">
+                                                    <form class="form-horizontal">
+                                                        <div class="row mb-2">
+                                                            <label class="col-4 col-form-label text-md-end text-danger">Radius Account:</label>
+                                                            <div class="col-8">
+                                                                <input class="form-control" id="accountDualPlay" oninput="activationDualPlay()">
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mb-2">
+                                                            <label class="col-4 col-form-label text-md-end text-danger">Broadband Plan:</label>
+                                                            <div class="col-8">
+                                                                <select class="form-select" id="dualplayPlan" oninput="activationDualPlay()">
+                                                                    <option></option>
+                                                                    <option>Radius Dual Play 15Mbps</option>
+                                                                    <option>Radius Dual Play 35Mbps</option>
+                                                                    <option>Radius Dual Play 35Mbps - EB</option>
+                                                                    <option>Radius Dual Play 50Mbps</option>
+                                                                    <option>Radius Dual Play 50Mbps - EB</option>
+                                                                    <option>Radius Dual Play 80Mbps</option>
+                                                                    <option>Radius Dual Play 100Mbps</option>
+                                                                    <option>Radius Dual Play 100Mbps - EB</option>
+                                                                    <option>Radius Dual Play 120Mbps</option>
+                                                                    <option>Radius Dual Play 180Mbps</option>
+                                                                    <option>Radius Dual Play 200Mbps</option>
+                                                                    <option>Radius Dual Play 200Mbps - EB</option>
+                                                                    <option>Radius Dual Play 250Mbps</option>
+                                                                    <option>Radius Dual Play 400Mbps</option>
+                                                                    <option>Radius Dual Play 400Mbps - EB</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mb-2">
+                                                            <label class="col-4 col-form-label text-md-end text-danger">IPTV:</label>
+                                                            <div class="col-8">
+                                                                <select class="form-select" id="dualplayIPTV" oninput="activationDualPlay()">
+                                                                    <option></option>
+                                                                    <option>Radius IPTV Plan 290</option>
+                                                                    <option>Radius IPTV Plan 520</option>
+                                                                    <option>Radius IPTV Plan 720</option>
+                                                                    <option>Radius IPTV Plan 1050</option>
+                                                                    <option>Radius IPTV Plan 1350</option>
+                                                                    <option>Radius IPTV Plan 1650</option>
+                                                                    <option>Radius IPTV Plan 1990</option>
+                                                                    <option>Radius IPTV Plan 290 Switcher 520</option>
+                                                                    <option>Radius IPTV Plan 290 Switcher 720</option>
+                                                                    <option>Radius IPTV Plan 290 Switcher 1050</option>
+                                                                    <option>Radius IPTV Plan 290 Switcher 1990</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mb-2">
+                                                            <label class="col-4 col-form-label text-md-end text-danger">Lock-in Period:</label>
+                                                            <div class="col-8">
+                                                                <select class="form-select" id="dualplayLockin" oninput="activationDualPlay()">
+                                                                    <option></option>
+                                                                    <option>24 months</option>
+                                                                    <option>No Lock-in</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mb-2">
+                                                            <label class="col-4 col-form-label text-md-end text-danger">Promotion:</label>
+                                                            <div class="col-8">
+                                                                <select class="form-select" id="dualplayPromo" oninput="activationDualPlay()">
+                                                                    <option></option>
+                                                                    <option>N/A</option>
+                                                                    <option>Highest TV Plan for 90 days </option>
+                                                                    <option>1 month MSF - Early Bird Promo 2022</option>
+                                                                    <option>3 months MSF - Early Bird Promo 2022</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mb-2">
+                                                            <label class="col-4 col-form-label text-md-end text-danger">Property Type:</label>
+                                                            <div class="col-8">
+                                                                <input class="form-control" id="dualplayProperty" oninput="activationDualPlay()">
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mb-2">
+                                                            <label class="col-4 col-form-label text-md-end text-danger">Cignal Account:</label>
+                                                            <div class="col-8">
+                                                                <input class="form-control" id="dualplayCignal" oninput="activationDualPlay()">
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mb-2">
+                                                            <label class="col-4 col-form-label text-md-end text-danger">Ticket Number:</label>
+                                                            <div class="col-8">
+                                                                <input class="form-control" id="ticketDualPlay" oninput="activationDualPlay()">
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+
+                                                <div class="tab-pane" id="input-types-standalone">
+                                                    <form class="form-horizontal">
+                                                        <div class="row mb-2">
+                                                            <label class="col-4 col-form-label text-md-end text-danger">Radius Account:</label>
+                                                            <div class="col-8">
+                                                                <input class="form-control" id="accountStandalone" oninput="activationStandalone()">
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mb-2">
+                                                            <label class="col-4 col-form-label text-md-end text-danger">Broadband Plan:</label>
+                                                            <div class="col-8">
+                                                                <select class="form-select" id="standalonePlan" oninput="activationStandalone()">
+                                                                    <option></option>
+                                                                    <option>Radius Standalone 5Mbps</option>
+                                                                    <option>Radius Standalone 15Mbps</option>
+                                                                    <option>Radius Standalone 15Mbps - 999 Promo</option>
+                                                                    <option>Radius Standalone 30Mbps</option>
+                                                                    <option>Radius Standalone 35Mbps</option>
+                                                                    <option>Radius Standalone 35Mbps - EB</option>
+                                                                    <option>Radius Standalone 40Mbps</option>
+                                                                    <option>Radius Standalone 50Mbps</option>
+                                                                    <option>Radius Standalone 50Mbps - EB</option>
+                                                                    <option>Radius Standalone 80Mbps</option>
+                                                                    <option>Radius Standalone 100Mbps</option>
+                                                                    <option>Radius Standalone 100Mbps - EB</option>
+                                                                    <option>Radius Standalone 120Mbps</option>
+                                                                    <option>Radius Standalone 180Mbps</option>
+                                                                    <option>Radius Standalone 200Mbps</option>
+                                                                    <option>Radius Standalone 200Mbps - EB</option>
+                                                                    <option>Radius Standalone 250Mbps</option>
+                                                                    <option>Radius Standalone 400Mbps</option>
+                                                                    <option>Radius Standalone 400Mbps - EB</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mb-2">
+                                                            <label class="col-4 col-form-label text-md-end text-danger">Lock-in Period:</label>
+                                                            <div class="col-8">
+                                                                <select class="form-select" id="standaloneLockin" oninput="activationStandalone()">
+                                                                    <option></option>
+                                                                    <option>24 months</option>
+                                                                    <option>No Lock-in</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mb-2">
+                                                            <label class="col-4 col-form-label text-md-end text-danger">Promotion:</label>
+                                                            <div class="col-8">
+                                                                <select class="form-select" id="standalonePromo" oninput="activationStandalone()">
+                                                                    <option></option>
+                                                                    <option>N/A</option>
+                                                                    <option>1 month MSF - Early Bird Promo 2022</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mb-2">
+                                                            <label class="col-4 col-form-label text-md-end text-danger">Property Type:</label>
+                                                            <div class="col-8">
+                                                                <input class="form-control" id="standaloneProperty" oninput="activationStandalone()">
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mb-2">
+                                                            <label class="col-4 col-form-label text-md-end text-danger">Cignal Account:</label>
+                                                            <div class="col-8">
+                                                                <input class="form-control" id="standaloneCignal" oninput="activationStandalone()">
+                                                            </div>
+                                                        </div>
+                                                    </form>
+                                                </div>
+
+                                            </div> <!-- end tab-content-->
+
+                                        </div>
+
+                                        <div class="col-6">
+                                            <h4 class="header-title mb-3 text-dark">Notes Result</h4>
+                                            <form>
+                                                <div class="mb-2">
+                                                    <textarea style="height: 455px;" class="form-control text-dark" id="notes" readonly></textarea>
+                                                </div>
+                                            </form>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <div class="card-footer">
+                                                <div class="row">
+                                                    <div class="col-6 d-flex flex-row justify-content-end">
+                                                        <button class="btn btn-danger btn-sm" id="clearButton" onclick="clearNotes()"><i class="uil-trash-alt"></i>&nbsp;clear fields</button>
+                                                    </div>
+
+                                                    <div class="col-6 d-flex flex-row justify-content-end pe-0">
+                                                        <button class="btn btn-success btn-sm" id="copyButton" onclick="copyNotes()"><i class="uil-copy"></i>&nbsp;copy text</button>
+                                                    </div>
+
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <script type="text/javascript">
+                                            function checkNotesValue() {
+                                                var notesValue = document.getElementById("notes").value;
+                                                var clearButton = document.getElementById("clearButton");
+                                                var copyButton = document.getElementById("copyButton");
+                                                var sameCustomer = document.getElementById("sameCustomer");
+                                                var diffCustomer = document.getElementById("diffCustomer");
+                                                var secondBox = document.getElementById("2ndBox");
+                                                var thirdBox = document.getElementById("3rdBox");
+
+                                                if(notesValue === '') {
+                                                    clearButton.disabled = true;
+                                                    copyButton.disabled = true;
+                                                    sameCustomer.disabled = true;
+                                                    sameCustomer.checked = false;
+                                                    diffCustomer.disabled = true;
+                                                    diffCustomer.checked = false;
+                                                    secondBox.disabled = true;
+                                                    thirdBox.disabled = true;
+                                                }
+                                                else if(sameCustomer.checked || diffCustomer.checked) {
+                                                    secondBox.disabled = true;
+                                                    thirdBox.disabled = true;
+                                                }
+                                                else if(secondBox.checked || thirdBox.checked) {
+                                                    sameCustomer.disabled = true;
+                                                    diffCustomer.disabled = true;
+                                                }
+                                                else {
+                                                    clearButton.disabled = false;
+                                                    copyButton.disabled = false;
+                                                    sameCustomer.disabled = false;
+                                                    diffCustomer.disabled = false;
+                                                    secondBox.disabled = false;
+                                                    thirdBox.disabled = false;
+                                                }
+                                            }
+                                            checkNotesValue();
+                                            document.getElementById("notes").addEventListener("input", checkNotesValue);
+
+                                            function activationPLDT() {
+                                                var accountPLDT = document.getElementById("accountPLDT").value;
+                                                var ticketPLDT = document.getElementById("ticketPLDT").value;
+                                                var sameCustomer = document.getElementById("sameCustomer");
+                                                var diffCustomer = document.getElementById("diffCustomer");
+                                                var secondBox = document.getElementById("2ndBox");
+                                                var thirdBox = document.getElementById("3rdBox");
+                                                var notes = document.getElementById("notes");
+
+                                                if(accountPLDT === '' && ticketPLDT === '') {
+                                                    notes.value = "";
+                                                }
+                                                else if(sameCustomer.checked) {
+                                                    notes.value = "PLDT CANCELLED\nDUPLICATE TICKET: SAME STB/SC ALREADY ACTIVATED UNDER THE SAME CUSTOMER NAME / REFERENCE TO ACCOUNT NUMBER: " + accountPLDT + " // " + ticketPLDT;
+                                                }
+                                                else if(diffCustomer.checked) {
+                                                    notes.value = "PLDT CANCELLED\nDUPLICATE TICKET: SAME STB/SC ALREADY ACTIVATED UNDER A DIFFERENT CUSTOMER NAME / REFERENCE TO ACCOUNT NUMBER: " + accountPLDT + " // " + ticketPLDT;
+                                                }
+                                                else if(secondBox.checked && thirdBox.checked) {
+                                                    notes.value = "PLDT ACTIVE\nCIGNAL ACCOUNT NUMBER: " + accountPLDT + "\nTICKET NUMBER: " + ticketPLDT + " / 2ND AND 3RD BOX";
+                                                }
+                                                else if(secondBox.checked) {
+                                                    notes.value = "PLDT ACTIVE\nCIGNAL ACCOUNT NUMBER: " + accountPLDT + "\nTICKET NUMBER: " + ticketPLDT + " / 2ND BOX";
+                                                }
+                                                else if(thirdBox.checked) {
+                                                    notes.value = "PLDT ACTIVE\nCIGNAL ACCOUNT NUMBER: " + accountPLDT + "\nTICKET NUMBER: " + ticketPLDT + " / 3RD BOX";
+                                                }
+                                                else {
+                                                    notes.value = "PLDT ACTIVE\nCIGNAL ACCOUNT NUMBER: " + accountPLDT + "\nTICKET NUMBER: " + ticketPLDT;
+                                                }
+
+                                                notes.style.fontFamily = 'Courier New, Courier, monospace';
+                                                notes.style.fontSize = '1.05rem';
+
+                                                checkNotesValue();
+                                            }
+
+                                            function activationDualPlay() {
+                                                var accountDualPlay = document.getElementById("accountDualPlay").value;
+                                                var dualplayPlan = document.getElementById("dualplayPlan").value.toUpperCase();
+                                                var dualplayIPTV = document.getElementById("dualplayIPTV").value.toUpperCase();
+                                                var dualplayLockin = document.getElementById("dualplayLockin").value.toUpperCase();
+                                                var dualplayPromo = document.getElementById("dualplayPromo").value.toUpperCase();
+                                                var dualplayProperty = document.getElementById("dualplayProperty").value.toUpperCase();
+                                                var dualplayCignal = document.getElementById("dualplayCignal").value;
+                                                var ticketDualPlay = document.getElementById("ticketDualPlay").value;
+                                                var notes = document.getElementById("notes");
+
+                                                if(accountDualPlay === '' && dualplayPlan === '' && dualplayIPTV === '' && dualplayLockin === '' && dualplayPromo === ''
+                                                    && dualplayProperty === '' && dualplayCignal === '' && ticketDualPlay === '') {
+                                                    notes.value = "";
+                                                }
+                                                else {
+                                                    notes.value = "RADIUS ACTIVE\nRADIUS ACCOUNT NUMBER: " + accountDualPlay + "\nBROADBAND PLAN: " + dualplayPlan + "\nIPTV PLAN: " 
+                                                    + dualplayIPTV + "\nLOCK-IN PERIOD: " + dualplayLockin + "\nPROMO: " + dualplayPromo + "\nPROPERTY TYPE: " + dualplayProperty + 
+                                                    "\nCIGNAL ACCOUNT NUMBER: " + dualplayCignal + "\nTICKET NUMBER: " + ticketDualPlay;
+                                                }
+
+                                                notes.style.fontFamily = 'Courier New, Courier, monospace';
+                                                notes.style.fontSize = '1.05rem';
+
+                                                checkNotesValue();
+                                            }
+
+                                            function activationStandalone() {
+                                                var accountStandalone = document.getElementById("accountStandalone").value;
+                                                var standalonePlan = document.getElementById("standalonePlan").value.toUpperCase();
+                                                var standaloneLockin = document.getElementById("standaloneLockin").value.toUpperCase();
+                                                var standalonePromo = document.getElementById("standalonePromo").value.toUpperCase();
+                                                var standaloneProperty = document.getElementById("standaloneProperty").value.toUpperCase();
+                                                var standaloneCignal = document.getElementById("standaloneCignal").value;
+                                                var notes = document.getElementById("notes");
+
+                                                if(accountStandalone === '' && standalonePlan === '' && standaloneLockin === '' && standalonePromo === '' && standaloneProperty === ''
+                                                    && standaloneCignal === '') {
+                                                    notes.value = "";
+                                                }
+                                                else {
+                                                    notes.value = "RADIUS ACTIVE\nRADIUS ACCOUNT NUMBER: " + accountStandalone + "\nBROADBAND PLAN: " + standalonePlan + 
+                                                    "\nLOCK-IN PERIOD: " + standaloneLockin + "\nPROMO: " + standalonePromo + "\nPROPERTY TYPE: " + standaloneProperty + 
+                                                    "\nCIGNAL ACCOUNT NUMBER: " + standaloneCignal;
+                                                }
+
+                                                notes.style.fontFamily = 'Courier New, Courier, monospace';
+                                                notes.style.fontSize = '1.05rem';
+
+                                                checkNotesValue();
+                                            }
+
+                                            function copyNotes() {
+                                                var copyText = document.getElementById("notes");
+                                                copyText.select();
+                                                copyText.setSelectionRange(0, 99999);
+                                                navigator.clipboard.writeText(copyText.value);
+                                            }
+
+                                            function clearNotes() {
+                                                document.getElementById("accountPLDT").value = '';
+                                                document.getElementById("ticketPLDT").value = '';
+                                                document.getElementById("sameCustomer").checked = false;
+                                                document.getElementById("diffCustomer").checked = false;
+                                                document.getElementById("2ndBox").checked = false;
+                                                document.getElementById("3rdBox").checked = false;
+
+                                                document.getElementById("accountDualPlay").value = '';
+                                                document.getElementById("dualplayPlan").value = '';
+                                                document.getElementById("dualplayIPTV").value = '';
+                                                document.getElementById("dualplayLockin").value = '';
+                                                document.getElementById("dualplayPromo").value = '';
+                                                document.getElementById("dualplayProperty").value = '';
+                                                document.getElementById("dualplayCignal").value = '';
+                                                document.getElementById("ticketDualPlay").value = '';
+
+                                                document.getElementById("accountStandalone").value = '';
+                                                document.getElementById("standalonePlan").value = '';
+                                                document.getElementById("standaloneLockin").value = '';
+                                                document.getElementById("standalonePromo").value = '';
+                                                document.getElementById("standaloneProperty").value = '';
+                                                document.getElementById("standaloneCignal").value = '';
+
+                                                document.getElementById("notes").value = '';
+
+                                                checkNotesValue();
+                                            }
+                                        </script>
+
+                                    </div>
+
+                                </div>  <!-- end card-body -->
+                            </div>  <!-- end card -->
+                        </div>  <!-- end col -->
+                    </div> <!-- end row -->
+        
+                </div> <!-- container -->
+
+            </div> <!-- content -->
+
+            <!-- Footer -->
+            <footer class="footer">
+                <div class="container-fluid">
+                    <div class="row small">
+                        <div class="col-md-6">
+                            <span>Project Initiative 2022-<script>document.write(new Date().getFullYear())</script></span>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="text-md-end footer-links d-none d-md-block">
+                                <a href="javascript: void(0);">&copy; Integrated Activations Tool</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        </div> <!-- end container page -->
+
+    </div> <!-- end wrapper -->
+
+    <script src="assets/js/vendor.min.js"></script>
+    <script src="assets/js/app.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,539 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>HPA Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Integrated Activations Tool" name="description">
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" id="light-style">
+    <link href="assets/css/app-dark.min.css" rel="stylesheet" type="text/css" id="dark-style">
+</head>
+<body class="loading">
+    <div class="wrapper">
+        
+        <!-- Sidebar -->
+        <div class="leftside-menu">
+            <a href="index.html" class="logo text-center lo go-light">
+                <span class="logo-lg"><img src="assets/images/logo.png" alt="" height="46"></span>
+                <span class="logo-sm"><img src="assets/images/logo_sm.png" alt="" height="46"></span>
+            </a>
+            <a href="index.html" class="logo text-center logo-dark">
+                <span class="logo-lg"><img src="assets/images/logo-light.png" alt="" height="46"></span>
+                <span class="logo-sm"><img src="assets/images/logo_sm_dark.png" alt="" height="46"></span>
+            </a>
+
+            <!--- Sidemenu -->
+            <div class="h-100">
+                <ul class="side-nav">
+                    <li class="side-nav-title side-nav-item">Home</li>
+                    <li class="side-nav-item">
+                        <a href="index.html" class="side-nav-link"><i class="uil-home-alt"></i><span>Dashboard</span></a>
+                    </li>
+
+                    <li class="side-nav-title side-nav-item">Custom</li>
+                    <li class="side-nav-item">
+                        <a data-bs-toggle="collapse" href="#sidebarNotesGenerator" aria-expanded="false" aria-controls="sidebarNotesGenerator" class="side-nav-link">
+                            <i class="uil-copy-alt"></i><span>Notes Generator</span><span class="menu-arrow"></span>
+                        </a>
+                        <div class="collapse" id="sidebarNotesGenerator">
+                            <ul class="side-nav-second-level">
+                                <li><a href="notes-for_activation.html">For Activation</a></li>
+                                <li><a href="notes-unsuccessful.html">Unsuccessful</a></li>
+                                <li><a href="notes-with_compliance.html">With Compliance</a></li>
+                                <li><a href="notes-docs_and_sup_for_approval.html">Docs and Sup Approval</a></li>
+                                <li><a href="notes-pldt_and_radius.html">PLDT and Radius</a></li>
+                                <li><a href="notes-demo_and_syndication.html">Demo and Syndication</a></li>
+                                <li><a href="notes-vsat.html">VSAT</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="side-nav-title side-nav-item">Utilities</li>
+                    <li class="side-nav-item"><a href="utilities-hpa_calculator.html" class="side-nav-link"><i class="uil-calcualtor"></i><span>HPA Calculator</span></a></li>
+                    <li class="side-nav-item"><a href="utilities-email_template.html" class="side-nav-link"><i class="uil-envelope-edit"></i><span>Email Template</span></a></li>
+
+                    <li class="side-nav-title side-nav-item mt-1">Plugins</li>
+                    <li class="side-nav-item"><a href="tables-promo_matrix.html" class="side-nav-link"><i class="uil-store"></i><span>Promo Matrix</span></a></li>
+                    <li class="side-nav-item"><a href="tables-channel_lineup.html" class="side-nav-link"><i class="uil-tv-retro"></i><span>Channel Line-up</span></a></li>
+                    <li class="side-nav-item"><a href="tables-id_only.html" class="side-nav-link"><i class="uil-user-square"></i><span>Salesman Code</span></a></li>
+                    <li class="side-nav-item"><a href="tables-mdu.html" class="side-nav-link"><i class="uil-building"></i><span>MDU Address</span></a></li>
+
+                    <li class="side-nav-item">
+                        <a data-bs-toggle="collapse" href="#sidebarBarangay" aria-expanded="false" aria-controls="sidebarMaps" class="side-nav-link">
+                            <i class="uil-location-point"></i><span>List of Barangay</span><span class="menu-arrow"></span>
+                        </a>
+                        <div class="collapse" id="sidebarBarangay">
+                            <ul class="side-nav-second-level">
+                                <li><a href="tables-caloocan.html">Barangay in Caloocan</a></li>
+                                <li><a href="tables-manila.html">Barangay in Manila</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+                <div class="clearfix"></div>
+            </div><!-- end Sidemenu -->
+
+        </div><!-- end Sidebar -->
+
+        <!-- Content -->
+        <div class="content-page">
+            <div class="content">
+
+                <!-- Topbar -->
+                <div class="navbar-custom">
+                    <ul class="list-unstyled topbar-menu float-end mb-0">
+                        <li class="notification-list">
+                            <a class="nav-link nav-user me-0">
+                                <span class="account-user-avatar"><img src="assets/images/users/user_nate.png" alt="user-image" class="rounded-circle"></span>
+                                <span>
+                                    <span class="account-user-name">Customer Experience Group</span>
+                                    <span class="account-position">Activation Officer</span>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <button class="button-menu-mobile open-left"><i class="mdi mdi-menu"></i></button>
+                </div>
+
+                    <!-- Container -->
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="page-title-box">
+                                    <div class="page-title-right">
+                                        <ol class="breadcrumb m-0">
+                                            <li class="breadcrumb-item"><a href="index.html">Integrateds Activation Tool</a></li>
+                                            <li class="breadcrumb-item active">HPA Calculator</li>
+                                        </ol>
+                                    </div>
+                                    <h5 class="page-title">HPA CALCULATOR</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">   
+                            <div class="col-4">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h4 class="header-title text-center"></h4>
+                                        <div class="mb-3 text-center">
+                                            <label class="form-label fw-bold text-danger">Electric Bill / Income :</label>
+                                            <input type="text" id="input" class="form-control text-center" placeholder="Enter amount here..." onkeypress="return (event.charCode !=8 && event.charCode == 0 || ( event.charCode == 46 || 
+                                                (event.charCode >= 48 && event.charCode <= 57)))">
+                                        </div>
+                                        <div class="mb-3 text-center">
+                                            <label class="form-label fw-bold text-danger">Highest Plan Available :</label>
+                                            <textarea class="form-control fw-bold text-dark text-center" rows="5" id="resultHPA" readonly></textarea>
+                                        </div>
+                                        <div class="d-flex flex-row justify-content-center">
+                                            <button class="btn btn-info me-2" id="electricBill" onclick="electricHPA()">Electric</button>
+                                            <button class="btn btn-info me-2" id="incomeProof" onclick="incomeHPA()">Income</button>
+                                            <button class="btn btn-danger" id="reset" onclick="resetAll()">Reset</button>
+                                        </div>
+
+                                        <script type="text/javascript">
+                                            function electricHPA() {
+                                                var electric;
+                                                var amount = document.getElementById("input").value;
+    
+                                                if(amount == '' ) {
+                                                    electric = "Please input any amount!";
+                                                }
+                                                else if(amount < 600) {
+                                                    electric = "Electric Bill amount didn't meet the minimum HPA";
+                                                }
+                                                else if(amount < 1000 && amount >= 600) {
+                                                    electric = "290 1 BOX";
+                                                }
+                                                else if(amount >= 1000 && amount < 1300) {
+                                                    electric = "520 1 BOX / 290 2 BOXES";
+                                                }
+                                                else if(amount >= 1300 && amount < 1400) {
+                                                    electric = "720, 520 1 BOX / 290 2 BOXES";
+                                                }
+                                                else if(amount >= 1400 && amount < 1500) {
+                                                    electric = "720 1 BOX / 520, 290 2 BOXES";
+                                                }
+                                                else if(amount >= 1500 && amount < 1700) {
+                                                    electric = "720 1 BOX / 520 2 BOXES / 290 3 BOXES";
+                                                }
+                                                else if(amount >= 1700 && amount < 2000) {
+                                                    electric = "720, 520 2 BOXES / 290 3 BOXES";
+                                                }
+                                                else if(amount >= 2000 && amount < 2200) {
+                                                    electric = "1050 1 BOX / 720 2 BOXES / 520, 290 3 BOXES";
+                                                }
+                                                else if(amount >= 2200 && amount < 2500) {
+                                                    electric = "1050 1 BOX / 720,  520, 290 3 BOXES";
+                                                }
+                                                else if(amount >= 2500 && amount < 2600) {
+                                                    electric = "1050 2 BOXES / 720, 520, 290 3 BOXES";
+                                                }
+                                                else if(amount >= 2600 && amount < 2900) {
+                                                    electric = "1350 1 BOX, 1050 2 BOXES / 720, 520, 290 3 BOXES";
+                                                }
+                                                else if(amount >= 2900 && amount < 3000) {
+                                                    electric = "1350 1 BOX / 1050, 720, 520, 290 3 BOXES";
+                                                }
+                                                else if(amount >= 3000 && amount < 3200) {
+                                                    electric = "1350 2 BOXES / 1050, 720, 520, 290 3 BOXES";
+                                                }
+                                                else if(amount >= 3200 && amount < 3500) {
+                                                    electric = "1990, 1650 1 BOX / 1350 2 BOXES / 1050, 720, 520, 290 3 BOXES";
+                                                }
+                                                else if(amount >= 3500 && amount < 3700) {
+                                                    electric = "1990, 1650 1 BOX / 1350, 1050, 720, 520, 290 3 BOXES";
+                                                }
+                                                else if(amount >= 3700 && amount < 4100) {
+                                                    electric = "1990, 1650 2 BOXES / 1350, 1050, 720, 520, 290 3 BOXES";
+                                                }
+                                                else if(amount >= 4100 && amount < 4600) {
+                                                    electric = "1990, 1650, 1350, 1050, 720, 520, 290 3 BOXES";
+                                                }
+                                                else if(amount >= 4600) {
+                                                    electric = "1990 4 BOXES";
+                                                } 
+
+                                                document.getElementById("resultHPA").value = electric;
+                                            }
+
+                                            function incomeHPA() {
+                                                var income;
+                                                var payslip = document.getElementById("input").value;	
+    
+                                                if(payslip == '') {
+                                                    income = "Please input any amount!";
+                                                } 
+                                                else if(payslip < 9700) {
+                                                    income = "Income amount didn't meet the minimum HPA";
+                                                }
+                                                else if(payslip >= 9700 && payslip < 16300) {
+                                                    income = "290 1 BOX";
+                                                }
+                                                else if(payslip >= 16300 && payslip < 17300) {
+                                                    income = "520, 290 1 BOX";
+                                                }
+                                                else if(payslip >= 17300 && payslip < 21000) {
+                                                    income = "520 1 BOX / 290 2 BOXES";
+                                                }
+                                                else if(payslip >= 21000 && payslip < 24000) {
+                                                    income = "720, 520 1 BOX / 290 2 BOXES";
+                                                }
+                                                else if(payslip >= 24000 && payslip < 25000) {
+                                                    income = "720 1 BOX / 520, 290 2 BOXES";
+                                                }
+                                                else if(payslip >= 25000 && payslip < 28700) {
+                                                    income = "720 1 BOX / 520 2 BOXES / 290 3 BOXES";
+                                                }
+                                                else if(payslip >= 28700 && payslip < 31700) {
+                                                    income = "720, 520 2 BOXES / 290 3 BOXES";
+                                                }
+                                                else if(payslip >= 31700 && payslip < 33000) {
+                                                    income = "720 2 BOXES / 520, 290 3 BOXES";
+                                                }
+                                                else if(payslip >= 33000 && payslip < 36300) {
+                                                    income = "1050 1 BOX / 720 2 BOXES / 520, 290 3 BOXES";
+                                                }
+                                                else if(payslip >= 36300 && payslip < 40700) {
+                                                    income = "1050 1 BOX / 720, 520, 290 3 BOXES";
+                                                }
+                                                else if(payslip >= 40700 && payslip < 43000) {
+                                                    income = "1050 2 BOXES / 720, 520, 290 3 BOXES";
+                                                }
+                                                else if(payslip >= 43000 && payslip < 48300) {
+                                                    income = "1350 1 BOX / 1050 2 BOXES / 720, 520, 420 3 BOXES";
+                                                }
+                                                else if(payslip >= 48300 && payslip < 50700) {
+                                                    income = "1350 1 BOX / 1050, 720, 520, 290 3 BOXES";
+                                                }
+                                                else if(payslip  >= 50700 && payslip < 53000) {
+                                                    income = "1350 2 BOXES / 1050, 720, 520, 290 3 BOXES";
+                                                }
+                                                else if(payslip >= 53000 && payslip < 58300) {
+                                                    income = "1990, 1650 1 BOX / 1350 2 BOXES / 1050, 720, 520, 290 3 BOXES";
+                                                }
+                                                else if(payslip >= 58300 && payslip < 60700) {
+                                                    income = "1990, 1650 1 BOX / 1350, 1050, 720, 520, 290 3 BOXES";
+                                                }
+                                                else if(payslip >= 60700 && payslip < 68300) {
+                                                    income = "1990, 1650 2 BOXES / 1350, 1050, 720, 520, 290 3 BOXES";
+                                                }
+                                                else if(payslip >= 68300 && payslip < 76000) {
+                                                    income = "1990, 1650, 1350, 1050, 720, 520, 290 3 BOXES";
+                                                }
+                                                else if(payslip >= 76000) {
+                                                    income = "1990 4 BOXES";
+                                                }
+
+                                                document.getElementById("resultHPA").value = income;
+                                            }
+
+                                            function resetAll() {
+                                                document.getElementById("input").value = "";
+                                                document.getElementById("resultHPA").value = "";
+                                            }
+
+                                        </script>
+                                    </div> <!-- end card body-->
+                                </div> <!-- end card -->
+                            </div><!-- end col-->
+
+                            <div class="col-8">
+                                <div class="card">
+                                    <div class="card-body">
+                                    <h4 class="header-title">Financial Plan Matrix</h4>
+                                    
+                                    <ul class="nav nav-tabs nav-bordered mb-3">
+                                        <li class="nav-item">
+                                            <a href="#electric-bill" data-bs-toggle="tab" aria-expanded="false" class="nav-link active">Electric Bill</a>
+                                        </li>
+                                        <li class="nav-item">
+                                            <a href="#income" data-bs-toggle="tab" aria-expanded="true" class="nav-link">Income</a>
+                                        </li>
+                                    </ul>
+
+                                        <div class="tab-content">
+                                            <div class="tab-pane show active" id="electric-bill">
+                                                <div class="table-responsive-sm">
+                                                    <table class="table table-bordered table-hover text-center table-centered mb-0">
+                                                        <thead class="table-danger">
+                                                            <tr>
+                                                                <th rowspan="2">Plan</th>
+                                                                <th colspan="4">ELECTRIC BILL - LEASE</th>
+                                                                <th colspan="4">ELECTRIC BILL - FLEXI and LITE</th>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>1 Box</th>
+                                                                <th>2 Boxes</th>
+                                                                <th>3 Boxes</th>
+                                                                <th>4 Boxes</th>
+                                                                <th>1 Box</th>
+                                                                <th>2 Boxes</th>
+                                                                <th>3 Boxes</th>
+                                                                <th>4 Boxes</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="fw-bold">290</td>
+                                                                <td>900</td>
+                                                                <td>1,300</td>
+                                                                <td>1,800</td>
+                                                                <td>N/A</td>
+                                                                <td>600</td>
+                                                                <td>1,000</td>
+                                                                <td>1,500</td>
+                                                                <td>N/A</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="fw-bold">520</td>
+                                                                <td>1,300</td>
+                                                                <td>1,700</td>
+                                                                <td>2,200</td>
+                                                                <td>N/A</td>
+                                                                <td>1,000</td>
+                                                                <td>1,400</td>
+                                                                <td>2,000</td>
+                                                                <td>N/A</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="fw-bold">720</td>
+                                                                <td>1,600</td>
+                                                                <td>2,000</td>
+                                                                <td>2,500</td>
+                                                                <td>N/A</td>
+                                                                <td>1,300</td>
+                                                                <td>1,700</td>
+                                                                <td>2,200</td>
+                                                                <td>N/A</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="fw-bold">1050</td>
+                                                                <td>2,200</td>
+                                                                <td>2,600</td>
+                                                                <td>3,100</td>
+                                                                <td>N/A</td>
+                                                                <td>2,000</td>
+                                                                <td>2,500</td>
+                                                                <td>2,900</td>
+                                                                <td>N/A</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="fw-bold">1350</td>
+                                                                <td>2,800</td>
+                                                                <td>3,200</td>
+                                                                <td>3,700</td>
+                                                                <td>N/A</td>
+                                                                <td>2,600</td>
+                                                                <td>3,000</td>
+                                                                <td>3,500</td>
+                                                                <td>N/A</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="fw-bold">1650</td>
+                                                                <td>3,400</td>
+                                                                <td>3,800</td>
+                                                                <td>4,300</td>
+                                                                <td>4,800</td>
+                                                                <td>3,200</td>
+                                                                <td>3,700</td>
+                                                                <td>4,100</td>
+                                                                <td>4,600</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="fw-bold">1990</td>
+                                                                <td>3,400</td>
+                                                                <td>3,800</td>
+                                                                <td>4,300</td>
+                                                                <td>4,800</td>
+                                                                <td>3,200</td>
+                                                                <td>3,700</td>
+                                                                <td>4,100</td>
+                                                                <td>4,600</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>                   
+                                            </div> <!-- end electric bill -->
+
+                                            <div class="tab-pane" id="income">
+                                                <div class="table-responsive-sm">
+                                                    <table class="table table-bordered table-hover text-center table-centered mb-0">
+                                                        <thead class="table-warning">
+                                                            <tr>
+                                                                <th rowspan="2">Plan</th>
+                                                                <th colspan="4">INCOME REQUIRED - LEASE</th>
+                                                                <th colspan="4">INCOME REQUIRED - FLEXI and LITE</th>
+                                                            </tr>
+                                                            <tr>
+                                                                <th>1 Box</th>
+                                                                <th>2 Boxes</th>
+                                                                <th>3 Boxes</th>
+                                                                <th>4 Boxes</th>
+                                                                <th>1 Box</th>
+                                                                <th>2 Boxes</th>
+                                                                <th>3 Boxes</th>
+                                                                <th>4 Boxes</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="fw-bold">290</td>
+                                                                <td>14,700</td>
+                                                                <td>22,300</td>
+                                                                <td>30,000</td>
+                                                                <td>N/A</td>
+                                                                <td>9,700</td>
+                                                                <td>17,300</td>
+                                                                <td>25,500</td>
+                                                                <td>N/A</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="fw-bold">520</td>
+                                                                <td>21,300</td>
+                                                                <td>29,000</td>
+                                                                <td>36,700</td>
+                                                                <td>N/A</td>
+                                                                <td>16,300</td>
+                                                                <td>24,000</td>
+                                                                <td>31,700</td>
+                                                                <td>N/A</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="fw-bold">720</td>
+                                                                <td>26,000</td>
+                                                                <td>33,700</td>
+                                                                <td>41,300</td>
+                                                                <td>N/A</td>
+                                                                <td>21,000</td>
+                                                                <td>28,700</td>
+                                                                <td>36,300</td>
+                                                                <td>N/A</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="fw-bold">1050</td>
+                                                                <td>36,300</td>
+                                                                <td>44,000</td>
+                                                                <td>51,700</td>
+                                                                <td>N/A</td>
+                                                                <td>33,000</td>
+                                                                <td>40,700</td>
+                                                                <td>48,300</td>
+                                                                <td>N/A</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="fw-bold">1350</td>
+                                                                <td>46,300</td>
+                                                                <td>54,000</td>
+                                                                <td>61,700</td>
+                                                                <td>N/A</td>
+                                                                <td>43,000</td>
+                                                                <td>50,700</td>
+                                                                <td>58,300</td>
+                                                                <td>N/A</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="fw-bold">1650</td>
+                                                                <td>56,300</td>
+                                                                <td>64,000</td>
+                                                                <td>71,700</td>
+                                                                <td>79,300</td>
+                                                                <td>53,000</td>
+                                                                <td>60,700</td>
+                                                                <td>68,300</td>
+                                                                <td>76,000</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="fw-bold">1990</td>
+                                                                <td>56,300</td>
+                                                                <td>64,000</td>
+                                                                <td>71,700</td>
+                                                                <td>79,300</td>
+                                                                <td>53,000</td>
+                                                                <td>60,700</td>
+                                                                <td>68,300</td>
+                                                                <td>76,000</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div> <!-- end income -->
+                                        </div> <!-- end tab-content-->
+
+                                    </div> <!-- end card body-->
+                                </div> <!-- end card -->
+                            </div> <!-- end col-->
+                        </div> <!-- end row-->
+
+                    </div> <!-- container -->
+
+                </div> <!-- content -->
+
+            <!-- Footer -->
+            <footer class="footer">
+                <div class="container-fluid">
+                    <div class="row small">
+                        <div class="col-md-6">
+                            <span>Project Initiative 2022-<script>document.write(new Date().getFullYear())</script></span>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="text-md-end footer-links d-none d-md-block">
+                                <a href="javascript: void(0);">&copy; Integrated Activations Tool</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        </div> <!-- end container page -->
+
+    </div> <!-- end wrapper -->
+
+    <!-- bundle -->
+    <script src="assets/js/vendor.min.js"></script>
+    <script src="assets/js/app.min.js"></script>
+
+</body>
+</html>
