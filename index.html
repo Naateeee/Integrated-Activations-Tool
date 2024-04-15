@@ -121,7 +121,7 @@
                                 <div class="col-lg-12">
                                     <div class="card border ribbon-box">
                                         <div class="card-body">
-                                            <div class="ribbon ribbon-danger float-start"><i class="mdi mdi-access-point me-1"></i>Project Initiative</div>
+                                            <div class="ribbon ribbon-primary float-start"><i class="mdi mdi-access-point me-1"></i>Project Initiative</div>
                                             <h4 class="text-primary float-end mt-0 header-title mb-3"></h4>
 
                                             <div class="ribbon-content">
@@ -134,56 +134,89 @@
                                                     </thead>
                                                     <tbody>
                                                     <tr>
-                                                        <td><abbrv>I. Additional Acceptable POB</abbrv><br>
-                                                            <abbrv>• Bank Statement</abbrv><br>
-                                                            <abbrv>• Insurance SOA</abbrv><br>
-                                                            <abbrv>• Radius SOA</abbrv>
+                                                        <td><ol type="I">
+                                                                <li>Additional Acceptable PO</li>
+                                                                <ul style="list-style-type: disc;">
+                                                                    <li>Bank Statement</li>
+                                                                    <li>Insurance SOA</li>
+                                                                    <li>Radius SOA</li>
+                                                                </ul>
+                                                            </ol>
                                                         </td>
-                                                        <td><abbrv>1. Validate POB presented</abbrv><br>
-                                                            <abbrv>2. Proceed activation</abbrv><br>
-                                                            <abbrv>3. HPA - Plan 1990 4 boxes</abbrv><br>
-                                                            <abbrv>4. No need to create Sup approval ticket</abbrv>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td><abbrv>II. Electric Bill - does not meet required amount for the desired plan</abbrv><br>
-                                                            <abbrv>III. POB - not under subscriber's name</abbrv><br>
-                                                        </td>
-                                                        <td><abbrv>1. Validate POB presented</abbrv><br>
-                                                            <abbrv>2. Proceed activation</abbrv><br>
-                                                            <abbrv>3. HPA - Plan Avail</abbrv><br>
-                                                            <abbrv>4. No need to create Sup approval ticket</abbrv>
+                                                        <td><ol type="1" class="mb-0">
+                                                                <li>Validate POB presented</li>
+                                                                <li>Proceed activation</li>
+                                                                <li>HPA - Plan 1990 4 boxes</li>
+                                                                <li>No need to create Sup approval ticket</li>
+                                                            </ol>
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td>
-                                                            <abbrv>IV. Electric Bill - Disconnection Notice</abbrv><br>
+                                                        <td><ol type="I" start="2">
+                                                                <li>Electric Bill - does not meet required amount for the desired plan</li>
+                                                                <li>POB - not under subscriber's name</li>
+                                                            </ol>
                                                         </td>
-                                                        <td><abbrv>1. Validate POB presented</abbrv><br>
-                                                            <abbrv>2. Proceed activation</abbrv><br>
-                                                            <abbrv>3. HPA - Based on Financial Matrix</abbrv><br>
-                                                            <abbrv>4. No need to create Sup approval ticket</abbrv>
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>
-                                                            <abbrv>V. POB - Payment Receipt</abbrv><br>
-                                                        </td>
-                                                        <td><abbrv>1. Validate POB presented</abbrv><br>
-                                                            <abbrv>2. Proceed activation</abbrv><br>
-                                                            <abbrv>3. E-bill required</abbrv><br>
-                                                            <abbrv>4. HPA - Based on Financial Matrix</abbrv><br>
-                                                            <abbrv>5. No need to create Sup approval ticket</abbrv>
+                                                        <td><ol type="1" class="mb-0">
+                                                                <li>Validate POB presented</li>
+                                                                <li>Proceed activation</li>
+                                                                <li>HPA - Plan Avail</li>
+                                                                <li>No need to create Sup approval ticket</li>
+                                                            </ol>
                                                         </td>
                                                     </tr>
                                                     <tr>
-                                                        <td>
-                                                            <abbrv>VI. POID - No Signature</abbrv><br>
+                                                        <td><ol type="I" start="4">
+                                                                <li>Electric Bill - Disconnection Notice</li>
+                                                            </ol>
                                                         </td>
-                                                        <td><abbrv>1. Validate POID presented & signatory</abbrv><br>
-                                                            <abbrv>2. Proceed activation once approved</abbrv><br>
-                                                            <abbrv>3. No need to create Sup approval ticket</abbrv>
+                                                        <td><ol type="1" class="mb-0">
+                                                                <li>Validate POB presented</li>
+                                                                <li>Proceed activation</li>
+                                                                <li>HPA - Based on Financial Matrix</li>
+                                                                <li>No need to create Sup approval ticket</li>
+                                                            </ol>
                                                         </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><ol type="I" start="5">
+                                                                <li>POB - Payment Receipt</li>
+                                                            </ol>
+                                                        </td>
+                                                        <td><ol type="1" class="mb-0">
+                                                                <li>Validate POB presented</li>
+                                                                <li>Proceed activation</li>
+                                                                <li>E-bill required</li>
+                                                                <li>HPA - Based on Financial Matrix</li>
+                                                                <li>No need to create Sup approval ticket</li>
+                                                            </ol>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><ol type="I" start="6">
+                                                                <li>POID - No Signature</li>
+                                                            </ol>
+                                                        </td>
+                                                        <td><ol type="1" class="mb-0">
+                                                                <li>Validate POID presented & signatory</li>
+                                                                <li>Proceed activation once approved</li>
+                                                                <li>No need to create Sup approval ticket</li>
+                                                            </ol>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><ol type="I" start="7">
+                                                                <li>Disapproval Codes</li>
+                                                                <ul style="list-style-type: disc;">
+                                                                    <li>DXB - Tampered POB</li>
+                                                                    <li>DXI - Tampered POID</li>
+                                                                    <li>DXH - Installed in different house</li>
+                                                                    <li>DXF - Fraud Call</li>
+                                                                    <li>DXA - Previously Disapproved Account</li>
+                                                                </ul>
+                                                            </ol>
+                                                        </td>
+                                                        <td></td>
                                                     </tr>
                                                     </tbody>
                                                 </table>
@@ -201,65 +234,109 @@
                                 <div class="col-lg-12">
                                     <div class="card border ribbon-box">
                                         <div class="card-body">
-                                            <div class="ribbon ribbon-danger float-start"><i class="mdi mdi-access-point me-1"></i>Disapproval Codes</div>
-                                            <h4 class="text-danger float-start mt-0 header-title mb-3"></h4>
-
-                                            <div class="ribbon-content">
-                                                <table class="table mb-0 table-responsive table-hover table-bordered">
-                                                    <thead class="table-light">
-                                                    <tr>
-                                                        <th>Reason for Disapproval</th>
-                                                        <th>Code</th>
-                                                    </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                    <tr>
-                                                        <td>Tampered POB</td>
-                                                        <td>DXB</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Tampered POID</td>
-                                                        <td>DXI</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Installed in different house</td>
-                                                        <td>DXH</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Fraud Call</td>
-                                                        <td>DXF</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Previously Disapproved Account</td>
-                                                        <td>DXA / (previously disapprove reason)</td>
-                                                    </tr>
-                                                    </tbody>
-                                                </table>
-                                            </div> <!-- end ribbon-content -->
-
-                                        </div> <!-- end card-body-->
-                                    </div> <!-- end card-->
-                                </div> <!-- end col -->
-                            </div> <!-- end row -->
-
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="card border ribbon-box">
-                                        <div class="card-body">
-                                            <div class="ribbon ribbon-danger float-start"><i class="mdi mdi-access-point me-1"></i>Activations Handling</div>
+                                            <div class="ribbon ribbon-primary float-start"><i class="mdi mdi-access-point me-1"></i>Activations Handling</div>
                                             <h4 class="text-warning float-start mt-0 header-title mb-3"></h4>
                                             <div class="ribbon-content">
-                                                <h5 class="mb-0">Telesales Account</h5>
-                                                <p class="card-text">TELESALES in Source field is no longer mandatory</p>
-                                                <h5 class="mb-0">Unsuccessful call out</h5>
-                                                <p class="card-text">INVALID in Type field is no longer mandatory</p>
-                                                <h5 class="mb-0">Call out Notes</h5>
-                                                <p class="card-text mb-0">I. <u>Called Number</u> - no need to indicate contact number if number called is available in SMS and based on SAF</p>
-                                                <p class="card-text mb-0">II. <u>Items Discussed</u> - unnecessary to indicate the plan and number of boxes if indicated in SAF (will put notes all discrepancies between SAF and call out)</p>
-                                                <p class="card-text">III. <u>Email address</u>, <u>Address</u> (Billing & Installation) - no need to indicate if written in SAF / if during call out there are discrepancies - AO will indicate based on SAF and put necessary details in SMS field accurately.</p>
-                                                <h5 class="mb-0">Activation Notes</h5>
-                                                <p class="card-text mb-0">I. <u>Plan Avail</u>, <u>Number of Boxes</u> and <u>Promotion</u> are no longer mandatory</p>
-                                                <p class="card-text">II. <u>HPA</u> and <u>Ticket Number</u> will retain</p>
+                                                <h5>Telesales Account</h5>
+                                                <ul><li><u>TELESALES</u> in Source field is no longer mandatory</li></ul>
+                                                <h5>Unsuccessful call out</h5>
+                                                <ol type="I">
+                                                    <li><u>INVALID</u> in Type field is no longer mandatory</li>
+                                                    <li class="mb-1">Unsuccessful attempts - <u>3rd day</u></li>
+                                                        <ul>
+                                                            <table class="table-bordered table-centered mb-2">
+                                                                <tr>
+                                                                    <td class="fw-bold text-end">Status :</td>
+                                                                    <td>Closed</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="fw-bold text-end">Priority :</td>
+                                                                    <td>Medium</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="fw-bold text-end">Classification :</td>
+                                                                    <td>Request</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="fw-bold text-end">Service :</td>
+                                                                    <td>Activation</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="fw-bold text-end">Category :</td>
+                                                                    <td>Process for Activation</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="fw-bold text-end">Assigned To :</td>
+                                                                    <td>Assigned to Requesting TP</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="fw-bold text-end">Type :</td>
+                                                                    <td>Invalid</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td class="fw-bold text-end">1st party call out :</td>
+                                                                    <td>Unsuccessful call out</td>
+                                                                </tr>
+                                                            </table>
+                                                        </ul>
+                                                    <li class="mb-1">If application is <u>CANCELLED</u></li>
+                                                    <ul>
+                                                        <table class="table-bordered table-centered mb-2">
+                                                            <tr>
+                                                                <td class="fw-bold text-end">Status :</td>
+                                                                <td>Closed</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="fw-bold text-end">Priority :</td>
+                                                                <td>Medium</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="fw-bold text-end">Classification :</td>
+                                                                <td>Request</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="fw-bold text-end">Service :</td>
+                                                                <td>Activation</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="fw-bold text-end">Category :</td>
+                                                                <td>Process for Activation</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="fw-bold text-end">Assigned To :</td>
+                                                                <td>Concerned TP</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="fw-bold text-end">Type :</td>
+                                                                <td>Leave blank</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="fw-bold text-end">Resolution text field :</td>
+                                                                <td>Reason for cancellation/hold</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="fw-bold text-end">Source :</td>
+                                                                <td>if the ticket request is from the following then modify if not stated:
+                                                                    <ol type="1">
+                                                                        <li>Telesales: Telesales</li>
+                                                                        <li>In-Line Store: In-Line Store</li>
+                                                                    </ol>
+                                                                </td>
+                                                            </tr>
+                                                        </table>
+                                                    </ul>
+                                                </ol>
+                                                <h5>Call out Notes</h5>
+                                                <ol type="I">
+                                                    <li><u>Called Number</u> - no need to indicate contact number if number called is available in SMS and based on SAF</li>
+                                                    <li><u>Items Discussed</u> - unnecessary to indicate the plan and number of boxes if indicated in SAF (will put notes all discrepancies between SAF and call out)</li>
+                                                    <li><u>Email address</u>, <u>Address</u> (Billing & Installation) - no need to indicate if written in SAF / if during call out there are discrepancies - AO will indicate based on SAF and put necessary details in SMS field accurately.</li>
+                                                </ol>
+                                                <h5>Activation Notes</h5>
+                                                <ol type="I">
+                                                    <li><u>Plan Avail</u>, <u>Number of Boxes</u> and <u>Promotion</u> are no longer mandatory</li>
+                                                    <li><u>HPA</u> and <u>Ticket Number</u> will retain</li>
+                                                </ol>
                                             </div>
                                         </div> <!-- end card-body-->
                                     </div> <!-- end card-->
