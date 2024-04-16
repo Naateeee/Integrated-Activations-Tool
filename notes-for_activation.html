@@ -85,7 +85,7 @@
                 <div class="navbar-custom">
                     <ul class="list-unstyled topbar-menu float-end mb-0">
                         <li class="notification-list">
-                            <a class="nav-link nav-user me-0">
+                            <a class="nav-link nav-user me-0 text-dark">
                                 <span class="account-user-avatar"><img src="assets/images/users/user_nate.png" alt="user-image" class="rounded-circle"></span>
                                 <span>
                                     <span class="account-user-name">Customer Experience Group</span>
@@ -106,10 +106,10 @@
                                     <ol class="breadcrumb m-0">
                                         <li class="breadcrumb-item"><a href="index.html">Integrateds Activation Tool</a></li>
                                         <li class="breadcrumb-item"><a href="#">Notes Generator</a></li>
-                                        <li class="breadcrumb-item active">For Activation</li>
+                                        <li class="breadcrumb-item fw-bold">For Activation</li>
                                     </ol>
                                 </div>
-                                <h5 class="page-title">SUCCESSFUL CALL OUT FOR ACTIVATION</h5>
+                                <h5 class="page-title text-dark">SUCCESSFUL CALL OUT FOR ACTIVATION</h5>
                             </div>
                         </div>
                     </div>
@@ -126,7 +126,7 @@
                                                 <div class="row mb-2">
                                                     <label class="col-4 col-form-label text-md-end text-danger">Phone Verification:</label>
                                                     <div class="col-8">
-                                                        <select class="form-select" id="phone" oninput="forActivation()">
+                                                        <select class="form-select text-dark" id="phone" oninput="forActivation()">
                                                             <option></option>
                                                             <option>Successful Call Out using Avaya</option>
                                                             <option>Successful Call Out using Dialer</option>
@@ -137,7 +137,7 @@
                                                 <div class="row mb-2">
                                                     <label class="col-4 col-form-label text-md-end text-danger">1st Party Call Out:</label>
                                                     <div class="col-8">
-                                                        <select class="form-select" id="call" oninput="forActivation()">
+                                                        <select class="form-select text-dark" id="call" oninput="forActivation()">
                                                             <option></option>
                                                             <option>Not Applicable</option>
                                                             <option>Customer</option>
@@ -151,22 +151,22 @@
                                                 <div class="row mb-2">
                                                     <label class="col-4 col-form-label text-md-end text-danger">Items Discussed:</label>
                                                     <div class="col-8">
-                                                        <input class="form-control" id="items" oninput="forActivation()">
+                                                        <input class="form-control text-dark" id="items" oninput="forActivation()">
                                                     </div>
                                                 </div>
                                                 <br>
 
                                                 <div class="dropdown float-end">
-                                                    <a href="#" class="dropdown-toggle card-drop" data-bs-toggle="dropdown" aria-expanded="false"></a>
+                                                    <a href="#" class="dropdown-toggle card-drop text-dark" data-bs-toggle="dropdown" aria-expanded="false"></a>
                                                     <div class="dropdown-menu dropdown-menu-end">
                                                         <a class="dropdown-item" role="button" onclick="copiedOption('PLAN AVAIL')"><i class="uil-shopping-trolley"></i>
-                                                            <span class="small">&nbsp;Plan Avail</span></a>
+                                                            <span class="small text-dark">&nbsp;Plan Avail</span></a>
                                                         <a class="dropdown-item" role="button" onclick="copiedOption('290 1 BOX')"><i class="uil-shopping-trolley"></i>
-                                                            <span class="small">&nbsp;290 1 Box</span></a>
+                                                            <span class="small text-dark">&nbsp;290 1 Box</span></a>
                                                         <a class="dropdown-item" role="button" onclick="copiedOption('520 3 BOXES')"><i class="uil-shopping-trolley"></i>
-                                                            <span class="small">&nbsp;520 3 Boxes</span></a>
+                                                            <span class="small text-dark">&nbsp;520 3 Boxes</span></a>
                                                         <a class="dropdown-item" role="button" onclick="copiedOption('1990 4 BOXES')"><i class="uil-shopping-trolley"></i>
-                                                            <span class="small">&nbsp;1990 4 Boxes</span></a>
+                                                            <span class="small text-dark">&nbsp;1990 4 Boxes</span></a>
 
                                                         <script type="text/javascript">
                                                             function copiedOption(option) {
@@ -180,13 +180,13 @@
                                                 <div class="row mb-2">
                                                     <label class="col-4 col-form-label text-md-end text-danger">Highest Plan:</label>
                                                     <div class="col-8">
-                                                        <input class="form-control" id="hpa" oninput="forActivation()">
+                                                        <input class="form-control text-dark" id="hpa" oninput="forActivation()">
                                                     </div>
                                                 </div>
                                                 <div class="row mb-2">
                                                     <label class="col-4 col-form-label text-md-end text-danger">Ticket Number:</label>
                                                     <div class="col-8">
-                                                        <input class="form-control" id="ticket" oninput="forActivation()">
+                                                        <input class="form-control text-dark" id="ticket" oninput="forActivation()">
                                                     </div>
                                                 </div>
                                             </form>
@@ -196,7 +196,7 @@
                                             <h4 class="header-title mb-3 text-dark">Notes Result</h4>
                                             <form>
                                                 <div class="mb-2">
-                                                    <textarea style="height: 300px;" class="form-control text-dark" id="notes" readonly></textarea>
+                                                    <textarea style="height: 300px; color: black;" class="form-control" id="notes" readonly></textarea>
                                                 </div>
                                             </form>
                                         </div>
