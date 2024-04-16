@@ -4887,7 +4887,8 @@ fieldset:disabled .btn {
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
     color: #fff;
-    background-color: #727cf5
+    background-color: #727cf5;
+    font-weight: bolder
 }
 
 .nav-fill .nav-item,
@@ -13896,7 +13897,8 @@ body {
 .side-nav .side-nav-link:focus,
 .side-nav .side-nav-link:hover {
     color: #fff;
-    text-decoration: none
+    text-decoration: none;
+    font-weight: bolder;
 }
 
 .side-nav .side-nav-link span {
@@ -13958,7 +13960,8 @@ body {
 }
 
 .side-nav .menuitem-active>a {
-    color: #fff !important
+    color: #fff !important;
+    font-weight: bolder !important
 }
 
 [dir=ltr] .side-nav .side-nav-item .menu-arrow:before {
