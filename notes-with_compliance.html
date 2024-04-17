@@ -85,7 +85,7 @@
                 <div class="navbar-custom">
                     <ul class="list-unstyled topbar-menu float-end mb-0">
                         <li class="notification-list">
-                            <a class="nav-link nav-user me-0">
+                            <a class="nav-link nav-user me-0 text-dark">
                                 <span class="account-user-avatar"><img src="assets/images/users/user_nate.png" alt="user-image" class="rounded-circle"></span>
                                 <span>
                                     <span class="account-user-name">Customer Experience Group</span>
@@ -106,10 +106,10 @@
                                     <ol class="breadcrumb m-0">
                                         <li class="breadcrumb-item"><a href="index.html">Integrateds Activation Tool</a></li>
                                         <li class="breadcrumb-item"><a href="#">Notes Generator</a></li>
-                                        <li class="breadcrumb-item active">With Compliance</li>
+                                        <li class="breadcrumb-item fw-bold">With Compliance</li>
                                     </ol>
                                 </div>
-                                <h5 class="page-title">SUCCESSFUL CALL OUT WITH COMPLIANCE ISSUE</h5>
+                                <h5 class="page-title text-dark">SUCCESSFUL CALL OUT WITH COMPLIANCE ISSUE</h5>
                             </div>
                         </div>
                     </div>
@@ -126,7 +126,7 @@
                                                 <div class="row mb-2">
                                                     <label class="col-md-4 col-form-label text-md-end text-danger">Phone Verification:</label>
                                                     <div class="col-8">
-                                                        <select class="form-select" id="phone" oninput="withCompliance()">
+                                                        <select class="form-select text-dark" id="phone" oninput="withCompliance()">
                                                             <option></option>
                                                             <option>Successful Call Out using Avaya</option>
                                                             <option>Successful Call Out using Dialer</option>
@@ -137,7 +137,7 @@
                                                 <div class="row mb-2">
                                                     <label class="col-4 col-form-label text-md-end text-danger">Number Called:</label>
                                                     <div class="col-8">
-                                                        <select class="form-select" id="call" oninput="withCompliance()">
+                                                        <select class="form-select text-dark" id="call" oninput="withCompliance()">
                                                             <option></option>
                                                             <option>Not Applicable</option>
                                                             <option>Customer</option>
@@ -151,13 +151,13 @@
                                                 <div class="row mb-2">
                                                     <label class="col-4 col-form-label text-md-end text-danger">Items Discussed:</label>
                                                     <div class="col-8">
-                                                        <input class="form-control" id="items" oninput="withCompliance()">
+                                                        <input class="form-control text-dark" id="items" oninput="withCompliance()">
                                                     </div>
                                                 </div>
                                                 <div class="row mb-2">
                                                     <label class="col-4 col-form-label text-md-end text-danger">Ticket Assignment:</label>
                                                     <div class="col-8">
-                                                        <select class="form-select" id="assignment" oninput="withCompliance()">
+                                                        <select class="form-select text-dark" id="assignment" oninput="withCompliance()">
                                                             <option></option>
                                                             <option>Territory Partner</option>
                                                             <option>Compliance Officer</option>
@@ -167,7 +167,7 @@
                                                 <div class="row mb-2">
                                                     <label class="col-4 col-form-label text-md-end text-danger">Ticket Number:</label>
                                                     <div class="col-8">
-                                                        <input class="form-control" id="ticket" oninput="withCompliance()">
+                                                        <input class="form-control text-dark" id="ticket" oninput="withCompliance()">
                                                     </div>
                                                 </div>
                                                 <br>
@@ -176,7 +176,7 @@
                                                 <div class="row mb-2">
                                                     <label class="col-4 col-form-label text-md-end text-danger">Pending Status:</label>
                                                     <div class="col-8">
-                                                        <select class="form-select" id="pending" oninput="withCompliance()">
+                                                        <select class="form-select text-dark" id="pending" oninput="withCompliance()">
                                                             <option></option>
                                                             <option>Docs for Approval</option>
                                                             <option>With Compliance Issue</option>
@@ -187,7 +187,7 @@
                                                 <div class="row mb-2">
                                                     <label class="col-4 col-form-label text-md-end text-danger">Compliance Reason:</label>
                                                     <div class="col-8">
-                                                        <input class="form-control" id="reason" oninput="withCompliance()">
+                                                        <input class="form-control text-dark" id="reason" oninput="withCompliance()">
                                                     </div>
                                                 </div>
                                                 <br>
@@ -196,14 +196,14 @@
                                                 <div class="row mb-2">
                                                     <label class="col-4 col-form-label text-md-end text-danger">Email Address:</label>
                                                     <div class="col-8">
-                                                        <input class="form-control" id="email" oninput="withCompliance()" onblur="validateEmail()">
+                                                        <input class="form-control text-dark" id="email" oninput="withCompliance()" onblur="validateEmail()">
                                                         <small id="emailMessage" class="text-danger"></small>
                                                     </div>
                                                 </div>
                                                 <div class="row mb-2">
                                                     <label class="col-4 col-form-label text-md-end text-danger">Compliance Issue:</label>
                                                     <div class="col-8">
-                                                        <input class="form-control" id="issue" oninput="withCompliance()">
+                                                        <input class="form-control text-dark" id="issue" oninput="withCompliance()">
                                                     </div>
                                                 </div>
                                             </form>
@@ -213,7 +213,7 @@
                                             <h4 class="header-title mb-3 text-dark">Notes Result</h4>
                                             <form>
                                                 <div class="mb-2">
-                                                    <textarea style="height: 560px;" class="form-control text-dark" id="notes" readonly></textarea>
+                                                    <textarea style="height: 560px; color: black;" class="form-control" id="notes" readonly></textarea>
                                                 </div>
                                             </form>
                                         </div>

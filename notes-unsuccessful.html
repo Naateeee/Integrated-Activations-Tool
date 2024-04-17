@@ -85,7 +85,7 @@
                 <div class="navbar-custom">
                     <ul class="list-unstyled topbar-menu float-end mb-0">
                         <li class="notification-list">
-                            <a class="nav-link nav-user me-0">
+                            <a class="nav-link nav-user me-0 text-dark">
                                 <span class="account-user-avatar"><img src="assets/images/users/user_nate.png" alt="user-image" class="rounded-circle"></span>
                                 <span>
                                     <span class="account-user-name">Customer Experience Group</span>
@@ -106,10 +106,10 @@
                                     <ol class="breadcrumb m-0">
                                         <li class="breadcrumb-item"><a href="index.html">Integrateds Activation Tool</a></li>
                                         <li class="breadcrumb-item"><a href="#">Notes Generator</a></li>
-                                        <li class="breadcrumb-item active">Unsuccessful</li>
+                                        <li class="breadcrumb-item fw-bold">Unsuccessful</li>
                                     </ol>
                                 </div>
-                                <h5 class="page-title">UNSUCCESSFUL CALL OUT</h5>
+                                <h5 class="page-title text-dark">UNSUCCESSFUL CALL OUT</h5>
                             </div>
                         </div>
                     </div>
@@ -122,32 +122,32 @@
                                     <div class="row">
                                         <div class="col-6">
                                             <div class="dropdown float-end">
-                                                <a href="#" class="dropdown-toggle card-drop" data-bs-toggle="dropdown" aria-expanded="false"></a>
+                                                <a href="#" class="dropdown-toggle card-drop text-dark" data-bs-toggle="dropdown" aria-expanded="false"></a>
                                                 <div class="dropdown-menu dropdown-menu-end">
                                                     <a class="dropdown-item" role="button" onclick="copiedOption('UNATTENDED')"><i class="uil-missed-call"></i>
-                                                        <span class="small">&nbsp;Unattended</span></a>
+                                                        <span class="small text-dark">&nbsp;Unattended</span></a>
                                                     <a class="dropdown-item" role="button" onclick="copiedOption('CANNOT BE REACHED')"><i class="uil-missed-call"></i>
-                                                        <span class="small">&nbsp;Cannot be reached</span></a>
+                                                        <span class="small text-dark">&nbsp;Cannot be reached</span></a>
                                                     <a class="dropdown-item" role="button" onclick="copiedOption('RINGING NO ANSWER')"><i class="uil-missed-call"></i>
-                                                        <span class="small">&nbsp;Ringing no answer</span></a>
+                                                        <span class="small text-dark">&nbsp;Ringing no answer</span></a>
                                                     <a class="dropdown-item" role="button" onclick="copiedOption('RINGING DECLINED')"><i class="uil-missed-call"></i>
-                                                        <span class="small">&nbsp;Ringing declined</span></a>
+                                                        <span class="small text-dark">&nbsp;Ringing declined</span></a>
                                                     <a class="dropdown-item" role="button" onclick="copiedOption('RINGING CANCELLED')"><i class="uil-missed-call"></i>
-                                                        <span class="small">&nbsp;Ringing cancelled</span></a>
+                                                        <span class="small text-dark">&nbsp;Ringing cancelled</span></a>
                                                     <a class="dropdown-item" role="button" onclick="copiedOption('BUSY DIAL TONE / PLS PROVIDE OTHER MOBILE NUMBER AND MUST BE INDICATED ON SAF')"><i class="uil-missed-call"></i>
-                                                        <span class="small">&nbsp;Busy dial tone</span></a>
+                                                        <span class="small text-dark">&nbsp;Busy dial tone</span></a>
                                                     <a class="dropdown-item" role="button" onclick="copiedOption('NOT RINGING / NO DIAL TONE')"><i class="uil-missed-call"></i>
-                                                        <span class="small">&nbsp;Not Ringing / No dial tone</span></a>
+                                                        <span class="small text-dark">&nbsp;Not Ringing / No dial tone</span></a>
                                                     <a class="dropdown-item" role="button" onclick="copiedOption('REQUEST FOR CALLBACK')"><i class="uil-missed-call"></i>
-                                                        <span class="small">&nbsp;Request for callback</span></a>
+                                                        <span class="small text-dark">&nbsp;Request for callback</span></a>
                                                     <a class="dropdown-item" role="button" onclick="copiedOption('WRONG NUMBER / PLS PROVIDE OTHER MOBILE NUMBER AND MUST BE INDICATED ON SAF')"><i class="uil-missed-call"></i>
-                                                        <span class="small">&nbsp;Wrong Number</span></a>
+                                                        <span class="small text-dark">&nbsp;Wrong Number</span></a>
                                                     <a class="dropdown-item" role="button" onclick="copiedOption('INCORRECT NUMBER / PLS PROVIDE OTHER MOBILE NUMBER AND MUST BE INDICATED ON SAF')"><i class="uil-missed-call"></i>
-                                                        <span class="small">&nbsp;Incorrect Number</span></a>
+                                                        <span class="small text-dark">&nbsp;Incorrect Number</span></a>
                                                     <a class="dropdown-item" role="button" onclick="copiedOption('3RD DAY UNSUCCESSFUL / PLS PROVIDE OTHER MOBILE NUMBER AND MUST BE INDICATED ON SAF')"><i class="uil-missed-call"></i>
-                                                        <span class="small">&nbsp;3rd day Unsuccessful</span></a>
+                                                        <span class="small text-dark">&nbsp;3rd day Unsuccessful</span></a>
                                                     <a class="dropdown-item" role="button" onclick="copiedOption('SAME OLD NUMBER / PLS PROVIDE OTHER MOBILE NUMBER AND MUST BE INDICATED ON SAF')"><i class="uil-missed-call"></i>
-                                                        <span class="small">&nbsp;Same old number</span></a>
+                                                        <span class="small text-dark">&nbsp;Same old number</span></a>
 
                                                     <script type="text/javascript">
                                                         function copiedOption(option){
@@ -163,7 +163,7 @@
                                                 <div class="row mb-2">
                                                     <label class="col-4 col-form-label text-md-end text-danger">Phone Verification:</label>
                                                     <div class="col-8">
-                                                        <select class="form-select" id="phone" oninput="unsucCallOut()">
+                                                        <select class="form-select text-dark" id="phone" oninput="unsucCallOut()">
                                                             <option></option>
                                                             <option>Unsuccessful Call Out using Avaya</option>
                                                             <option>Unsuccessful Call Out using Dialer</option>
@@ -180,7 +180,7 @@
                                                 <div class="row mb-2">
                                                     <label class="col-4 col-form-label text-md-end text-danger">Number Called:</label>
                                                     <div class="col-8">
-                                                        <input class="form-control" id="mobile" oninput="unsucCallOut()" onkeypress="return isNumberKey(event)">
+                                                        <input class="form-control text-dark" id="mobile" oninput="unsucCallOut()" onkeypress="return isNumberKey(event)">
                                                     </div>
 
                                                     <script type="text/javascript">
@@ -201,14 +201,14 @@
                                                 <div class="row mb-2">
                                                     <label class="col-4 col-form-label text-md-end text-danger">Status:</label>
                                                     <div class="col-8">
-                                                        <input class="form-control" id="reason" oninput="unsucCallOut()">
+                                                        <input class="form-control text-dark" id="reason" oninput="unsucCallOut()">
                                                     </div>
                                                 </div>
 
                                                 <div class="row mb-2">
                                                     <label class="col-4 col-form-label text-md-end text-danger">Items to Verify:</label>
                                                     <div class="col-8">
-                                                        <input class="form-control" id="verify" oninput="unsucCallOut()">
+                                                        <input class="form-control text-dark" id="verify" oninput="unsucCallOut()">
                                                     </div>
                                                 </div>
                                             </form>
@@ -218,7 +218,7 @@
                                             <h4 class="header-title mb-3 text-dark">Notes Result</h4>
                                             <form>
                                                 <div class="mb-2">
-                                                    <textarea style="height: 190px;" class="form-control text-dark" id="notes" readonly></textarea>
+                                                    <textarea style="height: 190px; color: black;" class="form-control" id="notes" readonly></textarea>
                                                 </div>
                                             </form>
                                         </div>
