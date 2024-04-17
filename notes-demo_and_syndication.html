@@ -85,7 +85,7 @@
                 <div class="navbar-custom">
                     <ul class="list-unstyled topbar-menu float-end mb-0">
                         <li class="notification-list">
-                            <a class="nav-link nav-user me-0">
+                            <a class="nav-link nav-user me-0 text-dark">
                                 <span class="account-user-avatar"><img src="assets/images/users/user_nate.png" alt="user-image" class="rounded-circle"></span>
                                 <span>
                                     <span class="account-user-name">Customer Experience Group</span>
@@ -106,10 +106,10 @@
                                     <ol class="breadcrumb m-0">
                                         <li class="breadcrumb-item"><a href="index.html">Integrateds Activation Tool</a></li>
                                         <li class="breadcrumb-item"><a href="#">Notes Generator</a></li>
-                                        <li class="breadcrumb-item active">Demo and Syndication</li>
+                                        <li class="breadcrumb-item fw-bold">Demo and Syndication</li>
                                     </ol>
                                 </div>
-                                <h5 class="page-title">DEMO, CONTENT, SYNDICATION & HRH</h5>
+                                <h5 class="page-title text-dark">DEMO, CONTENT, SYNDICATION & HRH</h5>
                             </div>
                         </div>
                     </div>
@@ -122,18 +122,30 @@
                                         <div class="col-6">
                                             <h4 class="header-title mb-3 text-dark">Activation details</h4>
 
-                                            <ul class="nav nav-tabs nav-bordered mb-3">
+                                            <ul class="nav nav-tabs mb-3">
                                                 <li class="nav-item">
-                                                    <a href="#input-types-demo" data-bs-toggle="tab" aria-expanded="false" onclick="activationDemo()" class="nav-link active">Demo</a>
+                                                    <a href="#input-types-demo" data-bs-toggle="tab" aria-expanded="true" onclick="activationDemo()" class="nav-link active">
+                                                        <i class="mdi mdi-home-variant d-md-none d-block"></i>
+                                                        <span class="d-none d-md-block">Demo</span>
+                                                    </a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a href="#input-types-content" data-bs-toggle="tab" aria-expanded="true" onclick="activationContent()" class="nav-link">Content</a>
+                                                    <a href="#input-types-content" data-bs-toggle="tab" aria-expanded="false" onclick="activationContent()" class="nav-link">
+                                                        <i class="mdi mdi-home-variant d-md-none d-block"></i>
+                                                        <span class="d-none d-md-block">Content</span>
+                                                    </a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a href="#input-types-syndication" data-bs-toggle="tab" aria-expanded="true" onclick="activationSyndication()" class="nav-link">Syndication</a>
+                                                    <a href="#input-types-syndication" data-bs-toggle="tab" aria-expanded="false" onclick="activationSyndication()" class="nav-link">
+                                                        <i class="mdi mdi-home-variant d-md-none d-block"></i>
+                                                        <span class="d-none d-md-block">Syndication</span>
+                                                    </a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a href="#input-types-hrh" data-bs-toggle="tab" aria-expanded="true" onclick="activationHRH()" class="nav-link">HRH</a>
+                                                    <a href="#input-types-hrh" data-bs-toggle="tab" aria-expanded="false" onclick="activationHRH()" class="nav-link">
+                                                        <i class="mdi mdi-home-variant d-md-none d-block"></i>
+                                                        <span class="d-none d-md-block">HRH</span>
+                                                    </a>
                                                 </li>
                                             </ul>
 
@@ -144,25 +156,25 @@
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-md-end text-danger">Account Number:</label>
                                                             <div class="col-8">
-                                                                <input class="form-control" id="demoAccount" oninput="activationDemo()">
+                                                                <input class="form-control text-dark" id="demoAccount" oninput="activationDemo()">
                                                             </div>
                                                         </div>
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-md-end text-danger">Duration:</label>
                                                             <div class="col-8">
-                                                                <input class="form-control" id="duration" oninput="activationDemo()">
+                                                                <input class="form-control text-dark" id="duration" oninput="activationDemo()">
                                                             </div>
                                                         </div>
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-md-end text-danger">Ticket Number:</label>
                                                             <div class="col-8">
-                                                                <input class="form-control" id="demoTicket" oninput="activationDemo()">
+                                                                <input class="form-control text-dark" id="demoTicket" oninput="activationDemo()">
                                                             </div>
                                                         </div>
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-md-end text-danger">Remarks:</label>
                                                             <div class="col-8">
-                                                                <input class="form-control" id="demoRemarks" oninput="activationDemo()">
+                                                                <input class="form-control text-dark" id="demoRemarks" oninput="activationDemo()">
                                                             </div>
                                                         </div>
                                                     </form>
@@ -173,31 +185,31 @@
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-md-end text-danger">Account Number:</label>
                                                             <div class="col-8">
-                                                                <input class="form-control" id="contenctAccount" oninput="activationContent()">
+                                                                <input class="form-control text-dark" id="contenctAccount" oninput="activationContent()">
                                                             </div>
                                                         </div>
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-md-end text-danger">Channels:</label>
                                                             <div class="col-8">
-                                                                <input class="form-control" id="contentChannels" oninput="activationContent()">
+                                                                <input class="form-control text-dark" id="contentChannels" oninput="activationContent()">
                                                             </div>
                                                         </div>
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-md-end text-danger">Lock-In:</label>
                                                             <div class="col-8">
-                                                                <input class="form-control" id="contentLockin" oninput="activationContent()">
+                                                                <input class="form-control text-dark" id="contentLockin" oninput="activationContent()">
                                                             </div>
                                                         </div>
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-md-end text-danger">Remarks:</label>
                                                             <div class="col-8">
-                                                                <input class="form-control" id="contentRemarks" oninput="activationContent()">
+                                                                <input class="form-control text-dark" id="contentRemarks" oninput="activationContent()">
                                                             </div>
                                                         </div>
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-md-end text-danger">Ticket Number:</label>
                                                             <div class="col-8">
-                                                                <input class="form-control" id="contentTicket" oninput="activationContent()">
+                                                                <input class="form-control text-dark" id="contentTicket" oninput="activationContent()">
                                                             </div>
                                                         </div>
                                                     </form>
@@ -208,31 +220,31 @@
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-md-end text-danger">Account Number:</label>
                                                             <div class="col-8">
-                                                                <input class="form-control" id="syndicationAccount" oninput="activationSyndication()">
+                                                                <input class="form-control text-dark" id="syndicationAccount" oninput="activationSyndication()">
                                                             </div>
                                                         </div>
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-md-end text-danger">Channels:</label>
                                                             <div class="col-8">
-                                                                <input class="form-control" id="syndicationChannels" oninput="activationSyndication()">
+                                                                <input class="form-control text-dark" id="syndicationChannels" oninput="activationSyndication()">
                                                             </div>
                                                         </div>
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-md-end text-danger">Contract Validity:</label>
                                                             <div class="col-8">
-                                                                <input class="form-control" id="contract" oninput="activationSyndication()">
+                                                                <input class="form-control text-dark" id="contract" oninput="activationSyndication()">
                                                             </div>
                                                         </div>
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-md-end text-danger">Remarks:</label>
                                                             <div class="col-8">
-                                                                <input class="form-control" id="syndicationRemarks" oninput="activationSyndication()">
+                                                                <input class="form-control text-dark" id="syndicationRemarks" oninput="activationSyndication()">
                                                             </div>
                                                         </div>
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-md-end text-danger">Ticket Number:</label>
                                                             <div class="col-8">
-                                                                <input class="form-control" id="syndicationTicket" oninput="activationSyndication()">
+                                                                <input class="form-control text-dark" id="syndicationTicket" oninput="activationSyndication()">
                                                             </div>
                                                         </div>
                                                     </form>
@@ -243,31 +255,31 @@
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-end text-danger">Account Number:</label>
                                                             <div class="col-8">
-                                                                <input class="form-control" id="hrhAccount" oninput="activationHRH()">
+                                                                <input class="form-control text-dark" id="hrhAccount" oninput="activationHRH()">
                                                             </div>
                                                         </div>
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-end text-danger">Contract Validity:</label>
                                                             <div class="col-8">
-                                                                <input class="form-control" id="hrhContract" oninput="activationHRH()">
+                                                                <input class="form-control text-dark" id="hrhContract" oninput="activationHRH()">
                                                             </div>
                                                         </div>
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-end text-danger">Request from:</label>
                                                             <div class="col-8">
-                                                                <input class="form-control" id="hrhRequest" oninput="activationHRH()">
+                                                                <input class="form-control text-dark" id="hrhRequest" oninput="activationHRH()">
                                                             </div>
                                                         </div>
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-end text-danger">Remarks:</label>
                                                             <div class="col-8">
-                                                                <input class="form-control" id="hrhRemarks" oninput="activationHRH()">
+                                                                <input class="form-control text-dark" id="hrhRemarks" oninput="activationHRH()">
                                                             </div>
                                                         </div>
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-end text-danger">Ticket Number:</label>
                                                             <div class="col-8">
-                                                                <input class="form-control" id="hrhTicket" oninput="activationHRH()">
+                                                                <input class="form-control text-dark" id="hrhTicket" oninput="activationHRH()">
                                                             </div>
                                                         </div>
                                                     </form>
@@ -281,7 +293,7 @@
                                             <h4 class="header-title mb-3 text-dark">Notes Result</h4>
                                             <form>
                                                 <div class="mb-2">
-                                                    <textarea style="height: 305px;" class="form-control text-dark" id="notes" readonly></textarea>
+                                                    <textarea style="height: 305px; color: black;" class="form-control" id="notes" readonly></textarea>
                                                 </div>
                                             </form>
                                         </div>

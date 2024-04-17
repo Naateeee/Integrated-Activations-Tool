@@ -85,7 +85,7 @@
                 <div class="navbar-custom">
                     <ul class="list-unstyled topbar-menu float-end mb-0">
                         <li class="notification-list">
-                            <a class="nav-link nav-user me-0">
+                            <a class="nav-link nav-user me-0 text-dark">
                                 <span class="account-user-avatar"><img src="assets/images/users/user_nate.png" alt="user-image" class="rounded-circle"></span>
                                 <span>
                                     <span class="account-user-name">Customer Experience Group</span>
@@ -106,10 +106,10 @@
                                     <ol class="breadcrumb m-0">
                                         <li class="breadcrumb-item"><a href="index.html">Integrateds Activation Tool</a></li>
                                         <li class="breadcrumb-item"><a href="#">Notes Generator</a></li>
-                                        <li class="breadcrumb-item active">Docs and Sup Approval</li>
+                                        <li class="breadcrumb-item fw-bold">Docs and Sup Approval</li>
                                     </ol>
                                 </div>
-                                <h5 class="page-title">DOCS AND SUP APPROVAL</h5>
+                                <h5 class="page-title text-dark">DOCS AND SUP APPROVAL</h5>
                             </div>
                         </div>
                     </div>
@@ -123,15 +123,24 @@
                                         <div class="col-6">
                                             <h4 class="header-title mb-3 text-dark">Approval details</h4>
 
-                                            <ul class="nav nav-tabs nav-bordered mb-3">
+                                            <ul class="nav nav-tabs mb-3">
                                                 <li class="nav-item">
-                                                    <a href="#input-types-docs" data-bs-toggle="tab" aria-expanded="false" class="nav-link active" onclick="docsApproved()">Docs</a>
+                                                    <a href="#input-types-docs" data-bs-toggle="tab" aria-expanded="true" class="nav-link active" onclick="docsApproved()">
+                                                        <i class="mdi mdi-home-variant d-md-none d-block"></i>
+                                                        <span class="d-none d-md-block">Docs</span>
+                                                    </a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a href="#input-types-approve" data-bs-toggle="tab" aria-expanded="true" class="nav-link" onclick="supApproved()">Sup Approval</a>
+                                                    <a href="#input-types-approve" data-bs-toggle="tab" aria-expanded="true" class="nav-link" onclick="supApproved()">
+                                                        <i class="mdi mdi-home-variant d-md-none d-block"></i>
+                                                        <span class="d-none d-md-block">Sup Approval</span>
+                                                    </a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a href="#input-types-disapprove" data-bs-toggle="tab" aria-expanded="true" class="nav-link" onclick="supDisapproved()">Disapprove</a>
+                                                    <a href="#input-types-disapprove" data-bs-toggle="tab" aria-expanded="true" class="nav-link" onclick="supDisapproved()">
+                                                        <i class="mdi mdi-home-variant d-md-none d-block"></i>
+                                                        <span class="d-none d-md-block">Disapprove</span>   
+                                                    </a>
                                                 </li>
                                             </ul>
 
@@ -142,19 +151,19 @@
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-md-end text-danger">Items to Verify:</label>
                                                             <div class="col-8">
-                                                                <input class="form-control" id="items" oninput="docsApproved()">
+                                                                <input class="form-control text-dark" id="items" oninput="docsApproved()">
                                                             </div>
                                                         </div>
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-md-end text-danger">HPA:</label>
                                                             <div class="col-8">
-                                                                <input class="form-control" id="hpa" oninput="docsApproved()">
+                                                                <input class="form-control text-dark" id="hpa" oninput="docsApproved()">
                                                             </div>
                                                         </div>
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-md-end text-danger">Ticket Number:</label>
                                                             <div class="col-8">
-                                                                <input class="form-control" id="ticketDocs" oninput="docsApproved()">
+                                                                <input class="form-control text-dark" id="ticketDocs" oninput="docsApproved()">
                                                             </div>
                                                         </div>
                                                     </form>
@@ -165,13 +174,13 @@
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-md-end text-danger">Reason:</label>
                                                             <div class="col-8">
-                                                                <input class="form-control" id="reasonApproved" oninput="supApproved()">
+                                                                <input class="form-control text-dark" id="reasonApproved" oninput="supApproved()">
                                                             </div>
                                                         </div>
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-md-end text-danger">Ticket Number:</label>
                                                             <div class="col-8">
-                                                                <input class="form-control" id="ticketApproved" oninput="supApproved()">
+                                                                <input class="form-control text-dark" id="ticketApproved" oninput="supApproved()">
                                                             </div>
                                                         </div>
                                                     </form>
@@ -182,7 +191,7 @@
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-md-end text-danger">Reason:</label>
                                                             <div class="col-8">
-                                                                <select class="form-select" id="reasonDisapproved" oninput="supDisapproved()">
+                                                                <select class="form-select text-dark" id="reasonDisapproved" oninput="supDisapproved()">
                                                                     <option></option>
                                                                     <option value="DXB">Tampered POB</option>
                                                                     <option value="DXI">Tampered POID</option>
@@ -195,7 +204,7 @@
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-md-end text-danger">Ticket Number:</label>
                                                             <div class="col-8">
-                                                                <input class="form-control" id="ticketDisapproved" oninput="supDisapproved()">
+                                                                <input class="form-control text-dark" id="ticketDisapproved" oninput="supDisapproved()">
                                                             </div>
                                                         </div>
                                                     </form>
@@ -209,7 +218,7 @@
                                             <h4 class="header-title mb-3 text-dark">Notes Result</h4>
                                             <form>
                                                 <div class="mb-2">
-                                                    <textarea style="height: 205px;" class="form-control text-dark" id="notes" readonly></textarea>
+                                                    <textarea style="height: 205px; color: black;" class="form-control" id="notes" readonly></textarea>
                                                 </div>
                                             </form>
                                         </div>

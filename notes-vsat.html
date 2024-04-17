@@ -85,7 +85,7 @@
                 <div class="navbar-custom">
                     <ul class="list-unstyled topbar-menu float-end mb-0">
                         <li class="notification-list">
-                            <a class="nav-link nav-user me-0">
+                            <a class="nav-link nav-user me-0 text-dark">
                                 <span class="account-user-avatar"><img src="assets/images/users/user_nate.png" alt="user-image" class="rounded-circle"></span>
                                 <span>
                                     <span class="account-user-name">Customer Experience Group</span>
@@ -106,10 +106,10 @@
                                     <ol class="breadcrumb m-0">
                                         <li class="breadcrumb-item"><a href="index.html">Integrateds Activation Tool</a></li>
                                         <li class="breadcrumb-item"><a href="#">Notes Generator</a></li>
-                                        <li class="breadcrumb-item active">VSAT</li>
+                                        <li class="breadcrumb-item fw-bold">VSAT</li>
                                     </ol>
                                 </div>
-                                <h5 class="page-title">VSAT</h5>
+                                <h5 class="page-title text-dark">VSAT</h5>
                             </div>
                         </div>
                     </div>
@@ -122,12 +122,18 @@
                                         <div class="col-6">
                                             <h4 class="header-title mb-3 text-dark">Activation details</h4>
 
-                                            <ul class="nav nav-tabs nav-bordered mb-3">
+                                            <ul class="nav nav-tabs mb-3">
                                                 <li class="nav-item">
-                                                    <a href="#input-types-docs" data-bs-toggle="tab" aria-expanded="false" onclick="vsatDocs()" class="nav-link active">VSAT Docs Approval</a>
+                                                    <a href="#input-types-docs" data-bs-toggle="tab" aria-expanded="true" onclick="vsatDocs()" class="nav-link active">
+                                                        <i class="mdi mdi-home-variant d-md-none d-block"></i>
+                                                        <span class="d-none d-md-block">VSAT Docs Approval</span>
+                                                    </a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a href="#input-types-activation" data-bs-toggle="tab" aria-expanded="true" onclick="vsatActivation()" class="nav-link">VSAT Activation</a>
+                                                    <a href="#input-types-activation" data-bs-toggle="tab" aria-expanded="false" onclick="vsatActivation()" class="nav-link">
+                                                        <i class="mdi mdi-home-variant d-md-none d-block"></i>
+                                                        <span class="d-none d-md-block">VSAT Activation</span>
+                                                    </a>
                                                 </li>
                                             </ul>
 
@@ -137,49 +143,49 @@
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-md-end text-danger">Account Number:</label>
                                                             <div class="col-8">
-                                                                <input class="form-control" id="accountDocs" oninput="vsatDocs()">
+                                                                <input class="form-control text-dark" id="accountDocs" oninput="vsatDocs()">
                                                             </div>
                                                         </div>
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-md-end text-danger">Serial Number:</label>
                                                             <div class="col-8">
-                                                                <input class="form-control" id="serial" oninput="vsatDocs()">
+                                                                <input class="form-control text-dark" id="serial" oninput="vsatDocs()">
                                                             </div>
                                                         </div>
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-md-end text-danger">Plan Code:</label>
                                                             <div class="col-8">
-                                                                <input class="form-control" id="plancode" oninput="vsatDocs()">
+                                                                <input class="form-control text-dark" id="plancode" oninput="vsatDocs()">
                                                             </div>
                                                         </div>
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-md-end text-danger">Plan Name:</label>
                                                             <div class="col-8">
-                                                                <input class="form-control" id="planname" oninput="vsatDocs()">
+                                                                <input class="form-control text-dark" id="planname" oninput="vsatDocs()">
                                                             </div>
                                                         </div>
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-md-end text-danger">Address:</label>
                                                             <div class="col-8">
-                                                                <input class="form-control" id="address" oninput="vsatDocs()">
+                                                                <input class="form-control text-dark" id="address" oninput="vsatDocs()">
                                                             </div>
                                                         </div>
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-md-end text-danger">Coordinates:</label>
                                                             <div class="col-8">
-                                                                <input class="form-control" id="coordinates" oninput="vsatDocs()">
+                                                                <input class="form-control text-dark" id="coordinates" oninput="vsatDocs()">
                                                             </div>
                                                         </div>
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-md-end text-danger">Installer:</label>
                                                             <div class="col-8">
-                                                                <input class="form-control" id="installer" oninput="vsatDocs()">
+                                                                <input class="form-control text-dark" id="installer" oninput="vsatDocs()">
                                                             </div>
                                                         </div>
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-md-end text-danger">Remarks/Status:</label>
                                                             <div class="col-8">
-                                                                <input class="form-control" id="remarks" oninput="vsatDocs()">
+                                                                <input class="form-control text-dark" id="remarks" oninput="vsatDocs()">
                                                             </div>
                                                         </div>
                                                     </form>
@@ -190,7 +196,7 @@
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-md-end text-danger">Plan Avail:</label>
                                                             <div class="col-8">
-                                                                <select class="form-select" id="planavail" oninput="vsatActivation()">
+                                                                <select class="form-select text-dark" id="planavail" oninput="vsatActivation()">
                                                                     <option></option>
                                                                     <option>Cignal Connect Ultra Plan (10Mbps) - Product Price: 23500</option>
                                                                     <option>Cignal Connect Standard Plan (8Mbps) - Product Price: 19500</option>
@@ -202,7 +208,7 @@
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-md-end text-danger">Lock-In:</label>
                                                             <div class="col-8">
-                                                                <select class="form-select" id="lockin" oninput="vsatActivation()">
+                                                                <select class="form-select text-dark" id="lockin" oninput="vsatActivation()">
                                                                     <option></option>
                                                                     <option>No Lock-In</option>
                                                                     <option>12 months</option>
@@ -213,19 +219,19 @@
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-md-end text-danger">Modem Serial:</label>
                                                             <div class="col-8">
-                                                                <input class="form-control" id="modem" oninput="vsatActivation()">
+                                                                <input class="form-control text-dark" id="modem" oninput="vsatActivation()">
                                                             </div>
                                                         </div>
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-md-end text-danger">Cignal Account:</label>
                                                             <div class="col-8">
-                                                                <input class="form-control" id="accountCignal" oninput="vsatActivation()">
+                                                                <input class="form-control text-dark" id="accountCignal" oninput="vsatActivation()">
                                                             </div>
                                                         </div>
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-md-end text-danger">Ticket Number:</label>
                                                             <div class="col-8">
-                                                                <input class="form-control" id="ticket" oninput="vsatActivation()">
+                                                                <input class="form-control text-dark" id="ticket" oninput="vsatActivation()">
                                                             </div>
                                                         </div>
                                                     </form>
@@ -239,7 +245,7 @@
                                             <h4 class="header-title mb-3 text-dark">Notes Result</h4>
                                             <form>
                                                 <div class="mb-2">
-                                                    <textarea style="height: 455px;" class="form-control text-dark" id="notes" readonly></textarea>
+                                                    <textarea style="height: 455px; color: black;" class="form-control" id="notes" readonly></textarea>
                                                 </div>
                                             </form>
                                         </div>
