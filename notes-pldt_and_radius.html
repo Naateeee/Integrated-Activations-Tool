@@ -46,6 +46,7 @@
                                 <li><a href="notes-pldt_and_radius.html">PLDT and Radius</a></li>
                                 <li><a href="notes-demo_and_syndication.html">Demo and Syndication</a></li>
                                 <li><a href="notes-vsat.html">VSAT</a></li>
+                                <li><a href="notes-other_ticket_assignment.html">Other Ticket Assignment</a></li>
                             </ul>
                         </div>
                     </li>
@@ -374,12 +375,9 @@
                                                     <div class="col-6 d-flex flex-row justify-content-end">
                                                         <button class="btn btn-danger btn-sm" id="clearButton" onclick="clearNotes()"><i class="uil-trash-alt"></i>&nbsp;clear fields</button>
                                                     </div>
-
                                                     <div class="col-6 d-flex flex-row justify-content-end pe-0">
                                                         <button class="btn btn-success btn-sm" id="copyButton" onclick="copyNotes()"><i class="uil-copy"></i>&nbsp;copy text</button>
                                                     </div>
-
-                                                    
                                                 </div>
                                             </div>
                                         </div>
@@ -463,11 +461,11 @@
 
                                             function activationDualPlay() {
                                                 var accountDualPlay = document.getElementById("accountDualPlay").value;
-                                                var dualplayPlan = document.getElementById("dualplayPlan").value.toUpperCase();
-                                                var dualplayIPTV = document.getElementById("dualplayIPTV").value.toUpperCase();
-                                                var dualplayLockin = document.getElementById("dualplayLockin").value.toUpperCase();
-                                                var dualplayPromo = document.getElementById("dualplayPromo").value.toUpperCase();
-                                                var dualplayProperty = document.getElementById("dualplayProperty").value.toUpperCase();
+                                                var dualplayPlan = document.getElementById("dualplayPlan").value;
+                                                var dualplayIPTV = document.getElementById("dualplayIPTV").value;
+                                                var dualplayLockin = document.getElementById("dualplayLockin").value;
+                                                var dualplayPromo = document.getElementById("dualplayPromo").value;
+                                                var dualplayProperty = document.getElementById("dualplayProperty").value;
                                                 var dualplayCignal = document.getElementById("dualplayCignal").value;
                                                 var ticketDualPlay = document.getElementById("ticketDualPlay").value;
                                                 var notes = document.getElementById("notes");
@@ -490,10 +488,10 @@
 
                                             function activationStandalone() {
                                                 var accountStandalone = document.getElementById("accountStandalone").value;
-                                                var standalonePlan = document.getElementById("standalonePlan").value.toUpperCase();
-                                                var standaloneLockin = document.getElementById("standaloneLockin").value.toUpperCase();
-                                                var standalonePromo = document.getElementById("standalonePromo").value.toUpperCase();
-                                                var standaloneProperty = document.getElementById("standaloneProperty").value.toUpperCase();
+                                                var standalonePlan = document.getElementById("standalonePlan").value;
+                                                var standaloneLockin = document.getElementById("standaloneLockin").value;
+                                                var standalonePromo = document.getElementById("standalonePromo").value;
+                                                var standaloneProperty = document.getElementById("standaloneProperty").value;
                                                 var standaloneCignal = document.getElementById("standaloneCignal").value;
                                                 var notes = document.getElementById("notes");
 

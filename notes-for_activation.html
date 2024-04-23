@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Successful call out for Activation</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="Integrated Activations Tool" name="description">
+    <meta name="Integrated Activations Tool" content="description">
     <link rel="shortcut icon" href="assets/images/favicon.ico">
     <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css">
     <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" id="light-style">
@@ -46,6 +46,7 @@
                                 <li><a href="notes-pldt_and_radius.html">PLDT and Radius</a></li>
                                 <li><a href="notes-demo_and_syndication.html">Demo and Syndication</a></li>
                                 <li><a href="notes-vsat.html">VSAT</a></li>
+                                <li><a href="notes-other_ticket_assignment.html">Other Ticket Assignment</a></li>
                             </ul>
                         </div>
                     </li>
@@ -176,6 +177,7 @@
                                                         </script>
                                                     </div>
                                                 </div>
+
                                                 <h4 class="header-title mb-3 text-dark">Activation details</h4>
                                                 <div class="row mb-2">
                                                     <label class="col-4 col-form-label text-md-end text-danger">Highest Plan:</label>
@@ -183,7 +185,7 @@
                                                         <input class="form-control text-dark" id="hpa" oninput="forActivation()">
                                                     </div>
                                                 </div>
-                                                <div class="row mb-2">
+                                                <div class="row mb-4">
                                                     <label class="col-4 col-form-label text-md-end text-danger">Ticket Number:</label>
                                                     <div class="col-8">
                                                         <input class="form-control text-dark" id="ticket" oninput="forActivation()">
@@ -246,11 +248,11 @@
                                             document.getElementById("notes").addEventListener("input", checkNotesValue);
 
                                             function forActivation() {
-                                                var phone = document.getElementById("phone").value.toUpperCase();
-                                                var call = document.getElementById("call").value.toUpperCase();
-                                                var items = document.getElementById("items").value.toUpperCase();
-                                                var hpa = document.getElementById("hpa").value.toUpperCase();
-                                                var ticket = document.getElementById("ticket").value.toUpperCase();
+                                                var phone = document.getElementById("phone").value;
+                                                var call = document.getElementById("call").value;
+                                                var items = document.getElementById("items").value;
+                                                var hpa = document.getElementById("hpa").value;
+                                                var ticket = document.getElementById("ticket").value;
                                                 var notes = document.getElementById("notes");
 
                                                 if(phone === '' && call === '' && items === '' && hpa === '' && ticket === ''){
@@ -294,10 +296,10 @@
                                             }
 
                                             function copyCallOut() {
-                                                var phone = document.getElementById("phone").value.toUpperCase();
-                                                var call = document.getElementById("call").value.toUpperCase();
-                                                var items = document.getElementById("items").value.toUpperCase();
-                                                var copyText = document.getElementById("notes").value.toUpperCase();
+                                                var phone = document.getElementById("phone").value;
+                                                var call = document.getElementById("call").value;
+                                                var items = document.getElementById("items").value;
+                                                var copyText = document.getElementById("notes").value;
 
                                                 if(phone === '' && call === '' && items === '') {
                                                     alert("There's no text to copy.");
@@ -321,9 +323,9 @@
                                             }
 
                                             function copyActivation() {
-                                                var hpa = document.getElementById("hpa").value.toUpperCase();
-                                                var ticket = document.getElementById("ticket").value.toUpperCase();
-                                                var copyText = document.getElementById("notes").value.toUpperCase();
+                                                var hpa = document.getElementById("hpa").value;
+                                                var ticket = document.getElementById("ticket").value;
+                                                var copyText = document.getElementById("notes").value;
 
                                                 if(hpa === '' && ticket === '') {
                                                     alert("There's no text to copy.");
