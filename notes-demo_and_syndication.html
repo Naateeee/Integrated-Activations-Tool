@@ -254,27 +254,27 @@
                                                 <div class="tab-pane" id="input-types-hrh">
                                                     <form class="form-horizontal">
                                                         <div class="row mb-2">
+                                                            <label class="col-4 col-form-label text-end text-danger">Plan:</label>
+                                                            <div class="col-8">
+                                                                <input class="form-control text-dark" id="hrhPlan" oninput="activationHRH()">
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mb-2">
+                                                            <label class="col-4 col-form-label text-end text-danger">Lock-In Period:</label>
+                                                            <div class="col-8">
+                                                                <input class="form-control text-dark" id="hrhLockIn" oninput="activationHRH()">
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mb-2">
+                                                            <label class="col-4 col-form-label text-end text-danger">Total Boxes:</label>
+                                                            <div class="col-8">
+                                                                <input class="form-control text-dark" id="hrhBoxes" oninput="activationHRH()">
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-end text-danger">Account Number:</label>
                                                             <div class="col-8">
                                                                 <input class="form-control text-dark" id="hrhAccount" oninput="activationHRH()">
-                                                            </div>
-                                                        </div>
-                                                        <div class="row mb-2">
-                                                            <label class="col-4 col-form-label text-end text-danger">Contract Validity:</label>
-                                                            <div class="col-8">
-                                                                <input class="form-control text-dark" id="hrhContract" oninput="activationHRH()">
-                                                            </div>
-                                                        </div>
-                                                        <div class="row mb-2">
-                                                            <label class="col-4 col-form-label text-end text-danger">Request from:</label>
-                                                            <div class="col-8">
-                                                                <input class="form-control text-dark" id="hrhRequest" oninput="activationHRH()">
-                                                            </div>
-                                                        </div>
-                                                        <div class="row mb-2">
-                                                            <label class="col-4 col-form-label text-end text-danger">Remarks:</label>
-                                                            <div class="col-8">
-                                                                <input class="form-control text-dark" id="hrhRemarks" oninput="activationHRH()">
                                                             </div>
                                                         </div>
                                                         <div class="row mb-2">
@@ -408,19 +408,19 @@
                                             }
 
                                             function activationHRH() {
+                                                var hrhPlan = document.getElementById("hrhPlan").value;
+                                                var hrhLockIn = document.getElementById("hrhLockIn").value;
+                                                var hrhBoxes = document.getElementById("hrhBoxes").value;
                                                 var hrhAccount = document.getElementById("hrhAccount").value;
-                                                var hrhContract = document.getElementById("hrhContract").value;
-                                                var hrhRequest = document.getElementById("hrhRequest").value;
-                                                var hrhRemarks = document.getElementById("hrhRemarks").value;
                                                 var hrhTicket = document.getElementById("hrhTicket").value;
                                                 var notes = document.getElementById("notes");
 
-                                                if(hrhAccount === '' && hrhContract === '' && hrhRequest === '' && hrhRemarks === '' && hrhTicket === '') {
+                                                if(hrhPlan === '' && hrhLockIn === '' && hrhBoxes === '' && hrhAccount === '' && hrhTicket === '') {
                                                     notes.value = "";
                                                 }
                                                 else {
-                                                    notes.value = "ACCOUNT ACTIVE\nACCOUNT NUMBER: " + hrhAccount + "\nCONTRACT VALIDITY: " + hrhContract + "\nREQUEST FROM: " 
-                                                    + hrhRequest + "\nREMARKS: " + hrhRemarks + "\nTICKET NUMBER: " + hrhTicket;
+                                                    notes.value = "HRH ACTIVATED\nPLAN: " + hrhPlan + "\nLock-In Period: " + hrhLockIn + "\nTOTAL BOXES: " 
+                                                    + hrhBoxes + "\nACCOUNT NUMBER: " + hrhAccount + "\nTICKET NUMBER: " + hrhTicket;
                                                 }
 
                                                 notes.style.fontFamily = 'Courier New, Courier, monospace';
@@ -454,10 +454,10 @@
                                                 document.getElementById("syndicationRemarks").value = '';
                                                 document.getElementById("syndicationTicket").value = '';
 
+                                                document.getElementById("hrhPlan").value = '';
+                                                document.getElementById("hrhLockIn").value = '';
+                                                document.getElementById("hrhBoxes").value = '';
                                                 document.getElementById("hrhAccount").value = '';
-                                                document.getElementById("hrhContract").value = '';
-                                                document.getElementById("hrhRequest").value = '';
-                                                document.getElementById("hrhRemarks").value = '';
                                                 document.getElementById("hrhTicket").value = '';
 
                                                 document.getElementById("notes").value = '';
