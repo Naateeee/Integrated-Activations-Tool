@@ -46,6 +46,7 @@
                                 <li><a href="notes-pldt_and_radius.html">PLDT and Radius</a></li>
                                 <li><a href="notes-demo_and_syndication.html">Demo and Syndication</a></li>
                                 <li><a href="notes-vsat.html">VSAT</a></li>
+                                <li><a href="notes-other_ticket_assignment.html">Other Ticket Assignment</a></li>
                             </ul>
                         </div>
                     </li>
@@ -282,15 +283,15 @@
                                             }
 
                                             function withCompliance() {
-                                                var phone = document.getElementById("phone").value.toUpperCase();
-                                                var call = document.getElementById("call").value.toUpperCase();
-                                                var items = document.getElementById("items").value.toUpperCase();
-                                                var assignment = document.getElementById("assignment").value.toUpperCase();
-                                                var ticket = document.getElementById("ticket").value.toUpperCase();
-                                                var pending = document.getElementById("pending").value.toUpperCase();
-                                                var reason = document.getElementById("reason").value.toUpperCase();
+                                                var phone = document.getElementById("phone").value;
+                                                var call = document.getElementById("call").value;
+                                                var items = document.getElementById("items").value;
+                                                var assignment = document.getElementById("assignment").value;
+                                                var ticket = document.getElementById("ticket").value;
+                                                var pending = document.getElementById("pending").value;
+                                                var reason = document.getElementById("reason").value;
                                                 var email = document.getElementById("email").value;
-                                                var issue = document.getElementById("issue").value.toUpperCase();
+                                                var issue = document.getElementById("issue").value;
                                                 var notes = document.getElementById("notes");
 
                                                 if(phone === '' && call === '' && items === '' && assignment === '' && ticket === '' && pending === '' && reason === '' && email === '' && issue === ''){
@@ -355,12 +356,12 @@
                                             }
 
                                             function copyCallOut() {
-                                                var phone = document.getElementById("phone").value.toUpperCase();
-                                                var call = document.getElementById("call").value.toUpperCase();
-                                                var items = document.getElementById("items").value.toUpperCase();
-                                                var assignment = document.getElementById("assignment").value.toUpperCase();
-                                                var ticket = document.getElementById("ticket").value.toUpperCase();
-                                                var copyText = document.getElementById("notes").value.toUpperCase();
+                                                var phone = document.getElementById("phone").value;
+                                                var call = document.getElementById("call").value;
+                                                var items = document.getElementById("items").value;
+                                                var assignment = document.getElementById("assignment").value;
+                                                var ticket = document.getElementById("ticket").value;
+                                                var copyText = document.getElementById("notes").value;
 
                                                 if(phone === '' && call === '' && items === '' && assignment === '' && ticket === '') {
                                                     alert("There's no text to copy.");
@@ -384,9 +385,9 @@
                                             }
 
                                             function copyPending() {
-                                                var pending = document.getElementById("pending").value.toUpperCase();
-                                                var reason = document.getElementById("reason").value.toUpperCase();
-                                                var copyText = document.getElementById("notes").value.toUpperCase();
+                                                var pending = document.getElementById("pending").value;
+                                                var reason = document.getElementById("reason").value;
+                                                var copyText = document.getElementById("notes").value;
 
                                                 if(pending === '' && reason === '') {
                                                     alert("There's no text to copy.");
@@ -411,8 +412,8 @@
 
                                             function copyEmail() {
                                                 var email = document.getElementById("email").value;
-                                                var issue = document.getElementById("issue").value.toUpperCase();
-                                                var copyText = document.getElementById("notes").value.toUpperCase();
+                                                var issue = document.getElementById("issue").value;
+                                                var copyText = document.getElementById("notes").value;
 
                                                 if(email === '' && issue === '') {
                                                     alert("There's no text to copy.");

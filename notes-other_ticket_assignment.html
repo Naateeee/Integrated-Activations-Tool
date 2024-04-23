@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Docs and Sup for Approval</title>
+    <title>Other Ticket Assignment</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="Integrated Activations Tool" name="description">
     <link rel="shortcut icon" href="assets/images/favicon.ico">
@@ -12,7 +12,7 @@
 </head>
 <body class="loading">
     <div class="wrapper">
-        
+
         <!-- Sidebar -->
         <div class="leftside-menu">
             <a href="index.html" class="logo text-center lo go-light">
@@ -23,7 +23,7 @@
                 <span class="logo-lg"><img src="assets/images/logo-light.png" alt="" height="46"></span>
                 <span class="logo-sm"><img src="assets/images/logo_sm_dark.png" alt="" height="46"></span>
             </a>
-
+    
             <!--- Sidemenu -->
             <div class="h-100" id="leftside-menu-container" data-simplebar="">
                 <ul class="side-nav">
@@ -107,10 +107,10 @@
                                     <ol class="breadcrumb m-0">
                                         <li class="breadcrumb-item"><a href="index.html">Integrateds Activation Tool</a></li>
                                         <li class="breadcrumb-item"><a href="#">Notes Generator</a></li>
-                                        <li class="breadcrumb-item fw-bold">Docs and Sup Approval</li>
+                                        <li class="breadcrumb-item fw-bold">Other Ticket Assignment</li>
                                     </ol>
                                 </div>
-                                <h5 class="page-title text-dark">DOCS AND SUP APPROVAL</h5>
+                                <h5 class="page-title text-dark">OTHER TICKET ASSIGNMENT</h5>
                             </div>
                         </div>
                     </div>
@@ -122,108 +122,60 @@
 
                                     <div class="row">
                                         <div class="col-6">
-                                            <h4 class="header-title mb-3 text-dark">Approval details</h4>
-
-                                            <ul class="nav nav-tabs mb-3">
-                                                <li class="nav-item">
-                                                    <a href="#input-types-docs" data-bs-toggle="tab" aria-expanded="true" class="nav-link active" onclick="docsApproved()">
-                                                        <i class="mdi mdi-home-variant d-md-none d-block"></i>
-                                                        <span class="d-none d-md-block">Docs</span>
-                                                    </a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a href="#input-types-approve" data-bs-toggle="tab" aria-expanded="true" class="nav-link" onclick="supApproved()">
-                                                        <i class="mdi mdi-home-variant d-md-none d-block"></i>
-                                                        <span class="d-none d-md-block">Sup Approval</span>
-                                                    </a>
-                                                </li>
-                                                <li class="nav-item">
-                                                    <a href="#input-types-disapprove" data-bs-toggle="tab" aria-expanded="true" class="nav-link" onclick="supDisapproved()">
-                                                        <i class="mdi mdi-home-variant d-md-none d-block"></i>
-                                                        <span class="d-none d-md-block">Disapprove</span>   
-                                                    </a>
-                                                </li>
-                                            </ul>
-
-                                            <div class="tab-content">
-
-                                                <div class="tab-pane show active" id="input-types-docs">
-                                                    <form class="form-horizontal">
-                                                        <div class="row mb-2">
-                                                            <label class="col-4 col-form-label text-md-end text-danger">Items to Verify:</label>
-                                                            <div class="col-8">
-                                                                <input class="form-control text-dark" id="items" oninput="docsApproved()">
+                                            <h4 class="header-title mb-3 text-dark">Ticket Assignment details</h4>
+                                            <form class="form-horizontal">
+                                                <div class="row mb-2">
+                                                    <label class="col-4 col-form-label text-md-end text-danger"></label>
+                                                    <div class="col-8">
+                                                        <div class="row">
+                                                            <div class="col-6">
+                                                                <input type="checkbox" class="form-check-input" onclick="TicketAssignment()" style="margin-right: .5rem;" id="newTicket">
+                                                                <label class="form-check-label" for="newTicket">New Ticket</label>
+                                                            </div>
+                                                            <div class="col-6">
+                                                                <input type="checkbox" class="form-check-input" onclick="TicketAssignment()" style="margin-right: .5rem;" id="reassignTicket">
+                                                                <label class="form-check-label" for="reassignTicket">Reassignment</label>
                                                             </div>
                                                         </div>
-                                                        <div class="row mb-2">
-                                                            <label class="col-4 col-form-label text-md-end text-danger">HPA:</label>
-                                                            <div class="col-8">
-                                                                <input class="form-control text-dark" id="hpa" oninput="docsApproved()">
-                                                            </div>
-                                                        </div>
-                                                        <div class="row mb-2">
-                                                            <label class="col-4 col-form-label text-md-end text-danger">Ticket Number:</label>
-                                                            <div class="col-8">
-                                                                <input class="form-control text-dark" id="ticketDocs" oninput="docsApproved()">
-                                                            </div>
-                                                        </div>
-                                                    </form>
+                                                    </div>
                                                 </div>
-
-                                                <div class="tab-pane" id="input-types-approve">
-                                                    <form class="form-horizontal">
-                                                        <div class="row mb-2">
-                                                            <label class="col-4 col-form-label text-md-end text-danger">Reason:</label>
-                                                            <div class="col-8">
-                                                                <input class="form-control text-dark" id="reasonApproved" oninput="supApproved()">
-                                                            </div>
-                                                        </div>
-                                                        <div class="row mb-2">
-                                                            <label class="col-4 col-form-label text-md-end text-danger">Ticket Number:</label>
-                                                            <div class="col-8">
-                                                                <input class="form-control text-dark" id="ticketApproved" oninput="supApproved()">
-                                                            </div>
-                                                        </div>
-                                                    </form>
+                                                <div class="row mb-2">
+                                                    <label class="col-4 col-form-label text-md-end text-danger">Assign To:</label>
+                                                    <div class="col-8">
+                                                        <select class="form-select text-dark" id="assignTo" oninput="TicketAssignment()">
+                                                            <option></option>
+                                                            <option value="Cignal Premier, Team Account">Cignal Premier</option>
+                                                            <option value="Consumer Billing, Team Account">Consumer Billing</option>
+                                                            <option value="Resolution, Team Account">Resolution</option>
+                                                            <option value="Fullfillment, SPIO Team Account">Fullfillment</option>
+                                                            <option value="TREASURY, Team Account">Treasury</option>
+                                                            <option value="Credit, Team Account">Credit</option>
+                                                        </select>
+                                                    </div>
                                                 </div>
-
-                                                <div class="tab-pane" id="input-types-disapprove">
-                                                    <form class="form-horizontal">
-                                                        <div class="row mb-2">
-                                                            <label class="col-4 col-form-label text-md-end text-danger">Reason:</label>
-                                                            <div class="col-8">
-                                                                <select class="form-select text-dark" id="reasonDisapproved" oninput="supDisapproved()">
-                                                                    <option></option>
-                                                                    <option value="DXB">Tampered POB</option>
-                                                                    <option value="DXI">Tampered POID</option>
-                                                                    <option value="DXH">Installed in Different House</option>
-                                                                    <option value="DXF">Fraud Call</option>
-                                                                    <option value="DXA">Previously Disapproved</option>
-                                                                </select>
-                                                            </div>
-                                                        </div>
-                                                        <div class="row mb-2">
-                                                            <label class="col-4 col-form-label text-md-end text-danger">Ticket Number:</label>
-                                                            <div class="col-8">
-                                                                <input class="form-control text-dark" id="ticketDisapproved" oninput="supDisapproved()">
-                                                            </div>
-                                                        </div>
-                                                    </form>
+                                                <div class="row mb-2">
+                                                    <label class="col-4 col-form-label text-md-end text-danger">Ticket Number:</label>
+                                                    <div class="col-8">
+                                                        <input class="form-control text-dark" id="ticketNumber" oninput="TicketAssignment()">
+                                                    </div>
                                                 </div>
-
-                                            </div> <!-- end tab-content-->
-
+                                                <div class="row mb-4">
+                                                    <label class="col-4 col-form-label text-md-end text-danger">Remarks:</label>
+                                                    <div class="col-8">
+                                                        <input class="form-control text-dark" id="remarks" oninput="TicketAssignment()">
+                                                    </div>
+                                                </div>
+                                            </form>
                                         </div>
 
                                         <div class="col-6">
                                             <h4 class="header-title mb-3 text-dark">Notes Result</h4>
                                             <form>
                                                 <div class="mb-2">
-                                                    <textarea style="height: 205px; color: black;" class="form-control" id="notes" readonly></textarea>
+                                                    <textarea style="height: 300px; color: black;" class="form-control" id="notes" readonly></textarea>
                                                 </div>
                                             </form>
                                         </div>
-
                                         <div class="col-12">
                                             <div class="card-footer">
                                                 <div class="row">
@@ -255,17 +207,34 @@
                                             checkNotesValue();
                                             document.getElementById("notes").addEventListener("input", checkNotesValue);
 
-                                            function docsApproved() {
-                                                var items = document.getElementById("items").value;
-                                                var hpa = document.getElementById("hpa").value;
-                                                var ticketDocs = document.getElementById("ticketDocs").value;
+                                            function TicketAssignment() {
+                                                var newTicket = document.getElementById("newTicket");
+                                                var reassignTicket = document.getElementById("reassignTicket");
+                                                var assignTo = document.getElementById("assignTo").value;
+                                                var ticketNumber = document.getElementById("ticketNumber").value;
+                                                var remarks = document.getElementById("remarks").value;
                                                 var notes = document.getElementById("notes");
 
-                                                if(items === '' && hpa === '' && ticketDocs === '') {
+                                                if(!newTicket.checked && !reassignTicket.checked && assignTo === '' && ticketNumber === '' && remarks === '') {
                                                     notes.value = "";
                                                 }
-                                                else {
-                                                    notes.value = "DOCS APPROVED \nITEMS TO VERIFY: " + items + "\nHIGHEST PLAN APPROVED: " + hpa + "\nTICKET NUMBER: " + ticketDocs;
+                                                else if(newTicket.checked) {
+                                                    reassignTicket.checked = false;
+                                                    if(remarks === '') {
+                                                        notes.value = "Created ticket endorse to " + assignTo + "\nTICKET NUMBER: " + ticketNumber;
+                                                    }
+                                                    else {
+                                                        notes.value = "Created ticket endorse to " + assignTo + "\nTICKET NUMBER: " + ticketNumber + "\nREMARKS: " + remarks;
+                                                    }
+                                                }
+                                                else if(reassignTicket.checked) {
+                                                    newTicket.checked = false;
+                                                    if(remarks === '') {
+                                                        notes.value = "Reassign ticket endorse to " + assignTo + "\nTICKET NUMBER: " + ticketNumber;
+                                                    }
+                                                    else {
+                                                        notes.value = "Reassign ticket endorse to " + assignTo + "\nTICKET NUMBER: " + ticketNumber + "\nREMARKS: " + remarks;
+                                                    }
                                                 }
 
                                                 notes.style.fontFamily = 'Courier New, Courier, monospace';
@@ -274,39 +243,13 @@
                                                 checkNotesValue();
                                             }
 
-                                            function supApproved() {
-                                                var reasonApproved = document.getElementById("reasonApproved").value;
-                                                var ticketApproved = document.getElementById("ticketApproved").value;
-                                                var notes = document.getElementById("notes");
-
-                                                if(reasonApproved === '' && ticketApproved === '') {
-                                                    notes.value = "";
-                                                }
-                                                else {
-                                                    notes.value = "FOR SUP APPROVAL \nREASON: " + reasonApproved + "\nTICKET NUMBER: " + ticketApproved;
-                                                }
-
-                                                notes.style.fontFamily = 'Courier New, Courier, monospace';
-                                                notes.style.fontSize = '1.05rem';
-
-                                                checkNotesValue();
-                                            }
-
-                                            function supDisapproved() {
-                                                var selectedOption = document.getElementById("reasonDisapproved").options[document.getElementById("reasonDisapproved").selectedIndex];
-                                                var reasonAcronym = selectedOption.value;
-                                                var ticketDisapproved = document.getElementById("ticketDisapproved").value;
-                                                var notes = document.getElementById("notes");
-
-                                                if(reasonAcronym === '' && ticketDisapproved === '') {
-                                                    notes.value = "";
-                                                }
-                                                else {
-                                                    notes.value = "FOR SUP APPROVAL \nREASON: " + reasonAcronym + "\nTICKET NUMBER: " + ticketDisapproved;
-                                                }
-
-                                                notes.style.fontFamily = 'Courier New, Courier, monospace';
-                                                notes.style.fontSize = '1.05rem';
+                                            function clearNotes(){
+                                                document.getElementById("newTicket").checked = false;
+                                                document.getElementById("reassignTicket").checked = false;
+                                                document.getElementById("assignTo").value = '';
+                                                document.getElementById("ticketNumber").value = '';
+                                                document.getElementById("remarks").value = '';
+                                                document.getElementById("notes").value = '';
 
                                                 checkNotesValue();
                                             }
@@ -317,19 +260,6 @@
                                                 copyText.setSelectionRange(0, 99999);
                                                 navigator.clipboard.writeText(copyText.value);
                                             }
-
-                                            function clearNotes() {
-                                                document.getElementById("items").value = '';
-                                                document.getElementById("hpa").value = '';
-                                                document.getElementById("ticketDocs").value = '';
-                                                document.getElementById("reasonApproved").value = '';
-                                                document.getElementById("ticketApproved").value = '';
-                                                document.getElementById("reasonDisapproved").value = '';
-                                                document.getElementById("ticketDisapproved").value = '';
-                                                document.getElementById("notes").value = '';
-
-                                                checkNotesValue();
-                                            }
                                         </script>
 
                                     </div> <!-- end row -->
@@ -339,9 +269,9 @@
                         </div> <!-- end col -->
                     </div> <!-- end row -->
 
-                </div> <!-- container -->
+                </div> <!-- end container -->
 
-            </div> <!-- content -->
+            </div> <!-- end content -->
 
             <!-- Footer -->
             <footer class="footer">

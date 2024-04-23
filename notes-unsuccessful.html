@@ -46,6 +46,7 @@
                                 <li><a href="notes-pldt_and_radius.html">PLDT and Radius</a></li>
                                 <li><a href="notes-demo_and_syndication.html">Demo and Syndication</a></li>
                                 <li><a href="notes-vsat.html">VSAT</a></li>
+                                <li><a href="notes-other_ticket_assignment.html">Other Ticket Assignment</a></li>
                             </ul>
                         </div>
                     </li>
@@ -256,10 +257,10 @@
                                             document.getElementById("notes").addEventListener("input", checkNotesValue);
 
                                             function unsucCallOut() {
-                                                var phone = document.getElementById("phone").value.toUpperCase();
+                                                var phone = document.getElementById("phone").value;
                                                 var mobile = document.getElementById("mobile").value;
-                                                var reason = document.getElementById("reason").value.toUpperCase();
-                                                var verify = document.getElementById("verify").value.toUpperCase();
+                                                var reason = document.getElementById("reason").value;
+                                                var verify = document.getElementById("verify").value;
                                                 var notes = document.getElementById("notes");
 
                                                 if(phone === '' && mobile === '' && reason === '' && verify === '') {

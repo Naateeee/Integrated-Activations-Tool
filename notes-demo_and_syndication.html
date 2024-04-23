@@ -46,6 +46,7 @@
                                 <li><a href="notes-pldt_and_radius.html">PLDT and Radius</a></li>
                                 <li><a href="notes-demo_and_syndication.html">Demo and Syndication</a></li>
                                 <li><a href="notes-vsat.html">VSAT</a></li>
+                                <li><a href="notes-other_ticket_assignment.html">Other Ticket Assignment</a></li>
                             </ul>
                         </div>
                     </li>
@@ -331,9 +332,9 @@
 
                                             function activationDemo() {
                                                 var demoAccount = document.getElementById("demoAccount").value;
-                                                var duration = document.getElementById("duration").value.toUpperCase();
+                                                var duration = document.getElementById("duration").value;
                                                 var demoTicket = document.getElementById("demoTicket").value;
-                                                var demoRemarks = document.getElementById("demoRemarks").value.toUpperCase();
+                                                var demoRemarks = document.getElementById("demoRemarks").value;
                                                 var notes = document.getElementById("notes");
 
                                                 if(demoAccount === '' && duration === '' && demoTicket === '' && demoRemarks === '') {
@@ -355,9 +356,9 @@
 
                                             function activationContent() {
                                                 var contenctAccount = document.getElementById("contenctAccount").value;
-                                                var contentChannels = document.getElementById("contentChannels").value.toUpperCase();
-                                                var contentLockin = document.getElementById("contentLockin").value.toUpperCase();
-                                                var contentRemarks = document.getElementById("contentRemarks").value.toUpperCase();
+                                                var contentChannels = document.getElementById("contentChannels").value;
+                                                var contentLockin = document.getElementById("contentLockin").value;
+                                                var contentRemarks = document.getElementById("contentRemarks").value;
                                                 var contentTicket = document.getElementById("contentTicket").value;
                                                 var notes = document.getElementById("notes");
 
@@ -382,9 +383,9 @@
 
                                             function activationSyndication() {
                                                 var syndicationAccount = document.getElementById("syndicationAccount").value;
-                                                var syndicationChannels = document.getElementById("syndicationChannels").value.toUpperCase();
-                                                var contract = document.getElementById("contract").value.toUpperCase();
-                                                var syndicationRemarks = document.getElementById("syndicationRemarks").value.toUpperCase();
+                                                var syndicationChannels = document.getElementById("syndicationChannels").value;
+                                                var contract = document.getElementById("contract").value;
+                                                var syndicationRemarks = document.getElementById("syndicationRemarks").value;
                                                 var syndicationTicket = document.getElementById("syndicationTicket").value;
                                                 var notes = document.getElementById("notes");
 
@@ -408,9 +409,9 @@
 
                                             function activationHRH() {
                                                 var hrhAccount = document.getElementById("hrhAccount").value;
-                                                var hrhContract = document.getElementById("hrhContract").value.toUpperCase();
-                                                var hrhRequest = document.getElementById("hrhRequest").value.toUpperCase();
-                                                var hrhRemarks = document.getElementById("hrhRemarks").value.toUpperCase();
+                                                var hrhContract = document.getElementById("hrhContract").value;
+                                                var hrhRequest = document.getElementById("hrhRequest").value;
+                                                var hrhRemarks = document.getElementById("hrhRemarks").value;
                                                 var hrhTicket = document.getElementById("hrhTicket").value;
                                                 var notes = document.getElementById("notes");
 
