@@ -1,13 +1,5 @@
-// Your data array
+// ID Only List for June 1 - 30, 2024
 const salesManCode = [
-    {
-        "Territory Partner": "PDI Negros",
-        "Class": "CSS",
-        "Region": "Western Visayas",
-        "Sales Code": "CSPNF4000121",
-        "Trade Name": "Ayala Malls Capitol Central - Inline",
-        "Status": "Included"
-    },
     {
         "Territory Partner": "Fixcells",
         "Class": "CSS",
@@ -17,43 +9,11 @@ const salesManCode = [
         "Status": "Included"
     },
     {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "CSS",
-        "Region": "South Mindanao",
-        "Sales Code": "CSM2V3000122",
-        "Trade Name": "SM City General Santos - Inline",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Cellcom Central East",
-        "Class": "CSS",
-        "Region": "East Visayas",
-        "Sales Code": "CSCCC1000121",
-        "Trade Name": "Robinsons North Tacloban - Inline",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Weecent",
-        "Class": "CSS",
-        "Region": "NCR",
-        "Sales Code": "CSWLN2000221",
-        "Trade Name": "SM City Fairview",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Koks",
-        "Class": "CSS",
-        "Region": "Western Visayas",
-        "Sales Code": "CSKSE4000122",
-        "Trade Name": "SM City Roxas - Inline",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "8 telcom 2",
+        "Territory Partner": "Digilife",
         "Class": "CSS",
         "Region": "East Mindanao",
-        "Sales Code": "CS8MG3000121",
-        "Trade Name": "SM City Davao - Inline",
+        "Sales Code": "CSD1S2000121",
+        "Trade Name": "SM City Butuan - Inline",
         "Status": "Included"
     },
     {
@@ -65,19 +25,35 @@ const salesManCode = [
         "Status": "Included"
     },
     {
-        "Territory Partner": "Innovasia Batangas",
+        "Territory Partner": "8 telcom 2",
         "Class": "CSS",
-        "Region": "Upper South Luzon",
-        "Sales Code": "CSIBY3000221",
-        "Trade Name": "Robinsons Place Lipa",
+        "Region": "East Mindanao",
+        "Sales Code": "CS8MG3000121",
+        "Trade Name": "SM City Davao - Inline",
         "Status": "Included"
     },
     {
-        "Territory Partner": "NB Rebeta",
+        "Territory Partner": "Innovasia Mindoro",
         "Class": "CSS",
-        "Region": "Lower South Luzon",
-        "Sales Code": "CSNAL1000121",
-        "Trade Name": "Ayala Malls Legazpi - Inline",
+        "Region": "Upper South Luzon",
+        "Sales Code": "CSIMA4000121",
+        "Trade Name": "Nuciti Central Mall Calapan",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Weecent",
+        "Class": "CSS",
+        "Region": "NCR",
+        "Sales Code": "CSWLN2000221",
+        "Trade Name": "SM City Fairview",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Mega Durian 2",
+        "Class": "CSS",
+        "Region": "South Mindanao",
+        "Sales Code": "CSM2V3000122",
+        "Trade Name": "SM City General Santos - Inline",
         "Status": "Included"
     },
     {
@@ -97,11 +73,11 @@ const salesManCode = [
         "Status": "Included"
     },
     {
-        "Territory Partner": "Digilife",
+        "Territory Partner": "Cellcom Central East",
         "Class": "CSS",
-        "Region": "East Mindanao",
-        "Sales Code": "CSD1S2000121",
-        "Trade Name": "SM City Butuan - Inline",
+        "Region": "East Visayas",
+        "Sales Code": "CSCCC1000121",
+        "Trade Name": "Robinsons North Tacloban - Inline",
         "Status": "Included"
     },
     {
@@ -121,11 +97,19 @@ const salesManCode = [
         "Status": "Included"
     },
     {
-        "Territory Partner": "Innovasia Mindoro",
+        "Territory Partner": "Innovasia Batangas",
         "Class": "CSS",
         "Region": "Upper South Luzon",
-        "Sales Code": "CSIMA4000121",
-        "Trade Name": "Nuciti Central Mall Calapan",
+        "Sales Code": "CSIBY3000221",
+        "Trade Name": "Robinsons Place Lipa",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Koks",
+        "Class": "CSS",
+        "Region": "Western Visayas",
+        "Sales Code": "CSKSE4000122",
+        "Trade Name": "SM City Roxas - Inline",
         "Status": "Included"
     },
     {
@@ -137,6 +121,14 @@ const salesManCode = [
         "Status": "Included"
     },
     {
+        "Territory Partner": "NB Rebeta",
+        "Class": "CSS",
+        "Region": "Lower South Luzon",
+        "Sales Code": "CSNAL1000121",
+        "Trade Name": "Ayala Malls Legazpi - Inline",
+        "Status": "Included"
+    },
+    {
         "Territory Partner": "PDI Negros",
         "Class": "CSS",
         "Region": "Western Visayas",
@@ -145,19 +137,19 @@ const salesManCode = [
         "Status": "Included"
     },
     {
+        "Territory Partner": "PDI Negros",
+        "Class": "CSS",
+        "Region": "Western Visayas",
+        "Sales Code": "CSPNF4000121",
+        "Trade Name": "Ayala Malls Capitol Central - Inline",
+        "Status": "Included"
+    },
+    {
         "Territory Partner": "Uniglobal",
         "Class": "CSS",
         "Region": "East Mindanao",
         "Sales Code": "CSULK3000121",
         "Trade Name": "Gaisano Mall of Tagum - Inline",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Digilife",
-        "Class": "MRK",
-        "Region": "East Mindanao",
-        "Sales Code": "MR6CAMRK",
-        "Trade Name": "Cabadbaran Terminal",
         "Status": "Included"
     },
     {
@@ -212,14 +204,6 @@ const salesManCode = [
         "Territory Partner": "Airtalk",
         "Class": "TP Hub",
         "Region": "Northwest Mindanao",
-        "Sales Code": "WRZBRXXX",
-        "Trade Name": "AIRTALK DIPOLOG ",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Airtalk",
-        "Class": "TP Hub",
-        "Region": "Northwest Mindanao",
         "Sales Code": "WRZ2AXXX",
         "Trade Name": "AIRTALK IPIL",
         "Status": "Included"
@@ -268,6 +252,14 @@ const salesManCode = [
         "Territory Partner": "BBCI",
         "Class": "TP Hub",
         "Region": "South Mindanao",
+        "Sales Code": "WB3FAXXX",
+        "Trade Name": "BBCI KIDAPAWAN",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "BBCI",
+        "Class": "TP Hub",
+        "Region": "South Mindanao",
         "Sales Code": "THBIH30018",
         "Trade Name": "BBCI-Matalam Hub",
         "Status": "Included"
@@ -281,11 +273,11 @@ const salesManCode = [
         "Status": "Included"
     },
     {
-        "Territory Partner": "BSL",
+        "Territory Partner": "BBCI",
         "Class": "TP Hub",
-        "Region": "NCR",
-        "Sales Code": "CHN3BL000423",
-        "Trade Name": "BSL Cable Installation Services Inc.",
+        "Region": "South Mindanao",
+        "Sales Code": "CHI3BI000523",
+        "Trade Name": "BBCI",
         "Status": "Included"
     },
     {
@@ -297,11 +289,11 @@ const salesManCode = [
         "Status": "Included"
     },
     {
-        "Territory Partner": "Cellcom Southern East",
+        "Territory Partner": "Cellcom Northern East",
         "Class": "TP Hub",
         "Region": "East Visayas",
-        "Sales Code": "VSW6AXXX",
-        "Trade Name": "CELLCOM LEYTE SOGOD",
+        "Sales Code": "THSWCL000822",
+        "Trade Name": "Cellcom Calbayog Hub",
         "Status": "Included"
     },
     {
@@ -372,8 +364,8 @@ const salesManCode = [
         "Territory Partner": "DLM",
         "Class": "TP Hub",
         "Region": "Lower South Luzon",
-        "Sales Code": "UMMCJXXX",
-        "Trade Name": "DLM IRIGA CITY",
+        "Sales Code": "UMMCHXXX",
+        "Trade Name": "DLM GOA",
         "Status": "Included"
     },
     {
@@ -409,22 +401,6 @@ const salesManCode = [
         "Status": "Included"
     },
     {
-        "Territory Partner": "Fixcells",
-        "Class": "TP Hub",
-        "Region": "East Central Luzon",
-        "Sales Code": "THFSX10014",
-        "Trade Name": "FIXCELLS GAPAN",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "FM Marketing 2",
-        "Class": "TP Hub",
-        "Region": "North Luzon West",
-        "Sales Code": "CHK2TC001023",
-        "Trade Name": "JFM TELEMARKETING 2",
-        "Status": "Included"
-    },
-    {
         "Territory Partner": "Go Sigla LagQuez",
         "Class": "TP Hub",
         "Region": "Central South Luzon",
@@ -441,11 +417,27 @@ const salesManCode = [
         "Status": "Included"
     },
     {
+        "Territory Partner": "Goodlife",
+        "Class": "TP Hub",
+        "Region": "Lower South Luzon",
+        "Sales Code": "UVM3AXXX",
+        "Trade Name": "GOODLIFE MASBATE",
+        "Status": "Included"
+    },
+    {
         "Territory Partner": "Greentelcom 2 (Rizal)",
         "Class": "TP Hub",
         "Region": "NCR",
         "Sales Code": "THEPF30001",
         "Trade Name": "Greentelcom Rizal",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Innovasia Mindoro",
+        "Class": "TP Hub",
+        "Region": "Upper South Luzon",
+        "Sales Code": "UAKYAXXX",
+        "Trade Name": "INNOVASIA MAMBURAO",
         "Status": "Included"
     },
     {
@@ -518,6 +510,22 @@ const salesManCode = [
         "Region": "Lower South Luzon",
         "Sales Code": "URNEAXXX",
         "Trade Name": "NB REBETA LEGAZPI",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Panlock",
+        "Class": "TP Hub",
+        "Region": "NCR",
+        "Sales Code": "X2XLAXXX",
+        "Trade Name": "REELWORKS LAS PIÑAS",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Panlock",
+        "Class": "TP Hub",
+        "Region": "NCR",
+        "Sales Code": "X2XACXXX",
+        "Trade Name": "REELWORKS PASAY",
         "Status": "Included"
     },
     {
@@ -617,6 +625,14 @@ const salesManCode = [
         "Status": "Included"
     },
     {
+        "Territory Partner": "TBH Tarlac",
+        "Class": "TP Hub",
+        "Region": "West Central Luzon",
+        "Sales Code": "CHY1TP000823",
+        "Trade Name": "Tarlac City Hub",
+        "Status": "Included"
+    },
+    {
         "Territory Partner": "Technoclear 1 - Upper Qzn & Mdque",
         "Class": "TP Hub",
         "Region": "Central South Luzon",
@@ -665,51 +681,35 @@ const salesManCode = [
         "Status": "Included"
     },
     {
-        "Territory Partner": "Vitalize",
+        "Territory Partner": "Wanna Cable",
         "Class": "TP Hub",
-        "Region": "NCR",
-        "Sales Code": "X4XGAXXX",
-        "Trade Name": "Vita-Lize Distribution Inc",
+        "Region": "West Central Luzon",
+        "Sales Code": "THU1JZ000422",
+        "Trade Name": "Wanna Cable",
         "Status": "Included"
     },
     {
-        "Territory Partner": "Madera",
+        "Territory Partner": "Cellcom Northern East",
         "Class": "TP Hub",
-        "Region": "Central South Luzon",
-        "Sales Code": "USOBAXXX",
-        "Trade Name": "MADERA DAET",
+        "Region": "East Visayas",
+        "Sales Code": "VSVAAXXX",
+        "Trade Name": "CELLCOM SAMAR CATARMAN",
         "Status": "Included"
     },
     {
-        "Territory Partner": "Madera",
+        "Territory Partner": "Elim",
         "Class": "TP Hub",
-        "Region": "Central South Luzon",
-        "Sales Code": "USMNLXXX",
-        "Trade Name": "MADERA LABO",
+        "Region": "Northwest Mindanao",
+        "Sales Code": "WE1UAXXX",
+        "Trade Name": "ELIM OZAMIS MANABAY",
         "Status": "Included"
     },
     {
-        "Territory Partner": "Technoclear 1 - Upper Qzn & Mdque",
+        "Territory Partner": "Vertext",
         "Class": "TP Hub",
-        "Region": "Central South Luzon",
-        "Sales Code": "UKKKAXXX",
-        "Trade Name": "TECHNOCLEAR DON QUEBLAR LUCENA",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Greentelcom",
-        "Class": "TP Hub",
-        "Region": "Upper South Luzon",
-        "Sales Code": "UZLCAXXX",
-        "Trade Name": "GREENTELCOM BACOOR",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Negros",
-        "Class": "TP Hub",
-        "Region": "Western Visayas",
-        "Sales Code": "VBRACXXX",
-        "Trade Name": "PDI NEGROS BACOLOD CITY MAIN",
+        "Region": "North Luzon West",
+        "Sales Code": "TAABAXXX",
+        "Trade Name": "VERTEXT LAOAG",
         "Status": "Included"
     },
     {
@@ -721,6 +721,14 @@ const salesManCode = [
         "Status": "Included"
     },
     {
+        "Territory Partner": "Airtalk",
+        "Class": "TP Hub",
+        "Region": "Northwest Mindanao",
+        "Sales Code": "WRZBRXXX",
+        "Trade Name": "AIRTALK DIPOLOG ",
+        "Status": "Included"
+    },
+    {
         "Territory Partner": "Alain Asia North",
         "Class": "TP Hub",
         "Region": "Central Visayas",
@@ -729,11 +737,11 @@ const salesManCode = [
         "Status": "Included"
     },
     {
-        "Territory Partner": "BBCI",
+        "Territory Partner": "BSL",
         "Class": "TP Hub",
-        "Region": "South Mindanao",
-        "Sales Code": "CHI3BI000523",
-        "Trade Name": "BBCI",
+        "Region": "NCR",
+        "Sales Code": "CHN3BL000423",
+        "Trade Name": "BSL Cable Installation Services Inc.",
         "Status": "Included"
     },
     {
@@ -753,19 +761,11 @@ const salesManCode = [
         "Status": "Included"
     },
     {
-        "Territory Partner": "Cellcom Northern East",
+        "Territory Partner": "Cellcom Southern East",
         "Class": "TP Hub",
         "Region": "East Visayas",
-        "Sales Code": "VSVAAXXX",
-        "Trade Name": "CELLCOM SAMAR CATARMAN",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Cellcom Northern East",
-        "Class": "TP Hub",
-        "Region": "East Visayas",
-        "Sales Code": "THSWCL000822",
-        "Trade Name": "Cellcom Calbayog Hub",
+        "Sales Code": "VSW6AXXX",
+        "Trade Name": "CELLCOM LEYTE SOGOD",
         "Status": "Included"
     },
     {
@@ -788,16 +788,8 @@ const salesManCode = [
         "Territory Partner": "DLM",
         "Class": "TP Hub",
         "Region": "Lower South Luzon",
-        "Sales Code": "UMMCHXXX",
-        "Trade Name": "DLM GOA",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Elim",
-        "Class": "TP Hub",
-        "Region": "Northwest Mindanao",
-        "Sales Code": "WE1UAXXX",
-        "Trade Name": "ELIM OZAMIS MANABAY",
+        "Sales Code": "UMMCJXXX",
+        "Trade Name": "DLM IRIGA CITY",
         "Status": "Included"
     },
     {
@@ -809,11 +801,27 @@ const salesManCode = [
         "Status": "Included"
     },
     {
+        "Territory Partner": "Fixcells",
+        "Class": "TP Hub",
+        "Region": "East Central Luzon",
+        "Sales Code": "THFSX10014",
+        "Trade Name": "FIXCELLS GAPAN",
+        "Status": "Included"
+    },
+    {
         "Territory Partner": "FM Marketing",
         "Class": "TP Hub",
         "Region": "North Luzon West",
         "Sales Code": "THFGL20005",
         "Trade Name": "JFM Telemarketing Hub",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Greentelcom",
+        "Class": "TP Hub",
+        "Region": "Upper South Luzon",
+        "Sales Code": "UZLCAXXX",
+        "Trade Name": "GREENTELCOM BACOOR",
         "Status": "Included"
     },
     {
@@ -849,19 +857,27 @@ const salesManCode = [
         "Status": "Included"
     },
     {
-        "Territory Partner": "Innovasia Mindoro",
-        "Class": "TP Hub",
-        "Region": "Upper South Luzon",
-        "Sales Code": "UAKYAXXX",
-        "Trade Name": "INNOVASIA MAMBURAO",
-        "Status": "Included"
-    },
-    {
         "Territory Partner": "Koks",
         "Class": "TP Hub",
         "Region": "Western Visayas",
         "Sales Code": "ADPC5D01",
         "Trade Name": "KOKS KALIBO",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Madera",
+        "Class": "TP Hub",
+        "Region": "Central South Luzon",
+        "Sales Code": "USOBAXXX",
+        "Trade Name": "MADERA DAET",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Madera",
+        "Class": "TP Hub",
+        "Region": "Central South Luzon",
+        "Sales Code": "USMNLXXX",
+        "Trade Name": "MADERA LABO",
         "Status": "Included"
     },
     {
@@ -873,19 +889,11 @@ const salesManCode = [
         "Status": "Included"
     },
     {
-        "Territory Partner": "Panlock",
+        "Territory Partner": "PDI Negros",
         "Class": "TP Hub",
-        "Region": "NCR",
-        "Sales Code": "X2XLAXXX",
-        "Trade Name": "REELWORKS LAS PIÑAS",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Panlock",
-        "Class": "TP Hub",
-        "Region": "NCR",
-        "Sales Code": "X2XACXXX",
-        "Trade Name": "REELWORKS PASAY",
+        "Region": "Western Visayas",
+        "Sales Code": "VBRACXXX",
+        "Trade Name": "PDI NEGROS BACOLOD CITY MAIN",
         "Status": "Included"
     },
     {
@@ -913,6 +921,14 @@ const salesManCode = [
         "Status": "Included"
     },
     {
+        "Territory Partner": "Technoclear 1 - Upper Qzn & Mdque",
+        "Class": "TP Hub",
+        "Region": "Central South Luzon",
+        "Sales Code": "UKKKAXXX",
+        "Trade Name": "TECHNOCLEAR DON QUEBLAR LUCENA",
+        "Status": "Included"
+    },
+    {
         "Territory Partner": "Uniglobal",
         "Class": "TP Hub",
         "Region": "East Mindanao",
@@ -921,19 +937,11 @@ const salesManCode = [
         "Status": "Included"
     },
     {
-        "Territory Partner": "Vertext",
+        "Territory Partner": "Vitalize",
         "Class": "TP Hub",
-        "Region": "North Luzon West",
-        "Sales Code": "TAABAXXX",
-        "Trade Name": "VERTEXT LAOAG",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Wanna Cable",
-        "Class": "TP Hub",
-        "Region": "West Central Luzon",
-        "Sales Code": "THU1JZ000422",
-        "Trade Name": "Wanna Cable",
+        "Region": "NCR",
+        "Sales Code": "X4XGAXXX",
+        "Trade Name": "Vita-Lize Distribution Inc",
         "Status": "Included"
     },
     {
@@ -942,6 +950,78 @@ const salesManCode = [
         "Region": "NCR",
         "Sales Code": "XWXQAXXX",
         "Trade Name": "WEECENT QUEZON CITY",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Alain Asia North",
+        "Class": "TP Online Store",
+        "Region": "Central Visayas",
+        "Sales Code": "VKTVCFBO",
+        "Trade Name": "ALAIN ASIA NORTH ONLINE",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "BSL",
+        "Class": "TP Online Store",
+        "Region": "NCR",
+        "Sales Code": "XQXNPFBO",
+        "Trade Name": "BSL ONLINE",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "FM Marketing",
+        "Class": "TP Online Store",
+        "Region": "North Luzon West",
+        "Sales Code": "TMAYFFBO",
+        "Trade Name": "FM MARKETING ONLINE",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Greentelcom",
+        "Class": "TP Online Store",
+        "Region": "Upper South Luzon",
+        "Sales Code": "UZLCAFBO",
+        "Trade Name": "GREENTELCOM ONLINE",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Greentelcom 2 (Rizal)",
+        "Class": "TP Online Store",
+        "Region": "NCR",
+        "Sales Code": "TOEPF30003",
+        "Trade Name": "Greentelcommunication Trading Inc. (Rizal)",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Oxworld",
+        "Class": "TP Online Store",
+        "Region": "NCR",
+        "Sales Code": "TON4OW000923",
+        "Trade Name": "Oxworld International, Inc.",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Vitalize",
+        "Class": "TP Online Store",
+        "Region": "NCR",
+        "Sales Code": "X4XGAFBO",
+        "Trade Name": "Vita-Lize Distribution Inc Online Store",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Wanna Cable",
+        "Class": "TP Online Store",
+        "Region": "West Central Luzon",
+        "Sales Code": "TGGMCFBO",
+        "Trade Name": "JAGUZ ONLINE",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Weecent",
+        "Class": "TP Online Store",
+        "Region": "NCR",
+        "Sales Code": "XWXQAFBO",
+        "Trade Name": "WEECENT ONLINE",
         "Status": "Included"
     },
     {
@@ -961,11 +1041,19 @@ const salesManCode = [
         "Status": "Included"
     },
     {
-        "Territory Partner": "BSL",
+        "Territory Partner": "Alain Asia South",
         "Class": "TP Online Store",
-        "Region": "NCR",
-        "Sales Code": "XQXNPFBO",
-        "Trade Name": "BSL ONLINE",
+        "Region": "Central Visayas",
+        "Sales Code": "VKT6AFBO",
+        "Trade Name": "ALAIN ASIA SOUTH ONLINE",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "BBCI",
+        "Class": "TP Online Store",
+        "Region": "South Mindanao",
+        "Sales Code": "WB3FAFBO",
+        "Trade Name": "BBCI ONLINE",
         "Status": "Included"
     },
     {
@@ -1065,14 +1153,6 @@ const salesManCode = [
         "Status": "Included"
     },
     {
-        "Territory Partner": "Greentelcom",
-        "Class": "TP Online Store",
-        "Region": "Upper South Luzon",
-        "Sales Code": "UZLCAFBO",
-        "Trade Name": "GREENTELCOM ONLINE",
-        "Status": "Included"
-    },
-    {
         "Territory Partner": "High End",
         "Class": "TP Online Store",
         "Region": "Lower South Luzon",
@@ -1142,14 +1222,6 @@ const salesManCode = [
         "Region": "Lower South Luzon",
         "Sales Code": "URNEAFBO",
         "Trade Name": "NB REBETA ONLINE",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Oxworld",
-        "Class": "TP Online Store",
-        "Region": "NCR",
-        "Sales Code": "TON4OW000923",
-        "Trade Name": "Oxworld International, Inc.",
         "Status": "Included"
     },
     {
@@ -1238,62 +1310,6 @@ const salesManCode = [
         "Region": "North Luzon West",
         "Sales Code": "TAABAFBO",
         "Trade Name": "VERTEXT ONLINE",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Vitalize",
-        "Class": "TP Online Store",
-        "Region": "NCR",
-        "Sales Code": "X4XGAFBO",
-        "Trade Name": "Vita-Lize Distribution Inc Online Store",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Alain Asia North",
-        "Class": "TP Online Store",
-        "Region": "Central Visayas",
-        "Sales Code": "VKTVCFBO",
-        "Trade Name": "ALAIN ASIA NORTH ONLINE",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Alain Asia South",
-        "Class": "TP Online Store",
-        "Region": "Central Visayas",
-        "Sales Code": "VKT6AFBO",
-        "Trade Name": "ALAIN ASIA SOUTH ONLINE",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "BBCI",
-        "Class": "TP Online Store",
-        "Region": "South Mindanao",
-        "Sales Code": "WB3FAFBO",
-        "Trade Name": "BBCI ONLINE",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "FM Marketing",
-        "Class": "TP Online Store",
-        "Region": "North Luzon West",
-        "Sales Code": "TMAYFFBO",
-        "Trade Name": "FM MARKETING ONLINE",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Greentelcom 2 (Rizal)",
-        "Class": "TP Online Store",
-        "Region": "NCR",
-        "Sales Code": "TOEPF30003",
-        "Trade Name": "Greentelcommunication Trading Inc. (Rizal)",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Wanna Cable",
-        "Class": "TP Online Store",
-        "Region": "West Central Luzon",
-        "Sales Code": "TGGMCFBO",
-        "Trade Name": "JAGUZ ONLINE",
         "Status": "Included"
     },
     {
@@ -4569,6 +4585,30 @@ const salesManCode = [
         "Status": "Included"
     },
     {
+        "Territory Partner": "Glyph",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "KAGMB001",
+        "Trade Name": "Maya Business",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Glyph",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "KAGL0001",
+        "Trade Name": "Glyph",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Glyph",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "KAST0001",
+        "Trade Name": "ShareIT",
+        "Status": "Included"
+    },
+    {
         "Territory Partner": "Hachiko Corp ",
         "Class": "Key Accounts",
         "Region": "Key Accounts",
@@ -5225,14 +5265,6 @@ const salesManCode = [
         "Status": "Included"
     },
     {
-        "Territory Partner": "MegaSmart",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "KNMEGA0000",
-        "Trade Name": "",
-        "Status": "Included"
-    },
-    {
         "Territory Partner": "Mega Smart",
         "Class": "Key Accounts",
         "Region": "Key Accounts",
@@ -5310,6 +5342,14 @@ const salesManCode = [
         "Region": "Key Accounts",
         "Sales Code": "KAMIB001",
         "Trade Name": "Inquirer Business",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MegaSmart",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "KNMEGA0000",
+        "Trade Name": "",
         "Status": "Included"
     },
     {
@@ -5486,6 +5526,1382 @@ const salesManCode = [
         "Region": "Key Accounts",
         "Sales Code": "MMOEX022",
         "Trade Name": "MemoXpress online store",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX023",
+        "Trade Name": "JR MX HYPERMARKET MONUMENTO",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX024",
+        "Trade Name": "JR MX HYPERMARKET NOVALICHES",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX025",
+        "Trade Name": "JR MX WALTERMART NORTH EDSA MUNOZ",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX026",
+        "Trade Name": "MEMOXPRESS SM SANGANDAAN",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX027",
+        "Trade Name": "MEMOXPRESS SM VALENZUELA",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX028",
+        "Trade Name": "MEMOXPRESS SM NORTH EDSA",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX029",
+        "Trade Name": "SAMSUNG SERVICE HUB NORTH EDSA",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX030",
+        "Trade Name": "DITO NORTH EDSA",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX031",
+        "Trade Name": "JR MX SAVEMORE MARKET NOVALICHES",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX032",
+        "Trade Name": "MEMOXPRESS SM FAIRVIEW",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX033",
+        "Trade Name": "MEMOXPRESS SM SAN MATEO",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX034",
+        "Trade Name": "MEMOXPRESS SM TUNGKO SJDM",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX035",
+        "Trade Name": "MX AYALA MARIKINA",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX036",
+        "Trade Name": "SAMSUNG SM MARIKINA",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX037",
+        "Trade Name": "JR MX SAVEMORE AMANG RODRIGUEZ",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX038",
+        "Trade Name": "JR MX SAVEMORE MARKET BINANGONAN",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX039",
+        "Trade Name": "JR MX WALTERMART THE HIVE TAYTAY",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX040",
+        "Trade Name": "SAMSUNG STALUCIA EAST GRAND MALL",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX041",
+        "Trade Name": "JR MX CENTRIS ETON",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX042",
+        "Trade Name": "JR MX SAVEMORE MARKET ANONAS",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX043",
+        "Trade Name": "JR MX SM CENTER PASIG",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX044",
+        "Trade Name": "MEMOXPRESS STARMALL MANDALUYONG",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX045",
+        "Trade Name": "MEMOXPRESS UNIMART CAPITOL COMMON",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX046",
+        "Trade Name": "MEMOXPRESS UNIMART GREENHILLS",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX047",
+        "Trade Name": "JR MX PACIFIC CENTRE BINONDO",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX048",
+        "Trade Name": "JR MX SAVEMORE MARKET STA ANA MANILA",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX049",
+        "Trade Name": "JR MX HYPERMARKET DECA MALL",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX050",
+        "Trade Name": "MEMOXPRESS ROBINSONS PLACE MIDTOWN",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX051",
+        "Trade Name": "JR MX CENTRIS ETON",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX052",
+        "Trade Name": "JR MX MPLACE SOUTH TRIANGLE QUEZON CITY",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX053",
+        "Trade Name": "JR MX SUN RESIDENCES QUEZON CITY",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX054",
+        "Trade Name": "ANSONS NEW MAKATI",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX055",
+        "Trade Name": "MX GLORIETTA 2",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX056",
+        "Trade Name": "MX GLORIETTA 2 SERVICE HUB",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX057",
+        "Trade Name": "SAMSUNG GLORIETTA 2",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX058",
+        "Trade Name": "SAMSUNG CASH AND CARRY",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX059",
+        "Trade Name": "MEMOXPRESS CASH & CARRY",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX060",
+        "Trade Name": "MEMOXPRESS SM BALIWAG",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX061",
+        "Trade Name": "MEMOXPRESS ROBINSONS PLACE MALOLOS",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX062",
+        "Trade Name": "MX SM PULILAN BULACAN",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX063",
+        "Trade Name": "JR MX WALTERMART PLARIDEL",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX064",
+        "Trade Name": "JR MX SAVEMORE MARKET SAN ILDEFONSO",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX065",
+        "Trade Name": "JR MX WALTERMART STA MARIA",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX066",
+        "Trade Name": "MEMOXPRESS SM MARILAO",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX067",
+        "Trade Name": "JR MX SAVEMORE MARKET MALHACAN MEYCAUYAN",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX068",
+        "Trade Name": "JR MX SAVEMORE SOLANO NUEVA VIZCAYA",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX069",
+        "Trade Name": "MEMOXPRESS SM MEGACENTER CABANATUAN",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX070",
+        "Trade Name": "MEMOXPRESS SM CITY CABANATUAN",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX071",
+        "Trade Name": "JR MX WALTERMART GAPAN",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX072",
+        "Trade Name": "JR MX WALTERMART CABANATUAN",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX073",
+        "Trade Name": "JR MX WALTERMART TALAVERA",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX074",
+        "Trade Name": "JR MX WALTERMART SAN JOSE NUEVA ECIJA",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX075",
+        "Trade Name": "MEMOXPRESS SM PAMPANGA",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX076",
+        "Trade Name": "SAMSUNG SM PAMPANGA",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX077",
+        "Trade Name": "MEMOXPRESS SM DOWNTOWN SF PAMPANGA",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX078",
+        "Trade Name": "JR MX SAVEMORE MARKET APALIT PAMPANGA",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX079",
+        "Trade Name": "JR MX SAVEMORE MARKET STA ANA PAMPANGA",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX080",
+        "Trade Name": "JR MX WALTERMART SAN FERNANDO",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX081",
+        "Trade Name": "MEMOXPRESS SM CLARK",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX082",
+        "Trade Name": "MX SM TELABASTAGAN",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX083",
+        "Trade Name": "JR MX WALTERMART CONCEPCION TARLAC",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX084",
+        "Trade Name": "MEMOXPRESS SM ROSALES",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX085",
+        "Trade Name": "MEMOXPRESS SM DAGUPAN",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX086",
+        "Trade Name": "MEMOXPRESS SM TARLAC",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX087",
+        "Trade Name": "JR MX SAVEMORE POZORRUBIO",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX088",
+        "Trade Name": "JR MX SAVEMORE BINALONAN",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX089",
+        "Trade Name": "JR MX SAVEMORE MARKET CANDON",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX090",
+        "Trade Name": "JR MX SAVEMORE MARKET LA TRINIDAD BENGUET",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX091",
+        "Trade Name": "JR MX SAVEMORE MARKET LAOAG",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX092",
+        "Trade Name": "JR MX XENTRO MALL VIGAN",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX093",
+        "Trade Name": "SAMSUNG SM OLONGAPO",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX094",
+        "Trade Name": "MEMOXPRESS VISTA MALL BATAAN",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX095",
+        "Trade Name": "MEMOXPRESS HARBOR POINT OLONGAPO",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX096",
+        "Trade Name": "MEMOXPRESS SM OLONGAPO",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX097",
+        "Trade Name": "MEMOXPRESS SM CENTRAL OLONGAPO",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX098",
+        "Trade Name": "JR MX IBA TOWN CENTER ZAMBALES",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX099",
+        "Trade Name": "JR MX SAVEMORE DINALUPIHAN",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX100",
+        "Trade Name": "JR MX WALTERMART SUBIC",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX101",
+        "Trade Name": "JR MX WALTERMART BALANGA BATAAN",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX102",
+        "Trade Name": "JR MX SAVEMORE MARKET TUGUEGARAO",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX103",
+        "Trade Name": "JR MX SAVEMORE MARKET ILAGAN",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX104",
+        "Trade Name": "JR MX SAVEMORE NOVO APARRI",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX105",
+        "Trade Name": "MX ROBINSONS TUGUEGARAO",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX106",
+        "Trade Name": "MX SM DOWNTOWN TUGUEGARAO",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX107",
+        "Trade Name": "MEMOXPRESS ROBINSONS PLACE SANTIAGO",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX108",
+        "Trade Name": "MEMOXPRESS SM CAUAYAN",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX109",
+        "Trade Name": "HUAWEI SM CAUAYAN ISABELA",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX110",
+        "Trade Name": "JR MX SAVEMORE ECHAGUE",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX111",
+        "Trade Name": "HUAWEI SM SOUTHMALL",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX112",
+        "Trade Name": "MEMOXPRESS FESTIVAL MALL",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX113",
+        "Trade Name": "MEMOXPRESS ROBINSONS PLACE LAS PIÑAS",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX114",
+        "Trade Name": "MEMOXPRESS SM SOUTHMALL",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX115",
+        "Trade Name": "MEMOXPRESS ROBINSONS PLACE SAN PEDRO LAGUNA",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX116",
+        "Trade Name": "MEMOXPRESS SM MOLINO",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX117",
+        "Trade Name": "JR MX SAVEMORE MARKET SALAWAG",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX118",
+        "Trade Name": "JR MX WALTERMART BALAYAN BATANGAS",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX119",
+        "Trade Name": "MX ROBINSONS PLACE LIPA",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX120",
+        "Trade Name": "JR MX WALTERMART BATANGAS",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX121",
+        "Trade Name": "MEMOXPRESS SM SAN PABLO",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX122",
+        "Trade Name": "MEMOXPRESS SM LUCENA",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX123",
+        "Trade Name": "JR MX SAVEMORE MARKET MENDEZ TAGAYTAY",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX124",
+        "Trade Name": "MX SM LEGAZPI",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX125",
+        "Trade Name": "MEMOXPRESS AYALA LEGASPI",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX126",
+        "Trade Name": "MX ROBINSONS PLACE NAGA",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX127",
+        "Trade Name": "JR MX SAVEMORE MARKET SORSOGON",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX128",
+        "Trade Name": "JR MX SAVEMORE MARKET PILI CAMARINES SUR",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX129",
+        "Trade Name": "MEMOXPRESS SM DAET",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX130",
+        "Trade Name": "JR MX PAVILION MALL LAGUNA",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX131",
+        "Trade Name": "JR MX SAVEMORE MARKET CABUYAO",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX132",
+        "Trade Name": "JR MX WALTERMART STA ROSA",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX133",
+        "Trade Name": "REALME KIOSK STA ROSA",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX134",
+        "Trade Name": "MEMOXPRESS PASEO DE STAROSA",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX135",
+        "Trade Name": "MEMOXPRESS SM STAROSA",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX136",
+        "Trade Name": "MEMOXPRESS SM CALAMBA",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX137",
+        "Trade Name": "JR MX WALTERMART MAKILING",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX138",
+        "Trade Name": "JR MX WALTERMART LOTUS MALL",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX139",
+        "Trade Name": "REALME KIOSK SM CENTER IMUS",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX140",
+        "Trade Name": "MEMOXPRESS THE DISTRICT IMUS",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX141",
+        "Trade Name": "JR MX PORTAL MALL GMA CAVITE",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX142",
+        "Trade Name": "JR MX HYPERMARKET NAIC",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX143",
+        "Trade Name": "JR MX WALTERMART DASMARINAS",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX144",
+        "Trade Name": "JR MX SAVEMORE ALAPAN",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX145",
+        "Trade Name": "MEMOXPRESS ROBINSONS GENERAL TRIAS",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX146",
+        "Trade Name": "MEMOXPRESS SM DASMARIÑAS",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX147",
+        "Trade Name": "MEMOXPRESS SM TRECE MARTIRES",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX148",
+        "Trade Name": "JR MX HYPERMARKET FTI TAGUIG",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX149",
+        "Trade Name": "JR MX WALTERMART SUCAT",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX150",
+        "Trade Name": "OPPO FTI TAGUIG",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX151",
+        "Trade Name": "HUAWEI BF PARANAQUE",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX152",
+        "Trade Name": "MEMOXPRESS SM BF PARAÑAQUE",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX153",
+        "Trade Name": "JR MX SAVEMORE MARKET LIBERTAD BACOLOD",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX154",
+        "Trade Name": "JR MX SAVEMORE MARKET SILAY",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX155",
+        "Trade Name": "MEMOXPRESS AYALA CAPITOL CENTRAL BACOLOD CITY",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX156",
+        "Trade Name": "MEMOXPRESS SM BACOLOD",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX157",
+        "Trade Name": "JR MX CHINATOWN PALAWAN",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX158",
+        "Trade Name": "HUAWEI SM PALAWAN",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX159",
+        "Trade Name": "MEMOXPRESS ROBINSONS PLACE PALAWAN",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX160",
+        "Trade Name": "MX SM PALAWAN",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX161",
+        "Trade Name": "JR MX CITYMALL ROXAS",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX162",
+        "Trade Name": "JR MX SAVEMORE CITYMALL BORACAY",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX163",
+        "Trade Name": "MEMOXPRESS ROBINSONS PLACE ANTIQUE",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX164",
+        "Trade Name": "MEMOXPRESS ROBINSONS PLACE ROXAS",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX165",
+        "Trade Name": "MEMOXPRESS ROBINSONS ILOILO",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX166",
+        "Trade Name": "MEMOXPRESS ROBINSONS JARO ILOILO",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX167",
+        "Trade Name": "MEMOXPRESS SM ILOILO",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX168",
+        "Trade Name": "MX SM DELGADO ILOILO",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX169",
+        "Trade Name": "MX ROBINSONS PAVIA ILOILO",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX170",
+        "Trade Name": "MX SM DELGADO SERVICE HUB",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX171",
+        "Trade Name": "JR MX SAVEMORE MARKET ELIZABETH MALL CEBU",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX172",
+        "Trade Name": "JR MX SUPER METRO LAPULAPU",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX173",
+        "Trade Name": "HUAWEI AYALA CEBU",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX174",
+        "Trade Name": "MEMOXPRESS SM CEBU",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX175",
+        "Trade Name": "SERVICE HUB SM SEASIDE CEBU",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX176",
+        "Trade Name": "MEMOXPRESS SM SEASIDE CEBU",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX177",
+        "Trade Name": "MEMOXPRESS ROBINSONS TACLOBAN",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX178",
+        "Trade Name": "MX ROBINSONS N. ABUCAY TACLOBAN",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX179",
+        "Trade Name": "MX ROBINSONS ORMOC",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX180",
+        "Trade Name": "MEMOXPRESS CENTRIO CAGAYAN DE ORO",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX181",
+        "Trade Name": "MEMOXPRESS ROBINSONS PLACE BUTUAN",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX182",
+        "Trade Name": "MEMOXPRESS SM CAGAYAN DE ORO",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX183",
+        "Trade Name": "MEMOXPRESS SM DOWNTOWN PREMIER CDO",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX184",
+        "Trade Name": "MEMOXPRESS ROBINSONS ILIGAN",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX185",
+        "Trade Name": "MEMOXPRESS SM BUTUAN",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX186",
+        "Trade Name": "MEMOXPRESS SM MINDPRO ZAMBOANGA",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX187",
+        "Trade Name": "MEMOXPRESS ROBINSONS PLACE VALENCIA BUKIDNON",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX188",
+        "Trade Name": "JR MX SAVEMORE MARKET GENERAL SANTOS",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX189",
+        "Trade Name": "JR MX SAVEMORE BANGKAL DAVAO",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX190",
+        "Trade Name": "MEMOXPRESS ROBINSONS TAGUM",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX191",
+        "Trade Name": "MEMOXPRESS SM DAVAO",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX192",
+        "Trade Name": "MEMOXPRESS SM GENERAL SANTOS",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX193",
+        "Trade Name": "MX GAISANO MALL DIGOS",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "MEMOXPRESS",
+        "Class": "Key Accounts",
+        "Region": "Key Accounts",
+        "Sales Code": "MMOEX194",
+        "Trade Name": "OPPO GENSAN",
         "Status": "Included"
     },
     {
@@ -7197,7 +8613,7 @@ const salesManCode = [
         "Class": "Key Accounts",
         "Region": "Key Accounts",
         "Sales Code": "RMMCD001",
-        "Trade Name": "Caloocan – Deparo",
+        "Trade Name": "SM Caloocan",
         "Status": "Included"
     },
     {
@@ -7301,7 +8717,7 @@ const salesManCode = [
         "Class": "Key Accounts",
         "Region": "Key Accounts",
         "Sales Code": "RMMDC002",
-        "Trade Name": "Caloocan – Deparo",
+        "Trade Name": "SM Caloocan",
         "Status": "Included"
     },
     {
@@ -8337,1398 +9753,6 @@ const salesManCode = [
         "Status": "Included"
     },
     {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX023",
-        "Trade Name": "JR MX HYPERMARKET MONUMENTO",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX024",
-        "Trade Name": "JR MX HYPERMARKET NOVALICHES",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX025",
-        "Trade Name": "JR MX WALTERMART NORTH EDSA MUNOZ",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX026",
-        "Trade Name": "MEMOXPRESS SM SANGANDAAN",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX027",
-        "Trade Name": "MEMOXPRESS SM VALENZUELA",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX028",
-        "Trade Name": "MEMOXPRESS SM NORTH EDSA",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX029",
-        "Trade Name": "SAMSUNG SERVICE HUB NORTH EDSA",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX030",
-        "Trade Name": "DITO NORTH EDSA",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX031",
-        "Trade Name": "JR MX SAVEMORE MARKET NOVALICHES",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX032",
-        "Trade Name": "MEMOXPRESS SM FAIRVIEW",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX033",
-        "Trade Name": "MEMOXPRESS SM SAN MATEO",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX034",
-        "Trade Name": "MEMOXPRESS SM TUNGKO SJDM",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX035",
-        "Trade Name": "MX AYALA MARIKINA",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX036",
-        "Trade Name": "SAMSUNG SM MARIKINA",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX037",
-        "Trade Name": "JR MX SAVEMORE AMANG RODRIGUEZ",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX038",
-        "Trade Name": "JR MX SAVEMORE MARKET BINANGONAN",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX039",
-        "Trade Name": "JR MX WALTERMART THE HIVE TAYTAY",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX040",
-        "Trade Name": "SAMSUNG STALUCIA EAST GRAND MALL",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX041",
-        "Trade Name": "JR MX CENTRIS ETON",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX042",
-        "Trade Name": "JR MX SAVEMORE MARKET ANONAS",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX043",
-        "Trade Name": "JR MX SM CENTER PASIG",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX044",
-        "Trade Name": "MEMOXPRESS STARMALL MANDALUYONG",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX045",
-        "Trade Name": "MEMOXPRESS UNIMART CAPITOL COMMON",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX046",
-        "Trade Name": "MEMOXPRESS UNIMART GREENHILLS",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX047",
-        "Trade Name": "JR MX PACIFIC CENTRE BINONDO",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX048",
-        "Trade Name": "JR MX SAVEMORE MARKET STA ANA MANILA",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX049",
-        "Trade Name": "JR MX HYPERMARKET DECA MALL",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX050",
-        "Trade Name": "MEMOXPRESS ROBINSONS PLACE MIDTOWN",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX051",
-        "Trade Name": "JR MX CENTRIS ETON",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX052",
-        "Trade Name": "JR MX MPLACE SOUTH TRIANGLE QUEZON CITY",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX053",
-        "Trade Name": "JR MX SUN RESIDENCES QUEZON CITY",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX054",
-        "Trade Name": "ANSONS NEW MAKATI",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX055",
-        "Trade Name": "MX GLORIETTA 2",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX056",
-        "Trade Name": "MX GLORIETTA 2 SERVICE HUB",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX057",
-        "Trade Name": "SAMSUNG GLORIETTA 2",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX058",
-        "Trade Name": "SAMSUNG CASH AND CARRY",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX059",
-        "Trade Name": "MEMOXPRESS CASH & CARRY",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX060",
-        "Trade Name": "MEMOXPRESS SM BALIWAG",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX061",
-        "Trade Name": "MEMOXPRESS ROBINSONS PLACE MALOLOS",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX062",
-        "Trade Name": "MX SM PULILAN BULACAN",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX063",
-        "Trade Name": "JR MX WALTERMART PLARIDEL",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX064",
-        "Trade Name": "JR MX SAVEMORE MARKET SAN ILDEFONSO",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX065",
-        "Trade Name": "JR MX WALTERMART STA MARIA",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX066",
-        "Trade Name": "MEMOXPRESS SM MARILAO",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX067",
-        "Trade Name": "JR MX SAVEMORE MARKET MALHACAN MEYCAUYAN",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX068",
-        "Trade Name": "JR MX SAVEMORE SOLANO NUEVA VIZCAYA",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX069",
-        "Trade Name": "MEMOXPRESS SM MEGACENTER CABANATUAN",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX070",
-        "Trade Name": "MEMOXPRESS SM CITY CABANATUAN",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX071",
-        "Trade Name": "JR MX WALTERMART GAPAN",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX072",
-        "Trade Name": "JR MX WALTERMART CABANATUAN",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX073",
-        "Trade Name": "JR MX WALTERMART TALAVERA",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX074",
-        "Trade Name": "JR MX WALTERMART SAN JOSE NUEVA ECIJA",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX075",
-        "Trade Name": "MEMOXPRESS SM PAMPANGA",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX076",
-        "Trade Name": "SAMSUNG SM PAMPANGA",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX077",
-        "Trade Name": "MEMOXPRESS SM DOWNTOWN SF PAMPANGA",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX078",
-        "Trade Name": "JR MX SAVEMORE MARKET APALIT PAMPANGA",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX079",
-        "Trade Name": "JR MX SAVEMORE MARKET STA ANA PAMPANGA",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX080",
-        "Trade Name": "JR MX WALTERMART SAN FERNANDO",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX081",
-        "Trade Name": "MEMOXPRESS SM CLARK",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX082",
-        "Trade Name": "MX SM TELABASTAGAN",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX083",
-        "Trade Name": "JR MX WALTERMART CONCEPCION TARLAC",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX084",
-        "Trade Name": "MEMOXPRESS SM ROSALES",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX085",
-        "Trade Name": "MEMOXPRESS SM DAGUPAN",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX086",
-        "Trade Name": "MEMOXPRESS SM TARLAC",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX087",
-        "Trade Name": "JR MX SAVEMORE POZORRUBIO",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX088",
-        "Trade Name": "JR MX SAVEMORE BINALONAN",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX089",
-        "Trade Name": "JR MX SAVEMORE MARKET CANDON",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX090",
-        "Trade Name": "JR MX SAVEMORE MARKET LA TRINIDAD BENGUET",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX091",
-        "Trade Name": "JR MX SAVEMORE MARKET LAOAG",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX092",
-        "Trade Name": "JR MX XENTRO MALL VIGAN",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX093",
-        "Trade Name": "SAMSUNG SM OLONGAPO",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX094",
-        "Trade Name": "MEMOXPRESS VISTA MALL BATAAN",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX095",
-        "Trade Name": "MEMOXPRESS HARBOR POINT OLONGAPO",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX096",
-        "Trade Name": "MEMOXPRESS SM OLONGAPO",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX097",
-        "Trade Name": "MEMOXPRESS SM CENTRAL OLONGAPO",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX098",
-        "Trade Name": "JR MX IBA TOWN CENTER ZAMBALES",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX099",
-        "Trade Name": "JR MX SAVEMORE DINALUPIHAN",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX100",
-        "Trade Name": "JR MX WALTERMART SUBIC",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX101",
-        "Trade Name": "JR MX WALTERMART BALANGA BATAAN",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX102",
-        "Trade Name": "JR MX SAVEMORE MARKET TUGUEGARAO",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX103",
-        "Trade Name": "JR MX SAVEMORE MARKET ILAGAN",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX104",
-        "Trade Name": "JR MX SAVEMORE NOVO APARRI",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX105",
-        "Trade Name": "MX ROBINSONS TUGUEGARAO",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX106",
-        "Trade Name": "MX SM DOWNTOWN TUGUEGARAO",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX107",
-        "Trade Name": "MEMOXPRESS ROBINSONS PLACE SANTIAGO",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX108",
-        "Trade Name": "MEMOXPRESS SM CAUAYAN",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX109",
-        "Trade Name": "HUAWEI SM CAUAYAN ISABELA",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX110",
-        "Trade Name": "JR MX SAVEMORE ECHAGUE",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX111",
-        "Trade Name": "HUAWEI SM SOUTHMALL",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX112",
-        "Trade Name": "MEMOXPRESS FESTIVAL MALL",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX113",
-        "Trade Name": "MEMOXPRESS ROBINSONS PLACE LAS PIÑAS",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX114",
-        "Trade Name": "MEMOXPRESS SM SOUTHMALL",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX115",
-        "Trade Name": "MEMOXPRESS ROBINSONS PLACE SAN PEDRO LAGUNA",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX116",
-        "Trade Name": "MEMOXPRESS SM MOLINO",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX117",
-        "Trade Name": "JR MX SAVEMORE MARKET SALAWAG",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX118",
-        "Trade Name": "JR MX WALTERMART BALAYAN BATANGAS",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX119",
-        "Trade Name": "MX ROBINSONS PLACE LIPA",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX120",
-        "Trade Name": "JR MX WALTERMART BATANGAS",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX121",
-        "Trade Name": "MEMOXPRESS SM SAN PABLO",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX122",
-        "Trade Name": "MEMOXPRESS SM LUCENA",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX123",
-        "Trade Name": "JR MX SAVEMORE MARKET MENDEZ TAGAYTAY",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX124",
-        "Trade Name": "MX SM LEGAZPI",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX125",
-        "Trade Name": "MEMOXPRESS AYALA LEGASPI",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX126",
-        "Trade Name": "MX ROBINSONS PLACE NAGA",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX127",
-        "Trade Name": "JR MX SAVEMORE MARKET SORSOGON",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX128",
-        "Trade Name": "JR MX SAVEMORE MARKET PILI CAMARINES SUR",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX129",
-        "Trade Name": "MEMOXPRESS SM DAET",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX130",
-        "Trade Name": "JR MX PAVILION MALL LAGUNA",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX131",
-        "Trade Name": "JR MX SAVEMORE MARKET CABUYAO",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX132",
-        "Trade Name": "JR MX WALTERMART STA ROSA",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX133",
-        "Trade Name": "REALME KIOSK STA ROSA",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX134",
-        "Trade Name": "MEMOXPRESS PASEO DE STAROSA",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX135",
-        "Trade Name": "MEMOXPRESS SM STAROSA",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX136",
-        "Trade Name": "MEMOXPRESS SM CALAMBA",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX137",
-        "Trade Name": "JR MX WALTERMART MAKILING",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX138",
-        "Trade Name": "JR MX WALTERMART LOTUS MALL",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX139",
-        "Trade Name": "REALME KIOSK SM CENTER IMUS",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX140",
-        "Trade Name": "MEMOXPRESS THE DISTRICT IMUS",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX141",
-        "Trade Name": "JR MX PORTAL MALL GMA CAVITE",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX142",
-        "Trade Name": "JR MX HYPERMARKET NAIC",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX143",
-        "Trade Name": "JR MX WALTERMART DASMARINAS",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX144",
-        "Trade Name": "JR MX SAVEMORE ALAPAN",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX145",
-        "Trade Name": "MEMOXPRESS ROBINSONS GENERAL TRIAS",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX146",
-        "Trade Name": "MEMOXPRESS SM DASMARIÑAS",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX147",
-        "Trade Name": "MEMOXPRESS SM TRECE MARTIRES",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX148",
-        "Trade Name": "JR MX HYPERMARKET FTI TAGUIG",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX149",
-        "Trade Name": "JR MX WALTERMART SUCAT",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX150",
-        "Trade Name": "OPPO FTI TAGUIG",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX151",
-        "Trade Name": "HUAWEI BF PARANAQUE",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX152",
-        "Trade Name": "MEMOXPRESS SM BF PARAÑAQUE",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX153",
-        "Trade Name": "JR MX SAVEMORE MARKET LIBERTAD BACOLOD",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX154",
-        "Trade Name": "JR MX SAVEMORE MARKET SILAY",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX155",
-        "Trade Name": "MEMOXPRESS AYALA CAPITOL CENTRAL BACOLOD CITY",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX156",
-        "Trade Name": "MEMOXPRESS SM BACOLOD",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX157",
-        "Trade Name": "JR MX CHINATOWN PALAWAN",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX158",
-        "Trade Name": "HUAWEI SM PALAWAN",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX159",
-        "Trade Name": "MEMOXPRESS ROBINSONS PLACE PALAWAN",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX160",
-        "Trade Name": "MX SM PALAWAN",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX161",
-        "Trade Name": "JR MX CITYMALL ROXAS",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX162",
-        "Trade Name": "JR MX SAVEMORE CITYMALL BORACAY",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX163",
-        "Trade Name": "MEMOXPRESS ROBINSONS PLACE ANTIQUE",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX164",
-        "Trade Name": "MEMOXPRESS ROBINSONS PLACE ROXAS",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX165",
-        "Trade Name": "MEMOXPRESS ROBINSONS ILOILO",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX166",
-        "Trade Name": "MEMOXPRESS ROBINSONS JARO ILOILO",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX167",
-        "Trade Name": "MEMOXPRESS SM ILOILO",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX168",
-        "Trade Name": "MX SM DELGADO ILOILO",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX169",
-        "Trade Name": "MX ROBINSONS PAVIA ILOILO",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX170",
-        "Trade Name": "MX SM DELGADO SERVICE HUB",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX171",
-        "Trade Name": "JR MX SAVEMORE MARKET ELIZABETH MALL CEBU",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX172",
-        "Trade Name": "JR MX SUPER METRO LAPULAPU",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX173",
-        "Trade Name": "HUAWEI AYALA CEBU",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX174",
-        "Trade Name": "MEMOXPRESS SM CEBU",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX175",
-        "Trade Name": "SERVICE HUB SM SEASIDE CEBU",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX176",
-        "Trade Name": "MEMOXPRESS SM SEASIDE CEBU",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX177",
-        "Trade Name": "MEMOXPRESS ROBINSONS TACLOBAN",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX178",
-        "Trade Name": "MX ROBINSONS N. ABUCAY TACLOBAN",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX179",
-        "Trade Name": "MX ROBINSONS ORMOC",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX180",
-        "Trade Name": "MEMOXPRESS CENTRIO CAGAYAN DE ORO",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX181",
-        "Trade Name": "MEMOXPRESS ROBINSONS PLACE BUTUAN",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX182",
-        "Trade Name": "MEMOXPRESS SM CAGAYAN DE ORO",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX183",
-        "Trade Name": "MEMOXPRESS SM DOWNTOWN PREMIER CDO",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX184",
-        "Trade Name": "MEMOXPRESS ROBINSONS ILIGAN",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX185",
-        "Trade Name": "MEMOXPRESS SM BUTUAN",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX186",
-        "Trade Name": "MEMOXPRESS SM MINDPRO ZAMBOANGA",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX187",
-        "Trade Name": "MEMOXPRESS ROBINSONS PLACE VALENCIA BUKIDNON",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX188",
-        "Trade Name": "JR MX SAVEMORE MARKET GENERAL SANTOS",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX189",
-        "Trade Name": "JR MX SAVEMORE BANGKAL DAVAO",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX190",
-        "Trade Name": "MEMOXPRESS ROBINSONS TAGUM",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX191",
-        "Trade Name": "MEMOXPRESS SM DAVAO",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX192",
-        "Trade Name": "MEMOXPRESS SM GENERAL SANTOS",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX193",
-        "Trade Name": "MX GAISANO MALL DIGOS",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "MEMOXPRESS",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "MMOEX194",
-        "Trade Name": "OPPO GENSAN",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Glyph",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "KAGMB001",
-        "Trade Name": "Maya Business",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Glyph",
-        "Class": "Key Accounts",
-        "Region": "Key Accounts",
-        "Sales Code": "KAGL0001",
-        "Trade Name": "Glyph",
-        "Status": "Included"
-    },
-    {
         "Territory Partner": "Multi - Channel Sales",
         "Class": "Multi - Channel Sales",
         "Region": "Multi - Channel Sales",
@@ -10628,6 +10652,14 @@ const salesManCode = [
         "Territory Partner": "8 telcom 2",
         "Class": "Agent-Installer",
         "Region": "East Mindanao",
+        "Sales Code": "AI8MG30023",
+        "Trade Name": "Ivann Rue C. Lanisin",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "8 telcom 2",
+        "Class": "Agent-Installer",
+        "Region": "East Mindanao",
         "Sales Code": "AI8MG30012",
         "Trade Name": "Edzel Cignaltv Dealer",
         "Status": "Included"
@@ -11022,14 +11054,6 @@ const salesManCode = [
         "Region": "Central Visayas",
         "Sales Code": "AIA1DK002722",
         "Trade Name": "Giovanni Lazas",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Alain Asia South",
-        "Class": "Agent-Installer",
-        "Region": "Central Visayas",
-        "Sales Code": "AIA1DK002223",
-        "Trade Name": "Bonifacio Flores",
         "Status": "Included"
     },
     {
@@ -11492,6 +11516,14 @@ const salesManCode = [
         "Territory Partner": "BSL",
         "Class": "Agent-Installer",
         "Region": "NCR",
+        "Sales Code": "XJXVASJF",
+        "Trade Name": "CAMSAT CCTV",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "BSL",
+        "Class": "Agent-Installer",
+        "Region": "NCR",
         "Sales Code": "XJXVASJD",
         "Trade Name": "Ultra Infinity Mktg",
         "Status": "Included"
@@ -11526,14 +11558,6 @@ const salesManCode = [
         "Region": "NCR",
         "Sales Code": "XJXCASGZ",
         "Trade Name": "Resellient Enterprise",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "BSL",
-        "Class": "Agent-Installer",
-        "Region": "NCR",
-        "Sales Code": "XJXCASCX",
-        "Trade Name": "Dish Network Installation Services",
         "Status": "Included"
     },
     {
@@ -11694,14 +11718,6 @@ const salesManCode = [
         "Region": "NCR",
         "Sales Code": "AIMLBL000422",
         "Trade Name": "5J Enterprise",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "BSL",
-        "Class": "Agent-Installer",
-        "Region": "NCR",
-        "Sales Code": "AIBLT10085",
-        "Trade Name": "Medel Cignal",
         "Status": "Included"
     },
     {
@@ -11873,11 +11889,27 @@ const salesManCode = [
         "Status": "Included"
     },
     {
+        "Territory Partner": "BSL BULACAN",
+        "Class": "Agent-Installer",
+        "Region": "East Central Luzon",
+        "Sales Code": "AIV1TE000422",
+        "Trade Name": "Avheetech",
+        "Status": "Included"
+    },
+    {
         "Territory Partner": "Cayanan",
         "Class": "Agent-Installer",
         "Region": "West Central Luzon",
         "Sales Code": "T2H5ASSE",
         "Trade Name": "AA SERVICES",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Cayanan",
+        "Class": "Agent-Installer",
+        "Region": "West Central Luzon",
+        "Sales Code": "T2H5ASSD",
+        "Trade Name": "AGUSTIN STORE",
         "Status": "Included"
     },
     {
@@ -12081,6 +12113,14 @@ const salesManCode = [
         "Status": "Included"
     },
     {
+        "Territory Partner": "Cellcom Central East",
+        "Class": "Agent-Installer",
+        "Region": "East Visayas",
+        "Sales Code": "AIC1CC002623",
+        "Trade Name": "Venezuela Store",
+        "Status": "Included"
+    },
+    {
         "Territory Partner": "Cellcom Northern East",
         "Class": "Agent-Installer",
         "Region": "East Visayas",
@@ -12156,38 +12196,6 @@ const salesManCode = [
         "Territory Partner": "Cellcom Southern East",
         "Class": "Agent-Installer",
         "Region": "East Visayas",
-        "Sales Code": "VSWETCPT",
-        "Trade Name": "MJE SATELLITE TELECOMMUNICATION SERVICES",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Cellcom Southern East",
-        "Class": "Agent-Installer",
-        "Region": "East Visayas",
-        "Sales Code": "AID1CS000822",
-        "Trade Name": "M.A CODAL STORE",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Cellcom Southern East",
-        "Class": "Agent-Installer",
-        "Region": "East Visayas",
-        "Sales Code": "AID1CS000722",
-        "Trade Name": "RBANTIGUE STORE",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Cellcom Southern East",
-        "Class": "Agent-Installer",
-        "Region": "East Visayas",
-        "Sales Code": "AID1CS000622",
-        "Trade Name": "EVALE STORE",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Cellcom Southern East",
-        "Class": "Agent-Installer",
-        "Region": "East Visayas",
         "Sales Code": "AICLD10013",
         "Trade Name": "Rijess Electronics Parts",
         "Status": "Included"
@@ -12198,22 +12206,6 @@ const salesManCode = [
         "Region": "East Visayas",
         "Sales Code": "AICLD10003",
         "Trade Name": "Gran Electronics",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Cellcom Southern East",
-        "Class": "Agent-Installer",
-        "Region": "East Visayas",
-        "Sales Code": "AIC1CS000823",
-        "Trade Name": "FEDIRICO CAMANCHO",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Cellcom Southern East",
-        "Class": "Agent-Installer",
-        "Region": "East Visayas",
-        "Sales Code": "AIC1CS001823",
-        "Trade Name": "Marvs Electronics",
         "Status": "Included"
     },
     {
@@ -13553,6 +13545,14 @@ const salesManCode = [
         "Status": "Included"
     },
     {
+        "Territory Partner": "DLM",
+        "Class": "Agent-Installer",
+        "Region": "Lower South Luzon",
+        "Sales Code": "AIJ1DM000923",
+        "Trade Name": "BETTERHOME TRADING",
+        "Status": "Included"
+    },
+    {
         "Territory Partner": "Elim",
         "Class": "Agent-Installer",
         "Region": "Northwest Mindanao",
@@ -14209,6 +14209,22 @@ const salesManCode = [
         "Status": "Included"
     },
     {
+        "Territory Partner": "Fixcells",
+        "Class": "Agent-Installer",
+        "Region": "East Central Luzon",
+        "Sales Code": "AIX1FS000923",
+        "Trade Name": "Teodz Electronics Shop",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Fixcells",
+        "Class": "Agent-Installer",
+        "Region": "East Central Luzon",
+        "Sales Code": "AIX1FS001023",
+        "Trade Name": "Rusdel Sari-Sari Store",
+        "Status": "Included"
+    },
+    {
         "Territory Partner": "FM Marketing",
         "Class": "Agent-Installer",
         "Region": "North Luzon West",
@@ -14564,8 +14580,8 @@ const salesManCode = [
         "Territory Partner": "Go Sigla LagQuez",
         "Class": "Agent-Installer",
         "Region": "Central South Luzon",
-        "Sales Code": "UJJFASCB",
-        "Trade Name": "JS ELECTRONIC SHOP",
+        "Sales Code": "UJJPASCD",
+        "Trade Name": "MJTOSERVE Enterprise",
         "Status": "Included"
     },
     {
@@ -14772,6 +14788,14 @@ const salesManCode = [
         "Territory Partner": "Greentelcom",
         "Class": "Agent-Installer",
         "Region": "Upper South Luzon",
+        "Sales Code": "UZLFASAI",
+        "Trade Name": "Lenie Bacolod",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Greentelcom",
+        "Class": "Agent-Installer",
+        "Region": "Upper South Luzon",
         "Sales Code": "UDLCASED",
         "Trade Name": "Marcuap",
         "Status": "Included"
@@ -14916,6 +14940,14 @@ const salesManCode = [
         "Territory Partner": "Greentelcom 2 (Rizal)",
         "Class": "Agent-Installer",
         "Region": "NCR",
+        "Sales Code": "XEXXASHG",
+        "Trade Name": "Willart Services",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Greentelcom 2 (Rizal)",
+        "Class": "Agent-Installer",
+        "Region": "NCR",
         "Sales Code": "XEXXASHC",
         "Trade Name": "88 WALT ELECTRONIC",
         "Status": "Included"
@@ -14934,6 +14966,14 @@ const salesManCode = [
         "Region": "NCR",
         "Sales Code": "XEXXASEP",
         "Trade Name": "CMA",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Greentelcom 2 (Rizal)",
+        "Class": "Agent-Installer",
+        "Region": "NCR",
+        "Sales Code": "XEXXASCK",
+        "Trade Name": "TCE Enterprise ",
         "Status": "Included"
     },
     {
@@ -15038,14 +15078,6 @@ const salesManCode = [
         "Region": "NCR",
         "Sales Code": "AIEPF30025",
         "Trade Name": "Mary Joy Tresvalles",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Greentelcom 2 (Rizal)",
-        "Class": "Agent-Installer",
-        "Region": "NCR",
-        "Sales Code": "AIEPF30021",
-        "Trade Name": "Randy Dimaculangan",
         "Status": "Included"
     },
     {
@@ -15476,6 +15508,14 @@ const salesManCode = [
         "Territory Partner": "Innovasia Batangas",
         "Class": "Agent-Installer",
         "Region": "Upper South Luzon",
+        "Sales Code": "AIIAY30041",
+        "Trade Name": "RL Trading",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Innovasia Batangas",
+        "Class": "Agent-Installer",
+        "Region": "Upper South Luzon",
         "Sales Code": "AIIAY30035",
         "Trade Name": "Alex M. Regala",
         "Status": "Included"
@@ -15622,6 +15662,14 @@ const salesManCode = [
         "Region": "Western Visayas",
         "Sales Code": "AID4KS000623",
         "Trade Name": "Razzaq Cellphone Accessories Shop",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Koks",
+        "Class": "Agent-Installer",
+        "Region": "Western Visayas",
+        "Sales Code": "AID4KS000723",
+        "Trade Name": "Gabzlite 2",
         "Status": "Included"
     },
     {
@@ -17196,8 +17244,8 @@ const salesManCode = [
         "Territory Partner": "TBH PAMPANGA",
         "Class": "Agent-Installer",
         "Region": "West Central Luzon",
-        "Sales Code": "T3GUPCPT",
-        "Trade Name": "AVR Technology and Solutions",
+        "Sales Code": "T3GUPCPS",
+        "Trade Name": "PAMINTUAN SATELLITE SERVICES",
         "Status": "Included"
     },
     {
@@ -17230,6 +17278,14 @@ const salesManCode = [
         "Region": "West Central Luzon",
         "Sales Code": "AIU1C2001222",
         "Trade Name": "Jomar Quimson",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "TBH PAMPANGA",
+        "Class": "Agent-Installer",
+        "Region": "West Central Luzon",
+        "Sales Code": "AIU1C2001022",
+        "Trade Name": "CNF COURRIER SERVICES",
         "Status": "Included"
     },
     {
@@ -18388,8 +18444,8 @@ const salesManCode = [
         "Territory Partner": "Wanna Cable",
         "Class": "Agent-Installer",
         "Region": "West Central Luzon",
-        "Sales Code": "TGGMCSCJ",
-        "Trade Name": "Dante Satellite Services",
+        "Sales Code": "TGGMCSCC",
+        "Trade Name": "ABCDE SATELLITE SERVICE CENTER-DAU MABALACAT",
         "Status": "Included"
     },
     {
@@ -18644,24 +18700,40 @@ const salesManCode = [
         "Territory Partner": "Weecent",
         "Class": "Agent-Installer",
         "Region": "NCR",
-        "Sales Code": "AIN2WL001623",
-        "Trade Name": "EMERSON CLIMACO",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Weecent",
-        "Class": "Agent-Installer",
-        "Region": "NCR",
         "Sales Code": "AIN2WL001423",
         "Trade Name": "Antonio Valleroso",
         "Status": "Included"
     },
     {
-        "Territory Partner": "Oxworld",
+        "Territory Partner": "Greentelcom",
+        "Class": "Agent-Installer",
+        "Region": "Upper South Luzon",
+        "Sales Code": "AIE3GM001622",
+        "Trade Name": "Tezla - Cignal Cable Cavite",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Greentelcom 2 (Rizal)",
         "Class": "Agent-Installer",
         "Region": "NCR",
-        "Sales Code": "XNXLASCL",
-        "Trade Name": "Ruth Enterprise",
+        "Sales Code": "XEXQAWDL",
+        "Trade Name": "Jocelyn Cortez",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Greentelcom",
+        "Class": "Agent-Installer",
+        "Region": "Upper South Luzon",
+        "Sales Code": "AIE3GM000922",
+        "Trade Name": "EGG Enterprise",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Vitalize",
+        "Class": "Agent-Installer",
+        "Region": "NCR",
+        "Sales Code": "AIN2VI000822",
+        "Trade Name": "Proverbs 3:9 Trading",
         "Status": "Included"
     },
     {
@@ -18681,35 +18753,27 @@ const salesManCode = [
         "Status": "Included"
     },
     {
-        "Territory Partner": "8 telcom 2",
+        "Territory Partner": "Alain Asia South",
         "Class": "Agent-Installer",
-        "Region": "East Mindanao",
-        "Sales Code": "AI8MG30023",
-        "Trade Name": "Ivann Rue C. Lanisin",
+        "Region": "Central Visayas",
+        "Sales Code": "AIA1DK002223",
+        "Trade Name": "Bonifacio Flores",
         "Status": "Included"
     },
     {
         "Territory Partner": "BSL",
         "Class": "Agent-Installer",
         "Region": "NCR",
-        "Sales Code": "XJXVASJF",
-        "Trade Name": "CAMSAT CCTV",
+        "Sales Code": "XJXCASCX",
+        "Trade Name": "Dish Network Installation Services",
         "Status": "Included"
     },
     {
-        "Territory Partner": "BSL BULACAN",
+        "Territory Partner": "BSL",
         "Class": "Agent-Installer",
-        "Region": "East Central Luzon",
-        "Sales Code": "AIV1TE000422",
-        "Trade Name": "Avheetech",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Cayanan",
-        "Class": "Agent-Installer",
-        "Region": "West Central Luzon",
-        "Sales Code": "T2H5ASSD",
-        "Trade Name": "AGUSTIN STORE",
+        "Region": "NCR",
+        "Sales Code": "AIBLT10085",
+        "Trade Name": "Medel Cignal",
         "Status": "Included"
     },
     {
@@ -18718,62 +18782,6 @@ const salesManCode = [
         "Region": "North Luzon West",
         "Sales Code": "TMA3ASCD",
         "Trade Name": "TONIVIEN CABLE SERVICES",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Go Sigla LagQuez",
-        "Class": "Agent-Installer",
-        "Region": "Central South Luzon",
-        "Sales Code": "UJJPASCD",
-        "Trade Name": "MJTOSERVE Enterprise",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Greentelcom",
-        "Class": "Agent-Installer",
-        "Region": "Upper South Luzon",
-        "Sales Code": "UZLFASAI",
-        "Trade Name": "Lenie Bacolod",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Greentelcom",
-        "Class": "Agent-Installer",
-        "Region": "Upper South Luzon",
-        "Sales Code": "AIE3GM001622",
-        "Trade Name": "Tezla - Cignal Cable Cavite",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Greentelcom",
-        "Class": "Agent-Installer",
-        "Region": "Upper South Luzon",
-        "Sales Code": "AIE3GM000922",
-        "Trade Name": "EGG Enterprise",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Greentelcom 2 (Rizal)",
-        "Class": "Agent-Installer",
-        "Region": "NCR",
-        "Sales Code": "XEXXASHG",
-        "Trade Name": "Willart Services",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Greentelcom 2 (Rizal)",
-        "Class": "Agent-Installer",
-        "Region": "NCR",
-        "Sales Code": "XEXXASCK",
-        "Trade Name": "TCE Enterprise ",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Greentelcom 2 (Rizal)",
-        "Class": "Agent-Installer",
-        "Region": "NCR",
-        "Sales Code": "XEXQAWDL",
-        "Trade Name": "Jocelyn Cortez",
         "Status": "Included"
     },
     {
@@ -18793,11 +18801,11 @@ const salesManCode = [
         "Status": "Included"
     },
     {
-        "Territory Partner": "Innovasia Batangas",
+        "Territory Partner": "Greentelcom 2 (Rizal)",
         "Class": "Agent-Installer",
-        "Region": "Upper South Luzon",
-        "Sales Code": "AIIAY30041",
-        "Trade Name": "RL Trading",
+        "Region": "NCR",
+        "Sales Code": "AIEPF30021",
+        "Trade Name": "Randy Dimaculangan",
         "Status": "Included"
     },
     {
@@ -18806,6 +18814,14 @@ const salesManCode = [
         "Region": "Upper South Luzon",
         "Sales Code": "AIIAY30036",
         "Trade Name": "Gave Tecnico Trading",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Oxworld",
+        "Class": "Agent-Installer",
+        "Region": "NCR",
+        "Sales Code": "XNXLASCL",
+        "Trade Name": "Ruth Enterprise",
         "Status": "Included"
     },
     {
@@ -18828,24 +18844,16 @@ const salesManCode = [
         "Territory Partner": "TBH PAMPANGA",
         "Class": "Agent-Installer",
         "Region": "West Central Luzon",
-        "Sales Code": "T3GUPCPS",
-        "Trade Name": "PAMINTUAN SATELLITE SERVICES",
+        "Sales Code": "T3GUPCPT",
+        "Trade Name": "AVR Technology and Solutions",
         "Status": "Included"
     },
     {
-        "Territory Partner": "TBH PAMPANGA",
+        "Territory Partner": "Weecent",
         "Class": "Agent-Installer",
-        "Region": "West Central Luzon",
-        "Sales Code": "AIU1C2001022",
-        "Trade Name": "CNF COURRIER SERVICES",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Wanna Cable",
-        "Class": "Agent-Installer",
-        "Region": "West Central Luzon",
-        "Sales Code": "TGGMCSCC",
-        "Trade Name": "ABCDE SATELLITE SERVICE CENTER-DAU MABALACAT",
+        "Region": "NCR",
+        "Sales Code": "AIN2WL001623",
+        "Trade Name": "EMERSON CLIMACO",
         "Status": "Included"
     },
     {
@@ -19377,6 +19385,14 @@ const salesManCode = [
         "Status": "Included"
     },
     {
+        "Territory Partner": "Alain Asia North",
+        "Class": "Exclusive",
+        "Region": "Central Visayas",
+        "Sales Code": "EXA1AN003423",
+        "Trade Name": "Virgilio Gonzales DTH",
+        "Status": "Included"
+    },
+    {
         "Territory Partner": "Alain Asia South",
         "Class": "Exclusive",
         "Region": "Central Visayas",
@@ -19676,14 +19692,6 @@ const salesManCode = [
         "Territory Partner": "BSL",
         "Class": "Exclusive",
         "Region": "NCR",
-        "Sales Code": "XJXCASHB",
-        "Trade Name": "RRJM GNIJIT",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "BSL",
-        "Class": "Exclusive",
-        "Region": "NCR",
         "Sales Code": "EXMLBL000622",
         "Trade Name": "Unitech Electronics and Security System Inc.",
         "Status": "Included"
@@ -19785,19 +19793,27 @@ const salesManCode = [
         "Status": "Included"
     },
     {
-        "Territory Partner": "BSL BULACAN",
+        "Territory Partner": "Cayanan",
         "Class": "Exclusive",
-        "Region": "East Central Luzon",
-        "Sales Code": "EXTEV10004",
-        "Trade Name": "Alpharus Enterprise- Baliwag",
+        "Region": "West Central Luzon",
+        "Sales Code": "T2H3ASCH",
+        "Trade Name": "Aiza Store",
         "Status": "Included"
     },
     {
         "Territory Partner": "Cayanan",
         "Class": "Exclusive",
         "Region": "West Central Luzon",
-        "Sales Code": "T2H3ASCH",
-        "Trade Name": "Aiza Store",
+        "Sales Code": "T2H2ASCB",
+        "Trade Name": "GMJ TV Satellite Services",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Cayanan",
+        "Class": "Exclusive",
+        "Region": "West Central Luzon",
+        "Sales Code": "T2G9ASCB",
+        "Trade Name": "AJ STORE",
         "Status": "Included"
     },
     {
@@ -19844,16 +19860,16 @@ const salesManCode = [
         "Territory Partner": "Cayanan",
         "Class": "Exclusive",
         "Region": "West Central Luzon",
-        "Sales Code": "T2G3ASAC",
-        "Trade Name": "ALCANTARA CIGNAL/AUTHORIZED DEALER",
+        "Sales Code": "T2G2ASCF",
+        "Trade Name": "MERCY STORE",
         "Status": "Included"
     },
     {
         "Territory Partner": "Cayanan",
         "Class": "Exclusive",
         "Region": "West Central Luzon",
-        "Sales Code": "MBCNI20006",
-        "Trade Name": "EAM ENTERPRISES",
+        "Sales Code": "SPJ2CN000123",
+        "Trade Name": "Dela Cuesta Satellite Cable Trading",
         "Status": "Included"
     },
     {
@@ -20318,22 +20334,6 @@ const salesManCode = [
         "Region": "East Visayas",
         "Sales Code": "EXD1CS000623",
         "Trade Name": "JD CIGNAL SALES AND SERVICES",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Cellcom Southern East",
-        "Class": "Exclusive",
-        "Region": "East Visayas",
-        "Sales Code": "EXC1CS000923",
-        "Trade Name": "LENDY'S ENTERPRISE",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Cellcom Southern East",
-        "Class": "Exclusive",
-        "Region": "East Visayas",
-        "Sales Code": "EXC1CS000723",
-        "Trade Name": "EC ELECTRONICS & SERVICES",
         "Status": "Included"
     },
     {
@@ -21660,6 +21660,14 @@ const salesManCode = [
         "Territory Partner": "FM Marketing",
         "Class": "Exclusive",
         "Region": "North Luzon West",
+        "Sales Code": "TMA2ASCK",
+        "Trade Name": "SUBEX Marketing",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "FM Marketing",
+        "Class": "Exclusive",
+        "Region": "North Luzon West",
         "Sales Code": "TDAYJCPS",
         "Trade Name": "JCF ELECTRONICS AND REPAIR SHOP",
         "Status": "Included"
@@ -21798,6 +21806,14 @@ const salesManCode = [
         "Region": "Central South Luzon",
         "Sales Code": "ULJEASAA",
         "Trade Name": "Lamlyn Enterprise",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Go Sigla LagQuez",
+        "Class": "Exclusive",
+        "Region": "Central South Luzon",
+        "Sales Code": "ULJAABBC",
+        "Trade Name": "YSABELLE ESPIRITU",
         "Status": "Included"
     },
     {
@@ -22038,6 +22054,14 @@ const salesManCode = [
         "Region": "Central South Luzon",
         "Sales Code": "AIGAX30001",
         "Trade Name": "Double M Store",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Go Sigla LagQuez",
+        "Class": "Exclusive",
+        "Region": "Central South Luzon",
+        "Sales Code": "EXS1GL000723",
+        "Trade Name": "ANLA GENERAL MERCHANDISE",
         "Status": "Included"
     },
     {
@@ -22324,6 +22348,14 @@ const salesManCode = [
         "Territory Partner": "Greentelcom",
         "Class": "Exclusive",
         "Region": "Upper South Luzon",
+        "Sales Code": "UZLRASAA",
+        "Trade Name": "YCO General Merchandise",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Greentelcom",
+        "Class": "Exclusive",
+        "Region": "Upper South Luzon",
         "Sales Code": "UZLQASAA",
         "Trade Name": "Mobile Terminal",
         "Status": "Included"
@@ -22358,6 +22390,14 @@ const salesManCode = [
         "Region": "Upper South Luzon",
         "Sales Code": "UDLMASSD",
         "Trade Name": "Mac H Mobile (pop up)",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Greentelcom",
+        "Class": "Exclusive",
+        "Region": "Upper South Luzon",
+        "Sales Code": "UDLLASSB",
+        "Trade Name": "Leo Enterprise",
         "Status": "Included"
     },
     {
@@ -22414,6 +22454,14 @@ const salesManCode = [
         "Region": "NCR",
         "Sales Code": "EXEPF30034",
         "Trade Name": "Fourteen Cable Installation Services",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Greentelcom 2 (Rizal)",
+        "Class": "Exclusive",
+        "Region": "NCR",
+        "Sales Code": "EXEPF30030",
+        "Trade Name": "Miketech CCTV",
         "Status": "Included"
     },
     {
@@ -22756,6 +22804,14 @@ const salesManCode = [
         "Territory Partner": "Innovasia Batangas",
         "Class": "Exclusive",
         "Region": "Upper South Luzon",
+        "Sales Code": "UAIXASAA",
+        "Trade Name": "Jomat Trading",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Innovasia Batangas",
+        "Class": "Exclusive",
+        "Region": "Upper South Luzon",
         "Sales Code": "UAISASAB",
         "Trade Name": "'Nestor  De Los Angeles'",
         "Status": "Included"
@@ -22806,14 +22862,6 @@ const salesManCode = [
         "Region": "Upper South Luzon",
         "Sales Code": "UAIGASCB",
         "Trade Name": "Via Satellite TV Marketing - 3G Ibaan",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Innovasia Batangas",
-        "Class": "Exclusive",
-        "Region": "Upper South Luzon",
-        "Sales Code": "UAIEASAD",
-        "Trade Name": "CIGNAL CALACA",
         "Status": "Included"
     },
     {
@@ -22908,16 +22956,16 @@ const salesManCode = [
         "Territory Partner": "Innovasia Batangas",
         "Class": "Exclusive",
         "Region": "Upper South Luzon",
-        "Sales Code": "EXIAY30007",
-        "Trade Name": "Jon Ethan Satellite Services",
+        "Sales Code": "AIIAY30079",
+        "Trade Name": "CIGNAL CALATAGAN",
         "Status": "Included"
     },
     {
         "Territory Partner": "Innovasia Batangas",
         "Class": "Exclusive",
         "Region": "Upper South Luzon",
-        "Sales Code": "AIIAY30079",
-        "Trade Name": "CIGNAL CALATAGAN",
+        "Sales Code": "AIIAY30076",
+        "Trade Name": "Vistag Cable Installation",
         "Status": "Included"
     },
     {
@@ -23465,6 +23513,14 @@ const salesManCode = [
         "Status": "Included"
     },
     {
+        "Territory Partner": "Mega Durian 2",
+        "Class": "Exclusive",
+        "Region": "South Mindanao",
+        "Sales Code": "EXU3M2000523",
+        "Trade Name": "SAT-TECH COMM",
+        "Status": "Included"
+    },
+    {
         "Territory Partner": "N. Phoenix",
         "Class": "Exclusive",
         "Region": "North Luzon East",
@@ -23732,6 +23788,14 @@ const salesManCode = [
         "Territory Partner": "N. Phoenix 2",
         "Class": "Exclusive",
         "Region": "North Luzon East",
+        "Sales Code": "TYE3ASAB",
+        "Trade Name": "Dave Cool",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "N. Phoenix 2",
+        "Class": "Exclusive",
+        "Region": "North Luzon East",
         "Sales Code": "TYE2ASAA",
         "Trade Name": "BC APAN 2",
         "Status": "Included"
@@ -23934,6 +23998,14 @@ const salesManCode = [
         "Region": "Northwest Mindanao",
         "Sales Code": "WK2RASCC",
         "Trade Name": "Porras Satellite ",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Oro graphic",
+        "Class": "Exclusive",
+        "Region": "Northwest Mindanao",
+        "Sales Code": "WK2RASCA",
+        "Trade Name": "WINBENZ CIGNAL",
         "Status": "Included"
     },
     {
@@ -24326,6 +24398,14 @@ const salesManCode = [
         "Region": "Western Visayas",
         "Sales Code": "VBR4PSCB",
         "Trade Name": "SALARDA STORE",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "PDI Negros",
+        "Class": "Exclusive",
+        "Region": "Western Visayas",
+        "Sales Code": "EXPNF40125",
+        "Trade Name": "J. Arcamo Construction Supplies",
         "Status": "Included"
     },
     {
@@ -25172,14 +25252,6 @@ const salesManCode = [
         "Territory Partner": "TBH PAMPANGA",
         "Class": "Exclusive",
         "Region": "West Central Luzon",
-        "Sales Code": "T3GUPCPU",
-        "Trade Name": "Orio's Cable Services",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "TBH PAMPANGA",
-        "Class": "Exclusive",
-        "Region": "West Central Luzon",
         "Sales Code": "T3GJASAA",
         "Trade Name": "MACABEBE TSINELAS STORE",
         "Status": "Included"
@@ -25190,6 +25262,14 @@ const salesManCode = [
         "Region": "West Central Luzon",
         "Sales Code": "EXC2U10022",
         "Trade Name": "Certek internet cafe and print services",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "TBH Tarlac",
+        "Class": "Exclusive",
+        "Region": "West Central Luzon",
+        "Sales Code": "TZDKASEF",
+        "Trade Name": "EXPRESS PAY",
         "Status": "Included"
     },
     {
@@ -25964,6 +26044,14 @@ const salesManCode = [
         "Territory Partner": "Vertext 2",
         "Class": "Exclusive",
         "Region": "North Luzon West",
+        "Sales Code": "T7ANASAC",
+        "Trade Name": "A&T Digital TV",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Vertext 2",
+        "Class": "Exclusive",
+        "Region": "North Luzon West",
         "Sales Code": "EXVTR20005",
         "Trade Name": "Jhian-Prince Electronics Service Center",
         "Status": "Included"
@@ -25993,11 +26081,27 @@ const salesManCode = [
         "Status": "Included"
     },
     {
+        "Territory Partner": "Vertext 2",
+        "Class": "Exclusive",
+        "Region": "North Luzon West",
+        "Sales Code": "T7AVAXXX",
+        "Trade Name": "AQUAREX MARKETING",
+        "Status": "Included"
+    },
+    {
         "Territory Partner": "Wanna Cable",
         "Class": "Exclusive",
         "Region": "West Central Luzon",
         "Sales Code": "TGGSASCF",
         "Trade Name": "Ariel M. Mandal Cignal Store",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Wanna Cable",
+        "Class": "Exclusive",
+        "Region": "West Central Luzon",
+        "Sales Code": "TGGPPSCC",
+        "Trade Name": "Cignal Porac",
         "Status": "Included"
     },
     {
@@ -26049,22 +26153,6 @@ const salesManCode = [
         "Status": "Included"
     },
     {
-        "Territory Partner": "BSL BULACAN",
-        "Class": "Exclusive",
-        "Region": "East Central Luzon",
-        "Sales Code": "T5HVASAB",
-        "Trade Name": "Alpharus Enterprises",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Innovasia Batangas",
-        "Class": "Exclusive",
-        "Region": "Upper South Luzon",
-        "Sales Code": "EXIAY30077",
-        "Trade Name": "RAFAEL ARKANGJEL TRADING",
-        "Status": "Included"
-    },
-    {
         "Territory Partner": "Innovasia Batangas",
         "Class": "Exclusive",
         "Region": "Upper South Luzon",
@@ -26081,11 +26169,27 @@ const salesManCode = [
         "Status": "Included"
     },
     {
-        "Territory Partner": "Cayanan",
+        "Territory Partner": "BSL",
         "Class": "Exclusive",
-        "Region": "West Central Luzon",
-        "Sales Code": "T2H2ASCB",
-        "Trade Name": "GMJ TV Satellite Services",
+        "Region": "NCR",
+        "Sales Code": "XJXCASHB",
+        "Trade Name": "RRJM GNIJIT",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "BSL BULACAN",
+        "Class": "Exclusive",
+        "Region": "East Central Luzon",
+        "Sales Code": "T5HVASAB",
+        "Trade Name": "Alpharus Enterprises",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "BSL BULACAN",
+        "Class": "Exclusive",
+        "Region": "East Central Luzon",
+        "Sales Code": "EXTEV10004",
+        "Trade Name": "Alpharus Enterprise- Baliwag",
         "Status": "Included"
     },
     {
@@ -26100,32 +26204,16 @@ const salesManCode = [
         "Territory Partner": "Cayanan",
         "Class": "Exclusive",
         "Region": "West Central Luzon",
-        "Sales Code": "T2G2ASCF",
-        "Trade Name": "MERCY STORE",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Cayanan",
-        "Class": "Exclusive",
-        "Region": "West Central Luzon",
-        "Sales Code": "SPJ2CN000123",
-        "Trade Name": "Dela Cuesta Satellite Cable Trading",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "FM Marketing",
-        "Class": "Exclusive",
-        "Region": "North Luzon West",
-        "Sales Code": "TMA2ASCK",
-        "Trade Name": "SUBEX Marketing",
+        "Sales Code": "MBCNI20006",
+        "Trade Name": "EAM ENTERPRISES",
         "Status": "Included"
     },
     {
         "Territory Partner": "Go Sigla LagQuez",
         "Class": "Exclusive",
         "Region": "Central South Luzon",
-        "Sales Code": "ULJAABBC",
-        "Trade Name": "YSABELLE ESPIRITU",
+        "Sales Code": "UJJFASCC",
+        "Trade Name": "RAYLI DIGITAL TV",
         "Status": "Included"
     },
     {
@@ -26134,30 +26222,6 @@ const salesManCode = [
         "Region": "Central South Luzon",
         "Sales Code": "SPX3GL000123",
         "Trade Name": "GOLDEN MOUNTAIN COMMUNICATION & SERVICES",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Greentelcom",
-        "Class": "Exclusive",
-        "Region": "Upper South Luzon",
-        "Sales Code": "UZLRASAA",
-        "Trade Name": "YCO General Merchandise",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Greentelcom",
-        "Class": "Exclusive",
-        "Region": "Upper South Luzon",
-        "Sales Code": "UDLLASSB",
-        "Trade Name": "Leo Enterprise",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Greentelcom 2 (Rizal)",
-        "Class": "Exclusive",
-        "Region": "NCR",
-        "Sales Code": "EXEPF30030",
-        "Trade Name": "Miketech CCTV",
         "Status": "Included"
     },
     {
@@ -26172,72 +26236,32 @@ const salesManCode = [
         "Territory Partner": "Innovasia Batangas",
         "Class": "Exclusive",
         "Region": "Upper South Luzon",
-        "Sales Code": "UAIXASAA",
-        "Trade Name": "Jomat Trading",
+        "Sales Code": "UAIEASAD",
+        "Trade Name": "CIGNAL CALACA",
         "Status": "Included"
     },
     {
         "Territory Partner": "Innovasia Batangas",
         "Class": "Exclusive",
         "Region": "Upper South Luzon",
-        "Sales Code": "AIIAY30076",
-        "Trade Name": "Vistag Cable Installation",
+        "Sales Code": "EXIAY30077",
+        "Trade Name": "RAFAEL ARKANGJEL TRADING",
         "Status": "Included"
     },
     {
-        "Territory Partner": "N. Phoenix 2",
+        "Territory Partner": "Innovasia Batangas",
         "Class": "Exclusive",
-        "Region": "North Luzon East",
-        "Sales Code": "TYE3ASAB",
-        "Trade Name": "Dave Cool",
+        "Region": "Upper South Luzon",
+        "Sales Code": "EXIAY30007",
+        "Trade Name": "Jon Ethan Satellite Services",
         "Status": "Included"
     },
     {
-        "Territory Partner": "Oro graphic",
-        "Class": "Exclusive",
-        "Region": "Northwest Mindanao",
-        "Sales Code": "WK2RASCA",
-        "Trade Name": "WINBENZ CIGNAL",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Negros",
-        "Class": "Exclusive",
-        "Region": "Western Visayas",
-        "Sales Code": "EXPNF40125",
-        "Trade Name": "J. Arcamo Construction Supplies",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "TBH Tarlac",
+        "Territory Partner": "TBH PAMPANGA",
         "Class": "Exclusive",
         "Region": "West Central Luzon",
-        "Sales Code": "TZDKASEF",
-        "Trade Name": "EXPRESS PAY",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Vertext 2",
-        "Class": "Exclusive",
-        "Region": "North Luzon West",
-        "Sales Code": "T7ANASAC",
-        "Trade Name": "A&T Digital TV",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Vertext 2",
-        "Class": "Exclusive",
-        "Region": "North Luzon West",
-        "Sales Code": "T7AVAXXX",
-        "Trade Name": "AQUAREX MARKETING",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Wanna Cable",
-        "Class": "Exclusive",
-        "Region": "West Central Luzon",
-        "Sales Code": "TGGPPSCC",
-        "Trade Name": "Cignal Porac",
+        "Sales Code": "T3GUPCPU",
+        "Trade Name": "Orio's Cable Services",
         "Status": "Included"
     },
     {
@@ -26436,14 +26460,6 @@ const salesManCode = [
         "Territory Partner": "Alain Asia North",
         "Class": "CPS",
         "Region": "Central Visayas",
-        "Sales Code": "VKTQWCPS",
-        "Trade Name": "WBC-L  Sattelite Shop",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Alain Asia North",
-        "Class": "CPS",
-        "Region": "Central Visayas",
         "Sales Code": "VKTLASAB",
         "Trade Name": "RDA Digital Services",
         "Status": "Included"
@@ -26462,14 +26478,6 @@ const salesManCode = [
         "Region": "Central Visayas",
         "Sales Code": "VKTEASCC",
         "Trade Name": "Dara's cellshoppe",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Alain Asia North",
-        "Class": "CPS",
-        "Region": "Central Visayas",
-        "Sales Code": "VKTCDCPS",
-        "Trade Name": "ARCENAL ELECTRONICS",
         "Status": "Included"
     },
     {
@@ -26604,6 +26612,14 @@ const salesManCode = [
         "Territory Partner": "Alain Asia South",
         "Class": "CPS",
         "Region": "Central Visayas",
+        "Sales Code": "VET92SCB",
+        "Trade Name": "JE Electronics",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Alain Asia South",
+        "Class": "CPS",
+        "Region": "Central Visayas",
         "Sales Code": "VET7ASCD",
         "Trade Name": "3E'S Marketing",
         "Status": "Included"
@@ -26614,14 +26630,6 @@ const salesManCode = [
         "Region": "Central Visayas",
         "Sales Code": "VET6ASCY",
         "Trade Name": "2NY Electron",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Alain Asia South",
-        "Class": "CPS",
-        "Region": "Central Visayas",
-        "Sales Code": "VET6ASCA",
-        "Trade Name": "NBC Satelite Services",
         "Status": "Included"
     },
     {
@@ -26676,16 +26684,16 @@ const salesManCode = [
         "Territory Partner": "Alain Asia South",
         "Class": "CPS",
         "Region": "Central Visayas",
-        "Sales Code": "VJTKASDK",
-        "Trade Name": "RH Installation",
+        "Sales Code": "VJTKASBH",
+        "Trade Name": "5JM's General Merchandise",
         "Status": "Included"
     },
     {
         "Territory Partner": "Alain Asia South",
         "Class": "CPS",
         "Region": "Central Visayas",
-        "Sales Code": "VJTKASBH",
-        "Trade Name": "5JM's General Merchandise",
+        "Sales Code": "VJTKASAU",
+        "Trade Name": "3 ACES Store",
         "Status": "Included"
     },
     {
@@ -26702,14 +26710,6 @@ const salesManCode = [
         "Region": "Central Visayas",
         "Sales Code": "VJTKASAC",
         "Trade Name": "Expressway Enterprises",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Alain Asia South",
-        "Class": "CPS",
-        "Region": "Central Visayas",
-        "Sales Code": "EXDKA10012",
-        "Trade Name": "VMA Cable and Television - Bulacao",
         "Status": "Included"
     },
     {
@@ -27020,6 +27020,14 @@ const salesManCode = [
         "Territory Partner": "Cellcom Central East",
         "Class": "CPS",
         "Region": "East Visayas",
+        "Sales Code": "V2V4BCPS",
+        "Trade Name": "BELTRONICS",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Cellcom Central East",
+        "Class": "CPS",
+        "Region": "East Visayas",
         "Sales Code": "SDCRC10082",
         "Trade Name": "PRINCINTH SATELITE DISH TV STORE",
         "Status": "Included"
@@ -27212,8 +27220,8 @@ const salesManCode = [
         "Territory Partner": "Cellcom Southern East",
         "Class": "CPS",
         "Region": "East Visayas",
-        "Sales Code": "VSWETCPS",
-        "Trade Name": "ORMOC TEKNIKA",
+        "Sales Code": "VSWGASAA",
+        "Trade Name": "Three Johns Enterprises",
         "Status": "Included"
     },
     {
@@ -27230,14 +27238,6 @@ const salesManCode = [
         "Region": "East Visayas",
         "Sales Code": "VSW72SCB",
         "Trade Name": "ABS ELECTRONICS II",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Cellcom Southern East",
-        "Class": "CPS",
-        "Region": "East Visayas",
-        "Sales Code": "VSW5ASAA",
-        "Trade Name": "ABS ELECTRONICS",
         "Status": "Included"
     },
     {
@@ -27572,6 +27572,14 @@ const salesManCode = [
         "Territory Partner": "FM Marketing 2",
         "Class": "CPS",
         "Region": "North Luzon West",
+        "Sales Code": "TJBZASCA",
+        "Trade Name": "PHOTO ROCIO",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "FM Marketing 2",
+        "Class": "CPS",
+        "Region": "North Luzon West",
         "Sales Code": "TJBYSSCC",
         "Trade Name": "MYSTICA DIRECT TV AND SERVICES",
         "Status": "Included"
@@ -27636,6 +27644,14 @@ const salesManCode = [
         "Territory Partner": "Go Sigla LagQuez",
         "Class": "CPS",
         "Region": "Central South Luzon",
+        "Sales Code": "ULJEASAD",
+        "Trade Name": "Lord James and Lance Trading",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Go Sigla LagQuez",
+        "Class": "CPS",
+        "Region": "Central South Luzon",
         "Sales Code": "UKKHASAC",
         "Trade Name": "E.M ORAYA TRADING",
         "Status": "Included"
@@ -27646,6 +27662,14 @@ const salesManCode = [
         "Region": "Central South Luzon",
         "Sales Code": "UJJSMSCA",
         "Trade Name": "Sally's Store",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Go Sigla LagQuez",
+        "Class": "CPS",
+        "Region": "Central South Luzon",
+        "Sales Code": "UJJNASCC",
+        "Trade Name": "Rein's Trading",
         "Status": "Included"
     },
     {
@@ -27670,6 +27694,14 @@ const salesManCode = [
         "Region": "Central South Luzon",
         "Sales Code": "UJJEASCM",
         "Trade Name": "AEM TECH Enterprise",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Go Sigla LagQuez",
+        "Class": "CPS",
+        "Region": "Central South Luzon",
+        "Sales Code": "UJJCASCF",
+        "Trade Name": "Monserrat JV Enterprise",
         "Status": "Included"
     },
     {
@@ -27724,8 +27756,16 @@ const salesManCode = [
         "Territory Partner": "Greentelcom",
         "Class": "CPS",
         "Region": "Upper South Luzon",
-        "Sales Code": "UDLSFCPS",
-        "Trade Name": "Ogie Barbudo",
+        "Sales Code": "UDLDASCC",
+        "Trade Name": "Tradevisor Trading",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Greentelcom",
+        "Class": "CPS",
+        "Region": "Upper South Luzon",
+        "Sales Code": "UDLBASCA",
+        "Trade Name": "Jayrho Digital TV and Security System",
         "Status": "Included"
     },
     {
@@ -27742,14 +27782,6 @@ const salesManCode = [
         "Region": "NCR",
         "Sales Code": "XEX9JCPS",
         "Trade Name": "Billycoy Loading Station",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Greentelcom 2 (Rizal)",
-        "Class": "CPS",
-        "Region": "NCR",
-        "Sales Code": "XEX7ZWAK",
-        "Trade Name": "Allerson Enterprise",
         "Status": "Included"
     },
     {
@@ -27924,6 +27956,14 @@ const salesManCode = [
         "Territory Partner": "Innovasia Batangas",
         "Class": "CPS",
         "Region": "Upper South Luzon",
+        "Sales Code": "UAIYASCB",
+        "Trade Name": "Direct Cignal",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Innovasia Batangas",
+        "Class": "CPS",
+        "Region": "Upper South Luzon",
         "Sales Code": "UAIYASAA",
         "Trade Name": "Nikko & Mae Photo and Print shop",
         "Status": "Included"
@@ -27932,16 +27972,24 @@ const salesManCode = [
         "Territory Partner": "Innovasia Batangas",
         "Class": "CPS",
         "Region": "Upper South Luzon",
-        "Sales Code": "UAIWASCA",
-        "Trade Name": "Aikonn Talisay",
+        "Sales Code": "UAISASCA",
+        "Trade Name": "Leinhels General Merchandize",
         "Status": "Included"
     },
     {
         "Territory Partner": "Innovasia Batangas",
         "Class": "CPS",
         "Region": "Upper South Luzon",
-        "Sales Code": "UAISASCA",
+        "Sales Code": "UAISASAA",
         "Trade Name": "Leinhels General Merchandize",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Innovasia Batangas",
+        "Class": "CPS",
+        "Region": "Upper South Luzon",
+        "Sales Code": "UAINNSAA",
+        "Trade Name": "Marc and Cali's",
         "Status": "Included"
     },
     {
@@ -27958,14 +28006,6 @@ const salesManCode = [
         "Region": "Upper South Luzon",
         "Sales Code": "UAIIASCB",
         "Trade Name": "Zalameda Electronics",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Innovasia Batangas",
-        "Class": "CPS",
-        "Region": "Upper South Luzon",
-        "Sales Code": "UAIDASCD",
-        "Trade Name": "FAM ELECTRONICS",
         "Status": "Included"
     },
     {
@@ -28046,14 +28086,6 @@ const salesManCode = [
         "Region": "Upper South Luzon",
         "Sales Code": "UAJVASAA",
         "Trade Name": "Manliquid Communication",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Innovasia Mindoro",
-        "Class": "CPS",
-        "Region": "Upper South Luzon",
-        "Sales Code": "UAJTASCA",
-        "Trade Name": "Abelardo Papa Tv Links",
         "Status": "Included"
     },
     {
@@ -28508,6 +28540,14 @@ const salesManCode = [
         "Territory Partner": "Oro graphic",
         "Class": "CPS",
         "Region": "Northwest Mindanao",
+        "Sales Code": "WJ2BASCK",
+        "Trade Name": "Earth Merchandise",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Oro graphic",
+        "Class": "CPS",
+        "Region": "Northwest Mindanao",
         "Sales Code": "WJ1YASCA",
         "Trade Name": "ALS Cable Installation Services",
         "Status": "Included"
@@ -28526,6 +28566,14 @@ const salesManCode = [
         "Region": "Northwest Mindanao",
         "Sales Code": "WJ1JASCF",
         "Trade Name": "Rejoice Consumer Source",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Oro graphic",
+        "Class": "CPS",
+        "Region": "Northwest Mindanao",
+        "Sales Code": "WJ1EASCA",
+        "Trade Name": "Reygams Satellite",
         "Status": "Included"
     },
     {
@@ -29260,6 +29308,14 @@ const salesManCode = [
         "Territory Partner": "Technoclear 1 - Upper Qzn & Mdque",
         "Class": "CPS",
         "Region": "Central South Luzon",
+        "Sales Code": "UKKJASAA",
+        "Trade Name": "VIN & DON CELLPHONE SERVICE CENTER",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Technoclear 1 - Upper Qzn & Mdque",
+        "Class": "CPS",
+        "Region": "Central South Luzon",
         "Sales Code": "UKKDASCE",
         "Trade Name": "Charity Faye Satellite Services",
         "Status": "Included"
@@ -29665,19 +29721,27 @@ const salesManCode = [
         "Status": "Included"
     },
     {
-        "Territory Partner": "Innovasia Batangas",
+        "Territory Partner": "Alain Asia North",
         "Class": "CPS",
-        "Region": "Upper South Luzon",
-        "Sales Code": "UAID3CPS",
-        "Trade Name": "3G Cellmondo & Gadgets Store",
+        "Region": "Central Visayas",
+        "Sales Code": "VKTMACPS",
+        "Trade Name": "ALGONZ DIGITAL MARKETING",
         "Status": "Included"
     },
     {
         "Territory Partner": "Innovasia Batangas",
         "Class": "CPS",
         "Region": "Upper South Luzon",
-        "Sales Code": "UAIBASAA",
-        "Trade Name": "Descallar Cignal TV)",
+        "Sales Code": "UAICASCD",
+        "Trade Name": "Magicbox",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Innovasia Batangas",
+        "Class": "CPS",
+        "Region": "Upper South Luzon",
+        "Sales Code": "UAIXACPS",
+        "Trade Name": "Aikonn Trading - Mabini",
         "Status": "Included"
     },
     {
@@ -29700,8 +29764,16 @@ const salesManCode = [
         "Territory Partner": "Alain Asia North",
         "Class": "CPS",
         "Region": "Central Visayas",
-        "Sales Code": "VKTMACPS",
-        "Trade Name": "ALGONZ DIGITAL MARKETING",
+        "Sales Code": "VKTQWCPS",
+        "Trade Name": "WBC-L  Sattelite Shop",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Alain Asia North",
+        "Class": "CPS",
+        "Region": "Central Visayas",
+        "Sales Code": "VKTCDCPS",
+        "Trade Name": "ARCENAL ELECTRONICS",
         "Status": "Included"
     },
     {
@@ -29716,8 +29788,24 @@ const salesManCode = [
         "Territory Partner": "Alain Asia South",
         "Class": "CPS",
         "Region": "Central Visayas",
-        "Sales Code": "VET92SCB",
-        "Trade Name": "JE Electronics",
+        "Sales Code": "VET6ASCA",
+        "Trade Name": "NBC Satelite Services",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Alain Asia South",
+        "Class": "CPS",
+        "Region": "Central Visayas",
+        "Sales Code": "VJTKASDK",
+        "Trade Name": "RH Installation",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Alain Asia South",
+        "Class": "CPS",
+        "Region": "Central Visayas",
+        "Sales Code": "EXDKA10012",
+        "Trade Name": "VMA Cable and Television - Bulacao",
         "Status": "Included"
     },
     {
@@ -29737,19 +29825,19 @@ const salesManCode = [
         "Status": "Included"
     },
     {
-        "Territory Partner": "Cellcom Central East",
+        "Territory Partner": "Cellcom Southern East",
         "Class": "CPS",
         "Region": "East Visayas",
-        "Sales Code": "V2V4BCPS",
-        "Trade Name": "BELTRONICS",
+        "Sales Code": "VSWETCPS",
+        "Trade Name": "ORMOC TEKNIKA",
         "Status": "Included"
     },
     {
         "Territory Partner": "Cellcom Southern East",
         "Class": "CPS",
         "Region": "East Visayas",
-        "Sales Code": "VSWGASAA",
-        "Trade Name": "Three Johns Enterprises",
+        "Sales Code": "VSW5ASAA",
+        "Trade Name": "ABS ELECTRONICS",
         "Status": "Included"
     },
     {
@@ -29764,72 +29852,32 @@ const salesManCode = [
         "Territory Partner": "FM Marketing 2",
         "Class": "CPS",
         "Region": "North Luzon West",
-        "Sales Code": "TJBZASCA",
-        "Trade Name": "PHOTO ROCIO",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "FM Marketing 2",
-        "Class": "CPS",
-        "Region": "North Luzon West",
         "Sales Code": "TJB8ASCC",
         "Trade Name": "PRINCES GAB ENTERPRISES",
         "Status": "Included"
     },
     {
-        "Territory Partner": "Go Sigla LagQuez",
-        "Class": "CPS",
-        "Region": "Central South Luzon",
-        "Sales Code": "ULJEASAD",
-        "Trade Name": "Lord James and Lance Trading",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Go Sigla LagQuez",
-        "Class": "CPS",
-        "Region": "Central South Luzon",
-        "Sales Code": "UJJNASCC",
-        "Trade Name": "Rein's Trading",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Go Sigla LagQuez",
-        "Class": "CPS",
-        "Region": "Central South Luzon",
-        "Sales Code": "UJJCASCF",
-        "Trade Name": "Monserrat JV Enterprise",
-        "Status": "Included"
-    },
-    {
         "Territory Partner": "Greentelcom",
         "Class": "CPS",
         "Region": "Upper South Luzon",
-        "Sales Code": "UDLDASCC",
-        "Trade Name": "Tradevisor Trading",
+        "Sales Code": "UDLSFCPS",
+        "Trade Name": "Ogie Barbudo",
         "Status": "Included"
     },
     {
-        "Territory Partner": "Greentelcom",
+        "Territory Partner": "Greentelcom 2 (Rizal)",
         "Class": "CPS",
-        "Region": "Upper South Luzon",
-        "Sales Code": "UDLBASCA",
-        "Trade Name": "Jayrho Digital TV and Security System",
+        "Region": "NCR",
+        "Sales Code": "XEX7ZWAK",
+        "Trade Name": "Allerson Enterprise",
         "Status": "Included"
     },
     {
         "Territory Partner": "Innovasia Batangas",
         "Class": "CPS",
         "Region": "Upper South Luzon",
-        "Sales Code": "UAIYASCB",
-        "Trade Name": "Direct Cignal",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Innovasia Batangas",
-        "Class": "CPS",
-        "Region": "Upper South Luzon",
-        "Sales Code": "UAIXACPS",
-        "Trade Name": "Aikonn Trading - Mabini",
+        "Sales Code": "UAIWASCA",
+        "Trade Name": "Aikonn Talisay",
         "Status": "Included"
     },
     {
@@ -29844,24 +29892,8 @@ const salesManCode = [
         "Territory Partner": "Innovasia Batangas",
         "Class": "CPS",
         "Region": "Upper South Luzon",
-        "Sales Code": "UAISASAA",
-        "Trade Name": "Leinhels General Merchandize",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Innovasia Batangas",
-        "Class": "CPS",
-        "Region": "Upper South Luzon",
         "Sales Code": "UAIQASAA",
         "Trade Name": "Dave Satellite Link - Rosario",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Innovasia Batangas",
-        "Class": "CPS",
-        "Region": "Upper South Luzon",
-        "Sales Code": "UAINNSAA",
-        "Trade Name": "Marc and Cali's",
         "Status": "Included"
     },
     {
@@ -29892,6 +29924,22 @@ const salesManCode = [
         "Territory Partner": "Innovasia Batangas",
         "Class": "CPS",
         "Region": "Upper South Luzon",
+        "Sales Code": "UAIDASCD",
+        "Trade Name": "FAM ELECTRONICS",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Innovasia Batangas",
+        "Class": "CPS",
+        "Region": "Upper South Luzon",
+        "Sales Code": "UAID3CPS",
+        "Trade Name": "3G Cellmondo & Gadgets Store",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Innovasia Batangas",
+        "Class": "CPS",
+        "Region": "Upper South Luzon",
         "Sales Code": "UAICSCPS",
         "Trade Name": "Starnetwork Enterprises",
         "Status": "Included"
@@ -29900,8 +29948,8 @@ const salesManCode = [
         "Territory Partner": "Innovasia Batangas",
         "Class": "CPS",
         "Region": "Upper South Luzon",
-        "Sales Code": "UAICASCD",
-        "Trade Name": "Magicbox",
+        "Sales Code": "UAIBASAA",
+        "Trade Name": "Descallar Cignal TV)",
         "Status": "Included"
     },
     {
@@ -29910,22 +29958,6 @@ const salesManCode = [
         "Region": "Upper South Luzon",
         "Sales Code": "UAJUASAB",
         "Trade Name": "JR Manliquid Telecom",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Oro graphic",
-        "Class": "CPS",
-        "Region": "Northwest Mindanao",
-        "Sales Code": "WJ2BASCK",
-        "Trade Name": "Earth Merchandise",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Oro graphic",
-        "Class": "CPS",
-        "Region": "Northwest Mindanao",
-        "Sales Code": "WJ1EASCA",
-        "Trade Name": "Reygams Satellite",
         "Status": "Included"
     },
     {
@@ -29942,14 +29974,6 @@ const salesManCode = [
         "Region": "Western Visayas",
         "Sales Code": "VAQUVCPS",
         "Trade Name": "VILLAR SATELLITE CABLE SERVICES",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Technoclear 1 - Upper Qzn & Mdque",
-        "Class": "CPS",
-        "Region": "Central South Luzon",
-        "Sales Code": "UKKJASAA",
-        "Trade Name": "VIN & DON CELLPHONE SERVICE CENTER",
         "Status": "Included"
     },
     {
@@ -31521,6 +31545,14 @@ const salesManCode = [
         "Status": "Included"
     },
     {
+        "Territory Partner": "BSL BULACAN",
+        "Class": "TP Outlet",
+        "Region": "East Central Luzon",
+        "Sales Code": "TSV1TE001323",
+        "Trade Name": "BSL 2 - SJDM",
+        "Status": "Included"
+    },
+    {
         "Territory Partner": "Cayanan",
         "Class": "TP Outlet",
         "Region": "West Central Luzon",
@@ -31705,11 +31737,27 @@ const salesManCode = [
         "Status": "Included"
     },
     {
+        "Territory Partner": "Oxworld",
+        "Class": "TP Outlet",
+        "Region": "NCR",
+        "Sales Code": "TSN4OW000723",
+        "Trade Name": "Oxworld International Inc.",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Panlock",
+        "Class": "TP Outlet",
+        "Region": "NCR",
+        "Sales Code": "X2XAAXXX",
+        "Trade Name": "Cignal Pasay Hub",
+        "Status": "Included"
+    },
+    {
         "Territory Partner": "PDI Negros",
         "Class": "TP Outlet",
         "Region": "Western Visayas",
         "Sales Code": "VBRXASCE",
-        "Trade Name": "POS DIGITAL SILAY",
+        "Trade Name": "POS DIGITAL SILAY ",
         "Status": "Included"
     },
     {
@@ -31969,14 +32017,6 @@ const salesManCode = [
         "Status": "Included"
     },
     {
-        "Territory Partner": "TBH BULACAN",
-        "Class": "TP Outlet",
-        "Region": "East Central Luzon",
-        "Sales Code": "TSV1TE001323",
-        "Trade Name": "BSL 2 - SJDM",
-        "Status": "Included"
-    },
-    {
         "Territory Partner": "Technoclear 1 - Upper Qzn & Mdque",
         "Class": "TP Outlet",
         "Region": "Central South Luzon",
@@ -32073,75 +32113,43 @@ const salesManCode = [
         "Status": "Included"
     },
     {
-        "Territory Partner": "Panlock",
-        "Class": "TP Outlet",
-        "Region": "NCR",
-        "Sales Code": "X2XAAXXX",
-        "Trade Name": "Cignal Pasay Hub",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Goodlife",
+        "Territory Partner": "FM Marketing 2",
         "Class": "TP Hub",
-        "Region": "Lower South Luzon",
-        "Sales Code": "UVM3AXXX",
-        "Trade Name": "GOODLIFE MASBATE",
+        "Region": "North Luzon West",
+        "Sales Code": "CHK2TC001023",
+        "Trade Name": "JFM TELEMARKETING 2",
         "Status": "Not Included"
     },
     {
-        "Territory Partner": "BBCI",
-        "Class": "TP Hub",
-        "Region": "South Mindanao",
-        "Sales Code": "WB3FAXXX",
-        "Trade Name": "BBCI KIDAPAWAN",
-        "Status": "Not Included"
-    },
-    {
-        "Territory Partner": "Weecent",
-        "Class": "TP Online Store",
-        "Region": "NCR",
-        "Sales Code": "XWXQAFBO",
-        "Trade Name": "WEECENT ONLINE",
-        "Status": "Not Included"
-    },
-    {
-        "Territory Partner": "Vitalize",
+        "Territory Partner": "Go Sigla LagQuez",
         "Class": "Agent-Installer",
-        "Region": "NCR",
-        "Sales Code": "AIN2VI000822",
-        "Trade Name": "Proverbs 3:9 Trading",
+        "Region": "Central South Luzon",
+        "Sales Code": "UJJFASCB",
+        "Trade Name": "JS ELECTRONIC SHOP",
+        "Status": "Not Included"
+    },
+    {
+        "Territory Partner": "Wanna Cable",
+        "Class": "Agent-Installer",
+        "Region": "West Central Luzon",
+        "Sales Code": "TGGMCSCJ",
+        "Trade Name": "Dante Satellite Services",
         "Status": "Not Included"
     },
     {
         "Territory Partner": "Cayanan",
         "Class": "Exclusive",
         "Region": "West Central Luzon",
-        "Sales Code": "T2G9ASCB",
-        "Trade Name": "AJ STORE",
+        "Sales Code": "T2G3ASAC",
+        "Trade Name": "ALCANTARA CIGNAL/AUTHORIZED DEALER",
         "Status": "Not Included"
     },
     {
-        "Territory Partner": "Go Sigla LagQuez",
-        "Class": "Exclusive",
-        "Region": "Central South Luzon",
-        "Sales Code": "UJJFASCC",
-        "Trade Name": "RAYLI DIGITAL TV",
-        "Status": "Not Included"
-    },
-    {
-        "Territory Partner": "Alain Asia South",
+        "Territory Partner": "Innovasia Mindoro",
         "Class": "CPS",
-        "Region": "Central Visayas",
-        "Sales Code": "VJTKASAU",
-        "Trade Name": "3 ACES Store",
-        "Status": "Not Included"
-    },
-    {
-        "Territory Partner": "Oxworld",
-        "Class": "TP Outlet",
-        "Region": "NCR",
-        "Sales Code": "TSN4OW000723",
-        "Trade Name": "Oxworld International Inc.",
+        "Region": "Upper South Luzon",
+        "Sales Code": "UAJTASCA",
+        "Trade Name": "Abelardo Papa Tv Links",
         "Status": "Not Included"
     }
 ];
