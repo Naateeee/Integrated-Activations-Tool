@@ -196,6 +196,86 @@
                             </div>
                         </div>
                     </div> <!-- end row-->
+
+                    <h5 class="page-title text-dark mb-4">CHANNEL PLAN COMPARISON</h5>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card border">
+                                <div class="card-body">
+                                    <div class="row mb-2">
+                                        <div class="col-xl-8">
+                                            <!-- <span class="badge badge-primary-lighten p-1 mb-3">Channel Plan Comparison</span><br> -->
+                                            <form class="row gy-2 gx-2 align-items-center justify-content-xl-start justify-content-between mb-2">
+                                                <div class="col-auto">
+                                                    <label for="firstFilterSelect" class="text-danger">Select first Plan:</label>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <div class="d-flex align-items-center">
+                                                        <select id="firstFilterSelect" class="form-select">
+                                                            <option>Choose...</option>
+                                                            <option value="AllThingsEnt">All Things Entertainment</option>
+                                                            <option value="FamTime">Family Time</option>
+                                                            <option value="SportsAction">Sports Action</option>
+                                                            <option value="PinoyAndAsian">Pinoy and Asian</option>
+                                                            <option value="Plan290">Plan 290</option>
+                                                            <option value="Plan520">Plan 520</option>
+                                                            <option value="Plan720">Plan 720</option>
+                                                            <option value="Plan1050">Plan 1050</option>
+                                                            <option value="Plan1350">Plan 1350</option>
+                                                            <option value="Plan1650">Plan 1650</option>
+                                                            <option value="Plan1990">Plan 1990</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <label for="secondFilterSelect" class="text-danger">Select second Plan:</label>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <div class="d-flex align-items-center">
+                                                        <select id="secondFilterSelect" class="form-select">
+                                                            <option>Choose...</option>
+                                                            <option value="AllThingsEnt">All Things Entertainment</option>
+                                                            <option value="FamTime">Family Time</option>
+                                                            <option value="SportsAction">Sports Action</option>
+                                                            <option value="PinoyAndAsian">Pinoy and Asian</option>
+                                                            <option value="Plan290">Plan 290</option>
+                                                            <option value="Plan520">Plan 520</option>
+                                                            <option value="Plan720">Plan 720</option>
+                                                            <option value="Plan1050">Plan 1050</option>
+                                                            <option value="Plan1350">Plan 1350</option>
+                                                            <option value="Plan1650">Plan 1650</option>
+                                                            <option value="Plan1990">Plan 1990</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-auto">
+                                                    <button type="button" class="btn btn-primary" onclick="compareChannels()">Filter Channels</button>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="col-xl-4">
+                                            <div class="text-xl-end mt-xl-0 mt-2">
+                                                <button type="button" class="btn btn-danger" onclick="clearFilter()"><i class="uil-trash-alt"></i>&nbsp;Clear Filter</button>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <table id="basic-datatable" class="table dataTable display dt-responsive w-100 nowrap table-bordered table-centered table-hover text-dark">
+                                        <thead class="text-center">
+                                            <tr class="table-dark">
+                                                <th>No</th>
+                                                <th>Channel Name</th>
+                                                <th>Category</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody id="channelTableBody"></tbody>
+                                        <tfoot></tfoot>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- end row-->
                         
                 </div> <!-- container -->
 

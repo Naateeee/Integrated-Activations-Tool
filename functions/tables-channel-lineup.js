@@ -2200,3 +2200,37 @@ function populateTable(data) {
 
 // Call the function to populate the table
 populateTable(channels);
+
+function compareChannels() {
+    const firstPlan = document.getElementById("firstFilterSelect").value;
+    const secondPlan = document.getElementById("secondFilterSelect").value;
+    const channelTableBody = document.getElementById("channelTableBody");
+
+    // Filter channels available in the first plan but not in the second plan
+    const filteredChannels = channels.filter(channel => channel[secondPlan] === "✓" && channel[firstPlan] !== "✓");
+
+    filteredChannels.forEach(channel => {
+        const row = document.createElement("tr");
+
+        const noCell = document.createElement("td");
+        noCell.textContent = channel.No;
+        row.appendChild(noCell);
+
+        const nameCell = document.createElement("td");
+        nameCell.textContent = channel.ChannelName;
+        row.appendChild(nameCell);
+
+        const categoryCell = document.createElement("td");
+        categoryCell.textContent = channel.Category;
+        row.appendChild(categoryCell);
+
+        channelTableBody.appendChild(row);
+    });
+}
+
+function clearFilter() {
+    const channelTableBody = document.getElementById("channelTableBody");
+    channelTableBody.innerHTML = ""; // Clear the table content
+    document.getElementById("firstFilterSelect").value = "Choose...";
+    document.getElementById("secondFilterSelect").value = "Choose...";
+}
