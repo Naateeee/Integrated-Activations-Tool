@@ -2201,15 +2201,32 @@ function populateTable(data) {
 // Call the function to populate the table
 populateTable(channels);
 
+function formatPlanName(planName) {
+    return planName
+        .replace(/([a-z])([A-Z])/g, '$1 $2')  // Insert space before each uppercase letter
+        .replace(/(\d+)/g, ' $1')              // Insert space before numbers
+        .trim();                               // Trim any leading or trailing spaces
+}
+
 function compareChannels() {
     const firstPlan = document.getElementById("firstFilterSelect").value;
     const secondPlan = document.getElementById("secondFilterSelect").value;
     const channelTableBody = document.getElementById("channelTableBody");
+    channelTableBody.innerHTML = ""; // Clear the previous results
 
     // Filter channels available in the first plan but not in the second plan
-    const filteredChannels = channels.filter(channel => channel[secondPlan] === "✓" && channel[firstPlan] !== "✓");
+    const firstPlanExclusiveChannels = channels.filter(channel => channel[firstPlan] === "✓" && channel[secondPlan] !== "✓");
 
-    filteredChannels.forEach(channel => {
+    // Filter channels available in the second plan but not in the first plan
+    const secondPlanExclusiveChannels = channels.filter(channel => channel[secondPlan] === "✓" && channel[firstPlan] !== "✓");
+
+    // Combine both exclusive lists for display
+    const combinedResults = [
+        ...firstPlanExclusiveChannels.map(channel => ({ ...channel, Plan: firstPlan })),
+        ...secondPlanExclusiveChannels.map(channel => ({ ...channel, Plan: secondPlan }))
+    ];
+
+    combinedResults.forEach(channel => {
         const row = document.createElement("tr");
 
         const noCell = document.createElement("td");
@@ -2223,6 +2240,10 @@ function compareChannels() {
         const categoryCell = document.createElement("td");
         categoryCell.textContent = channel.Category;
         row.appendChild(categoryCell);
+
+        const planCell = document.createElement("td");
+        planCell.textContent = formatPlanName(channel.Plan);
+        row.appendChild(planCell);
 
         channelTableBody.appendChild(row);
     });
