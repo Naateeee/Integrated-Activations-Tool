@@ -2247,6 +2247,23 @@ function compareChannels() {
 
         channelTableBody.appendChild(row);
     });
+
+    // Add total count row
+    const totalRow = document.createElement("tr");
+
+    const totalCell = document.createElement("td");
+    totalCell.setAttribute("colspan", "3");
+    totalCell.textContent = "Total Channels";
+    totalCell.style.fontWeight = "bolder";
+    totalCell.style.textAlign = "right"; // Align text to the right
+    totalRow.appendChild(totalCell);
+
+    const countCell = document.createElement("td");
+    countCell.textContent = combinedResults.length;
+    countCell.style.fontWeight = "bolder";
+    totalRow.appendChild(countCell);
+
+    channelTableBody.appendChild(totalRow);
 }
 
 function clearFilter() {
