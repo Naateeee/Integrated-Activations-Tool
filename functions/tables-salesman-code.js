@@ -1,4 +1,4 @@
-// ID Only List for July 9 - 20, 2024
+// ID Only List for September 1 - 30, 2024
 const salesManCode = [
     {
         "Territory Partner": "8 telcom 2",
@@ -14,14 +14,6 @@ const salesManCode = [
         "Region": "NCR",
         "Sales Code": "CSBLN3000122",
         "Trade Name": "SM City Grand Central",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Cellcom Central East",
-        "Class": "CSS",
-        "Region": "East Visayas",
-        "Sales Code": "CSCCC1000221",
-        "Trade Name": "Robinsons Place Marasbas - Inline",
         "Status": "Included"
     },
     {
@@ -57,11 +49,11 @@ const salesManCode = [
         "Status": "Included"
     },
     {
-        "Territory Partner": "Innovasia Batangas",
+        "Territory Partner": "Giga Dragon",
         "Class": "CSS",
-        "Region": "Upper South Luzon",
-        "Sales Code": "CSIBY3000221",
-        "Trade Name": "Robinsons Place Lipa",
+        "Region": "South Mindanao",
+        "Sales Code": "CSM2V3000122",
+        "Trade Name": "SM City General Santos - Inline",
         "Status": "Included"
     },
     {
@@ -70,22 +62,6 @@ const salesManCode = [
         "Region": "Upper South Luzon",
         "Sales Code": "CSIMA4000121",
         "Trade Name": "Nuciti Central Mall Calapan",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Koks",
-        "Class": "CSS",
-        "Region": "Western Visayas",
-        "Sales Code": "CSKSE4000122",
-        "Trade Name": "SM City Roxas - Inline",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "CSS",
-        "Region": "South Mindanao",
-        "Sales Code": "CSM2V3000122",
-        "Trade Name": "SM City General Santos - Inline",
         "Status": "Included"
     },
     {
@@ -118,14 +94,6 @@ const salesManCode = [
         "Region": "Western Visayas",
         "Sales Code": "CSPNF4000121",
         "Trade Name": "Ayala Malls Capitol Central - Inline",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Uniglobal",
-        "Class": "CSS",
-        "Region": "East Mindanao",
-        "Sales Code": "CSULK3000121",
-        "Trade Name": "Gaisano Mall of Tagum - Inline",
         "Status": "Included"
     },
     {
@@ -382,14 +350,6 @@ const salesManCode = [
         "Region": "Lower South Luzon",
         "Sales Code": "UMMCPXXX",
         "Trade Name": "DLM NAGA CITY",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "DLM",
-        "Class": "TP Hub",
-        "Region": "Lower South Luzon",
-        "Sales Code": "UMMCJXXX",
-        "Trade Name": "DLM IRIGA CITY",
         "Status": "Included"
     },
     {
@@ -857,9 +817,9 @@ const salesManCode = [
         "Status": "Included"
     },
     {
-        "Territory Partner": "8 telcom",
+        "Territory Partner": "8 telcom 2",
         "Class": "TP Online Store",
-        "Region": "South Mindanao",
+        "Region": "East Mindanao",
         "Sales Code": "W84BTFBO",
         "Trade Name": "8TELCOM ONLINE",
         "Status": "Included"
@@ -909,7 +869,7 @@ const salesManCode = [
         "Class": "TP Online Store",
         "Region": "East Central Luzon",
         "Sales Code": "THHCAFBO",
-        "Trade Name": "TASKFORCE ONLINE",
+        "Trade Name": "BSL 2 Online",
         "Status": "Included"
     },
     {
@@ -993,6 +953,14 @@ const salesManCode = [
         "Status": "Included"
     },
     {
+        "Territory Partner": "Giga Dragon",
+        "Class": "TP Online Store",
+        "Region": "South Mindanao",
+        "Sales Code": "WS3TRFBO",
+        "Trade Name": "MEGA DURIAN 2 ONLINE",
+        "Status": "Included"
+    },
+    {
         "Territory Partner": "Go Sigla LagQuez",
         "Class": "TP Online Store",
         "Region": "Central South Luzon",
@@ -1065,14 +1033,6 @@ const salesManCode = [
         "Status": "Included"
     },
     {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "TP Online Store",
-        "Region": "South Mindanao",
-        "Sales Code": "WS3TRFBO",
-        "Trade Name": "MEGA DURIAN 2 ONLINE",
-        "Status": "Included"
-    },
-    {
         "Territory Partner": "N. Phoenix",
         "Class": "TP Online Store",
         "Region": "North Luzon East",
@@ -1125,6 +1085,14 @@ const salesManCode = [
         "Class": "TP Online Store",
         "Region": "Western Visayas",
         "Sales Code": "TOK4PE000823",
+        "Trade Name": "Pdi Panay Online Store",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "PDI Panay East",
+        "Class": "TP Online Store",
+        "Region": "Western Visayas",
+        "Sales Code": "TOK4PE000923",
         "Trade Name": "Pdi Panay Online Store",
         "Status": "Included"
     },
@@ -1185,11 +1153,11 @@ const salesManCode = [
         "Status": "Included"
     },
     {
-        "Territory Partner": "Vitalize",
+        "Territory Partner": "Vertext 2",
         "Class": "TP Online Store",
-        "Region": "NCR",
-        "Sales Code": "X4XGAFBO",
-        "Trade Name": "Vita-Lize Distribution Inc Online Store",
+        "Region": "North Luzon West",
+        "Sales Code": "TOR2VY000823",
+        "Trade Name": "Vertext Handy phones 2",
         "Status": "Included"
     },
     {
@@ -10588,30 +10556,6 @@ const salesManCode = [
         "Territory Partner": "8 telcom 2",
         "Class": "Agent-Installer",
         "Region": "East Mindanao",
-        "Sales Code": "AI8MG30043",
-        "Trade Name": "Elimar Maglahos Cignal Installation",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "8 telcom 2",
-        "Class": "Agent-Installer",
-        "Region": "East Mindanao",
-        "Sales Code": "AI8MG30037",
-        "Trade Name": "Ben Padecio",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "8 telcom 2",
-        "Class": "Agent-Installer",
-        "Region": "East Mindanao",
-        "Sales Code": "AI8MG30030",
-        "Trade Name": "KP Marketing",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "8 telcom 2",
-        "Class": "Agent-Installer",
-        "Region": "East Mindanao",
         "Sales Code": "AI8MG30026",
         "Trade Name": "Alvin R. Alampayan",
         "Status": "Included"
@@ -10622,14 +10566,6 @@ const salesManCode = [
         "Region": "East Mindanao",
         "Sales Code": "AI8MG30023",
         "Trade Name": "Ivann Rue C. Lanisin",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "8 telcom 2",
-        "Class": "Agent-Installer",
-        "Region": "East Mindanao",
-        "Sales Code": "AI8MG30012",
-        "Trade Name": "Edzel Cignaltv Dealer",
         "Status": "Included"
     },
     {
@@ -10932,14 +10868,6 @@ const salesManCode = [
         "Territory Partner": "Alain Asia North",
         "Class": "Agent-Installer",
         "Region": "Central Visayas",
-        "Sales Code": "VKT3ASCE",
-        "Trade Name": "ROLDAN CELLPHONE ACCESSORIES SHOP 2",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Alain Asia North",
-        "Class": "Agent-Installer",
-        "Region": "Central Visayas",
         "Sales Code": "AIA1AN004422",
         "Trade Name": "LJ & CJ Satellite Cable Trading",
         "Status": "Included"
@@ -10950,14 +10878,6 @@ const salesManCode = [
         "Region": "Central Visayas",
         "Sales Code": "AIA1AN002923",
         "Trade Name": "Gleehneel Sibay",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Alain Asia North",
-        "Class": "Agent-Installer",
-        "Region": "Central Visayas",
-        "Sales Code": "AIA1AN002423",
-        "Trade Name": "JIXX CARMEN CABLE INSTALLATION SERVICES",
         "Status": "Included"
     },
     {
@@ -10980,16 +10900,24 @@ const salesManCode = [
         "Territory Partner": "Alain Asia North",
         "Class": "Agent-Installer",
         "Region": "Central Visayas",
-        "Sales Code": "AIA1AN001222",
-        "Trade Name": "Joemar Cadisal",
+        "Sales Code": "AIA1AN003323",
+        "Trade Name": "Isidto DTH",
         "Status": "Included"
     },
     {
         "Territory Partner": "Alain Asia North",
         "Class": "Agent-Installer",
         "Region": "Central Visayas",
-        "Sales Code": "AIA1AN003323",
-        "Trade Name": "Isidto DTH",
+        "Sales Code": "AIA1AN003923",
+        "Trade Name": "Asturias Construction Supply",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Alain Asia North",
+        "Class": "Agent-Installer",
+        "Region": "Central Visayas",
+        "Sales Code": "AIA1AN004023",
+        "Trade Name": "E and Z Gadgets and Accessories Store",
         "Status": "Included"
     },
     {
@@ -11012,80 +10940,32 @@ const salesManCode = [
         "Territory Partner": "Alain Asia South",
         "Class": "Agent-Installer",
         "Region": "Central Visayas",
-        "Sales Code": "VJT6ASAA",
-        "Trade Name": " Digitronics Electro Solutions",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Alain Asia South",
-        "Class": "Agent-Installer",
-        "Region": "Central Visayas",
-        "Sales Code": "AIA1DK003022",
-        "Trade Name": "JBT DIGITAL & INSTALLATION SERVICES - Cebu City",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Alain Asia South",
-        "Class": "Agent-Installer",
-        "Region": "Central Visayas",
-        "Sales Code": "AIA1DK002722",
-        "Trade Name": "Giovanni Lazas",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Alain Asia South",
-        "Class": "Agent-Installer",
-        "Region": "Central Visayas",
-        "Sales Code": "AIA1DK002223",
-        "Trade Name": "Bonifacio Flores",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Alain Asia South",
-        "Class": "Agent-Installer",
-        "Region": "Central Visayas",
-        "Sales Code": "AIA1DK002123",
-        "Trade Name": "Gilson Timtim",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Alain Asia South",
-        "Class": "Agent-Installer",
-        "Region": "Central Visayas",
-        "Sales Code": "AIA1DK000823",
-        "Trade Name": "Junriel Alvarez",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Alain Asia South",
-        "Class": "Agent-Installer",
-        "Region": "Central Visayas",
-        "Sales Code": "AIA1DK000723",
-        "Trade Name": "Alfredo Abella",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Alain Asia South",
-        "Class": "Agent-Installer",
-        "Region": "Central Visayas",
-        "Sales Code": "AIA1DK000623",
-        "Trade Name": "Roderick Giatoro",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Alain Asia South",
-        "Class": "Agent-Installer",
-        "Region": "Central Visayas",
-        "Sales Code": "AIA1DK000423",
-        "Trade Name": "Dimitilo Calcabin",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Alain Asia South",
-        "Class": "Agent-Installer",
-        "Region": "Central Visayas",
         "Sales Code": "AIA1AS003623",
         "Trade Name": "Henry Narzoles",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Alain Asia South",
+        "Class": "Agent-Installer",
+        "Region": "Central Visayas",
+        "Sales Code": "DRASA10001824",
+        "Trade Name": "Estrella Loading",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Alain Asia South",
+        "Class": "Agent-Installer",
+        "Region": "Central Visayas",
+        "Sales Code": "AIA1AS003723",
+        "Trade Name": "Ermelando Elas",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Alain Asia South",
+        "Class": "Agent-Installer",
+        "Region": "Central Visayas",
+        "Sales Code": "AIA1AS003823",
+        "Trade Name": "Edijer Estella",
         "Status": "Included"
     },
     {
@@ -11148,38 +11028,6 @@ const salesManCode = [
         "Territory Partner": "BBCI",
         "Class": "Agent-Installer",
         "Region": "South Mindanao",
-        "Sales Code": "AII3BI001823",
-        "Trade Name": "DMBF Store",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "BBCI",
-        "Class": "Agent-Installer",
-        "Region": "South Mindanao",
-        "Sales Code": "AII3BI001723",
-        "Trade Name": "JEMARQZ Aircondition and Refrigeration Parts",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "BBCI",
-        "Class": "Agent-Installer",
-        "Region": "South Mindanao",
-        "Sales Code": "AII3BI001423",
-        "Trade Name": "Jun's Fastfood",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "BBCI",
-        "Class": "Agent-Installer",
-        "Region": "South Mindanao",
-        "Sales Code": "AII3BI001323",
-        "Trade Name": "ALJO'S SARI-SARI STORE",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "BBCI",
-        "Class": "Agent-Installer",
-        "Region": "South Mindanao",
         "Sales Code": "AII3BI001123",
         "Trade Name": "NEW WORLD TRADING & MARKETING CORPORATION",
         "Status": "Included"
@@ -11190,14 +11038,6 @@ const salesManCode = [
         "Region": "South Mindanao",
         "Sales Code": "AII3BI001023",
         "Trade Name": "JAM ONLINE SHOP",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "BBCI",
-        "Class": "Agent-Installer",
-        "Region": "South Mindanao",
-        "Sales Code": "AII3BI000923",
-        "Trade Name": "ABD LOADING STATION",
         "Status": "Included"
     },
     {
@@ -11228,22 +11068,6 @@ const salesManCode = [
         "Territory Partner": "BBCI",
         "Class": "Agent-Installer",
         "Region": "South Mindanao",
-        "Sales Code": "AIH3BI003223",
-        "Trade Name": "Cai Cignal Station",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "BBCI",
-        "Class": "Agent-Installer",
-        "Region": "South Mindanao",
-        "Sales Code": "AIH3BI003123",
-        "Trade Name": "ABBY'S VARIETY STORE",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "BBCI",
-        "Class": "Agent-Installer",
-        "Region": "South Mindanao",
         "Sales Code": "AIH3BI003023",
         "Trade Name": "J&E ENTERPRISES",
         "Status": "Included"
@@ -11252,120 +11076,8 @@ const salesManCode = [
         "Territory Partner": "BBCI",
         "Class": "Agent-Installer",
         "Region": "South Mindanao",
-        "Sales Code": "AIH3BI002923",
-        "Trade Name": "NIEL BAYOT P2P",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "BBCI",
-        "Class": "Agent-Installer",
-        "Region": "South Mindanao",
-        "Sales Code": "AIH3BI002823",
-        "Trade Name": "KENNETH LAROZA INSTALLATION",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "BBCI",
-        "Class": "Agent-Installer",
-        "Region": "South Mindanao",
-        "Sales Code": "AIH3BI002523",
-        "Trade Name": "Cyrel Electronics Shop",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "BBCI",
-        "Class": "Agent-Installer",
-        "Region": "South Mindanao",
-        "Sales Code": "AIH3BI002423",
-        "Trade Name": "Dodong Electronics Shop",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "BBCI",
-        "Class": "Agent-Installer",
-        "Region": "South Mindanao",
-        "Sales Code": "AIH3BI002223",
-        "Trade Name": "DODS BARBER SHOP",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "BBCI",
-        "Class": "Agent-Installer",
-        "Region": "South Mindanao",
-        "Sales Code": "AIH3BI002123",
-        "Trade Name": "JOE REPAIR SHOP",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "BBCI",
-        "Class": "Agent-Installer",
-        "Region": "South Mindanao",
-        "Sales Code": "AIH3BI002023",
-        "Trade Name": "TM Electronics Shop",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "BBCI",
-        "Class": "Agent-Installer",
-        "Region": "South Mindanao",
-        "Sales Code": "AIH3BI001923",
-        "Trade Name": "Don2x Surplus",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "BBCI",
-        "Class": "Agent-Installer",
-        "Region": "South Mindanao",
-        "Sales Code": "AIH3BI001823",
-        "Trade Name": "Jenny Sari² Store",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "BBCI",
-        "Class": "Agent-Installer",
-        "Region": "South Mindanao",
-        "Sales Code": "AIH3BI001723",
-        "Trade Name": "Luengas Loading Station",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "BBCI",
-        "Class": "Agent-Installer",
-        "Region": "South Mindanao",
-        "Sales Code": "AIH3BI001623",
-        "Trade Name": "Oga Cutting Sticker T-shirt Printing",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "BBCI",
-        "Class": "Agent-Installer",
-        "Region": "South Mindanao",
         "Sales Code": "AIH3BI001523",
         "Trade Name": "RONEL INSTALLATION & REPAIR SHOP",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "BBCI",
-        "Class": "Agent-Installer",
-        "Region": "South Mindanao",
-        "Sales Code": "AIH3BI001423",
-        "Trade Name": "AJ E-Loading Station",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "BBCI",
-        "Class": "Agent-Installer",
-        "Region": "South Mindanao",
-        "Sales Code": "AIH3BI001323",
-        "Trade Name": "Randy Electronics Shop and Services Center",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "BBCI",
-        "Class": "Agent-Installer",
-        "Region": "South Mindanao",
-        "Sales Code": "AIH3BI001223",
-        "Trade Name": "Neng's Store",
         "Status": "Included"
     },
     {
@@ -11396,24 +11108,8 @@ const salesManCode = [
         "Territory Partner": "BBCI",
         "Class": "Agent-Installer",
         "Region": "South Mindanao",
-        "Sales Code": "AIH3BI000823",
-        "Trade Name": "Jongs Electronics",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "BBCI",
-        "Class": "Agent-Installer",
-        "Region": "South Mindanao",
         "Sales Code": "AIH3BI000723",
         "Trade Name": "NEMROD",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "BBCI",
-        "Class": "Agent-Installer",
-        "Region": "South Mindanao",
-        "Sales Code": "AIH3BI000623",
-        "Trade Name": "MQB Electronics Shop",
         "Status": "Included"
     },
     {
@@ -11438,14 +11134,6 @@ const salesManCode = [
         "Region": "South Mindanao",
         "Sales Code": "AIH3BI003323",
         "Trade Name": "Jeremy Cabanero Farrol",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "BBCI",
-        "Class": "Agent-Installer",
-        "Region": "South Mindanao",
-        "Sales Code": "AIH3BI003423",
-        "Trade Name": "JP Perez Electronics",
         "Status": "Included"
     },
     {
@@ -11841,6 +11529,14 @@ const salesManCode = [
         "Status": "Included"
     },
     {
+        "Territory Partner": "BSL",
+        "Class": "Agent-Installer",
+        "Region": "NCR",
+        "Sales Code": "AIN3BL001223",
+        "Trade Name": "Lovely Samontina",
+        "Status": "Included"
+    },
+    {
         "Territory Partner": "BSL BULACAN",
         "Class": "Agent-Installer",
         "Region": "East Central Luzon",
@@ -11926,6 +11622,14 @@ const salesManCode = [
         "Region": "West Central Luzon",
         "Sales Code": "AIJ2CN000422",
         "Trade Name": "Jean Store",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Cayanan",
+        "Class": "Agent-Installer",
+        "Region": "West Central",
+        "Sales Code": "AII2CN000423",
+        "Trade Name": "Rhi & Yo Digital Tv Cable Solution",
         "Status": "Included"
     },
     {
@@ -12113,6 +11817,22 @@ const salesManCode = [
         "Status": "Included"
     },
     {
+        "Territory Partner": "Cellcom Central East",
+        "Class": "Agent-Installer",
+        "Region": "East Visayas",
+        "Sales Code": "AIC1CC003223",
+        "Trade Name": "Cernal Store",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Cellcom Central East",
+        "Class": "Agent-Installer",
+        "Region": "East Visayas",
+        "Sales Code": "AIC1CC003523",
+        "Trade Name": "Calderon Store",
+        "Status": "Included"
+    },
+    {
         "Territory Partner": "Cellcom Northern East",
         "Class": "Agent-Installer",
         "Region": "East Visayas",
@@ -12204,14 +11924,6 @@ const salesManCode = [
         "Territory Partner": "Cellcom Southern East",
         "Class": "Agent-Installer",
         "Region": "East Visayas",
-        "Sales Code": "AIC1CS001923",
-        "Trade Name": "Zennuel Pharmacy & Gen Mdse",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Cellcom Southern East",
-        "Class": "Agent-Installer",
-        "Region": "East Visayas",
         "Sales Code": "AID1CS000823",
         "Trade Name": "Mayet Store",
         "Status": "Included"
@@ -12222,6 +11934,46 @@ const salesManCode = [
         "Region": "East Visayas",
         "Sales Code": "AID1CS000923",
         "Trade Name": "Cris Printing Services",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Cellcom Southern East",
+        "Class": "Agent-Installer",
+        "Region": "East Visayas",
+        "Sales Code": "AIC1CS003123",
+        "Trade Name": "Yparaguirre Store-Villaba",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Cellcom Southern East",
+        "Class": "Agent-Installer",
+        "Region": "East Visayas",
+        "Sales Code": "AID1CS001023",
+        "Trade Name": "Connect Satelite & Services",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Cellcom Southern East",
+        "Class": "Agent-Installer",
+        "Region": "East Visayas",
+        "Sales Code": "AID1CS001123",
+        "Trade Name": "Gebeth Computer",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Cellcom Southern East",
+        "Class": "Agent-Installer",
+        "Region": "East Visayas",
+        "Sales Code": "AIC1CS003323",
+        "Trade Name": "Jamel Cellshop",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Cellcom Southern East",
+        "Class": "Agent-Installer",
+        "Region": "East Visayas",
+        "Sales Code": "AID1CS001223",
+        "Trade Name": "DG Mobile Solutions",
         "Status": "Included"
     },
     {
@@ -12398,6 +12150,14 @@ const salesManCode = [
         "Region": "Central Visayas",
         "Sales Code": "AIC4CT001323",
         "Trade Name": "AQTEVE27 Cellphone Accessories Store",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "CRFT",
+        "Class": "Agent-Installer",
+        "Region": "Central Visayas",
+        "Sales Code": "AIC4CT002923",
+        "Trade Name": "Kyla Cellphone and Accesories",
         "Status": "Included"
     },
     {
@@ -13561,6 +13321,22 @@ const salesManCode = [
         "Status": "Included"
     },
     {
+        "Territory Partner": "DLM",
+        "Class": "Agent-Installer",
+        "Region": "Lower South Luzon",
+        "Sales Code": "AIJ1DM001023",
+        "Trade Name": "CARLOS POLVORIDO",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "DLM",
+        "Class": "Agent-Installer",
+        "Region": "Lower South Luzon",
+        "Sales Code": "AIJ1DM001123",
+        "Trade Name": "Leonardo Doroin",
+        "Status": "Included"
+    },
+    {
         "Territory Partner": "Elim",
         "Class": "Agent-Installer",
         "Region": "Northwest Mindanao",
@@ -14332,14 +14108,6 @@ const salesManCode = [
         "Territory Partner": "FM Marketing",
         "Class": "Agent-Installer",
         "Region": "North Luzon West",
-        "Sales Code": "AIL2FG002023",
-        "Trade Name": "L - KOL STORE",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "FM Marketing",
-        "Class": "Agent-Installer",
-        "Region": "North Luzon West",
         "Sales Code": "AIL2FG000922",
         "Trade Name": "ALEX STORE",
         "Status": "Included"
@@ -14349,7 +14117,7 @@ const salesManCode = [
         "Class": "Agent-Installer",
         "Region": "North Luzon West",
         "Sales Code": "AIL2FG000622",
-        "Trade Name": "4E Electronics Shop",
+        "Trade Name": "Eddie Andres",
         "Status": "Included"
     },
     {
@@ -14502,6 +14270,134 @@ const salesManCode = [
         "Region": "North Luzon West",
         "Sales Code": "AIK2TC001423",
         "Trade Name": "ANAMOS CELLPHONE SHOP",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "Agent-Installer",
+        "Region": "South Mindanao",
+        "Sales Code": "WT5KESDB",
+        "Trade Name": "ABS SATELLITE CABLE SERVICES",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "Agent-Installer",
+        "Region": "South Mindanao",
+        "Sales Code": "WT4NSSDJ",
+        "Trade Name": "JHS Elctronics Shop",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "Agent-Installer",
+        "Region": "South Mindanao",
+        "Sales Code": "WT49ASCF",
+        "Trade Name": "DOGUIL GENERAL MERCHANDISE",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "Agent-Installer",
+        "Region": "South Mindanao",
+        "Sales Code": "WT3XASSC",
+        "Trade Name": "JIMMY ALAMADA",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "Agent-Installer",
+        "Region": "South Mindanao",
+        "Sales Code": "WT3WASCB",
+        "Trade Name": "Church Chill Cordero",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "Agent-Installer",
+        "Region": "South Mindanao",
+        "Sales Code": "WT3UASUV",
+        "Trade Name": "Libby Taangcawan",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "Agent-Installer",
+        "Region": "South Mindanao",
+        "Sales Code": "WT3UASUT",
+        "Trade Name": "Elvis Paredes",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "Agent-Installer",
+        "Region": "South Mindanao",
+        "Sales Code": "WT3UASUS",
+        "Trade Name": "Randy Dumasig",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "Agent-Installer",
+        "Region": "South Mindanao",
+        "Sales Code": "WT3UASUP",
+        "Trade Name": "Reynaldo Cadiz",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "Agent-Installer",
+        "Region": "South Mindanao",
+        "Sales Code": "WT3TASDL",
+        "Trade Name": "JOJO VIARO",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "Agent-Installer",
+        "Region": "South Mindanao",
+        "Sales Code": "PS3UASUO",
+        "Trade Name": "Shanszion Loading Station",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "Agent-Installer",
+        "Region": "South Mindanao",
+        "Sales Code": "EXW3M2000423",
+        "Trade Name": "JPC Laptop Parts and Services",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "Agent-Installer",
+        "Region": "South Mindanao",
+        "Sales Code": "AIW3M2000623",
+        "Trade Name": "AJ's Marketing",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "Agent-Installer",
+        "Region": "South Mindanao",
+        "Sales Code": "AIM2V30013",
+        "Trade Name": "Raymond Maximo",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "Agent-Installer",
+        "Region": "South Mindanao",
+        "Sales Code": "AIM2U30006",
+        "Trade Name": "Ian Garvida",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "Agent-Installer",
+        "Region": "South Mindanao",
+        "Sales Code": "AIV3M2000823",
+        "Trade Name": "Santander Satellite TV Installer",
         "Status": "Included"
     },
     {
@@ -14868,14 +14764,6 @@ const salesManCode = [
         "Territory Partner": "Greentelcom 2 (Rizal)",
         "Class": "Agent-Installer",
         "Region": "NCR",
-        "Sales Code": "XEXXASHG",
-        "Trade Name": "Willart Services",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Greentelcom 2 (Rizal)",
-        "Class": "Agent-Installer",
-        "Region": "NCR",
         "Sales Code": "XEXXASHC",
         "Trade Name": "88 WALT ELECTRONIC",
         "Status": "Included"
@@ -15070,6 +14958,22 @@ const salesManCode = [
         "Region": "NCR",
         "Sales Code": "AIEPF30005",
         "Trade Name": "Deibelen Alcaide",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Greentelcom 2 (Rizal)",
+        "Class": "Agent-Installer",
+        "Region": "NCR",
+        "Sales Code": "AIF3EP001123",
+        "Trade Name": "FMJ Electronics shop",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Greentelcom 2 (Rizal)",
+        "Class": "Agent-Installer",
+        "Region": "NCR",
+        "Sales Code": "AIF3EP001223",
+        "Trade Name": "Amor Testado",
         "Status": "Included"
     },
     {
@@ -15398,6 +15302,14 @@ const salesManCode = [
         "Region": "Lower South Luzon",
         "Sales Code": "AIP1HD001123",
         "Trade Name": "Oserin Store",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "High End",
+        "Class": "Agent-Installer",
+        "Region": "Lower South Luzon",
+        "Sales Code": "AIP1HD001223",
+        "Trade Name": "J.J. Faune Installation",
         "Status": "Included"
     },
     {
@@ -15737,126 +15649,6 @@ const salesManCode = [
         "Status": "Included"
     },
     {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "Agent-Installer",
-        "Region": "South Mindanao",
-        "Sales Code": "WT5KESDB",
-        "Trade Name": "ABS SATELLITE CABLE SERVICES",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "Agent-Installer",
-        "Region": "South Mindanao",
-        "Sales Code": "WT4NSSDJ",
-        "Trade Name": "JHS Elctronics Shop",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "Agent-Installer",
-        "Region": "South Mindanao",
-        "Sales Code": "WT49ASCF",
-        "Trade Name": "DOGUIL GENERAL MERCHANDISE",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "Agent-Installer",
-        "Region": "South Mindanao",
-        "Sales Code": "WT3XASSC",
-        "Trade Name": "JIMMY ALAMADA",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "Agent-Installer",
-        "Region": "South Mindanao",
-        "Sales Code": "WT3WASCB",
-        "Trade Name": "Church Chill Cordero",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "Agent-Installer",
-        "Region": "South Mindanao",
-        "Sales Code": "WT3UASUV",
-        "Trade Name": "Libby Taangcawan",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "Agent-Installer",
-        "Region": "South Mindanao",
-        "Sales Code": "WT3UASUT",
-        "Trade Name": "Elvis Paredes",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "Agent-Installer",
-        "Region": "South Mindanao",
-        "Sales Code": "WT3UASUS",
-        "Trade Name": "Randy Dumasig",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "Agent-Installer",
-        "Region": "South Mindanao",
-        "Sales Code": "WT3UASUP",
-        "Trade Name": "Reynaldo Cadiz",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "Agent-Installer",
-        "Region": "South Mindanao",
-        "Sales Code": "WT3TASDL",
-        "Trade Name": "JOJO VIARO",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "Agent-Installer",
-        "Region": "South Mindanao",
-        "Sales Code": "PS3UASUO",
-        "Trade Name": "Shanszion Loading Station",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "Agent-Installer",
-        "Region": "South Mindanao",
-        "Sales Code": "EXW3M2000423",
-        "Trade Name": "JPC Laptop Parts and Services",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "Agent-Installer",
-        "Region": "South Mindanao",
-        "Sales Code": "AIW3M2000623",
-        "Trade Name": "AJ's Marketing",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "Agent-Installer",
-        "Region": "South Mindanao",
-        "Sales Code": "AIM2V30013",
-        "Trade Name": "Raymond Maximo",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "Agent-Installer",
-        "Region": "South Mindanao",
-        "Sales Code": "AIM2U30006",
-        "Trade Name": "Ian Garvida",
-        "Status": "Included"
-    },
-    {
         "Territory Partner": "N. Phoenix",
         "Class": "Agent-Installer",
         "Region": "North Luzon East",
@@ -15948,22 +15740,6 @@ const salesManCode = [
         "Territory Partner": "N. Phoenix",
         "Class": "Agent-Installer",
         "Region": "North Luzon East",
-        "Sales Code": "TNEHASCL",
-        "Trade Name": "Heishel DTH Store",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "N. Phoenix",
-        "Class": "Agent-Installer",
-        "Region": "North Luzon East",
-        "Sales Code": "TNEBASBE",
-        "Trade Name": "Robert DTH Store",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "N. Phoenix",
-        "Class": "Agent-Installer",
-        "Region": "North Luzon East",
         "Sales Code": "TNEBASBC",
         "Trade Name": "Levy DTH Store",
         "Status": "Included"
@@ -15996,14 +15772,6 @@ const salesManCode = [
         "Territory Partner": "N. Phoenix",
         "Class": "Agent-Installer",
         "Region": "North Luzon East",
-        "Sales Code": "AINXZ10005",
-        "Trade Name": "Ver's Electronics & Electrical Services",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "N. Phoenix",
-        "Class": "Agent-Installer",
-        "Region": "North Luzon East",
         "Sales Code": "AINXC20003",
         "Trade Name": "Casan Calil DTH Store",
         "Status": "Included"
@@ -16012,40 +15780,8 @@ const salesManCode = [
         "Territory Partner": "N. Phoenix",
         "Class": "Agent-Installer",
         "Region": "North Luzon East",
-        "Sales Code": "AINXC20002",
-        "Trade Name": "Gerald Sarandi (DTH)",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "N. Phoenix",
-        "Class": "Agent-Installer",
-        "Region": "North Luzon East",
-        "Sales Code": "AINXB20034",
-        "Trade Name": "Robert Tattao DTH",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "N. Phoenix",
-        "Class": "Agent-Installer",
-        "Region": "North Luzon East",
         "Sales Code": "AINXB20032",
         "Trade Name": "Elnora Alada DTH Store",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "N. Phoenix",
-        "Class": "Agent-Installer",
-        "Region": "North Luzon East",
-        "Sales Code": "AINXB20030",
-        "Trade Name": "Joey Cortez (DTH)",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "N. Phoenix",
-        "Class": "Agent-Installer",
-        "Region": "North Luzon East",
-        "Sales Code": "AINXB20029",
-        "Trade Name": "Dexter Camarao (DTH)",
         "Status": "Included"
     },
     {
@@ -16084,14 +15820,6 @@ const salesManCode = [
         "Territory Partner": "N. Phoenix",
         "Class": "Agent-Installer",
         "Region": "North Luzon East",
-        "Sales Code": "AINXB20006",
-        "Trade Name": "MARVIN RETOMA (DTH)",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "N. Phoenix",
-        "Class": "Agent-Installer",
-        "Region": "North Luzon East",
         "Sales Code": "AIC2NX000423",
         "Trade Name": "Paul Dalilis DTH",
         "Status": "Included"
@@ -16116,14 +15844,6 @@ const salesManCode = [
         "Territory Partner": "N. Phoenix",
         "Class": "Agent-Installer",
         "Region": "North Luzon East",
-        "Sales Code": "AIB2NX001722",
-        "Trade Name": "Allan Hernandez DTH",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "N. Phoenix",
-        "Class": "Agent-Installer",
-        "Region": "North Luzon East",
         "Sales Code": "AIB2NX001522",
         "Trade Name": "BALISI Electrical Household Appliances Trading",
         "Status": "Included"
@@ -16132,24 +15852,8 @@ const salesManCode = [
         "Territory Partner": "N. Phoenix",
         "Class": "Agent-Installer",
         "Region": "North Luzon East",
-        "Sales Code": "AIB2NX001422",
-        "Trade Name": "Triple J Electrical Supply & Services",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "N. Phoenix",
-        "Class": "Agent-Installer",
-        "Region": "North Luzon East",
         "Sales Code": "AIB2NX001323",
         "Trade Name": "Jayson Bayubay DTH",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "N. Phoenix",
-        "Class": "Agent-Installer",
-        "Region": "North Luzon East",
-        "Sales Code": "AIB2NX001322",
-        "Trade Name": "Robert Quilang DTH",
         "Status": "Included"
     },
     {
@@ -16198,14 +15902,6 @@ const salesManCode = [
         "Region": "North Luzon East",
         "Sales Code": "AIB2NX000422",
         "Trade Name": "Michael Bawet DTH",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "N. Phoenix",
-        "Class": "Agent-Installer",
-        "Region": "North Luzon East",
-        "Sales Code": "AIA2NX000423",
-        "Trade Name": "JC DELATADO TELECOMMUNICATION EQUIPMENT TRADING",
         "Status": "Included"
     },
     {
@@ -16964,14 +16660,6 @@ const salesManCode = [
         "Territory Partner": "PDI Panay East",
         "Class": "Agent-Installer",
         "Region": "Western Visayas",
-        "Sales Code": "AIPYK40010",
-        "Trade Name": "ADS Cignal cable tv services",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Panay East",
-        "Class": "Agent-Installer",
-        "Region": "Western Visayas",
         "Sales Code": "AIK4PY001422",
         "Trade Name": "M.A. Cignal",
         "Status": "Included"
@@ -16990,6 +16678,22 @@ const salesManCode = [
         "Region": "Western Visayas",
         "Sales Code": "AIK4PE001523",
         "Trade Name": "Joey Cabalonga",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "PDI Panay East",
+        "Class": "Agent-Installer",
+        "Region": "Western Visayas",
+        "Sales Code": "AIK4PE002123",
+        "Trade Name": "Loraine Store",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "PDI Panay East",
+        "Class": "Agent-Installer",
+        "Region": "Western Visayas",
+        "Sales Code": "AIK4PE002223",
+        "Trade Name": "Jhonmar Store",
         "Status": "Included"
     },
     {
@@ -17020,48 +16724,24 @@ const salesManCode = [
         "Territory Partner": "PDI Panay West",
         "Class": "Agent-Installer",
         "Region": "Western Visayas",
-        "Sales Code": "VAPLASCD",
-        "Trade Name": "CHA & CEL",
+        "Sales Code": "AIK4PW002023",
+        "Trade Name": "Bobby Barde",
         "Status": "Included"
     },
     {
         "Territory Partner": "PDI Panay West",
         "Class": "Agent-Installer",
         "Region": "Western Visayas",
-        "Sales Code": "AIPYK40068",
-        "Trade Name": "Jeffrey Supe",
+        "Sales Code": "AII4PW001823",
+        "Trade Name": "Dimbea Satellite Center",
         "Status": "Included"
     },
     {
         "Territory Partner": "PDI Panay West",
         "Class": "Agent-Installer",
         "Region": "Western Visayas",
-        "Sales Code": "AIPYK40064",
-        "Trade Name": "MJ SATELLITE CABLE & ACCESSORIES",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Panay West",
-        "Class": "Agent-Installer",
-        "Region": "Western Visayas",
-        "Sales Code": "AIPYK40004",
-        "Trade Name": "James Viray",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Panay West",
-        "Class": "Agent-Installer",
-        "Region": "Western Visayas",
-        "Sales Code": "AII4PY000422",
-        "Trade Name": "Fonelab cellphone and Accessories",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Save and Earn",
-        "Class": "Agent-Installer",
-        "Region": "Central Visayas",
-        "Sales Code": "VLUSGSCC",
-        "Trade Name": "Rodel Diegin",
+        "Sales Code": "AII4PW001923",
+        "Trade Name": "Joe Mart Ducado",
         "Status": "Included"
     },
     {
@@ -17070,46 +16750,6 @@ const salesManCode = [
         "Region": "Central Visayas",
         "Sales Code": "VLURMSCB",
         "Trade Name": "Maranc's Computer Repair and Services",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Save and Earn",
-        "Class": "Agent-Installer",
-        "Region": "Central Visayas",
-        "Sales Code": "VLUR3SCE",
-        "Trade Name": "John Paul V. Aton",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Save and Earn",
-        "Class": "Agent-Installer",
-        "Region": "Central Visayas",
-        "Sales Code": "VLUQRSCC",
-        "Trade Name": "Nelson Bunajos",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Save and Earn",
-        "Class": "Agent-Installer",
-        "Region": "Central Visayas",
-        "Sales Code": "VLUQ7BBB",
-        "Trade Name": "Darryl Caduyac",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Save and Earn",
-        "Class": "Agent-Installer",
-        "Region": "Central Visayas",
-        "Sales Code": "VLUPUSCB",
-        "Trade Name": "Jochifs General Merchandise",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Save and Earn",
-        "Class": "Agent-Installer",
-        "Region": "Central Visayas",
-        "Sales Code": "VLUJJSCD",
-        "Trade Name": "James Store",
         "Status": "Included"
     },
     {
@@ -17420,30 +17060,6 @@ const salesManCode = [
         "Territory Partner": "Uniglobal",
         "Class": "Agent-Installer",
         "Region": "East Mindanao",
-        "Sales Code": "WU8QCAAG",
-        "Trade Name": "RG Englisa Loading Station",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Uniglobal",
-        "Class": "Agent-Installer",
-        "Region": "East Mindanao",
-        "Sales Code": "WU8QCAAF",
-        "Trade Name": "MDJ Marketing",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Uniglobal",
-        "Class": "Agent-Installer",
-        "Region": "East Mindanao",
-        "Sales Code": "WU8JAAAP",
-        "Trade Name": "Citi TV Satellite",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Uniglobal",
-        "Class": "Agent-Installer",
-        "Region": "East Mindanao",
         "Sales Code": "WU8JAAAF",
         "Trade Name": "HARON BIAY",
         "Status": "Included"
@@ -17452,32 +17068,8 @@ const salesManCode = [
         "Territory Partner": "Uniglobal",
         "Class": "Agent-Installer",
         "Region": "East Mindanao",
-        "Sales Code": "WU8HSSSC",
-        "Trade Name": "JOSEPH DELA CRUZ",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Uniglobal",
-        "Class": "Agent-Installer",
-        "Region": "East Mindanao",
         "Sales Code": "WU8EASCB",
         "Trade Name": "ABENOJA GENERAL MERCHANDISE",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Uniglobal",
-        "Class": "Agent-Installer",
-        "Region": "East Mindanao",
-        "Sales Code": "WU64AAAB",
-        "Trade Name": "ETJ ELECTRONIC AND SERVICES",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Uniglobal",
-        "Class": "Agent-Installer",
-        "Region": "East Mindanao",
-        "Sales Code": "WU63ABDD",
-        "Trade Name": "Richard Maymad Installation",
         "Status": "Included"
     },
     {
@@ -17508,64 +17100,8 @@ const salesManCode = [
         "Territory Partner": "Uniglobal",
         "Class": "Agent-Installer",
         "Region": "East Mindanao",
-        "Sales Code": "AIULJ30002",
-        "Trade Name": "RA Installer",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Uniglobal",
-        "Class": "Agent-Installer",
-        "Region": "East Mindanao",
-        "Sales Code": "AIO3UL000522",
-        "Trade Name": "Jesus Delcuadra",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Uniglobal",
-        "Class": "Agent-Installer",
-        "Region": "East Mindanao",
         "Sales Code": "AIK3UL000723",
         "Trade Name": "Nanette G. Dazon",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Uniglobal",
-        "Class": "Agent-Installer",
-        "Region": "East Mindanao",
-        "Sales Code": "AIK3UL000722",
-        "Trade Name": "Junmark Rapales",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Uniglobal",
-        "Class": "Agent-Installer",
-        "Region": "East Mindanao",
-        "Sales Code": "AIK3UL000623",
-        "Trade Name": "Pepito Eleccion",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Uniglobal",
-        "Class": "Agent-Installer",
-        "Region": "East Mindanao",
-        "Sales Code": "AIK3UL000523",
-        "Trade Name": "Elmer Gilapon",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Uniglobal",
-        "Class": "Agent-Installer",
-        "Region": "East Mindanao",
-        "Sales Code": "AIJ3UL000623",
-        "Trade Name": "Renever Villaester",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Uniglobal",
-        "Class": "Agent-Installer",
-        "Region": "East Mindanao",
-        "Sales Code": "AIJ3UL000622",
-        "Trade Name": "Johnary Rodrigues Bernguel",
         "Status": "Included"
     },
     {
@@ -17622,6 +17158,14 @@ const salesManCode = [
         "Region": "East Mindanao",
         "Sales Code": "AIO3UL000523",
         "Trade Name": "Irene M. Similatan",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Uniglobal",
+        "Class": "Agent-Installer",
+        "Region": "East Mindanao",
+        "Sales Code": "AIK3UL000423",
+        "Trade Name": "Glenn Jumawan",
         "Status": "Included"
     },
     {
@@ -18068,30 +17612,6 @@ const salesManCode = [
         "Territory Partner": "Vertext 2",
         "Class": "Agent-Installer",
         "Region": "North Luzon West",
-        "Sales Code": "AIVTR20009",
-        "Trade Name": "Gregorio Hermusa",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Vertext 2",
-        "Class": "Agent-Installer",
-        "Region": "North Luzon West",
-        "Sales Code": "AIVTR20008",
-        "Trade Name": "Michael R. Jadormeo",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Vertext 2",
-        "Class": "Agent-Installer",
-        "Region": "North Luzon West",
-        "Sales Code": "AIVTR20007",
-        "Trade Name": "Gideon A. Gumpad",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Vertext 2",
-        "Class": "Agent-Installer",
-        "Region": "North Luzon West",
         "Sales Code": "AIVTR20006",
         "Trade Name": "Joedel M. Lazaga",
         "Status": "Included"
@@ -18108,88 +17628,8 @@ const salesManCode = [
         "Territory Partner": "Vertext 2",
         "Class": "Agent-Installer",
         "Region": "North Luzon West",
-        "Sales Code": "AIR2VT001922",
-        "Trade Name": "Jimmy N. Abugatal",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Vertext 2",
-        "Class": "Agent-Installer",
-        "Region": "North Luzon West",
-        "Sales Code": "AIR2VT001822",
-        "Trade Name": "Jeffrey A. Corpuz",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Vertext 2",
-        "Class": "Agent-Installer",
-        "Region": "North Luzon West",
-        "Sales Code": "AIR2VT001722",
-        "Trade Name": "Ernesto A. Luciano Jr.",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Vertext 2",
-        "Class": "Agent-Installer",
-        "Region": "North Luzon West",
-        "Sales Code": "AIR2VT001622",
-        "Trade Name": "Nathaniel R. Bitongan",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Vertext 2",
-        "Class": "Agent-Installer",
-        "Region": "North Luzon West",
-        "Sales Code": "AIR2VT001522",
-        "Trade Name": "Antonio C. Villena III",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Vertext 2",
-        "Class": "Agent-Installer",
-        "Region": "North Luzon West",
-        "Sales Code": "AIR2VT001422",
-        "Trade Name": "Mark Emerson E. Abella",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Vertext 2",
-        "Class": "Agent-Installer",
-        "Region": "North Luzon West",
-        "Sales Code": "AIR2VT001322",
-        "Trade Name": "Gerry G. Cortez",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Vertext 2",
-        "Class": "Agent-Installer",
-        "Region": "North Luzon West",
-        "Sales Code": "AIR2VT001222",
-        "Trade Name": "Elpidio J. Langbay",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Vertext 2",
-        "Class": "Agent-Installer",
-        "Region": "North Luzon West",
         "Sales Code": "AIR2VT001122",
         "Trade Name": "Magg's Insurance Services and Cable CCTV Installation",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Vertext 2",
-        "Class": "Agent-Installer",
-        "Region": "North Luzon West",
-        "Sales Code": "AIR2VT000922",
-        "Trade Name": "ACXO Electronics",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Vertext 2",
-        "Class": "Agent-Installer",
-        "Region": "North Luzon West",
-        "Sales Code": "AIR2VT000822",
-        "Trade Name": "Jaymhar E. Escritor",
         "Status": "Included"
     },
     {
@@ -18206,22 +17646,6 @@ const salesManCode = [
         "Region": "North Luzon West",
         "Sales Code": "AIR2VT000622",
         "Trade Name": "Foronda Electronics",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Vertext 2",
-        "Class": "Agent-Installer",
-        "Region": "North Luzon West",
-        "Sales Code": "AIR2VT000522",
-        "Trade Name": "Danny Valdez Electronic Shop",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Vertext 2",
-        "Class": "Agent-Installer",
-        "Region": "North Luzon West",
-        "Sales Code": "AIR2VT000423",
-        "Trade Name": "Raffy L. Galing",
         "Status": "Included"
     },
     {
@@ -18246,14 +17670,6 @@ const salesManCode = [
         "Region": "North Luzon West",
         "Sales Code": "AIH2AX000522",
         "Trade Name": "Jonathan Urbano",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Vertext 2",
-        "Class": "Agent-Installer",
-        "Region": "North Luzon West",
-        "Sales Code": "AIH2AX000422",
-        "Trade Name": "TTECH CCTV Installation Services",
         "Status": "Included"
     },
     {
@@ -18945,14 +18361,6 @@ const salesManCode = [
         "Status": "Included"
     },
     {
-        "Territory Partner": "8 telcom 2",
-        "Class": "Exclusive",
-        "Region": "East Mindanao",
-        "Sales Code": "EXG3M1001122",
-        "Trade Name": "Zaid Store",
-        "Status": "Included"
-    },
-    {
         "Territory Partner": "Airtalk",
         "Class": "Exclusive",
         "Region": "Northwest Mindanao",
@@ -19148,14 +18556,6 @@ const salesManCode = [
         "Territory Partner": "Alain Asia North",
         "Class": "Exclusive",
         "Region": "Central Visayas",
-        "Sales Code": "EXANA10062",
-        "Trade Name": "WBC-L Satellite (San Remegio)",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Alain Asia North",
-        "Class": "Exclusive",
-        "Region": "Central Visayas",
         "Sales Code": "EXANA10060",
         "Trade Name": "Helmet factory and Cafe",
         "Status": "Included"
@@ -19166,14 +18566,6 @@ const salesManCode = [
         "Region": "Central Visayas",
         "Sales Code": "EXA1AN004822",
         "Trade Name": "4JP Cellphone and Accessories",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Alain Asia North",
-        "Class": "Exclusive",
-        "Region": "Central Visayas",
-        "Sales Code": "EXA1AN004722",
-        "Trade Name": "BWC-L Satellite (Tambongon)",
         "Status": "Included"
     },
     {
@@ -19236,14 +18628,6 @@ const salesManCode = [
         "Territory Partner": "Alain Asia South",
         "Class": "Exclusive",
         "Region": "Central Visayas",
-        "Sales Code": "EXASA10048",
-        "Trade Name": "Josdav Digital Installation And Services",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Alain Asia South",
-        "Class": "Exclusive",
-        "Region": "Central Visayas",
         "Sales Code": "EXASA10039",
         "Trade Name": "Tonio Satellite Cable",
         "Status": "Included"
@@ -19268,30 +18652,6 @@ const salesManCode = [
         "Territory Partner": "Alain Asia South",
         "Class": "Exclusive",
         "Region": "Central Visayas",
-        "Sales Code": "EXA1AS003722",
-        "Trade Name": "Alsola Satelite Store",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Alain Asia South",
-        "Class": "Exclusive",
-        "Region": "Central Visayas",
-        "Sales Code": "EXA1AS002422",
-        "Trade Name": "ALMAR SATELLITE CABLE SERVICES",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Alain Asia South",
-        "Class": "Exclusive",
-        "Region": "Central Visayas",
-        "Sales Code": "EXA1AS001423",
-        "Trade Name": "MERA ALFEREZ MINI STORE",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Alain Asia South",
-        "Class": "Exclusive",
-        "Region": "Central Visayas",
         "Sales Code": "CPA1AS004322",
         "Trade Name": "Triple X Satellite Installation Services",
         "Status": "Included"
@@ -19302,14 +18662,6 @@ const salesManCode = [
         "Region": "Central Visayas",
         "Sales Code": "VJTKASAV",
         "Trade Name": "JMS Satellite Installation Services",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Alain Asia South",
-        "Class": "Exclusive",
-        "Region": "Central Visayas",
-        "Sales Code": "EXA1DK001023",
-        "Trade Name": "TIM's Solutions Gadget Repair Shop",
         "Status": "Included"
     },
     {
@@ -19564,14 +18916,6 @@ const salesManCode = [
         "Territory Partner": "BSL BULACAN",
         "Class": "Exclusive",
         "Region": "East Central Luzon",
-        "Sales Code": "TCHVASCD",
-        "Trade Name": "RDG Enterprises",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "BSL BULACAN",
-        "Class": "Exclusive",
-        "Region": "East Central Luzon",
         "Sales Code": "TCHVASCC",
         "Trade Name": "GTC ELECTRONIC SHOP",
         "Status": "Included"
@@ -19781,7 +19125,7 @@ const salesManCode = [
         "Class": "Exclusive",
         "Region": "East Visayas",
         "Sales Code": "VSVLJSCB",
-        "Trade Name": "Prince-Ian Repair & Loading Station",
+        "Trade Name": "G - TECHTRONICS DIGITAL CABLE TV & LAODING STATION",
         "Status": "Included"
     },
     {
@@ -19797,7 +19141,7 @@ const salesManCode = [
         "Class": "Exclusive",
         "Region": "East Visayas",
         "Sales Code": "VSV2QSBD",
-        "Trade Name": "JP TRADING AND SERVICES CULABA BRANCH",
+        "Trade Name": "GMA BALITE OFFICE AND SCHOOL SUPPLIES TRADING",
         "Status": "Included"
     },
     {
@@ -19926,6 +19270,14 @@ const salesManCode = [
         "Region": "East Visayas",
         "Sales Code": "EXC1CC002923",
         "Trade Name": "Wel Tech Computer Installation Service",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Cellcom Central East",
+        "Class": "Exclusive",
+        "Region": "East Visayas",
+        "Sales Code": "EXC1CC003423",
+        "Trade Name": "JY CELL ACCESS - Julita Branch",
         "Status": "Included"
     },
     {
@@ -20310,6 +19662,22 @@ const salesManCode = [
         "Region": "Central Visayas",
         "Sales Code": "AIC4CT003822",
         "Trade Name": "Syd&Kylle",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "CRFT",
+        "Class": "Exclusive",
+        "Region": "Central Visayas",
+        "Sales Code": "EXC4CT003023",
+        "Trade Name": "Limuaco Store",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "CRFT",
+        "Class": "Exclusive",
+        "Region": "Central Visayas",
+        "Sales Code": "EXC4CT003123",
+        "Trade Name": "JNET APPLIANCE AND GADGET CENTER",
         "Status": "Included"
     },
     {
@@ -21436,16 +20804,168 @@ const salesManCode = [
         "Territory Partner": "FM Marketing",
         "Class": "Exclusive",
         "Region": "North Luzon West",
-        "Sales Code": "EXL2FG001022",
-        "Trade Name": "Balangcod Store",
+        "Sales Code": "EXL2FG000422",
+        "Trade Name": "Melissa's Variety Shop",
         "Status": "Included"
     },
     {
         "Territory Partner": "FM Marketing",
         "Class": "Exclusive",
         "Region": "North Luzon West",
-        "Sales Code": "EXL2FG000422",
-        "Trade Name": "Melissa's Variety Shop",
+        "Sales Code": "EXL2FG000423",
+        "Trade Name": "4E ELECTRONIC SHOP",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "Exclusive",
+        "Region": "South Mindanao",
+        "Sales Code": "WT5JASCC",
+        "Trade Name": "JNC COMPUTER AND CELPHONE CENTER",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "Exclusive",
+        "Region": "South Mindanao",
+        "Sales Code": "WT5EASAA",
+        "Trade Name": "FLK MARKETING",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "Exclusive",
+        "Region": "South Mindanao",
+        "Sales Code": "WT4XASCE",
+        "Trade Name": "DHANZEL STORE",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "Exclusive",
+        "Region": "South Mindanao",
+        "Sales Code": "WT47ASCC",
+        "Trade Name": "LEJE SHOP",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "Exclusive",
+        "Region": "South Mindanao",
+        "Sales Code": "WT47ASCB",
+        "Trade Name": "COMSAT",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "Exclusive",
+        "Region": "South Mindanao",
+        "Sales Code": "WT46ASCA",
+        "Trade Name": "COMSAT",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "Exclusive",
+        "Region": "South Mindanao",
+        "Sales Code": "WT44ASCB",
+        "Trade Name": "Dapilaga Loading Station",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "Exclusive",
+        "Region": "South Mindanao",
+        "Sales Code": "WT3ZASCC",
+        "Trade Name": "ROL-ANS MARKETING",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "Exclusive",
+        "Region": "South Mindanao",
+        "Sales Code": "WT3WASCA",
+        "Trade Name": "JESSEC HOME SATELLITE SERVICES",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "Exclusive",
+        "Region": "South Mindanao",
+        "Sales Code": "WT3UASUW",
+        "Trade Name": "E.R.K Consumer Goods Trading",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "Exclusive",
+        "Region": "South Mindanao",
+        "Sales Code": "WT3TASDP",
+        "Trade Name": "Cignal Home Network One Stop Shop",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "Exclusive",
+        "Region": "South Mindanao",
+        "Sales Code": "WT3TASCI",
+        "Trade Name": "J&I Cable Installation Services",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "Exclusive",
+        "Region": "South Mindanao",
+        "Sales Code": "WT3RASCB",
+        "Trade Name": "JUDIEN ELECTRONICS",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "Exclusive",
+        "Region": "South Mindanao",
+        "Sales Code": "MBM2W30002",
+        "Trade Name": "R and J MARKETING",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "Exclusive",
+        "Region": "South Mindanao",
+        "Sales Code": "MBM2U30003",
+        "Trade Name": "Celsat Satellite Cable Trading",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "Exclusive",
+        "Region": "South Mindanao",
+        "Sales Code": "EXW3M2000523",
+        "Trade Name": "RN Marketing",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "Exclusive",
+        "Region": "South Mindanao",
+        "Sales Code": "EXM2W30007",
+        "Trade Name": "R. Valdez Marketing",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "Exclusive",
+        "Region": "South Mindanao",
+        "Sales Code": "EXM2V30012",
+        "Trade Name": "VVGA Satellite TV Installation Services - T'boli Branch Branch",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "Exclusive",
+        "Region": "South Mindanao",
+        "Sales Code": "EXU3M2000523",
+        "Trade Name": "SAT-TECH COMM",
         "Status": "Included"
     },
     {
@@ -22756,14 +22276,6 @@ const salesManCode = [
         "Territory Partner": "Koks",
         "Class": "Exclusive",
         "Region": "Western Visayas",
-        "Sales Code": "VDPFVSSB",
-        "Trade Name": "BAUTISTA CIGNAL CENTER",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Koks",
-        "Class": "Exclusive",
-        "Region": "Western Visayas",
         "Sales Code": "VDPFSSCA",
         "Trade Name": "MADECO (Madalag Development Coop.)",
         "Status": "Included"
@@ -22828,24 +22340,8 @@ const salesManCode = [
         "Territory Partner": "Koks",
         "Class": "Exclusive",
         "Region": "Western Visayas",
-        "Sales Code": "VDPBASCB",
-        "Trade Name": "MK Hub & Cellphone Accessories",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Koks",
-        "Class": "Exclusive",
-        "Region": "Western Visayas",
         "Sales Code": "EXE4KS000422",
         "Trade Name": "K Link Cable and Cellphone Accesories 2",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Koks",
-        "Class": "Exclusive",
-        "Region": "Western Visayas",
-        "Sales Code": "EXD4KS000523",
-        "Trade Name": "KC Boutique",
         "Status": "Included"
     },
     {
@@ -22934,158 +22430,6 @@ const salesManCode = [
         "Region": "Central South Luzon",
         "Sales Code": "EXMAQ10001",
         "Trade Name": "Olecram",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "Exclusive",
-        "Region": "South Mindanao",
-        "Sales Code": "WT5JASCC",
-        "Trade Name": "JNC COMPUTER AND CELPHONE CENTER",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "Exclusive",
-        "Region": "South Mindanao",
-        "Sales Code": "WT5EASAA",
-        "Trade Name": "FLK MARKETING",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "Exclusive",
-        "Region": "South Mindanao",
-        "Sales Code": "WT4XASCE",
-        "Trade Name": "DHANZEL STORE",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "Exclusive",
-        "Region": "South Mindanao",
-        "Sales Code": "WT47ASCC",
-        "Trade Name": "LEJE SHOP",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "Exclusive",
-        "Region": "South Mindanao",
-        "Sales Code": "WT47ASCB",
-        "Trade Name": "COMSAT",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "Exclusive",
-        "Region": "South Mindanao",
-        "Sales Code": "WT46ASCA",
-        "Trade Name": "COMSAT",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "Exclusive",
-        "Region": "South Mindanao",
-        "Sales Code": "WT44ASCB",
-        "Trade Name": "Dapilaga Loading Station",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "Exclusive",
-        "Region": "South Mindanao",
-        "Sales Code": "WT3ZASCC",
-        "Trade Name": "ROL-ANS MARKETING",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "Exclusive",
-        "Region": "South Mindanao",
-        "Sales Code": "WT3WASCA",
-        "Trade Name": "JESSEC HOME SATELLITE SERVICES",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "Exclusive",
-        "Region": "South Mindanao",
-        "Sales Code": "WT3UASUW",
-        "Trade Name": "E.R.K Consumer Goods Trading",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "Exclusive",
-        "Region": "South Mindanao",
-        "Sales Code": "WT3TASDP",
-        "Trade Name": "Cignal Home Network One Stop Shop",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "Exclusive",
-        "Region": "South Mindanao",
-        "Sales Code": "WT3TASCI",
-        "Trade Name": "J&I Cable Installation Services",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "Exclusive",
-        "Region": "South Mindanao",
-        "Sales Code": "WT3RASCB",
-        "Trade Name": "JUDIEN ELECTRONICS",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "Exclusive",
-        "Region": "South Mindanao",
-        "Sales Code": "MBM2W30002",
-        "Trade Name": "R and J MARKETING",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "Exclusive",
-        "Region": "South Mindanao",
-        "Sales Code": "MBM2U30003",
-        "Trade Name": "Celsat Satellite Cable Trading",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "Exclusive",
-        "Region": "South Mindanao",
-        "Sales Code": "EXW3M2000523",
-        "Trade Name": "RN Marketing",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "Exclusive",
-        "Region": "South Mindanao",
-        "Sales Code": "EXM2W30007",
-        "Trade Name": "R. Valdez Marketing",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "Exclusive",
-        "Region": "South Mindanao",
-        "Sales Code": "EXM2V30012",
-        "Trade Name": "VVGA Satellite TV Installation Services - T'boli Branch Branch",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "Exclusive",
-        "Region": "South Mindanao",
-        "Sales Code": "EXU3M2000523",
-        "Trade Name": "SAT-TECH COMM",
         "Status": "Included"
     },
     {
@@ -23230,14 +22574,6 @@ const salesManCode = [
         "Region": "North Luzon East",
         "Sales Code": "TNEDASCB",
         "Trade Name": "Jerriels Enterprises",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "N. Phoenix",
-        "Class": "Exclusive",
-        "Region": "North Luzon East",
-        "Sales Code": "TNEBASCC",
-        "Trade Name": "Anciado Electronics Shop",
         "Status": "Included"
     },
     {
@@ -23868,14 +23204,6 @@ const salesManCode = [
         "Territory Partner": "PDI Negros",
         "Class": "Exclusive",
         "Region": "Western Visayas",
-        "Sales Code": "VBRUASCB",
-        "Trade Name": "JAMES INNOVATION",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Negros",
-        "Class": "Exclusive",
-        "Region": "Western Visayas",
         "Sales Code": "VBRMASCG",
         "Trade Name": "POS MARKETING KABANKALAN",
         "Status": "Included"
@@ -23886,14 +23214,6 @@ const salesManCode = [
         "Region": "Western Visayas",
         "Sales Code": "VBRIASCL",
         "Trade Name": "Serena Motorcycle Spare Parts and Tires",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Negros",
-        "Class": "Exclusive",
-        "Region": "Western Visayas",
-        "Sales Code": "VBREASCD",
-        "Trade Name": "Sheilah Satlite and Cignal Installer Cable Television",
         "Status": "Included"
     },
     {
@@ -23916,40 +23236,8 @@ const salesManCode = [
         "Territory Partner": "PDI Negros",
         "Class": "Exclusive",
         "Region": "Western Visayas",
-        "Sales Code": "VBRDASCC",
-        "Trade Name": "MFR",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Negros",
-        "Class": "Exclusive",
-        "Region": "Western Visayas",
         "Sales Code": "VBRAASCZ",
         "Trade Name": "POS MARKETING ENTERPRISES BACOLOD",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Negros",
-        "Class": "Exclusive",
-        "Region": "Western Visayas",
-        "Sales Code": "VBR4PSCB",
-        "Trade Name": "SALARDA STORE",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Negros",
-        "Class": "Exclusive",
-        "Region": "Western Visayas",
-        "Sales Code": "EXPNF40125",
-        "Trade Name": "J. Arcamo Construction Supplies",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Negros",
-        "Class": "Exclusive",
-        "Region": "Western Visayas",
-        "Sales Code": "EXPNF40120",
-        "Trade Name": "SHEILAH SATLITE AND CIGNAL INSTALLER CABLE TV",
         "Status": "Included"
     },
     {
@@ -23982,14 +23270,6 @@ const salesManCode = [
         "Region": "Western Visayas",
         "Sales Code": "EXF4PN000523",
         "Trade Name": "L.A Cable Installation Services",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Negros",
-        "Class": "Exclusive",
-        "Region": "Western Visayas",
-        "Sales Code": "EXF4PN000423",
-        "Trade Name": "Yuvic Commercial",
         "Status": "Included"
     },
     {
@@ -24316,14 +23596,6 @@ const salesManCode = [
         "Territory Partner": "PDI Panay West",
         "Class": "Exclusive",
         "Region": "Western Visayas",
-        "Sales Code": "VAPNTSCB",
-        "Trade Name": "Dodong Cignal TV",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Panay West",
-        "Class": "Exclusive",
-        "Region": "Western Visayas",
         "Sales Code": "VAPNJSCB",
         "Trade Name": "ZABAW SATELLITE CENTER",
         "Status": "Included"
@@ -24462,14 +23734,6 @@ const salesManCode = [
         "Region": "Central Visayas",
         "Sales Code": "VLUEASCK",
         "Trade Name": "My Eye CCTV Installer",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Save and Earn",
-        "Class": "Exclusive",
-        "Region": "Central Visayas",
-        "Sales Code": "EXSNI10006",
-        "Trade Name": "Photo Lane Design and Printing Services",
         "Status": "Included"
     },
     {
@@ -24980,14 +24244,6 @@ const salesManCode = [
         "Territory Partner": "Uniglobal",
         "Class": "Exclusive",
         "Region": "East Mindanao",
-        "Sales Code": "WU8JASCK",
-        "Trade Name": "101 Repair Shop",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Uniglobal",
-        "Class": "Exclusive",
-        "Region": "East Mindanao",
         "Sales Code": "WU8EASCC",
         "Trade Name": "TUDSQUARE ELECTRONICS SHOP ",
         "Status": "Included"
@@ -25022,22 +24278,6 @@ const salesManCode = [
         "Region": "East Mindanao",
         "Sales Code": "EXULK30011",
         "Trade Name": "JLC Marketing 1",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Uniglobal",
-        "Class": "Exclusive",
-        "Region": "East Mindanao",
-        "Sales Code": "EXULK30008",
-        "Trade Name": "Jimmy Cable & CCTV Installation & Services",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Uniglobal",
-        "Class": "Exclusive",
-        "Region": "East Mindanao",
-        "Sales Code": "EXULK30002",
-        "Trade Name": "Pobre Pero Hayahay Satellite Services",
         "Status": "Included"
     },
     {
@@ -25236,14 +24476,6 @@ const salesManCode = [
         "Territory Partner": "Vertext 2",
         "Class": "Exclusive",
         "Region": "North Luzon West",
-        "Sales Code": "TAARASCC",
-        "Trade Name": "Red General Merchandise",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Vertext 2",
-        "Class": "Exclusive",
-        "Region": "North Luzon West",
         "Sales Code": "TAAQASCB",
         "Trade Name": "TAM Cellphone Repair  and Gen. Mdse.",
         "Status": "Included"
@@ -25284,32 +24516,8 @@ const salesManCode = [
         "Territory Partner": "Vertext 2",
         "Class": "Exclusive",
         "Region": "North Luzon West",
-        "Sales Code": "TAAKJSBB",
-        "Trade Name": "Zane Gilas Trading",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Vertext 2",
-        "Class": "Exclusive",
-        "Region": "North Luzon West",
         "Sales Code": "TAAJASCD",
         "Trade Name": "MARX & BASTI CIGNAL PARTNER",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Vertext 2",
-        "Class": "Exclusive",
-        "Region": "North Luzon West",
-        "Sales Code": "TAAHTSCB",
-        "Trade Name": "GIGABIKES AND CYCLE PARTS TAGUDIN",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Vertext 2",
-        "Class": "Exclusive",
-        "Region": "North Luzon West",
-        "Sales Code": "TAAGASCA",
-        "Trade Name": "BUENAOBRA ENTERPRISES",
         "Status": "Included"
     },
     {
@@ -25342,14 +24550,6 @@ const salesManCode = [
         "Region": "North Luzon West",
         "Sales Code": "EXR2VT001022",
         "Trade Name": "Monique Reinz Cignal, Satlite & CCTV Installation Services",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Vertext 2",
-        "Class": "Exclusive",
-        "Region": "North Luzon West",
-        "Sales Code": "EXAXH20003",
-        "Trade Name": "JH Cignal Cable",
         "Status": "Included"
     },
     {
@@ -25430,6 +24630,14 @@ const salesManCode = [
         "Region": "West Central Luzon",
         "Sales Code": "TGGSASCF",
         "Trade Name": "Ariel M. Mandal Cignal Store",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Wanna Cable",
+        "Class": "Exclusive",
+        "Region": "West Central Luzon",
+        "Sales Code": "TGGPPSCC",
+        "Trade Name": "Cignal Porac",
         "Status": "Included"
     },
     {
@@ -25844,24 +25052,8 @@ const salesManCode = [
         "Territory Partner": "Alain Asia South",
         "Class": "CPS",
         "Region": "Central Visayas",
-        "Sales Code": "VETXASCJ",
-        "Trade Name": "PJK Direct TV Home Cable",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Alain Asia South",
-        "Class": "CPS",
-        "Region": "Central Visayas",
         "Sales Code": "VETPASCC",
         "Trade Name": "Junelle CMK Loading Station",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Alain Asia South",
-        "Class": "CPS",
-        "Region": "Central Visayas",
-        "Sales Code": "VET9VSCA",
-        "Trade Name": "Paras Satellite Store",
         "Status": "Included"
     },
     {
@@ -25886,14 +25078,6 @@ const salesManCode = [
         "Region": "Central Visayas",
         "Sales Code": "VET6ASCY",
         "Trade Name": "2NY Electron",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Alain Asia South",
-        "Class": "CPS",
-        "Region": "Central Visayas",
-        "Sales Code": "VET6ASCA",
-        "Trade Name": "NBC Satelite Services",
         "Status": "Included"
     },
     {
@@ -25926,14 +25110,6 @@ const salesManCode = [
         "Region": "Central Visayas",
         "Sales Code": "EXA1AS002622",
         "Trade Name": "JOSDAV STORE",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Alain Asia South",
-        "Class": "CPS",
-        "Region": "Central Visayas",
-        "Sales Code": "CPA1AS004022",
-        "Trade Name": "3E'S Marketing - Carcar",
         "Status": "Included"
     },
     {
@@ -26036,14 +25212,6 @@ const salesManCode = [
         "Territory Partner": "BBCI",
         "Class": "CPS",
         "Region": "South Mindanao",
-        "Sales Code": "WB3QKSCD",
-        "Trade Name": "Fastlink System Marketing and Services",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "BBCI",
-        "Class": "CPS",
-        "Region": "South Mindanao",
         "Sales Code": "WB3QKSCC",
         "Trade Name": "KJFC Marketing",
         "Status": "Included"
@@ -26110,14 +25278,6 @@ const salesManCode = [
         "Region": "South Mindanao",
         "Sales Code": "WB3DASCD",
         "Trade Name": "Saharudin Store",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "BBCI",
-        "Class": "CPS",
-        "Region": "South Mindanao",
-        "Sales Code": "WB3CASCA",
-        "Trade Name": "GMRJ COMPUTER AND SERVICES",
         "Status": "Included"
     },
     {
@@ -26277,7 +25437,7 @@ const salesManCode = [
         "Class": "CPS",
         "Region": "East Visayas",
         "Sales Code": "VSVJASAA",
-        "Trade Name": "Explorer Internet Café",
+        "Trade Name": "GM ELECTRONIC SERVICES",
         "Status": "Included"
     },
     {
@@ -26913,6 +26073,78 @@ const salesManCode = [
         "Status": "Included"
     },
     {
+        "Territory Partner": "Giga Dragon",
+        "Class": "CPS",
+        "Region": "South Mindanao",
+        "Sales Code": "WT5CASCB",
+        "Trade Name": "JMA ELECTRONICS",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "CPS",
+        "Region": "South Mindanao",
+        "Sales Code": "WT5BASCB",
+        "Trade Name": "PRECIOUSE CELLPHONE & ACCESSORIES ",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "CPS",
+        "Region": "South Mindanao",
+        "Sales Code": "WT44ASCA",
+        "Trade Name": "TOWNSITE GENERAL MERCHANDISE",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "CPS",
+        "Region": "South Mindanao",
+        "Sales Code": "WT3VAAAA",
+        "Trade Name": "VVGA SATELLITE TV INSTALLATION & SERVICES",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "CPS",
+        "Region": "South Mindanao",
+        "Sales Code": "WT3UASCG",
+        "Trade Name": "RV VALDEZ MARKETING",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "CPS",
+        "Region": "South Mindanao",
+        "Sales Code": "WT3TASDC",
+        "Trade Name": "MAY VALDEZ STORE",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "CPS",
+        "Region": "South Mindanao",
+        "Sales Code": "WT3RASCA",
+        "Trade Name": "ANGELROSE CELLPHONE CENTER",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "CPS",
+        "Region": "South Mindanao",
+        "Sales Code": "WT31ASCD",
+        "Trade Name": "SMR PHIL ENTERPRISES",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "CPS",
+        "Region": "South Mindanao",
+        "Sales Code": "WS5CRCPS",
+        "Trade Name": "RL Cellular",
+        "Status": "Included"
+    },
+    {
         "Territory Partner": "Go Sigla LagQuez",
         "Class": "CPS",
         "Region": "Central South Luzon",
@@ -26958,14 +26190,6 @@ const salesManCode = [
         "Region": "Central South Luzon",
         "Sales Code": "UJJNACPS",
         "Trade Name": "ALJADE TRADING & SERVICES",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Go Sigla LagQuez",
-        "Class": "CPS",
-        "Region": "Central South Luzon",
-        "Sales Code": "UJJEASCM",
-        "Trade Name": "AEM TECH Enterprise",
         "Status": "Included"
     },
     {
@@ -27444,6 +26668,14 @@ const salesManCode = [
         "Territory Partner": "Innovasia Mindoro",
         "Class": "CPS",
         "Region": "Upper South Luzon",
+        "Sales Code": "UAJUASAB",
+        "Trade Name": "JR Manliquid Telecom",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Innovasia Mindoro",
+        "Class": "CPS",
+        "Region": "Upper South Luzon",
         "Sales Code": "UAJTASCA",
         "Trade Name": "Abelardo Papa Tv Links",
         "Status": "Included"
@@ -27540,14 +26772,6 @@ const salesManCode = [
         "Territory Partner": "Koks",
         "Class": "CPS",
         "Region": "Western Visayas",
-        "Sales Code": "VDPPASCA",
-        "Trade Name": "DELTALINK ELOADING & CELLPHONE ACCESSORIES",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Koks",
-        "Class": "CPS",
-        "Region": "Western Visayas",
         "Sales Code": "VDPF2SCA",
         "Trade Name": "Tera's Mart",
         "Status": "Included"
@@ -27609,91 +26833,11 @@ const salesManCode = [
         "Status": "Included"
     },
     {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "CPS",
-        "Region": "South Mindanao",
-        "Sales Code": "WT5CASCB",
-        "Trade Name": "JMA ELECTRONICS",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "CPS",
-        "Region": "South Mindanao",
-        "Sales Code": "WT5BASCB",
-        "Trade Name": "PRECIOUSE CELLPHONE & ACCESSORIES ",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "CPS",
-        "Region": "South Mindanao",
-        "Sales Code": "WT44ASCA",
-        "Trade Name": "TOWNSITE GENERAL MERCHANDISE",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "CPS",
-        "Region": "South Mindanao",
-        "Sales Code": "WT3VAAAA",
-        "Trade Name": "VVGA SATELLITE TV INSTALLATION & SERVICES",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "CPS",
-        "Region": "South Mindanao",
-        "Sales Code": "WT3UASCG",
-        "Trade Name": "RV VALDEZ MARKETING",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "CPS",
-        "Region": "South Mindanao",
-        "Sales Code": "WT3TASDC",
-        "Trade Name": "MAY VALDEZ STORE",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "CPS",
-        "Region": "South Mindanao",
-        "Sales Code": "WT3RASCA",
-        "Trade Name": "ANGELROSE CELLPHONE CENTER",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "CPS",
-        "Region": "South Mindanao",
-        "Sales Code": "WT31ASCD",
-        "Trade Name": "SMR PHIL ENTERPRISES",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "CPS",
-        "Region": "South Mindanao",
-        "Sales Code": "WS5CRCPS",
-        "Trade Name": "RL Cellular",
-        "Status": "Included"
-    },
-    {
         "Territory Partner": "N. Phoenix",
         "Class": "CPS",
         "Region": "North Luzon East",
         "Sales Code": "TNEPASCB",
         "Trade Name": "SLR TECHNOLINK",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "N. Phoenix",
-        "Class": "CPS",
-        "Region": "North Luzon East",
-        "Sales Code": "TNELASAB",
-        "Trade Name": "ACERJHOY CABLE SERVICES",
         "Status": "Included"
     },
     {
@@ -27860,14 +27004,6 @@ const salesManCode = [
         "Territory Partner": "Oro graphic",
         "Class": "CPS",
         "Region": "Northwest Mindanao",
-        "Sales Code": "WJIJASSD",
-        "Trade Name": "Jann (authorized dealer/installer)",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Oro graphic",
-        "Class": "CPS",
-        "Region": "Northwest Mindanao",
         "Sales Code": "WJ2NASCE",
         "Trade Name": "Baraucor Store",
         "Status": "Included"
@@ -27964,32 +27100,8 @@ const salesManCode = [
         "Territory Partner": "PDI Negros",
         "Class": "CPS",
         "Region": "Western Visayas",
-        "Sales Code": "VBRXASCC",
-        "Trade Name": "Livskraft Digital Solutions and Services",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Negros",
-        "Class": "CPS",
-        "Region": "Western Visayas",
-        "Sales Code": "VBRUCCPS",
-        "Trade Name": "Sagay CTRJ Hardware and Supplies, Inc",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Negros",
-        "Class": "CPS",
-        "Region": "Western Visayas",
         "Sales Code": "VBRTASAA",
         "Trade Name": "Jojo Appliance & Furniture Display Center",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Negros",
-        "Class": "CPS",
-        "Region": "Western Visayas",
-        "Sales Code": "VBRRASCA",
-        "Trade Name": "Dayan Store",
         "Status": "Included"
     },
     {
@@ -28038,14 +27150,6 @@ const salesManCode = [
         "Region": "Western Visayas",
         "Sales Code": "EXF4PN004522",
         "Trade Name": "MJ CABLE INSTALLATION SERVICES",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Negros",
-        "Class": "CPS",
-        "Region": "Western Visayas",
-        "Sales Code": "CPF4PN000422",
-        "Trade Name": "Del May Cable installation services",
         "Status": "Included"
     },
     {
@@ -28822,14 +27926,6 @@ const salesManCode = [
         "Region": "East Mindanao",
         "Sales Code": "WU8LASCB",
         "Trade Name": "Jul's Marketing",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Uniglobal",
-        "Class": "CPS",
-        "Region": "East Mindanao",
-        "Sales Code": "WU8KESCA",
-        "Trade Name": "CIGNAL NI DAMO",
         "Status": "Included"
     },
     {
@@ -29737,6 +28833,14 @@ const salesManCode = [
         "Status": "Included"
     },
     {
+        "Territory Partner": "Giga Dragon",
+        "Class": "Satlite dealer",
+        "Region": "South Mindanao",
+        "Sales Code": "SDV3M2000723",
+        "Trade Name": "Wise Telecom",
+        "Status": "Included"
+    },
+    {
         "Territory Partner": "Goodlife",
         "Class": "Satlite dealer",
         "Region": "Lower South Luzon",
@@ -29886,14 +28990,6 @@ const salesManCode = [
         "Region": "Central South Luzon",
         "Sales Code": "USMNBSAC",
         "Trade Name": "ALFIO ALFIRES",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "Satlite dealer",
-        "Region": "South Mindanao",
-        "Sales Code": "SDV3M2000723",
-        "Trade Name": "Wise Telecom",
         "Status": "Included"
     },
     {
@@ -30177,14 +29273,6 @@ const salesManCode = [
         "Status": "Included"
     },
     {
-        "Territory Partner": "Vertext 2",
-        "Class": "Satlite dealer",
-        "Region": "North Luzon West",
-        "Sales Code": "SDAXH20001",
-        "Trade Name": "3DM Appliance Repair Shop",
-        "Status": "Included"
-    },
-    {
         "Territory Partner": "Alain Asia South",
         "Class": "TP Outlet",
         "Region": "Central Visayas",
@@ -30353,6 +29441,14 @@ const salesManCode = [
         "Status": "Included"
     },
     {
+        "Territory Partner": "Giga Dragon",
+        "Class": "TP Outlet",
+        "Region": "South Mindanao",
+        "Sales Code": "TSV3M2000623",
+        "Trade Name": "Mega Durian Gensan",
+        "Status": "Included"
+    },
+    {
         "Territory Partner": "Go Sigla LagQuez",
         "Class": "TP Outlet",
         "Region": "Central South Luzon",
@@ -30382,14 +29478,6 @@ const salesManCode = [
         "Region": "Western Visayas",
         "Sales Code": "VDPDBCPS",
         "Trade Name": "Kok's Stitch and Craft - Boracay Branch",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mega Durian 2",
-        "Class": "TP Outlet",
-        "Region": "South Mindanao",
-        "Sales Code": "TSV3M2000623",
-        "Trade Name": "Mega Durian Gensan",
         "Status": "Included"
     },
     {
@@ -30494,22 +29582,6 @@ const salesManCode = [
         "Region": "Western Visayas",
         "Sales Code": "VCSFBXXX",
         "Trade Name": "PDI Dumaguete Robinsons",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Panay East",
-        "Class": "TP Outlet",
-        "Region": "Western Visayas",
-        "Sales Code": "VAQTASCE",
-        "Trade Name": "POS DIGITAL PASSI",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Panay East",
-        "Class": "TP Outlet",
-        "Region": "Western Visayas",
-        "Sales Code": "TSPYK40007",
-        "Trade Name": "POS Digital",
         "Status": "Included"
     },
     {
@@ -30761,19 +29833,51 @@ const salesManCode = [
         "Status": "Included"
     },
     {
-        "Territory Partner": "Wanna Cable",
-        "Class": "Exclusive",
-        "Region": "West Central Luzon",
-        "Sales Code": "TGGPPSCC",
-        "Trade Name": "Cignal Porac",
+        "Territory Partner": "DLM",
+        "Class": "TP Hub",
+        "Region": "Lower South Luzon",
+        "Sales Code": "UMMCJXXX",
+        "Trade Name": "DLM IRIGA CITY",
         "Status": "Not Included"
     },
     {
-        "Territory Partner": "Innovasia Mindoro",
+        "Territory Partner": "Vitalize",
+        "Class": "TP Online Store",
+        "Region": "NCR",
+        "Sales Code": "X4XGAFBO",
+        "Trade Name": "Vita-Lize Distribution Inc Online Store",
+        "Status": "Not Included"
+    },
+    {
+        "Territory Partner": "Greentelcom 2 (Rizal)",
+        "Class": "Agent-Installer",
+        "Region": "NCR",
+        "Sales Code": "XEXXASHG",
+        "Trade Name": "Willart Services",
+        "Status": "Not Included"
+    },
+    {
+        "Territory Partner": "BSL BULACAN",
+        "Class": "Exclusive",
+        "Region": "East Central Luzon",
+        "Sales Code": "TCHVASCD",
+        "Trade Name": "RDG Enterprises",
+        "Status": "Not Included"
+    },
+    {
+        "Territory Partner": "Go Sigla LagQuez",
         "Class": "CPS",
-        "Region": "Upper South Luzon",
-        "Sales Code": "UAJUASAB",
-        "Trade Name": "JR Manliquid Telecom",
+        "Region": "Central South Luzon",
+        "Sales Code": "UJJEASCM",
+        "Trade Name": "AEM TECH Enterprise",
+        "Status": "Not Included"
+    },
+    {
+        "Territory Partner": "Oro graphic",
+        "Class": "CPS",
+        "Region": "Northwest Mindanao",
+        "Sales Code": "WJIJASSD",
+        "Trade Name": "Jann (authorized dealer/installer)",
         "Status": "Not Included"
     }
 ];
