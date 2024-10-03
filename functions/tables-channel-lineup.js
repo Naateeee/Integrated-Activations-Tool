@@ -2249,6 +2249,20 @@ function populateTable(data) {
 // Call the function to populate the table
 populateTable(channels);
 
+const planPrices = {
+    AllThingsEnt: 300,
+    FamTime: 300,
+    SportsAction: 300,
+    PinoyAndAsian: 300,
+    Plan290: 290,
+    Plan520: 520,
+    Plan720: 720,
+    Plan1050: 1050,
+    Plan1350: 1350,
+    Plan1650: 1650,
+    Plan1990: 1990
+};
+
 function formatPlanName(planName) {
     return planName
         .replace(/([a-z])([A-Z])/g, '$1 $2')  // Insert space before each uppercase letter
@@ -2256,11 +2270,31 @@ function formatPlanName(planName) {
         .trim();                               // Trim any leading or trailing spaces
 }
 
+// Function to handle comparison and filtering
 function compareChannels() {
     const firstPlan = document.getElementById("firstFilterSelect").value;
     const secondPlan = document.getElementById("secondFilterSelect").value;
+    const numberOfBoxes = parseInt(document.getElementById("boxSelect").value); // Get the selected number of additional boxes
     const channelTableBody = document.getElementById("channelTableBody");
     channelTableBody.innerHTML = ""; // Clear the previous results
+
+    const firstPlanPriceField = document.getElementById("firstPlanPrice");
+    const secondPlanPriceField = document.getElementById("secondPlanPrice");
+
+    // Set font weight to bold and font size to 16px
+    firstPlanPriceField.style.fontWeight = "bold";
+    firstPlanPriceField.style.fontSize = "16px";
+
+    secondPlanPriceField.style.fontWeight = "bold";
+    secondPlanPriceField.style.fontSize = "16px";
+
+    // Calculate the total price including the box charges
+    const firstPlanTotal = planPrices[firstPlan] ? planPrices[firstPlan] + (numberOfBoxes * 230) : 0;
+    const secondPlanTotal = planPrices[secondPlan] ? planPrices[secondPlan] + (numberOfBoxes * 230) : 0;
+
+    // Set the total prices in the read-only text fields
+    firstPlanPriceField.value = firstPlanTotal ? `₱${firstPlanTotal}` : "N/A";
+    secondPlanPriceField.value = secondPlanTotal ? `₱${secondPlanTotal}` : "N/A";
 
     // Filter channels available in the first plan but not in the second plan
     const firstPlanExclusiveChannels = channels.filter(channel => channel[firstPlan] === "✓" && channel[secondPlan] !== "✓");
@@ -2302,21 +2336,64 @@ function compareChannels() {
     const totalCell = document.createElement("td");
     totalCell.setAttribute("colspan", "3");
     totalCell.textContent = "Total Channels";
-    totalCell.style.fontWeight = "bolder";
+    totalCell.style.fontWeight = "bolder"; // Make the text bold
     totalCell.style.textAlign = "right"; // Align text to the right
+    totalCell.style.fontSize = "16px"; // Set the font size
     totalRow.appendChild(totalCell);
 
     const countCell = document.createElement("td");
     countCell.textContent = combinedResults.length;
-    countCell.style.fontWeight = "bolder";
+    countCell.style.fontWeight = "bolder"; // Make the text bold
+    countCell.style.fontSize = "16px"; // Set the font size
     totalRow.appendChild(countCell);
 
     channelTableBody.appendChild(totalRow);
+
+    // Calculate and display the plan price difference
+    if (planPrices[firstPlan] && planPrices[secondPlan]) {
+        const priceDifference = planPrices[secondPlan] - planPrices[firstPlan];
+
+        const priceRow = document.createElement("tr");
+        const priceCell = document.createElement("td");
+        priceCell.setAttribute("colspan", "3");
+        priceCell.textContent = "Additional Fee";
+        priceCell.style.fontWeight = "bolder"; // Make the text bold
+        priceCell.style.textAlign = "right"; // Align text to the right
+        priceCell.style.fontSize = "16px"; // Set the font size
+        priceRow.appendChild(priceCell);
+
+        const differenceCell = document.createElement("td");
+        differenceCell.textContent = `₱${priceDifference}`;
+        differenceCell.style.fontWeight = "bolder"; // Make the text bold
+        differenceCell.style.color = "red"; // Set the text color to red
+        differenceCell.style.fontSize = "16px"; // Set the font size
+        priceRow.appendChild(differenceCell);
+
+        channelTableBody.appendChild(priceRow);
+    }
+}
+
+// Function to calculate the total price for the first plan
+function calculateFirstPlanTotalPrice(firstPlan, numberOfBoxes) {
+    let totalPrice = planPrices[firstPlan] || 0;
+
+    if (firstPlan === "Plan1990") {
+        if (numberOfBoxes > 2) {
+            totalPrice += (numberOfBoxes - 2) * 230; // Charge only for the third and fourth boxes
+        }
+    } else {
+        totalPrice += numberOfBoxes * 230; // Charge for all boxes
+    }
+
+    return totalPrice;
 }
 
 function clearFilter() {
     const channelTableBody = document.getElementById("channelTableBody");
     channelTableBody.innerHTML = ""; // Clear the table content
-    document.getElementById("firstFilterSelect").value = "Choose...";
-    document.getElementById("secondFilterSelect").value = "Choose...";
+    document.getElementById("firstFilterSelect").value = 0;
+    document.getElementById("secondFilterSelect").value = 0;
+    document.getElementById("firstPlanPrice").value = "";
+    document.getElementById("secondPlanPrice").value = "";
+    document.getElementById("boxSelect").value = 0;
 }

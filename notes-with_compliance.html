@@ -191,22 +191,6 @@
                                                         <input class="form-control text-dark" id="reason" oninput="withCompliance()">
                                                     </div>
                                                 </div>
-                                                <br>
-
-                                                <h4 class="header-title mb-3">Compliance details</h4>
-                                                <div class="row mb-2">
-                                                    <label class="col-4 col-form-label text-md-end text-danger">Email Address:</label>
-                                                    <div class="col-8">
-                                                        <input class="form-control text-dark" id="email" oninput="withCompliance()" onblur="validateEmail()">
-                                                        <small id="emailMessage" class="text-danger"></small>
-                                                    </div>
-                                                </div>
-                                                <div class="row mb-2">
-                                                    <label class="col-4 col-form-label text-md-end text-danger">Compliance Issue:</label>
-                                                    <div class="col-8">
-                                                        <input class="form-control text-dark" id="issue" oninput="withCompliance()">
-                                                    </div>
-                                                </div>
                                             </form>
                                         </div> <!-- end col -->
 
@@ -214,7 +198,7 @@
                                             <h4 class="header-title mb-3 text-dark">Notes Result</h4>
                                             <form>
                                                 <div class="mb-2">
-                                                    <textarea style="height: 560px; color: black;" class="form-control" id="notes" readonly></textarea>
+                                                    <textarea style="height: 400px; color: black;" class="form-control" id="notes" readonly></textarea>
                                                 </div>
                                             </form>
                                         </div>
@@ -235,14 +219,13 @@
                                                             <div class="dropdown-menu border-success">
                                                                 <a class="dropdown-item text-success" role="button" id="calloutButton" onclick="copyCallOut()"><i class="uil-copy"></i>&nbsp;call out</a>
                                                                 <a class="dropdown-item text-success" role="button" id="pendingButton" onclick="copyPending()"><i class="uil-copy"></i>&nbsp;pending</a>
-                                                                <a class="dropdown-item text-success" role="button" id="emailButton" onclick="copyEmail()"><i class="uil-copy"></i>&nbsp;email sent</a>
                                                             </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-
+                                        
                                         <script type="text/javascript">
                                             function checkNotesValue() {
                                                 var notesValue = document.getElementById("notes").value;
@@ -264,24 +247,6 @@
                                             checkNotesValue();
                                             document.getElementById("notes").addEventListener("input", checkNotesValue);
 
-                                            function validateEmail() {
-                                                var input = document.getElementById("email");
-                                                var emailMessage = document.getElementById("emailMessage");
-
-                                                var inputValue = input.value.trim();
-                                                var emailPattern = /\S+@\S+\.\S+/;
-
-                                                if(inputValue === '') {
-                                                    emailMessage.textContent = "";
-                                                }
-                                                else if(inputValue.match(emailPattern)) {
-                                                    emailMessage.textContent = "";
-                                                }
-                                                else {
-                                                    emailMessage.textContent = "Please enter a valid email address.";
-                                                }
-                                            }
-
                                             function withCompliance() {
                                                 var phone = document.getElementById("phone").value;
                                                 var call = document.getElementById("call").value;
@@ -290,40 +255,20 @@
                                                 var ticket = document.getElementById("ticket").value;
                                                 var pending = document.getElementById("pending").value;
                                                 var reason = document.getElementById("reason").value;
-                                                var email = document.getElementById("email").value;
-                                                var issue = document.getElementById("issue").value;
                                                 var notes = document.getElementById("notes");
 
-                                                if(phone === '' && call === '' && items === '' && assignment === '' && ticket === '' && pending === '' && reason === '' && email === '' && issue === ''){
+                                                if(phone === '' && call === '' && items === '' && assignment === '' && ticket === '' && pending === '' && reason === '') {
                                                     notes.value = "";
                                                 }
-                                                else if(phone === '' && call === '' && items === '' && assignment === '' && ticket === ''){
-                                                    if(email === '' && issue === ''){
-                                                        notes.value = "PENDING STATUS: " + pending + "\nCOMPLIANCE REASON: " + reason;
-                                                    }
-                                                    else if(pending === '' && reason === ''){
-                                                        notes.value = "EMAIL SENT TO: " + email + "\nCOMPLIANCE ISSUE: " + issue;
-                                                    }
-                                                    else{
-                                                        notes.value = "PENDING STATUS: " + pending + "\nCOMPLIANCE REASON: " + reason +
-                                                                    "\n\nEMAIL SENT TO: " + email + "\nCOMPLIANCE ISSUE: " + issue;
-                                                    }
+                                                else if(phone === '' && call === '' && items === '' && assignment === '' && ticket === '') {
+                                                    notes.value = "PENDING STATUS: "+pending+"\nCOMPLIANCE REASON: "+reason;
                                                 }
-                                                else if(pending === '' && reason === '' && email === '' && issue === ''){
+                                                else if(pending === '' && reason === '') {
                                                     notes.value = "PHONE VERIFICATION: " + phone + "\n1ST PARTY CALL OUT: " + call + "\nITEMS DISCUSSED: " + items + "\nTICKET ASSIGNMENT: " + assignment + "\nTICKET NUMBER: " + ticket;
                                                 }
-                                                else if(email === '' && issue === ''){
+                                                else {
                                                     notes.value = "PHONE VERIFICATION: " + phone + "\n1ST PARTY CALL OUT: " + call + "\nITEMS DISCUSSED: " + items + "\nTICKET ASSIGNMENT: " + assignment + "\nTICKET NUMBER: " + ticket +
-                                                                    "\n\nPENDING STATUS: " + pending + "\nCOMPLIANCE REASON: " + reason;
-                                                }
-                                                else if(pending === '' && reason === ''){
-                                                    notes.value = "PHONE VERIFICATION: " + phone + "\n1ST PARTY CALL OUT: " + call + "\nITEMS DISCUSSED: " + items + "\nTICKET ASSIGNMENT: " + assignment + "\nTICKET NUMBER: " + ticket +
-                                                                    "\n\nEMAIL SENT TO: " + email + "\nCOMPLIANCE ISSUE: " + issue;
-                                                }
-                                                else{
-                                                    notes.value = "PHONE VERIFICATION: " + phone + "\n1ST PARTY CALL OUT: " + call + "\nITEMS DISCUSSED: " + items + "\nTICKET ASSIGNMENT: " + assignment + "\nTICKET NUMBER: " + ticket +
-                                                                    "\n\nPENDING STATUS: "+pending+"\nCOMPLIANCE REASON: "+reason+
-                                                                    "\n\nEMAIL SENT TO: " + email + "\nCOMPLIANCE ISSUE: " + issue;
+                                                                    "\n\nPENDING STATUS: "+pending+"\nCOMPLIANCE REASON: "+reason;
                                                 }
 
                                                 notes.style.fontFamily = 'Courier New, Courier, monospace';
@@ -331,7 +276,6 @@
 
                                                 checkNotesValue();
                                             }
-
                                             function clearNotes() {
                                                 document.getElementById("phone").value = '';
                                                 document.getElementById("call").value = '';
@@ -340,9 +284,6 @@
                                                 document.getElementById("ticket").value = '';
                                                 document.getElementById("pending").value = '';
                                                 document.getElementById("reason").value = '';
-                                                document.getElementById("email").value = '';
-                                                document.getElementById("emailMessage").textContent = '';
-                                                document.getElementById("issue").value = '';
                                                 document.getElementById("notes").value = '';
 
                                                 checkNotesValue();
@@ -394,32 +335,6 @@
                                                 }
                                                 else {
                                                     var copiedText = "PENDING STATUS: " + pending + "\nCOMPLIANCE REASON: " + reason;
-                                                
-                                                    navigator.clipboard.writeText(copiedText)
-                                                    .then(() => {
-                                                        var startPos = copyText.indexOf(copiedText);
-                                                        var endPos = startPos + copiedText.length;
-                                                        document.getElementById("notes").focus();
-                                                        document.getElementById("notes").setSelectionRange(startPos, endPos);
-
-                                                        alert("Text copied successfully! \n\n"+copiedText);
-                                                    })
-                                                    .catch(err => {
-                                                        console.error('Failed to copy: ', err);
-                                                    });
-                                                }
-                                            }
-
-                                            function copyEmail() {
-                                                var email = document.getElementById("email").value;
-                                                var issue = document.getElementById("issue").value;
-                                                var copyText = document.getElementById("notes").value;
-
-                                                if(email === '' && issue === '') {
-                                                    alert("There's no text to copy.");
-                                                }
-                                                else {
-                                                    var copiedText = "EMAIL SENT TO: " + email + "\nCOMPLIANCE ISSUE: " + issue;
                                                 
                                                     navigator.clipboard.writeText(copiedText)
                                                     .then(() => {

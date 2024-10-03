@@ -129,30 +129,6 @@ const salesManCode = [
         "Status": "Included"
     },
     {
-        "Territory Partner": "PDI Negros",
-        "Class": "MRK",
-        "Region": "Western Visayas",
-        "Sales Code": "MRRAAMRK",
-        "Trade Name": "POS Appliance",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Negros Or",
-        "Class": "MRK",
-        "Region": "Western Visayas",
-        "Sales Code": "MRSFAMRK",
-        "Trade Name": "POS Appliance Dumaguete",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Negros Or",
-        "Class": "MRK",
-        "Region": "Western Visayas",
-        "Sales Code": "MRSBAMRK",
-        "Trade Name": "POS Appliance Bais City",
-        "Status": "Included"
-    },
-    {
         "Territory Partner": "8 telcom 2",
         "Class": "TP Hub",
         "Region": "East Mindanao",
@@ -356,6 +332,14 @@ const salesManCode = [
         "Territory Partner": "DLM",
         "Class": "TP Hub",
         "Region": "Lower South Luzon",
+        "Sales Code": "UMMCJXXX",
+        "Trade Name": "DLM IRIGA CITY",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "DLM",
+        "Class": "TP Hub",
+        "Region": "Lower South Luzon",
         "Sales Code": "UMMCHXXX",
         "Trade Name": "DLM GOA",
         "Status": "Included"
@@ -516,8 +500,8 @@ const salesManCode = [
         "Territory Partner": "Koks",
         "Class": "TP Hub",
         "Region": "Western Visayas",
-        "Sales Code": "VDPXAXXX",
-        "Trade Name": "KOKS ROXAS",
+        "Sales Code": "ADPC5D01",
+        "Trade Name": "KOKS KALIBO",
         "Status": "Included"
     },
     {
@@ -532,16 +516,8 @@ const salesManCode = [
         "Territory Partner": "Koks",
         "Class": "TP Hub",
         "Region": "Western Visayas",
-        "Sales Code": "THKSE40004",
-        "Trade Name": "KOKS Satlite Hub Sigma",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Koks",
-        "Class": "TP Hub",
-        "Region": "Western Visayas",
-        "Sales Code": "ADPC5D01",
-        "Trade Name": "KOKS KALIBO",
+        "Sales Code": "VDPXAXXX",
+        "Trade Name": "KOKS ROXAS",
         "Status": "Included"
     },
     {
@@ -652,30 +628,6 @@ const salesManCode = [
         "Territory Partner": "PDI Panay West",
         "Class": "TP Hub",
         "Region": "Western Visayas",
-        "Sales Code": "VAPMAXXX",
-        "Trade Name": "PDI PANAY SIBALOM",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Panay West",
-        "Class": "TP Hub",
-        "Region": "Western Visayas",
-        "Sales Code": "VAPGAXXX",
-        "Trade Name": "PDI PANAY BUGASONG",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Panay West",
-        "Class": "TP Hub",
-        "Region": "Western Visayas",
-        "Sales Code": "THPYI40005",
-        "Trade Name": "Satlite Hub",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Panay West",
-        "Class": "TP Hub",
-        "Region": "Western Visayas",
         "Sales Code": "THI4PY000622",
         "Trade Name": "PDI Cignal Hub",
         "Status": "Included"
@@ -694,14 +646,6 @@ const salesManCode = [
         "Region": "Central Visayas",
         "Sales Code": "VLULEXXX",
         "Trade Name": "SAVE AND EARN TAGBILARAN",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Save and Earn",
-        "Class": "TP Hub",
-        "Region": "Central Visayas",
-        "Sales Code": "THSNI10017",
-        "Trade Name": "SAVE N EARN JLU",
         "Status": "Included"
     },
     {
@@ -731,17 +675,9 @@ const salesManCode = [
     {
         "Territory Partner": "TTANS",
         "Class": "TP Hub",
-        "Region": "Upper South Luzon",
+        "Region": "Central South Luzon",
         "Sales Code": "DUK7AXXX",
         "Trade Name": "TTAN ODIONGAN",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Uniglobal",
-        "Class": "TP Hub",
-        "Region": "East Mindanao",
-        "Sales Code": "WU8PAXXX",
-        "Trade Name": "UNIGLOBAL MATI",
         "Status": "Included"
     },
     {
@@ -756,8 +692,8 @@ const salesManCode = [
         "Territory Partner": "Uniglobal",
         "Class": "TP Hub",
         "Region": "East Mindanao",
-        "Sales Code": "WU8FAXXX",
-        "Trade Name": "UNIGLOBAL PANABO",
+        "Sales Code": "WU8PAXXX",
+        "Trade Name": "UNIGLOBAL MATI",
         "Status": "Included"
     },
     {
@@ -766,6 +702,14 @@ const salesManCode = [
         "Region": "East Mindanao",
         "Sales Code": "WU64AXXX",
         "Trade Name": "UNIGLOBAL NABUNTURAN",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Uniglobal",
+        "Class": "TP Hub",
+        "Region": "East Mindanao",
+        "Sales Code": "WU8FAXXX",
+        "Trade Name": "UNIGLOBAL PANABO",
         "Status": "Included"
     },
     {
@@ -1131,7 +1075,7 @@ const salesManCode = [
     {
         "Territory Partner": "TTANS",
         "Class": "TP Online Store",
-        "Region": "Upper South Luzon",
+        "Region": "Central South Luzon",
         "Sales Code": "DUK7AFBO",
         "Trade Name": "TTAN ONLINE",
         "Status": "Included"
@@ -1161,6 +1105,14 @@ const salesManCode = [
         "Status": "Included"
     },
     {
+        "Territory Partner": "Vitalize",
+        "Class": "TP Online Store",
+        "Region": "NCR",
+        "Sales Code": "X4XGAFBO",
+        "Trade Name": "Vita-Lize Distribution Inc Online Store",
+        "Status": "Included"
+    },
+    {
         "Territory Partner": "Wanna Cable",
         "Class": "TP Online Store",
         "Region": "West Central Luzon",
@@ -1174,102 +1126,6 @@ const salesManCode = [
         "Region": "NCR",
         "Sales Code": "XWXQAFBO",
         "Trade Name": "WEECENT ONLINE",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mediascape",
-        "Class": "Customer Experience Center",
-        "Region": "Internal",
-        "Sales Code": "MSXDA002",
-        "Trade Name": "Ethel Arnaldo",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mediascape",
-        "Class": "Customer Experience Center",
-        "Region": "Internal",
-        "Sales Code": "MSXDA003",
-        "Trade Name": "Katherine Panay",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mediascape",
-        "Class": "Customer Experience Center",
-        "Region": "Internal",
-        "Sales Code": "MSXDA004",
-        "Trade Name": "Aquino, Chiclet",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mediascape",
-        "Class": "Customer Experience Center",
-        "Region": "Internal",
-        "Sales Code": "MSXDA005",
-        "Trade Name": "Ay-ay, Joseph",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mediascape",
-        "Class": "Customer Experience Center",
-        "Region": "Internal",
-        "Sales Code": "MSXDA008",
-        "Trade Name": "Manata, Paul Jordan",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mediascape",
-        "Class": "Customer Experience Center",
-        "Region": "Internal",
-        "Sales Code": "MSXDA010",
-        "Trade Name": "Quilates, Michael",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mediascape",
-        "Class": "Customer Experience Center",
-        "Region": "Internal",
-        "Sales Code": "MSXDA011",
-        "Trade Name": "Hermogino, Leonila",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mediascape",
-        "Class": "Customer Experience Center",
-        "Region": "Internal",
-        "Sales Code": "MSXDA001",
-        "Trade Name": "Debbie Dultra",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mediascape",
-        "Class": "Customer Experience Center",
-        "Region": "Internal",
-        "Sales Code": "MSXDA007",
-        "Trade Name": "Enriquez, Gerome",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mediascape",
-        "Class": "Customer Experience Center",
-        "Region": "Internal",
-        "Sales Code": "MSXDA000",
-        "Trade Name": "Roxanne Lee",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mediascape",
-        "Class": "Customer Experience Center",
-        "Region": "Internal",
-        "Sales Code": "MSXDA006",
-        "Trade Name": "Babejes, Michael",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Mediascape",
-        "Class": "Customer Experience Center",
-        "Region": "Internal",
-        "Sales Code": "MSXDA009",
-        "Trade Name": "Pabillano, Marianne",
         "Status": "Included"
     },
     {
@@ -9769,718 +9625,6 @@ const salesManCode = [
         "Status": "Included"
     },
     {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIAT002",
-        "Trade Name": "Zeus Escalante",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIA03",
-        "Trade Name": "Jossica Tia Castro",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIA05",
-        "Trade Name": "Hannah Villanueva",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIA06",
-        "Trade Name": "Eleanor  L. Enad",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIA07",
-        "Trade Name": "Cyrill Krizza Renoria",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIA08",
-        "Trade Name": "Roxanne Tan",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIA09",
-        "Trade Name": "Aiza  Rebuta",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIA10",
-        "Trade Name": "Mae R. Frncisco",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIA11",
-        "Trade Name": "Jan Filip Alicias",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIA12",
-        "Trade Name": "Lilian Pornela",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIA13",
-        "Trade Name": "Mark Manalo",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIA14",
-        "Trade Name": "Maryel B. Maata",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIA15",
-        "Trade Name": "Janeth Alvarez",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIA16",
-        "Trade Name": "Wendylenne Heromo",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIA17",
-        "Trade Name": "Manilyn Braga",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIA18",
-        "Trade Name": "Manilyn Braga",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIA19",
-        "Trade Name": "Rachel Lou Ducut",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIALE",
-        "Trade Name": "Lopez, Erruel",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIAPM",
-        "Trade Name": "Primo, Mercedelle",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIATB",
-        "Trade Name": "Tolentino, Bianca",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIAMM",
-        "Trade Name": "Marquez, Maxinne Rhowie",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIASK",
-        "Trade Name": "Sobremonte, Kenneth",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIAFD",
-        "Trade Name": "Fernando, Dominic",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIALK",
-        "Trade Name": "Ledda, Kriztine Ann",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIAHA",
-        "Trade Name": "Heyres, Adrianne",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIAJP",
-        "Trade Name": "Aniban, John Paul",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIADE",
-        "Trade Name": "De La Pena, Erince Karl",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIABS",
-        "Trade Name": "Batol, Shanica",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIARI",
-        "Trade Name": "Rosales, Ina Marie",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIAPC",
-        "Trade Name": "Paderes, Carmela",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIASJ",
-        "Trade Name": "Sobremisana, Jefrel",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIAGJ",
-        "Trade Name": "Galera, Jenny",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIAPR",
-        "Trade Name": "Pasco, Roxanne Gean",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIASR",
-        "Trade Name": "Simon, Roselyn",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIAMO",
-        "Trade Name": "Morelos, Marites",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIARM",
-        "Trade Name": "Roman, Maricel",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIATM",
-        "Trade Name": "Torres, Merly",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIASM",
-        "Trade Name": "Sarah Rose Montecalvo ",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIAJA",
-        "Trade Name": "Joshua Abarquez",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIAMB",
-        "Trade Name": "Mary Jane Beduya",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIARA",
-        "Trade Name": "Rainxia Madriaga",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIATJ",
-        "Trade Name": "Tabar, Jessica",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIAGR",
-        "Trade Name": "Gumiran, Rose Ann",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIASC",
-        "Trade Name": "Sunga, Maria Cereza",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIASF",
-        "Trade Name": "Sobremisana, Jefrel",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIABT",
-        "Trade Name": "Tolentino, Bianca",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIABG",
-        "Trade Name": "Mendenilla, Brava Gladys",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIAKC",
-        "Trade Name": "Inayat, Kyle Christian",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIAFJ",
-        "Trade Name": "Factor, Jaycel",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIAJC",
-        "Trade Name": "Dela Cruz, John Chester",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIATC",
-        "Trade Name": "Tahuson, Carlo",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIAJR",
-        "Trade Name": "Javier, Adrian",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIAML",
-        "Trade Name": "Martinez, Leonida",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIARK",
-        "Trade Name": "Roldan, Kyla",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIABF",
-        "Trade Name": "Bassar, Fairosah",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIAEL",
-        "Trade Name": "Lopera, Edsil",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIABM",
-        "Trade Name": "Macapagal, Benedict",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIAJV",
-        "Trade Name": "Sumpay, John Vincent",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIAMA",
-        "Trade Name": "Mendoza, Avegail",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIAME",
-        "Trade Name": "Malibiran, Elijah Cris",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIAFM",
-        "Trade Name": "Ferrer, Moira Kelly",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIADM",
-        "Trade Name": "Domagtoy, Marion Anthony",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIABN",
-        "Trade Name": "Bongcarawan, Nashevah",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIAPJ",
-        "Trade Name": "Plasencia, Julie Mae",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIAMR",
-        "Trade Name": "Repuya, Meljon",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIAVM",
-        "Trade Name": "Villon, Ma. Angelica",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIAJS",
-        "Trade Name": "Sabico, Joy",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIAJG",
-        "Trade Name": "Garcia, Joyce Anne",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIALR",
-        "Trade Name": "Mojeco, Lovely Rose",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIANA",
-        "Trade Name": "Nepomuceno, Ashley",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIAFA",
-        "Trade Name": "Fresco, Azl Kurt",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIABT",
-        "Trade Name": "Bautista, Trisha Mae",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIAMZ",
-        "Trade Name": "Mandap, Mhaye-zel",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIAMG",
-        "Trade Name": "Arnosa, Mary Grace",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIAAN",
-        "Trade Name": "Alexander Nallas",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIAJT",
-        "Trade Name": "Justine Eroll Tolentino",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIAMP",
-        "Trade Name": "Mary Joyce Parado",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIAQA",
-        "Trade Name": "Queenie Irish Aguilar",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIAMS",
-        "Trade Name": "Merasol Pontines",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIATA",
-        "Trade Name": "Trisha Ann Mae Aquino",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIACG",
-        "Trade Name": "Christian king Gaoat",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIAJN",
-        "Trade Name": "Joshua Nicolas",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIABR",
-        "Trade Name": "Bernadette Ramos",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIASB",
-        "Trade Name": "Sean Wilbert Bermejo",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIALB",
-        "Trade Name": "Leo Labasbas",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIAJE",
-        "Trade Name": "Joshua Estefani",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIAAG",
-        "Trade Name": "Angelyn Elloraba",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIAIC",
-        "Trade Name": "Irish Colleen Rosaceña",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Multi - Channel Sales",
-        "Class": "Multi - Channel Sales",
-        "Region": "Multi - Channel Sales",
-        "Sales Code": "CTSPIACC",
-        "Trade Name": "Catherine Collado",
-        "Status": "Included"
-    },
-    {
         "Territory Partner": "8 telcom",
         "Class": "Agent-Installer",
         "Region": "South Mindanao",
@@ -10590,6 +9734,30 @@ const salesManCode = [
         "Region": "East Mindanao",
         "Sales Code": "AIG3M1001723",
         "Trade Name": "Richard Dura",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "8 Telcom 2",
+        "Class": "Agent-Installer",
+        "Region": "East Mindanao",
+        "Sales Code": "AIG3M1001823",
+        "Trade Name": "SPMPC",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "8 Telcom 2",
+        "Class": "Agent-Installer",
+        "Region": "East Mindanao",
+        "Sales Code": "AIG3M1001923",
+        "Trade Name": "Times Beach Tv Repair Shop",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "8 Telcom 2",
+        "Class": "Agent-Installer",
+        "Region": "East Mindanao",
+        "Sales Code": "AIG3M1002023",
+        "Trade Name": "Amo Store",
         "Status": "Included"
     },
     {
@@ -11153,6 +10321,14 @@ const salesManCode = [
         "Status": "Included"
     },
     {
+        "Territory Partner": "BBCI",
+        "Class": "Agent-Installer",
+        "Region": "South Mindanao",
+        "Sales Code": "AII3BI002523",
+        "Trade Name": "C & D Store",
+        "Status": "Included"
+    },
+    {
         "Territory Partner": "BSL",
         "Class": "Agent-Installer",
         "Region": "NCR",
@@ -11569,6 +10745,22 @@ const salesManCode = [
         "Status": "Included"
     },
     {
+        "Territory Partner": "BSL BULACAN",
+        "Class": "Agent-Installer",
+        "Region": "East Central",
+        "Sales Code": "AIV1TE001623",
+        "Trade Name": "AR Cellphone/Laptop repair and accessories",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "BSL BULACAN",
+        "Class": "Agent-Installer",
+        "Region": "East Central",
+        "Sales Code": "AIV1TE001723",
+        "Trade Name": "Aldrien Francisco",
+        "Status": "Included"
+    },
+    {
         "Territory Partner": "Cayanan",
         "Class": "Agent-Installer",
         "Region": "West Central Luzon",
@@ -11977,6 +11169,14 @@ const salesManCode = [
         "Status": "Included"
     },
     {
+        "Territory Partner": "Cellcom Southern East",
+        "Class": "Agent-Installer",
+        "Region": "East Visayas",
+        "Sales Code": "AIC1CS003623",
+        "Trade Name": "Elmer Barotel",
+        "Status": "Included"
+    },
+    {
         "Territory Partner": "CRFT",
         "Class": "Agent-Installer",
         "Region": "Central Visayas",
@@ -11990,22 +11190,6 @@ const salesManCode = [
         "Region": "Central Visayas",
         "Sales Code": "XPL9MSCE",
         "Trade Name": "Mae Shopify",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "CRFT",
-        "Class": "Agent-Installer",
-        "Region": "Central Visayas",
-        "Sales Code": "XPL9ASCK",
-        "Trade Name": "Overcomers Appliance Marketing",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "CRFT",
-        "Class": "Agent-Installer",
-        "Region": "Central Visayas",
-        "Sales Code": "XPL5ASCD",
-        "Trade Name": "TECHNOTWIN ELECTRONICS REPAIR SHOP AND MERCHANDISE",
         "Status": "Included"
     },
     {
@@ -12070,14 +11254,6 @@ const salesManCode = [
         "Region": "Central Visayas",
         "Sales Code": "AIC4CT002623",
         "Trade Name": "EJ Store",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "CRFT",
-        "Class": "Agent-Installer",
-        "Region": "Central Visayas",
-        "Sales Code": "AIC4CT001622",
-        "Trade Name": "Saima Store",
         "Status": "Included"
     },
     {
@@ -12646,6 +11822,22 @@ const salesManCode = [
         "Region": "East Mindanao",
         "Sales Code": "AIT2D1000723",
         "Trade Name": "Oclarit Store",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Digilife",
+        "Class": "Agent-Installer",
+        "Region": "East Mindanao",
+        "Sales Code": "AIV2D1000823",
+        "Trade Name": "Isagani Estipona",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Digilife",
+        "Class": "Agent-Installer",
+        "Region": "East Mindanao",
+        "Sales Code": "AIS2D1000523",
+        "Trade Name": "Rodenne Jay S. Comcom",
         "Status": "Included"
     },
     {
@@ -13684,14 +12876,6 @@ const salesManCode = [
         "Territory Partner": "Fixcells",
         "Class": "Agent-Installer",
         "Region": "East Central Luzon",
-        "Sales Code": "TKCZASKM",
-        "Trade Name": "Lucero Satellite Services",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Fixcells",
-        "Class": "Agent-Installer",
-        "Region": "East Central Luzon",
         "Sales Code": "TKCSASCG",
         "Trade Name": "Maxcell Telecom",
         "Status": "Included"
@@ -13836,14 +13020,6 @@ const salesManCode = [
         "Territory Partner": "Fixcells",
         "Class": "Agent-Installer",
         "Region": "East Central Luzon",
-        "Sales Code": "AIW1FS000623",
-        "Trade Name": "VRJ ELECTRONICS SHOP (Aurora Branch)",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Fixcells",
-        "Class": "Agent-Installer",
-        "Region": "East Central Luzon",
         "Sales Code": "AIW1FS000523",
         "Trade Name": "Eva Fashion Boutique",
         "Status": "Included"
@@ -13956,14 +13132,6 @@ const salesManCode = [
         "Territory Partner": "Fixcells",
         "Class": "Agent-Installer",
         "Region": "East Central Luzon",
-        "Sales Code": "AIX1FS000523",
-        "Trade Name": "AJ Cignal & Satlite",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Fixcells",
-        "Class": "Agent-Installer",
-        "Region": "East Central Luzon",
         "Sales Code": "AIX1FS000623",
         "Trade Name": "HAJ SARI-SARI STORE",
         "Status": "Included"
@@ -13990,6 +13158,14 @@ const salesManCode = [
         "Region": "East Central Luzon",
         "Sales Code": "AIX1FS001023",
         "Trade Name": "Rusdel Sari-Sari Store",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Fixcells",
+        "Class": "Agent-Installer",
+        "Region": "East Central",
+        "Sales Code": "AIW1FS000723",
+        "Trade Name": "JPYU General Merchandise",
         "Status": "Included"
     },
     {
@@ -14284,24 +13460,8 @@ const salesManCode = [
         "Territory Partner": "Giga Dragon",
         "Class": "Agent-Installer",
         "Region": "South Mindanao",
-        "Sales Code": "WT4NSSDJ",
-        "Trade Name": "JHS Elctronics Shop",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Giga Dragon",
-        "Class": "Agent-Installer",
-        "Region": "South Mindanao",
-        "Sales Code": "WT49ASCF",
-        "Trade Name": "DOGUIL GENERAL MERCHANDISE",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Giga Dragon",
-        "Class": "Agent-Installer",
-        "Region": "South Mindanao",
-        "Sales Code": "WT3XASSC",
-        "Trade Name": "JIMMY ALAMADA",
+        "Sales Code": "AIW3M2000623",
+        "Trade Name": "AJ's Marketing",
         "Status": "Included"
     },
     {
@@ -14316,8 +13476,8 @@ const salesManCode = [
         "Territory Partner": "Giga Dragon",
         "Class": "Agent-Installer",
         "Region": "South Mindanao",
-        "Sales Code": "WT3UASUV",
-        "Trade Name": "Libby Taangcawan",
+        "Sales Code": "WT49ASCF",
+        "Trade Name": "DOGUIL GENERAL MERCHANDISE",
         "Status": "Included"
     },
     {
@@ -14332,16 +13492,24 @@ const salesManCode = [
         "Territory Partner": "Giga Dragon",
         "Class": "Agent-Installer",
         "Region": "South Mindanao",
-        "Sales Code": "WT3UASUS",
-        "Trade Name": "Randy Dumasig",
+        "Sales Code": "AIM2U30006",
+        "Trade Name": "Ian Garvida",
         "Status": "Included"
     },
     {
         "Territory Partner": "Giga Dragon",
         "Class": "Agent-Installer",
         "Region": "South Mindanao",
-        "Sales Code": "WT3UASUP",
-        "Trade Name": "Reynaldo Cadiz",
+        "Sales Code": "WT4NSSDJ",
+        "Trade Name": "JHS Elctronics Shop",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "Agent-Installer",
+        "Region": "South Mindanao",
+        "Sales Code": "WT3XASSC",
+        "Trade Name": "JIMMY ALAMADA",
         "Status": "Included"
     },
     {
@@ -14356,14 +13524,6 @@ const salesManCode = [
         "Territory Partner": "Giga Dragon",
         "Class": "Agent-Installer",
         "Region": "South Mindanao",
-        "Sales Code": "PS3UASUO",
-        "Trade Name": "Shanszion Loading Station",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Giga Dragon",
-        "Class": "Agent-Installer",
-        "Region": "South Mindanao",
         "Sales Code": "EXW3M2000423",
         "Trade Name": "JPC Laptop Parts and Services",
         "Status": "Included"
@@ -14372,8 +13532,16 @@ const salesManCode = [
         "Territory Partner": "Giga Dragon",
         "Class": "Agent-Installer",
         "Region": "South Mindanao",
-        "Sales Code": "AIW3M2000623",
-        "Trade Name": "AJ's Marketing",
+        "Sales Code": "WT3UASUV",
+        "Trade Name": "Libby Taangcawan",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "Agent-Installer",
+        "Region": "South Mindanao",
+        "Sales Code": "WT3UASUS",
+        "Trade Name": "Randy Dumasig",
         "Status": "Included"
     },
     {
@@ -14388,8 +13556,8 @@ const salesManCode = [
         "Territory Partner": "Giga Dragon",
         "Class": "Agent-Installer",
         "Region": "South Mindanao",
-        "Sales Code": "AIM2U30006",
-        "Trade Name": "Ian Garvida",
+        "Sales Code": "WT3UASUP",
+        "Trade Name": "Reynaldo Cadiz",
         "Status": "Included"
     },
     {
@@ -14398,6 +13566,14 @@ const salesManCode = [
         "Region": "South Mindanao",
         "Sales Code": "AIV3M2000823",
         "Trade Name": "Santander Satellite TV Installer",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "Agent-Installer",
+        "Region": "South Mindanao",
+        "Sales Code": "PS3UASUO",
+        "Trade Name": "Shanszion Loading Station",
         "Status": "Included"
     },
     {
@@ -14756,8 +13932,8 @@ const salesManCode = [
         "Territory Partner": "Greentelcom 2 (Rizal)",
         "Class": "Agent-Installer",
         "Region": "NCR",
-        "Sales Code": "XEXXASHJ",
-        "Trade Name": "REF CCTV Trading",
+        "Sales Code": "XEXXASHG",
+        "Trade Name": "Willart Services",
         "Status": "Included"
     },
     {
@@ -14788,14 +13964,6 @@ const salesManCode = [
         "Territory Partner": "Greentelcom 2 (Rizal)",
         "Class": "Agent-Installer",
         "Region": "NCR",
-        "Sales Code": "XEXXASCK",
-        "Trade Name": "TCE Enterprise ",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Greentelcom 2 (Rizal)",
-        "Class": "Agent-Installer",
-        "Region": "NCR",
         "Sales Code": "XEXQAWDL",
         "Trade Name": "Jocelyn Cortez",
         "Status": "Included"
@@ -14806,78 +13974,6 @@ const salesManCode = [
         "Region": "NCR",
         "Sales Code": "XEX9ASCA",
         "Trade Name": "3J’s Enterprises ",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Greentelcom 2 (Rizal)",
-        "Class": "Agent-Installer",
-        "Region": "NCR",
-        "Sales Code": "XEX5ASCM",
-        "Trade Name": "Edlyn Loyola satellite sales services",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Greentelcom 2 (Rizal)",
-        "Class": "Agent-Installer",
-        "Region": "NCR",
-        "Sales Code": "XEX3ASAA",
-        "Trade Name": "Esmyle Services",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Greentelcom 2 (Rizal)",
-        "Class": "Agent-Installer",
-        "Region": "NCR",
-        "Sales Code": "AIF3EP001722",
-        "Trade Name": "Marilyn P. Zazon",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Greentelcom 2 (Rizal)",
-        "Class": "Agent-Installer",
-        "Region": "NCR",
-        "Sales Code": "AIF3EP001622",
-        "Trade Name": "April Francisco",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Greentelcom 2 (Rizal)",
-        "Class": "Agent-Installer",
-        "Region": "NCR",
-        "Sales Code": "AIF3EP001322",
-        "Trade Name": "Glenda Opeda",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Greentelcom 2 (Rizal)",
-        "Class": "Agent-Installer",
-        "Region": "NCR",
-        "Sales Code": "AIF3EP001222",
-        "Trade Name": "Cecille Anne Bisig",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Greentelcom 2 (Rizal)",
-        "Class": "Agent-Installer",
-        "Region": "NCR",
-        "Sales Code": "AIF3EP001022",
-        "Trade Name": "AG Santos",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Greentelcom 2 (Rizal)",
-        "Class": "Agent-Installer",
-        "Region": "NCR",
-        "Sales Code": "AIF3EP000922",
-        "Trade Name": "Maria Lyra Bernardo",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Greentelcom 2 (Rizal)",
-        "Class": "Agent-Installer",
-        "Region": "NCR",
-        "Sales Code": "AIF3EP000823",
-        "Trade Name": "Emma Magallanes",
         "Status": "Included"
     },
     {
@@ -14908,54 +14004,6 @@ const salesManCode = [
         "Territory Partner": "Greentelcom 2 (Rizal)",
         "Class": "Agent-Installer",
         "Region": "NCR",
-        "Sales Code": "AIEPF30039",
-        "Trade Name": "Allen Martinez",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Greentelcom 2 (Rizal)",
-        "Class": "Agent-Installer",
-        "Region": "NCR",
-        "Sales Code": "AIEPF30025",
-        "Trade Name": "Mary Joy Tresvalles",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Greentelcom 2 (Rizal)",
-        "Class": "Agent-Installer",
-        "Region": "NCR",
-        "Sales Code": "AIEPF30021",
-        "Trade Name": "Randy Dimaculangan",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Greentelcom 2 (Rizal)",
-        "Class": "Agent-Installer",
-        "Region": "NCR",
-        "Sales Code": "AIEPF30017",
-        "Trade Name": "Marites Ramirez",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Greentelcom 2 (Rizal)",
-        "Class": "Agent-Installer",
-        "Region": "NCR",
-        "Sales Code": "AIEPF30009",
-        "Trade Name": "Ramil Franco Balleta",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Greentelcom 2 (Rizal)",
-        "Class": "Agent-Installer",
-        "Region": "NCR",
-        "Sales Code": "AIEPF30008",
-        "Trade Name": "Jay-Ann Satelite",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Greentelcom 2 (Rizal)",
-        "Class": "Agent-Installer",
-        "Region": "NCR",
         "Sales Code": "AIEPF30005",
         "Trade Name": "Deibelen Alcaide",
         "Status": "Included"
@@ -14974,6 +14022,14 @@ const salesManCode = [
         "Region": "NCR",
         "Sales Code": "AIF3EP001223",
         "Trade Name": "Amor Testado",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Greentelcom 2 (Rizal)",
+        "Class": "Agent-Installer",
+        "Region": "NCR",
+        "Sales Code": "AIF3EP001323",
+        "Trade Name": "RGB Trading",
         "Status": "Included"
     },
     {
@@ -15313,6 +14369,14 @@ const salesManCode = [
         "Status": "Included"
     },
     {
+        "Territory Partner": "High End",
+        "Class": "Agent-Installer",
+        "Region": "Lower South Luzon",
+        "Sales Code": "AIO1HD000423",
+        "Trade Name": "Ariel Installations",
+        "Status": "Included"
+    },
+    {
         "Territory Partner": "Innovasia Batangas",
         "Class": "Agent-Installer",
         "Region": "Upper South Luzon",
@@ -15358,14 +14422,6 @@ const salesManCode = [
         "Region": "Upper South Luzon",
         "Sales Code": "UAICASCF",
         "Trade Name": "'Romy Frane'",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Innovasia Batangas",
-        "Class": "Agent-Installer",
-        "Region": "Upper South Luzon",
-        "Sales Code": "UAI1USAA",
-        "Trade Name": "Jeronimo Corales",
         "Status": "Included"
     },
     {
@@ -15492,24 +14548,32 @@ const salesManCode = [
         "Territory Partner": "Koks",
         "Class": "Agent-Installer",
         "Region": "Western Visayas",
-        "Sales Code": "VDPXASCB",
-        "Trade Name": "TIN TIN ELECTRONICS",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Koks",
-        "Class": "Agent-Installer",
-        "Region": "Western Visayas",
-        "Sales Code": "VDPWASCB",
-        "Trade Name": "Val Dangan Satellite",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Koks",
-        "Class": "Agent-Installer",
-        "Region": "Western Visayas",
         "Sales Code": "VDPFJSCE",
         "Trade Name": "Fit Cycle",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Koks",
+        "Class": "Agent-Installer",
+        "Region": "Western Visayas",
+        "Sales Code": "AID4KS000723",
+        "Trade Name": "Gabzlite 2",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Koks",
+        "Class": "Agent-Installer",
+        "Region": "Western Visayas",
+        "Sales Code": "AIE4KS001123",
+        "Trade Name": "Mardion Hernandez",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Koks",
+        "Class": "Agent-Installer",
+        "Region": "Western Visayas",
+        "Sales Code": "AID4KS000623",
+        "Trade Name": "Razzaq Cellphone Accessories Shop",
         "Status": "Included"
     },
     {
@@ -15532,14 +14596,6 @@ const salesManCode = [
         "Territory Partner": "Koks",
         "Class": "Agent-Installer",
         "Region": "Western Visayas",
-        "Sales Code": "AIE4KS000623",
-        "Trade Name": "Vista Store",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Koks",
-        "Class": "Agent-Installer",
-        "Region": "Western Visayas",
         "Sales Code": "AIE4KS000723",
         "Trade Name": "Ronald Once",
         "Status": "Included"
@@ -15548,32 +14604,16 @@ const salesManCode = [
         "Territory Partner": "Koks",
         "Class": "Agent-Installer",
         "Region": "Western Visayas",
-        "Sales Code": "AID4KS000623",
-        "Trade Name": "Razzaq Cellphone Accessories Shop",
+        "Sales Code": "AIE4KS001023",
+        "Trade Name": "Steve Rosmar Vigo",
         "Status": "Included"
     },
     {
         "Territory Partner": "Koks",
         "Class": "Agent-Installer",
         "Region": "Western Visayas",
-        "Sales Code": "AID4KS000723",
-        "Trade Name": "Gabzlite 2",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Koks",
-        "Class": "Agent-Installer",
-        "Region": "Western Visayas",
-        "Sales Code": "AIE4KS000823",
-        "Trade Name": "Virgilio Arboleda",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Koks",
-        "Class": "Agent-Installer",
-        "Region": "Western Visayas",
-        "Sales Code": "AIE4KS000923",
-        "Trade Name": "Treznie",
+        "Sales Code": "AIE4KS000623",
+        "Trade Name": "Vista Store",
         "Status": "Included"
     },
     {
@@ -15646,6 +14686,14 @@ const salesManCode = [
         "Region": "Central South Luzon",
         "Sales Code": "AIMAQ10002",
         "Trade Name": "Aldrin Cereno",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Mega Durian 2",
+        "Class": "Agent-Installer",
+        "Region": "South Mindanao",
+        "Sales Code": "AIV3M2001023",
+        "Trade Name": "Charlie Espadera",
         "Status": "Included"
     },
     {
@@ -16348,22 +15396,6 @@ const salesManCode = [
         "Territory Partner": "Oro graphic",
         "Class": "Agent-Installer",
         "Region": "Northwest Mindanao",
-        "Sales Code": "WJ1ZASEP",
-        "Trade Name": "KRHEYM STORE",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Oro graphic",
-        "Class": "Agent-Installer",
-        "Region": "Northwest Mindanao",
-        "Sales Code": "WJ1PASSB",
-        "Trade Name": "HP+ CIGNAL STORE ",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Oro graphic",
-        "Class": "Agent-Installer",
-        "Region": "Northwest Mindanao",
         "Sales Code": "WJ1KASCE",
         "Trade Name": "DOUBLE D CELLPHONE  ACCESSORIES & REPAIR",
         "Status": "Included"
@@ -16438,14 +15470,6 @@ const salesManCode = [
         "Region": "Northwest Mindanao",
         "Sales Code": "WJ182SCC",
         "Trade Name": "Juvy Store",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Oro graphic",
-        "Class": "Agent-Installer",
-        "Region": "Northwest Mindanao",
-        "Sales Code": "WJ13ASAD",
-        "Trade Name": "Steve Commercial",
         "Status": "Included"
     },
     {
@@ -16609,6 +15633,30 @@ const salesManCode = [
         "Status": "Included"
     },
     {
+        "Territory Partner": "PDI Negros",
+        "Class": "Agent-Installer",
+        "Region": "Western Visayas",
+        "Sales Code": "AIF4PN002123",
+        "Trade Name": "J3D Internet and Cable Services",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "PDI Negros",
+        "Class": "Agent-Installer",
+        "Region": "Western Visayas",
+        "Sales Code": "AIF4PN002223",
+        "Trade Name": "MK Audio",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "PDI Negros",
+        "Class": "Agent-Installer",
+        "Region": "Western Visayas",
+        "Sales Code": "AIF4PN002323",
+        "Trade Name": "SMS Cellshop",
+        "Status": "Included"
+    },
+    {
         "Territory Partner": "PDI Panay East",
         "Class": "Agent-Installer",
         "Region": "Western Visayas",
@@ -16644,22 +15692,6 @@ const salesManCode = [
         "Territory Partner": "PDI Panay East",
         "Class": "Agent-Installer",
         "Region": "Western Visayas",
-        "Sales Code": "VAQ37SCA",
-        "Trade Name": "J & D Cable Services",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Panay East",
-        "Class": "Agent-Installer",
-        "Region": "Western Visayas",
-        "Sales Code": "EXK4PE001623",
-        "Trade Name": "Pavia Homecare",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Panay East",
-        "Class": "Agent-Installer",
-        "Region": "Western Visayas",
         "Sales Code": "AIK4PY001422",
         "Trade Name": "M.A. Cignal",
         "Status": "Included"
@@ -16670,14 +15702,6 @@ const salesManCode = [
         "Region": "Western Visayas",
         "Sales Code": "AIK4PE001923",
         "Trade Name": "Rixon Store",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Panay East",
-        "Class": "Agent-Installer",
-        "Region": "Western Visayas",
-        "Sales Code": "AIK4PE001523",
-        "Trade Name": "Joey Cabalonga",
         "Status": "Included"
     },
     {
@@ -16923,7 +15947,7 @@ const salesManCode = [
     {
         "Territory Partner": "TTANS",
         "Class": "Agent-Installer",
-        "Region": "Upper South Luzon",
+        "Region": "Central South Luzon",
         "Sales Code": "UAK9YSCB",
         "Trade Name": "JOSEPH GANDIDO",
         "Status": "Included"
@@ -16931,7 +15955,7 @@ const salesManCode = [
     {
         "Territory Partner": "TTANS",
         "Class": "Agent-Installer",
-        "Region": "Upper South Luzon",
+        "Region": "Central South Luzon",
         "Sales Code": "UAK9USCC",
         "Trade Name": "JOHN PAUL F. FARNER",
         "Status": "Included"
@@ -16939,7 +15963,7 @@ const salesManCode = [
     {
         "Territory Partner": "TTANS",
         "Class": "Agent-Installer",
-        "Region": "Upper South Luzon",
+        "Region": "Central South Luzon",
         "Sales Code": "UAK9MSBD",
         "Trade Name": "FRANCIS FERRANCULLO",
         "Status": "Included"
@@ -16947,7 +15971,7 @@ const salesManCode = [
     {
         "Territory Partner": "TTANS",
         "Class": "Agent-Installer",
-        "Region": "Upper South Luzon",
+        "Region": "Central South Luzon",
         "Sales Code": "UAK9MSBC",
         "Trade Name": "DAIREEN STORE",
         "Status": "Included"
@@ -16955,7 +15979,7 @@ const salesManCode = [
     {
         "Territory Partner": "TTANS",
         "Class": "Agent-Installer",
-        "Region": "Upper South Luzon",
+        "Region": "Central South Luzon",
         "Sales Code": "UAK9MSBB",
         "Trade Name": "BETHUEL FAJEL",
         "Status": "Included"
@@ -16963,7 +15987,7 @@ const salesManCode = [
     {
         "Territory Partner": "TTANS",
         "Class": "Agent-Installer",
-        "Region": "Upper South Luzon",
+        "Region": "Central South Luzon",
         "Sales Code": "UAK9ASBD",
         "Trade Name": "GALANG ENTERPRISES",
         "Status": "Included"
@@ -16971,7 +15995,7 @@ const salesManCode = [
     {
         "Territory Partner": "TTANS",
         "Class": "Agent-Installer",
-        "Region": "Upper South Luzon",
+        "Region": "Central South Luzon",
         "Sales Code": "UAK8ASCJ",
         "Trade Name": "GLENN PANDINO",
         "Status": "Included"
@@ -16979,7 +16003,7 @@ const salesManCode = [
     {
         "Territory Partner": "TTANS",
         "Class": "Agent-Installer",
-        "Region": "Upper South Luzon",
+        "Region": "Central South Luzon",
         "Sales Code": "UAK8ASCG",
         "Trade Name": "Henry \"\"Boy\"\" Yap",
         "Status": "Included"
@@ -16987,7 +16011,7 @@ const salesManCode = [
     {
         "Territory Partner": "TTANS",
         "Class": "Agent-Installer",
-        "Region": "Upper South Luzon",
+        "Region": "Central South Luzon",
         "Sales Code": "UAK8ASCD",
         "Trade Name": "MAGDIWANG CABLE TELEVISION",
         "Status": "Included"
@@ -16995,7 +16019,7 @@ const salesManCode = [
     {
         "Territory Partner": "TTANS",
         "Class": "Agent-Installer",
-        "Region": "Upper South Luzon",
+        "Region": "Central South Luzon",
         "Sales Code": "UAK8ASCC",
         "Trade Name": "HANJIE STORE",
         "Status": "Included"
@@ -17003,7 +16027,7 @@ const salesManCode = [
     {
         "Territory Partner": "TTANS",
         "Class": "Agent-Installer",
-        "Region": "Upper South Luzon",
+        "Region": "Central South Luzon",
         "Sales Code": "UAK7ASCC",
         "Trade Name": "BUDDY VICENTE",
         "Status": "Included"
@@ -17011,7 +16035,7 @@ const salesManCode = [
     {
         "Territory Partner": "TTANS",
         "Class": "Agent-Installer",
-        "Region": "Upper South Luzon",
+        "Region": "Central South Luzon",
         "Sales Code": "UAK6ESCC",
         "Trade Name": "EDDIE CORNEJO",
         "Status": "Included"
@@ -17019,7 +16043,7 @@ const salesManCode = [
     {
         "Territory Partner": "TTANS",
         "Class": "Agent-Installer",
-        "Region": "Upper South Luzon",
+        "Region": "Central South Luzon",
         "Sales Code": "UAK6ESBC",
         "Trade Name": "Jenny Merano Manga",
         "Status": "Included"
@@ -17027,7 +16051,7 @@ const salesManCode = [
     {
         "Territory Partner": "TTANS",
         "Class": "Agent-Installer",
-        "Region": "Upper South Luzon",
+        "Region": "Central South Luzon",
         "Sales Code": "AITSB40006",
         "Trade Name": "CA Electronics",
         "Status": "Included"
@@ -17035,7 +16059,7 @@ const salesManCode = [
     {
         "Territory Partner": "TTANS",
         "Class": "Agent-Installer",
-        "Region": "Upper South Luzon",
+        "Region": "Central South Luzon",
         "Sales Code": "AITSB40005",
         "Trade Name": "RMD Marketing",
         "Status": "Included"
@@ -17043,25 +16067,9 @@ const salesManCode = [
     {
         "Territory Partner": "TTANS",
         "Class": "Agent-Installer",
-        "Region": "Upper South Luzon",
+        "Region": "Central South Luzon",
         "Sales Code": "AITSB40001",
         "Trade Name": "Richqueen Store",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Uniglobal",
-        "Class": "Agent-Installer",
-        "Region": "East Mindanao",
-        "Sales Code": "WU8QQAAF",
-        "Trade Name": "ROBERT ELECTRONIC SHOP",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Uniglobal",
-        "Class": "Agent-Installer",
-        "Region": "East Mindanao",
-        "Sales Code": "WU8JAAAF",
-        "Trade Name": "HARON BIAY",
         "Status": "Included"
     },
     {
@@ -17076,56 +16084,16 @@ const salesManCode = [
         "Territory Partner": "Uniglobal",
         "Class": "Agent-Installer",
         "Region": "East Mindanao",
-        "Sales Code": "WU63ABDC",
-        "Trade Name": "Richard Clantina Installation",
+        "Sales Code": "AIK3UL000923",
+        "Trade Name": "Enrique L. Villamor Jr.",
         "Status": "Included"
     },
     {
         "Territory Partner": "Uniglobal",
         "Class": "Agent-Installer",
         "Region": "East Mindanao",
-        "Sales Code": "AIULK30007",
-        "Trade Name": "John Kenneth Cable",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Uniglobal",
-        "Class": "Agent-Installer",
-        "Region": "East Mindanao",
-        "Sales Code": "AIULJ30003",
-        "Trade Name": "Ying Jie Cell",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Uniglobal",
-        "Class": "Agent-Installer",
-        "Region": "East Mindanao",
-        "Sales Code": "AIK3UL000723",
-        "Trade Name": "Nanette G. Dazon",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Uniglobal",
-        "Class": "Agent-Installer",
-        "Region": "East Mindanao",
-        "Sales Code": "AIJ3UL000423",
-        "Trade Name": "JHM Monkayo Cable Insllation Trading",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Uniglobal",
-        "Class": "Agent-Installer",
-        "Region": "East Mindanao",
-        "Sales Code": "AIO3UL000423",
-        "Trade Name": "Gritchen B. Paciano",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Uniglobal",
-        "Class": "Agent-Installer",
-        "Region": "East Mindanao",
-        "Sales Code": "AIJ3UL000723",
-        "Trade Name": "Mereychel R. Guno",
+        "Sales Code": "AIK3UL000423",
+        "Trade Name": "Glenn Jumawan",
         "Status": "Included"
     },
     {
@@ -17140,16 +16108,16 @@ const salesManCode = [
         "Territory Partner": "Uniglobal",
         "Class": "Agent-Installer",
         "Region": "East Mindanao",
-        "Sales Code": "AIJ3UL000923",
-        "Trade Name": "Ricky E. Arnoza",
+        "Sales Code": "AIO3UL000423",
+        "Trade Name": "Gritchen B. Paciano",
         "Status": "Included"
     },
     {
         "Territory Partner": "Uniglobal",
         "Class": "Agent-Installer",
         "Region": "East Mindanao",
-        "Sales Code": "AIK3UL000923",
-        "Trade Name": "Enrique L. Villamor Jr.",
+        "Sales Code": "WU8JAAAF",
+        "Trade Name": "HARON BIAY",
         "Status": "Included"
     },
     {
@@ -17164,8 +16132,64 @@ const salesManCode = [
         "Territory Partner": "Uniglobal",
         "Class": "Agent-Installer",
         "Region": "East Mindanao",
-        "Sales Code": "AIK3UL000423",
-        "Trade Name": "Glenn Jumawan",
+        "Sales Code": "AIJ3UL000423",
+        "Trade Name": "JHM Monkayo Cable Insllation Trading",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Uniglobal",
+        "Class": "Agent-Installer",
+        "Region": "East Mindanao",
+        "Sales Code": "AIULK30007",
+        "Trade Name": "John Kenneth Cable",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Uniglobal",
+        "Class": "Agent-Installer",
+        "Region": "East Mindanao",
+        "Sales Code": "AIJ3UL000723",
+        "Trade Name": "Mereychel R. Guno",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Uniglobal",
+        "Class": "Agent-Installer",
+        "Region": "East Mindanao",
+        "Sales Code": "AIK3UL000723",
+        "Trade Name": "Nanette G. Dazon",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Uniglobal",
+        "Class": "Agent-Installer",
+        "Region": "East Mindanao",
+        "Sales Code": "WU63ABDC",
+        "Trade Name": "Richard Clantina Installation",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Uniglobal",
+        "Class": "Agent-Installer",
+        "Region": "East Mindanao",
+        "Sales Code": "AIJ3UL000923",
+        "Trade Name": "Ricky E. Arnoza",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Uniglobal",
+        "Class": "Agent-Installer",
+        "Region": "East Mindanao",
+        "Sales Code": "WU8QQAAF",
+        "Trade Name": "ROBERT ELECTRONIC SHOP",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Uniglobal",
+        "Class": "Agent-Installer",
+        "Region": "East Mindanao",
+        "Sales Code": "AIULJ30003",
+        "Trade Name": "Ying Jie Cell",
         "Status": "Included"
     },
     {
@@ -17494,22 +16518,6 @@ const salesManCode = [
         "Region": "North Luzon West",
         "Sales Code": "AIP2VT000522",
         "Trade Name": "Cey Satt",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Vertext",
-        "Class": "Agent-Installer",
-        "Region": "North Luzon West",
-        "Sales Code": "AIP2VT000423",
-        "Trade Name": "Jayric J. Lang-ayan",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Vertext",
-        "Class": "Agent-Installer",
-        "Region": "North Luzon West",
-        "Sales Code": "AIP2VT000422",
-        "Trade Name": "RA Electronics",
         "Status": "Included"
     },
     {
@@ -18849,6 +17857,46 @@ const salesManCode = [
         "Status": "Included"
     },
     {
+        "Territory Partner": "BBCI",
+        "Class": "Exclusive",
+        "Region": "South Mindanao",
+        "Sales Code": "EXH3BI004123",
+        "Trade Name": "ERJ FEEDS DISTRIBUTION CENTER (MIDSAYAP)",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "BBCI",
+        "Class": "Exclusive",
+        "Region": "South Mindanao",
+        "Sales Code": "EXH3BI004223",
+        "Trade Name": "ERJ FEEDS DISTRIBUTION CENTER (PIGCAWAYAN)",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "BBCI",
+        "Class": "Exclusive",
+        "Region": "South Mindanao",
+        "Sales Code": "EXH3BI004323",
+        "Trade Name": "CUARTEL de Campo Diez",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "BBCI",
+        "Class": "Exclusive",
+        "Region": "South Mindanao",
+        "Sales Code": "EXH3BI004423",
+        "Trade Name": "Zander Zoe",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "BBCI",
+        "Class": "Exclusive",
+        "Region": "South Mindanao",
+        "Sales Code": "EXH3BI004523",
+        "Trade Name": "Ostique RnR Cafe and Farm",
+        "Status": "Included"
+    },
+    {
         "Territory Partner": "BSL",
         "Class": "Exclusive",
         "Region": "NCR",
@@ -18910,6 +17958,14 @@ const salesManCode = [
         "Region": "NCR",
         "Sales Code": "AIBLT10050",
         "Trade Name": "Rex Cignal",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "BSL BULACAN",
+        "Class": "Exclusive",
+        "Region": "East Central Luzon",
+        "Sales Code": "TCHVASCD",
+        "Trade Name": "RDG Enterprises",
         "Status": "Included"
     },
     {
@@ -19085,7 +18141,7 @@ const salesManCode = [
         "Class": "Exclusive",
         "Region": "East Visayas",
         "Sales Code": "VSWK3SCC",
-        "Trade Name": "Rara Internet - Tunga Leyte",
+        "Trade Name": "RVC Cable TV Service",
         "Status": "Included"
     },
     {
@@ -19281,6 +18337,14 @@ const salesManCode = [
         "Status": "Included"
     },
     {
+        "Territory Partner": "Cellcom Central East",
+        "Class": "Exclusive",
+        "Region": "East Visayas",
+        "Sales Code": "EXC1CC003723",
+        "Trade Name": "Joel Store",
+        "Status": "Included"
+    },
+    {
         "Territory Partner": "Cellcom Northern East",
         "Class": "Exclusive",
         "Region": "East Visayas",
@@ -19428,14 +18492,6 @@ const salesManCode = [
         "Territory Partner": "CRFT",
         "Class": "Exclusive",
         "Region": "Central Visayas",
-        "Sales Code": "XPLZESCI",
-        "Trade Name": "DWLS Electronics ",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "CRFT",
-        "Class": "Exclusive",
-        "Region": "Central Visayas",
         "Sales Code": "XPLZESCE",
         "Trade Name": "Jills Place",
         "Status": "Included"
@@ -19476,14 +18532,6 @@ const salesManCode = [
         "Territory Partner": "CRFT",
         "Class": "Exclusive",
         "Region": "Central Visayas",
-        "Sales Code": "XPL9ESCA",
-        "Trade Name": "Busuanga Digital",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "CRFT",
-        "Class": "Exclusive",
-        "Region": "Central Visayas",
         "Sales Code": "XPL9ASCF",
         "Trade Name": "AIB Electronic Shop",
         "Status": "Included"
@@ -19516,22 +18564,6 @@ const salesManCode = [
         "Territory Partner": "CRFT",
         "Class": "Exclusive",
         "Region": "Central Visayas",
-        "Sales Code": "EXCTC40007",
-        "Trade Name": "Ofqueria Store",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "CRFT",
-        "Class": "Exclusive",
-        "Region": "Central Visayas",
-        "Sales Code": "EXCTC40006",
-        "Trade Name": "Giselle Beauties Shop",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "CRFT",
-        "Class": "Exclusive",
-        "Region": "Central Visayas",
         "Sales Code": "EXCTC40004",
         "Trade Name": "Reign Fabb Shoppe",
         "Status": "Included"
@@ -19542,14 +18574,6 @@ const salesManCode = [
         "Region": "Central Visayas",
         "Sales Code": "EXC4CT004722",
         "Trade Name": "Mahinay Appliance El Nido",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "CRFT",
-        "Class": "Exclusive",
-        "Region": "Central Visayas",
-        "Sales Code": "EXC4CT004222",
-        "Trade Name": "Aces Satellite Services",
         "Status": "Included"
     },
     {
@@ -19612,40 +18636,8 @@ const salesManCode = [
         "Territory Partner": "CRFT",
         "Class": "Exclusive",
         "Region": "Central Visayas",
-        "Sales Code": "EXC4CT002023",
-        "Trade Name": "GH Martinez Store",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "CRFT",
-        "Class": "Exclusive",
-        "Region": "Central Visayas",
-        "Sales Code": "EXC4CT001423",
-        "Trade Name": "Maybelle Appliances Store",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "CRFT",
-        "Class": "Exclusive",
-        "Region": "Central Visayas",
-        "Sales Code": "EXC4CT000822",
-        "Trade Name": "Parekoy Store",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "CRFT",
-        "Class": "Exclusive",
-        "Region": "Central Visayas",
         "Sales Code": "EXC4CT000723",
         "Trade Name": "Inzone Satellite Center",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "CRFT",
-        "Class": "Exclusive",
-        "Region": "Central Visayas",
-        "Sales Code": "AICTC40004",
-        "Trade Name": "Liao Store",
         "Status": "Included"
     },
     {
@@ -20030,6 +19022,30 @@ const salesManCode = [
         "Region": "East Mindanao",
         "Sales Code": "EXV2D1000523",
         "Trade Name": "Charlene Bonostro",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Digilife",
+        "Class": "Exclusive",
+        "Region": "East Mindanao",
+        "Sales Code": "EXW2D1000523",
+        "Trade Name": "Noewe Asotigue",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Digilife",
+        "Class": "Exclusive",
+        "Region": "East Mindanao",
+        "Sales Code": "EXS2D1000423",
+        "Trade Name": "Braille Lorona",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Digilife",
+        "Class": "Exclusive",
+        "Region": "East Mindanao",
+        "Sales Code": "EXV2D1000723",
+        "Trade Name": "Mantile josephine",
         "Status": "Included"
     },
     {
@@ -20820,32 +19836,16 @@ const salesManCode = [
         "Territory Partner": "Giga Dragon",
         "Class": "Exclusive",
         "Region": "South Mindanao",
-        "Sales Code": "WT5JASCC",
-        "Trade Name": "JNC COMPUTER AND CELPHONE CENTER",
+        "Sales Code": "MBM2U30003",
+        "Trade Name": "Celsat Satellite Cable Trading",
         "Status": "Included"
     },
     {
         "Territory Partner": "Giga Dragon",
         "Class": "Exclusive",
         "Region": "South Mindanao",
-        "Sales Code": "WT5EASAA",
-        "Trade Name": "FLK MARKETING",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Giga Dragon",
-        "Class": "Exclusive",
-        "Region": "South Mindanao",
-        "Sales Code": "WT4XASCE",
-        "Trade Name": "DHANZEL STORE",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Giga Dragon",
-        "Class": "Exclusive",
-        "Region": "South Mindanao",
-        "Sales Code": "WT47ASCC",
-        "Trade Name": "LEJE SHOP",
+        "Sales Code": "WT3TASDP",
+        "Trade Name": "Cignal Home Network One Stop Shop",
         "Status": "Included"
     },
     {
@@ -20876,16 +19876,8 @@ const salesManCode = [
         "Territory Partner": "Giga Dragon",
         "Class": "Exclusive",
         "Region": "South Mindanao",
-        "Sales Code": "WT3ZASCC",
-        "Trade Name": "ROL-ANS MARKETING",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Giga Dragon",
-        "Class": "Exclusive",
-        "Region": "South Mindanao",
-        "Sales Code": "WT3WASCA",
-        "Trade Name": "JESSEC HOME SATELLITE SERVICES",
+        "Sales Code": "WT4XASCE",
+        "Trade Name": "DHANZEL STORE",
         "Status": "Included"
     },
     {
@@ -20900,8 +19892,8 @@ const salesManCode = [
         "Territory Partner": "Giga Dragon",
         "Class": "Exclusive",
         "Region": "South Mindanao",
-        "Sales Code": "WT3TASDP",
-        "Trade Name": "Cignal Home Network One Stop Shop",
+        "Sales Code": "WT5EASAA",
+        "Trade Name": "FLK MARKETING",
         "Status": "Included"
     },
     {
@@ -20916,8 +19908,32 @@ const salesManCode = [
         "Territory Partner": "Giga Dragon",
         "Class": "Exclusive",
         "Region": "South Mindanao",
+        "Sales Code": "WT3WASCA",
+        "Trade Name": "JESSEC HOME SATELLITE SERVICES",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "Exclusive",
+        "Region": "South Mindanao",
+        "Sales Code": "WT5JASCC",
+        "Trade Name": "JNC COMPUTER AND CELPHONE CENTER",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "Exclusive",
+        "Region": "South Mindanao",
         "Sales Code": "WT3RASCB",
         "Trade Name": "JUDIEN ELECTRONICS",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "Exclusive",
+        "Region": "South Mindanao",
+        "Sales Code": "WT47ASCC",
+        "Trade Name": "LEJE SHOP",
         "Status": "Included"
     },
     {
@@ -20932,8 +19948,8 @@ const salesManCode = [
         "Territory Partner": "Giga Dragon",
         "Class": "Exclusive",
         "Region": "South Mindanao",
-        "Sales Code": "MBM2U30003",
-        "Trade Name": "Celsat Satellite Cable Trading",
+        "Sales Code": "EXM2W30007",
+        "Trade Name": "R. Valdez Marketing",
         "Status": "Included"
     },
     {
@@ -20948,16 +19964,8 @@ const salesManCode = [
         "Territory Partner": "Giga Dragon",
         "Class": "Exclusive",
         "Region": "South Mindanao",
-        "Sales Code": "EXM2W30007",
-        "Trade Name": "R. Valdez Marketing",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Giga Dragon",
-        "Class": "Exclusive",
-        "Region": "South Mindanao",
-        "Sales Code": "EXM2V30012",
-        "Trade Name": "VVGA Satellite TV Installation Services - T'boli Branch Branch",
+        "Sales Code": "WT3ZASCC",
+        "Trade Name": "ROL-ANS MARKETING",
         "Status": "Included"
     },
     {
@@ -20966,6 +19974,14 @@ const salesManCode = [
         "Region": "South Mindanao",
         "Sales Code": "EXU3M2000523",
         "Trade Name": "SAT-TECH COMM",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "Exclusive",
+        "Region": "South Mindanao",
+        "Sales Code": "EXM2V30012",
+        "Trade Name": "VVGA Satellite TV Installation Services - T'boli Branch Branch",
         "Status": "Included"
     },
     {
@@ -21022,14 +20038,6 @@ const salesManCode = [
         "Region": "Central South Luzon",
         "Sales Code": "UJJHNSCB",
         "Trade Name": "Shermel Gift Shop",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Go Sigla LagQuez",
-        "Class": "Exclusive",
-        "Region": "Central South Luzon",
-        "Sales Code": "UJJFASCC",
-        "Trade Name": "RAYLI DIGITAL TV",
         "Status": "Included"
     },
     {
@@ -22084,14 +21092,6 @@ const salesManCode = [
         "Territory Partner": "Innovasia Batangas",
         "Class": "Exclusive",
         "Region": "Upper South Luzon",
-        "Sales Code": "AIIAY30079",
-        "Trade Name": "CIGNAL CALATAGAN",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Innovasia Batangas",
-        "Class": "Exclusive",
-        "Region": "Upper South Luzon",
         "Sales Code": "AIIAY30076",
         "Trade Name": "Vistag Cable Installation",
         "Status": "Included"
@@ -22228,32 +21228,8 @@ const salesManCode = [
         "Territory Partner": "Koks",
         "Class": "Exclusive",
         "Region": "Western Visayas",
-        "Sales Code": "VDPZJSCB",
-        "Trade Name": "K-Link Cable and Cellphone Accessories",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Koks",
-        "Class": "Exclusive",
-        "Region": "Western Visayas",
-        "Sales Code": "VDPZDSCA",
-        "Trade Name": "Omer's Electronics and Electrical Supply",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Koks",
-        "Class": "Exclusive",
-        "Region": "Western Visayas",
-        "Sales Code": "VDPWASCA",
-        "Trade Name": "Romja Satellite Services",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Koks",
-        "Class": "Exclusive",
-        "Region": "Western Visayas",
-        "Sales Code": "VDPUASCA",
-        "Trade Name": "IDB SATELLITE SERVICES",
+        "Sales Code": "VDPFGSCB",
+        "Trade Name": "ABELLA HARDWARE",
         "Status": "Included"
     },
     {
@@ -22268,8 +21244,56 @@ const salesManCode = [
         "Territory Partner": "Koks",
         "Class": "Exclusive",
         "Region": "Western Visayas",
+        "Sales Code": "VDPCASCD",
+        "Trade Name": "D.C.Y. MARKETING",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Koks",
+        "Class": "Exclusive",
+        "Region": "Western Visayas",
+        "Sales Code": "VDPEASCC",
+        "Trade Name": "EMMAN LOADING",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Koks",
+        "Class": "Exclusive",
+        "Region": "Western Visayas",
+        "Sales Code": "VDPUASCA",
+        "Trade Name": "IDB SATELLITE SERVICES",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Koks",
+        "Class": "Exclusive",
+        "Region": "Western Visayas",
         "Sales Code": "VDPFYSCB",
         "Trade Name": "JO & BE MARKETING",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Koks",
+        "Class": "Exclusive",
+        "Region": "Western Visayas",
+        "Sales Code": "EXE4KS000422",
+        "Trade Name": "K Link Cable and Cellphone Accesories 2",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Koks",
+        "Class": "Exclusive",
+        "Region": "Western Visayas",
+        "Sales Code": "VDPZJSCB",
+        "Trade Name": "K-Link Cable and Cellphone Accessories",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Koks",
+        "Class": "Exclusive",
+        "Region": "Western Visayas",
+        "Sales Code": "VDPFGSCA",
+        "Trade Name": "Lao's Satellite Service",
         "Status": "Included"
     },
     {
@@ -22284,24 +21308,16 @@ const salesManCode = [
         "Territory Partner": "Koks",
         "Class": "Exclusive",
         "Region": "Western Visayas",
+        "Sales Code": "VDPZDSCA",
+        "Trade Name": "Omer's Electronics and Electrical Supply",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Koks",
+        "Class": "Exclusive",
+        "Region": "Western Visayas",
         "Sales Code": "VDPFPSCA",
         "Trade Name": "Pador Satellite Station",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Koks",
-        "Class": "Exclusive",
-        "Region": "Western Visayas",
-        "Sales Code": "VDPFGSCB",
-        "Trade Name": "ABELLA HARDWARE",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Koks",
-        "Class": "Exclusive",
-        "Region": "Western Visayas",
-        "Sales Code": "VDPFGSCA",
-        "Trade Name": "Lao's Satellite Service",
         "Status": "Included"
     },
     {
@@ -22324,24 +21340,8 @@ const salesManCode = [
         "Territory Partner": "Koks",
         "Class": "Exclusive",
         "Region": "Western Visayas",
-        "Sales Code": "VDPEASCC",
-        "Trade Name": "EMMAN LOADING",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Koks",
-        "Class": "Exclusive",
-        "Region": "Western Visayas",
-        "Sales Code": "VDPCASCD",
-        "Trade Name": "D.C.Y. MARKETING",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Koks",
-        "Class": "Exclusive",
-        "Region": "Western Visayas",
-        "Sales Code": "EXE4KS000422",
-        "Trade Name": "K Link Cable and Cellphone Accesories 2",
+        "Sales Code": "VDPWASCA",
+        "Trade Name": "Romja Satellite Services",
         "Status": "Included"
     },
     {
@@ -22860,22 +21860,6 @@ const salesManCode = [
         "Territory Partner": "Oro graphic",
         "Class": "Exclusive",
         "Region": "Northwest Mindanao",
-        "Sales Code": "WK2UTSCA",
-        "Trade Name": "GAYMARK IHF",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Oro graphic",
-        "Class": "Exclusive",
-        "Region": "Northwest Mindanao",
-        "Sales Code": "WK2RASCC",
-        "Trade Name": "Porras Satellite ",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Oro graphic",
-        "Class": "Exclusive",
-        "Region": "Northwest Mindanao",
         "Sales Code": "WK2RASCA",
         "Trade Name": "WINBENZ CIGNAL",
         "Status": "Included"
@@ -23185,6 +22169,22 @@ const salesManCode = [
         "Status": "Included"
     },
     {
+        "Territory Partner": "Oro graphic",
+        "Class": "Exclusive",
+        "Region": "Northwest Mindanao",
+        "Sales Code": "EXZ2O1000723",
+        "Trade Name": "GSM Office and School Supplies Trading",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Oro graphic",
+        "Class": "Exclusive",
+        "Region": "Northwest Mindanao",
+        "Sales Code": "EXZ2O1000823",
+        "Trade Name": "Cabug Store",
+        "Status": "Included"
+    },
+    {
         "Territory Partner": "Oxworld",
         "Class": "Exclusive",
         "Region": "NCR",
@@ -23238,22 +22238,6 @@ const salesManCode = [
         "Region": "Western Visayas",
         "Sales Code": "VBRAASCZ",
         "Trade Name": "POS MARKETING ENTERPRISES BACOLOD",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Negros",
-        "Class": "Exclusive",
-        "Region": "Western Visayas",
-        "Sales Code": "EXPNF40009",
-        "Trade Name": "JMJ Satellite Cable",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Negros",
-        "Class": "Exclusive",
-        "Region": "Western Visayas",
-        "Sales Code": "EXPNF40001",
-        "Trade Name": "LAP Electronics Shop",
         "Status": "Included"
     },
     {
@@ -23444,14 +22428,6 @@ const salesManCode = [
         "Territory Partner": "PDI Panay East",
         "Class": "Exclusive",
         "Region": "Western Visayas",
-        "Sales Code": "VAQMASCY",
-        "Trade Name": "JM's Wideviews television parts & accesories shop",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Panay East",
-        "Class": "Exclusive",
-        "Region": "Western Visayas",
         "Sales Code": "VAQMASCW",
         "Trade Name": "MK AUDIO VISUAL VILLA BRANCH",
         "Status": "Included"
@@ -23588,24 +22564,8 @@ const salesManCode = [
         "Territory Partner": "PDI Panay West",
         "Class": "Exclusive",
         "Region": "Western Visayas",
-        "Sales Code": "VAQ3YSCC",
-        "Trade Name": "3J Electronics",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Panay West",
-        "Class": "Exclusive",
-        "Region": "Western Visayas",
         "Sales Code": "VAPNJSCB",
         "Trade Name": "ZABAW SATELLITE CENTER",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Panay West",
-        "Class": "Exclusive",
-        "Region": "Western Visayas",
-        "Sales Code": "VAPN8SCA",
-        "Trade Name": "CASTILLON STORE",
         "Status": "Included"
     },
     {
@@ -23717,7 +22677,7 @@ const salesManCode = [
         "Class": "Exclusive",
         "Region": "Central Visayas",
         "Sales Code": "VLUJJSCG",
-        "Trade Name": "Save and Earn - Tubigon",
+        "Trade Name": "Cignal Retail - SNE Tubigon",
         "Status": "Included"
     },
     {
@@ -23809,6 +22769,14 @@ const salesManCode = [
         "Status": "Included"
     },
     {
+        "Territory Partner": "Save and Earn",
+        "Class": "Exclusive",
+        "Region": "Central Visayas",
+        "Sales Code": "EXI1SN001123",
+        "Trade Name": "F & R Convenience Store",
+        "Status": "Included"
+    },
+    {
         "Territory Partner": "TBH BULACAN",
         "Class": "Exclusive",
         "Region": "East Central Luzon",
@@ -23884,38 +22852,6 @@ const salesManCode = [
         "Territory Partner": "Technoclear 1 - Upper Qzn & Mdque",
         "Class": "Exclusive",
         "Region": "Central South Luzon",
-        "Sales Code": "UKVJASCB",
-        "Trade Name": "CIGNAL S.A.Q SATELLITE TV",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Technoclear 1 - Upper Qzn & Mdque",
-        "Class": "Exclusive",
-        "Region": "Central South Luzon",
-        "Sales Code": "UKKVVSCB",
-        "Trade Name": "LHANLIE'S SARI SARI STORE",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Technoclear 1 - Upper Qzn & Mdque",
-        "Class": "Exclusive",
-        "Region": "Central South Luzon",
-        "Sales Code": "UKKUMSCB",
-        "Trade Name": "LOTTO OUTLET",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Technoclear 1 - Upper Qzn & Mdque",
-        "Class": "Exclusive",
-        "Region": "Central South Luzon",
-        "Sales Code": "UKKTASCD",
-        "Trade Name": "JOHN MARLON CELLPHONE ACCESSORIES (pop up)",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Technoclear 1 - Upper Qzn & Mdque",
-        "Class": "Exclusive",
-        "Region": "Central South Luzon",
         "Sales Code": "UKKQASCG",
         "Trade Name": "RSM STORE",
         "Status": "Included"
@@ -23924,24 +22860,8 @@ const salesManCode = [
         "Territory Partner": "Technoclear 1 - Upper Qzn & Mdque",
         "Class": "Exclusive",
         "Region": "Central South Luzon",
-        "Sales Code": "UKKQASCF",
-        "Trade Name": "PAJOYO SARI SARI STORE",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Technoclear 1 - Upper Qzn & Mdque",
-        "Class": "Exclusive",
-        "Region": "Central South Luzon",
         "Sales Code": "UKKNASAB",
         "Trade Name": "NYJ PAGBILAO",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Technoclear 1 - Upper Qzn & Mdque",
-        "Class": "Exclusive",
-        "Region": "Central South Luzon",
-        "Sales Code": "UKKKASCL",
-        "Trade Name": "AGM CCTV INSTALLATION",
         "Status": "Included"
     },
     {
@@ -23980,22 +22900,6 @@ const salesManCode = [
         "Territory Partner": "Technoclear 1 - Upper Qzn & Mdque",
         "Class": "Exclusive",
         "Region": "Central South Luzon",
-        "Sales Code": "PSI5ASUN",
-        "Trade Name": "Centro Express Marketing",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Technoclear 1 - Upper Qzn & Mdque",
-        "Class": "Exclusive",
-        "Region": "Central South Luzon",
-        "Sales Code": "EXTRS10011",
-        "Trade Name": "NATHAN AND PRECIOUS GENERAL MERCHANDISE",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Technoclear 1 - Upper Qzn & Mdque",
-        "Class": "Exclusive",
-        "Region": "Central South Luzon",
         "Sales Code": "EXTRS10010",
         "Trade Name": "ZM STORE",
         "Status": "Included"
@@ -24006,30 +22910,6 @@ const salesManCode = [
         "Region": "Central South Luzon",
         "Sales Code": "EXTRR10007",
         "Trade Name": "GILBERT'S SATELLITE DISTRIBUTION & IT SOLUTION",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Technoclear 1 - Upper Qzn & Mdque",
-        "Class": "Exclusive",
-        "Region": "Central South Luzon",
-        "Sales Code": "EXS1001722",
-        "Trade Name": "RDSA CABLE INSTALLATION SERVICES",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Technoclear 1 - Upper Qzn & Mdque",
-        "Class": "Exclusive",
-        "Region": "Central South Luzon",
-        "Sales Code": "EXS1001622",
-        "Trade Name": "YSABELLE AND JAANICE APPLIANCES TRADING",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Technoclear 2 - Lower Qzn",
-        "Class": "Exclusive",
-        "Region": "Central South Luzon",
-        "Sales Code": "UKKVYSCC",
-        "Trade Name": "Sy Loren Store",
         "Status": "Included"
     },
     {
@@ -24046,38 +22926,6 @@ const salesManCode = [
         "Region": "Central South Luzon",
         "Sales Code": "UKKVASAA",
         "Trade Name": "KELJANE STORE",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Technoclear 2 - Lower Qzn",
-        "Class": "Exclusive",
-        "Region": "Central South Luzon",
-        "Sales Code": "UKKV2SCB",
-        "Trade Name": "UNIS GASO",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Technoclear 2 - Lower Qzn",
-        "Class": "Exclusive",
-        "Region": "Central South Luzon",
-        "Sales Code": "UKKUPSCD",
-        "Trade Name": "JUDSON LOADING ",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Technoclear 2 - Lower Qzn",
-        "Class": "Exclusive",
-        "Region": "Central South Luzon",
-        "Sales Code": "UKKUDSCC",
-        "Trade Name": "MAKEWELL GENERAL MERCHANDISE",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Technoclear 2 - Lower Qzn",
-        "Class": "Exclusive",
-        "Region": "Central South Luzon",
-        "Sales Code": "UKKGASAB",
-        "Trade Name": "MELDEN AGRI TRADING",
         "Status": "Included"
     },
     {
@@ -24121,25 +22969,9 @@ const salesManCode = [
         "Status": "Included"
     },
     {
-        "Territory Partner": "Technoclear 2 - Lower Qzn",
-        "Class": "Exclusive",
-        "Region": "Central South Luzon",
-        "Sales Code": "EXS1TL002122",
-        "Trade Name": "JOSEPHINE RABE ABETRIA",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Technoclear 2 - Lower Qzn",
-        "Class": "Exclusive",
-        "Region": "Central South Luzon",
-        "Sales Code": "EXS1TL002022",
-        "Trade Name": "SIMONTECHLOUIS COMPUTER CENTER",
-        "Status": "Included"
-    },
-    {
         "Territory Partner": "TTANS",
         "Class": "Exclusive",
-        "Region": "Upper South Luzon",
+        "Region": "Central South Luzon",
         "Sales Code": "UAK9USCB",
         "Trade Name": "Mirasol Trading (pop up)",
         "Status": "Included"
@@ -24147,7 +22979,7 @@ const salesManCode = [
     {
         "Territory Partner": "TTANS",
         "Class": "Exclusive",
-        "Region": "Upper South Luzon",
+        "Region": "Central South Luzon",
         "Sales Code": "UAK9MSDC",
         "Trade Name": "Reandler Store (pop up)",
         "Status": "Included"
@@ -24155,7 +22987,7 @@ const salesManCode = [
     {
         "Territory Partner": "TTANS",
         "Class": "Exclusive",
-        "Region": "Upper South Luzon",
+        "Region": "Central South Luzon",
         "Sales Code": "UAK9ESHD",
         "Trade Name": "CHRIS FERRANCOL",
         "Status": "Included"
@@ -24163,7 +22995,7 @@ const salesManCode = [
     {
         "Territory Partner": "TTANS",
         "Class": "Exclusive",
-        "Region": "Upper South Luzon",
+        "Region": "Central South Luzon",
         "Sales Code": "UAK8ASCE",
         "Trade Name": "CYMAR",
         "Status": "Included"
@@ -24171,7 +23003,7 @@ const salesManCode = [
     {
         "Territory Partner": "TTANS",
         "Class": "Exclusive",
-        "Region": "Upper South Luzon",
+        "Region": "Central South Luzon",
         "Sales Code": "UAK7ASAC",
         "Trade Name": "Mixwear Trading",
         "Status": "Included"
@@ -24179,7 +23011,7 @@ const salesManCode = [
     {
         "Territory Partner": "TTANS",
         "Class": "Exclusive",
-        "Region": "Upper South Luzon",
+        "Region": "Central South Luzon",
         "Sales Code": "UAK6YSBD",
         "Trade Name": "GL Commercial (pop up)",
         "Status": "Included"
@@ -24187,7 +23019,7 @@ const salesManCode = [
     {
         "Territory Partner": "TTANS",
         "Class": "Exclusive",
-        "Region": "Upper South Luzon",
+        "Region": "Central South Luzon",
         "Sales Code": "UAK6USBB",
         "Trade Name": "JYG AND SONS TRADING (pop up store)",
         "Status": "Included"
@@ -24195,7 +23027,7 @@ const salesManCode = [
     {
         "Territory Partner": "TTANS",
         "Class": "Exclusive",
-        "Region": "Upper South Luzon",
+        "Region": "Central South Luzon",
         "Sales Code": "UAK6ESCA",
         "Trade Name": "MAESTRO ELECTRONICS STORE",
         "Status": "Included"
@@ -24203,7 +23035,7 @@ const salesManCode = [
     {
         "Territory Partner": "TTANS",
         "Class": "Exclusive",
-        "Region": "Upper South Luzon",
+        "Region": "Central South Luzon",
         "Sales Code": "UAK6ASBC",
         "Trade Name": "J-Circle - J Trading",
         "Status": "Included"
@@ -24211,7 +23043,7 @@ const salesManCode = [
     {
         "Territory Partner": "TTANS",
         "Class": "Exclusive",
-        "Region": "Upper South Luzon",
+        "Region": "Central South Luzon",
         "Sales Code": "UAI9KSBB",
         "Trade Name": "Arsenia Commercial Center (pop up)",
         "Status": "Included"
@@ -24219,17 +23051,9 @@ const salesManCode = [
     {
         "Territory Partner": "TTANS",
         "Class": "Exclusive",
-        "Region": "Upper South Luzon",
+        "Region": "Central South Luzon",
         "Sales Code": "EXTSB40002",
         "Trade Name": "Jaznice Store",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Uniglobal",
-        "Class": "Exclusive",
-        "Region": "East Mindanao",
-        "Sales Code": "WU8QASCA",
-        "Trade Name": "Top Gear Marketing and Services",
         "Status": "Included"
     },
     {
@@ -24244,8 +23068,16 @@ const salesManCode = [
         "Territory Partner": "Uniglobal",
         "Class": "Exclusive",
         "Region": "East Mindanao",
-        "Sales Code": "WU8EASCC",
-        "Trade Name": "TUDSQUARE ELECTRONICS SHOP ",
+        "Sales Code": "EXULJ30005",
+        "Trade Name": "Arriz Cable Installation & Services",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Uniglobal",
+        "Class": "Exclusive",
+        "Region": "East Mindanao",
+        "Sales Code": "EXULK30011",
+        "Trade Name": "JLC Marketing 1",
         "Status": "Included"
     },
     {
@@ -24268,6 +23100,14 @@ const salesManCode = [
         "Territory Partner": "Uniglobal",
         "Class": "Exclusive",
         "Region": "East Mindanao",
+        "Sales Code": "EXJ3UL000823",
+        "Trade Name": "Raycer Signal Finder",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Uniglobal",
+        "Class": "Exclusive",
+        "Region": "East Mindanao",
         "Sales Code": "EXULO30003",
         "Trade Name": "Tarragona Electronic",
         "Status": "Included"
@@ -24276,8 +23116,16 @@ const salesManCode = [
         "Territory Partner": "Uniglobal",
         "Class": "Exclusive",
         "Region": "East Mindanao",
-        "Sales Code": "EXULK30011",
-        "Trade Name": "JLC Marketing 1",
+        "Sales Code": "WU8QASCA",
+        "Trade Name": "Top Gear Marketing and Services",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Uniglobal",
+        "Class": "Exclusive",
+        "Region": "East Mindanao",
+        "Sales Code": "WU8EASCC",
+        "Trade Name": "TUDSQUARE ELECTRONICS SHOP ",
         "Status": "Included"
     },
     {
@@ -24286,22 +23134,6 @@ const salesManCode = [
         "Region": "East Mindanao",
         "Sales Code": "EXULJ30007",
         "Trade Name": "Villcast Cignal",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Uniglobal",
-        "Class": "Exclusive",
-        "Region": "East Mindanao",
-        "Sales Code": "EXULJ30005",
-        "Trade Name": "Arriz Cable Installation & Services",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Uniglobal",
-        "Class": "Exclusive",
-        "Region": "East Mindanao",
-        "Sales Code": "EXJ3UL000823",
-        "Trade Name": "Raycer Signal Finder",
         "Status": "Included"
     },
     {
@@ -25716,14 +24548,6 @@ const salesManCode = [
         "Territory Partner": "CRFT",
         "Class": "CPS",
         "Region": "Central Visayas",
-        "Sales Code": "XPL5ASCA",
-        "Trade Name": "BONA JJLM Enterprises",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "CRFT",
-        "Class": "CPS",
-        "Region": "Central Visayas",
         "Sales Code": "XPL3ZWAX",
         "Trade Name": "GIEWEL SARI-SARI STORE",
         "Status": "Included"
@@ -25766,14 +24590,6 @@ const salesManCode = [
         "Region": "Central Visayas",
         "Sales Code": "EXC4CT003022",
         "Trade Name": "BISELCO-CORON",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "CRFT",
-        "Class": "CPS",
-        "Region": "Central Visayas",
-        "Sales Code": "EXC4CT000122",
-        "Trade Name": "WLS Satellite Direct TV Services",
         "Status": "Included"
     },
     {
@@ -26076,6 +24892,14 @@ const salesManCode = [
         "Territory Partner": "Giga Dragon",
         "Class": "CPS",
         "Region": "South Mindanao",
+        "Sales Code": "k",
+        "Trade Name": "ANGELROSE CELLPHONE CENTER",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "CPS",
+        "Region": "South Mindanao",
         "Sales Code": "WT5CASCB",
         "Trade Name": "JMA ELECTRONICS",
         "Status": "Included"
@@ -26084,8 +24908,40 @@ const salesManCode = [
         "Territory Partner": "Giga Dragon",
         "Class": "CPS",
         "Region": "South Mindanao",
+        "Sales Code": "WT3TASDC",
+        "Trade Name": "MAY VALDEZ STORE",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "CPS",
+        "Region": "South Mindanao",
         "Sales Code": "WT5BASCB",
         "Trade Name": "PRECIOUSE CELLPHONE & ACCESSORIES ",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "CPS",
+        "Region": "South Mindanao",
+        "Sales Code": "WS5CRCPS",
+        "Trade Name": "RL Cellular",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "CPS",
+        "Region": "South Mindanao",
+        "Sales Code": "WT3UASCG",
+        "Trade Name": "RV VALDEZ MARKETING",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Giga Dragon",
+        "Class": "CPS",
+        "Region": "South Mindanao",
+        "Sales Code": "WT31ASCD",
+        "Trade Name": "SMR PHIL ENTERPRISES",
         "Status": "Included"
     },
     {
@@ -26102,46 +24958,6 @@ const salesManCode = [
         "Region": "South Mindanao",
         "Sales Code": "WT3VAAAA",
         "Trade Name": "VVGA SATELLITE TV INSTALLATION & SERVICES",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Giga Dragon",
-        "Class": "CPS",
-        "Region": "South Mindanao",
-        "Sales Code": "WT3UASCG",
-        "Trade Name": "RV VALDEZ MARKETING",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Giga Dragon",
-        "Class": "CPS",
-        "Region": "South Mindanao",
-        "Sales Code": "WT3TASDC",
-        "Trade Name": "MAY VALDEZ STORE",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Giga Dragon",
-        "Class": "CPS",
-        "Region": "South Mindanao",
-        "Sales Code": "WT3RASCA",
-        "Trade Name": "ANGELROSE CELLPHONE CENTER",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Giga Dragon",
-        "Class": "CPS",
-        "Region": "South Mindanao",
-        "Sales Code": "WT31ASCD",
-        "Trade Name": "SMR PHIL ENTERPRISES",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Giga Dragon",
-        "Class": "CPS",
-        "Region": "South Mindanao",
-        "Sales Code": "WS5CRCPS",
-        "Trade Name": "RL Cellular",
         "Status": "Included"
     },
     {
@@ -26196,8 +25012,8 @@ const salesManCode = [
         "Territory Partner": "Go Sigla LagQuez",
         "Class": "CPS",
         "Region": "Central South Luzon",
-        "Sales Code": "UJJCASCF",
-        "Trade Name": "Monserrat JV Enterprise",
+        "Sales Code": "UJJEASCM",
+        "Trade Name": "AEM TECH Enterprise",
         "Status": "Included"
     },
     {
@@ -26278,14 +25094,6 @@ const salesManCode = [
         "Region": "NCR",
         "Sales Code": "XEX9JCPS",
         "Trade Name": "Billycoy Loading Station",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Greentelcom 2 (Rizal)",
-        "Class": "CPS",
-        "Region": "NCR",
-        "Sales Code": "XEX7ZWAK",
-        "Trade Name": "Allerson Enterprise",
         "Status": "Included"
     },
     {
@@ -26748,8 +25556,8 @@ const salesManCode = [
         "Territory Partner": "Koks",
         "Class": "CPS",
         "Region": "Western Visayas",
-        "Sales Code": "VDPZASCB",
-        "Trade Name": "YAN YAN STORE",
+        "Sales Code": "VDPBASCC",
+        "Trade Name": "GABZLITE",
         "Status": "Included"
     },
     {
@@ -26772,6 +25580,14 @@ const salesManCode = [
         "Territory Partner": "Koks",
         "Class": "CPS",
         "Region": "Western Visayas",
+        "Sales Code": "VDPAASCE",
+        "Trade Name": "Sojane Satelite TV Installation Services",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Koks",
+        "Class": "CPS",
+        "Region": "Western Visayas",
         "Sales Code": "VDPF2SCA",
         "Trade Name": "Tera's Mart",
         "Status": "Included"
@@ -26780,16 +25596,8 @@ const salesManCode = [
         "Territory Partner": "Koks",
         "Class": "CPS",
         "Region": "Western Visayas",
-        "Sales Code": "VDPBASCC",
-        "Trade Name": "GABZLITE",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Koks",
-        "Class": "CPS",
-        "Region": "Western Visayas",
-        "Sales Code": "VDPAASCE",
-        "Trade Name": "Sojane Satelite TV Installation Services",
+        "Sales Code": "VDPZASCB",
+        "Trade Name": "YAN YAN STORE",
         "Status": "Included"
     },
     {
@@ -27004,6 +25812,14 @@ const salesManCode = [
         "Territory Partner": "Oro graphic",
         "Class": "CPS",
         "Region": "Northwest Mindanao",
+        "Sales Code": "WJIJASSD",
+        "Trade Name": "Jann (authorized dealer/installer)",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Oro graphic",
+        "Class": "CPS",
+        "Region": "Northwest Mindanao",
         "Sales Code": "WJ2NASCE",
         "Trade Name": "Baraucor Store",
         "Status": "Included"
@@ -27076,24 +25892,8 @@ const salesManCode = [
         "Territory Partner": "Oro graphic",
         "Class": "CPS",
         "Region": "Northwest Mindanao",
-        "Sales Code": "WJ18ASCC",
-        "Trade Name": "Nygiel's Electronic gadgets and accessories ",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Oro graphic",
-        "Class": "CPS",
-        "Region": "Northwest Mindanao",
         "Sales Code": "WJ18ASCA",
         "Trade Name": "Geriel's DVD Shoppe & Accessories",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Oro graphic",
-        "Class": "CPS",
-        "Region": "Northwest Mindanao",
-        "Sales Code": "WJ13ASCF",
-        "Trade Name": "PRO-TECH DIGITAL SERVICES",
         "Status": "Included"
     },
     {
@@ -27126,14 +25926,6 @@ const salesManCode = [
         "Region": "Western Visayas",
         "Sales Code": "VBRFASCC",
         "Trade Name": "MAGNETRON ELECTRONIC SUPPLY",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Negros",
-        "Class": "CPS",
-        "Region": "Western Visayas",
-        "Sales Code": "VBRCASAA",
-        "Trade Name": "Carluz Place Pension House",
         "Status": "Included"
     },
     {
@@ -27332,14 +26124,6 @@ const salesManCode = [
         "Territory Partner": "PDI Panay East",
         "Class": "CPS",
         "Region": "Western Visayas",
-        "Sales Code": "VAQFASAB",
-        "Trade Name": "CARISMA DIGITAL TV SERVICES AND PHOTOCOPY",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Panay East",
-        "Class": "CPS",
-        "Region": "Western Visayas",
         "Sales Code": "VAQEVCPS",
         "Trade Name": "Viewmatic Cable Services",
         "Status": "Included"
@@ -27390,14 +26174,6 @@ const salesManCode = [
         "Region": "Western Visayas",
         "Sales Code": "VAPHCSAA",
         "Trade Name": "RENZ AND LOUISE SATELLITE CENTER-CULASI",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Panay West",
-        "Class": "CPS",
-        "Region": "Western Visayas",
-        "Sales Code": "VAPGASCA",
-        "Trade Name": "Renz Louise Satellite Center",
         "Status": "Included"
     },
     {
@@ -27628,14 +26404,6 @@ const salesManCode = [
         "Territory Partner": "Technoclear 1 - Upper Qzn & Mdque",
         "Class": "CPS",
         "Region": "Central South Luzon",
-        "Sales Code": "UKKQASAA",
-        "Trade Name": "OCTECH MARKETING",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Technoclear 1 - Upper Qzn & Mdque",
-        "Class": "CPS",
-        "Region": "Central South Luzon",
         "Sales Code": "UKKNASAA",
         "Trade Name": "A2PC COMPUTER AND TELECON CENTER",
         "Status": "Included"
@@ -27686,14 +26454,6 @@ const salesManCode = [
         "Region": "Central South Luzon",
         "Sales Code": "UKKDASCE",
         "Trade Name": "Charity Faye Satellite Services",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Technoclear 1 - Upper Qzn & Mdque",
-        "Class": "CPS",
-        "Region": "Central South Luzon",
-        "Sales Code": "UKI8ASAB",
-        "Trade Name": "GIO ARIES GLASS AND ALUMINUM SUPPLIES",
         "Status": "Included"
     },
     {
@@ -27812,14 +26572,6 @@ const salesManCode = [
         "Territory Partner": "Technoclear 2 - Lower Qzn",
         "Class": "CPS",
         "Region": "Central South Luzon",
-        "Sales Code": "UKKHLSAB",
-        "Trade Name": "AGATHAFONE SATELLITE TV SERVICES",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Technoclear 2 - Lower Qzn",
-        "Class": "CPS",
-        "Region": "Central South Luzon",
         "Sales Code": "UKKHLCPS",
         "Trade Name": "LOPEZ BOOKSTORE & GEN. MERCHANDISE",
         "Status": "Included"
@@ -27846,14 +26598,6 @@ const salesManCode = [
         "Region": "Central South Luzon",
         "Sales Code": "UKKFASAC",
         "Trade Name": "CARMONA STORE",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Technoclear 2 - Lower Qzn",
-        "Class": "CPS",
-        "Region": "Central South Luzon",
-        "Sales Code": "UKKEASAB",
-        "Trade Name": "ROJO LOADING ZONE AND CELLPHONE ACCESSORIES SAN ISIDRO",
         "Status": "Included"
     },
     {
@@ -27892,112 +26636,8 @@ const salesManCode = [
         "Territory Partner": "Uniglobal",
         "Class": "CPS",
         "Region": "East Mindanao",
-        "Sales Code": "WU8QMSCA",
-        "Trade Name": "Keisha Cielo Enterprise",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Uniglobal",
-        "Class": "CPS",
-        "Region": "East Mindanao",
-        "Sales Code": "WU8QCAAE",
-        "Trade Name": "RICH ELECTRONIC SHOP",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Uniglobal",
-        "Class": "CPS",
-        "Region": "East Mindanao",
-        "Sales Code": "WU8PASCL",
-        "Trade Name": "DIN ELECTRONICS",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Uniglobal",
-        "Class": "CPS",
-        "Region": "East Mindanao",
-        "Sales Code": "WU8MASCA",
-        "Trade Name": "NAPZ INTERNET CAFÉ",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Uniglobal",
-        "Class": "CPS",
-        "Region": "East Mindanao",
-        "Sales Code": "WU8LASCB",
-        "Trade Name": "Jul's Marketing",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Uniglobal",
-        "Class": "CPS",
-        "Region": "East Mindanao",
-        "Sales Code": "WU8HSSCC",
-        "Trade Name": "R & R ELOAD AND CABLE INSTALLATION SERVICES",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Uniglobal",
-        "Class": "CPS",
-        "Region": "East Mindanao",
-        "Sales Code": "WU8FASCJ",
-        "Trade Name": "Compact Satellite Installation Services",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Uniglobal",
-        "Class": "CPS",
-        "Region": "East Mindanao",
-        "Sales Code": "WU8EASCD",
-        "Trade Name": "MRB  Computer Equipments & Services",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Uniglobal",
-        "Class": "CPS",
-        "Region": "East Mindanao",
         "Sales Code": "WU8DASCD",
         "Trade Name": "BALDOZA GENERAL MERCHANDIZE & TV-LINK SERVICES",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Uniglobal",
-        "Class": "CPS",
-        "Region": "East Mindanao",
-        "Sales Code": "WU8BASCC",
-        "Trade Name": "JJRF ENTERPRISE",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Uniglobal",
-        "Class": "CPS",
-        "Region": "East Mindanao",
-        "Sales Code": "WU6ZMSCA",
-        "Trade Name": "WALLHEART CELLPHONE & ACCESSORIES",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Uniglobal",
-        "Class": "CPS",
-        "Region": "East Mindanao",
-        "Sales Code": "WU6ZAAAB",
-        "Trade Name": "Imelyn Computer Solution",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Uniglobal",
-        "Class": "CPS",
-        "Region": "East Mindanao",
-        "Sales Code": "WU6YASCA",
-        "Trade Name": "I Clark Internet Café",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Uniglobal",
-        "Class": "CPS",
-        "Region": "East Mindanao",
-        "Sales Code": "WU6UASCD",
-        "Trade Name": "TIME TOUCH MARKETING",
         "Status": "Included"
     },
     {
@@ -28012,8 +26652,32 @@ const salesManCode = [
         "Territory Partner": "Uniglobal",
         "Class": "CPS",
         "Region": "East Mindanao",
-        "Sales Code": "EXULK30005",
-        "Trade Name": "Roy Cignal Installation Services",
+        "Sales Code": "WU8FASCJ",
+        "Trade Name": "Compact Satellite Installation Services",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Uniglobal",
+        "Class": "CPS",
+        "Region": "East Mindanao",
+        "Sales Code": "WU8PASCL",
+        "Trade Name": "DIN ELECTRONICS",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Uniglobal",
+        "Class": "CPS",
+        "Region": "East Mindanao",
+        "Sales Code": "WU6YASCA",
+        "Trade Name": "I Clark Internet Café",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Uniglobal",
+        "Class": "CPS",
+        "Region": "East Mindanao",
+        "Sales Code": "WU6ZAAAB",
+        "Trade Name": "Imelyn Computer Solution",
         "Status": "Included"
     },
     {
@@ -28022,6 +26686,86 @@ const salesManCode = [
         "Region": "East Mindanao",
         "Sales Code": "EXULK30004",
         "Trade Name": "Jaycris Satellite",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Uniglobal",
+        "Class": "CPS",
+        "Region": "East Mindanao",
+        "Sales Code": "WU8BASCC",
+        "Trade Name": "JJRF ENTERPRISE",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Uniglobal",
+        "Class": "CPS",
+        "Region": "East Mindanao",
+        "Sales Code": "WU8LASCB",
+        "Trade Name": "Jul's Marketing",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Uniglobal",
+        "Class": "CPS",
+        "Region": "East Mindanao",
+        "Sales Code": "WU8QMSCA",
+        "Trade Name": "Keisha Cielo Enterprise",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Uniglobal",
+        "Class": "CPS",
+        "Region": "East Mindanao",
+        "Sales Code": "WU8EASCD",
+        "Trade Name": "MRB  Computer Equipments & Services",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Uniglobal",
+        "Class": "CPS",
+        "Region": "East Mindanao",
+        "Sales Code": "WU8MASCA",
+        "Trade Name": "NAPZ INTERNET CAFÉ",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Uniglobal",
+        "Class": "CPS",
+        "Region": "East Mindanao",
+        "Sales Code": "WU8HSSCC",
+        "Trade Name": "R & R ELOAD AND CABLE INSTALLATION SERVICES",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Uniglobal",
+        "Class": "CPS",
+        "Region": "East Mindanao",
+        "Sales Code": "WU8QCAAE",
+        "Trade Name": "RICH ELECTRONIC SHOP",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Uniglobal",
+        "Class": "CPS",
+        "Region": "East Mindanao",
+        "Sales Code": "EXULK30005",
+        "Trade Name": "Roy Cignal Installation Services",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Uniglobal",
+        "Class": "CPS",
+        "Region": "East Mindanao",
+        "Sales Code": "WU6UASCD",
+        "Trade Name": "TIME TOUCH MARKETING",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Uniglobal",
+        "Class": "CPS",
+        "Region": "East Mindanao",
+        "Sales Code": "WU6ZMSCA",
+        "Trade Name": "WALLHEART CELLPHONE & ACCESSORIES",
         "Status": "Included"
     },
     {
@@ -28105,22 +26849,6 @@ const salesManCode = [
         "Status": "Included"
     },
     {
-        "Territory Partner": "CRFT",
-        "Class": "Community Sellers",
-        "Region": "Central Visayas",
-        "Sales Code": "PSCTIC00000002",
-        "Trade Name": "Jovelyn Sapa",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "CRFT",
-        "Class": "Community Sellers",
-        "Region": "Central Visayas",
-        "Sales Code": "PSC4CT003522",
-        "Trade Name": "Victorio Ligtas",
-        "Status": "Included"
-    },
-    {
         "Territory Partner": "Digilife",
         "Class": "Community Sellers",
         "Region": "East Mindanao",
@@ -28188,6 +26916,14 @@ const salesManCode = [
         "Territory Partner": "Koks",
         "Class": "Community Sellers",
         "Region": "Western Visayas",
+        "Sales Code": "XXKSE40055",
+        "Trade Name": "Gaspar Santos",
+        "Status": "Included"
+    },
+    {
+        "Territory Partner": "Koks",
+        "Class": "Community Sellers",
+        "Region": "Western Visayas",
         "Sales Code": "XXKSE40057",
         "Trade Name": "Ian Earl Dinero",
         "Status": "Included"
@@ -28196,16 +26932,8 @@ const salesManCode = [
         "Territory Partner": "Koks",
         "Class": "Community Sellers",
         "Region": "Western Visayas",
-        "Sales Code": "XXKSE40056",
-        "Trade Name": "Jonathan Buendia",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Koks",
-        "Class": "Community Sellers",
-        "Region": "Western Visayas",
-        "Sales Code": "XXKSE40055",
-        "Trade Name": "Gaspar Santos",
+        "Sales Code": "XXKSD40051",
+        "Trade Name": "Jay Lord Pioquid",
         "Status": "Included"
     },
     {
@@ -28228,72 +26956,16 @@ const salesManCode = [
         "Territory Partner": "Koks",
         "Class": "Community Sellers",
         "Region": "Western Visayas",
-        "Sales Code": "XXKSD40051",
-        "Trade Name": "Jay Lord Pioquid",
+        "Sales Code": "XXKSD40049",
+        "Trade Name": "John Jinard Apolinario",
         "Status": "Included"
     },
     {
         "Territory Partner": "Koks",
         "Class": "Community Sellers",
         "Region": "Western Visayas",
-        "Sales Code": "XXKSD40049",
-        "Trade Name": "John Jinard Apolinario",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Negros",
-        "Class": "Community Sellers",
-        "Region": "Western Visayas",
-        "Sales Code": "PSF4PN002522",
-        "Trade Name": "Michael Esmores",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Negros",
-        "Class": "Community Sellers",
-        "Region": "Western Visayas",
-        "Sales Code": "PSF4PN001022",
-        "Trade Name": "Allan Patrick Senoro",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Panay East",
-        "Class": "Community Sellers",
-        "Region": "Western Visayas",
-        "Sales Code": "PSPYK40036",
-        "Trade Name": "Rodrigo Taleon Jr",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Panay East",
-        "Class": "Community Sellers",
-        "Region": "Western Visayas",
-        "Sales Code": "PSPYK40013",
-        "Trade Name": "Virginia Biona",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Panay East",
-        "Class": "Community Sellers",
-        "Region": "Western Visayas",
-        "Sales Code": "PSPYK40012",
-        "Trade Name": "Maricar Labrador",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Panay East",
-        "Class": "Community Sellers",
-        "Region": "Western Visayas",
-        "Sales Code": "PSK4PY000922",
-        "Trade Name": "Brgy. San Isidro Jaro,Iloilo City",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Panay East",
-        "Class": "Community Sellers",
-        "Region": "Western Visayas",
-        "Sales Code": "PSK4PY000522",
-        "Trade Name": "Brgy. Badiang Anilao,Iloilo",
+        "Sales Code": "XXKSE40056",
+        "Trade Name": "Jonathan Buendia",
         "Status": "Included"
     },
     {
@@ -28321,14 +26993,6 @@ const salesManCode = [
         "Status": "Included"
     },
     {
-        "Territory Partner": "PDI Panay West",
-        "Class": "Community Sellers",
-        "Region": "Western Visayas",
-        "Sales Code": "PSI4PW001323",
-        "Trade Name": "Culasi Home Care",
-        "Status": "Included"
-    },
-    {
         "Territory Partner": "TBH PAMPANGA",
         "Class": "Community Sellers",
         "Region": "West Central Luzon",
@@ -28347,7 +27011,7 @@ const salesManCode = [
     {
         "Territory Partner": "TTANS",
         "Class": "Community Sellers",
-        "Region": "Upper South Luzon",
+        "Region": "Central South Luzon",
         "Sales Code": "PSTSB40004",
         "Trade Name": "Arnold Siga-An",
         "Status": "Included"
@@ -28355,7 +27019,7 @@ const salesManCode = [
     {
         "Territory Partner": "TTANS",
         "Class": "Community Sellers",
-        "Region": "Upper South Luzon",
+        "Region": "Central South Luzon",
         "Sales Code": "PSTSB40003",
         "Trade Name": "ANNA LOU SADIWA",
         "Status": "Included"
@@ -28548,48 +27212,8 @@ const salesManCode = [
         "Territory Partner": "CRFT",
         "Class": "Satlite dealer",
         "Region": "Central Visayas",
-        "Sales Code": "XPL9ASEB",
-        "Trade Name": "CALTEX TAYTAY",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "CRFT",
-        "Class": "Satlite dealer",
-        "Region": "Central Visayas",
-        "Sales Code": "XPL9ASCH",
-        "Trade Name": "Maflomo Marketing",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "CRFT",
-        "Class": "Satlite dealer",
-        "Region": "Central Visayas",
-        "Sales Code": "XPL4ASCD",
-        "Trade Name": "Sitjar Electronics",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "CRFT",
-        "Class": "Satlite dealer",
-        "Region": "Central Visayas",
-        "Sales Code": "SDCTC40022",
-        "Trade Name": "WLS Satellite Direct TV Services",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "CRFT",
-        "Class": "Satlite dealer",
-        "Region": "Central Visayas",
         "Sales Code": "SDCTC40001",
         "Trade Name": "Keely Shaye Store",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "CRFT",
-        "Class": "Satlite dealer",
-        "Region": "Central Visayas",
-        "Sales Code": "SDC4CT004622",
-        "Trade Name": "BAM Cellphone Accessories",
         "Status": "Included"
     },
     {
@@ -28628,24 +27252,8 @@ const salesManCode = [
         "Territory Partner": "CRFT",
         "Class": "Satlite dealer",
         "Region": "Central Visayas",
-        "Sales Code": "SDC4CT002922",
-        "Trade Name": "RA Hardware",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "CRFT",
-        "Class": "Satlite dealer",
-        "Region": "Central Visayas",
         "Sales Code": "SDC4CT002822",
         "Trade Name": "KCE",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "CRFT",
-        "Class": "Satlite dealer",
-        "Region": "Central Visayas",
-        "Sales Code": "SDC4CT001522",
-        "Trade Name": "Giselle Satlite Center",
         "Status": "Included"
     },
     {
@@ -28740,14 +27348,6 @@ const salesManCode = [
         "Territory Partner": "Fixcells",
         "Class": "Satlite dealer",
         "Region": "East Central Luzon",
-        "Sales Code": "TKC7ASAE",
-        "Trade Name": "Trendtech",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Fixcells",
-        "Class": "Satlite dealer",
-        "Region": "East Central Luzon",
         "Sales Code": "TKC5ASCJ",
         "Trade Name": "GS General Merchandise",
         "Status": "Included"
@@ -28766,14 +27366,6 @@ const salesManCode = [
         "Region": "East Central Luzon",
         "Sales Code": "SDX1FS001422",
         "Trade Name": "Maximo Gogo",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "Fixcells",
-        "Class": "Satlite dealer",
-        "Region": "East Central Luzon",
-        "Sales Code": "SDFSX10015",
-        "Trade Name": "Balajadia Grocery Store",
         "Status": "Included"
     },
     {
@@ -28993,6 +27585,14 @@ const salesManCode = [
         "Status": "Included"
     },
     {
+        "Territory Partner": "Mega Durian 2",
+        "Class": "Satlite dealer",
+        "Region": "South Mindanao",
+        "Sales Code": "SDV3M2000923",
+        "Trade Name": "Greenline Cellphone and Accessories",
+        "Status": "Included"
+    },
+    {
         "Territory Partner": "N. Phoenix",
         "Class": "Satlite dealer",
         "Region": "North Luzon East",
@@ -29092,48 +27692,8 @@ const salesManCode = [
         "Territory Partner": "PDI Negros Or",
         "Class": "Satlite dealer",
         "Region": "Western Visayas",
-        "Sales Code": "SDPRG40001",
-        "Trade Name": "Ben-J Marketing",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Negros Or",
-        "Class": "Satlite dealer",
-        "Region": "Western Visayas",
-        "Sales Code": "SDG4PR000723",
-        "Trade Name": "Nelba Store",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Negros Or",
-        "Class": "Satlite dealer",
-        "Region": "Western Visayas",
-        "Sales Code": "SDG4PR000623",
-        "Trade Name": "CafeLink",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Negros Or",
-        "Class": "Satlite dealer",
-        "Region": "Western Visayas",
         "Sales Code": "SDG4PR000523",
         "Trade Name": "Ostia Pisone",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Negros Or",
-        "Class": "Satlite dealer",
-        "Region": "Western Visayas",
-        "Sales Code": "SDG4PR000423",
-        "Trade Name": "HDL Enterprises",
-        "Status": "Included"
-    },
-    {
-        "Territory Partner": "PDI Panay East",
-        "Class": "Satlite dealer",
-        "Region": "Western Visayas",
-        "Sales Code": "VAQMASCZ",
-        "Trade Name": "PARK N SHOP",
         "Status": "Included"
     },
     {
@@ -29195,7 +27755,7 @@ const salesManCode = [
     {
         "Territory Partner": "TTANS",
         "Class": "Satlite dealer",
-        "Region": "Upper South Luzon",
+        "Region": "Central South Luzon",
         "Sales Code": "UAK97SHC",
         "Trade Name": "LJEF Electronics & Appliance Center",
         "Status": "Included"
@@ -29204,16 +27764,16 @@ const salesManCode = [
         "Territory Partner": "Uniglobal",
         "Class": "Satlite dealer",
         "Region": "East Mindanao",
-        "Sales Code": "WU6UASAB",
-        "Trade Name": "ISAGANI GENERAL MERCHANDISE",
+        "Sales Code": "WU63ABDB",
+        "Trade Name": "CELL SAT",
         "Status": "Included"
     },
     {
         "Territory Partner": "Uniglobal",
         "Class": "Satlite dealer",
         "Region": "East Mindanao",
-        "Sales Code": "WU63ABDB",
-        "Trade Name": "CELL SAT",
+        "Sales Code": "WU6UASAB",
+        "Trade Name": "ISAGANI GENERAL MERCHANDISE",
         "Status": "Included"
     },
     {
@@ -29473,14 +28033,6 @@ const salesManCode = [
         "Status": "Included"
     },
     {
-        "Territory Partner": "Koks",
-        "Class": "TP Outlet",
-        "Region": "Western Visayas",
-        "Sales Code": "VDPDBCPS",
-        "Trade Name": "Kok's Stitch and Craft - Boracay Branch",
-        "Status": "Included"
-    },
-    {
         "Territory Partner": "Oxworld",
         "Class": "TP Outlet",
         "Region": "NCR",
@@ -29577,14 +28129,6 @@ const salesManCode = [
         "Status": "Included"
     },
     {
-        "Territory Partner": "PDI Negros Or",
-        "Class": "TP Outlet",
-        "Region": "Western Visayas",
-        "Sales Code": "VCSFBXXX",
-        "Trade Name": "PDI Dumaguete Robinsons",
-        "Status": "Included"
-    },
-    {
         "Territory Partner": "Save and Earn",
         "Class": "TP Outlet",
         "Region": "Central Visayas",
@@ -29621,7 +28165,7 @@ const salesManCode = [
         "Class": "TP Outlet",
         "Region": "Central Visayas",
         "Sales Code": "VLUNAXXX",
-        "Trade Name": "SNE Branch/ Leah Morigo",
+        "Trade Name": "Cignal Retail - SNE BQ",
         "Status": "Included"
     },
     {
@@ -29629,7 +28173,7 @@ const salesManCode = [
         "Class": "TP Outlet",
         "Region": "Central Visayas",
         "Sales Code": "VLUMAXXX",
-        "Trade Name": "SNE Branch/Michel Canono",
+        "Trade Name": "Cignal Retail - SNE The City Square",
         "Status": "Included"
     },
     {
@@ -29787,7 +28331,7 @@ const salesManCode = [
     {
         "Territory Partner": "TTANS",
         "Class": "TP Outlet",
-        "Region": "Upper South Luzon",
+        "Region": "Central South Luzon",
         "Sales Code": "UAK8ASCH",
         "Trade Name": "T.TAN's DROP-IN SHOP",
         "Status": "Included"
@@ -29833,51 +28377,51 @@ const salesManCode = [
         "Status": "Included"
     },
     {
-        "Territory Partner": "DLM",
-        "Class": "TP Hub",
-        "Region": "Lower South Luzon",
-        "Sales Code": "UMMCJXXX",
-        "Trade Name": "DLM IRIGA CITY",
-        "Status": "Not Included"
-    },
-    {
-        "Territory Partner": "Vitalize",
-        "Class": "TP Online Store",
-        "Region": "NCR",
-        "Sales Code": "X4XGAFBO",
-        "Trade Name": "Vita-Lize Distribution Inc Online Store",
-        "Status": "Not Included"
-    },
-    {
-        "Territory Partner": "Greentelcom 2 (Rizal)",
+        "Territory Partner": "Innovasia Batangas",
         "Class": "Agent-Installer",
-        "Region": "NCR",
-        "Sales Code": "XEXXASHG",
-        "Trade Name": "Willart Services",
+        "Region": "Upper South Luzon",
+        "Sales Code": "UAI1USAA",
+        "Trade Name": "Jeronimo Corales",
         "Status": "Not Included"
     },
     {
-        "Territory Partner": "BSL BULACAN",
+        "Territory Partner": "Go Sigla LagQuez",
         "Class": "Exclusive",
-        "Region": "East Central Luzon",
-        "Sales Code": "TCHVASCD",
-        "Trade Name": "RDG Enterprises",
+        "Region": "Central South Luzon",
+        "Sales Code": "UJJFASCC",
+        "Trade Name": "RAYLI DIGITAL TV",
+        "Status": "Not Included"
+    },
+    {
+        "Territory Partner": "Innovasia Batangas",
+        "Class": "Exclusive",
+        "Region": "Upper South Luzon",
+        "Sales Code": "AIIAY30079",
+        "Trade Name": "CIGNAL CALATAGAN",
         "Status": "Not Included"
     },
     {
         "Territory Partner": "Go Sigla LagQuez",
         "Class": "CPS",
         "Region": "Central South Luzon",
-        "Sales Code": "UJJEASCM",
-        "Trade Name": "AEM TECH Enterprise",
+        "Sales Code": "UJJCASCF",
+        "Trade Name": "Monserrat JV Enterprise",
         "Status": "Not Included"
     },
     {
-        "Territory Partner": "Oro graphic",
+        "Territory Partner": "Greentelcom 2 (Rizal)",
         "Class": "CPS",
-        "Region": "Northwest Mindanao",
-        "Sales Code": "WJIJASSD",
-        "Trade Name": "Jann (authorized dealer/installer)",
+        "Region": "NCR",
+        "Sales Code": "XEX7ZWAK",
+        "Trade Name": "Allerson Enterprise",
+        "Status": "Not Included"
+    },
+    {
+        "Territory Partner": "PDI Negros",
+        "Class": "CPS",
+        "Region": "Western Visayas",
+        "Sales Code": "VBRCASAA",
+        "Trade Name": "Carluz Place Pension House",
         "Status": "Not Included"
     }
 ];
