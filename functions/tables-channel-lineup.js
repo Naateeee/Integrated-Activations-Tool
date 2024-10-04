@@ -1,4 +1,4 @@
-// Channel Line-Up as of May 16, 2024
+// Channel Line-Up as of July 25, 2024
 const channels = [
     {
         No: "4",
@@ -2289,8 +2289,29 @@ function compareChannels() {
     secondPlanPriceField.style.fontSize = "16px";
 
     // Calculate the total price including the box charges
+    let firstPlanTotal = planPrices[firstPlan] ? planPrices[firstPlan] : 0;
+    let secondPlanTotal = planPrices[secondPlan] ? planPrices[secondPlan] : 0;
+
+    /* // Calculate the total price including the box charges
     const firstPlanTotal = planPrices[firstPlan] ? planPrices[firstPlan] + (numberOfBoxes * 230) : 0;
-    const secondPlanTotal = planPrices[secondPlan] ? planPrices[secondPlan] + (numberOfBoxes * 230) : 0;
+    const secondPlanTotal = planPrices[secondPlan] ? planPrices[secondPlan] + (numberOfBoxes * 230) : 0; */
+
+    // Handle Plan1990 free box scenario
+    if (firstPlan === "Plan1990") {
+        if (numberOfBoxes > 2) {
+            firstPlanTotal += (numberOfBoxes - 2) * 230; // Charge for the 3rd and 4th box
+        }
+    } else {
+        firstPlanTotal += (numberOfBoxes - 1) * 230; // Charge for additional boxes (excluding the first)
+    }
+
+    if (secondPlan === "Plan1990") {
+        if (numberOfBoxes > 2) {
+            secondPlanTotal += (numberOfBoxes - 2) * 230; // Charge for the 3rd and 4th box
+        }
+    } else {
+        secondPlanTotal += (numberOfBoxes - 1) * 230; // Charge for additional boxes (excluding the first)
+    }
 
     // Set the total prices in the read-only text fields
     firstPlanPriceField.value = firstPlanTotal ? `₱${firstPlanTotal}` : "N/A";
@@ -2332,60 +2353,42 @@ function compareChannels() {
 
     // Add total count row
     const totalRow = document.createElement("tr");
-
     const totalCell = document.createElement("td");
     totalCell.setAttribute("colspan", "3");
     totalCell.textContent = "Total Channels";
-    totalCell.style.fontWeight = "bolder"; // Make the text bold
-    totalCell.style.textAlign = "right"; // Align text to the right
-    totalCell.style.fontSize = "16px"; // Set the font size
+    totalCell.style.fontWeight = "bolder";
+    totalCell.style.textAlign = "right";
+    totalCell.style.fontSize = "16px";
     totalRow.appendChild(totalCell);
 
     const countCell = document.createElement("td");
     countCell.textContent = combinedResults.length;
-    countCell.style.fontWeight = "bolder"; // Make the text bold
-    countCell.style.fontSize = "16px"; // Set the font size
+    countCell.style.fontWeight = "bolder";
+    countCell.style.fontSize = "16px";
     totalRow.appendChild(countCell);
 
     channelTableBody.appendChild(totalRow);
 
-    // Calculate and display the plan price difference
-    if (planPrices[firstPlan] && planPrices[secondPlan]) {
-        const priceDifference = planPrices[secondPlan] - planPrices[firstPlan];
+    // Calculate the price difference
+    const priceDifference = secondPlanTotal - firstPlanTotal;
 
-        const priceRow = document.createElement("tr");
-        const priceCell = document.createElement("td");
-        priceCell.setAttribute("colspan", "3");
-        priceCell.textContent = "Additional Fee";
-        priceCell.style.fontWeight = "bolder"; // Make the text bold
-        priceCell.style.textAlign = "right"; // Align text to the right
-        priceCell.style.fontSize = "16px"; // Set the font size
-        priceRow.appendChild(priceCell);
+    const differenceRow = document.createElement("tr");
+    const differenceCell = document.createElement("td");
+    differenceCell.setAttribute("colspan", "3");
+    differenceCell.textContent = "Price Difference";
+    differenceCell.style.fontWeight = "bolder";
+    differenceCell.style.textAlign = "right";
+    differenceCell.style.fontSize = "16px";
+    differenceRow.appendChild(differenceCell);
 
-        const differenceCell = document.createElement("td");
-        differenceCell.textContent = `₱${priceDifference}`;
-        differenceCell.style.fontWeight = "bolder"; // Make the text bold
-        differenceCell.style.color = "red"; // Set the text color to red
-        differenceCell.style.fontSize = "16px"; // Set the font size
-        priceRow.appendChild(differenceCell);
+    const priceCell = document.createElement("td");
+    priceCell.textContent = `₱${priceDifference}`;
+    priceCell.style.fontWeight = "bolder";
+    priceCell.style.fontSize = "16px";
+    priceCell.style.color = "red";
+    differenceRow.appendChild(priceCell);
 
-        channelTableBody.appendChild(priceRow);
-    }
-}
-
-// Function to calculate the total price for the first plan
-function calculateFirstPlanTotalPrice(firstPlan, numberOfBoxes) {
-    let totalPrice = planPrices[firstPlan] || 0;
-
-    if (firstPlan === "Plan1990") {
-        if (numberOfBoxes > 2) {
-            totalPrice += (numberOfBoxes - 2) * 230; // Charge only for the third and fourth boxes
-        }
-    } else {
-        totalPrice += numberOfBoxes * 230; // Charge for all boxes
-    }
-
-    return totalPrice;
+    channelTableBody.appendChild(differenceRow);
 }
 
 function clearFilter() {
