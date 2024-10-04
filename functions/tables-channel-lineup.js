@@ -1,9 +1,9 @@
-// Channel Line-Up as of July 25, 2024
+// Channel Line-Up as of October 3, 2024
 const channels = [
     {
         No: "4",
         ChannelName: "PTV",
-        Category: "LOCAL CHANNELS",
+        Category: "LOCAL CHANNEL",
         AllThingsEnt: "yes",
         SportsAction: "yes",
         PinoyAndAsian: "yes",
@@ -19,7 +19,7 @@ const channels = [
     {
         No: "5",
         ChannelName: "TV5",
-        Category: "LOCAL CHANNELS",
+        Category: "LOCAL CHANNEL",
         AllThingsEnt: "yes",
         SportsAction: "yes",
         PinoyAndAsian: "yes",
@@ -35,7 +35,7 @@ const channels = [
     {
         No: "6",
         ChannelName: "One Sports",
-        Category: "LOCAL CHANNELS",
+        Category: "LOCAL CHANNEL",
         AllThingsEnt: "yes",
         SportsAction: "yes",
         PinoyAndAsian: "yes",
@@ -51,7 +51,7 @@ const channels = [
     {
         No: "7",
         ChannelName: "GMA",
-        Category: "LOCAL CHANNELS",
+        Category: "LOCAL CHANNEL",
         AllThingsEnt: "yes",
         SportsAction: "yes",
         PinoyAndAsian: "yes",
@@ -67,7 +67,7 @@ const channels = [
     {
         No: "9",
         ChannelName: "RPTV",
-        Category: "LOCAL CHANNELS",
+        Category: "LOCAL CHANNEL",
         AllThingsEnt: "yes",
         SportsAction: "yes",
         PinoyAndAsian: "yes",
@@ -83,7 +83,7 @@ const channels = [
     {
         No: "10",
         ChannelName: "RPTV HD",
-        Category: "LOCAL CHANNELS",
+        Category: "LOCAL CHANNEL",
         AllThingsEnt: "yes",
         SportsAction: "yes",
         PinoyAndAsian: "yes",
@@ -99,7 +99,7 @@ const channels = [
     {
         No: "11",
         ChannelName: "GTV",
-        Category: "LOCAL CHANNELS",
+        Category: "LOCAL CHANNEL",
         AllThingsEnt: "yes",
         SportsAction: "yes",
         PinoyAndAsian: "yes",
@@ -115,7 +115,7 @@ const channels = [
     {
         No: "13",
         ChannelName: "IBC 13",
-        Category: "LOCAL CHANNELS",
+        Category: "LOCAL CHANNEL",
         AllThingsEnt: "yes",
         SportsAction: "yes",
         PinoyAndAsian: "yes",
@@ -131,7 +131,7 @@ const channels = [
     {
         No: "14",
         ChannelName: "Net 25",
-        Category: "LOCAL CHANNELS",
+        Category: "LOCAL CHANNEL",
         AllThingsEnt: "yes",
         SportsAction: "yes",
         PinoyAndAsian: "yes",
@@ -147,7 +147,7 @@ const channels = [
     {
         No: "15",
         ChannelName: "TV5 HD",
-        Category: "LOCAL CHANNELS",
+        Category: "LOCAL CHANNEL",
         AllThingsEnt: "yes",
         SportsAction: "yes",
         PinoyAndAsian: "yes",
@@ -163,7 +163,7 @@ const channels = [
     {
         No: "255",
         ChannelName: "TV5 HD",
-        Category: "LOCAL CHANNELS",
+        Category: "LOCAL CHANNEL",
         AllThingsEnt: "yes",
         SportsAction: "yes",
         PinoyAndAsian: "yes",
@@ -179,7 +179,7 @@ const channels = [
     {
         No: "17",
         ChannelName: "One Sports HD",
-        Category: "LOCAL CHANNELS",
+        Category: "LOCAL CHANNEL",
         AllThingsEnt: "yes",
         SportsAction: "yes",
         PinoyAndAsian: "yes",
@@ -195,7 +195,7 @@ const channels = [
     {
         No: "258",
         ChannelName: "One Sports HD",
-        Category: "LOCAL CHANNELS",
+        Category: "LOCAL CHANNEL",
         AllThingsEnt: "yes",
         SportsAction: "yes",
         PinoyAndAsian: "yes",
@@ -211,7 +211,7 @@ const channels = [
     {
         No: "19",
         ChannelName: "True FM TV",
-        Category: "LOCAL CHANNELS",
+        Category: "LOCAL CHANNEL",
         AllThingsEnt: "yes",
         SportsAction: "yes",
         PinoyAndAsian: "yes",
@@ -227,7 +227,7 @@ const channels = [
     {
         No: "20",
         ChannelName: "A2Z",
-        Category: "LOCAL CHANNELS",
+        Category: "LOCAL CHANNEL",
         AllThingsEnt: "yes",
         SportsAction: "yes",
         PinoyAndAsian: "yes",
@@ -243,7 +243,7 @@ const channels = [
     {
         No: "21",
         ChannelName: "Solar Flix",
-        Category: "LOCAL CHANNELS",
+        Category: "LOCAL CHANNEL",
         AllThingsEnt: "yes",
         SportsAction: "yes",
         PinoyAndAsian: "yes",
@@ -259,7 +259,7 @@ const channels = [
     {
         No: "23",
         ChannelName: "Aliw",
-        Category: "LOCAL CHANNELS",
+        Category: "LOCAL CHANNEL",
         AllThingsEnt: "yes",
         SportsAction: "yes",
         PinoyAndAsian: "yes",
@@ -275,7 +275,7 @@ const channels = [
     {
         No: "28",
         ChannelName: "RJ TV",
-        Category: "LOCAL CHANNELS",
+        Category: "LOCAL CHANNEL",
         AllThingsEnt: "yes",
         SportsAction: "yes",
         PinoyAndAsian: "yes",
@@ -291,7 +291,7 @@ const channels = [
     {
         No: "16",
         ChannelName: "AllTV",
-        Category: "LOCAL CHANNELS",
+        Category: "LOCAL CHANNEL",
         AllThingsEnt: "yes",
         SportsAction: "yes",
         PinoyAndAsian: "yes",
@@ -2079,6 +2079,22 @@ const channels = [
         Plan1350: "yes",
         Plan1650: "yes",
         Plan1990: "yes"
+    },
+    {
+        No: "24",
+        ChannelName: "Bilyonaryo Channel",
+        Category: "LOCAL CHANNEL",
+        AllThingsEnt: "yes",
+        SportsAction: "yes",
+        PinoyAndAsian: "yes",
+        FamTime: "yes",
+        Plan290: "yes",
+        Plan520: "yes",
+        Plan720: "yes",
+        Plan1050: "yes",
+        Plan1350: "yes",
+        Plan1650: "yes",
+        Plan1990: "yes"
     }
 ];
 
@@ -2291,10 +2307,6 @@ function compareChannels() {
     // Calculate the total price including the box charges
     let firstPlanTotal = planPrices[firstPlan] ? planPrices[firstPlan] : 0;
     let secondPlanTotal = planPrices[secondPlan] ? planPrices[secondPlan] : 0;
-
-    /* // Calculate the total price including the box charges
-    const firstPlanTotal = planPrices[firstPlan] ? planPrices[firstPlan] + (numberOfBoxes * 230) : 0;
-    const secondPlanTotal = planPrices[secondPlan] ? planPrices[secondPlan] + (numberOfBoxes * 230) : 0; */
 
     // Handle Plan1990 free box scenario
     if (firstPlan === "Plan1990") {
