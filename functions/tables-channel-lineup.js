@@ -1,4 +1,5 @@
-// Channel Line-Up as of October 3, 2024
+// Channel Line-Up as of January 13, 2025
+// end of contract "TAP Edge & Premium Football HD"
 const channels = [
     {
         No: "4",
@@ -291,6 +292,22 @@ const channels = [
     {
         No: "16",
         ChannelName: "AllTV",
+        Category: "LOCAL CHANNEL",
+        AllThingsEnt: "yes",
+        SportsAction: "yes",
+        PinoyAndAsian: "yes",
+        FamTime: "yes",
+        Plan290: "yes",
+        Plan520: "yes",
+        Plan720: "yes",
+        Plan1050: "yes",
+        Plan1350: "yes",
+        Plan1650: "yes",
+        Plan1990: "yes"
+    },
+    {
+        No: "24",
+        ChannelName: "Bilyonaryo Channel",
         Category: "LOCAL CHANNEL",
         AllThingsEnt: "yes",
         SportsAction: "yes",
@@ -877,8 +894,8 @@ const channels = [
         Plan720: "",
         Plan1050: "",
         Plan1350: "",
-        Plan1650: "yes",
-        Plan1990: "yes"
+        Plan1650: "",
+        Plan1990: ""
     },
     {
         No: "272",
@@ -1421,8 +1438,8 @@ const channels = [
         Plan720: "",
         Plan1050: "",
         Plan1350: "",
-        Plan1650: "yes",
-        Plan1990: "yes"
+        Plan1650: "",
+        Plan1990: ""
     },
     {
         No: "230",
@@ -1876,14 +1893,14 @@ const channels = [
         No: "166",
         ChannelName: "CGTN Documentary",
         Category: "FOREIGN CH",
-        AllThingsEnt: "",
-        SportsAction: "",
-        PinoyAndAsian: "",
-        FamTime: "",
-        Plan290: "",
-        Plan520: "",
-        Plan720: "",
-        Plan1050: "",
+        AllThingsEnt: "yes",
+        SportsAction: "yes",
+        PinoyAndAsian: "yes",
+        FamTime: "yes",
+        Plan290: "yes",
+        Plan520: "yes",
+        Plan720: "yes",
+        Plan1050: "yes",
         Plan1350: "yes",
         Plan1650: "yes",
         Plan1990: "yes"
@@ -2079,22 +2096,12 @@ const channels = [
         Plan1350: "yes",
         Plan1650: "yes",
         Plan1990: "yes"
-    },
+    }
+];
+
+const audiochannels = [
     {
-        No: "24",
-        ChannelName: "Bilyonaryo Channel",
-        Category: "LOCAL CHANNEL",
-        AllThingsEnt: "yes",
-        SportsAction: "yes",
-        PinoyAndAsian: "yes",
-        FamTime: "yes",
-        Plan290: "yes",
-        Plan520: "yes",
-        Plan720: "yes",
-        Plan1050: "yes",
-        Plan1350: "yes",
-        Plan1650: "yes",
-        Plan1990: "yes"
+
     }
 ];
 
@@ -2113,7 +2120,6 @@ const channelsWithCheck = channels.map(channel => replaceYesWithCheck(channel));
 
 // Output the modified channels
 console.table(channelsWithCheck);
-
 
 // Function to populate the table and calculate totals
 function populateTable(data) {
@@ -2362,6 +2368,45 @@ function compareChannels() {
 
         channelTableBody.appendChild(row);
     });
+
+    /*// Count channels by category for each plan
+    const categoryCount = {};
+
+    channels.forEach(channel => {
+        const category = channel.Category;
+        if (!categoryCount[category]) {
+            categoryCount[category] = { [firstPlan]: 0, [secondPlan]: 0 };
+        }
+        if (channel[firstPlan] === "✓") {
+            categoryCount[category][firstPlan]++;
+        }
+        if (channel[secondPlan] === "✓") {
+            categoryCount[category][secondPlan]++;
+        }
+    });
+
+    // Display category count for each plan
+    Object.keys(categoryCount).forEach(category => {
+        const row = document.createElement("tr");
+
+        const categoryCell = document.createElement("td");
+        categoryCell.textContent = category;
+        row.appendChild(categoryCell);
+
+        const firstPlanCountCell = document.createElement("td");
+        firstPlanCountCell.textContent = categoryCount[category][firstPlan];
+        row.appendChild(firstPlanCountCell);
+
+        const secondPlanCountCell = document.createElement("td");
+        secondPlanCountCell.textContent = categoryCount[category][secondPlan];
+        row.appendChild(secondPlanCountCell);
+
+        const diffCell = document.createElement("td");
+        diffCell.textContent = categoryCount[category][secondPlan] - categoryCount[category][firstPlan];
+        row.appendChild(diffCell);
+
+        channelTableBody.appendChild(row);
+    }); */
 
     // Add total count row
     const totalRow = document.createElement("tr");
