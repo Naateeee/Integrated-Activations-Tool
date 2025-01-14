@@ -5,7 +5,7 @@ let baseModel  = {
 
 /* ========================= For Activation Notes ========================= */
 
-/* function checkNotesValueFA() {
+function checkNotesValueFA() {
     var notesValueFA = document.getElementById("notesFA").value;
     var clearButtonFA = document.getElementById("clearButtonFA");
     var copyButtonFA = document.getElementById("copyButtonFA");
@@ -24,7 +24,7 @@ let baseModel  = {
     }
 }
 checkNotesValueFA();
-document.getElementById("notesFA").addEventListener("input", checkNotesValueFA); */
+document.getElementById("notesFA").addEventListener("input", checkNotesValueFA); 
 
 function forActivation() {
     var phoneFA = document.getElementById("phoneFA").value;
@@ -43,7 +43,7 @@ function forActivation() {
     } else {
         notesFA.value = "PHONE VERIFICATION: " + phoneFA + "\n1ST PARTY CALL OUT: " + callFA + "\nITEMS DISCUSSED: " + itemsFA + "\n\nACCOUNT ACTIVE:\nHIGHEST PLAN APPROVED: " + hpaFA + "\nTICKET NUMBER: " + ticketFA;
     }
-    // checkNotesValueFA();
+    checkNotesValueFA();
 
     // Apply styling to the notes
     notesFA.style.fontFamily = 'Courier New, Courier, monospace';
@@ -63,7 +63,7 @@ function clearNotesFA() {
     document.getElementById("ticketFA").value = '';
     document.getElementById("notesFA").value = '';
 
-    // checkNotesValueFA();
+    checkNotesValueFA();
 }
 
 function copyNotesFA() {
@@ -90,8 +90,6 @@ function copyCallOutFA() {
             var endPos = startPos + copiedTextFA.length;
             document.getElementById("notesFA").focus();
             document.getElementById("notesFA").setSelectionRange(startPos, endPos);
-
-            // alert("Text copied successfully! \n\n"+copiedText);
         })
         .catch(err => {
             console.error('Failed to copy: ', err);
@@ -115,8 +113,6 @@ function copyActivationFA() {
             var endPos = startPos + copiedTextFA.length;
             document.getElementById("notesFA").focus();
             document.getElementById("notesFA").setSelectionRange(startPos, endPos);
-
-            // alert("Text copied successfully! \n\n"+copiedText);
         })
         .catch(err => {
             console.error('Failed to copy: ', err);
@@ -155,7 +151,7 @@ function unsucCallOut() {
     } else {
         notesUCO.value = "PHONE VERIFICATION: " + phoneUCO + "\nNUMBER CALLED: " + mobileUCO + "\nSTATUS: " + reasonUCO + "\nITEMS TO VERIFY: " + verifyUCO;
     }
-    // checkNotesValue();
+    checkNotesValue();
 
     // Apply styling to the notes
     notesUCO.style.fontFamily = 'Courier New, Courier, monospace';
@@ -174,7 +170,7 @@ function clearNotesUCO() {
     document.getElementById("verifyUCO").value = '';
     document.getElementById("notesUCO").value = '';
 
-    // checkNotesValue();
+    checkNotesValue();
 }
 
 function copyNotesUCO() {
