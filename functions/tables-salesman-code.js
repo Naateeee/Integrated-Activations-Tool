@@ -1,5 +1,19 @@
-// ID Only List for January 2025
+// ID Only List for January 16, 2025
 const salesManCode = [
+    {
+        "Territory Partner": "8 telcom",
+        "Class": "TP Online Store",
+        "Region": "South Mindanao",
+        "Sales Code": "TOG38M002125",
+        "Trade Name": "8 telcom Online"
+    },
+    {
+        "Territory Partner": "NB Rebeta",
+        "Class": "Agent-Installer",
+        "Region": "Lower South Luzon",
+        "Sales Code": "AIL1NA001625",
+        "Trade Name": "Alvin Pielago"
+    },
     {
         "Territory Partner": "BSL",
         "Class": "CSS",

@@ -10,94 +10,100 @@
     <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" id="light-style">
     <link href="assets/css/app-dark.min.css" rel="stylesheet" type="text/css" id="dark-style">
 </head>
-<body class="loading">
+<body class="loading" data-layout="topnav">
+
+    <!-- start page -->
     <div class="wrapper">
 
-        <!-- Sidebar -->
-        <div class="leftside-menu">
-            <a href="index.html" class="logo text-center lo go-light">
-                <span class="logo-lg"><img src="assets/images/logo.png" alt="" height="46"></span>
-                <span class="logo-sm"><img src="assets/images/logo_sm.png" alt="" height="46"></span>
-            </a>
-            <a href="index.html" class="logo text-center logo-dark">
-                <span class="logo-lg"><img src="assets/images/logo-light.png" alt="" height="46"></span>
-                <span class="logo-sm"><img src="assets/images/logo_sm_dark.png" alt="" height="46"></span>
-            </a>
-    
-            <!--- Sidemenu -->
-            <div class="h-100" id="leftside-menu-container" data-simplebar="">
-                <ul class="side-nav">
-                    <li class="side-nav-title side-nav-item">Home</li>
-                    <li class="side-nav-item">
-                        <a href="index.html" class="side-nav-link"><i class="uil-home-alt"></i><span>Dashboard</span></a>
-                    </li>
-
-                    <li class="side-nav-title side-nav-item">Custom</li>
-                    <li class="side-nav-item">
-                        <a data-bs-toggle="collapse" href="#sidebarNotesGenerator" aria-expanded="false" aria-controls="sidebarNotesGenerator" class="side-nav-link">
-                            <i class="uil-copy-alt"></i><span>Notes Generator</span><span class="menu-arrow"></span>
-                        </a>
-                        <div class="collapse" id="sidebarNotesGenerator">
-                            <ul class="side-nav-second-level">
-                                <li><a href="notes-for_activation.html">For Activation</a></li>
-                                <li><a href="notes-unsuccessful.html">Unsuccessful</a></li>
-                                <li><a href="notes-with_compliance.html">With Compliance</a></li>
-                                <li><a href="notes-docs_and_sup_for_approval.html">Docs and Sup Approval</a></li>
-                                <li><a href="notes-pldt_and_radius.html">PLDT and Radius</a></li>
-                                <li><a href="notes-demo_and_syndication.html">Demo and Syndication</a></li>
-                                <li><a href="notes-vsat.html">VSAT</a></li>
-                                <li><a href="notes-other_ticket_assignment.html">Other Ticket Assignment</a></li>
-                            </ul>
-                        </div>
-                    </li>
-
-                    <li class="side-nav-title side-nav-item">Utilities</li>
-                    <li class="side-nav-item"><a href="utilities-hpa_calculator.html" class="side-nav-link"><i class="uil-calcualtor"></i><span>HPA Calculator</span></a></li>
-                    <li class="side-nav-item"><a href="utilities-email_template.html" class="side-nav-link"><i class="uil-envelope-edit"></i><span>Email Template</span></a></li>
-
-                    <li class="side-nav-title side-nav-item mt-1">Plugins</li>
-                    <li class="side-nav-item"><a href="tables-promo_matrix.html" class="side-nav-link"><i class="uil-store"></i><span>Promo Matrix</span></a></li>
-                    <li class="side-nav-item"><a href="tables-channel_lineup.html" class="side-nav-link"><i class="uil-tv-retro"></i><span>Channel Line-up</span></a></li>
-                    <li class="side-nav-item"><a href="tables-id_only.html" class="side-nav-link"><i class="uil-user-square"></i><span>Salesman Code</span></a></li>
-                    <li class="side-nav-item"><a href="tables-mdu.html" class="side-nav-link"><i class="uil-building"></i><span>MDU Address</span></a></li>
-
-                    <li class="side-nav-item">
-                        <a data-bs-toggle="collapse" href="#sidebarBarangay" aria-expanded="false" aria-controls="sidebarMaps" class="side-nav-link">
-                            <i class="uil-location-point"></i><span>List of Barangay</span><span class="menu-arrow"></span>
-                        </a>
-                        <div class="collapse" id="sidebarBarangay">
-                            <ul class="side-nav-second-level">
-                                <li><a href="tables-caloocan.html">Barangay in Caloocan</a></li>
-                                <li><a href="tables-manila.html">Barangay in Manila</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                </ul>
-                <div class="clearfix"></div>
-            </div><!-- end Sidemenu -->
-
-        </div><!-- end Sidebar -->
-
-        <!-- Content -->
         <div class="content-page">
             <div class="content">
 
-                <!-- Topbar -->
-                <div class="navbar-custom">
-                    <ul class="list-unstyled topbar-menu float-end mb-0">
-                        <li class="notification-list">
-                            <a class="nav-link nav-user me-0 text-dark">
-                                <span class="account-user-avatar"><img src="assets/images/users/user_nate.png" alt="user-image" class="rounded-circle"></span>
-                                <span>
-                                    <span class="account-user-name">Customer Experience Group</span>
-                                    <span class="account-position">Activation Officer</span>
-                                </span>
-                            </a>
-                        </li>
-                    </ul>
-                    <button class="button-menu-mobile open-left"><i class="mdi mdi-menu"></i></button>
+                <!-- topbar -->
+                <div class="navbar-custom topnav-navbar">
+                    <div class="container-fluid">
+                        <a href="index.html" class="topnav-logo">
+                            <span class="topnav-logo-lg"><img src="assets/images/logo-light.png" alt="" height="46"></span>
+                            <span class="topnav-logo-sm"><img src="assets/images/logo_sm.png" alt="" height="46"></span>
+                        </a>
+
+                        <ul class="list-unstyled topbar-menu float-end mb-0">
+                            <li class="dropdown notification-list">
+                                <a class="nav-link dropdown-toggle nav-user arrow-none me-0 text-dark" data-bs-toggle="dropdown" id="topbar-userdrop" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                    <span class="account-user-avatar"><img src="assets/images/users/user_nate.png" alt="user-image" class="rounded-circle"></span>
+                                    <span>
+                                        <span class="account-user-name">Customer Experience Group</span>
+                                        <span class="account-position">Activation Officer</span>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                    
+
+                <!-- topbar menu -->
+                <div class="topnav">
+                    <div class="container-fluid">
+                        <nav class="navbar navbar-dark navbar-expand-lg topnav-menu">
+                            <div class="collapse navbar-collapse" id="topnav-menu-content">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="index.html" id="topnav-dashboards" role="button">
+                                            <i class="uil-dashboard me-1"></i>Dashboards
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-notes" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <i class="uil-copy-alt me-1"></i>Notes Generator<div class="arrow-down"></div>
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="topnav-notes">
+                                            <a href="notes-for_activation.html" class="dropdown-item">For Activation</a>
+                                            <a href="notes-unsuccessful.html" class="dropdown-item">Unsuccessful</a>
+                                            <a href="notes-with_compliance.html" class="dropdown-item">With Compliance</a>
+                                            <a href="notes-docs_and_sup_for_approval.html" class="dropdown-item">Docs and Sup Approval</a>
+                                            <a href="notes-pldt_and_radius.html" class="dropdown-item">PLDT and Radius</a>
+                                            <a href="notes-demo_and_syndication.html" class="dropdown-item">Demo, Content, HRH</a>
+                                            <a href="notes-vsat.html" class="dropdown-item">VSAT Activation</a>
+                                            <a href="notes-other_ticket_assignment.html" class="dropdown-item">Other Ticket Assignment</a>
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-utilities" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <i class="uil-apps me-1"></i>Utilities<div class="arrow-down"></div>
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="topnav-utilities">
+                                            <a href="utilities-hpa_calculator.html" class="dropdown-item">HPA Calculator</a>
+                                            <a href="utilities-email_template.html" class="dropdown-item">Email Template</a>
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-plugins" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <i class="uil-window me-1"></i>Plugins<div class="arrow-down"></div>
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="topnav-plugins">
+                                            <a href="tables-promo_matrix.html" class="dropdown-item">Promo Matrix</a>
+                                            <a href="tables-channel_lineup.html" class="dropdown-item">Channel Line-up</a>
+                                            <a href="tables-id_only.html" class="dropdown-item">Salesman Code</a>
+                                            <a href="tables-mdu.html" class="dropdown-item">MDU Address</a>
+                                            <div class="dropdown">
+                                                <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-barangay" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    List of Barangay<div class="arrow-down"></div>
+                                                </a>
+                                                <div class="dropdown-menu" aria-labelledby="topnav-barangay">
+                                                    <a href="tables-caloocan.html" class="dropdown-item">Barangay in Caloocan</a>
+                                                    <a href="tables-manila.html" class="dropdown-item">Barangay in Manila</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+
                 <!-- Container -->
                 <div class="container-fluid">
                     <div class="row">
