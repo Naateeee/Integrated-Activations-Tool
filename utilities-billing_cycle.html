@@ -1,0 +1,327 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Billing Cycle</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="Integrated Activations Tool" name="description">
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" id="light-style">
+    <link href="assets/css/app-dark.min.css" rel="stylesheet" type="text/css" id="dark-style">
+</head>
+<body class="loading" data-layout="topnav">
+
+    <!-- start page -->
+    <div class="wrapper">
+        <div class="content-page">
+            <div class="content">
+
+                <!-- topbar -->
+                <div class="navbar-custom topnav-navbar">
+                    <div class="container-fluid">
+                        <a href="index.html" class="topnav-logo">
+                            <span class="topnav-logo-lg"><img src="assets/images/logo-light.png" alt="" height="46"></span>
+                            <span class="topnav-logo-sm"><img src="assets/images/logo_sm.png" alt="" height="46"></span>
+                        </a>
+
+                        <ul class="list-unstyled topbar-menu float-end mb-0">
+                            <li class="dropdown notification-list">
+                                <a class="nav-link dropdown-toggle nav-user arrow-none me-0 text-dark" data-bs-toggle="dropdown" id="topbar-userdrop" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                    <span class="account-user-avatar"><img src="assets/images/users/user_nate.png" alt="user-image" class="rounded-circle"></span>
+                                    <span>
+                                        <span class="account-user-name">Customer Experience Group</span>
+                                        <span class="account-position">Activation Officer</span>
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- topbar menu -->
+                <div class="topnav">
+                    <div class="container-fluid">
+                        <nav class="navbar navbar-dark navbar-expand-lg topnav-menu">
+                            <div class="collapse navbar-collapse" id="topnav-menu-content">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="index.html" id="topnav-dashboards" role="button">
+                                            <i class="uil-dashboard me-1"></i>Dashboards
+                                        </a>
+                                    </li>
+
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-notes" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <i class="uil-copy-alt me-1"></i>Notes Generator<div class="arrow-down"></div>
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="topnav-notes">
+                                            <a href="notes-for_activation.html" class="dropdown-item">For Activation</a>
+                                            <a href="notes-unsuccessful.html" class="dropdown-item">Unsuccessful</a>
+                                            <a href="notes-with_compliance.html" class="dropdown-item">With Compliance</a>
+                                            <a href="notes-docs_and_sup_for_approval.html" class="dropdown-item">Docs and Sup Approval</a>
+                                            <a href="notes-pldt_and_radius.html" class="dropdown-item">PLDT and Radius</a>
+                                            <a href="notes-demo_and_syndication.html" class="dropdown-item">Demo, Content, HRH</a>
+                                            <a href="notes-vsat.html" class="dropdown-item">VSAT Activation</a>
+                                            <a href="notes-other_ticket_assignment.html" class="dropdown-item">Other Ticket Assignment</a>
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-utilities" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <i class="uil-apps me-1"></i>Utilities<div class="arrow-down"></div>
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="topnav-utilities">
+                                            <a href="utilities-hpa_calculator.html" class="dropdown-item">HPA Calculator</a>
+                                            <a href="utilities-email_template.html" class="dropdown-item">Email Template</a>
+                                            <a href="utilities-billing_cycle.html" class="dropdown-item">Billing Cycle</a>
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-plugins" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                            <i class="uil-window me-1"></i>Plugins<div class="arrow-down"></div>
+                                        </a>
+                                        <div class="dropdown-menu" aria-labelledby="topnav-plugins">
+                                            <a href="tables-promo_matrix.html" class="dropdown-item">Promo Matrix</a>
+                                            <a href="tables-channel_lineup.html" class="dropdown-item">Channel Line-up</a>
+                                            <a href="tables-id_only.html" class="dropdown-item">Salesman Code</a>
+                                            <a href="tables-mdu.html" class="dropdown-item">MDU Address</a>
+                                            <div class="dropdown">
+                                                <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-barangay" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                    List of Barangay<div class="arrow-down"></div>
+                                                </a>
+                                                <div class="dropdown-menu" aria-labelledby="topnav-barangay">
+                                                    <a href="tables-caloocan.html" class="dropdown-item">Barangay in Caloocan</a>
+                                                    <a href="tables-manila.html" class="dropdown-item">Barangay in Manila</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>   
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+
+                    <!-- Container -->
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="page-title-box">
+                                    <div class="page-title-right">
+                                        <ol class="breadcrumb m-0">
+                                            <li class="breadcrumb-item"><a href="index.html">Integrateds Activation Tool</a></li>
+                                            <li class="breadcrumb-item fw-bold">Billing Cycle</li>
+                                        </ol>
+                                    </div>
+                                    <h5 class="page-title text-dark">BILLING CYCLE</h5>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">   
+                            <div class="col-4">
+                                <div class="card border">
+                                    <div class="card-body">
+
+                                    </div> <!-- end card body-->
+                                </div> <!-- end card -->
+                            </div> <!-- end col-->
+
+                            <div class="col-8">
+                                <div class="card border">
+                                    <div class="card-body">
+                                        <h4 class="text-title text-dark">Billing Cycle Map & Timeline</h4>
+
+                                        <ul class="nav nav-tabs mb-3">
+                                            <li class="nav-item">
+                                                <a href="#electric-bill" data-bs-toggle="tab" aria-expanded="true" class="nav-link fw-bold active">
+                                                    <i class="mdi mdi-home-variant d-md-none d-block"></i>
+                                                    <span class="d-none d-md-block">BC Map</span>
+                                                </a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a href="#income" data-bs-toggle="tab" aria-expanded="false" class="nav-link fw-bold">
+                                                    <i class="mdi mdi-home-variant d-md-none d-block"></i>
+                                                    <span class="d-none d-md-block">BC Timeline</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+    
+                                        <div class="tab-content">
+                                            <div class="tab-pane show active" id="electric-bill">
+                                                <div class="table-responsive-sm">
+                                                    <table class="table table-bordered table-hover text-center table-centered mb-0 text-dark">
+                                                        <thead class="table-dark">
+                                                            <tr>
+                                                                <th>Day</th>
+                                                                <th>Billing Action</th>
+                                                                <th>Metro Manila (BC1)</th>
+                                                                <th>North Luzon (BC2)</th>
+                                                                <th>Sout Luzon (BC3)</th>
+                                                                <th>Visayas (BC4)</th>
+                                                                <th>Mindanao (BC5)</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td class="fw-bold">1</td>
+                                                                <td>Bill generation</td>
+                                                                <td>1st of the month</td>
+                                                                <td>6th of the month</td>
+                                                                <td>11th of the month</td>
+                                                                <td>16th of the month</td>
+                                                                <td>21st of the month</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="fw-bold">5</td>
+                                                                <td>Bill printing</td>
+                                                                <td>5th of the month</td>
+                                                                <td>10th of the month</td>
+                                                                <td>15th of the month</td>
+                                                                <td>20th of the month</td>
+                                                                <td>25th of the month</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="fw-bold">7</td>
+                                                                <td>Bill delivery (to Courier)</td>
+                                                                <td>7th of the month</td>
+                                                                <td>12th of the month</td>
+                                                                <td>17th of the month</td>
+                                                                <td>22nd of the month</td>
+                                                                <td>27th of the month</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="fw-bold"></td>
+                                                                <td>Bill delivery (to Subs)</td>
+                                                                <td>12th of the month</td>
+                                                                <td>19th of the month</td>
+                                                                <td>24th of the month</td>
+                                                                <td>29th of the month</td>
+                                                                <td>4th of the month</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="fw-bold">12</td>
+                                                                <td>E-Bill delivery</td>
+                                                                <td>14th or 15th of each month</td>
+                                                                <td>19th or 20th of each month</td>
+                                                                <td>24th or 25th of each month</td>
+                                                                <td>29th or 30th of each month</td>
+                                                                <td>4th or 5th of the ff month</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="fw-bold">15</td>
+                                                                <td>Bill In-Transit SMS</td>
+                                                                <td>15th of each month</td>
+                                                                <td>20th of each month</td>
+                                                                <td>25th of each month</td>
+                                                                <td>30th of each month</td>
+                                                                <td>5th of ff month</td>
+                                                            </tr>
+                                                            <tr class="table-danger">
+                                                                <td class="fw-bold">25</td>
+                                                                <td>Due date</td>
+                                                                <td>25th of the month</td>
+                                                                <td>30th of the month</td>
+                                                                <td>5th of the ff month</td>
+                                                                <td>10th of the ff month</td>
+                                                                <td>15th of the ff month</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td class="fw-bold">33</td>
+                                                                <td>Billing reminder</td>
+                                                                <td>3rd of the ff month</td>
+                                                                <td>8th of the ff month</td>
+                                                                <td>13th of the ff month</td>
+                                                                <td>18th of the ff month</td>
+                                                                <td>23th of the ff month</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>                   
+                                            </div> <!-- end electric bill -->
+
+                                            <div class="tab-pane" id="income">
+                                                <div class="table-responsive-sm">
+                                                    <table class="table table-bordered table-hover text-center table-centered mb-0 text-dark">
+                                                        <thead class="table-dark">
+                                                            <tr>
+                                                                <th>Day</th>
+                                                                <th>Action</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            <tr>
+                                                                <td>Day 1</td>
+                                                                <td>Bill generation</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Day 7</td>
+                                                                <td>Bill delivery</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Day 10-12</td>
+                                                                <td>E-Bill delivery</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>Day 25</td>
+                                                                <td>Due date</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>6 days past due (Day 1 of 2nd SOA)</td>
+                                                                <td>Watermark on SOA: Pay Immediately</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>36 days past due (Day 1 of 3rd SOA)	</td>
+                                                                <td>First Notice of Disconnection</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>66 days past due (Day 1 of 4th SOA)</td>
+                                                                <td>Final Notice of Disconnection</td>
+                                                            </tr>
+                                                            <tr>
+                                                                <td>96 days past due</td>
+                                                                <td>Final bill</td>
+                                                            </tr>
+                                                        </tbody>
+                                                    </table>
+                                                </div>
+                                            </div> <!-- end income -->
+                                        </div> <!-- end tab-content-->
+
+                                    </div> <!-- end card body-->
+                                </div> <!-- end card -->
+                            </div> <!-- end col-->
+                        </div> <!-- end row-->
+
+                    </div> <!-- container -->
+
+                </div> <!-- content -->
+
+            <!-- Footer -->
+            <footer class="footer">
+                <div class="container-fluid">
+                    <div class="row small">
+                        <div class="col-md-6">
+                            <span>Project Initiative 2022-<script>document.write(new Date().getFullYear())</script></span>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="text-md-end footer-links d-none d-md-block">
+                                <a href="javascript: void(0);">&copy; Integrated Activations Tool</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+
+        </div> <!-- end container page -->
+
+    </div> <!-- end wrapper -->
+
+    <!-- bundle -->
+    <script src="assets/js/vendor.min.js"></script>
+    <script src="assets/js/app.min.js"></script>
+
+</body>
+</html>
