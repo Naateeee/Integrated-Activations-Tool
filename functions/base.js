@@ -179,3 +179,7 @@ function copyNotesUCO() {
     copyTextUCO.setSelectionRange(0, 99999);
     navigator.clipboard.writeText(copyTextUCO.value);
 }
+
+function clearAddress() {
+    document.getElementById("inputAddress").value = "";
+}

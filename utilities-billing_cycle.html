@@ -124,6 +124,50 @@
                             <div class="col-4">
                                 <div class="card border">
                                     <div class="card-body">
+                                        <h4 class="header-title text-center"></h4>
+                                        <div class="mb-3 text-center">
+                                            <label class="form-label fw-bold text-danger" for="inputAddress">City / Province :</label>
+                                            <input type="text" id="inputAddress" class="form-control text-center text-dark" placeholder="Enter address here..." required="">
+                                        </div>
+                                        <div class="mb-3 d-flex flex-row justify-content-center">
+                                            <button type="submit" class="btn btn-primary me-2" id="searchAddress" onclick="searchBilling();"><i class="uil-search-alt"></i>&nbsp;Search</button>
+                                            <button type="submit" class="btn btn-danger me-2" id="clearAddress" onclick="clearAddress();"><i class="uil-trash-alt"></i>&nbsp;clear</button>
+                                        </div>
+
+                                        <table class="table table-bordered table-centered display text-dark">
+                                            <thead class="text-center">
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <th class="table-secondary w-50">Address</th>
+                                                    <td id="address"></td>
+                                                </tr>
+                                                <tr>
+                                                    <th class="table-secondary w-50">Region</th>
+                                                    <td id="region"></td>
+                                                </tr>
+                                                <tr>
+                                                    <th class="table-secondary w-50">Bill generation</th>
+                                                    <td id="billGeneration"></td>
+                                                </tr>
+                                                <tr>
+                                                    <th class="table-secondary w-50">Bill delivery (courier to subs)</th>
+                                                    <td id="billDelivery"></td>
+                                                </tr>
+                                                <tr>
+                                                    <th class="table-secondary w-50">E-Bill delivery</th>
+                                                    <td id="eBillDelivery"></td>
+                                                </tr>
+                                                <tr>
+                                                    <th class="table-secondary w-50">Bill In-Transmit SMS</th>
+                                                    <td id="billSMS"></td>
+                                                </tr>
+                                                <tr>
+                                                    <th class="table-secondary w-50">Due date</th>
+                                                    <td id="dueDate"></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
 
                                     </div> <!-- end card body-->
                                 </div> <!-- end card -->
@@ -323,5 +367,7 @@
     <script src="assets/js/vendor.min.js"></script>
     <script src="assets/js/app.min.js"></script>
 
+    <script src="functions/base.js"></script>
+    <script src="functions/utilities-billing-cycle.js"></script>
 </body>
 </html>
