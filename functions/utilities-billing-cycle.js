@@ -1080,11 +1080,19 @@ const billingCycleDb = [
 ];
 
 function searchBilling() {
-    const query = document.getElementById("inputAddress").value.trim();
+    const searchBox = document.getElementById("inputAddress");
+    const query = searchBox.value.trim();
 
     // Function to capitalize the first letter of each word
     function toTitleCase(str) {
         return str.replace(/\b\w/g, char => char.toUpperCase());
+    }
+
+    if (query === "") {
+        // Open Bootstrap Modal
+        var myModal = new bootstrap.Modal(document.getElementById('danger-alert-modal'));
+        myModal.show();
+        return;
     }
 
     const formattedQuery = toTitleCase(query); // Normalize input capitalization
@@ -1102,6 +1110,8 @@ function searchBilling() {
         document.getElementById("billSMS").textContent = result["Bill In-Transmit SMS"];
         document.getElementById("dueDate").textContent = result["Due date"];
     } else {
-        alert("City/Province not found. Please check the spelling.");
+        // Show Info Alert Modal for unmatched input
+        var infoModal = new bootstrap.Modal(document.getElementById('info-alert-modal'));
+        infoModal.show();
     }
 }
