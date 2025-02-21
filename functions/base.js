@@ -182,4 +182,11 @@ function copyNotesUCO() {
 
 function clearAddress() {
     document.getElementById("inputAddress").value = "";
+    document.getElementById("address").textContent = "";
+    document.getElementById("region").textContent = "";
+    document.getElementById("billGeneration").textContent = "";
+    document.getElementById("billDelivery").textContent = "";
+    document.getElementById("eBillDelivery").textContent = "";
+    document.getElementById("billSMS").textContent = "";
+    document.getElementById("dueDate").textContent = "";
 }
