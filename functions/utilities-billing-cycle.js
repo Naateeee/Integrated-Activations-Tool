@@ -1079,7 +1079,7 @@ const billingCycleDb = [
     }
 ];
 
-function searchBilling() {
+/* function searchBilling() {
     const searchBox = document.getElementById("inputAddress");
     const query = searchBox.value.trim().toLowerCase();
 
@@ -1089,14 +1089,8 @@ function searchBilling() {
         myModal.show();
         return;
     }
-    /* Function to capitalize the first letter of each word
-    function toTitleCase(str) {
-        return str.replace(/\b\w/g, char => char.toUpperCase()); */
-
-    // const formattedQuery = toTitleCase(query); // Normalize input capitalization
 
     // Find the matching city/province
-
     const result = billingCycleDb.find(item => item["City / Province"].toLowerCase() === query);
 
     if (result) {
@@ -1110,6 +1104,59 @@ function searchBilling() {
         document.getElementById("dueDate").textContent = result["Due date"];
     } else {
         // Show Info Alert Modal for unmatched input
+        var infoModal = new bootstrap.Modal(document.getElementById('info-alert-modal'));
+        infoModal.show();
+    }
+} */
+
+function searchBilling() {
+    const searchBox = document.getElementById("inputAddress");
+    const query = searchBox.value.trim().toLowerCase();
+    
+    if (query === "") {
+        var myModal = new bootstrap.Modal(document.getElementById('danger-alert-modal'));
+        myModal.show();
+        return;
+    }
+    
+    const result = billingCycleDb.find(item => item["City / Province"].toLowerCase() === query);
+    
+    if (result) {
+        // Get today's date (Date of Activation)
+        const today = new Date();
+        const options = { year: 'numeric', month: 'long', day: 'numeric' };
+        document.getElementById("activationDate").textContent = today.toLocaleDateString("en-US", options);
+    
+        // Extract bill generation day and due date
+        const billGenDay = parseInt(result["Bill generation"]); 
+        const dueDateDay = parseInt(result["Due date"]); 
+    
+        // Calculate Bill Generation Date
+        let billGenDate = new Date(today.getFullYear(), today.getMonth(), billGenDay);
+    
+        // If today's date is past the bill generation date, move to next month
+        if (today > billGenDate) {
+            billGenDate.setMonth(billGenDate.getMonth() + 1);
+        }
+    
+        // Calculate other billing cycle dates
+        const billDeliveryDate = new Date(billGenDate.getFullYear(), billGenDate.getMonth(), 24);
+        const eBillDeliveryDate1 = new Date(billGenDate.getFullYear(), billGenDate.getMonth(), 24);
+        const eBillDeliveryDate2 = new Date(billGenDate.getFullYear(), billGenDate.getMonth(), 25);
+        const billSMSDate = new Date(billGenDate.getFullYear(), billGenDate.getMonth(), 25);
+        const dueDate = new Date(billGenDate.getFullYear(), billGenDate.getMonth() + 1, dueDateDay);
+    
+        // Display results
+        document.getElementById("address").textContent = result["City / Province"];
+        document.getElementById("region").textContent = result["Region"];
+        document.getElementById("billGeneration").textContent = billGenDate.toLocaleDateString("en-US", options);
+        document.getElementById("billDelivery").textContent = billDeliveryDate.toLocaleDateString("en-US", options);
+        document.getElementById("eBillDelivery").textContent = 
+            eBillDeliveryDate1.toLocaleDateString("en-US", options) + " or " + 
+            eBillDeliveryDate2.toLocaleDateString("en-US", options);
+        document.getElementById("billSMS").textContent = billSMSDate.toLocaleDateString("en-US", options);
+        document.getElementById("dueDate").textContent = dueDate.toLocaleDateString("en-US", options);
+    } else {
         var infoModal = new bootstrap.Modal(document.getElementById('info-alert-modal'));
         infoModal.show();
     }
