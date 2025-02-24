@@ -1081,12 +1081,7 @@ const billingCycleDb = [
 
 function searchBilling() {
     const searchBox = document.getElementById("inputAddress");
-    const query = searchBox.value.trim();
-
-    // Function to capitalize the first letter of each word
-    function toTitleCase(str) {
-        return str.replace(/\b\w/g, char => char.toUpperCase());
-    }
+    const query = searchBox.value.trim().toLowerCase();
 
     if (query === "") {
         // Open Bootstrap Modal
@@ -1094,11 +1089,15 @@ function searchBilling() {
         myModal.show();
         return;
     }
+    /* Function to capitalize the first letter of each word
+    function toTitleCase(str) {
+        return str.replace(/\b\w/g, char => char.toUpperCase()); */
 
-    const formattedQuery = toTitleCase(query); // Normalize input capitalization
+    // const formattedQuery = toTitleCase(query); // Normalize input capitalization
 
     // Find the matching city/province
-    const result = billingCycleDb.find(item => item["City / Province"] === formattedQuery);
+
+    const result = billingCycleDb.find(item => item["City / Province"].toLowerCase() === query);
 
     if (result) {
         // Populate table with the search result
