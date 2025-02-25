@@ -3,6 +3,13 @@ let baseModel  = {
     copyButton: document.getElementById("copyButton")
 }
 
+document.getElementById("inputAddress").addEventListener("keypress", function(event) {
+    if (event.key === "Enter") {
+        event.preventDefault(); // Prevent form submission if inside a form
+        searchBilling(); // Call the search function
+    }
+});
+
 /* ========================= For Activation Notes ========================= */
 
 function checkNotesValueFA() {
@@ -182,6 +189,7 @@ function copyNotesUCO() {
 
 function clearAddress() {
     document.getElementById("inputAddress").value = "";
+    document.getElementById("activationDate").textContent = "";
     document.getElementById("address").textContent = "";
     document.getElementById("region").textContent = "";
     document.getElementById("billGeneration").textContent = "";

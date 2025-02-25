@@ -1,5 +1,6 @@
-// Channel Line-Up as of January 13, 2025
-// end of contract "TAP Edge & Premium Football HD"
+// Channel Line-Up as of February 21, 2025
+// end of contract "TAP Edge & Premium Football HD" December 31, 2024
+
 const channels = [
     {
         No: "4",
@@ -882,22 +883,6 @@ const channels = [
         Plan1990: "yes"
     },
     {
-        No: "271",
-        ChannelName: "Premier Football HD",
-        Category: "SPORTS",
-        AllThingsEnt: "",
-        SportsAction: "",
-        PinoyAndAsian: "",
-        FamTime: "",
-        Plan290: "",
-        Plan520: "",
-        Plan720: "",
-        Plan1050: "",
-        Plan1350: "",
-        Plan1650: "",
-        Plan1990: ""
-    },
-    {
         No: "272",
         ChannelName: "Premier Sports HD",
         Category: "SPORTS",
@@ -1426,22 +1411,6 @@ const channels = [
         Plan1990: "yes"
     },
     {
-        No: "129",
-        ChannelName: "Tap Edge",
-        Category: "GENERAL ENT",
-        AllThingsEnt: "",
-        SportsAction: "",
-        PinoyAndAsian: "",
-        FamTime: "",
-        Plan290: "",
-        Plan520: "",
-        Plan720: "",
-        Plan1050: "",
-        Plan1350: "",
-        Plan1650: "",
-        Plan1990: ""
-    },
-    {
         No: "230",
         ChannelName: "KIX HD",
         Category: "GENERAL ENT",
@@ -1595,6 +1564,22 @@ const channels = [
         FamTime: "yes",
         Plan290: "yes",
         Plan520: "yes",
+        Plan720: "yes",
+        Plan1050: "yes",
+        Plan1350: "yes",
+        Plan1650: "yes",
+        Plan1990: "yes"
+    },
+    {
+        No: "147",
+        ChannelName: "Global Trekker",
+        Category: "EDUC / DOCU",
+        AllThingsEnt: "",
+        SportsAction: "",
+        PinoyAndAsian: "",
+        FamTime: "",
+        Plan290: "",
+        Plan520: "",
         Plan720: "yes",
         Plan1050: "yes",
         Plan1350: "yes",
@@ -2101,7 +2086,292 @@ const channels = [
 
 const audiochannels = [
     {
-
+        No: "300",
+        ChannelName: "DZRH - AM",
+        Category: "AUDIO CH",
+        AllThingsEnt: "yes",
+        SportsAction: "yes",
+        PinoyAndAsian: "yes",
+        FamTime: "yes",
+        Plan290: "yes",
+        Plan520: "yes",
+        Plan720: "yes",
+        Plan1050: "yes",
+        Plan1350: "yes",
+        Plan1650: "yes",
+        Plan1990: "yes"
+    },
+    {
+        No: "301",
+        ChannelName: "90.7 Love Radio - FM",
+        Category: "AUDIO CH",
+        AllThingsEnt: "yes",
+        SportsAction: "yes",
+        PinoyAndAsian: "yes",
+        FamTime: "yes",
+        Plan290: "yes",
+        Plan520: "yes",
+        Plan720: "yes",
+        Plan1050: "yes",
+        Plan1350: "yes",
+        Plan1650: "yes",
+        Plan1990: "yes"
+    },
+    {
+        No: "302",
+        ChannelName: "101.1 Yes - FM",
+        Category: "AUDIO CH",
+        AllThingsEnt: "yes",
+        SportsAction: "yes",
+        PinoyAndAsian: "yes",
+        FamTime: "yes",
+        Plan290: "yes",
+        Plan520: "yes",
+        Plan720: "yes",
+        Plan1050: "yes",
+        Plan1350: "yes",
+        Plan1650: "yes",
+        Plan1990: "yes"
+    },
+    {
+        No: "303",
+        ChannelName: "89.9 Magic - FM",
+        Category: "AUDIO CH",
+        AllThingsEnt: "yes",
+        SportsAction: "yes",
+        PinoyAndAsian: "yes",
+        FamTime: "yes",
+        Plan290: "yes",
+        Plan520: "yes",
+        Plan720: "yes",
+        Plan1050: "yes",
+        Plan1350: "yes",
+        Plan1650: "yes",
+        Plan1990: "yes"
+    },
+    {
+        No: "304",
+        ChannelName: "99.5 Play FM",
+        Category: "AUDIO CH",
+        AllThingsEnt: "yes",
+        SportsAction: "yes",
+        PinoyAndAsian: "yes",
+        FamTime: "yes",
+        Plan290: "yes",
+        Plan520: "yes",
+        Plan720: "yes",
+        Plan1050: "yes",
+        Plan1350: "yes",
+        Plan1650: "yes",
+        Plan1990: "yes"
+    },
+    {
+        No: "305",
+        ChannelName: "92.3 News FM",
+        Category: "AUDIO CH",
+        AllThingsEnt: "yes",
+        SportsAction: "yes",
+        PinoyAndAsian: "yes",
+        FamTime: "yes",
+        Plan290: "yes",
+        Plan520: "yes",
+        Plan720: "yes",
+        Plan1050: "yes",
+        Plan1350: "yes",
+        Plan1650: "yes",
+        Plan1990: "yes"
+    },
+    {
+        No: "306",
+        ChannelName: "GV FM (Angeles) - FM",
+        Category: "AUDIO CH",
+        AllThingsEnt: "yes",
+        SportsAction: "yes",
+        PinoyAndAsian: "yes",
+        FamTime: "yes",
+        Plan290: "yes",
+        Plan520: "yes",
+        Plan720: "yes",
+        Plan1050: "yes",
+        Plan1350: "yes",
+        Plan1650: "yes",
+        Plan1990: "yes"
+    },
+    {
+        No: "307",
+        ChannelName: "102.7 Star FM Bombo - FM",
+        Category: "AUDIO CH",
+        AllThingsEnt: "yes",
+        SportsAction: "yes",
+        PinoyAndAsian: "yes",
+        FamTime: "yes",
+        Plan290: "yes",
+        Plan520: "yes",
+        Plan720: "yes",
+        Plan1050: "yes",
+        Plan1350: "yes",
+        Plan1650: "yes",
+        Plan1990: "yes"
+    },
+    {
+        No: "308",
+        ChannelName: "93.9 iFM - FM",
+        Category: "AUDIO CH",
+        AllThingsEnt: "yes",
+        SportsAction: "yes",
+        PinoyAndAsian: "yes",
+        FamTime: "yes",
+        Plan290: "yes",
+        Plan520: "yes",
+        Plan720: "yes",
+        Plan1050: "yes",
+        Plan1350: "yes",
+        Plan1650: "yes",
+        Plan1990: "yes"
+    },
+    {
+        No: "309",
+        ChannelName: "DZXL 558 - AM",
+        Category: "AUDIO CH",
+        AllThingsEnt: "yes",
+        SportsAction: "yes",
+        PinoyAndAsian: "yes",
+        FamTime: "yes",
+        Plan290: "yes",
+        Plan520: "yes",
+        Plan720: "yes",
+        Plan1050: "yes",
+        Plan1350: "yes",
+        Plan1650: "yes",
+        Plan1990: "yes"
+    },
+    {
+        No: "310",
+        ChannelName: "93.1. RX - FM (Audio)",
+        Category: "AUDIO CH",
+        AllThingsEnt: "yes",
+        SportsAction: "yes",
+        PinoyAndAsian: "yes",
+        FamTime: "yes",
+        Plan290: "yes",
+        Plan520: "yes",
+        Plan720: "yes",
+        Plan1050: "yes",
+        Plan1350: "yes",
+        Plan1650: "yes",
+        Plan1990: "yes"
+    },
+    {
+        No: "311",
+        ChannelName: "Catholic Media Network",
+        Category: "AUDIO CH",
+        AllThingsEnt: "yes",
+        SportsAction: "yes",
+        PinoyAndAsian: "yes",
+        FamTime: "yes",
+        Plan290: "yes",
+        Plan520: "yes",
+        Plan720: "yes",
+        Plan1050: "yes",
+        Plan1350: "yes",
+        Plan1650: "yes",
+        Plan1990: "yes"
+    },
+    {
+        No: "312",
+        ChannelName: "Edge Radio",
+        Category: "AUDIO CH",
+        AllThingsEnt: "yes",
+        SportsAction: "yes",
+        PinoyAndAsian: "yes",
+        FamTime: "yes",
+        Plan290: "yes",
+        Plan520: "yes",
+        Plan720: "yes",
+        Plan1050: "yes",
+        Plan1350: "yes",
+        Plan1650: "yes",
+        Plan1990: "yes"
+    },
+    {
+        No: "313",
+        ChannelName: "Radio Veritas 846",
+        Category: "AUDIO CH",
+        AllThingsEnt: "yes",
+        SportsAction: "yes",
+        PinoyAndAsian: "yes",
+        FamTime: "yes",
+        Plan290: "yes",
+        Plan520: "yes",
+        Plan720: "yes",
+        Plan1050: "yes",
+        Plan1350: "yes",
+        Plan1650: "yes",
+        Plan1990: "yes"
+    },
+    {
+        No: "314",
+        ChannelName: "98.7 DZFE - FM",
+        Category: "AUDIO CH",
+        AllThingsEnt: "yes",
+        SportsAction: "yes",
+        PinoyAndAsian: "yes",
+        FamTime: "yes",
+        Plan290: "yes",
+        Plan520: "yes",
+        Plan720: "yes",
+        Plan1050: "yes",
+        Plan1350: "yes",
+        Plan1650: "yes",
+        Plan1990: "yes"
+    },
+    {
+        No: "315",
+        ChannelName: "Radio Maria",
+        Category: "AUDIO CH",
+        AllThingsEnt: "yes",
+        SportsAction: "yes",
+        PinoyAndAsian: "yes",
+        FamTime: "yes",
+        Plan290: "yes",
+        Plan520: "yes",
+        Plan720: "yes",
+        Plan1050: "yes",
+        Plan1350: "yes",
+        Plan1650: "yes",
+        Plan1990: "yes"
+    },
+    {
+        No: "316",
+        ChannelName: "104.3 FM",
+        Category: "AUDIO CH",
+        AllThingsEnt: "yes",
+        SportsAction: "yes",
+        PinoyAndAsian: "yes",
+        FamTime: "yes",
+        Plan290: "yes",
+        Plan520: "yes",
+        Plan720: "yes",
+        Plan1050: "yes",
+        Plan1350: "yes",
+        Plan1650: "yes",
+        Plan1990: "yes"
+    },
+    {
+        No: "317",
+        ChannelName: "FMR",
+        Category: "AUDIO CH",
+        AllThingsEnt: "yes",
+        SportsAction: "yes",
+        PinoyAndAsian: "yes",
+        FamTime: "yes",
+        Plan290: "yes",
+        Plan520: "yes",
+        Plan720: "yes",
+        Plan1050: "yes",
+        Plan1350: "yes",
+        Plan1650: "yes",
+        Plan1990: "yes"
     }
 ];
 
@@ -2368,45 +2638,6 @@ function compareChannels() {
 
         channelTableBody.appendChild(row);
     });
-
-    /*// Count channels by category for each plan
-    const categoryCount = {};
-
-    channels.forEach(channel => {
-        const category = channel.Category;
-        if (!categoryCount[category]) {
-            categoryCount[category] = { [firstPlan]: 0, [secondPlan]: 0 };
-        }
-        if (channel[firstPlan] === "✓") {
-            categoryCount[category][firstPlan]++;
-        }
-        if (channel[secondPlan] === "✓") {
-            categoryCount[category][secondPlan]++;
-        }
-    });
-
-    // Display category count for each plan
-    Object.keys(categoryCount).forEach(category => {
-        const row = document.createElement("tr");
-
-        const categoryCell = document.createElement("td");
-        categoryCell.textContent = category;
-        row.appendChild(categoryCell);
-
-        const firstPlanCountCell = document.createElement("td");
-        firstPlanCountCell.textContent = categoryCount[category][firstPlan];
-        row.appendChild(firstPlanCountCell);
-
-        const secondPlanCountCell = document.createElement("td");
-        secondPlanCountCell.textContent = categoryCount[category][secondPlan];
-        row.appendChild(secondPlanCountCell);
-
-        const diffCell = document.createElement("td");
-        diffCell.textContent = categoryCount[category][secondPlan] - categoryCount[category][firstPlan];
-        row.appendChild(diffCell);
-
-        channelTableBody.appendChild(row);
-    }); */
 
     // Add total count row
     const totalRow = document.createElement("tr");
