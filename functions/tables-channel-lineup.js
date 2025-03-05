@@ -20,7 +20,7 @@ const channels = [
     },
     {
         No: "5",
-        ChannelName: "TV5",
+        ChannelName: "TV5 HD",
         Category: "LOCAL CHANNEL",
         AllThingsEnt: "yes",
         SportsAction: "yes",
@@ -2084,297 +2084,6 @@ const channels = [
     }
 ];
 
-const audiochannels = [
-    {
-        No: "300",
-        ChannelName: "DZRH - AM",
-        Category: "AUDIO CH",
-        AllThingsEnt: "yes",
-        SportsAction: "yes",
-        PinoyAndAsian: "yes",
-        FamTime: "yes",
-        Plan290: "yes",
-        Plan520: "yes",
-        Plan720: "yes",
-        Plan1050: "yes",
-        Plan1350: "yes",
-        Plan1650: "yes",
-        Plan1990: "yes"
-    },
-    {
-        No: "301",
-        ChannelName: "90.7 Love Radio - FM",
-        Category: "AUDIO CH",
-        AllThingsEnt: "yes",
-        SportsAction: "yes",
-        PinoyAndAsian: "yes",
-        FamTime: "yes",
-        Plan290: "yes",
-        Plan520: "yes",
-        Plan720: "yes",
-        Plan1050: "yes",
-        Plan1350: "yes",
-        Plan1650: "yes",
-        Plan1990: "yes"
-    },
-    {
-        No: "302",
-        ChannelName: "101.1 Yes - FM",
-        Category: "AUDIO CH",
-        AllThingsEnt: "yes",
-        SportsAction: "yes",
-        PinoyAndAsian: "yes",
-        FamTime: "yes",
-        Plan290: "yes",
-        Plan520: "yes",
-        Plan720: "yes",
-        Plan1050: "yes",
-        Plan1350: "yes",
-        Plan1650: "yes",
-        Plan1990: "yes"
-    },
-    {
-        No: "303",
-        ChannelName: "89.9 Magic - FM",
-        Category: "AUDIO CH",
-        AllThingsEnt: "yes",
-        SportsAction: "yes",
-        PinoyAndAsian: "yes",
-        FamTime: "yes",
-        Plan290: "yes",
-        Plan520: "yes",
-        Plan720: "yes",
-        Plan1050: "yes",
-        Plan1350: "yes",
-        Plan1650: "yes",
-        Plan1990: "yes"
-    },
-    {
-        No: "304",
-        ChannelName: "99.5 Play FM",
-        Category: "AUDIO CH",
-        AllThingsEnt: "yes",
-        SportsAction: "yes",
-        PinoyAndAsian: "yes",
-        FamTime: "yes",
-        Plan290: "yes",
-        Plan520: "yes",
-        Plan720: "yes",
-        Plan1050: "yes",
-        Plan1350: "yes",
-        Plan1650: "yes",
-        Plan1990: "yes"
-    },
-    {
-        No: "305",
-        ChannelName: "92.3 News FM",
-        Category: "AUDIO CH",
-        AllThingsEnt: "yes",
-        SportsAction: "yes",
-        PinoyAndAsian: "yes",
-        FamTime: "yes",
-        Plan290: "yes",
-        Plan520: "yes",
-        Plan720: "yes",
-        Plan1050: "yes",
-        Plan1350: "yes",
-        Plan1650: "yes",
-        Plan1990: "yes"
-    },
-    {
-        No: "306",
-        ChannelName: "GV FM (Angeles) - FM",
-        Category: "AUDIO CH",
-        AllThingsEnt: "yes",
-        SportsAction: "yes",
-        PinoyAndAsian: "yes",
-        FamTime: "yes",
-        Plan290: "yes",
-        Plan520: "yes",
-        Plan720: "yes",
-        Plan1050: "yes",
-        Plan1350: "yes",
-        Plan1650: "yes",
-        Plan1990: "yes"
-    },
-    {
-        No: "307",
-        ChannelName: "102.7 Star FM Bombo - FM",
-        Category: "AUDIO CH",
-        AllThingsEnt: "yes",
-        SportsAction: "yes",
-        PinoyAndAsian: "yes",
-        FamTime: "yes",
-        Plan290: "yes",
-        Plan520: "yes",
-        Plan720: "yes",
-        Plan1050: "yes",
-        Plan1350: "yes",
-        Plan1650: "yes",
-        Plan1990: "yes"
-    },
-    {
-        No: "308",
-        ChannelName: "93.9 iFM - FM",
-        Category: "AUDIO CH",
-        AllThingsEnt: "yes",
-        SportsAction: "yes",
-        PinoyAndAsian: "yes",
-        FamTime: "yes",
-        Plan290: "yes",
-        Plan520: "yes",
-        Plan720: "yes",
-        Plan1050: "yes",
-        Plan1350: "yes",
-        Plan1650: "yes",
-        Plan1990: "yes"
-    },
-    {
-        No: "309",
-        ChannelName: "DZXL 558 - AM",
-        Category: "AUDIO CH",
-        AllThingsEnt: "yes",
-        SportsAction: "yes",
-        PinoyAndAsian: "yes",
-        FamTime: "yes",
-        Plan290: "yes",
-        Plan520: "yes",
-        Plan720: "yes",
-        Plan1050: "yes",
-        Plan1350: "yes",
-        Plan1650: "yes",
-        Plan1990: "yes"
-    },
-    {
-        No: "310",
-        ChannelName: "93.1. RX - FM (Audio)",
-        Category: "AUDIO CH",
-        AllThingsEnt: "yes",
-        SportsAction: "yes",
-        PinoyAndAsian: "yes",
-        FamTime: "yes",
-        Plan290: "yes",
-        Plan520: "yes",
-        Plan720: "yes",
-        Plan1050: "yes",
-        Plan1350: "yes",
-        Plan1650: "yes",
-        Plan1990: "yes"
-    },
-    {
-        No: "311",
-        ChannelName: "Catholic Media Network",
-        Category: "AUDIO CH",
-        AllThingsEnt: "yes",
-        SportsAction: "yes",
-        PinoyAndAsian: "yes",
-        FamTime: "yes",
-        Plan290: "yes",
-        Plan520: "yes",
-        Plan720: "yes",
-        Plan1050: "yes",
-        Plan1350: "yes",
-        Plan1650: "yes",
-        Plan1990: "yes"
-    },
-    {
-        No: "312",
-        ChannelName: "Edge Radio",
-        Category: "AUDIO CH",
-        AllThingsEnt: "yes",
-        SportsAction: "yes",
-        PinoyAndAsian: "yes",
-        FamTime: "yes",
-        Plan290: "yes",
-        Plan520: "yes",
-        Plan720: "yes",
-        Plan1050: "yes",
-        Plan1350: "yes",
-        Plan1650: "yes",
-        Plan1990: "yes"
-    },
-    {
-        No: "313",
-        ChannelName: "Radio Veritas 846",
-        Category: "AUDIO CH",
-        AllThingsEnt: "yes",
-        SportsAction: "yes",
-        PinoyAndAsian: "yes",
-        FamTime: "yes",
-        Plan290: "yes",
-        Plan520: "yes",
-        Plan720: "yes",
-        Plan1050: "yes",
-        Plan1350: "yes",
-        Plan1650: "yes",
-        Plan1990: "yes"
-    },
-    {
-        No: "314",
-        ChannelName: "98.7 DZFE - FM",
-        Category: "AUDIO CH",
-        AllThingsEnt: "yes",
-        SportsAction: "yes",
-        PinoyAndAsian: "yes",
-        FamTime: "yes",
-        Plan290: "yes",
-        Plan520: "yes",
-        Plan720: "yes",
-        Plan1050: "yes",
-        Plan1350: "yes",
-        Plan1650: "yes",
-        Plan1990: "yes"
-    },
-    {
-        No: "315",
-        ChannelName: "Radio Maria",
-        Category: "AUDIO CH",
-        AllThingsEnt: "yes",
-        SportsAction: "yes",
-        PinoyAndAsian: "yes",
-        FamTime: "yes",
-        Plan290: "yes",
-        Plan520: "yes",
-        Plan720: "yes",
-        Plan1050: "yes",
-        Plan1350: "yes",
-        Plan1650: "yes",
-        Plan1990: "yes"
-    },
-    {
-        No: "316",
-        ChannelName: "104.3 FM",
-        Category: "AUDIO CH",
-        AllThingsEnt: "yes",
-        SportsAction: "yes",
-        PinoyAndAsian: "yes",
-        FamTime: "yes",
-        Plan290: "yes",
-        Plan520: "yes",
-        Plan720: "yes",
-        Plan1050: "yes",
-        Plan1350: "yes",
-        Plan1650: "yes",
-        Plan1990: "yes"
-    },
-    {
-        No: "317",
-        ChannelName: "FMR",
-        Category: "AUDIO CH",
-        AllThingsEnt: "yes",
-        SportsAction: "yes",
-        PinoyAndAsian: "yes",
-        FamTime: "yes",
-        Plan290: "yes",
-        Plan520: "yes",
-        Plan720: "yes",
-        Plan1050: "yes",
-        Plan1350: "yes",
-        Plan1650: "yes",
-        Plan1990: "yes"
-    }
-];
-
 // Function to replace "yes" with centered check symbol (✓)
 function replaceYesWithCheck(channel) {
     for (let key in channel) {
@@ -2409,32 +2118,32 @@ function populateTable(data) {
     const plan1990CellTotal = document.getElementById('plan1990Total');
 
     // Header cells for Total HD Channels count
-    const allThingsEntCellHD = document.getElementById('allThingsEntHD');
-    const sportsActionCellHD = document.getElementById('sportsActionHD');
-    const pinoyAsianCellHD = document.getElementById('pinoyAsianHD');
-    const famTimeCellHD = document.getElementById('famTimeHD');
-    const plan290CellHD = document.getElementById('plan290HD');
-    const plan520CellHD = document.getElementById('plan520HD');
-    const plan720CellHD = document.getElementById('plan720HD');
-    const plan1050CellHD = document.getElementById('plan1050HD');
-    const plan1350CellHD = document.getElementById('plan1350HD');
-    const plan1650CellHD = document.getElementById('plan1650HD');
-    const plan1990CellHD = document.getElementById('plan1990HD');
+    const allThingsEntCellHD = document.getElementById('allThingsEntHDTotal');
+    const sportsActionCellHD = document.getElementById('sportsActionHDTotal');
+    const pinoyAsianCellHD = document.getElementById('pinoyAsianHDTotal');
+    const famTimeCellHD = document.getElementById('famTimeHDTotal');
+    const plan290CellHD = document.getElementById('plan290HDTotal');
+    const plan520CellHD = document.getElementById('plan520HDTotal');
+    const plan720CellHD = document.getElementById('plan720HDTotal');
+    const plan1050CellHD = document.getElementById('plan1050HDTotal');
+    const plan1350CellHD = document.getElementById('plan1350HDTotal');
+    const plan1650CellHD = document.getElementById('plan1650HDTotal');
+    const plan1990CellHD = document.getElementById('plan1990HDTotal');
 
     const hdChannels = data.filter(channel => channel["ChannelName"].includes("HD"));
 
     // Header cells for non-HD counts
-    const allThingsEntCellNonHD = document.getElementById('allThingsEntNonHD');
-    const sportsActionCellNonHD = document.getElementById('sportsActionNonHD');
-    const pinoyAsianCellNonHD = document.getElementById('pinoyAsianNonHD');
-    const famTimeCellNonHD = document.getElementById('famTimeNonHD');
-    const plan290CellNonHD = document.getElementById('plan290NonHD');
-    const plan520CellNonHD = document.getElementById('plan520NonHD');
-    const plan720CellNonHD = document.getElementById('plan720NonHD');
-    const plan1050CellNonHD = document.getElementById('plan1050NonHD');
-    const plan1350CellNonHD = document.getElementById('plan1350NonHD');
-    const plan1650CellNonHD = document.getElementById('plan1650NonHD');
-    const plan1990CellNonHD = document.getElementById('plan1990NonHD');
+    const allThingsEntCellNonHD = document.getElementById('allThingsEntNonHDTotal');
+    const sportsActionCellNonHD = document.getElementById('sportsActionNonHDTotal');
+    const pinoyAsianCellNonHD = document.getElementById('pinoyAsianNonHDTotal');
+    const famTimeCellNonHD = document.getElementById('famTimeNonHDTotal');
+    const plan290CellNonHD = document.getElementById('plan290NonHDTotal');
+    const plan520CellNonHD = document.getElementById('plan520NonHDTotal');
+    const plan720CellNonHD = document.getElementById('plan720NonHDTotal');
+    const plan1050CellNonHD = document.getElementById('plan1050NonHDTotal');
+    const plan1350CellNonHD = document.getElementById('plan1350NonHDTotal');
+    const plan1650CellNonHD = document.getElementById('plan1650NonHDTotal');
+    const plan1990CellNonHD = document.getElementById('plan1990NonHDTotal');
 
     // Object to store counts for each plan
     const totalChannelCounts = {
@@ -2499,30 +2208,30 @@ function populateTable(data) {
     }
 
     // Update the thead cells with the total counts
-    allThingsEntCellTotal.textContent = totalChannelCounts["AllThingsEnt"];
-    sportsActionCellTotal.textContent = totalChannelCounts["SportsAction"];
-    pinoyAsianCellTotal.textContent = totalChannelCounts["PinoyAndAsian"];
-    famTimeCellTotal.textContent = totalChannelCounts["FamTime"];
-    plan290CellTotal.textContent = totalChannelCounts["Plan290"];
-    plan520CellTotal.textContent = totalChannelCounts["Plan520"];
-    plan720CellTotal.textContent = totalChannelCounts["Plan720"];
-    plan1050CellTotal.textContent = totalChannelCounts["Plan1050"];
-    plan1350CellTotal.textContent = totalChannelCounts["Plan1350"];
-    plan1650CellTotal.textContent = totalChannelCounts["Plan1650"];
-    plan1990CellTotal.textContent = totalChannelCounts["Plan1990"];
+    allThingsEntCellTotal.textContent = totalChannelCounts["AllThingsEnt"] - 2;
+    sportsActionCellTotal.textContent = totalChannelCounts["SportsAction"] - 2;
+    pinoyAsianCellTotal.textContent = totalChannelCounts["PinoyAndAsian"] - 2;
+    famTimeCellTotal.textContent = totalChannelCounts["FamTime"] - 2;
+    plan290CellTotal.textContent = totalChannelCounts["Plan290"] - 2;
+    plan520CellTotal.textContent = totalChannelCounts["Plan520"] - 2;
+    plan720CellTotal.textContent = totalChannelCounts["Plan720"] - 2;
+    plan1050CellTotal.textContent = totalChannelCounts["Plan1050"] - 2;
+    plan1350CellTotal.textContent = totalChannelCounts["Plan1350"] - 2;
+    plan1650CellTotal.textContent = totalChannelCounts["Plan1650"] - 2;
+    plan1990CellTotal.textContent = totalChannelCounts["Plan1990"] - 2;
 
     // Update the thead cells with the HD channel counts
-    allThingsEntCellHD.textContent = totalHDChannelCounts["AllThingsEnt"];
-    sportsActionCellHD.textContent = totalHDChannelCounts["SportsAction"];
-    pinoyAsianCellHD.textContent = totalHDChannelCounts["PinoyAndAsian"];
-    famTimeCellHD.textContent = totalHDChannelCounts["FamTime"];
-    plan290CellHD.textContent = totalHDChannelCounts["Plan290"];
-    plan520CellHD.textContent = totalHDChannelCounts["Plan520"];
-    plan720CellHD.textContent = totalHDChannelCounts["Plan720"];
-    plan1050CellHD.textContent = totalHDChannelCounts["Plan1050"];
-    plan1350CellHD.textContent = totalHDChannelCounts["Plan1350"];
-    plan1650CellHD.textContent = totalHDChannelCounts["Plan1650"];
-    plan1990CellHD.textContent = totalHDChannelCounts["Plan1990"];
+    allThingsEntCellHD.textContent = totalHDChannelCounts["AllThingsEnt"] - 2;
+    sportsActionCellHD.textContent = totalHDChannelCounts["SportsAction"] - 2;
+    pinoyAsianCellHD.textContent = totalHDChannelCounts["PinoyAndAsian"] - 2;
+    famTimeCellHD.textContent = totalHDChannelCounts["FamTime"] - 2;
+    plan290CellHD.textContent = totalHDChannelCounts["Plan290"] - 2;
+    plan520CellHD.textContent = totalHDChannelCounts["Plan520"] - 2;
+    plan720CellHD.textContent = totalHDChannelCounts["Plan720"] - 2;
+    plan1050CellHD.textContent = totalHDChannelCounts["Plan1050"] - 2;
+    plan1350CellHD.textContent = totalHDChannelCounts["Plan1350"] - 2;
+    plan1650CellHD.textContent = totalHDChannelCounts["Plan1650"] - 2;
+    plan1990CellHD.textContent = totalHDChannelCounts["Plan1990"] - 2;
 
     // Update the thead cells with the non-HD channel counts
     allThingsEntCellNonHD.textContent = totalNonHDChannelCounts["AllThingsEnt"];
