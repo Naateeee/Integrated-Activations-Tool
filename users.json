@@ -1,0 +1,93 @@
+{
+    "MBBuelo": {
+        "password": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+        "firstName": "Michael John",
+        "lastName": "Buelo",
+        "department": "Administrator",
+        "avatar": "assets/images/users/user_nate.png"
+    },
+    "JTGarcia": {
+        "password": "f5cbbe9420fab945224fcea70344688ed31b1e40641a14b880d892820274496f",
+        "firstName": "Julius Cezar",
+        "lastName": "Garcia",
+        "department": "CEG - Activation Officer",
+        "avatar": "assets/images/users/user_jc.jpg"
+    },
+    "JBCabuyao": {
+        "password": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+        "firstName": "John Benedict",
+        "lastName": "Cabuyao",
+        "department": "CEG -  Activation Officer",
+        "avatar": "assets/images/users/undraw_male-avatar_zkzx.svg"
+    },
+    "SBSalen": {
+        "password": "ab407c776becb329b1940d52b5eed34859f096ed1d1b99a1f7b4aa98b57cf607",
+        "firstName": "Sherry Joy",
+        "lastName": "Salen",
+        "department": "CEG - Activation Officer",
+        "avatar": "assets/images/users/user_sherry.jpg"
+    },
+    "MBTripolca": {
+        "password": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+        "firstName": "Maria Angela",
+        "lastName": "Tripolca",
+        "department": "CEG - Activation Officer",
+        "avatar": "assets/images/users/undraw_female-avatar_7t6k.svg"
+    },
+    "NJAdriano": {
+        "password": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+        "firstName": "Niño Adrian",
+        "lastName": "Adriano",
+        "department": "CEG - Activation Officer",
+        "avatar": "assets/images/users/undraw_male-avatar_zkzx.svg"
+    },
+    "EACerrado": {
+        "password": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+        "firstName": "Erick",
+        "lastName": "Cerrado",
+        "department": "CEG - Activation Officer",
+        "avatar": "assets/images/users/undraw_male-avatar_zkzx.svg"
+    },
+    "CCVillafuerte": {
+        "password": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+        "firstName": "Chrishelle",
+        "lastName": "Villafuerte",
+        "department": "CEG - Activation Officer",
+        "avatar": "assets/images/users/undraw_female-avatar_7t6k.svg"
+    },
+    "SRPortal": {
+        "password": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+        "firstName": "Sheena Pauline",
+        "lastName": "Portal",
+        "department": "CEG - Activation Officer",
+        "avatar": "assets/images/users/undraw_female-avatar_7t6k.svg"
+    },
+    "MMConstantino": {
+        "password": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+        "firstName": "Maria Winslet Maryzze",
+        "lastName": "Constantino",
+        "department": "CEG - Activation Officer",
+        "avatar": "assets/images/users/undraw_female-avatar_7t6k.svg"
+    },
+    "MHMensiras": {
+        "password": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+        "firstName": "Mark Kevin",
+        "lastName": "Mensiras",
+        "department": "CEG - Activation Officer",
+        "avatar": "assets/images/users/undraw_male-avatar_zkzx.svg"
+    },
+    "MCPabillano": {
+        "password": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+        "firstName": "Marianne",
+        "lastName": "Pabillano",
+        "department": "CEG - Quality Assurance",
+        "avatar": "assets/images/users/undraw_female-avatar_7t6k.svg"
+    },
+    "NPTalosig": {
+        "password": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
+        "firstName": "Norilyn",
+        "lastName": "Talosig",
+        "department": "CEG - Activations Supervisor",
+        "avatar": "assets/images/users/undraw_female-avatar_7t6k.svg"
+    }
+}

@@ -10,6 +10,20 @@ document.getElementById("inputAddress").addEventListener("keypress", function(ev
     }
 });
 
+document.getElementById("username").addEventListener("keypress", function(event) {
+    if (event.key === "Enter") {
+        event.preventDefault(); // Prevent form submission if inside a form
+        login(); // Call the login function
+    }
+});
+
+document.getElementById("password").addEventListener("keypress", function(event) {
+    if (event.key === "Enter") {
+        event.preventDefault(); // Prevent form submission if inside a form
+        login(); // Call the login function
+    }
+});
+
 /* ========================= For Activation Notes ========================= */
 
 function checkNotesValueFA() {
@@ -32,6 +46,7 @@ function checkNotesValueFA() {
 }
 checkNotesValueFA();
 document.getElementById("notesFA").addEventListener("input", checkNotesValueFA); 
+
 
 function forActivation() {
     var phoneFA = document.getElementById("phoneFA").value;

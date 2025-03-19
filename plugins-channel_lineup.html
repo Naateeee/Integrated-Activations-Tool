@@ -2,114 +2,250 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Channel Lineup</title>
+    <title>Channel Line-up | Integrated Activations Tool</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="Integrated Activations Tool" name="description">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- App favicon -->
     <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+    <!-- third party css -->
     <link href="assets/css/vendor/dataTables.bootstrap5.css" rel="stylesheet" type="text/css">
     <link href="assets/css/vendor/responsive.bootstrap5.css" rel="stylesheet" type="text/css">
     <link href="assets/css/vendor/buttons.bootstrap5.css" rel="stylesheet" type="text/css">
     <link href="assets/css/vendor/select.bootstrap5.css" rel="stylesheet" type="text/css">
+
+    <!-- App css -->
     <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css">
     <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" id="light-style">
     <link href="assets/css/app-dark.min.css" rel="stylesheet" type="text/css" id="dark-style">
 </head>
-<body class="loading" data-layout="topnav">
-
+<body class="loading" data-layout-config='{"leftSideBarTheme":"default","layoutBoxed":false, "leftSidebarCondensed":false, "leftSidebarScrollable":false,"darkMode":false, "showRightSidebarOnStart": false}'>
     <!-- start page -->
     <div class="wrapper">
+        <!-- ========== Left Sidebar Start ========== -->
+        <div class="leftside-menu">
+
+            <!-- LOGO light -->
+            <a href="index.html" class="logo text-center logo-light">
+                <span class="logo-lg">
+                    <img src="assets/images/cignal-logo-nobg.png" alt="" height="46">
+                </span>
+                <span class="logo-sm">
+                    <img src="assets/images/cignal-logo-nobg.png" alt="" height="35">
+                </span>
+            </a>
+
+            <div class="h-100" id="leftside-menu-container" data-simplebar="">
+
+                <!--- Sidemenu -->
+                <ul class="side-nav">
+
+                    <li class="side-nav-title side-nav-item">Navigation</li>
+
+                    <li class="side-nav-item">
+                        <a data-bs-toggle="collapse" href="#sidebarDashboards" aria-expanded="false" aria-controls="sidebarDashboards" class="side-nav-link">
+                            <i class="uil-home-alt"></i>
+                            <span> Dashboards </span>
+                            <span class="menu-arrow"></span>
+                        </a>
+                    </li>
+
+                    <li class="side-nav-item">
+                        <a data-bs-toggle="collapse" href="#sidebarNotesGenerator" aria-expanded="false" aria-controls="sidebarNotesGenerator" class="side-nav-link">
+                            <i class="uil-edit"></i>
+                            <span> Notes Generator </span>
+                            <span class="menu-arrow"></span>
+                        </a>
+                        <div class="collapse" id="sidebarNotesGenerator">
+                            <ul class="side-nav-second-level">
+                                <li><a href="notes-for_activation.html">For Activation</a></li>
+                                <li><a href="notes-unsuccessful.html">Unsuccessful</a></li>
+                                <li><a href="notes-with_compliance.html">With Compliance</a></li>
+                                <li><a href="notes-docs_and_sup_for_approval.html">Docs and Sup Approval</a></li>
+                                <li><a href="notes-pldt_and_radius.html">PLDT and Radius</a></li>
+                                <li><a href="notes-demo_content_hrh.html">Demo, Content, HRH</a></li>
+                                <li><a href="notes-vsat.html">VSAT Activation</a></li>
+                                <li><a href="notes-other_ticket_assignment.html">Other Ticket Assignment</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="side-nav-item">
+                        <a href="utilities-hpa_calculator.html" class="side-nav-link">
+                            <i class="uil-calcualtor"></i>
+                            <span> HPA Calculator </span>
+                        </a>
+                    </li>
+
+                    <li class="side-nav-item">
+                        <a href="utilities-email_template.html" class="side-nav-link">
+                            <i class="uil-envelope-alt"></i>
+                            <span> Email Template </span>
+                        </a>
+                    </li>
+
+                    <li class="side-nav-item">
+                        <a href="utilities-billing_cycle.html" class="side-nav-link">
+                            <i class="uil-calendar-alt"></i>
+                            <span> Billing Cycle </span>
+                        </a>
+                    </li>
+
+                    <li class="side-nav-item">
+                        <a href="plugins-promo_matrix.html" class="side-nav-link">
+                            <i class="uil-store"></i>
+                            <span> Promo Matrix </span>
+                        </a>
+                    </li>
+
+                    <li class="side-nav-item">
+                        <a href="plugins-channel_lineup.html" class="side-nav-link">
+                            <i class="uil-tv-retro"></i>
+                            <span> Channel Line-up </span>
+                        </a>
+                    </li>
+
+                    <li class="side-nav-item">
+                        <a href="plugins-id_only.html" class="side-nav-link">
+                            <i class="uil-medal"></i>
+                            <span> ID Only List </span>
+                        </a>
+                    </li>
+
+                    <li class="side-nav-item">
+                        <a data-bs-toggle="collapse" href="#sidebarListOfBarangay" aria-expanded="false" aria-controls="sidebarListOfBarangay" class="side-nav-link">
+                            <i class="uil-map"></i>
+                            <span> List of Barangay </span>
+                            <span class="menu-arrow"></span>
+                        </a>
+                        <div class="collapse" id="sidebarListOfBarangay">
+                            <ul class="side-nav-second-level">
+                                <li><a href="plugins-caloocan.html">Barangay in Caloocan</a></li>
+                                <li><a href="plugins-manila.html">Barangay in Manila</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="side-nav-item">
+                        <a href="plugins-mdu.html" class="side-nav-link">
+                            <i class="uil-building"></i>
+                            <span> MDU List </span>
+                        </a>
+                    </li>
+                </ul> <!-- end Sidemenu -->
+
+                <div class="clearfix"></div>
+
+            </div>
+
+        </div> <!-- end left Sidebar -->
+
+        <!-- ============================================================== -->
+        <!-- Start Page Content here -->
+        <!-- ============================================================== -->
+
         <div class="content-page">
             <div class="content">
 
-                <!-- topbar -->
-                <div class="navbar-custom topnav-navbar">
-                    <div class="container-fluid">
-                        <a href="index.html" class="topnav-logo">
-                            <span class="topnav-logo-lg"><img src="assets/images/logo-light.png" alt="" height="46"></span>
-                            <span class="topnav-logo-sm"><img src="assets/images/logo_sm.png" alt="" height="46"></span>
-                        </a>
+                <!-- Topbar Start -->
+                <div class="navbar-custom">
+                    <ul class="list-unstyled topbar-menu float-end mb-0">
+                        <li  class="dropdown notification-list">
+                            <a class="nav-link dropdown-toggle nav-user arrow-none me-0" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
 
-                        <ul class="list-unstyled topbar-menu float-end mb-0">
-                            <li class="dropdown notification-list">
-                                <a class="nav-link dropdown-toggle nav-user arrow-none me-0 text-dark" data-bs-toggle="dropdown" id="topbar-userdrop" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                                    <span class="account-user-avatar"><img src="assets/images/users/user_nate.png" alt="user-image" class="rounded-circle"></span>
-                                    <span>
-                                        <span class="account-user-name">Customer Experience Group</span>
-                                        <span class="account-position">Activation Officer</span>
-                                    </span>
+                                <script>
+                                    window.onload = function() {
+                                        const userData = localStorage.getItem("loggedInUser");
+
+                                        if (!userData) {
+                                            window.location.href = "login.html";
+                                            return;
+                                        }
+
+                                        try {
+                                            const user = JSON.parse(userData);
+
+                                            if (!user.firstName || !user.lastName || !user.department || !user.avatar) {
+                                                throw new Error("Invalid user data");
+                                            }
+
+                                            document.getElementById("userName").textContent = `${user.firstName} ${user.lastName}`;
+                                            document.getElementById("userDepartment").textContent = user.department;
+
+                                            const avatarImg = document.getElementById("userAvatar");
+
+                                            if (avatarImg && user.avatar) {
+                                                avatarImg.src = user.avatar;
+                                            }
+
+                                        } catch (error) {
+                                            console.error("Error parsing user data:", error);
+                                            localStorage.removeItem("loggedInUser"); // Clear invalid data
+                                            window.location.href = "login.html";
+                                        }
+                                    };
+                                </script>
+
+                                <span class="account-user-avatar">
+                                    <img id="userAvatar" src="assets/images/users/undraw_male-avatar_zkzx.svg" alt="user-image" class="rounded-circle">
+                                </span>
+                                <span>
+                                    <span id="userName" class="account-user-name text-dark"></span>
+                                    <span id="userDepartment" class="account-position text-dark"></span>
+                                </span>
+                            </a>
+
+                            <div class="dropdown-menu dropdown-menu-end dropdown-menu-animated topbar-dropdown-menu profile-dropdown">
+                                <div class=" dropdown-header noti-title">
+                                    <h6 class="text-overflow m-0">Welcome !</h6>
+                                </div>
+
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <i class="mdi mdi-account-circle me-1"></i>
+                                    <span>My Account</span>
                                 </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
 
-                <!-- topbar menu -->
-                <div class="topnav">
-                    <div class="container-fluid">
-                        <nav class="navbar navbar-dark navbar-expand-lg topnav-menu">
-                            <div class="collapse navbar-collapse" id="topnav-menu-content">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="index.html" id="topnav-dashboards" role="button">
-                                            <i class="uil-dashboard me-1"></i>Dashboards
-                                        </a>
-                                    </li>
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <i class="mdi mdi-account-edit me-1"></i>
+                                    <span>Settings</span>
+                                </a>
 
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-notes" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            <i class="uil-copy-alt me-1"></i>Notes Generator<div class="arrow-down"></div>
-                                        </a>
-                                        <div class="dropdown-menu" aria-labelledby="topnav-notes">
-                                            <a href="notes-for_activation.html" class="dropdown-item">For Activation</a>
-                                            <a href="notes-unsuccessful.html" class="dropdown-item">Unsuccessful</a>
-                                            <a href="notes-with_compliance.html" class="dropdown-item">With Compliance</a>
-                                            <a href="notes-docs_and_sup_for_approval.html" class="dropdown-item">Docs and Sup Approval</a>
-                                            <a href="notes-pldt_and_radius.html" class="dropdown-item">PLDT and Radius</a>
-                                            <a href="notes-demo_and_syndication.html" class="dropdown-item">Demo, Content, HRH</a>
-                                            <a href="notes-vsat.html" class="dropdown-item">VSAT Activation</a>
-                                            <a href="notes-other_ticket_assignment.html" class="dropdown-item">Other Ticket Assignment</a>
-                                        </div>
-                                    </li>
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <i class="mdi mdi-lifebuoy me-1"></i>
+                                    <span>Support</span>
+                                </a>
 
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-utilities" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            <i class="uil-apps me-1"></i>Utilities<div class="arrow-down"></div>
-                                        </a>
-                                        <div class="dropdown-menu" aria-labelledby="topnav-utilities">
-                                            <a href="utilities-hpa_calculator.html" class="dropdown-item">HPA Calculator</a>
-                                            <a href="utilities-email_template.html" class="dropdown-item">Email Template</a>
-                                            <a href="utilities-billing_cycle.html" class="dropdown-item">Billing Cycle</a>
-                                        </div>
-                                    </li>
+                                <a href="javascript:void(0);" class="dropdown-item notify-item">
+                                    <i class="mdi mdi-lock-outline me-1"></i>
+                                    <span>Lock Screen</span>
+                                </a>
 
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle arrow-none" href="#" id="topnav-plugins" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            <i class="uil-window me-1"></i>Plugins<div class="arrow-down"></div>
-                                        </a>
-                                        <div class="dropdown-menu" aria-labelledby="topnav-plugins">
-                                            <a href="tables-promo_matrix.html" class="dropdown-item">Promo Matrix</a>
-                                            <a href="tables-channel_lineup.html" class="dropdown-item">Channel Line-up</a>
-                                            <a href="tables-id_only.html" class="dropdown-item">Salesman Code</a>
-                                            <a href="tables-mdu.html" class="dropdown-item">MDU Address</a>
-                                            <div class="dropdown">
-                                                <a class="dropdown-item dropdown-toggle arrow-none" href="#" id="topnav-barangay" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                                    List of Barangay<div class="arrow-down"></div>
-                                                </a>
-                                                <div class="dropdown-menu" aria-labelledby="topnav-barangay">
-                                                    <a href="tables-caloocan.html" class="dropdown-item">Barangay in Caloocan</a>
-                                                    <a href="tables-manila.html" class="dropdown-item">Barangay in Manila</a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>   
-                                </ul>
+                                <a href="javascript:void(0);" class="dropdown-item notify-item" onclick="logout()">
+                                    <i class="mdi mdi-logout me-1"></i>
+                                    <span>Logout</span>
+                                </a>
+
+                                <script>
+                                    function logout() {
+                                        localStorage.removeItem('loggedInUser');
+                                        window.location.href = 'login.html';
+                                    }
+                                </script>
+
                             </div>
-                        </nav>
-                    </div>
-                </div>
+                        </li>
+                    </ul>
+                    <button class="button-menu-mobile open-left">
+                        <i class="mdi mdi-menu"></i>
+                    </button>
+                </div> <!-- end Topbar -->
 
                 <!-- Container-->
                 <div class="container-fluid">
+
+                    <!-- start page title -->
                     <div class="row">
                         <div class="col-12">
                             <div class="page-title-box">
@@ -350,20 +486,29 @@
                 <div class="container-fluid">
                     <div class="row small">
                         <div class="col-md-6">
-                            <span>Project Initiative 2022-<script>document.write(new Date().getFullYear())</script></span>
+                            <script>document.write(new Date().getFullYear())</script> &copy; Integrated Activations Tool</span>
                         </div>
                         <div class="col-md-6">
                             <div class="text-md-end footer-links d-none d-md-block">
-                                <a href="javascript: void(0);">&copy; Integrated Activations Tool</a>
+                                <a href="javascript: void(0);">Privacy Policy</a>
+                                <a href="javascript: void(0);">Terms & Condition</a>
+                                <a href="javascript: void(0);">About</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </footer>
 
-        </div> <!-- end container page -->
+        </div>
 
-    </div><!-- end wrapper -->
+        <!-- ============================================================== -->
+        <!-- End Page content -->
+        <!-- ============================================================== -->
+
+    </div> <!-- end wrapper -->
+
+    <div class="rightbar-overlay"></div>
+        <!-- /End-bar -->
 
     <!-- bundle -->
     <script src="assets/js/vendor.min.js"></script>

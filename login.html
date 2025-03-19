@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Log In | Integrated Activations Tool</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta content="Integrated Activations Tool" name="description" />
+
+        <!-- App favicon -->
+        <link rel="shortcut icon" href="assets/images/favicon.ico">
+        
+        <!-- App css -->
+        <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" id="light-style" />
+        <link href="assets/css/app-dark.min.css" rel="stylesheet" type="text/css" id="dark-style" />
+
+    </head>
+
+    <body class="loading authentication-bg">
+        <div class="account-pages pt-2 pt-sm-5 pb-4 pb-sm-5">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-xxl-4 col-lg-5">
+                        <div class="card">
+
+                            <!-- Logo -->
+                            <div class="card-header pt-2 pb-2 text-center bg-primary">
+                                <a href="index.html">
+                                    <span><img src="assets/images/logo.png" alt="" height="46"></span>
+                                </a>
+                            </div>
+
+                            <div class="card-body p-4">
+                                
+                                <div class="text-center w-75 m-auto">
+                                    <h4 class="text-dark-50 text-center pb-0 fw-bold">Sign In</h4>
+                                    <p class="text-muted mb-4">Enter your username and password to access admin panel.</p>
+                                </div>
+
+                                <form onsubmit="login(); return false;">
+
+                                    <div class="mb-3">
+                                        <label for="username" class="form-label">Username</label>
+                                        <input class="form-control" type="text" id="username" required="" placeholder="Enter your username">
+                                    </div>
+
+                                    <div class="mb-3">
+                                        <label for="password" class="form-label">Password</label>
+                                        <div class="input-group input-group-merge">
+                                            <input type="password" id="password" class="form-control" placeholder="Enter your password">
+                                            <div class="input-group-text" data-password="false">
+                                                <span class="password-eye"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3 mb-3">
+                                        <div class="form-check">
+                                            <input type="checkbox" class="form-check-input" id="checkbox-signin" checked>
+                                            <label class="form-check-label" for="checkbox-signin">Remember me</label>
+                                        </div>
+                                    </div>
+
+                                    <div class="mb-3 mb-0 text-center">
+                                        <button class="btn btn-primary" type="submit" onclick="login()"> Log In </button>
+                                    </div>
+
+                                </form>
+                            </div> <!-- end card-body -->
+                        </div>
+                        <!-- end card -->
+
+                    </div> <!-- end col -->
+                </div>
+                <!-- end row -->
+            </div>
+            <!-- end container -->
+        </div>
+        <!-- end page -->
+
+        <script>
+            async function fetchUsers() {
+                const response = await fetch("users.json");
+                return response.json();
+            }
+
+            async function hashPassword(password) {
+                const encoder = new TextEncoder();
+                const data = encoder.encode(password);
+                const hashBuffer = await crypto.subtle.digest('SHA-256', data);
+                return Array.from(new Uint8Array(hashBuffer)).map(byte => byte.toString(16).padStart(2, '0')).join('');   
+            }
+
+            async function login() {
+                const username = document.getElementById("username").value;
+                const password = document.getElementById("password").value;
+                const users = await fetchUsers();
+
+                if (!users[username]) {
+                    alert("User not found!");
+                    return;
+                }
+
+                const hashedPassword = await hashPassword(password);
+                if (users[username].password === hashedPassword) {
+                    // Store user details in localStorage
+                    localStorage.setItem("loggedInUser", JSON.stringify({
+                        username: username,
+                        firstName: users[username].firstName,
+                        lastName: users[username].lastName,
+                        department: users[username].department,
+                        avatar: users[username].avatar
+                    }));
+                    window.location.href = "index.html"; // redirect to dashboard
+                } else {
+                    alert("Invalid credentials!");
+                }
+            }
+
+            // Redirect to dashboard if user is already logged in
+            if (localStorage.getItem("loggedInUser")) {
+                window.location.href = "index.html";
+            }
+        </script>
+
+        <!-- Success Alert Modal -->
+        <div id="success-alert-modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content modal-filled bg-success">
+                    <div class="modal-body p-4">
+                        <div class="text-center">
+                            <i class="dripicons-checkmark h1"></i>
+                            <h4 class="mt-2">Well done!</h4>
+                            <button type="button" class="btn btn-light my-2" data-bs-dismiss="modal">Continue</button>
+                        </div>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+        <!-- Danger Alert Modal -->
+        <div id="danger-alert-modal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content modal-filled bg-danger">
+                    <div class="modal-body p-4">
+                        <div class="text-center">
+                            <i class="dripicons-wrong h1"></i>
+                            <h4 class="mt-2">User not found!</h4>
+                            <button type="button" class="btn btn-light my-2" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+
+        <!-- bundle -->
+        <script src="assets/js/vendor.min.js"></script>
+        <script src="assets/js/app.min.js"></script>
+        
+    </body>
+</html>
