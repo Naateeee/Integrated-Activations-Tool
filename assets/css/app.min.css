@@ -55,7 +55,7 @@ body {
     color: #6c757d;
     background-color: #fafbfe;
     -webkit-text-size-adjust: 100%;
-    -webkit-tap-highlight-color: transparent
+    -webkit-tap-highlight-color: transparent;
 }
 
 hr {
@@ -14891,7 +14891,7 @@ body[data-leftbar-theme=dark][data-leftbar-compact-mode=condensed] .side-nav .si
 
 .nav-user .account-user-name {
     display: block;
-    font-weight: 600
+    font-weight: 700
 }
 
 .button-menu-mobile {

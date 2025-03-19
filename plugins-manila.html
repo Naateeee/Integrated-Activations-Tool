@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Email Template</title>
+    <title>Barangay in Manila | Integrated Activations Tool</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -10,7 +10,13 @@
     <!-- App favicon -->
     <link rel="shortcut icon" href="assets/images/favicon.ico">
 
-    <!-- App Css -->
+    <!-- third party css -->
+    <link href="assets/css/vendor/dataTables.bootstrap5.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/vendor/responsive.bootstrap5.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/vendor/buttons.bootstrap5.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/vendor/select.bootstrap5.css" rel="stylesheet" type="text/css">
+
+    <!-- App css -->
     <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css">
     <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" id="light-style">
     <link href="assets/css/app-dark.min.css" rel="stylesheet" type="text/css" id="dark-style">
@@ -235,100 +241,46 @@
                         <i class="mdi mdi-menu"></i>
                     </button>
                 </div> <!-- end Topbar -->
-
-                <!-- Container -->
+                
+                <!-- Container-->
                 <div class="container-fluid">
+
+                    <!-- start page title -->
                     <div class="row">
                         <div class="col-12">
                             <div class="page-title-box">
                                 <div class="page-title-right">
                                     <ol class="breadcrumb m-0">
                                         <li class="breadcrumb-item"><a href="index.html">Integrateds Activation Tool</a></li>
-                                        <li class="breadcrumb-item fw-bold">Email Template</li>
+                                        <li class="breadcrumb-item"><a href="#">List of Barangay</a></li>
+                                        <li class="breadcrumb-item fw-bold">Barangay in Manila</li>
                                     </ol>
                                 </div>
-                                <h5 class="page-title text-dark">COMPLIANCE OFFICER EMAIL TEMPLATE</h5>
+                                <h5 class="page-title text-dark">BARANGAY IN MANILA CITY</h5>
                             </div>
                         </div>
                     </div>
 
                     <div class="row">
                         <div class="col-12">
-                            <div class="card">
+                            <div class="card border">
                                 <div class="card-body">
-                                    <p class="text-dark font-14 mb-3">These are templates for Compliance Officer emails.</p>
-
-                                    <ul class="nav nav-pills bg-nav-pills nav-justified mb-3">
-                                        <li class="nav-item">
-                                            <a href="#withOB" data-bs-toggle="tab" aria-expanded="false" class="nav-link rounded-0 active">
-                                                <i class="mdi mdi-home-variant d-md-none d-block"></i><span class="d-none d-md-block">Account with OB</span>
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#pob" data-bs-toggle="tab" aria-expanded="false" class="nav-link rounded-0">
-                                                <i class="mdi mdi-account-circle d-md-none d-block"></i><span class="d-none d-md-block">Proof of Billing</span>
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#signature" data-bs-toggle="tab" aria-expanded="false" class="nav-link rounded-0">
-                                                <i class="mdi mdi-settings-outline d-md-none d-block"></i><span class="d-none d-md-block">Signature</span>
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#pobPOID" data-bs-toggle="tab" aria-expanded="false" class="nav-link rounded-0">
-                                                <i class="mdi mdi-settings-outline d-md-none d-block"></i><span class="d-none d-md-block">POB/POID</span>
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#unclear" data-bs-toggle="tab" aria-expanded="false" class="nav-link rounded-0">
-                                                <i class="mdi mdi-settings-outline d-md-none d-block"></i><span class="d-none d-md-block">Unclear Copy</span>
-                                            </a>
-                                        </li>
-                                        <li class="nav-item">
-                                            <a href="#safPOID" data-bs-toggle="tab" aria-expanded="false" class="nav-link rounded-0">
-                                                <i class="mdi mdi-settings-outline d-md-none d-block"></i><span class="d-none d-md-block">SAF and ID</span>
-                                            </a>
-                                        </li>
-                                    </ul>
-
-                                    <div class="tab-content">
-                                        <div class="tab-pane text-dark show active" id="withOB">
-                                            <p>Sending you this email as a reminder to settle the remaining balance of Php [amount] that we discussed in our phone call. You may reply to this email if payment has been made, and  attach the proof of payment. Looking forward to receiving the document to complete your activation.</p>
-                                            <p>Have an awesome day!</p>
-                                            <p>Sincerely,</p>
-                                        </div>
-                                        <div class="tab-pane text-dark" id="pob">
-                                            <p>We're sending you this email to remind you to submit a new proof of billing, as we discussed in our phone call. You may reply to this email and attach the document. We're looking forward to receiving the document to complete your activation.</p>
-                                            <p>Please let us know if you have any questions.</p>
-                                            <p>Have an awesome day!</p>
-                                            <p>Sincerely,</p>
-                                        </div>
-                                        <div class="tab-pane text-dark" id="signature">
-                                            <p>We're sending you this email to assist you with the activation of your Cignal account. As discussed via phone, please ensure that your application form is signed accordingly. You may reply to this email and attach the signed document. I have also included a copy of the application form for your convenience. We're looking forward to receiving the document to complete your activation.</p>
-                                            <p>Have an awesome day!</p>
-                                            <p>Sincerely,</p>
-                                        </div>
-                                        <div class="tab-pane text-dark" id="pobPOID">
-                                            <p>Thank you for applying for a Cignal subscription. We would like to ask you to send a clear copy of your latest Proof of Billing and another government issued Proof of Identification. You may reply to this email and attach the documents we need. Looking forward to receiving the document to complete your activation.</p>
-                                            <p>Have an awesome day!</p>
-                                            <p>Sincerely,</p>
-                                        </div>
-                                        <div class="tab-pane text-dark" id="unclear">
-                                            <p>Thank you for applying for a Cignal subscription. We would like to ask you to send a clear copy of your latest Proof of Billing and another government issued Proof of Identification. You may reply to this email and attach the documents we need. Looking forward to receiving the document to complete your activation.</p>
-                                            <p>Have an awesome day!</p>
-                                            <p>Sincerely,</p>
-                                        </div>
-                                        <div class="tab-pane text-dark" id="safPOID">
-                                            <p>We're sending you this email to remind you to submit a new Application form and any government issued ID. Please ensure that you fill out the required fields in the form and sign accordingly. You may reply to this email and attach the documents needed. I have also included a copy of the application form for your convenience. We're looking forward to receiving your documents to complete your activation.</p>
-                                            <p>Have an awesome day!</p>
-                                            <p>Sincerely,</p>
-                                        </div>
-                                    </div>                       
-
-                                </div> <!-- end card-body -->
-                            </div> <!-- end card-->
-                        </div> <!-- end col -->
-                    </div> <!-- end row -->
+                                    <span class="badge badge-danger-lighten p-1 mb-3">updated List of Barangay in Manila City as of October 1, 2022</span>
+                                    <table id="basic-datatable" class="table dataTable display dt-responsive table-bordered table-hover table-centered w-100 nowrap text-dark">
+                                        <thead class="table-dark">
+                                            <tr>
+                                                <th>CORRESPONDING SYSTEM NAME</th>
+                                                <th>CORRESPONDING BARANGAY</th>
+                                                <th>ZIP CODE</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                        <tfoot></tfoot>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div> <!-- end row-->
 
                 </div> <!-- container -->
 
@@ -367,5 +319,21 @@
     <script src="assets/js/vendor.min.js"></script>
     <script src="assets/js/app.min.js"></script>
 
+    <!-- third party js -->
+    <script src="assets/js/vendor/jquery.dataTables.min.js"></script>
+    <script src="assets/js/vendor/dataTables.bootstrap5.js"></script>
+    <script src="assets/js/vendor/dataTables.responsive.min.js"></script>
+    <script src="assets/js/vendor/responsive.bootstrap5.min.js"></script>
+    <script src="assets/js/vendor/dataTables.buttons.min.js"></script>
+    <script src="assets/js/vendor/buttons.bootstrap5.min.js"></script>
+    <script src="assets/js/vendor/buttons.html5.min.js"></script>
+    <script src="assets/js/vendor/buttons.flash.min.js"></script>
+    <script src="assets/js/vendor/buttons.print.min.js"></script>
+    <script src="assets/js/vendor/dataTables.keyTable.min.js"></script>
+    <script src="assets/js/vendor/dataTables.select.min.js"></script>
+
+    <!-- demo app -->
+    <script src="assets/js/pages/demo.datatable-init.js"></script>
+    <script src="functions/tables-brgy-manila.js"></script>
 </body>
 </html>
