@@ -260,6 +260,15 @@
                                         <div class="mb-3 text-center">
                                             <label class="form-label fw-bold text-danger" for="inputAddress">City / Province :</label>
                                             <input type="text" id="inputAddress" class="form-control text-center text-dark" placeholder="Enter address here..." required="">
+
+                                            <script>
+                                                document.getElementById("inputAddress").addEventListener("keypress", function(event) {
+                                                    if (event.key === "Enter") {
+                                                        event.preventDefault();
+                                                        searchBilling();
+                                                    }
+                                                });
+                                            </script>
                                         </div>
                                         <div class="mb-3 d-flex flex-row justify-content-center">
                                             <button type="submit" class="btn btn-primary me-2" id="searchAddress" onclick="searchBilling();"><i class="uil-search-alt"></i>&nbsp;Search</button>
@@ -539,6 +548,7 @@
 
     <div class="rightbar-overlay"></div>
         <!-- /End-bar -->
+
     <!-- bundle -->
     <script src="assets/js/vendor.min.js"></script>
     <script src="assets/js/app.min.js"></script>
