@@ -211,11 +211,6 @@
                                     <span>Support</span>
                                 </a>
 
-                                <a href="javascript:void(0);" class="dropdown-item notify-item">
-                                    <i class="mdi mdi-lock-outline me-1"></i>
-                                    <span>Lock Screen</span>
-                                </a>
-
                                 <a href="javascript:void(0);" class="dropdown-item notify-item" onclick="logout()">
                                     <i class="mdi mdi-logout me-1"></i>
                                     <span>Logout</span>
@@ -267,7 +262,7 @@
                                                 <div class="row mb-2">
                                                     <label class="col-4 col-form-label text-md-end text-danger">Phone Verification:</label>
                                                     <div class="col-8">
-                                                        <select class="form-select text-dark" id="phoneFA" oninput="forActivation()">
+                                                        <select class="form-select text-dark" id="phoneVerification_input" oninput="forActivation()">
                                                             <option></option>
                                                             <option>Successful Call Out using Avaya</option>
                                                             <option>Successful Call Out using Dialer</option>
@@ -278,7 +273,7 @@
                                                 <div class="row mb-2">
                                                     <label class="col-4 col-form-label text-md-end text-danger">1st Party Call Out:</label>
                                                     <div class="col-8">
-                                                    <select class="form-select text-dark" id="callFA" oninput="forActivation()">
+                                                    <select class="form-select text-dark" id="PID_input" oninput="forActivation()">
                                                             <option></option>
                                                             <option>Not Applicable</option>
                                                             <option>Customer</option>
@@ -292,7 +287,7 @@
                                                 <div class="row mb-2">
                                                     <label class="col-4 col-form-label text-md-end text-danger">Items Discussed:</label>
                                                     <div class="col-8">
-                                                        <input class="form-control text-dark" id="itemsFA" oninput="forActivation()">
+                                                        <input class="form-control text-dark" id="itemsDiscussed_input" oninput="forActivation()">
                                                     </div>
                                                 </div>
                                                 <br>
@@ -315,13 +310,13 @@
                                                 <div class="row mb-2">
                                                     <label class="col-4 col-form-label text-md-end text-danger">Highest Plan:</label>
                                                     <div class="col-8">
-                                                        <input class="form-control text-dark" id="hpaFA" oninput="forActivation()">
+                                                        <input class="form-control text-dark" id="HPA_input" oninput="forActivation()">
                                                     </div>
                                                 </div>
                                                 <div class="row mb-3">
                                                     <label class="col-4 col-form-label text-md-end text-danger">Ticket Number:</label>
                                                     <div class="col-8">
-                                                        <input class="form-control text-dark" id="ticketFA" oninput="forActivation()">
+                                                        <input class="form-control text-dark" id="IRN_input" oninput="forActivation()">
                                                     </div>
                                                 </div>
                                             </form>
@@ -332,7 +327,7 @@
                                             <h4 class="header-title mb-3 text-dark">Notes Result</h4>
                                             <form>
                                                 <div class="mb-3">
-                                                    <textarea style="height: 300px; color: black; resize: none;" class="form-control" id="notesFA" readonly></textarea>
+                                                    <textarea style="height: 300px; color: black; resize: none;" class="form-control" id="notes_value" readonly></textarea>
                                                 </div>
                                             </form>
                                         </div>
@@ -341,21 +336,137 @@
                                             <div class="row">
                                                 <div class="col-6 d-flex flex-row justify-content-end">
                                                     <div class="btn-group">
-                                                        <button class="btn btn-danger btn-sm" id="clearButtonFA" onclick="clearNotesFA()"><i class="uil-trash-alt"></i>&nbsp;clear fields</button>
+                                                        <button class="btn btn-danger btn-sm" id="clear_button" onclick="clearNotes()"><i class="uil-trash-alt"></i>&nbsp;clear fields</button>
                                                     </div>
                                                 </div>
                                                 <div class="col-6 d-flex flex-row justify-content-end">
                                                     <div class="btn-group">
-                                                        <button class="btn btn-success btn-sm" id="copyButtonFA" onclick="copyNotesFA()"><i class="uil-copy"></i>&nbsp;copy text</button>
-                                                        <button class="btn btn-success btn-sm dropdown-toggle dropdown-toggle-split" id="copySplitFA" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="visually-hidden">Toggle Dropdown</span></button>
+                                                        <button class="btn btn-success btn-sm" id="copy_button" onclick="copyNotes()"><i class="uil-copy"></i>&nbsp;copy text</button>
+                                                        <button class="btn btn-success btn-sm dropdown-toggle dropdown-toggle-split" id="copySplit_button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="visually-hidden">Toggle Dropdown</span></button>
                                                         <div class="dropdown-menu border-success">
-                                                            <a class="dropdown-item small text-success" id="calloutButtonFA" onclick="copyCallOutFA()"><i class="uil-copy"></i>&nbsp;Call Out</a>
-                                                            <a class="dropdown-item small text-success" id="activationButtonFA" onclick="copyActivationFA()"><i class="uil-copy"></i>&nbsp;Activation</a>
+                                                            <a class="dropdown-item small text-success" id="calloutButtonForActivation" onclick="copyCallOutNotes()"><i class="uil-copy"></i>&nbsp;Call Out</a>
+                                                            <a class="dropdown-item small text-success" id="activationButtonForActivation" onclick="copyActivationNotes()"><i class="uil-copy"></i>&nbsp;Activation</a>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
+
+                                        <script>
+                                            function checkNotesResult() {
+                                                var notesResult = document.getElementById("notes_value").value;
+                                                var clearButton = document.getElementById("clear_button");
+                                                var copyButton = document.getElementById("copy_button");
+                                                var copySplitButton = document.getElementById("copySplit_button");
+
+                                                var isEmpty = notesResult === '';
+
+                                                clearButton.disabled = isEmpty;
+                                                copyButton.disabled = isEmpty;
+                                                copySplitButton.disabled = isEmpty;
+                                                copySplitButton.style.display = isEmpty ? 'none' : 'inline'; // Hide the element
+                                            }
+
+                                            checkNotesResult();
+                                            document.getElementById("notes_value").addEventListener("input", checkNotesResult);
+
+                                            function forActivation() {
+                                                var phoneVerification = document.getElementById("phoneVerification_input").value;
+                                                var PID = document.getElementById("PID_input").value;
+                                                var itemsDiscussed = document.getElementById("itemsDiscussed_input").value;
+                                                var HPA = document.getElementById("HPA_input").value;
+                                                var IRN = document.getElementById("IRN_input").value;
+                                                var notesValue = document.getElementById("notes_value");
+
+                                                let notes = [];
+
+                                                let activationNotes = [];
+                                                if (phoneVerification) activationNotes.push(`PHONE VERIFICATION: ${phoneVerification}`);
+                                                if (PID) activationNotes.push(`1st PARTY CALL OUT: ${PID}`);
+                                                if (itemsDiscussed) activationNotes.push(`ITEMS DISCUSSED: ${itemsDiscussed}`);
+
+                                                if (activationNotes.length) {
+                                                    notes.push(...activationNotes, ``);
+                                                }
+
+                                                let activationDetails = [];
+                                                if (HPA) activationDetails.push(`HIGHEST PLAN: ${HPA}`);
+                                                if (IRN) activationDetails.push(`TICKET NUMBER: ${IRN}`);
+
+                                                if (activationDetails.length) {
+                                                    notes.push(`ACTIVATION DETAILS: `);
+                                                    notes.push(...activationDetails, ``);
+                                                }
+
+                                                notesValue.value = notes.length ? notes.join('\n') : '';
+                                                notesValue.style.fontFamily = 'Courier New, Courier, monospace';
+                                                notesValue.style.fontSize = '1.05rem';
+                                                checkNotesResult();
+                                            }
+
+                                            function clearNotes() {
+                                                var fields = [
+                                                    document.getElementById("phoneVerification_input"),
+                                                    document.getElementById("PID_input"),
+                                                    document.getElementById("itemsDiscussed_input"),
+                                                    document.getElementById("HPA_input"),
+                                                    document.getElementById("IRN_input")
+                                                ];
+
+                                                fields.forEach(field => field.value = '');
+
+                                                var notesValue = document.getElementById("notes_value");
+                                                notesValue.value = '';
+
+                                                checkNotesResult();
+                                            }
+
+                                            function copyNotes() {
+                                                var notesValue = document.getElementById("notes_value");
+                                                notesValue.select();
+                                                notesValue.setSelectionRange(0, 99999);
+                                                document.execCommand("copy");
+                                            }
+
+                                            function copiedOptionHPA(option) {
+                                                var HPA = document.getElementById("HPA_input");
+                                                HPA.value = option;
+                                                forActivation();
+                                            }
+
+                                            function copyCallOutNotes() {
+                                                var phoneVerification = document.getElementById("phoneVerification_input").value;
+                                                var PID = document.getElementById("PID_input").value;
+                                                var itemsDiscussed = document.getElementById("itemsDiscussed_input").value;
+                                                var notesValue = document.getElementById("notes_value").value;
+
+                                                var callOutValue = `PHONE VERIFICATION: ${phoneVerification}\n1st PARTY CALL OUT: ${PID}\nITEMS DISCUSSED: ${itemsDiscussed}`;
+                                                navigator.clipboard.writeText(callOutValue)
+                                                .then(() => {
+                                                    var startPos = notesValue.indexOf('PHONE VERIFICATION: ');
+                                                    var endPos = startPos + callOutValue.length;
+                                                    document.getElementById("notes_value").focus();
+                                                    document.getElementById("notes_value").setSelectionRange(startPos, endPos);
+                                                })
+                                                .catch(error => console.error('Error copying text: ', error));
+                                            }
+
+                                            function copyActivationNotes() {
+                                                var HPA_input = document.getElementById("HPA_input").value;
+                                                var IRN_input = document.getElementById("IRN_input").value;
+                                                var notesValue = document.getElementById("notes_value").value;
+
+                                                var activationValue = `ACTIVATION DETAILS: \nHIGHEST PLAN: ${HPA_input}\nTICKET NUMBER: ${IRN_input}`;
+                                                navigator.clipboard.writeText(activationValue)
+                                                .then(() => {
+                                                    var startPos = notesValue.indexOf('ACTIVATION DETAILS: ');
+                                                    var endPos = startPos + activationValue.length;
+                                                    document.getElementById("notes_value").focus();
+                                                    document.getElementById("notes_value").setSelectionRange(startPos, endPos);
+                                                })
+                                                .catch(error => console.error('Error copying text: ', error));
+                                            }
+                                        </script>
 
                                     </div> <!-- end row -->
 
