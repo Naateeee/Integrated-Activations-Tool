@@ -89,5 +89,12 @@
         "lastName": "Talosig",
         "department": "CEG - Activations Supervisor",
         "avatar": "assets/images/users/undraw_female-avatar_7t6k.svg"
+    },
+    "CEGamutin": {
+        "password": "fd74bdd901857b89f5737e5352a2a8a2d1f000aa4bed4aee47c95afaa37d0f99",
+        "firstName": "Christian",
+        "lastName": "Gamutin",
+        "department": "CEG - InHouse Operation TFS",
+        "avatar": "assets/images/users/undraw_male-avatar_zkzx.svg"
     }
 }
