@@ -32,7 +32,7 @@
         "firstName": "Maria Angela",
         "lastName": "Tripolca",
         "department": "CEG - Activation Officer",
-        "avatar": "assets/images/users/undraw_female-avatar_7t6k.svg"
+        "avatar": "assets/images/users/user_angela.jpg"
     },
     "NJAdriano": {
         "password": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
@@ -46,7 +46,7 @@
         "firstName": "Erick",
         "lastName": "Cerrado",
         "department": "CEG - Activation Officer",
-        "avatar": "assets/images/users/undraw_male-avatar_zkzx.svg"
+        "avatar": "assets/images/users/user_erick.jpg"
     },
     "CCVillafuerte": {
         "password": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
