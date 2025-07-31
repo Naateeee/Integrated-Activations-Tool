@@ -1,7 +1,8 @@
-// ID Only List for July 3, 2025
+// ID Only List for August 1, 2025
 const salesManCode = [
   {
     "Territory Partner": "Digilife",
+    "Main Class": "TP Store",
     "Class": "MRK",
     "Region": "East Mindanao",
     "Sales Code": "MR6BAMRK",
@@ -9,6 +10,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "TP Store",
     "Class": "MRK",
     "Region": "Upper South Luzon",
     "Sales Code": "MRIXAMRK",
@@ -16,6 +18,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Northwest Mindanao",
     "Sales Code": "WRZBRXXX",
@@ -23,6 +26,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Northwest Mindanao",
     "Sales Code": "WRZ2AXXX",
@@ -30,6 +34,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Northwest Mindanao",
     "Sales Code": "WRZXAXXX",
@@ -37,6 +42,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia North",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Central Visayas",
     "Sales Code": "VKTVCXXX",
@@ -44,6 +50,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia North",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Central Visayas",
     "Sales Code": "THA1AN002022",
@@ -51,6 +58,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia South",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Central Visayas",
     "Sales Code": "CHA1AS002623",
@@ -58,6 +66,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "South Mindanao",
     "Sales Code": "CHI3BI000523",
@@ -65,6 +74,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "South Mindanao",
     "Sales Code": "WB3FAXXX",
@@ -72,6 +82,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "South Mindanao",
     "Sales Code": "THBIH30014",
@@ -79,6 +90,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "South Mindanao",
     "Sales Code": "THBIH30018",
@@ -86,6 +98,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BSL",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "NCR",
     "Sales Code": "CHN3BL000423",
@@ -93,6 +106,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cayanan",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Central Luzon",
     "Sales Code": "THCNJ20007",
@@ -100,6 +114,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cayanan",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Central Luzon",
     "Sales Code": "CHI2CN000523",
@@ -107,6 +122,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "East Visayas",
     "Sales Code": "VSVHGSAC",
@@ -114,6 +130,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "East Visayas",
     "Sales Code": "THSWCL000822",
@@ -121,6 +138,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Southern East",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "East Visayas",
     "Sales Code": "VSW6AXXX",
@@ -128,6 +146,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "CRFT",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Central Visayas",
     "Sales Code": "XMLYAXXX",
@@ -135,6 +154,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "CRFT",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Central Visayas",
     "Sales Code": "XM3LAXXX",
@@ -142,6 +162,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "East Mindanao",
     "Sales Code": "W36BAXXX",
@@ -149,6 +170,15 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "TP Store",
+    "Class": "TP Hub",
+    "Region": "East Mindanao",
+    "Sales Code": "W36MAXXX",
+    "Trade Name": "DIGILIFE SAN FRANCISCO"
+  },
+  {
+    "Territory Partner": "Digilife",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "East Mindanao",
     "Sales Code": "W37JAXXX",
@@ -156,6 +186,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCHXXX",
@@ -163,6 +194,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCJXXX",
@@ -170,6 +202,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCPXXX",
@@ -177,6 +210,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCZXXX",
@@ -184,6 +218,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Northwest Mindanao",
     "Sales Code": "WCZUAXXX",
@@ -191,20 +226,15 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Northwest Mindanao",
     "Sales Code": "WE1TAXXX",
     "Trade Name": "ELIM OROQUIETA"
   },
   {
-    "Territory Partner": "Elim",
-    "Class": "TP Hub",
-    "Region": "Northwest Mindanao",
-    "Sales Code": "WE1UAXXX",
-    "Trade Name": "ELIM OZAMIS MANABAY"
-  },
-  {
     "Territory Partner": "Fixcells",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "North Luzon East",
     "Sales Code": "TMCCAXXX",
@@ -212,6 +242,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "North Luzon East",
     "Sales Code": "THFSX10014",
@@ -219,6 +250,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "North Luzon East",
     "Sales Code": "TKCNNXXX",
@@ -226,6 +258,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "North Luzon East",
     "Sales Code": "THX1FS001722",
@@ -233,6 +266,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "North Luzon West",
     "Sales Code": "THFGL20005",
@@ -240,6 +274,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing 2",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "North Luzon West",
     "Sales Code": "CHK2TC001023",
@@ -247,6 +282,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Central South Luzon",
     "Sales Code": "THX3GL000622",
@@ -254,6 +290,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Goodlife",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Lower South Luzon",
     "Sales Code": "UVMXASCC",
@@ -261,6 +298,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Goodlife",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Lower South Luzon",
     "Sales Code": "UVM3AXXX",
@@ -268,6 +306,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Upper South Luzon",
     "Sales Code": "UZLCAXXX",
@@ -275,6 +314,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Upper South Luzon",
     "Sales Code": "THE3GM002122",
@@ -282,6 +322,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom 2 (Rizal)",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "NCR",
     "Sales Code": "THEPF30001",
@@ -289,6 +330,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Lower South Luzon",
     "Sales Code": "THHDP10006",
@@ -296,6 +338,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Lower South Luzon",
     "Sales Code": "UWNQAXXX",
@@ -303,6 +346,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Upper South Luzon",
     "Sales Code": "THY3IB001422",
@@ -310,6 +354,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Mindoro",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Upper South Luzon",
     "Sales Code": "UAKYAXXX",
@@ -317,6 +362,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Koks",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Western Visayas",
     "Sales Code": "ADPC5D01",
@@ -324,6 +370,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Koks",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Western Visayas",
     "Sales Code": "VDPDBXXX",
@@ -331,6 +378,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Koks",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Western Visayas",
     "Sales Code": "VDPXAXXX",
@@ -338,6 +386,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Madera",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Lower South Luzon",
     "Sales Code": "USOJAXXX",
@@ -345,6 +394,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Madera",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Lower South Luzon",
     "Sales Code": "USOBAXXX",
@@ -352,6 +402,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Madera",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Lower South Luzon",
     "Sales Code": "USMNLXXX",
@@ -359,6 +410,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Madera",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Lower South Luzon",
     "Sales Code": "USMNSXXX",
@@ -366,6 +418,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "North Luzon East",
     "Sales Code": "TNEPBXXX",
@@ -373,6 +426,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Lower South Luzon",
     "Sales Code": "URNEAXXX",
@@ -380,6 +434,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Lower South Luzon",
     "Sales Code": "URNNAXXX",
@@ -387,6 +442,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ1ZAXXX",
@@ -394,6 +450,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Western Visayas",
     "Sales Code": "VBRACXXX",
@@ -401,6 +458,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Western Visayas",
     "Sales Code": "VBRHAXXX",
@@ -408,6 +466,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Western Visayas",
     "Sales Code": "THPNF40123",
@@ -415,6 +474,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros Or",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Western Visayas",
     "Sales Code": "VCSFAXXX",
@@ -422,6 +482,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Western Visayas",
     "Sales Code": "VAQMAXXX",
@@ -429,6 +490,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Western Visayas",
     "Sales Code": "THI4PY000622",
@@ -436,6 +498,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Save and Earn",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Central Visayas",
     "Sales Code": "VLULEXXX",
@@ -443,6 +506,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Save and Earn",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Central Visayas",
     "Sales Code": "VLXUMBXX",
@@ -450,6 +514,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Central South Luzon",
     "Sales Code": "UKKKAXXX",
@@ -457,6 +522,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Central South Luzon",
     "Sales Code": "UKKKTXXX",
@@ -464,6 +530,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TTANS",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Central South Luzon",
     "Sales Code": "DUK7AXXX",
@@ -471,6 +538,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "East Mindanao",
     "Sales Code": "WU8JAXXX",
@@ -478,6 +546,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "East Mindanao",
     "Sales Code": "WU8PAXXX",
@@ -485,6 +554,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "North Luzon West",
     "Sales Code": "THP2VT000622",
@@ -492,6 +562,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "North Luzon West",
     "Sales Code": "TAABAXXX",
@@ -499,6 +570,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vitalize",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "NCR",
     "Sales Code": "X4XGAXXX",
@@ -506,6 +578,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "VRJ",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Central Luzon",
     "Sales Code": "CHY1TP000823",
@@ -513,6 +586,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "Central Luzon",
     "Sales Code": "THU1JZ000422",
@@ -520,6 +594,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Weecent",
+    "Main Class": "TP Store",
     "Class": "TP Hub",
     "Region": "NCR",
     "Sales Code": "XWXQAXXX",
@@ -527,6 +602,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "8 telcom",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "South Mindanao",
     "Sales Code": "TOG38M002125",
@@ -534,6 +610,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "Northwest Mindanao",
     "Sales Code": "WRZBRFBO",
@@ -541,6 +618,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia North",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "Central Visayas",
     "Sales Code": "VKTVCFBO",
@@ -548,6 +626,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia South",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "Central Visayas",
     "Sales Code": "VKT6AFBO",
@@ -555,6 +634,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "South Mindanao",
     "Sales Code": "WB3FAFBO",
@@ -562,6 +642,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BSL",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "NCR",
     "Sales Code": "XQXNPFBO",
@@ -569,6 +650,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BSL BULACAN",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "NCR",
     "Sales Code": "THHCAFBO",
@@ -576,6 +658,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cayanan",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "Central Luzon",
     "Sales Code": "T2H1AFBO",
@@ -583,6 +666,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "East Visayas",
     "Sales Code": "VSW6AFBO",
@@ -590,6 +674,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "East Visayas",
     "Sales Code": "VSVAAFBO",
@@ -597,6 +682,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Southern East",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "East Visayas",
     "Sales Code": "TOCLD10012",
@@ -604,6 +690,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "CRFT",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "Central Visayas",
     "Sales Code": "XM3LAFBO",
@@ -611,6 +698,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "East Mindanao",
     "Sales Code": "W36BAFBO",
@@ -618,6 +706,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCHFBO",
@@ -625,6 +714,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "Northwest Mindanao",
     "Sales Code": "WE1UAFBO",
@@ -632,6 +722,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "North Luzon East",
     "Sales Code": "TMCCAFBO",
@@ -639,6 +730,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "North Luzon West",
     "Sales Code": "TMAYFFBO",
@@ -646,6 +738,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "South Mindanao",
     "Sales Code": "WS3TRFBO",
@@ -653,6 +746,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "Central South Luzon",
     "Sales Code": "U2JHAFBO",
@@ -660,6 +754,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Goodlife",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "Lower South Luzon",
     "Sales Code": "UVM3AFBO",
@@ -667,6 +762,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "Upper South Luzon",
     "Sales Code": "UZLCAFBO",
@@ -674,6 +770,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom 2 (Rizal)",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "NCR",
     "Sales Code": "TOEPF30003",
@@ -681,6 +778,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "Lower South Luzon",
     "Sales Code": "UWNQAFBO",
@@ -688,6 +786,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "Upper South Luzon",
     "Sales Code": "UAICAFBO",
@@ -695,6 +794,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Mindoro",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "Upper South Luzon",
     "Sales Code": "TOA4IM001322",
@@ -702,6 +802,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Koks",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "Western Visayas",
     "Sales Code": "VDPDBFBO",
@@ -709,6 +810,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Madera",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "Lower South Luzon",
     "Sales Code": "USOJAFBO",
@@ -716,6 +818,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "North Luzon East",
     "Sales Code": "TNEPAFBO",
@@ -723,6 +826,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix 2",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "North Luzon East",
     "Sales Code": "TYE7AFBO",
@@ -730,6 +834,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "Lower South Luzon",
     "Sales Code": "URNEAFBO",
@@ -737,6 +842,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oxworld",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "NCR",
     "Sales Code": "TON4OW000923",
@@ -744,6 +850,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "Western Visayas",
     "Sales Code": "VBRACFBO",
@@ -751,6 +858,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros Or",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "Western Visayas",
     "Sales Code": "VCSFAFBO",
@@ -758,6 +866,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "Western Visayas",
     "Sales Code": "TOK4PE000823",
@@ -765,6 +874,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "Western Visayas",
     "Sales Code": "VAPGAFBO",
@@ -772,6 +882,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Save and Earn",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "Central Visayas",
     "Sales Code": "VLULEFBO",
@@ -779,6 +890,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "Central South Luzon",
     "Sales Code": "UKKKAFBO",
@@ -786,6 +898,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TTANS",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "Central South Luzon",
     "Sales Code": "DUK7AFBO",
@@ -793,6 +906,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "East Mindanao",
     "Sales Code": "WU8JAFBO",
@@ -800,6 +914,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "North Luzon West",
     "Sales Code": "TAABAFBO",
@@ -807,6 +922,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "North Luzon West",
     "Sales Code": "TOR2VY000823",
@@ -814,6 +930,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vitalize",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "NCR",
     "Sales Code": "X4XGAFBO",
@@ -821,6 +938,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "West Central Luzon",
     "Sales Code": "TQGPAFBO",
@@ -828,6 +946,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "Central Luzon",
     "Sales Code": "TGGMCFBO",
@@ -835,6 +954,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Weecent",
+    "Main Class": "TP Store",
     "Class": "TP Online Store",
     "Region": "NCR",
     "Sales Code": "XWXQAFBO",
@@ -842,6 +962,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "UBJCA000",
@@ -849,6 +970,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "UBJEA000",
@@ -856,6 +978,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "UBJEB000",
@@ -863,6 +986,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "UBJLA000",
@@ -870,6 +994,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "UBJMA000",
@@ -877,6 +1002,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "UBJPA000",
@@ -884,6 +1010,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "UIJMA000",
@@ -891,6 +1018,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBXQA000",
@@ -898,6 +1026,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBXKA000",
@@ -905,6 +1034,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBJPA000",
@@ -912,6 +1042,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBJEA000",
@@ -919,6 +1050,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBSAM000",
@@ -926,6 +1058,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBHMP000",
@@ -933,6 +1066,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBHMP001",
@@ -940,6 +1074,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBHMP002",
@@ -947,6 +1082,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBHMP003",
@@ -954,6 +1090,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBHMP004",
@@ -961,6 +1098,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBHMP005",
@@ -968,6 +1106,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBHMP006",
@@ -975,6 +1114,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBHMP007",
@@ -982,6 +1122,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBHMP008",
@@ -989,6 +1130,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBHMP009",
@@ -996,6 +1138,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBHMP010",
@@ -1003,6 +1146,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBHMP011",
@@ -1010,6 +1154,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBHMP012",
@@ -1017,6 +1162,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBHMP013",
@@ -1024,6 +1170,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBHMP014",
@@ -1031,6 +1178,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBHMP015",
@@ -1038,6 +1186,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBHMP016",
@@ -1045,6 +1194,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBHMP017",
@@ -1052,6 +1202,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBHMP018",
@@ -1059,6 +1210,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBHMP019",
@@ -1066,6 +1218,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBHMP020",
@@ -1073,6 +1226,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBHMP021",
@@ -1080,6 +1234,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBHMP022",
@@ -1087,6 +1242,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBHMP023",
@@ -1094,6 +1250,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBHMP024",
@@ -1101,6 +1258,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBHMP025",
@@ -1108,6 +1266,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP000",
@@ -1115,6 +1274,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP001",
@@ -1122,6 +1282,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP002",
@@ -1129,6 +1290,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP003",
@@ -1136,6 +1298,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP004",
@@ -1143,6 +1306,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP005",
@@ -1150,6 +1314,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP006",
@@ -1157,6 +1322,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP007",
@@ -1164,6 +1330,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP008",
@@ -1171,6 +1338,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP009",
@@ -1178,6 +1346,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP010",
@@ -1185,6 +1354,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP011",
@@ -1192,6 +1362,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP012",
@@ -1199,6 +1370,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP013",
@@ -1206,6 +1378,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP014",
@@ -1213,6 +1386,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP015",
@@ -1220,6 +1394,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP016",
@@ -1227,6 +1402,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP017",
@@ -1234,6 +1410,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP018",
@@ -1241,6 +1418,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP019",
@@ -1248,6 +1426,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP020",
@@ -1255,6 +1434,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP021",
@@ -1262,6 +1442,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP022",
@@ -1269,6 +1450,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP023",
@@ -1276,6 +1458,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP024",
@@ -1283,6 +1466,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP025",
@@ -1290,6 +1474,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP026",
@@ -1297,6 +1482,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP027",
@@ -1304,6 +1490,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP028",
@@ -1311,6 +1498,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP029",
@@ -1318,6 +1506,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP030",
@@ -1325,6 +1514,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP031",
@@ -1332,6 +1522,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP032",
@@ -1339,6 +1530,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP033",
@@ -1346,6 +1538,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP034",
@@ -1353,6 +1546,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP035",
@@ -1360,6 +1554,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP036",
@@ -1367,6 +1562,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP037",
@@ -1374,6 +1570,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP038",
@@ -1381,6 +1578,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP039",
@@ -1388,6 +1586,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP040",
@@ -1395,6 +1594,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP041",
@@ -1402,6 +1602,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP042",
@@ -1409,6 +1610,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP043",
@@ -1416,6 +1618,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP044",
@@ -1423,6 +1626,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP045",
@@ -1430,6 +1634,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP046",
@@ -1437,6 +1642,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP047",
@@ -1444,6 +1650,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP048",
@@ -1451,6 +1658,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP049",
@@ -1458,6 +1666,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP050",
@@ -1465,6 +1674,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP051",
@@ -1472,6 +1682,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP052",
@@ -1479,6 +1690,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP053",
@@ -1486,6 +1698,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP054",
@@ -1493,6 +1706,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP055",
@@ -1500,6 +1714,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP056",
@@ -1507,6 +1722,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP057",
@@ -1514,6 +1730,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP058",
@@ -1521,6 +1738,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP059",
@@ -1528,6 +1746,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP060",
@@ -1535,6 +1754,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP061",
@@ -1542,6 +1762,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP062",
@@ -1549,6 +1770,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP063",
@@ -1556,6 +1778,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP064",
@@ -1563,6 +1786,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP065",
@@ -1570,6 +1794,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP066",
@@ -1577,6 +1802,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP067",
@@ -1584,6 +1810,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP068",
@@ -1591,6 +1818,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP069",
@@ -1598,6 +1826,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP070",
@@ -1605,6 +1834,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP071",
@@ -1612,6 +1842,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP072",
@@ -1619,6 +1850,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP073",
@@ -1626,6 +1858,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP074",
@@ -1633,6 +1866,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP075",
@@ -1640,6 +1874,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP076",
@@ -1647,6 +1882,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP077",
@@ -1654,6 +1890,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP078",
@@ -1661,6 +1898,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP079",
@@ -1668,6 +1906,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP080",
@@ -1675,6 +1914,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP081",
@@ -1682,6 +1922,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP082",
@@ -1689,6 +1930,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP083",
@@ -1696,6 +1938,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP084",
@@ -1703,6 +1946,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP085",
@@ -1710,6 +1954,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP086",
@@ -1717,6 +1962,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP087",
@@ -1724,6 +1970,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP088",
@@ -1731,6 +1978,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP089",
@@ -1738,6 +1986,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP090",
@@ -1745,6 +1994,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP091",
@@ -1752,6 +2002,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBAPP092",
@@ -1759,6 +2010,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBELE000",
@@ -1766,6 +2018,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBELE001",
@@ -1773,6 +2026,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBELE002",
@@ -1780,6 +2034,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBELE003",
@@ -1787,6 +2042,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBELE004",
@@ -1794,6 +2050,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBELE005",
@@ -1801,6 +2058,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBELE006",
@@ -1808,6 +2066,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBELE007",
@@ -1815,6 +2074,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBELE008",
@@ -1822,6 +2082,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBELE009",
@@ -1829,6 +2090,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBELE010",
@@ -1836,6 +2098,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBELE011",
@@ -1843,6 +2106,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBELE012",
@@ -1850,6 +2114,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBELE013",
@@ -1857,6 +2122,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBELE014",
@@ -1864,6 +2130,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBELE015",
@@ -1871,6 +2138,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBELE016",
@@ -1878,6 +2146,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBELE017",
@@ -1885,6 +2154,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBELE018",
@@ -1892,6 +2162,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBELE019",
@@ -1899,6 +2170,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBELE020",
@@ -1906,6 +2178,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBELE021",
@@ -1913,6 +2186,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBELE022",
@@ -1920,6 +2194,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBELE023",
@@ -1927,6 +2202,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBELE024",
@@ -1934,6 +2210,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBELE025",
@@ -1941,6 +2218,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBELE026",
@@ -1948,6 +2226,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBELE027",
@@ -1955,6 +2234,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBELE028",
@@ -1962,6 +2242,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBELE029",
@@ -1969,6 +2250,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBELE030",
@@ -1976,6 +2258,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBELE031",
@@ -1983,6 +2266,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBELE032",
@@ -1990,6 +2274,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBELE033",
@@ -1997,6 +2282,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBELE034",
@@ -2004,6 +2290,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBELE035",
@@ -2011,6 +2298,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBELE036",
@@ -2018,6 +2306,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBELE037",
@@ -2025,6 +2314,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBELE038",
@@ -2032,6 +2322,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBELE039",
@@ -2039,6 +2330,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Abenson",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RBELE040",
@@ -2046,6 +2338,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Ansons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RAXKA000",
@@ -2053,6 +2346,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Ansons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RAXKB000",
@@ -2060,6 +2354,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Ansons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RAXUA000",
@@ -2067,6 +2362,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Automatic Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RUGAA000",
@@ -2074,6 +2370,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Automatic Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RUTKA000",
@@ -2081,6 +2378,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Automatic Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RUXKA000",
@@ -2088,6 +2386,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Automatic Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RUXKB000",
@@ -2095,6 +2394,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Automatic Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RUXDA000",
@@ -2102,6 +2402,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Automatic Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RUXDB000",
@@ -2109,6 +2410,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Automatic Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RUXMA000",
@@ -2116,6 +2418,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Automatic Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RUXMB000",
@@ -2123,6 +2426,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Automatic Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RUXUA000",
@@ -2130,6 +2434,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Automatic Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RUXUB000",
@@ -2137,6 +2442,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Automatic Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RUXGA000",
@@ -2144,6 +2450,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Automatic Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RUXGB000",
@@ -2151,6 +2458,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Automatic Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RUXQA000",
@@ -2158,6 +2466,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Automatic Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RUXQB000",
@@ -2165,6 +2474,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Automatic Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RUXQC000",
@@ -2172,6 +2482,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Automatic Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RUXQD000",
@@ -2179,6 +2490,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Automatic Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RUXQE000",
@@ -2186,6 +2498,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Automatic Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RUXQF000",
@@ -2193,6 +2506,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Automatic Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RUXSA000",
@@ -2200,6 +2514,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Automatic Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RUXTA000",
@@ -2207,6 +2522,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Automatic Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RUXQG000",
@@ -2214,6 +2530,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Ayannah Business Solutions",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KAABS001",
@@ -2221,6 +2538,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Ayannah Business Solutions",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KAABD002",
@@ -2228,6 +2546,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXLD000",
@@ -2235,6 +2554,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXLE000",
@@ -2242,6 +2562,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXMA000",
@@ -2249,6 +2570,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXUA000",
@@ -2256,6 +2578,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXUB000",
@@ -2263,6 +2586,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXGH000",
@@ -2270,6 +2594,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXGI000",
@@ -2277,6 +2602,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXQR000",
@@ -2284,6 +2610,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXQS000",
@@ -2291,6 +2618,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXQT000",
@@ -2298,6 +2626,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXSB000",
@@ -2305,6 +2634,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCX5C000",
@@ -2312,6 +2642,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCX8A000",
@@ -2319,6 +2650,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RC4BA000",
@@ -2326,6 +2658,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXKA000",
@@ -2333,6 +2666,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXTA000",
@@ -2340,6 +2674,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXGA000",
@@ -2347,6 +2682,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXLA000",
@@ -2354,6 +2690,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXQA000",
@@ -2361,6 +2698,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXCA000",
@@ -2368,6 +2706,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXCB000",
@@ -2375,6 +2714,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXXA000",
@@ -2382,6 +2722,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXUC000",
@@ -2389,6 +2730,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXIA000",
@@ -2396,6 +2738,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXGB000",
@@ -2403,6 +2746,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXQB000",
@@ -2410,6 +2754,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXQC000",
@@ -2417,6 +2762,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXCC000",
@@ -2424,6 +2770,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXCD000",
@@ -2431,6 +2778,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCX1A000",
@@ -2438,6 +2786,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCX5A000",
@@ -2445,6 +2794,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCX6A000",
@@ -2452,6 +2802,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXAA000",
@@ -2459,6 +2810,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCLEA000",
@@ -2466,6 +2818,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCLCA000",
@@ -2473,6 +2826,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCLCB000",
@@ -2480,6 +2834,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXCE000",
@@ -2487,6 +2842,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCLTA000",
@@ -2494,6 +2850,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXMJ000",
@@ -2501,6 +2858,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCJPA000",
@@ -2508,6 +2866,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCJPB000",
@@ -2515,6 +2874,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCHAA000",
@@ -2522,6 +2882,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCJCA000",
@@ -2529,6 +2890,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXKC000",
@@ -2536,6 +2898,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCJHA000",
@@ -2543,6 +2906,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXTK000",
@@ -2550,6 +2914,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCHNA000",
@@ -2557,6 +2922,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXOA000",
@@ -2564,6 +2930,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXTB000",
@@ -2571,6 +2938,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXGC000",
@@ -2578,6 +2946,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCJPC000",
@@ -2585,6 +2954,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXTC000",
@@ -2592,6 +2962,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXTD000",
@@ -2599,6 +2970,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXTE000",
@@ -2606,6 +2978,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCHUA000",
@@ -2613,6 +2986,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCHUB000",
@@ -2620,6 +2994,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXUD000",
@@ -2627,6 +3002,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCJCB000",
@@ -2634,6 +3010,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXLB000",
@@ -2641,6 +3018,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXWA000",
@@ -2648,6 +3026,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCLFA000",
@@ -2655,6 +3034,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCLGA000",
@@ -2662,6 +3042,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXLC000",
@@ -2669,6 +3050,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXTF000",
@@ -2676,6 +3058,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCX3A000",
@@ -2683,6 +3066,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXGD000",
@@ -2690,6 +3074,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXOB000",
@@ -2697,6 +3082,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXPA000",
@@ -2704,6 +3090,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXQD000",
@@ -2711,6 +3098,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXCF000",
@@ -2718,6 +3106,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXQE000",
@@ -2725,6 +3114,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXQF000",
@@ -2732,6 +3122,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXMB000",
@@ -2739,6 +3130,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCLIA000",
@@ -2746,6 +3138,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXPB000",
@@ -2753,6 +3146,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXQG000",
@@ -2760,6 +3154,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCLPA000",
@@ -2767,6 +3162,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXZA000",
@@ -2774,6 +3170,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXKB000",
@@ -2781,6 +3178,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXPC000",
@@ -2788,6 +3186,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCHNB000",
@@ -2795,6 +3194,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXSA000",
@@ -2802,6 +3202,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXQH000",
@@ -2809,6 +3210,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXQI000",
@@ -2816,6 +3218,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXIB000",
@@ -2823,6 +3226,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXDA000",
@@ -2830,6 +3234,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXMC000",
@@ -2837,6 +3242,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXMD000",
@@ -2844,6 +3250,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXQJ000",
@@ -2851,6 +3258,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXXB000",
@@ -2858,6 +3266,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXXC000",
@@ -2865,6 +3274,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXGE000",
@@ -2872,6 +3282,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXGF000",
@@ -2879,6 +3290,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCX6B000",
@@ -2886,6 +3298,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCX1B000",
@@ -2893,6 +3306,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXME000",
@@ -2900,6 +3314,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXMF000",
@@ -2907,6 +3322,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXCG000",
@@ -2914,6 +3330,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXQK000",
@@ -2921,6 +3338,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXVA000",
@@ -2928,6 +3346,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXGG000",
@@ -2935,6 +3354,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXMG000",
@@ -2942,6 +3362,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXTG000",
@@ -2949,6 +3370,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXTH000",
@@ -2956,6 +3378,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCHKA000",
@@ -2963,6 +3386,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXQL000",
@@ -2970,6 +3394,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXQM000",
@@ -2977,6 +3402,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXCH000",
@@ -2984,6 +3410,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXAB000",
@@ -2991,6 +3418,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXDB000",
@@ -2998,6 +3426,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXCI000",
@@ -3005,6 +3434,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXVB000",
@@ -3012,6 +3442,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXXD000",
@@ -3019,6 +3450,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXDC000",
@@ -3026,6 +3458,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXMH000",
@@ -3033,6 +3466,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXVC000",
@@ -3040,6 +3474,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCJAA000",
@@ -3047,6 +3482,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCLHA000",
@@ -3054,6 +3490,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCX0A000",
@@ -3061,6 +3498,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCX1C000",
@@ -3068,6 +3506,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXXE000",
@@ -3075,6 +3514,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCX1D000",
@@ -3082,6 +3522,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCX5B000",
@@ -3089,6 +3530,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCX5E000",
@@ -3096,6 +3538,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCHWA000",
@@ -3103,6 +3546,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCLGB000",
@@ -3110,6 +3554,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXQN000",
@@ -3117,6 +3562,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXMI000",
@@ -3124,6 +3570,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXPD000",
@@ -3131,6 +3578,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCHTA000",
@@ -3138,6 +3586,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXBA000",
@@ -3145,6 +3594,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCLIB000",
@@ -3152,6 +3602,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCLHB000",
@@ -3159,6 +3610,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXKE000",
@@ -3166,6 +3618,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCHHA000",
@@ -3173,6 +3626,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCHUC000",
@@ -3180,6 +3634,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXPE000",
@@ -3187,6 +3642,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXPF000",
@@ -3194,6 +3650,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXVD000",
@@ -3201,6 +3658,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXQO000",
@@ -3208,6 +3666,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXQP000",
@@ -3215,6 +3674,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCHMA000",
@@ -3222,6 +3682,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXBB000",
@@ -3229,6 +3690,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXTI000",
@@ -3236,6 +3698,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXXF000",
@@ -3243,6 +3706,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXIC000",
@@ -3250,6 +3714,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXQQ000",
@@ -3257,6 +3722,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXBC000",
@@ -3264,6 +3730,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXKD000",
@@ -3271,6 +3738,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCLFB000",
@@ -3278,6 +3746,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCTKA000",
@@ -3285,6 +3754,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RC4BB000",
@@ -3292,6 +3762,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXQU000",
@@ -3299,6 +3770,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXGJ000",
@@ -3306,6 +3778,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXGK000",
@@ -3313,6 +3786,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCLGC000",
@@ -3320,6 +3794,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXQV000",
@@ -3327,6 +3802,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCX5D000",
@@ -3334,6 +3810,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXUE000",
@@ -3341,6 +3818,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXGL000",
@@ -3348,6 +3826,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXUF000",
@@ -3355,6 +3834,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXLF000",
@@ -3362,6 +3842,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCJIA000",
@@ -3369,6 +3850,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXGM000",
@@ -3376,6 +3858,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXGN000",
@@ -3383,6 +3866,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXUG000",
@@ -3390,6 +3874,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXSC000",
@@ -3397,6 +3882,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCJLA000",
@@ -3404,6 +3890,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXQW000",
@@ -3411,6 +3898,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCX7A000",
@@ -3418,6 +3906,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCX8B000",
@@ -3425,6 +3914,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCX8C000",
@@ -3432,6 +3922,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCLFC000",
@@ -3439,6 +3930,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXLG000",
@@ -3446,6 +3938,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Bayad Center",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RCXCJ000",
@@ -3453,6 +3946,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "ClarkTel",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RZGAA000",
@@ -3460,6 +3954,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Communigate Technologies Inc.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KALOAD0000",
@@ -3467,6 +3962,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Communigate Technologies Inc.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KNCTI00000",
@@ -3474,6 +3970,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Communigate Technologies Inc.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KACTML0000",
@@ -3481,6 +3978,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Communigate Technologies Inc.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KACTWU0000",
@@ -3488,6 +3986,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Communigate Technologies Inc.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KACTCL0000",
@@ -3495,6 +3994,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Communigate Technologies Inc.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KACTCL0001",
@@ -3502,6 +4002,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Communigate Technologies Inc.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KACTCA0001",
@@ -3509,6 +4010,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Communigate Technologies Inc.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KACTCA0002",
@@ -3516,6 +4018,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Communigate Technologies Inc.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KACTCA0003",
@@ -3523,6 +4026,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Communigate Technologies Inc.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KACTCA0004",
@@ -3530,13 +4034,15 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Communigate Technologies Inc.",
+    "Main Class": "Key Accounts",
     "Class": "",
-    "Region": "",
+    "Region": "Key Accounts",
     "Sales Code": "KACTVT0001",
     "Trade Name": "Viewers Telecom"
   },
   {
     "Territory Partner": "Communigate Technologies Inc.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KACTPE0001",
@@ -3544,6 +4050,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Crate & Barrel",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "CRTBRRL001",
@@ -3551,6 +4058,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Crate & Barrel",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "CRTBRRL002",
@@ -3558,6 +4066,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Crate & Barrel",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "CRTBRRL003",
@@ -3565,6 +4074,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "D' Lucky 1190",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "DLUCK001",
@@ -3572,6 +4082,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "D' Lucky 799",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "DLUCK002",
@@ -3579,6 +4090,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "D' Lucky Switcher",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "DLUCK003",
@@ -3586,6 +4098,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Gate Distribution",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RGDIS001",
@@ -3593,6 +4106,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Glyph",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "PLOAD003",
@@ -3600,6 +4114,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Glyph",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "PLOAD004",
@@ -3607,6 +4122,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Glyph",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KANAGI2922",
@@ -3614,6 +4130,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Glyph",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KAGIMA0000",
@@ -3621,6 +4138,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Glyph",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KAGMB001",
@@ -3628,6 +4146,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Glyph",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KAGL0001",
@@ -3635,6 +4154,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Glyph",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KAST0001",
@@ -3642,6 +4162,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hachiko Corp ",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MC3TAVC083",
@@ -3649,6 +4170,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RH1ZA000",
@@ -3656,6 +4178,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RH3TA000",
@@ -3663,6 +4186,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RH4BA000",
@@ -3670,6 +4194,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RH4BB000",
@@ -3677,6 +4202,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RH8FA000",
@@ -3684,6 +4210,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHADA000",
@@ -3691,6 +4218,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHAYA000",
@@ -3698,6 +4226,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHBMA000",
@@ -3705,6 +4234,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHCCA000",
@@ -3712,6 +4242,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHCGA000",
@@ -3719,6 +4250,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHDKA000",
@@ -3726,6 +4258,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHGAA000",
@@ -3733,6 +4266,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHGAB000",
@@ -3740,6 +4274,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHGPA000",
@@ -3747,6 +4282,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHGPB000",
@@ -3754,6 +4290,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHHBA000",
@@ -3761,6 +4298,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHHRA000",
@@ -3768,6 +4306,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHHSA000",
@@ -3775,6 +4314,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHHXA000",
@@ -3782,6 +4322,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHIKA000",
@@ -3789,6 +4330,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHIXA000",
@@ -3796,6 +4338,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHJEA000",
@@ -3803,6 +4346,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHJHA000",
@@ -3810,6 +4354,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHJMA000",
@@ -3817,6 +4362,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHJPA000",
@@ -3824,6 +4370,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHJPB000",
@@ -3831,6 +4378,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHKKA000",
@@ -3838,6 +4386,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHLDA000",
@@ -3845,6 +4394,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHLFA000",
@@ -3852,6 +4402,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHLFB000",
@@ -3859,6 +4410,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHLHA000",
@@ -3866,6 +4418,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHLIA000",
@@ -3873,6 +4426,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHLQA000",
@@ -3880,6 +4434,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHNEA000",
@@ -3887,6 +4442,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHOXA000",
@@ -3894,6 +4450,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHOXB000",
@@ -3901,6 +4458,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHPCA000",
@@ -3908,6 +4466,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHPXA000",
@@ -3915,6 +4474,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHQMA000",
@@ -3922,6 +4482,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHQMB000",
@@ -3929,6 +4490,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHRAA000",
@@ -3936,6 +4498,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHSFA000",
@@ -3943,6 +4506,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHTKA000",
@@ -3950,6 +4514,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHTKB000",
@@ -3957,6 +4522,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHTKC000",
@@ -3964,6 +4530,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHTSA000",
@@ -3971,6 +4538,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHULA000",
@@ -3978,6 +4546,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHW1A000",
@@ -3985,6 +4554,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHX1A000",
@@ -3992,6 +4562,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHX5A000",
@@ -3999,6 +4570,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHX5B000",
@@ -4006,6 +4578,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHXBA000",
@@ -4013,6 +4586,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHXCA000",
@@ -4020,6 +4594,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHXDA000",
@@ -4027,6 +4602,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHXDB000",
@@ -4034,6 +4610,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHXGA000",
@@ -4041,6 +4618,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHXIA000",
@@ -4048,6 +4626,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHXKA000",
@@ -4055,6 +4634,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHXMA000",
@@ -4062,6 +4642,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHXMB000",
@@ -4069,6 +4650,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHXPA000",
@@ -4076,6 +4658,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHXQA000",
@@ -4083,6 +4666,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHXQB000",
@@ -4090,6 +4674,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHXQD000",
@@ -4097,6 +4682,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHXQE000",
@@ -4104,6 +4690,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHXQF000",
@@ -4111,6 +4698,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHXQG000",
@@ -4118,6 +4706,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHXQH000",
@@ -4125,6 +4714,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHXQI000",
@@ -4132,6 +4722,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHXQJ000",
@@ -4139,6 +4730,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHXQK000",
@@ -4146,6 +4738,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHXSA000",
@@ -4153,6 +4746,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHXUA000",
@@ -4160,6 +4754,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RHXUB000",
@@ -4167,6 +4762,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Handyman",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMXAAWTC",
@@ -4174,6 +4770,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Home Credit",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "HCXMA000",
@@ -4181,6 +4778,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "J6W",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "J6WGA000",
@@ -4188,6 +4786,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "J6W",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "J6WGB000",
@@ -4195,6 +4794,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "J6W",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "J6WGMRT001",
@@ -4202,6 +4802,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Lazada",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "LZDSL000",
@@ -4209,6 +4810,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Lazada",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "LZDSL003",
@@ -4216,6 +4818,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Mega Smart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MEGSM035",
@@ -4223,6 +4826,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Mega Smart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MEGSM036",
@@ -4230,6 +4834,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Mega Smart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KMEGA002",
@@ -4237,6 +4842,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Mega Smart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KMEGA003",
@@ -4244,6 +4850,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Megacellular",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KMEGA001",
@@ -4251,6 +4858,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Megamobile",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KAMMS001",
@@ -4258,6 +4866,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Megamobile",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KAMIM001",
@@ -4265,6 +4874,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Megamobile",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KAMFP001",
@@ -4272,6 +4882,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Megamobile",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KAMIS001",
@@ -4279,6 +4890,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Megamobile",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KAMIB001",
@@ -4286,6 +4898,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MegaSmart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KNMEGA0000",
@@ -4293,6 +4906,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MemoXpress",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX001",
@@ -4300,6 +4914,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MemoXpress",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX002",
@@ -4307,6 +4922,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MemoXpress",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX003",
@@ -4314,6 +4930,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MemoXpress",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX004",
@@ -4321,6 +4938,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MemoXpress",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX005",
@@ -4328,6 +4946,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MemoXpress",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX006",
@@ -4335,6 +4954,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MemoXpress",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX007",
@@ -4342,6 +4962,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MemoXpress",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX008",
@@ -4349,6 +4970,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MemoXpress",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX009",
@@ -4356,6 +4978,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MemoXpress",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX010",
@@ -4363,6 +4986,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MemoXpress",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX011",
@@ -4370,6 +4994,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MemoXpress",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX012",
@@ -4377,6 +5002,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MemoXpress",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX013",
@@ -4384,6 +5010,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MemoXpress",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX014",
@@ -4391,6 +5018,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MemoXpress",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX015",
@@ -4398,6 +5026,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MemoXpress",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX016",
@@ -4405,6 +5034,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MemoXpress",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX017",
@@ -4412,6 +5042,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MemoXpress",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX018",
@@ -4419,6 +5050,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MemoXpress",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX019",
@@ -4426,6 +5058,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MemoXpress",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX020",
@@ -4433,6 +5066,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MemoXpress",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX021",
@@ -4440,6 +5074,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MemoXpress",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX022",
@@ -4447,6 +5082,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX023",
@@ -4454,6 +5090,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX024",
@@ -4461,6 +5098,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX025",
@@ -4468,6 +5106,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX026",
@@ -4475,6 +5114,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX027",
@@ -4482,6 +5122,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX028",
@@ -4489,6 +5130,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX029",
@@ -4496,6 +5138,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX030",
@@ -4503,6 +5146,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX031",
@@ -4510,6 +5154,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX032",
@@ -4517,6 +5162,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX033",
@@ -4524,6 +5170,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX034",
@@ -4531,6 +5178,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX035",
@@ -4538,6 +5186,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX036",
@@ -4545,6 +5194,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX037",
@@ -4552,6 +5202,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX038",
@@ -4559,6 +5210,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX039",
@@ -4566,6 +5218,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX040",
@@ -4573,6 +5226,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX041",
@@ -4580,6 +5234,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX042",
@@ -4587,6 +5242,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX043",
@@ -4594,6 +5250,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX044",
@@ -4601,6 +5258,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX045",
@@ -4608,6 +5266,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX046",
@@ -4615,6 +5274,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX047",
@@ -4622,6 +5282,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX048",
@@ -4629,6 +5290,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX049",
@@ -4636,6 +5298,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX050",
@@ -4643,6 +5306,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX051",
@@ -4650,6 +5314,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX052",
@@ -4657,6 +5322,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX053",
@@ -4664,6 +5330,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX054",
@@ -4671,6 +5338,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX055",
@@ -4678,6 +5346,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX056",
@@ -4685,6 +5354,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX057",
@@ -4692,6 +5362,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX058",
@@ -4699,6 +5370,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX059",
@@ -4706,6 +5378,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX060",
@@ -4713,6 +5386,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX061",
@@ -4720,6 +5394,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX062",
@@ -4727,6 +5402,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX063",
@@ -4734,6 +5410,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX064",
@@ -4741,6 +5418,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX065",
@@ -4748,6 +5426,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX066",
@@ -4755,6 +5434,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX067",
@@ -4762,6 +5442,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX068",
@@ -4769,6 +5450,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX069",
@@ -4776,6 +5458,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX070",
@@ -4783,6 +5466,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX071",
@@ -4790,6 +5474,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX072",
@@ -4797,6 +5482,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX073",
@@ -4804,6 +5490,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX074",
@@ -4811,6 +5498,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX075",
@@ -4818,6 +5506,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX076",
@@ -4825,6 +5514,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX077",
@@ -4832,6 +5522,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX078",
@@ -4839,6 +5530,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX079",
@@ -4846,6 +5538,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX080",
@@ -4853,6 +5546,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX081",
@@ -4860,6 +5554,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX082",
@@ -4867,6 +5562,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX083",
@@ -4874,6 +5570,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX084",
@@ -4881,6 +5578,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX085",
@@ -4888,6 +5586,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX086",
@@ -4895,6 +5594,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX087",
@@ -4902,6 +5602,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX088",
@@ -4909,6 +5610,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX089",
@@ -4916,6 +5618,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX090",
@@ -4923,6 +5626,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX091",
@@ -4930,6 +5634,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX092",
@@ -4937,6 +5642,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX093",
@@ -4944,6 +5650,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX094",
@@ -4951,6 +5658,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX095",
@@ -4958,6 +5666,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX096",
@@ -4965,6 +5674,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX097",
@@ -4972,6 +5682,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX098",
@@ -4979,6 +5690,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX099",
@@ -4986,6 +5698,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX100",
@@ -4993,6 +5706,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX101",
@@ -5000,6 +5714,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX102",
@@ -5007,6 +5722,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX103",
@@ -5014,6 +5730,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX104",
@@ -5021,6 +5738,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX105",
@@ -5028,6 +5746,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX106",
@@ -5035,6 +5754,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX107",
@@ -5042,6 +5762,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX108",
@@ -5049,6 +5770,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX109",
@@ -5056,6 +5778,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX110",
@@ -5063,6 +5786,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX111",
@@ -5070,6 +5794,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX112",
@@ -5077,6 +5802,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX113",
@@ -5084,6 +5810,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX114",
@@ -5091,6 +5818,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX115",
@@ -5098,6 +5826,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX116",
@@ -5105,6 +5834,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX117",
@@ -5112,6 +5842,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX118",
@@ -5119,6 +5850,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX119",
@@ -5126,6 +5858,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX120",
@@ -5133,6 +5866,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX121",
@@ -5140,6 +5874,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX122",
@@ -5147,6 +5882,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX123",
@@ -5154,6 +5890,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX124",
@@ -5161,6 +5898,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX125",
@@ -5168,6 +5906,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX126",
@@ -5175,6 +5914,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX127",
@@ -5182,6 +5922,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX128",
@@ -5189,6 +5930,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX129",
@@ -5196,6 +5938,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX130",
@@ -5203,6 +5946,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX131",
@@ -5210,6 +5954,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX132",
@@ -5217,6 +5962,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX133",
@@ -5224,6 +5970,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX134",
@@ -5231,6 +5978,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX135",
@@ -5238,6 +5986,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX136",
@@ -5245,6 +5994,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX137",
@@ -5252,6 +6002,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX138",
@@ -5259,6 +6010,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX139",
@@ -5266,6 +6018,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX140",
@@ -5273,6 +6026,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX141",
@@ -5280,6 +6034,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX142",
@@ -5287,6 +6042,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX143",
@@ -5294,6 +6050,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX144",
@@ -5301,6 +6058,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX145",
@@ -5308,6 +6066,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX146",
@@ -5315,6 +6074,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX147",
@@ -5322,6 +6082,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX148",
@@ -5329,6 +6090,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX149",
@@ -5336,6 +6098,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX150",
@@ -5343,6 +6106,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX151",
@@ -5350,6 +6114,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX152",
@@ -5357,6 +6122,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX153",
@@ -5364,6 +6130,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX154",
@@ -5371,6 +6138,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX155",
@@ -5378,6 +6146,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX156",
@@ -5385,6 +6154,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX157",
@@ -5392,6 +6162,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX158",
@@ -5399,6 +6170,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX159",
@@ -5406,6 +6178,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX160",
@@ -5413,6 +6186,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX161",
@@ -5420,6 +6194,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX162",
@@ -5427,6 +6202,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX163",
@@ -5434,6 +6210,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX164",
@@ -5441,6 +6218,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX165",
@@ -5448,6 +6226,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX166",
@@ -5455,6 +6234,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX167",
@@ -5462,6 +6242,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX168",
@@ -5469,6 +6250,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX169",
@@ -5476,6 +6258,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX170",
@@ -5483,6 +6266,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX171",
@@ -5490,6 +6274,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX172",
@@ -5497,6 +6282,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX173",
@@ -5504,6 +6290,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX174",
@@ -5511,6 +6298,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX175",
@@ -5518,6 +6306,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX176",
@@ -5525,6 +6314,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX177",
@@ -5532,6 +6322,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX178",
@@ -5539,6 +6330,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX179",
@@ -5546,6 +6338,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX180",
@@ -5553,6 +6346,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX181",
@@ -5560,6 +6354,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX182",
@@ -5567,6 +6362,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX183",
@@ -5574,6 +6370,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX184",
@@ -5581,6 +6378,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX185",
@@ -5588,6 +6386,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX186",
@@ -5595,6 +6394,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX187",
@@ -5602,6 +6402,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX188",
@@ -5609,6 +6410,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX189",
@@ -5616,6 +6418,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX190",
@@ -5623,6 +6426,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX191",
@@ -5630,6 +6434,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX192",
@@ -5637,6 +6442,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX193",
@@ -5644,6 +6450,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MEMOXPRESS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MMOEX194",
@@ -5651,6 +6458,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCXQA001",
@@ -5658,6 +6466,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCXXB005",
@@ -5665,6 +6474,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCH4A006",
@@ -5672,6 +6482,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCJRE007",
@@ -5679,6 +6490,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCXKA008",
@@ -5686,6 +6498,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCBBA009",
@@ -5693,6 +6506,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCGAA010",
@@ -5700,6 +6514,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCXXC011",
@@ -5707,6 +6522,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCGCA012",
@@ -5714,6 +6530,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCRAA013",
@@ -5721,6 +6538,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCH4B014",
@@ -5728,6 +6546,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCJPA015",
@@ -5735,6 +6554,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCUUA016",
@@ -5742,6 +6562,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MC1LA017",
@@ -5749,6 +6570,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MC6BA018",
@@ -5756,6 +6578,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCCCA019",
@@ -5763,6 +6586,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MC1ZA020",
@@ -5770,6 +6594,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCJEA021",
@@ -5777,6 +6602,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCXCA022",
@@ -5784,6 +6610,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCMNJ023",
@@ -5791,6 +6618,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCAFA024",
@@ -5798,6 +6626,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCVWA025",
@@ -5805,6 +6634,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCLEA026",
@@ -5812,6 +6642,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCTKA027",
@@ -5819,6 +6650,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCXQC028",
@@ -5826,6 +6658,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCBMA029",
@@ -5833,6 +6666,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MC4BA030",
@@ -5840,6 +6674,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCH2A031",
@@ -5847,6 +6682,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCZBA032",
@@ -5854,6 +6690,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCVGA033",
@@ -5861,6 +6698,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCMCY034",
@@ -5868,6 +6706,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCETS035",
@@ -5875,6 +6714,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MC3FA036",
@@ -5882,6 +6722,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCA2A037",
@@ -5889,6 +6730,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCNEA038",
@@ -5896,6 +6738,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCMCN039",
@@ -5903,6 +6746,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCIKA040",
@@ -5910,6 +6754,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCJHA041",
@@ -5917,6 +6762,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCKKA042",
@@ -5924,6 +6770,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCGMC043",
@@ -5931,6 +6778,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCPCA044",
@@ -5938,6 +6786,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCHKA045",
@@ -5945,6 +6794,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCXDA046",
@@ -5952,6 +6802,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MC2NA047",
@@ -5959,6 +6810,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCXEA048",
@@ -5966,6 +6818,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCX5A049",
@@ -5973,6 +6826,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCMCP050",
@@ -5980,6 +6834,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCG4A051",
@@ -5987,6 +6842,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCWEA052",
@@ -5994,6 +6850,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MC1TA053",
@@ -6001,6 +6858,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MC1UA054",
@@ -6008,6 +6866,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCJR7055",
@@ -6015,6 +6874,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MC8FA056",
@@ -6022,6 +6882,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCMCH057",
@@ -6029,6 +6890,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCNNA058",
@@ -6036,6 +6898,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCL3A059",
@@ -6043,6 +6906,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCMCR060",
@@ -6050,6 +6914,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCG2C061",
@@ -6057,6 +6922,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCJMA062",
@@ -6064,6 +6930,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCG8A063",
@@ -6071,6 +6938,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCJNA064",
@@ -6078,6 +6946,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCN3A065",
@@ -6085,6 +6954,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCXMA066",
@@ -6092,6 +6962,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCW2A067",
@@ -6099,6 +6970,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCULA068",
@@ -6106,6 +6978,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCXTA069",
@@ -6113,6 +6986,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MC8JA070",
@@ -6120,6 +6994,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MC1WA071",
@@ -6127,6 +7002,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCDKA072",
@@ -6134,6 +7010,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCEPA073",
@@ -6141,6 +7018,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCXXD074",
@@ -6148,6 +7026,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCXVA075",
@@ -6155,6 +7034,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCXXE076",
@@ -6162,6 +7042,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCJRE077",
@@ -6169,6 +7050,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCTKA078",
@@ -6176,6 +7058,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MCQMA079",
@@ -6183,6 +7066,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MC3TA080",
@@ -6190,6 +7074,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MC3TA081",
@@ -6197,6 +7082,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MC3TA082",
@@ -6204,6 +7090,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "MC3TA083",
@@ -6211,6 +7098,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Neptune Corporation",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KANCNC0000",
@@ -6218,6 +7106,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Others",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RETLVLE1",
@@ -6225,6 +7114,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Others",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RETTPREF",
@@ -6232,6 +7122,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PLDT Global Inc. ",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RPG9888148",
@@ -6239,6 +7130,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Remitbox Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KARBC82522",
@@ -6246,6 +7138,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "RMS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KARMSRPI08",
@@ -6253,6 +7146,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RRXPO001",
@@ -6260,6 +7154,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RRXPA000",
@@ -6267,6 +7162,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RRXQA000",
@@ -6274,6 +7170,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RRXQB000",
@@ -6281,6 +7178,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RRXQC000",
@@ -6288,6 +7186,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RRXDA000",
@@ -6295,6 +7194,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RRXMA000",
@@ -6302,6 +7202,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RRXGA000",
@@ -6309,6 +7210,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RRLFA000",
@@ -6316,6 +7218,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RRLQA000",
@@ -6323,6 +7226,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RRGPA000",
@@ -6330,6 +7234,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RRX1A000",
@@ -6337,6 +7242,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RRHMA000",
@@ -6344,6 +7250,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RRTKA000",
@@ -6351,6 +7258,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RRXBA000",
@@ -6358,6 +7266,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RRLHM000",
@@ -6365,6 +7274,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RRHKA000",
@@ -6372,6 +7282,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RRIKA000",
@@ -6379,6 +7290,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RRL3A000",
@@ -6386,6 +7298,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RRW2A000",
@@ -6393,6 +7306,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RRAVA000",
@@ -6400,6 +7314,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RRBLA000",
@@ -6407,6 +7322,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RRXEA000",
@@ -6414,6 +7330,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RRX1B000",
@@ -6421,6 +7338,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RRXXA000",
@@ -6428,6 +7346,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RRXQD000",
@@ -6435,6 +7354,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RRXQE000",
@@ -6442,6 +7362,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RRXLA000",
@@ -6449,6 +7370,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RRAYA000",
@@ -6456,6 +7378,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RRAYB000",
@@ -6463,6 +7386,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RRG2A000",
@@ -6470,6 +7394,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RRABA000",
@@ -6477,6 +7402,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RRCCA000",
@@ -6484,6 +7410,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RR6BA000",
@@ -6491,6 +7418,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RR1ZA000",
@@ -6498,6 +7426,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RR4BA000",
@@ -6505,6 +7434,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RRQMA000",
@@ -6512,6 +7442,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RRRAA000",
@@ -6519,6 +7450,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RRSFA000",
@@ -6526,6 +7458,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RR3TA000",
@@ -6533,6 +7466,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RRLHA000",
@@ -6540,6 +7474,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RRLPA000",
@@ -6547,6 +7482,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RRLPA001",
@@ -6554,6 +7490,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RRGAA001",
@@ -6561,6 +7498,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Robinsons",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RRX5A001",
@@ -6568,6 +7506,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Shopee",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "SHPEE000",
@@ -6575,6 +7514,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMAO001",
@@ -6582,6 +7522,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMXPA000",
@@ -6589,6 +7530,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMXQG000",
@@ -6596,6 +7538,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMXQD000",
@@ -6603,6 +7546,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMXKA000",
@@ -6610,6 +7554,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMXAA000",
@@ -6617,6 +7562,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMXMA000",
@@ -6624,6 +7570,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMXIA000",
@@ -6631,6 +7578,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMXDA000",
@@ -6638,6 +7586,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMXUA000",
@@ -6645,6 +7594,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMXQA000",
@@ -6652,6 +7602,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMXQB000",
@@ -6659,6 +7610,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMXQC000",
@@ -6666,6 +7618,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMXQE000",
@@ -6673,6 +7626,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMXMD000",
@@ -6680,6 +7634,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMXLB000",
@@ -6687,6 +7642,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMXQH000",
@@ -6694,6 +7650,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMXPB000",
@@ -6701,6 +7658,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMXVA000",
@@ -6708,6 +7666,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMCCA000",
@@ -6715,6 +7674,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMAYA000",
@@ -6722,6 +7682,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMHCA000",
@@ -6729,6 +7690,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMGAA000",
@@ -6736,6 +7698,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMHLA000",
@@ -6743,6 +7706,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMGPA000",
@@ -6750,6 +7714,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMBUA000",
@@ -6757,6 +7722,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMX7A000",
@@ -6764,6 +7730,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMDKA000",
@@ -6771,6 +7738,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMX8A000",
@@ -6778,6 +7746,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMLCA000",
@@ -6785,6 +7754,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMICA000",
@@ -6792,6 +7762,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMJEA000",
@@ -6799,6 +7770,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMLFA000",
@@ -6806,6 +7778,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMIKA000",
@@ -6813,6 +7786,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMKKA000",
@@ -6820,6 +7794,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMLCB000",
@@ -6827,6 +7802,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMOXA000",
@@ -6834,6 +7810,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMLOA000",
@@ -6841,6 +7818,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMJLA000",
@@ -6848,6 +7826,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMJPA000",
@@ -6855,6 +7834,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMRAA000",
@@ -6862,6 +7842,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMTKA000",
@@ -6869,6 +7850,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMTKB000",
@@ -6876,6 +7858,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMTKC000",
@@ -6883,6 +7866,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMQMB000",
@@ -6890,6 +7874,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMQMA000",
@@ -6897,6 +7882,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RM1ZA000",
@@ -6904,6 +7890,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RM4BA000",
@@ -6911,6 +7898,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMG4A000",
@@ -6918,6 +7906,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMXPC000",
@@ -6925,6 +7914,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMX6A000",
@@ -6932,6 +7922,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMHUA000",
@@ -6939,6 +7930,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMTKD000",
@@ -6946,6 +7938,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMEXA000",
@@ -6953,6 +7946,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMXCA000",
@@ -6960,6 +7954,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMCCA001",
@@ -6967,6 +7962,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMCCA002",
@@ -6974,6 +7970,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMAYA001",
@@ -6981,6 +7978,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMB8A000",
@@ -6988,6 +7986,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMGPA001",
@@ -6995,6 +7994,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMG4A001",
@@ -7002,6 +8002,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMXDA001",
@@ -7009,6 +8010,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMLEA000",
@@ -7016,6 +8018,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMAC002",
@@ -7023,6 +8026,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMMSS000",
@@ -7030,6 +8034,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMMRX000",
@@ -7037,6 +8042,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMMCD000",
@@ -7044,6 +8050,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMMTG000",
@@ -7051,6 +8058,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMMBN000",
@@ -7058,6 +8066,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMMTA000",
@@ -7065,6 +8074,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMMSP000",
@@ -7072,6 +8082,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMMST000",
@@ -7079,6 +8090,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMMGC000",
@@ -7086,6 +8098,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMMCD001",
@@ -7093,6 +8106,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMMAU000",
@@ -7100,6 +8114,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMMCC000",
@@ -7107,6 +8122,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMMDT000",
@@ -7114,6 +8130,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMMES000",
@@ -7121,6 +8138,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMMLG000",
@@ -7128,6 +8146,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMMLP000",
@@ -7135,6 +8154,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMMGS000",
@@ -7142,6 +8162,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMMMP000",
@@ -7149,6 +8170,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMMMG000",
@@ -7156,6 +8178,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMMPP000",
@@ -7163,6 +8186,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Appliance",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMMSF000",
@@ -7170,6 +8194,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM BCO",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMBO001",
@@ -7177,6 +8202,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM BCO",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RMMDC002",
@@ -7184,6 +8210,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMQF000",
@@ -7191,6 +8218,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMMC000",
@@ -7198,6 +8226,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMKB000",
@@ -7205,6 +8234,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMPA000",
@@ -7212,6 +8242,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMQG000",
@@ -7219,6 +8250,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMQD000",
@@ -7226,6 +8258,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMLA000",
@@ -7233,6 +8266,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMKA006",
@@ -7240,6 +8274,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMAA002",
@@ -7247,6 +8282,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMMA003",
@@ -7254,6 +8290,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMIA000",
@@ -7261,6 +8298,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMDA000",
@@ -7268,6 +8306,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMUA004",
@@ -7275,6 +8314,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMQA000",
@@ -7282,6 +8322,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMQB000",
@@ -7289,6 +8330,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMQC000",
@@ -7296,6 +8338,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMQE000",
@@ -7303,6 +8346,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMMD000",
@@ -7310,6 +8354,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMLB000",
@@ -7317,6 +8362,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMQH000",
@@ -7324,6 +8370,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMPB000",
@@ -7331,6 +8378,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMVA000",
@@ -7338,6 +8386,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMSA000",
@@ -7345,6 +8394,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMCA005",
@@ -7352,6 +8402,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMYA000",
@@ -7359,6 +8410,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMCA006",
@@ -7366,6 +8418,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMAA005",
@@ -7373,6 +8426,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMLA002",
@@ -7380,6 +8434,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMPA003",
@@ -7387,6 +8442,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMUA003",
@@ -7394,6 +8450,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSM7A000",
@@ -7401,6 +8458,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMKA004",
@@ -7408,6 +8466,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSM8A002",
@@ -7415,6 +8474,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMCA007",
@@ -7422,6 +8482,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMCA008",
@@ -7429,6 +8490,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMEA009",
@@ -7436,6 +8498,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMFA000",
@@ -7443,6 +8506,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMKA001",
@@ -7450,6 +8514,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMKA002",
@@ -7457,6 +8522,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMCB000",
@@ -7464,6 +8530,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMXA001",
@@ -7471,6 +8538,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMOA000",
@@ -7478,6 +8546,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMLA003",
@@ -7485,6 +8554,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMPA004",
@@ -7492,6 +8562,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMAA000",
@@ -7499,6 +8570,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMKA000",
@@ -7506,6 +8578,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMKB002",
@@ -7513,6 +8586,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMKC000",
@@ -7520,6 +8594,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMMB000",
@@ -7527,6 +8602,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMMA000",
@@ -7534,6 +8610,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMZA000",
@@ -7541,6 +8618,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMBA000",
@@ -7548,6 +8626,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSM4A000",
@@ -7555,6 +8634,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMPC000",
@@ -7562,6 +8642,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSM6A000",
@@ -7569,6 +8650,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMUA000",
@@ -7576,6 +8658,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMKD000",
@@ -7583,6 +8666,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMXA000",
@@ -7590,6 +8674,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMCA000",
@@ -7597,6 +8682,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMCA001",
@@ -7604,6 +8690,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMCA002",
@@ -7611,6 +8698,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMYA001",
@@ -7618,6 +8706,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSM8A000",
@@ -7625,6 +8714,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMPA001",
@@ -7632,6 +8722,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSM4A001",
@@ -7639,6 +8730,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMDA001",
@@ -7646,6 +8738,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMEA000",
@@ -7653,6 +8746,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMSS000",
@@ -7660,6 +8754,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMRX000",
@@ -7667,6 +8762,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMCD000",
@@ -7674,6 +8770,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMTG000",
@@ -7681,6 +8778,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMBN000",
@@ -7688,6 +8786,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMTA000",
@@ -7695,6 +8794,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMSP000",
@@ -7702,6 +8802,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMST000",
@@ -7709,6 +8810,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMGC000",
@@ -7716,6 +8818,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMAU000",
@@ -7723,6 +8826,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMCC000",
@@ -7730,6 +8834,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMDT000",
@@ -7737,6 +8842,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMES000",
@@ -7744,6 +8850,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMLG000",
@@ -7751,6 +8858,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMLP000",
@@ -7758,6 +8866,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMGS000",
@@ -7765,6 +8874,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMMP000",
@@ -7772,6 +8882,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMMG000",
@@ -7779,6 +8890,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMPP000",
@@ -7786,6 +8898,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSMFSF000",
@@ -7793,6 +8906,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KASMMSR001",
@@ -7800,6 +8914,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KASMMST001",
@@ -7807,6 +8922,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KASMMSS001",
@@ -7814,6 +8930,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Mart",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KASMMSB001",
@@ -7821,6 +8938,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM Savings & Loan Association",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RSSLA001",
@@ -7828,6 +8946,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "True Value",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RTXUB001",
@@ -7835,6 +8954,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "True Value",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RTKTA001",
@@ -7842,6 +8962,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "True Value",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RTXKB001",
@@ -7849,6 +8970,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "True Value",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RTGAA001",
@@ -7856,6 +8978,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "True Value",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RTXKA001",
@@ -7863,6 +8986,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "True Value",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RTXDA001",
@@ -7870,6 +8994,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "True Value",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RTXQA001",
@@ -7877,6 +9002,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "True Value",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RTJPA000",
@@ -7884,6 +9010,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "True Value",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RTGAA000",
@@ -7891,6 +9018,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "True Value",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RTKTA000",
@@ -7898,6 +9026,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "True Value",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RTXDA000",
@@ -7905,6 +9034,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "True Value",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RTXKA000",
@@ -7912,6 +9042,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "True Value",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RTXKB000",
@@ -7919,6 +9050,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "True Value",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RTXQA000",
@@ -7926,6 +9058,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "True Value",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RTXUB000",
@@ -7933,6 +9066,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Western",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RWMAO000",
@@ -7940,6 +9074,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Western",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RWXUA000",
@@ -7947,6 +9082,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Western",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RWXDA000",
@@ -7954,6 +9090,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Western",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RWX1A000",
@@ -7961,6 +9098,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Western",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RWXQA000",
@@ -7968,6 +9106,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Western",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RWXCA000",
@@ -7975,6 +9114,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Western",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RWXQB000",
@@ -7982,6 +9122,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Western",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RWXQC000",
@@ -7989,6 +9130,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Western",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RWXQD000",
@@ -7996,6 +9138,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Western",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RWXQE000",
@@ -8003,6 +9146,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Western",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RWXQF000",
@@ -8010,6 +9154,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Western",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RWLCA000",
@@ -8017,6 +9162,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Western",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RWXLA000",
@@ -8024,6 +9170,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Western",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RWXMA000",
@@ -8031,6 +9178,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Western",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RWXKB000",
@@ -8038,6 +9186,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Western",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RWICA000",
@@ -8045,6 +9194,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Western",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RWXTA000",
@@ -8052,6 +9202,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Western",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RWLKA000",
@@ -8059,6 +9210,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Western",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RWGPA000",
@@ -8066,6 +9218,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Western",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "RWABU000",
@@ -8073,6 +9226,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Zalora",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "ZAIAY30001",
@@ -8080,6 +9234,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PLDT Global Corporation",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "PGCDMW01",
@@ -8087,6 +9242,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PLDT Global Corporation",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "PGCOWW01",
@@ -8094,6 +9250,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PLDT Global Corporation",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "PGCOFW01",
@@ -8101,6 +9258,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PLDT Global Corporation",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "PGCGCA01",
@@ -8108,6 +9266,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PLDT Global Corporation",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "PGCDIN01",
@@ -8115,6 +9274,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PLDT Global Corporation",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "PGCVEN01",
@@ -8122,6 +9282,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PLDT Global Corporation",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "PGCTIN01",
@@ -8129,6 +9290,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PLDT Global Corporation",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "PGCBDT01",
@@ -8136,6 +9298,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PLDT Global Corporation",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "PGCSSR01",
@@ -8143,6 +9306,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "SM BCO",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "SBSCJB01",
@@ -8150,6 +9314,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Communigate",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KACG0001",
@@ -8157,6 +9322,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Megamobile",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KAMM0001",
@@ -8164,6 +9330,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KAHC0001",
@@ -8171,6 +9338,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KAHTC001",
@@ -8178,6 +9346,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KATPC001",
@@ -8185,6 +9354,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "J6W",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "J6WKA001",
@@ -8192,6 +9362,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MOL Accessportal",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KAMOL001",
@@ -8199,6 +9370,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "COMWORKS",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KACWSM01",
@@ -8206,6 +9378,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Hatchiko Corp.",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KAPC0001",
@@ -8213,6 +9386,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MemoXpress",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KAMX0001",
@@ -8220,6 +9394,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "MOL Accessportal",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KAMAP001",
@@ -8227,6 +9402,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "J6W",
+    "Main Class": "Key Accounts",
     "Class": "Key Accounts",
     "Region": "Key Accounts",
     "Sales Code": "KAREB001",
@@ -8234,6 +9410,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Multi - Channel Sales",
+    "Main Class": "Multi - Channel Sales",
     "Class": "Multi - Channel Sales",
     "Region": "Multi - Channel Sales",
     "Sales Code": "CTSPIAAA",
@@ -8241,6 +9418,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Multi - Channel Sales",
+    "Main Class": "Multi - Channel Sales",
     "Class": "Multi - Channel Sales",
     "Region": "Multi - Channel Sales",
     "Sales Code": "CTSPIAAX",
@@ -8248,6 +9426,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Multi - Channel Sales",
+    "Main Class": "Multi - Channel Sales",
     "Class": "Multi - Channel Sales",
     "Region": "Multi - Channel Sales",
     "Sales Code": "CTSPIAAE",
@@ -8255,6 +9434,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Multi - Channel Sales",
+    "Main Class": "Multi - Channel Sales",
     "Class": "Multi - Channel Sales",
     "Region": "Multi - Channel Sales",
     "Sales Code": "CTSPIAAS",
@@ -8262,6 +9442,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Multi - Channel Sales",
+    "Main Class": "Multi - Channel Sales",
     "Class": "Multi - Channel Sales",
     "Region": "Multi - Channel Sales",
     "Sales Code": "CTSPIAAH",
@@ -8269,6 +9450,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Multi - Channel Sales",
+    "Main Class": "Multi - Channel Sales",
     "Class": "Multi - Channel Sales",
     "Region": "Multi - Channel Sales",
     "Sales Code": "CTSPIAAW",
@@ -8276,6 +9458,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Multi - Channel Sales",
+    "Main Class": "Multi - Channel Sales",
     "Class": "Multi - Channel Sales",
     "Region": "Multi - Channel Sales",
     "Sales Code": "CTSPIAAF",
@@ -8283,6 +9466,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Multi - Channel Sales",
+    "Main Class": "Multi - Channel Sales",
     "Class": "Multi - Channel Sales",
     "Region": "Multi - Channel Sales",
     "Sales Code": "CTSPIAAP",
@@ -8290,6 +9474,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Multi - Channel Sales",
+    "Main Class": "Multi - Channel Sales",
     "Class": "Multi - Channel Sales",
     "Region": "Multi - Channel Sales",
     "Sales Code": "CTSPIAAC",
@@ -8297,6 +9482,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Multi - Channel Sales",
+    "Main Class": "Multi - Channel Sales",
     "Class": "Multi - Channel Sales",
     "Region": "Multi - Channel Sales",
     "Sales Code": "CTSPIAT001",
@@ -8304,6 +9490,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "8 telcom",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "W84EASAC",
@@ -8311,6 +9498,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "8 telcom",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "W84BABBB",
@@ -8318,6 +9506,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "8 telcom",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "W84CASCD",
@@ -8325,6 +9514,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "8 telcom",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "AI8MG30008",
@@ -8332,6 +9522,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WCZXASFN",
@@ -8339,6 +9530,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WCZXASFM",
@@ -8346,6 +9538,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WRZKSWBZ",
@@ -8353,6 +9546,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WCZXASFW",
@@ -8360,6 +9554,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIAKS30007",
@@ -8367,6 +9562,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WRZFABBC",
@@ -8374,6 +9570,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WRZKGSBB",
@@ -8381,6 +9578,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIT3AK000423",
@@ -8388,6 +9586,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WCZXASFL",
@@ -8395,6 +9594,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WCZXASFV",
@@ -8402,6 +9602,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WCZXASFX",
@@ -8409,6 +9610,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WRZJASCB",
@@ -8416,6 +9618,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIAKY20013",
@@ -8423,6 +9626,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WRZLDWCF",
@@ -8430,6 +9634,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIAKY20014",
@@ -8437,6 +9642,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIS3AK000523",
@@ -8444,6 +9650,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIAKT30007",
@@ -8451,6 +9658,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIAKS30001",
@@ -8458,6 +9666,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WCZXASFU",
@@ -8465,6 +9674,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIAKS30003",
@@ -8472,6 +9682,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WCZXASFK",
@@ -8479,6 +9690,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIAKT30003",
@@ -8486,6 +9698,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WRZAASCG",
@@ -8493,6 +9706,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIAKY20007",
@@ -8500,6 +9714,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIAKT30005",
@@ -8507,6 +9722,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WCZ5AAAC",
@@ -8514,6 +9730,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WRZFABBD",
@@ -8521,6 +9738,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WRZBAWCH",
@@ -8528,6 +9746,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WCZXASFO",
@@ -8535,6 +9754,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIT3AK000523",
@@ -8542,6 +9762,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WRZBAWCI",
@@ -8549,6 +9770,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIAKT30001",
@@ -8556,6 +9778,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WCZ9ABBB",
@@ -8563,6 +9786,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WFZ9ESCB",
@@ -8570,6 +9794,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIY2AK001725",
@@ -8577,6 +9802,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIY2AK001825",
@@ -8584,6 +9810,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIAKT3000425",
@@ -8591,6 +9818,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIT3AK000625",
@@ -8598,6 +9826,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIAKS3000325",
@@ -8605,6 +9834,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIAKS3000425",
@@ -8612,6 +9842,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIAKS3000525",
@@ -8619,6 +9850,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIAKS3000625",
@@ -8626,6 +9858,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIAKT3000525",
@@ -8633,6 +9866,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia North",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Visayas",
     "Sales Code": "AIA1AN003923",
@@ -8640,6 +9874,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia North",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Visayas",
     "Sales Code": "AIA1AN002923",
@@ -8647,6 +9882,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia North",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Visayas",
     "Sales Code": "AIA1AN003323",
@@ -8654,6 +9890,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia North",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Visayas",
     "Sales Code": "AIA1AN002122",
@@ -8661,6 +9898,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia North",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Visayas",
     "Sales Code": "AIA1AN004422",
@@ -8668,6 +9906,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia North",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Visayas",
     "Sales Code": "AIA1AN002323",
@@ -8675,6 +9914,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia North",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Visayas",
     "Sales Code": "AIANA1004425",
@@ -8682,6 +9922,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia South",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Visayas",
     "Sales Code": "AIA1AS003823",
@@ -8689,6 +9930,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia South",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Visayas",
     "Sales Code": "AIA1AS003723",
@@ -8696,6 +9938,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia South",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Visayas",
     "Sales Code": "DRASA10001824",
@@ -8703,6 +9946,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia South",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Visayas",
     "Sales Code": "AIA1AS003623",
@@ -8710,6 +9954,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia South",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Visayas",
     "Sales Code": "AIA1AS004323",
@@ -8717,6 +9962,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia South",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Visayas",
     "Sales Code": "AIA1AS004425",
@@ -8724,6 +9970,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia South",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Visayas",
     "Sales Code": "AIASA1004225",
@@ -8731,6 +9978,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia South",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Visayas",
     "Sales Code": "AIASA1004325",
@@ -8738,6 +9986,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "WB3KASCM",
@@ -8745,6 +9994,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "WB42ESSC",
@@ -8752,6 +10002,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "AII3BI002523",
@@ -8759,6 +10010,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "AII3BI000823",
@@ -8766,6 +10018,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "WB3QISCI",
@@ -8773,6 +10026,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "WB3QESCC",
@@ -8780,6 +10034,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "AIH3BI003023",
@@ -8787,6 +10042,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "AII3BI001023",
@@ -8794,6 +10050,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "AII3BI000623",
@@ -8801,6 +10058,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "AIH3BI003323",
@@ -8808,6 +10066,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "AIH3BI003823",
@@ -8815,6 +10074,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "AII3BI000723",
@@ -8822,6 +10082,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "WU3EAAAG",
@@ -8829,6 +10090,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "WU3HASSB",
@@ -8836,6 +10098,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "AIH3BI001023",
@@ -8843,6 +10106,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "AIH3BI000723",
@@ -8850,6 +10114,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "AIH3BI003923",
@@ -8857,6 +10122,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "AIBIH30006",
@@ -8864,6 +10130,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "AIH3BI000923",
@@ -8871,6 +10138,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "AIBIH30007",
@@ -8878,6 +10146,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "WB41AAAF",
@@ -8885,6 +10154,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "AII3BI002725",
@@ -8892,6 +10162,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BSL",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "AIBLT10004",
@@ -8899,6 +10170,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BSL",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "AIN3BL001422",
@@ -8906,6 +10178,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BSL",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "AIBLT10049",
@@ -8913,6 +10186,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BSL",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "X2XBASDL",
@@ -8920,6 +10194,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BSL",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "AIN3BL000722",
@@ -8927,6 +10202,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BSL",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "XJXVASJF",
@@ -8934,6 +10210,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BSL",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "AIBLT10035",
@@ -8941,6 +10218,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BSL",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "AIBLT10044",
@@ -8948,6 +10226,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BSL",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "XJXCASCX",
@@ -8955,6 +10234,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BSL",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "AIMLBL000822",
@@ -8962,6 +10242,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BSL",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "AIN3BL001222",
@@ -8969,6 +10250,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BSL",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "AIBLT10036",
@@ -8976,6 +10258,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BSL",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "AIBLT10046",
@@ -8983,6 +10266,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BSL",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "AIN3BL001622",
@@ -8990,6 +10274,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BSL",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "AIN3BL001522",
@@ -8997,6 +10282,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BSL",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "XJXBASJJ",
@@ -9004,6 +10290,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BSL",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "AIN3BL001223",
@@ -9011,6 +10298,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BSL",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "AIBLT10041",
@@ -9018,6 +10306,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BSL",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "AIBLT10073",
@@ -9025,6 +10314,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BSL",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "AIN3BL000422",
@@ -9032,6 +10322,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BSL",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "AIBLT10078",
@@ -9039,6 +10330,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BSL BULACAN",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "AIV1TE001723",
@@ -9046,6 +10338,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BSL BULACAN",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "AIV1TE000723",
@@ -9053,6 +10346,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BSL BULACAN",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "SPV1TE000123",
@@ -9060,6 +10354,15 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BSL Bulacan",
+    "Main Class": "Dealer",
+    "Class": "Agent-Installer",
+    "Region": "NCR",
+    "Sales Code": "AIV1TE001223",
+    "Trade Name": "Joemar Carlos"
+  },
+  {
+    "Territory Partner": "BSL Bulacan",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "AIV1TE001022",
@@ -9067,6 +10370,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cayanan",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "T2H5ASSD",
@@ -9074,6 +10378,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "AICRE10004",
@@ -9081,6 +10386,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "VSWLASCG",
@@ -9088,6 +10394,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "EXB1CC000423",
@@ -9095,6 +10402,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "AIC1CC003223",
@@ -9102,6 +10410,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "VSV2ISAB",
@@ -9109,6 +10418,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "VSVMDSCB",
@@ -9116,6 +10426,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "AIC1CC002223",
@@ -9123,6 +10434,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "VSWJESAB",
@@ -9130,6 +10442,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "EXC1CC001423",
@@ -9137,6 +10450,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "VSWKYSCA",
@@ -9144,6 +10458,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "AIE1CC001223",
@@ -9151,6 +10466,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "AIE1CC001123",
@@ -9158,6 +10474,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "VSWKASAA",
@@ -9165,6 +10482,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "VSWFASAC",
@@ -9172,6 +10490,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "AIC1CC002723",
@@ -9179,6 +10498,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "AIC1CC002623",
@@ -9186,6 +10506,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "EXE1CC000423",
@@ -9193,13 +10514,23 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "AICCC1004125",
     "Trade Name": "Kwisha Store"
   },
   {
+    "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
+    "Class": "Agent-Installer",
+    "Region": "East Visayas",
+    "Sales Code": "AICCC1004325",
+    "Trade Name": "Sozia Printing Station"
+  },
+  {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "AISWCL000922",
@@ -9207,6 +10538,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "VSVNASCF",
@@ -9214,6 +10546,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "AIF1CL000923",
@@ -9221,6 +10554,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "AIF1CL000523",
@@ -9228,6 +10562,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "RLCLF10003224",
@@ -9235,6 +10570,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "AIF1CL000522",
@@ -9242,6 +10578,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "AIF1CL000623",
@@ -9249,6 +10586,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "VSVVDSCB",
@@ -9256,6 +10594,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "AIF1CL000823",
@@ -9263,6 +10602,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "VSVUSSCC",
@@ -9270,6 +10610,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "AISWCL000925",
@@ -9277,6 +10618,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "AICLSW000725",
@@ -9284,6 +10626,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "AICLF1000725",
@@ -9291,13 +10634,23 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "AICLF1000825",
     "Trade Name": "Yayang store"
   },
   {
+    "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
+    "Class": "Agent-Installer",
+    "Region": "East Visayas",
+    "Sales Code": "AICLSW000825",
+    "Trade Name": "Cellcom Catbalogan"
+  },
+  {
     "Territory Partner": "Cellcom Southern East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "AIC1CS003823",
@@ -9305,6 +10658,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Southern East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "AID1CS001023",
@@ -9312,6 +10666,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Southern East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "AID1CS000923",
@@ -9319,6 +10674,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Southern East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "AID1CS001223",
@@ -9326,6 +10682,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Southern East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "AIC1CS003623",
@@ -9333,6 +10690,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Southern East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "AID1CS001123",
@@ -9340,6 +10698,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Southern East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "AICLD10003",
@@ -9347,6 +10706,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Southern East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "AIC1CS003323",
@@ -9354,6 +10714,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Southern East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "AID1CS000823",
@@ -9361,6 +10722,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Southern East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "AID1CS001323",
@@ -9368,6 +10730,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Southern East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "AICLD10013",
@@ -9375,6 +10738,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Southern East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "AIC1CS003123",
@@ -9382,6 +10746,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Southern East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "AID1CS001425",
@@ -9389,6 +10754,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Southern East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "AID1CS001525",
@@ -9396,6 +10762,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Southern East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "AIC1CS004025",
@@ -9403,6 +10770,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Southern East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "AICSC1003925",
@@ -9410,6 +10778,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Southern East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "AID1CS001625",
@@ -9417,6 +10786,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Southern East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "AICSC1004025",
@@ -9424,13 +10794,23 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Southern East",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Visayas",
     "Sales Code": "AICSC1004225",
     "Trade Name": "3Rs & M Appliances Store"
   },
   {
+    "Territory Partner": "Cellcom Southern East",
+    "Main Class": "Dealer",
+    "Class": "Agent-Installer",
+    "Region": "East Visayas",
+    "Sales Code": "AICSC1004425",
+    "Trade Name": "R3A Satellite TV"
+  },
+  {
     "Territory Partner": "CRFT",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Visayas",
     "Sales Code": "AIC4CT000923",
@@ -9438,6 +10818,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "CRFT",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Visayas",
     "Sales Code": "AIC4CT001323",
@@ -9445,6 +10826,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "CRFT",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Visayas",
     "Sales Code": "AIC4CT002723",
@@ -9452,6 +10834,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "CRFT",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Visayas",
     "Sales Code": "AIC4CT002623",
@@ -9459,6 +10842,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "CRFT",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Visayas",
     "Sales Code": "AICTC40007",
@@ -9466,6 +10850,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "CRFT",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Visayas",
     "Sales Code": "AIC4CT001122",
@@ -9473,6 +10858,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "CRFT",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Visayas",
     "Sales Code": "AIC4CT002923",
@@ -9480,6 +10866,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "CRFT",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Visayas",
     "Sales Code": "XPLZESBC",
@@ -9487,6 +10874,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "CRFT",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Visayas",
     "Sales Code": "XPL9MSCE",
@@ -9494,6 +10882,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "CRFT",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Visayas",
     "Sales Code": "AIC4CT000623",
@@ -9501,6 +10890,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "CRFT",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Visayas",
     "Sales Code": "EXC4CT001523",
@@ -9508,6 +10898,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "CRFT",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Visayas",
     "Sales Code": "AIC4CT002823",
@@ -9515,6 +10906,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "CRFT",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Visayas",
     "Sales Code": "AICTC4002925",
@@ -9522,6 +10914,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "CRFT",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Visayas",
     "Sales Code": "AICTC4003025",
@@ -9529,6 +10922,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "CRFT",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Visayas",
     "Sales Code": "AICTC4003125",
@@ -9536,6 +10930,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "CRFT",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Visayas",
     "Sales Code": "AICTC4003225",
@@ -9543,6 +10938,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AID1W20004",
@@ -9550,6 +10946,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "W36QASAC",
@@ -9557,6 +10954,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AID1T20011",
@@ -9564,6 +10962,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "W46AABBB",
@@ -9571,6 +10970,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "W47HASBB",
@@ -9578,6 +10978,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AIS2D1000422",
@@ -9585,6 +10986,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "W47PASCB",
@@ -9592,6 +10994,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "W47ZASBB",
@@ -9599,6 +11002,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "W36EASAB",
@@ -9606,6 +11010,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AID1W20009",
@@ -9613,6 +11018,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "W46AABBC",
@@ -9620,6 +11026,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "W46KASMD",
@@ -9627,6 +11034,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AIV2D1000922",
@@ -9634,6 +11042,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AIT2D1000623",
@@ -9641,6 +11050,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "W36QASAD",
@@ -9648,6 +11058,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "W472QSBB",
@@ -9655,6 +11066,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "W37RASBC",
@@ -9662,6 +11074,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AIT2D1000522",
@@ -9669,6 +11082,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AID1W20008",
@@ -9676,6 +11090,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AIV2D1000522",
@@ -9683,6 +11098,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "W472ISBB",
@@ -9690,6 +11106,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AID1V20005",
@@ -9697,6 +11114,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AID1S20007",
@@ -9704,6 +11122,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "W37WYSSD",
@@ -9711,6 +11130,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AIV2D1001022",
@@ -9718,6 +11138,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "W37WYSSE",
@@ -9725,6 +11146,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "W47M2AAC",
@@ -9732,6 +11154,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "W36BASCP",
@@ -9739,6 +11162,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "W36EYSCE",
@@ -9746,6 +11170,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AID1S20002",
@@ -9753,6 +11178,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "W36MABBB",
@@ -9760,6 +11186,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AIS2D1000522",
@@ -9767,6 +11194,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AIV2D1000823",
@@ -9774,6 +11202,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AIV2D1000622",
@@ -9781,6 +11210,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AID1W20003",
@@ -9788,6 +11218,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "W37WYSSF",
@@ -9795,6 +11226,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "W47JASCH",
@@ -9802,6 +11234,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AIV2D1000822",
@@ -9809,6 +11242,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "W36BASCL",
@@ -9816,6 +11250,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "W47MMSMB",
@@ -9823,6 +11258,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AID1V20007",
@@ -9830,6 +11266,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AID1V20004",
@@ -9837,6 +11274,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "W46JASSB",
@@ -9844,6 +11282,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AID1S20006",
@@ -9851,6 +11290,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "W36BASCI",
@@ -9858,6 +11298,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AID1T20016",
@@ -9865,6 +11306,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "W46KASMC",
@@ -9872,6 +11314,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "W47JASCI",
@@ -9879,6 +11322,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AID1S20005",
@@ -9886,6 +11330,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AIT2D1000723",
@@ -9893,6 +11338,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "W36BASCM",
@@ -9900,6 +11346,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AIV2D1000722",
@@ -9907,6 +11354,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AID1S20003",
@@ -9914,6 +11362,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "W46EISSC",
@@ -9921,6 +11370,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "W47WGSAB",
@@ -9928,6 +11378,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "W37NPSBN",
@@ -9935,6 +11386,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AIS2D1000523",
@@ -9942,6 +11394,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AID1S20004",
@@ -9949,6 +11402,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "W37MJSAB",
@@ -9956,6 +11410,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AID1T20012",
@@ -9963,6 +11418,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AID1V20006",
@@ -9970,6 +11426,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "W47MJSCF",
@@ -9977,6 +11434,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "W37WMSSC",
@@ -9984,6 +11442,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AID1S2000325",
@@ -9991,6 +11450,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AID1W2000425",
@@ -9998,6 +11458,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCASCE",
@@ -10005,6 +11466,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCBSAB",
@@ -10012,6 +11474,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCASCF",
@@ -10019,6 +11482,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIDMJ10014",
@@ -10026,6 +11490,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIDMJ10030",
@@ -10033,6 +11498,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIDMJ10007",
@@ -10040,6 +11506,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIDMJ10011",
@@ -10047,6 +11514,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "EXJ1DM000623",
@@ -10054,6 +11522,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIJ1DM000923",
@@ -10061,6 +11530,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCXWBR",
@@ -10068,6 +11538,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCJSCU",
@@ -10075,6 +11546,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIJ1DM001023",
@@ -10082,6 +11554,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIDMJ10016",
@@ -10089,6 +11562,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "UTMCZSCC",
@@ -10096,6 +11570,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCJSCT",
@@ -10103,6 +11578,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCPSCN",
@@ -10110,6 +11586,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCBSAC",
@@ -10117,6 +11594,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIDMJ10009",
@@ -10124,6 +11602,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIJ1DM001122",
@@ -10131,6 +11610,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIDMJ10034",
@@ -10138,6 +11618,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIDMJ10021",
@@ -10145,6 +11626,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIJ1DM001322",
@@ -10152,6 +11634,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCCSCI",
@@ -10159,6 +11642,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCXSCC",
@@ -10166,6 +11650,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIJ1DM001722",
@@ -10173,6 +11658,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIDMJ10027",
@@ -10180,6 +11666,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIDMJ10003",
@@ -10187,6 +11674,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCTSCF",
@@ -10194,6 +11682,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCCSCG",
@@ -10201,6 +11690,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCXWBQ",
@@ -10208,6 +11698,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIJ1DM001922",
@@ -10215,6 +11706,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCLSBB",
@@ -10222,6 +11714,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCQSCE",
@@ -10229,6 +11722,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCJSCC",
@@ -10236,6 +11730,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "UTMCZSCH",
@@ -10243,6 +11738,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCHSCJ",
@@ -10250,6 +11746,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIDMJ10001",
@@ -10257,6 +11754,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCJSCQ",
@@ -10264,6 +11762,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIDMJ10019",
@@ -10271,6 +11770,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIDMJ10026",
@@ -10278,6 +11778,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIJ1DM002022",
@@ -10285,6 +11786,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIDMJ10017",
@@ -10292,6 +11794,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCJSCP",
@@ -10299,6 +11802,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIJ1DM001522",
@@ -10306,6 +11810,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCCSCJ",
@@ -10313,6 +11818,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "EXJ1DM000423",
@@ -10320,6 +11826,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCDSCD",
@@ -10327,6 +11834,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCJSCO",
@@ -10334,6 +11842,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCDSCC",
@@ -10341,6 +11850,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIDMJ10029",
@@ -10348,6 +11858,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIDMJ10005",
@@ -10355,6 +11866,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCJSCR",
@@ -10362,6 +11874,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIDMJ10037",
@@ -10369,6 +11882,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIJ1DM001123",
@@ -10376,6 +11890,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIJ1DM002222",
@@ -10383,6 +11898,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMDDSCB",
@@ -10390,6 +11906,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCHSCQ",
@@ -10397,6 +11914,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCLSBD",
@@ -10404,6 +11922,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIJ1DM001222",
@@ -10411,6 +11930,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIDMJ10002",
@@ -10418,6 +11938,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIDMJ10012",
@@ -10425,6 +11946,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIDMJ10020",
@@ -10432,6 +11954,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIDMJ10028",
@@ -10439,6 +11962,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIDMJ10013",
@@ -10446,6 +11970,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIDMJ10015",
@@ -10453,6 +11978,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIJ1DM002522",
@@ -10460,6 +11986,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIJ1DM001422",
@@ -10467,6 +11994,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIJ1DM000522",
@@ -10474,6 +12002,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCHSCR",
@@ -10481,6 +12010,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIJ1DM000722",
@@ -10488,6 +12018,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCGSCF",
@@ -10495,6 +12026,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCJSCV",
@@ -10502,6 +12034,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIDMJ10024",
@@ -10509,6 +12042,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIJ1DM002622",
@@ -10516,6 +12050,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCPSCJ",
@@ -10523,6 +12058,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCJSCG",
@@ -10530,6 +12066,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIJ1DM000822",
@@ -10537,6 +12074,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIDMJ10022",
@@ -10544,6 +12082,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCLSBC",
@@ -10551,6 +12090,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIJ1DM000922",
@@ -10558,6 +12098,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCQSCC",
@@ -10565,6 +12106,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIDMJ10008",
@@ -10572,6 +12114,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIJ1DM001622",
@@ -10579,6 +12122,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIDMJ10031",
@@ -10586,6 +12130,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "USMCYBBB",
@@ -10593,6 +12138,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCHSCH",
@@ -10600,6 +12146,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIDMJ1001125",
@@ -10607,6 +12154,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WF2NASAC",
@@ -10614,6 +12162,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIEMY20010",
@@ -10621,6 +12170,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WE1XGSCE",
@@ -10628,6 +12178,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WCZUASCB",
@@ -10635,6 +12186,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIX2EM000522",
@@ -10642,6 +12194,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WFZYDSAB",
@@ -10649,6 +12202,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIEMY20001",
@@ -10656,6 +12210,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIX2EM000422",
@@ -10663,6 +12218,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WE1X2AAB",
@@ -10670,6 +12226,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIEMX20002",
@@ -10677,6 +12234,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WE1WASCC",
@@ -10684,6 +12242,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WFZYDSAC",
@@ -10691,6 +12250,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIX2EM000423",
@@ -10698,6 +12258,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WCZVASCE",
@@ -10705,6 +12266,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIEMY20006",
@@ -10712,6 +12274,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WFZRASAB",
@@ -10719,6 +12282,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WF2NASAE",
@@ -10726,6 +12290,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIX2EM000623",
@@ -10733,6 +12298,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIEMX20001",
@@ -10740,6 +12306,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIEMY20009",
@@ -10747,6 +12314,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIY2EM000623",
@@ -10754,6 +12322,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WCZY5SCB",
@@ -10761,6 +12330,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WE1TASCC",
@@ -10768,6 +12338,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WE1XASCB",
@@ -10775,6 +12346,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WF7TASAB",
@@ -10782,6 +12354,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIX2EM000622",
@@ -10789,6 +12362,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WCZVASCB",
@@ -10796,6 +12370,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WF2NASAG",
@@ -10803,6 +12378,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WE1XYSCC",
@@ -10810,6 +12386,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WCZMASCC",
@@ -10817,6 +12394,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIEMY20005",
@@ -10824,6 +12402,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIY2EM001023",
@@ -10831,6 +12410,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WE1XGSCF",
@@ -10838,6 +12418,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WCZVASCC",
@@ -10845,6 +12426,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WE1WASCD",
@@ -10852,6 +12434,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WFZYJSAD",
@@ -10859,6 +12442,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WE1TASCD",
@@ -10866,6 +12450,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WEZYGAAC",
@@ -10873,6 +12458,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WFZZGSAD",
@@ -10880,6 +12466,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WE1TASCB",
@@ -10887,6 +12474,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIY2EM000423",
@@ -10894,6 +12482,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIX2EM000823",
@@ -10901,6 +12490,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WCZMASCB",
@@ -10908,6 +12498,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIEMY20003",
@@ -10915,6 +12506,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIY2EM001625",
@@ -10922,6 +12514,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIEMY2001625",
@@ -10929,6 +12522,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "TKCCASAD",
@@ -10936,6 +12530,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIX1FS001522",
@@ -10943,6 +12538,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIX1FS000723",
@@ -10950,6 +12546,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIW1FS000423",
@@ -10957,6 +12554,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIFSX10009",
@@ -10964,6 +12562,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "TKC5ASCL",
@@ -10971,6 +12570,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIW1FS000722",
@@ -10978,6 +12578,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIW1FS000523",
@@ -10985,6 +12586,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIX1FS001622",
@@ -10992,6 +12594,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIX1FS000623",
@@ -10999,6 +12602,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "TKC7ESCA",
@@ -11006,6 +12610,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIX1FS000722",
@@ -11013,6 +12618,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIX1FS000822",
@@ -11020,6 +12626,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIX1FS001022",
@@ -11027,6 +12634,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIW1FS000723",
@@ -11034,6 +12642,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "TKCCASAC",
@@ -11041,6 +12650,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIX1FS000423",
@@ -11048,6 +12658,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIFSW10002",
@@ -11055,6 +12666,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "TKCGAAAC",
@@ -11062,6 +12674,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIX1FS000622",
@@ -11069,6 +12682,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "TKCSASCG",
@@ -11076,6 +12690,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIFSW10003",
@@ -11083,6 +12698,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIFSW10009",
@@ -11090,6 +12706,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIFSW10010",
@@ -11097,6 +12714,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIFSX10017",
@@ -11104,6 +12722,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIFSW10006",
@@ -11111,6 +12730,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIFSW10005",
@@ -11118,6 +12738,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIFSW10011",
@@ -11125,6 +12746,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIX1FS001023",
@@ -11132,6 +12754,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIFSW10008",
@@ -11139,6 +12762,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIW1FS000922",
@@ -11146,6 +12770,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIX1FS000923",
@@ -11153,6 +12778,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIW1FS000522",
@@ -11160,6 +12786,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIX1FS001222",
@@ -11167,6 +12794,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIW1FS000822",
@@ -11174,6 +12802,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIFSW1000525",
@@ -11181,6 +12810,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIFSW1000625",
@@ -11188,6 +12818,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIFSX1000825",
@@ -11195,6 +12826,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIFSX1000925",
@@ -11202,6 +12834,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIFSX1001025",
@@ -11209,6 +12842,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "TMAZPSCE",
@@ -11216,6 +12850,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AIL2FG000922",
@@ -11223,6 +12858,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "TMA4ISCD",
@@ -11230,6 +12866,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "TDAYASCC",
@@ -11237,6 +12874,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AIFGL20001",
@@ -11244,6 +12882,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AIL2FG000622",
@@ -11251,6 +12890,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AIL2FG002123",
@@ -11258,6 +12898,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AIO2FG000622",
@@ -11265,6 +12906,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "TDA4ESBB",
@@ -11272,6 +12914,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "TMA4ASAA",
@@ -11279,6 +12922,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "TMA4MSCB",
@@ -11286,6 +12930,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "TMA4MSCA",
@@ -11293,6 +12938,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "TMA3ASCD",
@@ -11300,6 +12946,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "TWBDASCB",
@@ -11307,6 +12954,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AIK2TC001022",
@@ -11314,6 +12962,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AIK2TC001223",
@@ -11321,6 +12970,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "TJBVASCA",
@@ -11328,6 +12978,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AIK2TC001522",
@@ -11335,6 +12986,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AIK2TC001323",
@@ -11342,6 +12994,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AIK2TC001123",
@@ -11349,6 +13002,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AITCK2001525",
@@ -11356,13 +13010,23 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AITCK2001625",
     "Trade Name": "ARNEL CHAVES"
   },
   {
+    "Territory Partner": "FM Marketing 2",
+    "Main Class": "Dealer",
+    "Class": "Agent-Installer",
+    "Region": "North Luzon West",
+    "Sales Code": "AITCK2001825",
+    "Trade Name": "ARGIE T. SANTOS"
+  },
+  {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "WT5KESDB",
@@ -11370,6 +13034,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "AIW3M2000623",
@@ -11377,6 +13042,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "AIV3M2001023",
@@ -11384,6 +13050,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "WT3WASCB",
@@ -11391,6 +13058,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "WT49ASCF",
@@ -11398,6 +13066,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "WT3UASUT",
@@ -11405,6 +13074,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "AIM2U30006",
@@ -11412,6 +13082,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "WT4NSSDJ",
@@ -11419,6 +13090,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "WT3XASSC",
@@ -11426,6 +13098,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "WT3TASDL",
@@ -11433,6 +13106,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "EXW3M2000423",
@@ -11440,6 +13114,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "WT3UASUV",
@@ -11447,6 +13122,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "WT3UASUS",
@@ -11454,6 +13130,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "AIM2V30013",
@@ -11461,6 +13138,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "WT3UASUP",
@@ -11468,6 +13146,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "AIV3M2000823",
@@ -11475,6 +13154,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "PS3UASUO",
@@ -11482,6 +13162,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "AIU3000625",
@@ -11489,6 +13170,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "AIU3000725",
@@ -11496,6 +13178,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "AIU3000925",
@@ -11503,6 +13186,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "AIW3000625",
@@ -11510,6 +13194,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "AIW3000725",
@@ -11517,6 +13202,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "AIV3001425",
@@ -11524,6 +13210,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "AIW3000825",
@@ -11531,6 +13218,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "South Mindanao",
     "Sales Code": "AIU3001025",
@@ -11538,6 +13226,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central South Luzon",
     "Sales Code": "ULJEASAG",
@@ -11545,6 +13234,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central South Luzon",
     "Sales Code": "AIGLX3000525",
@@ -11552,6 +13242,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central South Luzon",
     "Sales Code": "UJJQASCA",
@@ -11559,6 +13250,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central South Luzon",
     "Sales Code": "AIS1GL000825",
@@ -11566,6 +13258,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central South Luzon",
     "Sales Code": "AIGAX30014",
@@ -11573,6 +13266,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central South Luzon",
     "Sales Code": "UJJR3SCB",
@@ -11580,6 +13274,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central South Luzon",
     "Sales Code": "AIGAX30013",
@@ -11587,6 +13282,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central South Luzon",
     "Sales Code": "AIGLX3000725",
@@ -11594,6 +13290,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central South Luzon",
     "Sales Code": "AIGAX30006",
@@ -11601,6 +13298,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central South Luzon",
     "Sales Code": "UJJFASCB",
@@ -11608,6 +13306,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central South Luzon",
     "Sales Code": "AIGLX3000825",
@@ -11615,6 +13314,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central South Luzon",
     "Sales Code": "AIGLX3000325",
@@ -11622,6 +13322,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central South Luzon",
     "Sales Code": "AIGLX3000625",
@@ -11629,6 +13330,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central South Luzon",
     "Sales Code": "AIGLS1000625",
@@ -11636,6 +13338,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central South Luzon",
     "Sales Code": "UJJPASCD",
@@ -11643,6 +13346,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central South Luzon",
     "Sales Code": "ULJEASAE",
@@ -11650,6 +13354,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central South Luzon",
     "Sales Code": "AIGAX30007",
@@ -11657,6 +13362,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central South Luzon",
     "Sales Code": "AIX3GL000525",
@@ -11664,6 +13370,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central South Luzon",
     "Sales Code": "AIGLX3000925",
@@ -11671,6 +13378,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central South Luzon",
     "Sales Code": "AIGLX3000425",
@@ -11678,34 +13386,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Goodlife",
-    "Class": "Agent-Installer",
-    "Region": "Lower South Luzon",
-    "Sales Code": "UJM6ASSC",
-    "Trade Name": "Benig Cellphone Acc Shop"
-  },
-  {
-    "Territory Partner": "Goodlife",
-    "Class": "Agent-Installer",
-    "Region": "Lower South Luzon",
-    "Sales Code": "AIGEK10002",
-    "Trade Name": "Capinig Store"
-  },
-  {
-    "Territory Partner": "Goodlife",
-    "Class": "Agent-Installer",
-    "Region": "Lower South Luzon",
-    "Sales Code": "AIGEK10003",
-    "Trade Name": "Carlos Espanola Jr"
-  },
-  {
-    "Territory Partner": "Goodlife",
-    "Class": "Agent-Installer",
-    "Region": "Lower South Luzon",
-    "Sales Code": "AIGEK10005",
-    "Trade Name": "Dianito A. Francisco Jr."
-  },
-  {
-    "Territory Partner": "Goodlife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIGEK10010",
@@ -11713,20 +13394,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Goodlife",
-    "Class": "Agent-Installer",
-    "Region": "Lower South Luzon",
-    "Sales Code": "UVM8ASCC",
-    "Trade Name": "JB KIM & Jon Store"
-  },
-  {
-    "Territory Partner": "Goodlife",
-    "Class": "Agent-Installer",
-    "Region": "Lower South Luzon",
-    "Sales Code": "AIGEK10004",
-    "Trade Name": "Lucille Tacurda Store"
-  },
-  {
-    "Territory Partner": "Goodlife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIK1GE000623",
@@ -11734,34 +13402,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Goodlife",
-    "Class": "Agent-Installer",
-    "Region": "Lower South Luzon",
-    "Sales Code": "UJMXASSB",
-    "Trade Name": "Richard Electronics"
-  },
-  {
-    "Territory Partner": "Goodlife",
-    "Class": "Agent-Installer",
-    "Region": "Lower South Luzon",
-    "Sales Code": "AIK1GE000723",
-    "Trade Name": "Rivera Store"
-  },
-  {
-    "Territory Partner": "Goodlife",
-    "Class": "Agent-Installer",
-    "Region": "Lower South Luzon",
-    "Sales Code": "AIGEK10009",
-    "Trade Name": "RJ Villena Enterprise"
-  },
-  {
-    "Territory Partner": "Goodlife",
-    "Class": "Agent-Installer",
-    "Region": "Lower South Luzon",
-    "Sales Code": "AIGEK10001",
-    "Trade Name": "Roland Alcovendas"
-  },
-  {
-    "Territory Partner": "Goodlife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "UVM9RSCC",
@@ -11769,6 +13410,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Goodlife",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIK1GE000823",
@@ -11776,6 +13418,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Upper South Luzon",
     "Sales Code": "AIE3GM001722",
@@ -11783,6 +13426,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Upper South Luzon",
     "Sales Code": "AIGME3000925",
@@ -11790,6 +13434,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Upper South Luzon",
     "Sales Code": "AIGME3001425",
@@ -11797,6 +13442,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Upper South Luzon",
     "Sales Code": "AIE3GM000922",
@@ -11804,6 +13450,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Upper South Luzon",
     "Sales Code": "AIGME3001025",
@@ -11811,6 +13458,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Upper South Luzon",
     "Sales Code": "AIGME3001525",
@@ -11818,6 +13466,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Upper South Luzon",
     "Sales Code": "AIE3GM001122",
@@ -11825,6 +13474,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Upper South Luzon",
     "Sales Code": "AIGME3001125",
@@ -11832,6 +13482,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Upper South Luzon",
     "Sales Code": "UZLFASAI",
@@ -11839,6 +13490,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Upper South Luzon",
     "Sales Code": "AIGME3001225",
@@ -11846,6 +13498,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Upper South Luzon",
     "Sales Code": "UDLAASAA",
@@ -11853,6 +13506,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Upper South Luzon",
     "Sales Code": "AIE3GM001322",
@@ -11860,6 +13514,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Upper South Luzon",
     "Sales Code": "AIE3GM001622",
@@ -11867,6 +13522,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom 2 (Rizal)",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "XEXXASHC",
@@ -11874,6 +13530,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom 2 (Rizal)",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "XEXZASBC",
@@ -11881,6 +13538,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom 2 (Rizal)",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "XEXXASFY",
@@ -11888,6 +13546,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom 2 (Rizal)",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "XEXXASEP",
@@ -11895,6 +13554,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom 2 (Rizal)",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "AIF3EP000722",
@@ -11902,6 +13562,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom 2 (Rizal)",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "AIEPF30005",
@@ -11909,6 +13570,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom 2 (Rizal)",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "AIF3EP001123",
@@ -11916,6 +13578,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom 2 (Rizal)",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "XEXQAWDL",
@@ -11923,6 +13586,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom 2 (Rizal)",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "AIF3EP001323",
@@ -11930,6 +13594,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom 2 (Rizal)",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "XEXXASHG",
@@ -11937,6 +13602,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom 2 (Rizal)",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "XSX7ASCB",
@@ -11944,6 +13610,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom 2 (Rizal)",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "AIF3EP001425",
@@ -11951,6 +13618,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom 2 (Rizal)",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "AIEPF3001425",
@@ -11958,6 +13626,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom 2 (Rizal)",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "AIEPF3001525",
@@ -11965,6 +13634,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom 2 (Rizal)",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "AIEPF3001725",
@@ -11972,6 +13642,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIHDL10020",
@@ -11979,6 +13650,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIHDP10001",
@@ -11986,6 +13658,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIL1HD000523",
@@ -11993,6 +13666,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIO1HD000423",
@@ -12000,6 +13674,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "URN7ASCF",
@@ -12007,6 +13682,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIL1HD000623",
@@ -12014,6 +13690,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIL1HD001323",
@@ -12021,6 +13698,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "UWN8ESBC",
@@ -12028,6 +13706,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "URNQASCD",
@@ -12035,6 +13714,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIP1HD000923",
@@ -12042,6 +13722,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIHDL10023",
@@ -12049,6 +13730,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "UVNVASAD",
@@ -12056,6 +13738,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIHDO10002",
@@ -12063,6 +13746,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIP1HD001223",
@@ -12070,6 +13754,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIHDP10017",
@@ -12077,6 +13762,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIHDL10013",
@@ -12084,6 +13770,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIHDP10011",
@@ -12091,6 +13778,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIP1HD001122",
@@ -12098,6 +13786,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIP1HD000922",
@@ -12105,6 +13794,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIP1HD000622",
@@ -12112,6 +13802,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIP1HD001023",
@@ -12119,6 +13810,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "UVNUASCD",
@@ -12126,6 +13818,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "UWNWABBD",
@@ -12133,6 +13826,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIHDP10018",
@@ -12140,6 +13834,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIHDL10014",
@@ -12147,6 +13842,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIL1HD001623",
@@ -12154,6 +13850,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "URNQASCC",
@@ -12161,6 +13858,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIP1HD001123",
@@ -12168,6 +13866,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIL1HD000923",
@@ -12175,6 +13874,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIHDP10020",
@@ -12182,6 +13882,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIP1HD000723",
@@ -12189,6 +13890,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIL1HD001423",
@@ -12196,6 +13898,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIL1HD000522",
@@ -12203,6 +13906,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIO1HD000422",
@@ -12210,6 +13914,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIHDO1000225",
@@ -12217,6 +13922,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIHDO1000325",
@@ -12224,6 +13930,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIHDL1002125",
@@ -12231,6 +13938,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIHDL1002225",
@@ -12238,6 +13946,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIHDL1002325",
@@ -12245,6 +13954,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Upper South Luzon",
     "Sales Code": "AIIAY30035",
@@ -12252,6 +13962,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Upper South Luzon",
     "Sales Code": "UAICASCG",
@@ -12259,6 +13970,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Upper South Luzon",
     "Sales Code": "AIY3IB000422",
@@ -12266,6 +13978,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Upper South Luzon",
     "Sales Code": "AIIAY30036",
@@ -12273,6 +13986,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Upper South Luzon",
     "Sales Code": "UAIRASAB",
@@ -12280,6 +13994,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Upper South Luzon",
     "Sales Code": "UAI1USAA",
@@ -12287,6 +14002,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Upper South Luzon",
     "Sales Code": "AIIAY30041",
@@ -12294,6 +14010,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Upper South Luzon",
     "Sales Code": "UAICASCS",
@@ -12301,6 +14018,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Upper South Luzon",
     "Sales Code": "UAICASCF",
@@ -12308,6 +14026,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Upper South Luzon",
     "Sales Code": "UAICASCK",
@@ -12315,6 +14034,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Upper South Luzon",
     "Sales Code": "AIIAY30030",
@@ -12322,6 +14042,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Upper South Luzon",
     "Sales Code": "UAIEASAA",
@@ -12329,6 +14050,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Upper South Luzon",
     "Sales Code": "UAI1PSAA",
@@ -12336,6 +14058,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Upper South Luzon",
     "Sales Code": "AIIBY3000325",
@@ -12343,6 +14066,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Upper South Luzon",
     "Sales Code": "AIIBY3000425",
@@ -12350,6 +14074,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Mindoro",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Upper South Luzon",
     "Sales Code": "UAJ8ASAA",
@@ -12357,6 +14082,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Mindoro",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Upper South Luzon",
     "Sales Code": "UAJUASCA",
@@ -12364,6 +14090,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Mindoro",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Upper South Luzon",
     "Sales Code": "UAI9PSCB",
@@ -12371,6 +14098,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Mindoro",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Upper South Luzon",
     "Sales Code": "UAJXASAA",
@@ -12378,6 +14106,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Mindoro",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Upper South Luzon",
     "Sales Code": "UAJNASCB",
@@ -12385,6 +14114,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Mindoro",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Upper South Luzon",
     "Sales Code": "UAJ8ASCB",
@@ -12392,6 +14122,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Mindoro",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Upper South Luzon",
     "Sales Code": "UAJ3ASCA",
@@ -12399,6 +14130,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Mindoro",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Upper South Luzon",
     "Sales Code": "UAJ4ASAD",
@@ -12406,6 +14138,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Mindoro",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Upper South Luzon",
     "Sales Code": "UAI9FSCA",
@@ -12413,6 +14146,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Mindoro",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Upper South Luzon",
     "Sales Code": "AIIMZ3000425",
@@ -12420,6 +14154,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Mindoro",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Upper South Luzon",
     "Sales Code": "AIIMA4000525",
@@ -12427,6 +14162,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Koks",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AID4KS000823",
@@ -12434,6 +14170,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Koks",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "VDPFJSCE",
@@ -12441,6 +14178,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Koks",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AID4KS000723",
@@ -12448,6 +14186,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Koks",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AIE4KS001123",
@@ -12455,6 +14194,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Koks",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AID4KS000923",
@@ -12462,6 +14202,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Koks",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AID4KS000623",
@@ -12469,6 +14210,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Koks",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "VDPF8SCA",
@@ -12476,6 +14218,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Koks",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AIKSE40001",
@@ -12483,6 +14226,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Koks",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AIE4KS000723",
@@ -12490,6 +14234,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Koks",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AIE4KS001023",
@@ -12497,6 +14242,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Koks",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AIE4KS000623",
@@ -12504,6 +14250,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Koks",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AID4KS001025",
@@ -12511,6 +14258,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Koks",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AIE4KS001225",
@@ -12518,6 +14266,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Koks",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AIKSE4001025",
@@ -12525,6 +14274,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Koks",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AIKSE4001125",
@@ -12532,6 +14282,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Koks",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AIKSE4001225",
@@ -12539,6 +14290,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Koks",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AIKSE4001325",
@@ -12546,6 +14298,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Madera",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "USMNBSAE",
@@ -12553,6 +14306,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Madera",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIMAQ10002",
@@ -12560,6 +14314,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Madera",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "USMNRSAB",
@@ -12567,6 +14322,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Madera",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIMAQ10003",
@@ -12574,6 +14330,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Madera",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIMAQ10006",
@@ -12581,6 +14338,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Madera",
+    "Main Class": "Agent-Installer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "USMNTWDA",
@@ -12588,6 +14346,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Madera",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "USMNBSAD",
@@ -12595,6 +14354,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Madera",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "USMNCSAB",
@@ -12602,6 +14362,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Madera",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "USMNLWFS",
@@ -12609,6 +14370,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "TNERKSCJ",
@@ -12616,6 +14378,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIB2NX001023",
@@ -12623,6 +14386,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "TNEBASBB",
@@ -12630,6 +14394,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIB2NX001522",
@@ -12637,6 +14402,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AINXB20027",
@@ -12644,6 +14410,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AINXC20003",
@@ -12651,6 +14418,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIB2NX000722",
@@ -12658,6 +14426,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AINXB20032",
@@ -12665,6 +14434,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AINXB20008",
@@ -12672,6 +14442,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AINXB20022",
@@ -12679,6 +14450,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "TNEQXSAB",
@@ -12686,6 +14458,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "TNEKASCC",
@@ -12693,6 +14466,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "TNEPASCO",
@@ -12700,6 +14474,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIB2NX001523",
@@ -12707,6 +14482,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIB2NX001323",
@@ -12714,6 +14490,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "TNEQ5SCB",
@@ -12721,6 +14498,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AINXB20017",
@@ -12728,6 +14506,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "TNEBASBC",
@@ -12735,6 +14514,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIC2NX000422",
@@ -12742,6 +14522,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIB2NX000422",
@@ -12749,6 +14530,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "TNEAASBJ",
@@ -12756,6 +14538,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIZ1NX000423",
@@ -12763,6 +14546,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIC2NX000423",
@@ -12770,6 +14554,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIB2NX001922",
@@ -12777,6 +14562,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIB2NX000822",
@@ -12784,6 +14570,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIB2NX000522",
@@ -12791,6 +14578,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIB2NX000423",
@@ -12798,6 +14586,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "TNERSSCC",
@@ -12805,6 +14594,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "TNEQXSSB",
@@ -12812,6 +14602,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "TNENASCA",
@@ -12819,6 +14610,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "TNELASAF",
@@ -12826,6 +14618,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "TNEQWSAA",
@@ -12833,6 +14626,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "TNFNESAB",
@@ -12840,6 +14634,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AINXB2001425",
@@ -12847,6 +14642,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AINXB2001525",
@@ -12854,6 +14650,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AINXB2001625",
@@ -12861,6 +14658,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AINXB2001725",
@@ -12868,6 +14666,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AINXB2001825",
@@ -12875,6 +14674,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIE2PS000622",
@@ -12882,6 +14682,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIE2NY001223",
@@ -12889,6 +14690,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AID2NY000523",
@@ -12896,6 +14698,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "TSE8ASCC",
@@ -12903,6 +14706,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "TYE8ASAD",
@@ -12910,6 +14714,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AID2NY000623",
@@ -12917,6 +14722,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "TSETSSCC",
@@ -12924,6 +14730,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AID2NY000423",
@@ -12931,6 +14738,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "TYEXASAI",
@@ -12938,6 +14746,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "TYE2ASAC",
@@ -12945,6 +14754,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIE2NY000923",
@@ -12952,6 +14762,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIE2NY000723",
@@ -12959,6 +14770,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "TYE7ASAJ",
@@ -12966,6 +14778,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIE2NY001823",
@@ -12973,6 +14786,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIE2NY001623",
@@ -12980,6 +14794,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIF2PS000522",
@@ -12987,6 +14802,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AID2NY000723",
@@ -12994,6 +14810,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIE2NY001523",
@@ -13001,6 +14818,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIPSE20018",
@@ -13008,6 +14826,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIE2NY001023",
@@ -13015,6 +14834,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIPSE20014",
@@ -13022,6 +14842,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIE2NY001323",
@@ -13029,6 +14850,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIE2NY001123",
@@ -13036,6 +14858,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIE2NY000823",
@@ -13043,6 +14866,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AIPSD20001",
@@ -13050,6 +14874,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIL1NA001622",
@@ -13057,6 +14882,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "URNHASCI",
@@ -13064,6 +14890,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIL1NA000422",
@@ -13071,6 +14898,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AINAL10005",
@@ -13078,6 +14906,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIL1NA000723",
@@ -13085,6 +14914,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIL1NA001522",
@@ -13092,6 +14922,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIL1NA002522",
@@ -13099,6 +14930,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIL1NA002222",
@@ -13106,6 +14938,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIL1NA000822",
@@ -13113,6 +14946,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIL1NA000823",
@@ -13120,6 +14954,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "URNHASCN",
@@ -13127,6 +14962,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIL1NA002322",
@@ -13134,6 +14970,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AINAL10004",
@@ -13141,6 +14978,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "URNCASCE",
@@ -13148,6 +14986,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIL1NA002422",
@@ -13155,13 +14994,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
-    "Class": "Agent-Installer",
-    "Region": "Lower South Luzon",
-    "Sales Code": "AIL1NA002122",
-    "Trade Name": "Raul Sanosa"
-  },
-  {
-    "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIL1NA001122",
@@ -13169,6 +15002,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIL1NA001922",
@@ -13176,6 +15010,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIL1NA000722",
@@ -13183,6 +15018,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIL1NA001422",
@@ -13190,6 +15026,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "URNLASCD",
@@ -13197,6 +15034,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AINAL10003",
@@ -13204,6 +15042,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIL1NA002022",
@@ -13211,6 +15050,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "URNCASCG",
@@ -13218,6 +15058,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AIL1NA001625",
@@ -13225,6 +15066,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AINAL1001725",
@@ -13232,6 +15074,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AINAL1001825",
@@ -13239,6 +15082,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AINAL1001925",
@@ -13246,6 +15090,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Lower South Luzon",
     "Sales Code": "AINAL1002025",
@@ -13253,6 +15098,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ1HASAA",
@@ -13260,6 +15106,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIA3O1000423",
@@ -13267,6 +15114,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIO1C30002",
@@ -13274,6 +15122,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIO1D30003",
@@ -13281,6 +15130,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIZ2O1001223",
@@ -13288,6 +15138,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AID3O1000423",
@@ -13295,6 +15146,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIZ2O1000423",
@@ -13302,6 +15154,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ19DSAB",
@@ -13309,6 +15162,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ1KASCE",
@@ -13316,6 +15170,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WK2HASBC",
@@ -13323,6 +15178,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ18VSCA",
@@ -13330,6 +15186,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIA3O1000523",
@@ -13337,6 +15194,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ1ZASEU",
@@ -13344,6 +15202,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AID3O1000623",
@@ -13351,6 +15210,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ182SCC",
@@ -13358,6 +15218,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ1ZASEZ",
@@ -13365,6 +15226,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ19SBBD",
@@ -13372,6 +15234,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WK2GASCD",
@@ -13379,6 +15242,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIC3O1000423",
@@ -13386,6 +15250,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIZ2O1000523",
@@ -13393,6 +15258,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIZ2O1001123",
@@ -13400,6 +15266,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WK2HASBB",
@@ -13407,6 +15274,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIO1D30010",
@@ -13414,6 +15282,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ18VSCD",
@@ -13421,6 +15290,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIO1D30001",
@@ -13428,6 +15298,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIO1D30009",
@@ -13435,6 +15306,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ1ZASEQ",
@@ -13442,6 +15314,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIZ2O1000422",
@@ -13449,6 +15322,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ19SBBC",
@@ -13456,6 +15330,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ19GSCB",
@@ -13463,6 +15338,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ18PBBB",
@@ -13470,6 +15346,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AID3O1000422",
@@ -13477,6 +15354,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AID3O1000723",
@@ -13484,6 +15362,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AID3O1000825",
@@ -13491,6 +15370,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIO1Z2001225",
@@ -13498,6 +15378,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIO1A3000325",
@@ -13505,6 +15386,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIO1D3000625",
@@ -13512,6 +15394,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIO1Z2001525",
@@ -13519,6 +15402,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIO1Z2001625",
@@ -13526,6 +15410,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIO1D3000725",
@@ -13533,6 +15418,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Northwest Mindanao",
     "Sales Code": "AIO1B3000125",
@@ -13540,6 +15426,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oxworld",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "AIN4RS000622",
@@ -13547,6 +15434,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oxworld",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "AIN4OW003123",
@@ -13554,6 +15442,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oxworld",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "XNXLASCL",
@@ -13561,6 +15450,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oxworld",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "AIN4OW005425",
@@ -13568,6 +15458,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oxworld",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "AIOWN4005225",
@@ -13575,6 +15466,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oxworld",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "AIOWN4005325",
@@ -13582,6 +15474,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "VBR4PSCC",
@@ -13589,6 +15482,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AIF4PN002123",
@@ -13596,6 +15490,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "VBRUASCD",
@@ -13603,6 +15498,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "VBR1ABBB",
@@ -13610,6 +15506,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AIF4PN002223",
@@ -13617,6 +15514,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "VBRIASBC",
@@ -13624,6 +15522,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "VBR4UASE",
@@ -13631,6 +15530,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AIF4PN002323",
@@ -13638,6 +15538,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AIF4PN002425",
@@ -13645,6 +15546,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AIF4PN002525",
@@ -13652,6 +15554,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros Or",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AIG4PR003223",
@@ -13659,6 +15562,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros Or",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AIG4PR003023",
@@ -13666,6 +15570,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros Or",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AIG4PR003123",
@@ -13673,6 +15578,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros Or",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AIG4PR003425",
@@ -13680,6 +15586,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros Or",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AIPRG4003425",
@@ -13687,6 +15594,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros Or",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AIPRG4003525",
@@ -13694,13 +15602,55 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros Or",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AIPRG4003725",
     "Trade Name": "Nick James Dry Good Store"
   },
   {
+    "Territory Partner": "PDI Negros Or",
+    "Main Class": "Dealer",
+    "Class": "Agent-Installer",
+    "Region": "Western Visayas",
+    "Sales Code": "AIPRG4003825",
+    "Trade Name": "Christine Mae Motor parts"
+  },
+  {
+    "Territory Partner": "PDI Negros Or",
+    "Main Class": "Dealer",
+    "Class": "Agent-Installer",
+    "Region": "Western Visayas",
+    "Sales Code": "AIPRG4003925",
+    "Trade Name": "Gladwel Cellshop"
+  },
+  {
+    "Territory Partner": "PDI Negros Or",
+    "Main Class": "Dealer",
+    "Class": "Agent-Installer",
+    "Region": "Western Visayas",
+    "Sales Code": "AIPRG4004025",
+    "Trade Name": "DSM Cellular"
+  },
+  {
+    "Territory Partner": "PDI Negros Or",
+    "Main Class": "Dealer",
+    "Class": "Agent-Installer",
+    "Region": "Western Visayas",
+    "Sales Code": "AIPRG4004125",
+    "Trade Name": "Maricars place enterprises"
+  },
+  {
+    "Territory Partner": "PDI Negros Or",
+    "Main Class": "Dealer",
+    "Class": "Agent-Installer",
+    "Region": "Western Visayas",
+    "Sales Code": "AIPRG4004225",
+    "Trade Name": "Verdes Store"
+  },
+  {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "VAQVAAAA",
@@ -13708,6 +15658,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AIK4PE002623",
@@ -13715,6 +15666,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AIK4PE002423",
@@ -13722,6 +15674,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AIK4PE002523",
@@ -13729,6 +15682,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "VAQ4LSCA",
@@ -13736,6 +15690,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AIK4PE002223",
@@ -13743,6 +15698,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "VAQTASCF",
@@ -13750,6 +15706,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AIK4PE002123",
@@ -13757,6 +15714,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AIK4PY001422",
@@ -13764,6 +15722,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AIK4PE002323",
@@ -13771,6 +15730,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AIK4PE001923",
@@ -13778,6 +15738,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "VAQ3USBB",
@@ -13785,6 +15746,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AIK4PW002023",
@@ -13792,6 +15754,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AII4PW001823",
@@ -13799,6 +15762,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AII4PW001923",
@@ -13806,6 +15770,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AIJ4PE000423",
@@ -13813,6 +15778,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "VAQBASCC",
@@ -13820,6 +15786,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "VAQ4USCD",
@@ -13827,6 +15794,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AII4PW002223",
@@ -13834,6 +15802,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AII4002425",
@@ -13841,6 +15810,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AII4002525",
@@ -13848,6 +15818,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AIK4002425",
@@ -13855,6 +15826,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AIK4002525",
@@ -13862,6 +15834,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AIK4002625",
@@ -13869,6 +15842,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AIK4002725",
@@ -13876,6 +15850,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AIK4002825",
@@ -13883,13 +15858,39 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Western Visayas",
     "Sales Code": "AIK4002925",
     "Trade Name": "SUZETTE STORE"
   },
   {
+    "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
+    "Class": "Agent-Installer",
+    "Region": "Western Visayas",
+    "Sales Code": "AII4002325",
+    "Trade Name": "AQ Electronics"
+  },
+  {
+    "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
+    "Class": "Agent-Installer",
+    "Region": "Western Visayas",
+    "Sales Code": "AIK4003125",
+    "Trade Name": "Maria Rose Blones"
+  },
+  {
+    "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
+    "Class": "Agent-Installer",
+    "Region": "Western Visayas",
+    "Sales Code": "AIK4003225",
+    "Trade Name": "Vargas Photoshop"
+  },
+  {
     "Territory Partner": "Save and Earn",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Visayas",
     "Sales Code": "AII1SN001023",
@@ -13897,6 +15898,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Save and Earn",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Visayas",
     "Sales Code": "VLUJJSCA",
@@ -13904,6 +15906,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Save and Earn",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Visayas",
     "Sales Code": "AISNI1001325",
@@ -13911,6 +15914,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Save and Earn",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Visayas",
     "Sales Code": "AISNI1001225",
@@ -13918,6 +15922,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Save and Earn",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Visayas",
     "Sales Code": "VLURMSCB",
@@ -13925,6 +15930,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Save and Earn",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Visayas",
     "Sales Code": "AISNI1001125",
@@ -13932,6 +15938,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Save and Earn",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Visayas",
     "Sales Code": "AISNI1001425",
@@ -13939,6 +15946,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TBH DAVAO CITY",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AIG3M1001323",
@@ -13946,6 +15954,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TBH DAVAO CITY",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AI8MG30026",
@@ -13953,6 +15962,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TBH DAVAO CITY",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AI8MG30023",
@@ -13960,6 +15970,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TBH DAVAO CITY",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AIG38M001222",
@@ -13967,6 +15978,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TBH DAVAO CITY",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "W84BASGV",
@@ -13974,6 +15986,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TBH DAVAO CITY",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "W84BATIB",
@@ -13981,6 +15994,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TBH DAVAO CITY",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AIG3M1001623",
@@ -13988,6 +16002,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TBH DAVAO CITY",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AIG3M1001723",
@@ -13995,6 +16010,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TBH DAVAO CITY",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AIG38M002222",
@@ -14002,6 +16018,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TBH DAVAO CITY",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "W84BASGX",
@@ -14009,6 +16026,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TBH DAVAO CITY",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AIG3M1001823",
@@ -14016,6 +16034,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central South Luzon",
     "Sales Code": "AITUS1000725",
@@ -14023,6 +16042,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Ttans",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central South Luzon",
     "Sales Code": "AIB4TS000623",
@@ -14030,6 +16050,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TTANS",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central South Luzon",
     "Sales Code": "UAK9MSBB",
@@ -14037,6 +16058,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TTANS",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central South Luzon",
     "Sales Code": "UAK7ASCC",
@@ -14044,6 +16066,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TTANS",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central South Luzon",
     "Sales Code": "AITSB40006",
@@ -14051,6 +16074,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TTANS",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central South Luzon",
     "Sales Code": "UAK9MSBC",
@@ -14058,6 +16082,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TTANS",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central South Luzon",
     "Sales Code": "UAK6ESCC",
@@ -14065,6 +16090,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Ttans",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central South Luzon",
     "Sales Code": "AIB4TS000723",
@@ -14072,6 +16098,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Ttans",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central South Luzon",
     "Sales Code": "AIB4TS000823",
@@ -14079,6 +16106,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TTANS",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central South Luzon",
     "Sales Code": "UAK9MSBD",
@@ -14086,6 +16114,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TTANS",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central South Luzon",
     "Sales Code": "UAK9ASBD",
@@ -14093,6 +16122,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TTANS",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central South Luzon",
     "Sales Code": "UAK8ASCJ",
@@ -14100,6 +16130,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TTANS",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central South Luzon",
     "Sales Code": "UAK8ASCC",
@@ -14107,6 +16138,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TTANS",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central South Luzon",
     "Sales Code": "UAK8ASCG",
@@ -14114,6 +16146,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TTANS",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central South Luzon",
     "Sales Code": "UAK6ESBC",
@@ -14121,6 +16154,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TTANS",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central South Luzon",
     "Sales Code": "UAK9USCC",
@@ -14128,6 +16162,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TTANS",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central South Luzon",
     "Sales Code": "UAK9YSCB",
@@ -14135,6 +16170,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TTANS",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central South Luzon",
     "Sales Code": "UAK8ASCD",
@@ -14142,6 +16178,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TTANS",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central South Luzon",
     "Sales Code": "AITSB40001",
@@ -14149,6 +16186,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TTANS",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central South Luzon",
     "Sales Code": "AITSB40005",
@@ -14156,6 +16194,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Ttans",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central South Luzon",
     "Sales Code": "AIB4TS000423",
@@ -14163,6 +16202,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Ttans",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central South Luzon",
     "Sales Code": "AIB4TS000523",
@@ -14170,6 +16210,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "WU8EASCB",
@@ -14177,6 +16218,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AIK3UL000923",
@@ -14184,6 +16226,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AIK3UL000423",
@@ -14191,6 +16234,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AIK3UL000823",
@@ -14198,6 +16242,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AIO3UL000423",
@@ -14205,6 +16250,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "WU8JAAAF",
@@ -14212,6 +16258,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AIO3UL000523",
@@ -14219,6 +16266,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AIJ3UL000423",
@@ -14226,6 +16274,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AIULK30007",
@@ -14233,6 +16282,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AIJ3UL001023",
@@ -14240,6 +16290,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AIJ3UL000723",
@@ -14247,6 +16298,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AIK3UL000723",
@@ -14254,6 +16306,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "WU63ABDC",
@@ -14261,6 +16314,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AIJ3UL000923",
@@ -14268,6 +16322,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "WU8QQAAF",
@@ -14275,6 +16330,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AIULJ30003",
@@ -14282,6 +16338,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AIK3UL001025",
@@ -14289,6 +16346,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AIK3UL001125",
@@ -14296,6 +16354,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AIJ3UL001125",
@@ -14303,6 +16362,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "East Mindanao",
     "Sales Code": "AIULK3000925",
@@ -14310,6 +16370,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "TAACYWCU",
@@ -14317,6 +16378,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AIQ2VT001222",
@@ -14324,6 +16386,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AIQ2VT001223",
@@ -14331,6 +16394,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AIP2VT000522",
@@ -14338,6 +16402,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "TAA7ASCF",
@@ -14345,6 +16410,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "TAAESSCG",
@@ -14352,6 +16418,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AIVTQ20002",
@@ -14359,6 +16426,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "TAAEJWCX",
@@ -14366,6 +16434,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AIVTQ2001025",
@@ -14373,6 +16442,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "TAAC5SCD",
@@ -14380,6 +16450,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AIVTP20002",
@@ -14387,6 +16458,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "TAA8KSCA",
@@ -14394,6 +16466,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AIQ2VT000822",
@@ -14401,6 +16474,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AIVTQ20009",
@@ -14408,6 +16482,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AIVTQ20001",
@@ -14415,6 +16490,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AIQ2VT000722",
@@ -14422,6 +16498,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "TAAEJSCE",
@@ -14429,6 +16506,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AIVTQ20011",
@@ -14436,6 +16514,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AIQ2VT001522",
@@ -14443,6 +16522,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "TAAEJWCV",
@@ -14450,6 +16530,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "TAAC5SCB",
@@ -14457,6 +16538,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "TAADASCF",
@@ -14464,6 +16546,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "TAACYWCT",
@@ -14471,6 +16554,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AIVTQ2001125",
@@ -14478,6 +16562,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "TAA7ASCD",
@@ -14485,6 +16570,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AIVTP20001",
@@ -14492,6 +16578,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AIVTR20001",
@@ -14499,6 +16586,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "TAAC5WCY",
@@ -14506,6 +16594,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "TAAC8SCA",
@@ -14513,6 +16602,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "TAAEAWCU",
@@ -14520,6 +16610,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AIQ2VT001322",
@@ -14527,6 +16618,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AIQ2VT000922",
@@ -14534,6 +16626,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "TAACDSAE",
@@ -14541,6 +16634,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AIVTQ20003",
@@ -14548,6 +16642,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "TAAEAWCT",
@@ -14555,6 +16650,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AIQ2VT001422",
@@ -14562,6 +16658,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "TAAEJWCW",
@@ -14569,6 +16666,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AIQ2VT000522",
@@ -14576,6 +16674,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "TAAESSCB",
@@ -14583,6 +16682,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "TAACSWCW",
@@ -14590,6 +16690,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AIQ2VT001022",
@@ -14597,6 +16698,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AIQ2VT000622",
@@ -14604,6 +16706,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "TAAAASCD",
@@ -14611,6 +16714,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "TFAFASCE",
@@ -14618,6 +16722,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "TUATASCA",
@@ -14625,6 +16730,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "TAALASCA",
@@ -14632,6 +16738,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "TAAGASCB",
@@ -14639,6 +16746,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "TUAXESCA",
@@ -14646,6 +16754,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AIR2VT000622",
@@ -14653,6 +16762,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "TMAMMSCA",
@@ -14660,6 +16770,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AIR2VY000623",
@@ -14667,6 +16778,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "TMAWESCA",
@@ -14674,6 +16786,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AIVTR20006",
@@ -14681,6 +16794,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AIH2AX000522",
@@ -14688,6 +16802,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AIR2VT000422",
@@ -14695,6 +16810,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AIR2VY000723",
@@ -14702,6 +16818,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AIH2VY000923",
@@ -14709,6 +16826,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "TMAMMSCB",
@@ -14716,6 +16834,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "TFAKYSBC",
@@ -14723,6 +16842,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AIR2VT001122",
@@ -14730,6 +16850,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AIH2VY000623",
@@ -14737,6 +16858,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AIR2VT000722",
@@ -14744,6 +16866,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "T7AW3SEB",
@@ -14751,6 +16874,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "TFAKYSBB",
@@ -14758,6 +16882,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "TFAMDSCA",
@@ -14765,6 +16890,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon West",
     "Sales Code": "AIH2VY001125",
@@ -14772,6 +16898,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vitalize",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "AIN2VI000622",
@@ -14779,6 +16906,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vitalize",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "X4XGASCN",
@@ -14786,6 +16914,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vitalize",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "AIVIT10045",
@@ -14793,6 +16922,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vitalize",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "AIVIT10040",
@@ -14800,6 +16930,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vitalize",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "AIN2VI000822",
@@ -14807,6 +16938,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vitalize",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "AIVIT10038",
@@ -14814,6 +16946,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vitalize",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "AIVIN4005425",
@@ -14821,6 +16954,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "VRJ",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIY1TP002123",
@@ -14828,6 +16962,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "VRJ",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIY1TP002523",
@@ -14835,6 +16970,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "VRJ",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIY1TP001023",
@@ -14842,6 +16978,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "VRJ",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIY1TP001123",
@@ -14849,6 +16986,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "VRJ",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIY1TP001022",
@@ -14856,6 +16994,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "VRJ",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIY1TP003422",
@@ -14863,6 +17002,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "VRJ",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIY1TP002723",
@@ -14870,6 +17010,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "VRJ",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIY1TP002322",
@@ -14877,6 +17018,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "VRJ",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIY1TP003222",
@@ -14884,6 +17026,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "VRJ",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIY1TP002623",
@@ -14891,6 +17034,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "VRJ",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIY1TP002122",
@@ -14898,6 +17042,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "VRJ",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIY1TP001423",
@@ -14905,6 +17050,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "VRJ",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIY1TP000623",
@@ -14912,6 +17058,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "VRJ",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIFSY10002",
@@ -14919,6 +17066,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "VRJ",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIY1TP001523",
@@ -14926,6 +17074,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "VRJ",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIY1TP002223",
@@ -14933,6 +17082,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "VRJ",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "TLDJASCA",
@@ -14940,6 +17090,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "VRJ",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIY1TP002423",
@@ -14947,6 +17098,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "VRJ",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIY1TP001823",
@@ -14954,6 +17106,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "VRJ",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIY1TP002023",
@@ -14961,6 +17114,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "VRJ",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIY1TP000423",
@@ -14968,6 +17122,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "VRJ",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIY1TP001323",
@@ -14975,6 +17130,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "VRJ",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIY1TP002323",
@@ -14982,6 +17138,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "VRJ",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIY1TP001623",
@@ -14989,6 +17146,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "VRJ",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIY1TP000723",
@@ -14996,6 +17154,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "VRJ",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIY1TP002823",
@@ -15003,6 +17162,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "VRJ",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIY1TP001223",
@@ -15010,6 +17170,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "VRJ",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AITPY1002625",
@@ -15017,6 +17178,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "T3GUPCPT",
@@ -15024,6 +17186,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "TQGPAABL",
@@ -15031,6 +17194,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "TGGBASCC",
@@ -15038,6 +17202,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIU1C2001522",
@@ -15045,6 +17210,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIU1C2001322",
@@ -15052,6 +17218,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIU1C2001222",
@@ -15059,6 +17226,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIC2U10046",
@@ -15066,6 +17234,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "TGGGASBD",
@@ -15073,6 +17242,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "T3GUPCPS",
@@ -15080,6 +17250,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIU1C2001422",
@@ -15087,6 +17258,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "TQGPAABD",
@@ -15094,6 +17266,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "TGGMCSCC",
@@ -15101,6 +17274,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIU1JZ002522",
@@ -15108,6 +17282,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIU1JZ000622",
@@ -15115,6 +17290,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "TGGKASCG",
@@ -15122,6 +17298,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIU1JZ000623",
@@ -15129,6 +17306,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIU1JZ002422",
@@ -15136,6 +17314,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIU1JZ001622",
@@ -15143,6 +17322,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIU1JZ002222",
@@ -15150,6 +17330,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "TGGMCSCJ",
@@ -15157,6 +17338,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIJZU10001",
@@ -15164,6 +17346,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIU1JZ001722",
@@ -15171,6 +17354,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIU1JZ001122",
@@ -15178,6 +17362,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIU1JZ000522",
@@ -15185,6 +17370,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "TGGTASCB",
@@ -15192,6 +17378,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIU1JZ000922",
@@ -15199,6 +17386,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "TGGMCWFB",
@@ -15206,6 +17394,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIJZU10005",
@@ -15213,6 +17402,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIU1JZ001023",
@@ -15220,6 +17410,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIJZU10006",
@@ -15227,6 +17418,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "TGGAAWFC",
@@ -15234,6 +17426,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIU1JZ003025",
@@ -15241,6 +17434,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIJZU1002925",
@@ -15248,6 +17442,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIJZU1003025",
@@ -15255,6 +17450,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "Central Luzon",
     "Sales Code": "AIJZU1003125",
@@ -15262,6 +17458,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Weecent",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "AIN2WL001623",
@@ -15269,6 +17466,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Weecent",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "AIN2WL000423",
@@ -15276,6 +17474,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Weecent",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "NCR",
     "Sales Code": "AIWLN2003325",
@@ -15283,6 +17482,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Weecent",
+    "Main Class": "Dealer",
     "Class": "Agent-Installer",
     "Region": "North Luzon East",
     "Sales Code": "AINXA2000225",
@@ -15290,6 +17490,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "8 telcom",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "EX8MG30003",
@@ -15297,6 +17498,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "8 telcom",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "MB8MG30040",
@@ -15304,6 +17506,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "8 telcom",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "EX8MG30022",
@@ -15311,6 +17514,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "8 telcom",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "EX8MG30029",
@@ -15318,6 +17522,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "8 telcom",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "EXG38M002322",
@@ -15325,6 +17530,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "8 telcom",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "EXL38M000422",
@@ -15332,6 +17538,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "8 telcom",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "EXL38M000423",
@@ -15339,6 +17546,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "8 telcom",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "MB8MG30039",
@@ -15346,6 +17554,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "8 telcom",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "EX8MG30042",
@@ -15353,6 +17562,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "8 telcom",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "W84BASFP",
@@ -15360,6 +17570,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "8 telcom",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "W84BASFQ",
@@ -15367,6 +17578,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "8 telcom",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "EXG38M000422",
@@ -15374,6 +17586,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "8 telcom",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "EX8MG30015",
@@ -15381,6 +17594,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "8 telcom",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "EXG38M002225",
@@ -15388,6 +17602,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WCZXASFP",
@@ -15395,6 +17610,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WCZ9XSCG",
@@ -15402,6 +17618,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WRZLLSCB",
@@ -15409,6 +17626,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WCZXASFS",
@@ -15416,6 +17634,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WRZBASCA",
@@ -15423,6 +17642,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WCZ3ASCD",
@@ -15430,6 +17650,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WCZCASEF",
@@ -15437,6 +17658,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "EXY2AK000422",
@@ -15444,6 +17666,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WRZBASCB",
@@ -15451,6 +17674,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WCZ6ASCB",
@@ -15458,6 +17682,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "EXAKT30008",
@@ -15465,6 +17690,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WCZ2ASCF",
@@ -15472,6 +17698,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WCZXASCF",
@@ -15479,6 +17706,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WCYBASCA",
@@ -15486,6 +17714,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WCZ2AAAB",
@@ -15493,6 +17722,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WRZKMSCA",
@@ -15500,6 +17730,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WRZAASCA",
@@ -15507,6 +17738,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WRZKYSCB",
@@ -15514,6 +17746,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WRZLLSCA",
@@ -15521,6 +17754,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "EXAKS30010",
@@ -15528,6 +17762,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "EXY2AK001423",
@@ -15535,6 +17770,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WCZXASFT",
@@ -15542,6 +17778,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WCZXASFQ",
@@ -15549,6 +17786,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia North",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Visayas",
     "Sales Code": "EXA1AN000923",
@@ -15556,6 +17794,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia North",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Visayas",
     "Sales Code": "EXA1AN001922",
@@ -15563,6 +17802,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia North",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Visayas",
     "Sales Code": "VKT4JSAA",
@@ -15570,6 +17810,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia North",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Visayas",
     "Sales Code": "EXA1AN003423",
@@ -15577,6 +17818,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia South",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Visayas",
     "Sales Code": "VET6ASCZ",
@@ -15584,6 +17826,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia South",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Visayas",
     "Sales Code": "VJT4GSAA",
@@ -15591,6 +17834,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia South",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Visayas",
     "Sales Code": "EXASA10014",
@@ -15598,6 +17842,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia South",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Visayas",
     "Sales Code": "VJTKASAV",
@@ -15605,6 +17850,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia South",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Visayas",
     "Sales Code": "EXA1AS004222",
@@ -15612,6 +17858,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia South",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Visayas",
     "Sales Code": "VETXASCG",
@@ -15619,6 +17866,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia South",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Visayas",
     "Sales Code": "CPA1AS004322",
@@ -15626,6 +17874,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia South",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Visayas",
     "Sales Code": "VKT2FSBB",
@@ -15633,6 +17882,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "WB3DASCF",
@@ -15640,6 +17890,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "EXI3BI002323",
@@ -15647,6 +17898,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "EXI3BI002223",
@@ -15654,6 +17906,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "WB3CASCB",
@@ -15661,6 +17914,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "EXI3BI002423",
@@ -15668,6 +17922,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "EXH3BI004323",
@@ -15675,6 +17930,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "EXBIH30022",
@@ -15682,6 +17938,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "EXH3BI004123",
@@ -15689,6 +17946,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "EXH3BI004223",
@@ -15696,6 +17954,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "EXI3BI001223",
@@ -15703,6 +17962,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "EXI3BI002123",
@@ -15710,6 +17970,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "WB3PASCF",
@@ -15717,6 +17978,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "MBBIH30021",
@@ -15724,6 +17986,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "EXH3BI004523",
@@ -15731,6 +17994,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "EXH3BI000722",
@@ -15738,6 +18002,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "EXH3BI003523",
@@ -15745,6 +18010,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "EXH3BI003623",
@@ -15752,6 +18018,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "AIBIH30002",
@@ -15759,6 +18026,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "WB3PASCI",
@@ -15766,6 +18034,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "WB3EASCG",
@@ -15773,6 +18042,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "EXH3BI001122",
@@ -15780,6 +18050,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "EXH3BI002323",
@@ -15787,6 +18058,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "WB4QASCB",
@@ -15794,6 +18066,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "EXI3BI001923",
@@ -15801,6 +18074,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "EXH3BI004925",
@@ -15808,6 +18082,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "EXBIH3004725",
@@ -15815,6 +18090,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "EXBIH3004925",
@@ -15822,6 +18098,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "EXBIH3005025",
@@ -15829,6 +18106,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "EXBIH3005125",
@@ -15836,6 +18114,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "EXBIH3005225",
@@ -15843,13 +18122,31 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "EXBII3002625",
     "Trade Name": "UPI ONE SIX EIGHT"
   },
   {
+    "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
+    "Class": "Exclusive",
+    "Region": "South Mindanao",
+    "Sales Code": "EXBII3002725",
+    "Trade Name": "Keyyah Cellphone Center"
+  },
+  {
+    "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
+    "Class": "Exclusive",
+    "Region": "South Mindanao",
+    "Sales Code": "EXBIH3005425",
+    "Trade Name": "Sentai Store"
+  },
+  {
     "Territory Partner": "BSL",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "NCR",
     "Sales Code": "EXBLT10091",
@@ -15857,6 +18154,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BSL",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "NCR",
     "Sales Code": "EXBLT10088",
@@ -15864,6 +18162,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BSL",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "NCR",
     "Sales Code": "AIBLT10050",
@@ -15871,6 +18170,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BSL",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "NCR",
     "Sales Code": "XJXCASHB",
@@ -15878,6 +18178,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BSL BULACAN",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "NCR",
     "Sales Code": "EXTEV10004",
@@ -15885,6 +18186,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BSL BULACAN",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "NCR",
     "Sales Code": "T5HVASAB",
@@ -15892,6 +18194,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BSL BULACAN",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "NCR",
     "Sales Code": "TCHVASCC",
@@ -15899,6 +18202,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BSL BULACAN",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "NCR",
     "Sales Code": "TCHCASCH",
@@ -15906,6 +18210,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BSL BULACAN",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "NCR",
     "Sales Code": "T5HNRCPS",
@@ -15913,6 +18218,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BSL Bulacan",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "NCR",
     "Sales Code": "T6HKASAC",
@@ -15920,6 +18226,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BSL Bulacan",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "NCR",
     "Sales Code": "T5HXSCPS",
@@ -15927,6 +18234,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cayanan",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Luzon",
     "Sales Code": "T2G9ASCB",
@@ -15934,6 +18242,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cayanan",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Luzon",
     "Sales Code": "T2G3ASAC",
@@ -15941,6 +18250,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cayanan",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Luzon",
     "Sales Code": "T2G5ASCD",
@@ -15948,6 +18258,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cayanan",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Luzon",
     "Sales Code": "EXCNJ20006",
@@ -15955,6 +18266,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cayanan",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Luzon",
     "Sales Code": "EXCNI20009",
@@ -15962,6 +18274,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cayanan",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Luzon",
     "Sales Code": "SPJ2CN000123",
@@ -15969,6 +18282,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cayanan",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Luzon",
     "Sales Code": "T2G5ASBE",
@@ -15976,6 +18290,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cayanan",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Luzon",
     "Sales Code": "MBCNI20006",
@@ -15983,6 +18298,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cayanan",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Luzon",
     "Sales Code": "EXCNI20007",
@@ -15990,6 +18306,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cayanan",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Luzon",
     "Sales Code": "EXCNJ20003",
@@ -15997,6 +18314,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cayanan",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Luzon",
     "Sales Code": "T2G4ASDD",
@@ -16004,6 +18322,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cayanan",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Luzon",
     "Sales Code": "EXCNJ20020",
@@ -16011,6 +18330,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cayanan",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Luzon",
     "Sales Code": "EXJ2CN000722",
@@ -16018,6 +18338,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Visayas",
     "Sales Code": "EXC1CC001723",
@@ -16025,6 +18346,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Visayas",
     "Sales Code": "VSWCASAA",
@@ -16032,6 +18354,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Visayas",
     "Sales Code": "EXC1CC001722",
@@ -16039,6 +18362,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Visayas",
     "Sales Code": "EXE1CC000722",
@@ -16046,6 +18370,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Visayas",
     "Sales Code": "VSVLJSCB",
@@ -16053,6 +18378,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Visayas",
     "Sales Code": "EXB1CC000522",
@@ -16060,6 +18386,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Visayas",
     "Sales Code": "VSV2QSBD",
@@ -16067,6 +18394,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Visayas",
     "Sales Code": "SBCRG10006",
@@ -16074,6 +18402,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Visayas",
     "Sales Code": "VSV2MSAC",
@@ -16081,6 +18410,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Visayas",
     "Sales Code": "EXC1CC003723",
@@ -16088,6 +18418,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Visayas",
     "Sales Code": "EXC1CC003423",
@@ -16095,6 +18426,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Visayas",
     "Sales Code": "VSVMSBBB",
@@ -16102,6 +18434,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Visayas",
     "Sales Code": "VSWH3SCB",
@@ -16109,6 +18442,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Visayas",
     "Sales Code": "VSVLASCD",
@@ -16116,6 +18450,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Visayas",
     "Sales Code": "VSV2MSAA",
@@ -16123,6 +18458,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Visayas",
     "Sales Code": "VSW2ASAH",
@@ -16130,6 +18466,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Visayas",
     "Sales Code": "EXE1CC000623",
@@ -16137,6 +18474,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Visayas",
     "Sales Code": "EXC1CC000422",
@@ -16144,6 +18482,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Visayas",
     "Sales Code": "VSWK3SCC",
@@ -16151,6 +18490,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Visayas",
     "Sales Code": "EXB1CC000523",
@@ -16158,6 +18498,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Visayas",
     "Sales Code": "EXC1CC002923",
@@ -16165,6 +18506,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Visayas",
     "Sales Code": "EXCEG10005",
@@ -16172,6 +18514,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Visayas",
     "Sales Code": "EXCEF10002",
@@ -16179,6 +18522,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Visayas",
     "Sales Code": "EXCEH10001",
@@ -16186,6 +18530,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Visayas",
     "Sales Code": "VSVAASCG",
@@ -16193,6 +18538,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Visayas",
     "Sales Code": "VSVAASCF",
@@ -16200,6 +18546,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Visayas",
     "Sales Code": "VSVNASCG",
@@ -16207,6 +18554,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Visayas",
     "Sales Code": "VSVNASAA",
@@ -16214,6 +18562,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Visayas",
     "Sales Code": "VSVDASAA",
@@ -16221,6 +18570,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Visayas",
     "Sales Code": "EXCEF10006",
@@ -16228,6 +18578,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Visayas",
     "Sales Code": "EXCEG10013",
@@ -16235,6 +18586,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Visayas",
     "Sales Code": "AIF1CL000722",
@@ -16242,6 +18594,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Visayas",
     "Sales Code": "AIF1CL000622",
@@ -16249,6 +18602,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Visayas",
     "Sales Code": "EXCEF10008",
@@ -16256,6 +18610,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Visayas",
     "Sales Code": "AIF1CL000922",
@@ -16263,6 +18618,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Visayas",
     "Sales Code": "MBCRF10001",
@@ -16270,6 +18626,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Visayas",
     "Sales Code": "VSVAASCE",
@@ -16277,6 +18634,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Visayas",
     "Sales Code": "MBSWCL000622",
@@ -16284,6 +18642,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Southern East",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Visayas",
     "Sales Code": "EXD1CS000623",
@@ -16291,6 +18650,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "CRFT",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Visayas",
     "Sales Code": "XPL9ASCF",
@@ -16298,6 +18658,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "CRFT",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Visayas",
     "Sales Code": "EXC4CT004022",
@@ -16305,6 +18666,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "CRFT",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Visayas",
     "Sales Code": "EXC4CT002223",
@@ -16312,6 +18674,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "CRFT",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Visayas",
     "Sales Code": "EXC4CT003422",
@@ -16319,6 +18682,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "CRFT",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Visayas",
     "Sales Code": "EXC4CT003322",
@@ -16326,6 +18690,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "CRFT",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Visayas",
     "Sales Code": "XPLYASCE",
@@ -16333,6 +18698,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "CRFT",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Visayas",
     "Sales Code": "XPLZESCE",
@@ -16340,6 +18706,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "CRFT",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Visayas",
     "Sales Code": "EXC4CT003123",
@@ -16347,6 +18714,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "CRFT",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Visayas",
     "Sales Code": "EXC4CT004722",
@@ -16354,6 +18722,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "CRFT",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Visayas",
     "Sales Code": "XPLYKSCB",
@@ -16361,6 +18730,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "CRFT",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Visayas",
     "Sales Code": "EXC4CT002722",
@@ -16368,6 +18738,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "CRFT",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Visayas",
     "Sales Code": "EXCTC40004",
@@ -16375,6 +18746,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "CRFT",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Visayas",
     "Sales Code": "AIC4CT003822",
@@ -16382,6 +18754,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "W37M8SCD",
@@ -16389,6 +18762,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "W37PASAA",
@@ -16396,6 +18770,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "W47M8SCC",
@@ -16403,6 +18778,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "EXW2D1000622",
@@ -16410,6 +18786,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "W36SGSCA",
@@ -16417,6 +18794,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "W37WPSCA",
@@ -16424,6 +18802,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "W36CASCA",
@@ -16431,6 +18810,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "EXS2D1000423",
@@ -16438,6 +18818,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "EXD1T20018",
@@ -16445,6 +18826,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "EXV2D1000523",
@@ -16452,6 +18834,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "W36LASCC",
@@ -16459,6 +18842,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "W37TASCA",
@@ -16466,6 +18850,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "W36LASCE",
@@ -16473,6 +18858,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "W36LASCA",
@@ -16480,6 +18866,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "EXD1S20001",
@@ -16487,6 +18874,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "EXD1T20014",
@@ -16494,6 +18882,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "EXD1W20007",
@@ -16501,6 +18890,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "W36EMSCB",
@@ -16508,6 +18898,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "W47MJSCE",
@@ -16515,6 +18906,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "W36AASCA",
@@ -16522,6 +18914,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "W47IASCB",
@@ -16529,6 +18922,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "EXD1T20007",
@@ -16536,6 +18930,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "W47GASCA",
@@ -16543,6 +18938,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "W36SMSCB",
@@ -16550,6 +18946,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "W37WYSBB",
@@ -16557,6 +18954,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "W37MJSCD",
@@ -16564,6 +18962,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "W37WVSCA",
@@ -16571,6 +18970,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "EXD1T20020",
@@ -16578,6 +18978,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "W372ISAA",
@@ -16585,6 +18986,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "W36LASCF",
@@ -16592,6 +18994,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "EXV2D1000723",
@@ -16599,6 +19002,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "W36AASCD",
@@ -16606,6 +19010,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "EXW2D1000523",
@@ -16613,6 +19018,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "W36BASCA",
@@ -16620,6 +19026,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "EXT2D1000523",
@@ -16627,6 +19034,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "W37MJSCB",
@@ -16634,6 +19042,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "W36CASCD",
@@ -16641,6 +19050,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "W36CASCB",
@@ -16648,6 +19058,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "W36GASCA",
@@ -16655,6 +19066,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "EXD1T20001",
@@ -16662,6 +19074,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "EXD1T20002",
@@ -16669,6 +19082,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "W36LASCB",
@@ -16676,6 +19090,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "EXD1W20006",
@@ -16683,6 +19098,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "EXD1T20010",
@@ -16690,6 +19106,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "EXD1T20023",
@@ -16697,6 +19114,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "EXD1T20017",
@@ -16704,6 +19122,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "EXD1T20003",
@@ -16711,6 +19130,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "EXJ1DM001822",
@@ -16718,6 +19138,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCASCD",
@@ -16725,6 +19146,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCMSAA",
@@ -16732,6 +19154,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UTMDMSAB",
@@ -16739,6 +19162,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "EXJ1DM002722",
@@ -16746,6 +19170,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCRSCB",
@@ -16753,6 +19178,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCKSCA",
@@ -16760,6 +19186,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCDSCA",
@@ -16767,6 +19194,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCPSCC",
@@ -16774,6 +19202,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "EXJ1DM000723",
@@ -16781,6 +19210,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "EXJ1DM000523",
@@ -16788,6 +19218,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCLSAA",
@@ -16795,6 +19226,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMDHSCD",
@@ -16802,6 +19234,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCHSCP",
@@ -16809,6 +19242,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCUSCF",
@@ -16816,6 +19250,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCCSCL",
@@ -16823,6 +19258,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCNSCD",
@@ -16830,6 +19266,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "EXDMJ10032",
@@ -16837,6 +19274,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCNSCE",
@@ -16844,6 +19282,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCLSAB",
@@ -16851,6 +19290,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "EXJ1DM000422",
@@ -16858,6 +19298,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMDHSCC",
@@ -16865,6 +19306,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "EXJ1DM002422",
@@ -16872,6 +19314,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMDBSCB",
@@ -16879,6 +19322,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UTMCZSAA",
@@ -16886,6 +19330,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCGSCE",
@@ -16893,6 +19338,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCESCC",
@@ -16900,6 +19346,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UTMCJSCA",
@@ -16907,6 +19354,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMDASAA",
@@ -16914,6 +19362,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "EXDMJ10035",
@@ -16921,6 +19370,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "EXJ1DM002122",
@@ -16928,6 +19378,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMDFSCA",
@@ -16935,6 +19386,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WE1VASCA",
@@ -16942,6 +19394,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WFZYMSCB",
@@ -16949,6 +19402,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WFZZGSAA",
@@ -16956,6 +19410,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WE1UASAA",
@@ -16963,6 +19418,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WFZY8SAC",
@@ -16970,6 +19426,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WE1UASAC",
@@ -16977,6 +19434,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WE1XGSCG",
@@ -16984,6 +19442,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WE1XASAA",
@@ -16991,6 +19450,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "EXEMY20002",
@@ -16998,6 +19458,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WE1UASAB",
@@ -17005,6 +19466,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WFZRASAA",
@@ -17012,6 +19474,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WE1X4SCA",
@@ -17019,6 +19482,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WCZYVSCA",
@@ -17026,6 +19490,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WCZMASCA",
@@ -17033,6 +19498,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "EXEMX2000625",
@@ -17040,6 +19506,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TKC6ASCD",
@@ -17047,6 +19514,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TKCTASAD",
@@ -17054,6 +19522,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "AIFSX10012",
@@ -17061,6 +19530,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "AIFSW10001",
@@ -17068,6 +19538,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TKCSASCE",
@@ -17075,6 +19546,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TKCTASAB",
@@ -17082,6 +19554,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TKC5ASCF",
@@ -17089,6 +19562,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TKCJASCA",
@@ -17096,6 +19570,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TKCCASCU",
@@ -17103,6 +19578,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "AIFSX10006",
@@ -17110,6 +19586,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TKCZTSDD",
@@ -17117,6 +19594,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TKCHTSCD",
@@ -17124,6 +19602,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TKCJAAAC",
@@ -17131,6 +19610,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TKC5ASCE",
@@ -17138,6 +19618,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TKC3KSSC",
@@ -17145,6 +19626,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TKCHTSCE",
@@ -17152,6 +19634,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TKCUASCB",
@@ -17159,6 +19642,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TKCEASCE",
@@ -17166,6 +19650,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TKC7QSCE",
@@ -17173,6 +19658,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TKCEASCD",
@@ -17180,6 +19666,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TKC7ASCB",
@@ -17187,6 +19674,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TKCVASCC",
@@ -17194,6 +19682,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TKC3ESED",
@@ -17201,6 +19690,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TKC5ASCG",
@@ -17208,6 +19698,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TKC7ASCG",
@@ -17215,6 +19706,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "AIX1FS000522",
@@ -17222,6 +19714,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TKCYASCD",
@@ -17229,6 +19722,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "AIFSX10021",
@@ -17236,6 +19730,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TKC7USCC",
@@ -17243,6 +19738,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "EXX1FS001322",
@@ -17250,6 +19746,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "EXFSX10008",
@@ -17257,6 +19754,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "AIX1FS000422",
@@ -17264,6 +19762,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "AIW1FS000422",
@@ -17271,6 +19770,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TKC3QSCF",
@@ -17278,6 +19778,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon West",
     "Sales Code": "EXL2FG000423",
@@ -17285,6 +19786,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon West",
     "Sales Code": "TMA6ESCE",
@@ -17292,6 +19794,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon West",
     "Sales Code": "TD84ASCB",
@@ -17299,6 +19802,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon West",
     "Sales Code": "TDA4USAA",
@@ -17306,6 +19810,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon West",
     "Sales Code": "TDAYJCPS",
@@ -17313,6 +19818,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon West",
     "Sales Code": "EXL2FG000422",
@@ -17320,6 +19826,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon West",
     "Sales Code": "EXO2FG000422",
@@ -17327,6 +19834,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon West",
     "Sales Code": "EXL2FG001122",
@@ -17334,6 +19842,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon West",
     "Sales Code": "TMA2ASCK",
@@ -17341,6 +19850,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon West",
     "Sales Code": "TMA2ASSB",
@@ -17348,6 +19858,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "EXV3M2001123",
@@ -17355,6 +19866,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "EXU3M2000723",
@@ -17362,6 +19874,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "MBM2U30003",
@@ -17369,6 +19882,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "WT3TASDP",
@@ -17376,6 +19890,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "WT47ASCB",
@@ -17383,6 +19898,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "WT46ASCA",
@@ -17390,6 +19906,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "WT44ASCB",
@@ -17397,6 +19914,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "WT4XASCE",
@@ -17404,6 +19922,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "WT3UASUW",
@@ -17411,6 +19930,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "WT5EASAA",
@@ -17418,6 +19938,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "WT3TASCI",
@@ -17425,6 +19946,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "WT3WASCA",
@@ -17432,6 +19954,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "WT5JASCC",
@@ -17439,6 +19962,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "WT3RASCB",
@@ -17446,6 +19970,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "WT47ASCC",
@@ -17453,6 +19978,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "MBM2W30002",
@@ -17460,6 +19986,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "EXM2W30007",
@@ -17467,6 +19994,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "EXW3M2000523",
@@ -17474,6 +20002,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "WT3ZASCC",
@@ -17481,6 +20010,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "EXU3M2000523",
@@ -17488,6 +20018,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "EXM2V30012",
@@ -17495,6 +20026,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "EXV3000925",
@@ -17502,6 +20034,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "EXV3001025",
@@ -17509,6 +20042,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "EXW3000525",
@@ -17516,6 +20050,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "EXV3001125",
@@ -17523,6 +20058,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "South Mindanao",
     "Sales Code": "EXU3000825",
@@ -17530,6 +20066,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central South Luzon",
     "Sales Code": "MBX3GL001722",
@@ -17537,6 +20074,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central South Luzon",
     "Sales Code": "EXS1GL000522",
@@ -17544,6 +20082,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central South Luzon",
     "Sales Code": "EXS1GL000723",
@@ -17551,6 +20090,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central South Luzon",
     "Sales Code": "UKJRKSCB",
@@ -17558,6 +20098,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central South Luzon",
     "Sales Code": "SPS1GL000123",
@@ -17565,6 +20106,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central South Luzon",
     "Sales Code": "EXS1GL000623",
@@ -17572,6 +20114,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central South Luzon",
     "Sales Code": "EXGAX30036",
@@ -17579,6 +20122,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central South Luzon",
     "Sales Code": "SPX3GL000123",
@@ -17586,6 +20130,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central South Luzon",
     "Sales Code": "ULJEASAA",
@@ -17593,6 +20138,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central South Luzon",
     "Sales Code": "UJJFASCC",
@@ -17600,6 +20146,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central South Luzon",
     "Sales Code": "EXX3GL000422",
@@ -17607,6 +20154,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central South Luzon",
     "Sales Code": "EXS1GL000422",
@@ -17614,6 +20162,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central South Luzon",
     "Sales Code": "EXS1GL001222",
@@ -17621,6 +20170,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central South Luzon",
     "Sales Code": "EXS1GL000822",
@@ -17628,6 +20178,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central South Luzon",
     "Sales Code": "EXS1GL001122",
@@ -17635,6 +20186,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central South Luzon",
     "Sales Code": "EXS1GL001022",
@@ -17642,6 +20194,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central South Luzon",
     "Sales Code": "UJJHNSCB",
@@ -17649,6 +20202,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central South Luzon",
     "Sales Code": "UKKU5SCA",
@@ -17656,13 +20210,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Goodlife",
-    "Class": "Exclusive",
-    "Region": "Lower South Luzon",
-    "Sales Code": "EXK1GE000422",
-    "Trade Name": "218 ML Variety Store"
-  },
-  {
-    "Territory Partner": "Goodlife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "EXGEK10011",
@@ -17670,6 +20218,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Goodlife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UVM6ASCA",
@@ -17677,27 +20226,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Goodlife",
-    "Class": "Exclusive",
-    "Region": "Lower South Luzon",
-    "Sales Code": "UVM97SAB",
-    "Trade Name": "Ambart Computer Shop"
-  },
-  {
-    "Territory Partner": "Goodlife",
-    "Class": "Exclusive",
-    "Region": "Lower South Luzon",
-    "Sales Code": "EXGEK10016",
-    "Trade Name": "Arcabado Variety Store"
-  },
-  {
-    "Territory Partner": "Goodlife",
-    "Class": "Exclusive",
-    "Region": "Lower South Luzon",
-    "Sales Code": "UVMYASCB",
-    "Trade Name": "Barredo Store"
-  },
-  {
-    "Territory Partner": "Goodlife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UVM2ASCB",
@@ -17705,6 +20234,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Goodlife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "EXK1GE000523",
@@ -17712,6 +20242,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Goodlife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UVM4ASCC",
@@ -17719,6 +20250,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Goodlife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UVMVASAA",
@@ -17726,13 +20258,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Goodlife",
-    "Class": "Exclusive",
-    "Region": "Lower South Luzon",
-    "Sales Code": "UVM2ASCC",
-    "Trade Name": "EGLIN ENTERPRISES"
-  },
-  {
-    "Territory Partner": "Goodlife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UVM5AABB",
@@ -17740,13 +20266,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Goodlife",
-    "Class": "Exclusive",
-    "Region": "Lower South Luzon",
-    "Sales Code": "UVM2ASCD",
-    "Trade Name": "Emma Diaz General Merchandise"
-  },
-  {
-    "Territory Partner": "Goodlife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UVM9ASAA",
@@ -17754,6 +20274,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Goodlife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UVM9UBBE",
@@ -17761,13 +20282,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Goodlife",
-    "Class": "Exclusive",
-    "Region": "Lower South Luzon",
-    "Sales Code": "UVM9RSCB",
-    "Trade Name": "Fortz Samutsari"
-  },
-  {
-    "Territory Partner": "Goodlife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "PSM4ASUN",
@@ -17775,6 +20290,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Goodlife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UVM8ASCA",
@@ -17782,13 +20298,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Goodlife",
-    "Class": "Exclusive",
-    "Region": "Lower South Luzon",
-    "Sales Code": "EXGEK10012",
-    "Trade Name": "J. Basbas Cable Television Installation Sevices"
-  },
-  {
-    "Territory Partner": "Goodlife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UVMYASAA",
@@ -17796,13 +20306,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Goodlife",
-    "Class": "Exclusive",
-    "Region": "Lower South Luzon",
-    "Sales Code": "EXGEK10007",
-    "Trade Name": "Jundil Educational Supply"
-  },
-  {
-    "Territory Partner": "Goodlife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UVM93SCA",
@@ -17810,6 +20314,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Goodlife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "EXGEK10014",
@@ -17817,13 +20322,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Goodlife",
-    "Class": "Exclusive",
-    "Region": "Lower South Luzon",
-    "Sales Code": "EXGEK10015",
-    "Trade Name": "L.T's Consumer Electronic Trading"
-  },
-  {
-    "Territory Partner": "Goodlife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UVM3ASCA",
@@ -17831,6 +20330,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Goodlife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UVM9YSCB",
@@ -17838,6 +20338,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Goodlife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UVM3ASCB",
@@ -17845,6 +20346,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Goodlife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UVM9GSBB",
@@ -17852,6 +20354,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Goodlife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UVM9GSCA",
@@ -17859,6 +20362,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Goodlife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "EXK1GE000423",
@@ -17866,6 +20370,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Goodlife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UVM4ASCE",
@@ -17873,6 +20378,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Goodlife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "EXGEK10013",
@@ -17880,6 +20386,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Goodlife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UVM4ASCD",
@@ -17887,20 +20394,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Goodlife",
-    "Class": "Exclusive",
-    "Region": "Lower South Luzon",
-    "Sales Code": "UVM2ASCA",
-    "Trade Name": "Triple AAA General Merchandise"
-  },
-  {
-    "Territory Partner": "Goodlife",
-    "Class": "Exclusive",
-    "Region": "Lower South Luzon",
-    "Sales Code": "UVM4ASAA",
-    "Trade Name": "Verano Store"
-  },
-  {
-    "Territory Partner": "Goodlife",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "EXK1GE001025",
@@ -17908,6 +20402,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "EXGME3000725",
@@ -17915,6 +20410,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "UDLEASSC",
@@ -17922,6 +20418,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "UDLLASSB",
@@ -17929,6 +20426,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "UDLMASSD",
@@ -17936,6 +20434,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "UZLQASAA",
@@ -17943,6 +20442,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "UDLAASAC",
@@ -17950,6 +20450,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "UDLCASDF",
@@ -17957,6 +20458,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "UZLCASAG",
@@ -17964,6 +20466,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "UDLCASDI",
@@ -17971,6 +20474,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "UZLHASAA",
@@ -17978,6 +20482,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "UZLRASAA",
@@ -17985,6 +20490,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom 2 (Rizal)",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "NCR",
     "Sales Code": "EXF3EP001422",
@@ -17992,6 +20498,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom 2 (Rizal)",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "NCR",
     "Sales Code": "EXEPF30004",
@@ -17999,6 +20506,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "EXHDP10013",
@@ -18006,6 +20514,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "EXP1HD000422",
@@ -18013,6 +20522,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "URNQASCA",
@@ -18020,6 +20530,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UWN8ESBB",
@@ -18027,6 +20538,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "EXP1HD000523",
@@ -18034,6 +20546,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "EXL1HD001322",
@@ -18041,6 +20554,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "EXHDP10015",
@@ -18048,6 +20562,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "URNPASAA",
@@ -18055,6 +20570,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "URN4QSCC",
@@ -18062,6 +20578,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UVN4MSAA",
@@ -18069,6 +20586,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "EXP1HD000623",
@@ -18076,6 +20594,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "MBHDP10010",
@@ -18083,6 +20602,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "URN8USAB",
@@ -18090,6 +20610,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UQNQHCPS",
@@ -18097,6 +20618,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "EXHDP10004",
@@ -18104,6 +20626,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "EXHDO10004",
@@ -18111,6 +20634,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UWNTASBE",
@@ -18118,6 +20642,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "EXHDL10008",
@@ -18125,6 +20650,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "EXP1HD000423",
@@ -18132,6 +20658,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "URN7ASCD",
@@ -18139,6 +20666,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "EXHDP10012",
@@ -18146,6 +20674,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "EXP1HD001022",
@@ -18153,6 +20682,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UVNXASCA",
@@ -18160,6 +20690,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UVN4ISCB",
@@ -18167,6 +20698,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "URN8ASAA",
@@ -18174,6 +20706,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "EXHDP10002",
@@ -18181,6 +20714,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "EXHDO10001",
@@ -18188,6 +20722,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UUN4ESCA",
@@ -18195,6 +20730,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "EXP1HD001222",
@@ -18202,6 +20738,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "EXHDP10016",
@@ -18209,6 +20746,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "EXHDP10014",
@@ -18216,6 +20754,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UWN4MSKB",
@@ -18223,6 +20762,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "EXL1HD000622",
@@ -18230,6 +20770,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UVNYASCB",
@@ -18237,6 +20778,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "UWK6ISBB",
@@ -18244,6 +20786,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "URN9ASAA",
@@ -18251,6 +20794,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "UAIHASAB",
@@ -18258,6 +20802,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "EXY3IB001022",
@@ -18265,6 +20810,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "UAILASAB",
@@ -18272,6 +20818,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "UAIEASAD",
@@ -18279,6 +20826,15 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
+    "Class": "Exclusive",
+    "Region": "Upper South Luzon",
+    "Sales Code": "AIIAY30079",
+    "Trade Name": "CIGNAL CALATAGAN"
+  },
+  {
+    "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "UAIXASAB",
@@ -18286,6 +20842,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "UAILASBB",
@@ -18293,6 +20850,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "UAI28SAC",
@@ -18300,6 +20858,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "EXIAY30033",
@@ -18307,6 +20866,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "UAILASCD",
@@ -18314,6 +20874,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "AIIAY30037",
@@ -18321,6 +20882,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "UAIXASAA",
@@ -18328,6 +20890,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "EXIAY30007",
@@ -18335,6 +20898,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "EXY3IB001222",
@@ -18342,6 +20906,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "UAIKASCE",
@@ -18349,6 +20914,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "UAISASAB",
@@ -18356,6 +20922,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "UAIKASCK",
@@ -18363,6 +20930,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "UAICASCT",
@@ -18370,6 +20938,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "EXIAY30077",
@@ -18377,6 +20946,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "EXIAY30039",
@@ -18384,6 +20954,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "UAI2KSCB",
@@ -18391,6 +20962,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "AIIAY30076",
@@ -18398,6 +20970,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "EXIBY3000525",
@@ -18405,6 +20978,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Mindoro",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "UAJXASCC",
@@ -18412,6 +20986,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Mindoro",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "MBA4IM000422",
@@ -18419,6 +20994,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Mindoro",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "UAJZNSCB",
@@ -18426,6 +21002,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Mindoro",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "UAK4ASCE",
@@ -18433,6 +21010,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Mindoro",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "EXZ3IM000622",
@@ -18440,6 +21018,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Mindoro",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "UAK4ASCB",
@@ -18447,6 +21026,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Mindoro",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "UAJXASCD",
@@ -18454,6 +21034,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Mindoro",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "EXZ3IM000522",
@@ -18461,6 +21042,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Mindoro",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "EXZ3IM000422",
@@ -18468,6 +21050,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Mindoro",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "UAK2ASCE",
@@ -18475,6 +21058,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Mindoro",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "UAJWASCA",
@@ -18482,6 +21066,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Mindoro",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "UAJWASCB",
@@ -18489,6 +21074,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Mindoro",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "UAJNASCE",
@@ -18496,6 +21082,15 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Mindoro",
+    "Main Class": "Dealer",
+    "Class": "Exclusive",
+    "Region": "Upper South Luzon",
+    "Sales Code": "EXA4IM000423",
+    "Trade Name": "SKYGAS REFILLING STATION"
+  },
+  {
+    "Territory Partner": "Innovasia Mindoro",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Upper South Luzon",
     "Sales Code": "UAJVASAB",
@@ -18503,6 +21098,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Koks",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "VDPFGSCB",
@@ -18510,6 +21106,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Koks",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "VDPPMSCA",
@@ -18517,6 +21114,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Koks",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "VDPCASCD",
@@ -18524,6 +21122,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Koks",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "VDPEASCC",
@@ -18531,6 +21130,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Koks",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "VDPUASCA",
@@ -18538,6 +21138,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Koks",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "VDPFYSCB",
@@ -18545,6 +21146,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Koks",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "EXE4KS000422",
@@ -18552,6 +21154,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Koks",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "VDPZJSCB",
@@ -18559,6 +21162,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Koks",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "VDPFGSCA",
@@ -18566,6 +21170,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Koks",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "VDPFSSCA",
@@ -18573,6 +21178,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Koks",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "VDPZDSCA",
@@ -18580,6 +21186,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Koks",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "VDPFPSCA",
@@ -18587,6 +21194,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Koks",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "VDPFDSCA",
@@ -18594,6 +21202,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Koks",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "VDPFASCA",
@@ -18601,6 +21210,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Koks",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "VDPWASCA",
@@ -18608,6 +21218,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Madera",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "EXQ1MA000622",
@@ -18615,6 +21226,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Madera",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "USMNTSCA",
@@ -18622,6 +21234,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Madera",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "EXQ1MA001922",
@@ -18629,6 +21242,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Madera",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "USMNDSCD",
@@ -18636,6 +21250,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Madera",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "EXQ1MA000522",
@@ -18643,6 +21258,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Madera",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "EXQ1MA000422",
@@ -18650,6 +21266,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Madera",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "USMNLSCH",
@@ -18657,6 +21274,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Madera",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "USMNLSCE",
@@ -18664,6 +21282,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Madera",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "EXMAQ10001",
@@ -18671,6 +21290,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Madera",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "EXMAQ10005",
@@ -18678,6 +21298,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Madera",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "EXMAQ10004",
@@ -18685,6 +21306,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TNFPMSCE",
@@ -18692,6 +21314,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TNEQSSCA",
@@ -18699,6 +21322,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TNERSSCB",
@@ -18706,6 +21330,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TNEMASCH",
@@ -18713,6 +21338,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "EXNXB20021",
@@ -18720,6 +21346,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TNEQWSAD",
@@ -18727,6 +21354,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TNFPSSCB",
@@ -18734,6 +21362,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TNEDASCB",
@@ -18741,6 +21370,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TNAB7SCB",
@@ -18748,6 +21378,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TNENTSCF",
@@ -18755,6 +21386,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TNELASAA",
@@ -18762,6 +21394,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TNENTSCG",
@@ -18769,6 +21402,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TNEMASCA",
@@ -18776,6 +21410,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TNERKSCE",
@@ -18783,6 +21418,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TNERGSCB",
@@ -18790,6 +21426,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TTFMASCA",
@@ -18797,6 +21434,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "AINXB20016",
@@ -18804,6 +21442,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TNEMASCD",
@@ -18811,6 +21450,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "EXNXB20012",
@@ -18818,6 +21458,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TNEQASCB",
@@ -18825,6 +21466,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "AINXB20033",
@@ -18832,6 +21474,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TNEMASSB",
@@ -18839,6 +21482,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "EXNXB20023",
@@ -18846,6 +21490,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "AINXB20025",
@@ -18853,6 +21498,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TNEQRSCA",
@@ -18860,6 +21506,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TNEAASCB",
@@ -18867,6 +21514,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix 2",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TYE2ASAA",
@@ -18874,6 +21522,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix 2",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "EXPSE20009",
@@ -18881,6 +21530,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix 2",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "SPE2PS000223",
@@ -18888,6 +21538,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix 2",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TYEZASAB",
@@ -18895,6 +21546,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix 2",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TYE3ASAB",
@@ -18902,6 +21554,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix 2",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TNETYSCA",
@@ -18909,6 +21562,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix 2",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TYE3ASAC",
@@ -18916,6 +21570,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix 2",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "EXG2PS000622",
@@ -18923,6 +21578,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix 2",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TYFAASAA",
@@ -18930,6 +21586,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix 2",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TSETSSCB",
@@ -18937,6 +21594,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix 2",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon East",
     "Sales Code": "TYE8ASAB",
@@ -18944,6 +21602,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "URNEASCH",
@@ -18951,6 +21610,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "URNCASCA",
@@ -18958,6 +21618,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "URNEASCI",
@@ -18965,6 +21626,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "URNOASAB",
@@ -18972,6 +21634,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "EXNAL10019",
@@ -18979,6 +21642,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "URNSMSCA",
@@ -18986,6 +21650,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "URNLASCC",
@@ -18993,6 +21658,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "URNDASCG",
@@ -19000,13 +21666,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
-    "Class": "Exclusive",
-    "Region": "Lower South Luzon",
-    "Sales Code": "URNBASCD",
-    "Trade Name": "Jannes Electronics 2"
-  },
-  {
-    "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "URNHASCB",
@@ -19014,6 +21674,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "URNBASCG",
@@ -19021,13 +21682,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
-    "Class": "Exclusive",
-    "Region": "Lower South Luzon",
-    "Sales Code": "URNCASCF",
-    "Trade Name": "MHM Electronic Shop"
-  },
-  {
-    "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "URNEASCQ",
@@ -19035,20 +21690,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
-    "Class": "Exclusive",
-    "Region": "Lower South Luzon",
-    "Sales Code": "URNMASCC",
-    "Trade Name": "Sam Electronics Trading"
-  },
-  {
-    "Territory Partner": "NB Rebeta",
-    "Class": "Exclusive",
-    "Region": "Lower South Luzon",
-    "Sales Code": "URNEASCS",
-    "Trade Name": "Uno Store"
-  },
-  {
-    "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Lower South Luzon",
     "Sales Code": "URNGASCH",
@@ -19056,6 +21698,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ18VSCB",
@@ -19063,6 +21706,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ18SSAA",
@@ -19070,6 +21714,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ2BASAA",
@@ -19077,6 +21722,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WK2BASCH",
@@ -19084,6 +21730,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WK2AASAA",
@@ -19091,6 +21738,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ2BASCC",
@@ -19098,6 +21746,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ185SCA",
@@ -19105,6 +21754,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ13ASAB",
@@ -19112,6 +21762,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "EXZ2O1000823",
@@ -19119,6 +21770,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ19JSCA",
@@ -19126,6 +21778,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ18MSCD",
@@ -19133,6 +21786,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ1ZASET",
@@ -19140,6 +21794,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ2BASCL",
@@ -19147,6 +21802,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WK2HJSCC",
@@ -19154,6 +21810,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ2BMCPV",
@@ -19161,6 +21818,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ1KASCD",
@@ -19168,6 +21826,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "EXZ2O1000723",
@@ -19175,6 +21834,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ2BMCPU",
@@ -19182,6 +21842,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ1NABEA",
@@ -19189,6 +21850,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ1HASCC",
@@ -19196,6 +21858,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ13ASAA",
@@ -19203,6 +21866,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ14ASCA",
@@ -19210,6 +21874,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ16ASCB",
@@ -19217,6 +21882,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ18SSAB",
@@ -19224,6 +21890,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ18YSCB",
@@ -19231,6 +21898,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ19SSBB",
@@ -19238,6 +21906,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ2HESCA",
@@ -19245,6 +21914,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ2NASAB",
@@ -19252,6 +21922,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ2BMCPW",
@@ -19259,6 +21930,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ2NASAC",
@@ -19266,6 +21938,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ188SAA",
@@ -19273,6 +21946,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ1QASAA",
@@ -19280,6 +21954,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ1KASCF",
@@ -19287,6 +21962,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "EXZ2O1001023",
@@ -19294,6 +21970,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ18MSCC",
@@ -19301,6 +21978,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ11ASCA",
@@ -19308,6 +21986,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ12ASCB",
@@ -19315,6 +21994,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ19JSAA",
@@ -19322,6 +22002,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ18JSCA",
@@ -19329,6 +22010,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WK2RASCA",
@@ -19336,6 +22018,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ1RASCB",
@@ -19343,6 +22026,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ1KASCA",
@@ -19350,6 +22034,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "EXZ2O1001325",
@@ -19357,6 +22042,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "EXZ2O1000923",
@@ -19364,6 +22050,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "EXO1Z2001425",
@@ -19371,6 +22058,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "EXO1Z2001325",
@@ -19378,20 +22066,23 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Northwest Mindanao",
     "Sales Code": "EXO1Z2001725",
     "Trade Name": "Ramonal Cignal Store"
   },
   {
-    "Territory Partner": "Oxworld",
+    "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
-    "Region": "NCR",
-    "Sales Code": "X2XTASCP",
-    "Trade Name": "CHEIRA ELECTRONICS SERVICE CENTER"
+    "Region": "Northwest Mindanao",
+    "Sales Code": "EXO1Z2001825",
+    "Trade Name": "Lilanie Cable Installation"
   },
   {
     "Territory Partner": "Oxworld",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "NCR",
     "Sales Code": "X2XUASCC",
@@ -19399,6 +22090,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "EXF4PN004422",
@@ -19406,6 +22098,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "VBRDASCE",
@@ -19413,6 +22106,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "EXF4PN001623",
@@ -19420,6 +22114,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "EXF4PN000523",
@@ -19427,6 +22122,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "VBRAASCZ",
@@ -19434,6 +22130,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "VBRMASCG",
@@ -19441,6 +22138,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "VBRIASCL",
@@ -19448,6 +22146,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "VBRDASCD",
@@ -19455,6 +22154,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros Or",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "EXPRG40006",
@@ -19462,6 +22162,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros Or",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "VCSLLSCB",
@@ -19469,6 +22170,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros Or",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "VCSUTSCD",
@@ -19476,6 +22178,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros Or",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "VCSFASCU",
@@ -19483,6 +22186,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros Or",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "VCSUGSDB",
@@ -19490,6 +22194,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros Or",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "VCSNASCF",
@@ -19497,6 +22202,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros Or",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "EXPRG40010",
@@ -19504,6 +22210,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros Or",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "EXPRG40023",
@@ -19511,6 +22218,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros Or",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "VCSFASCT",
@@ -19518,6 +22226,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros Or",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "EXG4PR002423",
@@ -19525,6 +22234,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros Or",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "VCSDASCC",
@@ -19532,6 +22242,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros Or",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "VCSBASDC",
@@ -19539,6 +22250,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros Or",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "VCSFASCR",
@@ -19546,6 +22258,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros Or",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "VCSNASCD",
@@ -19553,6 +22266,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros Or",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "VCSVASCD",
@@ -19560,6 +22274,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "EXPYK40067",
@@ -19567,6 +22282,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "EXK4PE001423",
@@ -19574,6 +22290,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "VAQMASCB",
@@ -19581,6 +22298,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "EXPYK40062",
@@ -19588,6 +22306,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "EXK4PE001823",
@@ -19595,6 +22314,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "EXK4PE001023",
@@ -19602,6 +22322,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "SPK4PE000223",
@@ -19609,6 +22330,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "SPK4PE000323",
@@ -19616,6 +22338,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "EXK4PY000422",
@@ -19623,6 +22346,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "VAQMASCW",
@@ -19630,6 +22354,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "EXK4PY001122",
@@ -19637,6 +22362,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "AIPYK40002",
@@ -19644,6 +22370,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "VAQTASCD",
@@ -19651,6 +22378,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "SPK4PE000123",
@@ -19658,6 +22386,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "VAQ3BSAC",
@@ -19665,6 +22394,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "EXK4PY001222",
@@ -19672,6 +22402,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "VAQZRSCB",
@@ -19679,6 +22410,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "VAQQASCA",
@@ -19686,6 +22418,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "EXK4PE000623",
@@ -19693,6 +22426,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "EXI4PW000823",
@@ -19700,6 +22434,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "VAP4BSCG",
@@ -19707,6 +22442,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "EXI4PW001023",
@@ -19714,6 +22450,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "EXPYK40009",
@@ -19721,6 +22458,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "EXK4PW000423",
@@ -19728,6 +22466,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "EXI4PW000623",
@@ -19735,6 +22474,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "EXI4PW001223",
@@ -19742,6 +22482,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "EXI4PW000723",
@@ -19749,6 +22490,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "VAPMASAB",
@@ -19756,6 +22498,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "EXK4PE001323",
@@ -19763,13 +22506,23 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Western Visayas",
     "Sales Code": "VAPNJSCB",
     "Trade Name": "ZABAW SATELLITE CENTER"
   },
   {
+    "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
+    "Class": "Exclusive",
+    "Region": "Western Visayas",
+    "Sales Code": "EXK4003025",
+    "Trade Name": "Ai-Ai Cable Installation Services"
+  },
+  {
     "Territory Partner": "Save and Earn",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Visayas",
     "Sales Code": "EXI1SN000623",
@@ -19777,6 +22530,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Save and Earn",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Visayas",
     "Sales Code": "EXSNI10005",
@@ -19784,6 +22538,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Save and Earn",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Visayas",
     "Sales Code": "EXI1SN000823",
@@ -19791,6 +22546,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Save and Earn",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Visayas",
     "Sales Code": "VLUSESCB",
@@ -19798,6 +22554,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Save and Earn",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Visayas",
     "Sales Code": "VLUJJSCG",
@@ -19805,6 +22562,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Save and Earn",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Visayas",
     "Sales Code": "EXI1SN001123",
@@ -19812,6 +22570,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Save and Earn",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Visayas",
     "Sales Code": "EXSNI10003",
@@ -19819,6 +22578,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Save and Earn",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Visayas",
     "Sales Code": "EXI1SN001822",
@@ -19826,6 +22586,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Save and Earn",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Visayas",
     "Sales Code": "EXI1SN001922",
@@ -19833,6 +22594,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Save and Earn",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Visayas",
     "Sales Code": "EXI1SN001325",
@@ -19840,6 +22602,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Save and Earn",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Visayas",
     "Sales Code": "VLUP7ABB",
@@ -19847,6 +22610,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Save and Earn",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Visayas",
     "Sales Code": "EXI1SN000723",
@@ -19854,6 +22618,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Save and Earn",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Visayas",
     "Sales Code": "VLUJJSCF",
@@ -19861,6 +22626,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Save and Earn",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Visayas",
     "Sales Code": "VLULASCZ",
@@ -19868,6 +22634,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Save and Earn",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Visayas",
     "Sales Code": "VLUPYSCC",
@@ -19875,6 +22642,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TBH DAVAO CITY",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "EX8MG30002",
@@ -19882,6 +22650,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TBH DAVAO CITY",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "WS4BASCR",
@@ -19889,6 +22658,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TBH DAVAO CITY",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "EX8MG30036",
@@ -19896,6 +22666,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TBH DAVAO CITY",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "W84BASEG",
@@ -19903,6 +22674,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TBH DAVAO CITY",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "W84BASEF",
@@ -19910,6 +22682,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TBH DAVAO CITY",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "WS4BASKG",
@@ -19917,6 +22690,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TBH DAVAO CITY",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "W84BASHQ",
@@ -19924,6 +22698,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TBH DAVAO CITY",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "W84BASIB",
@@ -19931,6 +22706,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TBH DAVAO CITY",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "EXG38M000423",
@@ -19938,6 +22714,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TBH DAVAO CITY",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "W84BASIQ",
@@ -19945,6 +22722,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TBH DAVAO CITY",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "W84BASEY",
@@ -19952,6 +22730,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central South Luzon",
     "Sales Code": "UKKKASAB",
@@ -19959,6 +22738,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central South Luzon",
     "Sales Code": "EXTRR10007",
@@ -19966,6 +22746,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central South Luzon",
     "Sales Code": "UKKNASAB",
@@ -19973,6 +22754,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central South Luzon",
     "Sales Code": "UKKJASAB",
@@ -19980,6 +22762,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central South Luzon",
     "Sales Code": "UKKQASCG",
@@ -19987,6 +22770,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central South Luzon",
     "Sales Code": "UKI8PSAC",
@@ -19994,6 +22778,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central South Luzon",
     "Sales Code": "UKKKASCK",
@@ -20001,6 +22786,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central South Luzon",
     "Sales Code": "EXTRS10010",
@@ -20008,6 +22794,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central South Luzon",
     "Sales Code": "UKKCASCD",
@@ -20015,6 +22802,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central South Luzon",
     "Sales Code": "UKKCCCPS",
@@ -20022,6 +22810,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central South Luzon",
     "Sales Code": "UKKAASAA",
@@ -20029,6 +22818,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central South Luzon",
     "Sales Code": "UKKCASCB",
@@ -20036,6 +22826,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central South Luzon",
     "Sales Code": "UKKGASAA",
@@ -20043,6 +22834,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central South Luzon",
     "Sales Code": "UKKVASAA",
@@ -20050,6 +22842,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central South Luzon",
     "Sales Code": "UKKVDSCB",
@@ -20057,6 +22850,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TTANS",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central South Luzon",
     "Sales Code": "UAI9KSBB",
@@ -20064,6 +22858,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TTANS",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central South Luzon",
     "Sales Code": "UAK9ESHD",
@@ -20071,6 +22866,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TTANS",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central South Luzon",
     "Sales Code": "UAK8ASCE",
@@ -20078,6 +22874,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TTANS",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central South Luzon",
     "Sales Code": "UAK6YSBD",
@@ -20085,6 +22882,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TTANS",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central South Luzon",
     "Sales Code": "EXTSB40002",
@@ -20092,6 +22890,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TTANS",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central South Luzon",
     "Sales Code": "UAK6ASBC",
@@ -20099,6 +22898,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TTANS",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central South Luzon",
     "Sales Code": "UAK6USBB",
@@ -20106,6 +22906,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TTANS",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central South Luzon",
     "Sales Code": "UAK6ESCA",
@@ -20113,6 +22914,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TTANS",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central South Luzon",
     "Sales Code": "UAK9USCB",
@@ -20120,6 +22922,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TTANS",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central South Luzon",
     "Sales Code": "UAK7ASAC",
@@ -20127,6 +22930,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TTANS",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central South Luzon",
     "Sales Code": "UAK9MSDC",
@@ -20134,6 +22938,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "WU8PASCJ",
@@ -20141,6 +22946,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "EXULK30011",
@@ -20148,6 +22954,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "WU6YASCD",
@@ -20155,6 +22962,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "WU64AAAA",
@@ -20162,6 +22970,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "EXJ3UL000823",
@@ -20169,6 +22978,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "EXULO30003",
@@ -20176,6 +22986,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "WU8QASCA",
@@ -20183,6 +22994,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "WU8EASCC",
@@ -20190,6 +23002,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "East Mindanao",
     "Sales Code": "EXULJ30007",
@@ -20197,6 +23010,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon West",
     "Sales Code": "TAAESSCA",
@@ -20204,6 +23018,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon West",
     "Sales Code": "EXQ2VT000422",
@@ -20211,6 +23026,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon West",
     "Sales Code": "TAAEGSCA",
@@ -20218,6 +23034,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon West",
     "Sales Code": "TAACMSCB",
@@ -20225,6 +23042,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon West",
     "Sales Code": "TAACGSAA",
@@ -20232,6 +23050,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon West",
     "Sales Code": "EXVTQ20004",
@@ -20239,6 +23058,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon West",
     "Sales Code": "TAACGSAB",
@@ -20246,6 +23066,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon West",
     "Sales Code": "TBA7ASCC",
@@ -20253,6 +23074,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon West",
     "Sales Code": "TAAAASCB",
@@ -20260,6 +23082,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon West",
     "Sales Code": "TAAEJSCC",
@@ -20267,6 +23090,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon West",
     "Sales Code": "TAADASCE",
@@ -20274,6 +23098,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon West",
     "Sales Code": "TAAESSCD",
@@ -20281,6 +23106,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon West",
     "Sales Code": "TAABASAE",
@@ -20288,6 +23114,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon West",
     "Sales Code": "EXQ2VT001122",
@@ -20295,6 +23122,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon West",
     "Sales Code": "T7ANASAC",
@@ -20302,6 +23130,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon West",
     "Sales Code": "T7AVAXXX",
@@ -20309,6 +23138,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon West",
     "Sales Code": "TAAMDSCC",
@@ -20316,6 +23146,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon West",
     "Sales Code": "TAAMDSCB",
@@ -20323,6 +23154,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon West",
     "Sales Code": "TFAHASCC",
@@ -20330,6 +23162,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon West",
     "Sales Code": "TUAVASCB",
@@ -20337,6 +23170,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon West",
     "Sales Code": "TAAFASAC",
@@ -20344,6 +23178,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon West",
     "Sales Code": "TUAWQSCA",
@@ -20351,6 +23186,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon West",
     "Sales Code": "TBALASAA",
@@ -20358,6 +23194,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon West",
     "Sales Code": "EXVTR20005",
@@ -20365,6 +23202,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon West",
     "Sales Code": "TBAFASCA",
@@ -20372,6 +23210,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon West",
     "Sales Code": "TAAJASCD",
@@ -20379,6 +23218,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon West",
     "Sales Code": "EXR2VT001022",
@@ -20386,6 +23226,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon West",
     "Sales Code": "TAAKSSCB",
@@ -20393,6 +23234,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon West",
     "Sales Code": "EXAXH20002",
@@ -20400,6 +23242,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon West",
     "Sales Code": "TAAMGSCB",
@@ -20407,6 +23250,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon West",
     "Sales Code": "TBALJSAA",
@@ -20414,6 +23258,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon West",
     "Sales Code": "TAAQASCB",
@@ -20421,6 +23266,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "North Luzon West",
     "Sales Code": "TAASASCC",
@@ -20428,6 +23274,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vitalize",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "NCR",
     "Sales Code": "EXN4VI003823",
@@ -20435,6 +23282,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "VRJ",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Luzon",
     "Sales Code": "TLDMFSCA",
@@ -20442,6 +23290,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "VRJ",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Luzon",
     "Sales Code": "TZDKASEF",
@@ -20449,6 +23298,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "VRJ",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Luzon",
     "Sales Code": "TZDBASCB",
@@ -20456,6 +23306,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "VRJ",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Luzon",
     "Sales Code": "AIFSY10001",
@@ -20463,6 +23314,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "VRJ",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Luzon",
     "Sales Code": "EXY1TP000523",
@@ -20470,6 +23322,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "VRJ",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Luzon",
     "Sales Code": "TZDAASCA",
@@ -20477,6 +23330,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Luzon",
     "Sales Code": "TQGPAABE",
@@ -20484,6 +23338,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Luzon",
     "Sales Code": "EXC2U10022",
@@ -20491,6 +23346,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Luzon",
     "Sales Code": "TQGPAABG",
@@ -20498,6 +23354,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Luzon",
     "Sales Code": "T3GJASAA",
@@ -20505,6 +23362,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Luzon",
     "Sales Code": "T3GUPCPU",
@@ -20512,6 +23370,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Luzon",
     "Sales Code": "TGGSASCF",
@@ -20519,6 +23378,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Luzon",
     "Sales Code": "TGGMCDDN",
@@ -20526,6 +23386,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Luzon",
     "Sales Code": "TGGPPSCC",
@@ -20533,6 +23394,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Luzon",
     "Sales Code": "TGGCASCC",
@@ -20540,6 +23402,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Luzon",
     "Sales Code": "TGGFASCD",
@@ -20547,6 +23410,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Wanna Cable",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "Central Luzon",
     "Sales Code": "TGGAASCL",
@@ -20554,6 +23418,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Weecent",
+    "Main Class": "Dealer",
     "Class": "Exclusive",
     "Region": "NCR",
     "Sales Code": "EXN2WL001723",
@@ -20561,13 +23426,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "8 telcom",
-    "Class": "CPS",
-    "Region": "South Mindanao",
-    "Sales Code": "W84BASFZ",
-    "Trade Name": "Arquino Enterprises"
-  },
-  {
-    "Territory Partner": "8 telcom",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "South Mindanao",
     "Sales Code": "W84BASGB",
@@ -20575,6 +23434,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "8 telcom",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "South Mindanao",
     "Sales Code": "W84BASLB",
@@ -20582,6 +23442,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "8 telcom",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "South Mindanao",
     "Sales Code": "W84BASGA",
@@ -20589,6 +23450,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "8 telcom",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "South Mindanao",
     "Sales Code": "MB8MG30032",
@@ -20596,6 +23458,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "8 telcom",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "South Mindanao",
     "Sales Code": "W84BASGI",
@@ -20603,6 +23466,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "8 telcom",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "South Mindanao",
     "Sales Code": "W84AASCE",
@@ -20610,6 +23474,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "8 telcom",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "South Mindanao",
     "Sales Code": "W84BASGJ",
@@ -20617,6 +23482,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "8 telcom",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "South Mindanao",
     "Sales Code": "W84AASCB",
@@ -20624,6 +23490,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "8 telcom",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "South Mindanao",
     "Sales Code": "W84KASAA",
@@ -20631,6 +23498,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Northwest Mindanao",
     "Sales Code": "WCYAASCD",
@@ -20638,6 +23506,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Northwest Mindanao",
     "Sales Code": "WRZK2WCD",
@@ -20645,6 +23514,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Northwest Mindanao",
     "Sales Code": "WRZLZSCC",
@@ -20652,6 +23522,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Northwest Mindanao",
     "Sales Code": "WRZAASCC",
@@ -20659,6 +23530,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Northwest Mindanao",
     "Sales Code": "WRZLZSCB",
@@ -20666,6 +23538,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Northwest Mindanao",
     "Sales Code": "WCZXASFJ",
@@ -20673,6 +23546,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Northwest Mindanao",
     "Sales Code": "WRZKJSCB",
@@ -20680,6 +23554,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Airtalk",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Northwest Mindanao",
     "Sales Code": "WCZXASFR",
@@ -20687,6 +23562,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia North",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "VKTMACPS",
@@ -20694,6 +23570,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia North",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "VKTCDCPS",
@@ -20701,6 +23578,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia North",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "EXANA10025",
@@ -20708,6 +23586,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia North",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "VKT9PSBB",
@@ -20715,6 +23594,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia North",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "VKT4PSAA",
@@ -20722,13 +23602,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia North",
-    "Class": "CPS",
-    "Region": "Central Visayas",
-    "Sales Code": "VKTWASCC",
-    "Trade Name": "F18 Digital TV Installation & Services"
-  },
-  {
-    "Territory Partner": "Alain Asia North",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "VKT4MSAA",
@@ -20736,6 +23610,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia North",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "VKT4MSAB",
@@ -20743,6 +23618,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia North",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "MBANA10006",
@@ -20750,6 +23626,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia North",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "MBANA10004",
@@ -20757,6 +23634,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia North",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "VKTSASCH",
@@ -20764,13 +23642,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia North",
-    "Class": "CPS",
-    "Region": "Central Visayas",
-    "Sales Code": "VKTLASAB",
-    "Trade Name": "RDA Digital Services"
-  },
-  {
-    "Territory Partner": "Alain Asia North",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "VKTVRCPS",
@@ -20778,6 +23650,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia North",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "VKTDASCA",
@@ -20785,6 +23658,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia South",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "VET6ASCY",
@@ -20792,6 +23666,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia South",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "VJTKASAU",
@@ -20799,6 +23674,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia South",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "VET7ASCD",
@@ -20806,6 +23682,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia South",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "VJTKASAE",
@@ -20813,6 +23690,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia South",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "EXA1AS002922",
@@ -20820,6 +23698,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia South",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "VET92SCB",
@@ -20827,6 +23706,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia South",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "VJT0ASAA",
@@ -20834,6 +23714,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia South",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "EXA1AS002622",
@@ -20841,6 +23722,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia South",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "CPA1AS003922",
@@ -20848,6 +23730,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia South",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "VETPASCC",
@@ -20855,6 +23738,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia South",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "VKT9DBBD",
@@ -20862,6 +23746,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia South",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "VKTAASAA",
@@ -20869,6 +23754,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia South",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "EXASA10055",
@@ -20876,6 +23762,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia South",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "VET4ASCD",
@@ -20883,6 +23770,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia South",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "VJTZASAB",
@@ -20890,6 +23778,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Alain Asia South",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "VETYASCE",
@@ -20897,6 +23786,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "South Mindanao",
     "Sales Code": "WT4XASCD",
@@ -20904,6 +23794,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "South Mindanao",
     "Sales Code": "WT4PASCA",
@@ -20911,6 +23802,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "South Mindanao",
     "Sales Code": "WB3PASCC",
@@ -20918,6 +23810,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "South Mindanao",
     "Sales Code": "WB3QESCB",
@@ -20925,6 +23818,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "South Mindanao",
     "Sales Code": "WB41AAAA",
@@ -20932,6 +23826,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "South Mindanao",
     "Sales Code": "WB3FASCH",
@@ -20939,6 +23834,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "South Mindanao",
     "Sales Code": "WB4XASAA",
@@ -20946,6 +23842,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "South Mindanao",
     "Sales Code": "WB3QKSCC",
@@ -20953,6 +23850,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "South Mindanao",
     "Sales Code": "WB3HASCG",
@@ -20960,6 +23858,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "South Mindanao",
     "Sales Code": "WB3PASCL",
@@ -20967,6 +23866,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "South Mindanao",
     "Sales Code": "WB3DASCD",
@@ -20974,6 +23874,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "South Mindanao",
     "Sales Code": "MBBII30005",
@@ -20981,6 +23882,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "South Mindanao",
     "Sales Code": "WB41AAAD",
@@ -20988,6 +23890,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "BBCI",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "South Mindanao",
     "Sales Code": "WB3KASCC",
@@ -20995,6 +23898,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cayanan",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Luzon",
     "Sales Code": "T2H9QSAA",
@@ -21002,6 +23906,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cayanan",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Luzon",
     "Sales Code": "T2G9FSCA",
@@ -21009,6 +23914,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cayanan",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Luzon",
     "Sales Code": "T2H9GSCE",
@@ -21016,6 +23922,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cayanan",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Luzon",
     "Sales Code": "EXCNJ20001",
@@ -21023,6 +23930,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cayanan",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Luzon",
     "Sales Code": "EXCNJ20011",
@@ -21030,6 +23938,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cayanan",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Luzon",
     "Sales Code": "T2G7ASCC",
@@ -21037,6 +23946,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cayanan",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Luzon",
     "Sales Code": "T2H3ASCD",
@@ -21044,6 +23954,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Visayas",
     "Sales Code": "VSWDASCC",
@@ -21051,6 +23962,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Visayas",
     "Sales Code": "VSVMMSCB",
@@ -21058,6 +23970,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Visayas",
     "Sales Code": "VSW7GSAF",
@@ -21065,6 +23978,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Visayas",
     "Sales Code": "V2V4BCPS",
@@ -21072,6 +23986,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Visayas",
     "Sales Code": "VSWJESAC",
@@ -21079,6 +23994,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Visayas",
     "Sales Code": "VSWHASCB",
@@ -21086,6 +24002,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Visayas",
     "Sales Code": "VSVMSSCC",
@@ -21093,6 +24010,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Visayas",
     "Sales Code": "VSWKUSCD",
@@ -21100,6 +24018,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Visayas",
     "Sales Code": "VSVJASAA",
@@ -21107,6 +24026,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Visayas",
     "Sales Code": "VSVLPSBB",
@@ -21114,6 +24034,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Visayas",
     "Sales Code": "VSWHBSCH",
@@ -21121,6 +24042,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Visayas",
     "Sales Code": "VSVHGSAB",
@@ -21128,6 +24050,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Visayas",
     "Sales Code": "VSWLESAA",
@@ -21135,6 +24058,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Visayas",
     "Sales Code": "SDCRC10082",
@@ -21142,6 +24066,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Central East",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Visayas",
     "Sales Code": "VSVHASAA",
@@ -21149,6 +24074,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Visayas",
     "Sales Code": "VSVE1SSB",
@@ -21156,6 +24082,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Visayas",
     "Sales Code": "VSVEIAAA",
@@ -21163,6 +24090,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Visayas",
     "Sales Code": "VSVU2BBC",
@@ -21170,6 +24098,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Visayas",
     "Sales Code": "VSVUDSAA",
@@ -21177,6 +24106,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Visayas",
     "Sales Code": "EXSWCL000222",
@@ -21184,6 +24114,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Visayas",
     "Sales Code": "EXSWCL000122",
@@ -21191,6 +24122,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Visayas",
     "Sales Code": "VSVNASCC",
@@ -21198,6 +24130,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Visayas",
     "Sales Code": "VSVQASSB",
@@ -21205,6 +24138,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Visayas",
     "Sales Code": "VSVBASDB",
@@ -21212,6 +24146,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Visayas",
     "Sales Code": "VSVCASBB",
@@ -21219,6 +24154,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Visayas",
     "Sales Code": "EXCEG10014",
@@ -21226,6 +24162,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Visayas",
     "Sales Code": "EXCRG10003",
@@ -21233,6 +24170,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Northern East",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Visayas",
     "Sales Code": "VSVWRCPS",
@@ -21240,6 +24178,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Southern East",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Visayas",
     "Sales Code": "VSW5ASAA",
@@ -21247,6 +24186,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Southern East",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Visayas",
     "Sales Code": "VSW72SCB",
@@ -21254,6 +24194,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Southern East",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Visayas",
     "Sales Code": "VSWJ3SCE",
@@ -21261,6 +24202,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Southern East",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Visayas",
     "Sales Code": "VSWIUSAA",
@@ -21268,6 +24210,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Southern East",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Visayas",
     "Sales Code": "VSWJMSCC",
@@ -21275,6 +24218,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Southern East",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Visayas",
     "Sales Code": "VSW7GSAA",
@@ -21282,6 +24226,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Southern East",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Visayas",
     "Sales Code": "VSWLQSAA",
@@ -21289,6 +24234,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Southern East",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Visayas",
     "Sales Code": "VSWJASCB",
@@ -21296,6 +24242,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Southern East",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Visayas",
     "Sales Code": "VSWLHSDB",
@@ -21303,6 +24250,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Southern East",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Visayas",
     "Sales Code": "VSWETCPS",
@@ -21310,6 +24258,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Southern East",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Visayas",
     "Sales Code": "VSWHESAA",
@@ -21317,6 +24266,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Cellcom Southern East",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Visayas",
     "Sales Code": "VSWGASAA",
@@ -21324,6 +24274,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "CRFT",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "XPL2ASCE",
@@ -21331,6 +24282,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "CRFT",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "EXC4CT003022",
@@ -21338,6 +24290,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "CRFT",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "XPL3ZWAX",
@@ -21345,6 +24298,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "CRFT",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "XPL7ASCE",
@@ -21352,6 +24306,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "CRFT",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "EXCTC40005",
@@ -21359,6 +24314,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "CRFT",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "XPL3ASDB",
@@ -21366,6 +24322,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "CRFT",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "XPLUASCB",
@@ -21373,6 +24330,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "CRFT",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "XPL6ASCI",
@@ -21380,6 +24338,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "CRFT",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "XPLZASCE",
@@ -21387,6 +24346,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "CRFT",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "XPL6ASCD",
@@ -21394,6 +24354,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Mindanao",
     "Sales Code": "W37WSSCA",
@@ -21401,6 +24362,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Mindanao",
     "Sales Code": "W36EPSCA",
@@ -21408,6 +24370,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Mindanao",
     "Sales Code": "W47MMSMC",
@@ -21415,6 +24378,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Mindanao",
     "Sales Code": "W47JASCA",
@@ -21422,6 +24386,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Mindanao",
     "Sales Code": "W36EESCA",
@@ -21429,6 +24394,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Mindanao",
     "Sales Code": "W47IASCA",
@@ -21436,6 +24402,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Mindanao",
     "Sales Code": "W36NSSCB",
@@ -21443,6 +24410,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Mindanao",
     "Sales Code": "W47WDSCB",
@@ -21450,6 +24418,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Mindanao",
     "Sales Code": "W36HASCC",
@@ -21457,6 +24426,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Digilife",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Mindanao",
     "Sales Code": "W37MJSCC",
@@ -21464,6 +24434,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "EXJ1DM001022",
@@ -21471,6 +24442,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCESDC",
@@ -21478,6 +24450,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "USMCYXXX",
@@ -21485,6 +24458,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "MBDMJ10023",
@@ -21492,6 +24466,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCJSCW",
@@ -21499,6 +24474,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "DLM",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "UMMCTSCB",
@@ -21506,6 +24482,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Northwest Mindanao",
     "Sales Code": "WFZVASCU",
@@ -21513,6 +24490,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Northwest Mindanao",
     "Sales Code": "WE1TASCA",
@@ -21520,6 +24498,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Elim",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Northwest Mindanao",
     "Sales Code": "WE1XVSCA",
@@ -21527,6 +24506,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "North Luzon East",
     "Sales Code": "TKC5ASAA",
@@ -21534,6 +24514,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "North Luzon East",
     "Sales Code": "TKC3ESCD",
@@ -21541,6 +24522,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "North Luzon East",
     "Sales Code": "TKCDASCA",
@@ -21548,6 +24530,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "North Luzon East",
     "Sales Code": "TKCSASCD",
@@ -21555,6 +24538,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "North Luzon East",
     "Sales Code": "TKC7MSCB",
@@ -21562,6 +24546,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Fixcells",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "North Luzon East",
     "Sales Code": "TKCCASCM",
@@ -21569,6 +24554,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "North Luzon West",
     "Sales Code": "TMAZPSCB",
@@ -21576,6 +24562,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "North Luzon West",
     "Sales Code": "TMA5ASCF",
@@ -21583,6 +24570,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "North Luzon West",
     "Sales Code": "TDA2ASAH",
@@ -21590,6 +24578,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing 2",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "North Luzon West",
     "Sales Code": "TJBGGSCC",
@@ -21597,6 +24586,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing 2",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "North Luzon West",
     "Sales Code": "TJB4ASCA",
@@ -21604,6 +24594,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing 2",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "North Luzon West",
     "Sales Code": "TJBDASCA",
@@ -21611,6 +24602,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing 2",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "North Luzon West",
     "Sales Code": "TJBYSSCC",
@@ -21618,6 +24610,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing 2",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "North Luzon West",
     "Sales Code": "TJBZASCA",
@@ -21625,6 +24618,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing 2",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "North Luzon West",
     "Sales Code": "TJB8ASCC",
@@ -21632,6 +24626,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing 2",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "North Luzon West",
     "Sales Code": "TJBGGSCA",
@@ -21639,6 +24634,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "FM Marketing 2",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "North Luzon West",
     "Sales Code": "EXTCK20012",
@@ -21646,6 +24642,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "South Mindanao",
     "Sales Code": "WT3RASCA",
@@ -21653,6 +24650,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "South Mindanao",
     "Sales Code": "WT5CASCB",
@@ -21660,6 +24658,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "South Mindanao",
     "Sales Code": "WT3TASDC",
@@ -21667,6 +24666,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "South Mindanao",
     "Sales Code": "WT5BASCB",
@@ -21674,6 +24674,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "South Mindanao",
     "Sales Code": "WS5CRCPS",
@@ -21681,6 +24682,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "South Mindanao",
     "Sales Code": "WT3UASCG",
@@ -21688,6 +24690,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "South Mindanao",
     "Sales Code": "WT31ASCD",
@@ -21695,6 +24698,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "South Mindanao",
     "Sales Code": "WT44ASCA",
@@ -21702,6 +24706,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Giga Dragon",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "South Mindanao",
     "Sales Code": "WT3VAAAA",
@@ -21709,6 +24714,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "UJJEASCM",
@@ -21716,6 +24722,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "UJJNACPS",
@@ -21723,6 +24730,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "EXS1GL000622",
@@ -21730,6 +24738,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "UKKHASAC",
@@ -21737,6 +24746,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "ULJEASAD",
@@ -21744,6 +24754,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "UJJCASCF",
@@ -21751,6 +24762,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "UJJNASCC",
@@ -21758,6 +24770,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "UJJSMSCA",
@@ -21765,6 +24778,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Go Sigla",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "ULJNSSCF",
@@ -21772,6 +24786,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Goodlife",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "UVMWASSB",
@@ -21779,6 +24794,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Goodlife",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "UVMVASCD",
@@ -21786,6 +24802,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Goodlife",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "AIGEK10008",
@@ -21793,6 +24810,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Upper South Luzon",
     "Sales Code": "CPE3GM001522",
@@ -21800,6 +24818,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Upper South Luzon",
     "Sales Code": "UDLBASCA",
@@ -21807,6 +24826,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Upper South Luzon",
     "Sales Code": "UDLSFCPS",
@@ -21814,6 +24834,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Upper South Luzon",
     "Sales Code": "UDLDASCC",
@@ -21821,6 +24842,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom 2 (Rizal)",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "NCR",
     "Sales Code": "XEX7ZWAK",
@@ -21828,6 +24850,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Greentelcom 2 (Rizal)",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "NCR",
     "Sales Code": "XEX9JCPS",
@@ -21835,6 +24858,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "URNAASCD",
@@ -21842,6 +24866,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "MBHDP10005",
@@ -21849,6 +24874,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "EXHDL10022",
@@ -21856,6 +24882,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "EXHDP10008",
@@ -21863,6 +24890,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "URNAASCB",
@@ -21870,6 +24898,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "EXHDP10007",
@@ -21877,6 +24906,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "EXHDL10007",
@@ -21884,6 +24914,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "UUNXGCPS",
@@ -21891,6 +24922,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "URN7ASCA",
@@ -21898,6 +24930,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "URNAASCC",
@@ -21905,6 +24938,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "URN8MSCB",
@@ -21912,6 +24946,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "UUNZASCC",
@@ -21919,6 +24954,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "EXHDP10021",
@@ -21926,6 +24962,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "URNPASCB",
@@ -21933,6 +24970,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "UVN3ASCB",
@@ -21940,6 +24978,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "URN7ASCE",
@@ -21947,6 +24986,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "UVNUASCB",
@@ -21954,6 +24994,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "URN2ASCB",
@@ -21961,6 +25002,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "High End",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "EXHDL10009",
@@ -21968,6 +25010,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Upper South Luzon",
     "Sales Code": "UAID3CPS",
@@ -21975,6 +25018,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Upper South Luzon",
     "Sales Code": "UAIWASCA",
@@ -21982,6 +25026,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Upper South Luzon",
     "Sales Code": "UAIXACPS",
@@ -21989,6 +25034,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Upper South Luzon",
     "Sales Code": "UAIZASAD",
@@ -21996,6 +25042,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Upper South Luzon",
     "Sales Code": "UAIJASCC",
@@ -22003,6 +25050,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Upper South Luzon",
     "Sales Code": "UAI1PSCB",
@@ -22010,6 +25058,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Upper South Luzon",
     "Sales Code": "UAIQASAA",
@@ -22017,6 +25066,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Upper South Luzon",
     "Sales Code": "UAIBASAA",
@@ -22024,6 +25074,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Upper South Luzon",
     "Sales Code": "UAIYASCB",
@@ -22031,6 +25082,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Upper South Luzon",
     "Sales Code": "UAIDASCD",
@@ -22038,6 +25090,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Upper South Luzon",
     "Sales Code": "UAISASCA",
@@ -22045,6 +25098,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Upper South Luzon",
     "Sales Code": "UAICASCD",
@@ -22052,6 +25106,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Upper South Luzon",
     "Sales Code": "UAINNSAA",
@@ -22059,6 +25114,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Upper South Luzon",
     "Sales Code": "UAIBASAB",
@@ -22066,6 +25122,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Upper South Luzon",
     "Sales Code": "UAIYASAA",
@@ -22073,6 +25130,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Upper South Luzon",
     "Sales Code": "UAIKNCPS",
@@ -22080,6 +25138,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Upper South Luzon",
     "Sales Code": "UAICSCPS",
@@ -22087,6 +25146,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Upper South Luzon",
     "Sales Code": "UAITASAB",
@@ -22094,6 +25154,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Upper South Luzon",
     "Sales Code": "UAIMASCC",
@@ -22101,6 +25162,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Batangas",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Upper South Luzon",
     "Sales Code": "UAIIASCB",
@@ -22108,6 +25170,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Mindoro",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Upper South Luzon",
     "Sales Code": "UAJTASCA",
@@ -22115,6 +25178,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Mindoro",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Upper South Luzon",
     "Sales Code": "UAJ4ASAA",
@@ -22122,6 +25186,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Mindoro",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Upper South Luzon",
     "Sales Code": "UAK3ASCA",
@@ -22129,6 +25194,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Mindoro",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Upper South Luzon",
     "Sales Code": "UAKYASCB",
@@ -22136,6 +25202,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Mindoro",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Upper South Luzon",
     "Sales Code": "UAI9ASCA",
@@ -22143,6 +25210,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Mindoro",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Upper South Luzon",
     "Sales Code": "UAJ4JCPS",
@@ -22150,6 +25218,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Mindoro",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Upper South Luzon",
     "Sales Code": "UAJ6ASCB",
@@ -22157,6 +25226,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Mindoro",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Upper South Luzon",
     "Sales Code": "UAJUASAB",
@@ -22164,6 +25234,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Mindoro",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Upper South Luzon",
     "Sales Code": "UAJ7ASCA",
@@ -22171,6 +25242,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Mindoro",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Upper South Luzon",
     "Sales Code": "UAJYASCB",
@@ -22178,6 +25250,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Mindoro",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Upper South Luzon",
     "Sales Code": "UAJVASAA",
@@ -22185,6 +25258,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Mindoro",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Upper South Luzon",
     "Sales Code": "UAJ8ASCA",
@@ -22192,6 +25266,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Mindoro",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Upper South Luzon",
     "Sales Code": "UAJNASCD",
@@ -22199,6 +25274,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Mindoro",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Upper South Luzon",
     "Sales Code": "UAJZNSCA",
@@ -22206,6 +25282,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Mindoro",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Upper South Luzon",
     "Sales Code": "UAJYASCA",
@@ -22213,6 +25290,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Innovasia Mindoro",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Upper South Luzon",
     "Sales Code": "UAK2QCPS",
@@ -22220,6 +25298,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Koks",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Western Visayas",
     "Sales Code": "VDPZTSCA",
@@ -22227,6 +25306,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Koks",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Western Visayas",
     "Sales Code": "VDPBASCC",
@@ -22234,6 +25314,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Koks",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Western Visayas",
     "Sales Code": "VDPTASCA",
@@ -22241,6 +25322,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Koks",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Western Visayas",
     "Sales Code": "VDPSMCPS",
@@ -22248,6 +25330,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Koks",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Western Visayas",
     "Sales Code": "VDPAASCE",
@@ -22255,6 +25338,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Koks",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Western Visayas",
     "Sales Code": "VDPF2SCA",
@@ -22262,6 +25346,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Koks",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Western Visayas",
     "Sales Code": "VDPZASCB",
@@ -22269,6 +25354,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Madera",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "USMNDSCG",
@@ -22276,6 +25362,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Madera",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "USMNLWFT",
@@ -22283,6 +25370,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Madera",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "USMNDSCE",
@@ -22290,6 +25378,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Madera",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "USMNSSCH",
@@ -22297,6 +25386,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Madera",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "USMNBSAB",
@@ -22304,6 +25394,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "North Luzon East",
     "Sales Code": "TNEDASCC",
@@ -22311,6 +25402,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "North Luzon East",
     "Sales Code": "TNEDASCF",
@@ -22318,6 +25410,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "North Luzon East",
     "Sales Code": "TNEFASCA",
@@ -22325,6 +25418,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "North Luzon East",
     "Sales Code": "TNEGGSCB",
@@ -22332,6 +25426,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "North Luzon East",
     "Sales Code": "TNEPASCB",
@@ -22339,6 +25434,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "N. Phoenix 2",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "North Luzon East",
     "Sales Code": "TSFHMSCB",
@@ -22346,6 +25442,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "URNMASCB",
@@ -22353,6 +25450,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "URNNASCJ",
@@ -22360,13 +25458,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
-    "Class": "CPS",
-    "Region": "Lower South Luzon",
-    "Sales Code": "URNSASEB",
-    "Trade Name": "Anna's Printhauz"
-  },
-  {
-    "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "MBNAL10015",
@@ -22374,6 +25466,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "EXNAL10017",
@@ -22381,6 +25474,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "URNBASCF",
@@ -22388,6 +25482,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "URNEASCM",
@@ -22395,6 +25490,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "URNGASCF",
@@ -22402,6 +25498,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "URNBASCE",
@@ -22409,6 +25506,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "URNDASCB",
@@ -22416,6 +25514,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "URNDASCE",
@@ -22423,6 +25522,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "URNDASCC",
@@ -22430,6 +25530,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "NB Rebeta",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Lower South Luzon",
     "Sales Code": "URNOASAA",
@@ -22437,6 +25538,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ1YASCA",
@@ -22444,6 +25546,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ2HMSCA",
@@ -22451,6 +25554,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ2NASCE",
@@ -22458,6 +25562,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ1QASAD",
@@ -22465,6 +25570,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ2BASCK",
@@ -22472,6 +25578,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ18ASCA",
@@ -22479,6 +25586,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Northwest Mindanao",
     "Sales Code": "WK2JASCA",
@@ -22486,6 +25594,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Northwest Mindanao",
     "Sales Code": "WK2NMSCA",
@@ -22493,6 +25602,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJIJASSD",
@@ -22500,6 +25610,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ2BMCPS",
@@ -22507,6 +25618,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ1JASCF",
@@ -22514,6 +25626,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ1EASCA",
@@ -22521,6 +25634,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Oro graphic",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Northwest Mindanao",
     "Sales Code": "WJ19ASAA",
@@ -22528,6 +25642,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Western Visayas",
     "Sales Code": "VBRQASAA",
@@ -22535,6 +25650,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Western Visayas",
     "Sales Code": "VBRCASAA",
@@ -22542,6 +25658,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Western Visayas",
     "Sales Code": "VBRGECPS",
@@ -22549,6 +25666,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Western Visayas",
     "Sales Code": "VBR3ASCA",
@@ -22556,6 +25674,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Western Visayas",
     "Sales Code": "VBRTASAA",
@@ -22563,6 +25682,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Western Visayas",
     "Sales Code": "VBRFASCC",
@@ -22570,6 +25690,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Western Visayas",
     "Sales Code": "EXF4PN004522",
@@ -22577,6 +25698,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros Or",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Western Visayas",
     "Sales Code": "VCSUJSCB",
@@ -22584,6 +25706,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros Or",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Western Visayas",
     "Sales Code": "VCSHABBC",
@@ -22591,6 +25714,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros Or",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Western Visayas",
     "Sales Code": "VCSUMSCB",
@@ -22598,6 +25722,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros Or",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Western Visayas",
     "Sales Code": "VCSUGSCA",
@@ -22605,6 +25730,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros Or",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Western Visayas",
     "Sales Code": "VBRYASCC",
@@ -22612,6 +25738,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros Or",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Western Visayas",
     "Sales Code": "VCSNSSCD",
@@ -22619,6 +25746,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros Or",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Western Visayas",
     "Sales Code": "VCSDASCA",
@@ -22626,6 +25754,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros Or",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Western Visayas",
     "Sales Code": "VCSRASCD",
@@ -22633,6 +25762,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros Or",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Western Visayas",
     "Sales Code": "VCSAASCA",
@@ -22640,6 +25770,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros Or",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Western Visayas",
     "Sales Code": "VCSEASCC",
@@ -22647,6 +25778,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros Or",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Western Visayas",
     "Sales Code": "VCSEASCB",
@@ -22654,6 +25786,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros Or",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Western Visayas",
     "Sales Code": "VCSGASCC",
@@ -22661,6 +25794,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros Or",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Western Visayas",
     "Sales Code": "VCSQASCC",
@@ -22668,6 +25802,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Negros Or",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Western Visayas",
     "Sales Code": "VCSVASCC",
@@ -22675,6 +25810,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Western Visayas",
     "Sales Code": "VAQZCCPS",
@@ -22682,6 +25818,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Western Visayas",
     "Sales Code": "VAQMASCK",
@@ -22689,6 +25826,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Western Visayas",
     "Sales Code": "VAQ3MSCA",
@@ -22696,6 +25834,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Western Visayas",
     "Sales Code": "VAQ4ASCC",
@@ -22703,6 +25842,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Western Visayas",
     "Sales Code": "VAQNASAA",
@@ -22710,6 +25850,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Western Visayas",
     "Sales Code": "VAQLTCPS",
@@ -22717,6 +25858,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Western Visayas",
     "Sales Code": "VAQEVCPS",
@@ -22724,6 +25866,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Western Visayas",
     "Sales Code": "VAQUVCPS",
@@ -22731,6 +25874,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Western Visayas",
     "Sales Code": "VAP4JCPS",
@@ -22738,6 +25882,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Western Visayas",
     "Sales Code": "VAQ4MSCA",
@@ -22745,6 +25890,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Western Visayas",
     "Sales Code": "VAQYASCC",
@@ -22752,6 +25898,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Western Visayas",
     "Sales Code": "VAPHCSAA",
@@ -22759,6 +25906,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "PDI Panay",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Western Visayas",
     "Sales Code": "VAPLASCA",
@@ -22766,6 +25914,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Save and Earn",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "EXI1SN000522",
@@ -22773,6 +25922,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Save and Earn",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "VLUCASCH",
@@ -22780,6 +25930,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Save and Earn",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "VLUGASCE",
@@ -22787,6 +25938,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Save and Earn",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "VLUQESCF",
@@ -22794,6 +25946,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Save and Earn",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "VLURQSCA",
@@ -22801,6 +25954,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Save and Earn",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "VLUCASCD",
@@ -22808,6 +25962,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Save and Earn",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "EXI1SN001322",
@@ -22815,6 +25970,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Save and Earn",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "VLUJASCE",
@@ -22822,6 +25978,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Save and Earn",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "VLULJCPS",
@@ -22829,6 +25986,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Save and Earn",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "VLUS3SCD",
@@ -22836,6 +25994,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Save and Earn",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "VLUR7SCA",
@@ -22843,6 +26002,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Save and Earn",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "VLUR3SCC",
@@ -22850,6 +26010,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Save and Earn",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "VLUPASCA",
@@ -22857,6 +26018,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Save and Earn",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "VLUR3SCA",
@@ -22864,6 +26026,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Save and Earn",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "VLUSYSAB",
@@ -22871,6 +26034,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Save and Earn",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "VLUQ7SCE",
@@ -22878,6 +26042,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Save and Earn",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Visayas",
     "Sales Code": "SDI1SN001122",
@@ -22885,6 +26050,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TBH DAVAO CITY",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Mindanao",
     "Sales Code": "W84BASEM",
@@ -22892,6 +26058,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "TBH DAVAO CITY",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Mindanao",
     "Sales Code": "W84BASED",
@@ -22899,6 +26066,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "UKKNASAA",
@@ -22906,6 +26074,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "UKI7ASCA",
@@ -22913,6 +26082,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "UKI5ASCE",
@@ -22920,6 +26090,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "UKKDASCE",
@@ -22927,6 +26098,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "UKKKQCPS",
@@ -22934,6 +26106,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "UKKKASCH",
@@ -22941,6 +26114,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "UKKQASCE",
@@ -22948,6 +26122,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "UKKTASCB",
@@ -22955,6 +26130,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "UKKLASAA",
@@ -22962,6 +26138,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "UKI5ASCF",
@@ -22969,6 +26146,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "UKKQASCB",
@@ -22976,6 +26154,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "UKKKASCP",
@@ -22983,6 +26162,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "UKKSASCC",
@@ -22990,6 +26170,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "UKKSASCA",
@@ -22997,6 +26178,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "UKKQASCD",
@@ -23004,6 +26186,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "UKKSASCB",
@@ -23011,6 +26194,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "UKKJASAA",
@@ -23018,6 +26202,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "UKKUASCA",
@@ -23025,6 +26210,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "UKKGASCE",
@@ -23032,6 +26218,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "UKKAASAB",
@@ -23039,6 +26226,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "UKKMASAB",
@@ -23046,6 +26234,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "UKKFASAC",
@@ -23053,6 +26242,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "UKKHLSAC",
@@ -23060,6 +26250,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "UKKRASAB",
@@ -23067,6 +26258,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "UKKUYSCA",
@@ -23074,6 +26266,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "UKKUPSCB",
@@ -23081,6 +26274,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "UKHRASAB",
@@ -23088,6 +26282,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "UKKV2SCA",
@@ -23095,6 +26290,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "UKKHLCPS",
@@ -23102,6 +26298,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "UKKPASCA",
@@ -23109,6 +26306,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "UKKAASAC",
@@ -23116,6 +26314,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "UKKEASAA",
@@ -23123,6 +26322,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "UKKVSSCA",
@@ -23130,6 +26330,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "UKKNSSAB",
@@ -23137,6 +26338,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "UKKFASCA",
@@ -23144,6 +26346,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Technoclear",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central South Luzon",
     "Sales Code": "UKKUDSCA",
@@ -23151,6 +26354,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Mindanao",
     "Sales Code": "WU8DASCD",
@@ -23158,6 +26362,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Mindanao",
     "Sales Code": "MBULJ30008",
@@ -23165,6 +26370,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Mindanao",
     "Sales Code": "WU8FASCJ",
@@ -23172,6 +26378,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Mindanao",
     "Sales Code": "WU8PASCL",
@@ -23179,6 +26386,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Mindanao",
     "Sales Code": "WU6YASCA",
@@ -23186,6 +26394,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Mindanao",
     "Sales Code": "WU6ZAAAB",
@@ -23193,6 +26402,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Mindanao",
     "Sales Code": "EXULK30004",
@@ -23200,6 +26410,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Mindanao",
     "Sales Code": "WU8BASCC",
@@ -23207,6 +26418,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Mindanao",
     "Sales Code": "WU8LASCB",
@@ -23214,6 +26426,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Mindanao",
     "Sales Code": "WU8QMSCA",
@@ -23221,6 +26434,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Mindanao",
     "Sales Code": "WU8EASCD",
@@ -23228,6 +26442,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Mindanao",
     "Sales Code": "WU8MASCA",
@@ -23235,6 +26450,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Mindanao",
     "Sales Code": "WU8HSSCC",
@@ -23242,6 +26458,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Mindanao",
     "Sales Code": "WU8QCAAE",
@@ -23249,6 +26466,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Mindanao",
     "Sales Code": "EXULK30005",
@@ -23256,6 +26474,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Mindanao",
     "Sales Code": "WU6UASCD",
@@ -23263,6 +26482,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Uniglobal",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "East Mindanao",
     "Sales Code": "WU6ZMSCA",
@@ -23270,6 +26490,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "North Luzon West",
     "Sales Code": "TAA87SCB",
@@ -23277,6 +26498,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "North Luzon West",
     "Sales Code": "TBALPSAA",
@@ -23284,6 +26506,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "North Luzon West",
     "Sales Code": "TMAOASAA",
@@ -23291,6 +26514,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "North Luzon West",
     "Sales Code": "TAAWYSAA",
@@ -23298,6 +26522,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "North Luzon West",
     "Sales Code": "TAAVABBD",
@@ -23305,6 +26530,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "North Luzon West",
     "Sales Code": "TUAXASCA",
@@ -23312,6 +26538,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "Vertext 2",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "North Luzon West",
     "Sales Code": "TAAVABBC",
@@ -23319,6 +26546,7 @@ const salesManCode = [
   },
   {
     "Territory Partner": "VRJ",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Luzon",
     "Sales Code": "TLDHASCA",
@@ -23326,1319 +26554,11 @@ const salesManCode = [
   },
   {
     "Territory Partner": "VRJ",
+    "Main Class": "Dealer",
     "Class": "CPS",
     "Region": "Central Luzon",
     "Sales Code": "TZDLASCA",
     "Trade Name": "UNDI-CHI TRADING"
-  },
-  {
-    "Territory Partner": "BSL",
-    "Class": "Community Sellers",
-    "Region": "NCR",
-    "Sales Code": "PSN3BL001325",
-    "Trade Name": "John Franciso"
-  },
-  {
-    "Territory Partner": "BSL BULACAN",
-    "Class": "Community Sellers",
-    "Region": "NCR",
-    "Sales Code": "PSV1TE001825",
-    "Trade Name": "Mario Godoy"
-  },
-  {
-    "Territory Partner": "BSL BULACAN",
-    "Class": "Community Sellers",
-    "Region": "NCR",
-    "Sales Code": "PSTEV1001725",
-    "Trade Name": "Justine Magsakay"
-  },
-  {
-    "Territory Partner": "BSL BULACAN",
-    "Class": "Community Sellers",
-    "Region": "NCR",
-    "Sales Code": "PSV1TE001925",
-    "Trade Name": "Manuelito Oli"
-  },
-  {
-    "Territory Partner": "BSL BULACAN",
-    "Class": "Community Sellers",
-    "Region": "NCR",
-    "Sales Code": "PSTEV1001825",
-    "Trade Name": "Walastik Internet"
-  },
-  {
-    "Territory Partner": "Cellcom Southern East",
-    "Class": "Community Sellers",
-    "Region": "East Visayas",
-    "Sales Code": "PSD1CS000523",
-    "Trade Name": "PHILNOR TICKETING SERVICES"
-  },
-  {
-    "Territory Partner": "Digilife",
-    "Class": "Community Sellers",
-    "Region": "East Mindanao",
-    "Sales Code": "PSD1T20004",
-    "Trade Name": "5-M Dry Goods Store"
-  },
-  {
-    "Territory Partner": "Digilife",
-    "Class": "Community Sellers",
-    "Region": "East Mindanao",
-    "Sales Code": "PSD1T20005",
-    "Trade Name": "Jhon and Jean Store"
-  },
-  {
-    "Territory Partner": "Digilife",
-    "Class": "Community Sellers",
-    "Region": "East Mindanao",
-    "Sales Code": "PSD1W20001",
-    "Trade Name": "Prince Raffy Satellite Cable Tv Services"
-  },
-  {
-    "Territory Partner": "Digilife",
-    "Class": "Community Sellers",
-    "Region": "East Mindanao",
-    "Sales Code": "PSD1BA00000002",
-    "Trade Name": "Rochelle Joyce B. Macuno"
-  },
-  {
-    "Territory Partner": "Digilife",
-    "Class": "Community Sellers",
-    "Region": "East Mindanao",
-    "Sales Code": "PSD1W20002",
-    "Trade Name": "Rojo Vulcanizing Shop"
-  },
-  {
-    "Territory Partner": "Digilife",
-    "Class": "Community Sellers",
-    "Region": "East Mindanao",
-    "Sales Code": "PSD1BA00000001",
-    "Trade Name": "Zinnia A. Torralba"
-  },
-  {
-    "Territory Partner": "Greentelcom 2 (Rizal)",
-    "Class": "Community Sellers",
-    "Region": "NCR",
-    "Sales Code": "PSEPF3001625",
-    "Trade Name": "Lillian De Guzman"
-  },
-  {
-    "Territory Partner": "Koks",
-    "Class": "Community Sellers",
-    "Region": "Western Visayas",
-    "Sales Code": "XXKSE40055",
-    "Trade Name": "Gaspar Electronics Services"
-  },
-  {
-    "Territory Partner": "Koks",
-    "Class": "Community Sellers",
-    "Region": "Western Visayas",
-    "Sales Code": "XXKSE40057",
-    "Trade Name": "Ian Earl Dinero"
-  },
-  {
-    "Territory Partner": "Koks",
-    "Class": "Community Sellers",
-    "Region": "Western Visayas",
-    "Sales Code": "XXKSD40051",
-    "Trade Name": "Jay Lord Pioquid"
-  },
-  {
-    "Territory Partner": "Koks",
-    "Class": "Community Sellers",
-    "Region": "Western Visayas",
-    "Sales Code": "XXKSD40053",
-    "Trade Name": "Jess Indemne"
-  },
-  {
-    "Territory Partner": "Koks",
-    "Class": "Community Sellers",
-    "Region": "Western Visayas",
-    "Sales Code": "XXKSD40052",
-    "Trade Name": "John Cabreza"
-  },
-  {
-    "Territory Partner": "Koks",
-    "Class": "Community Sellers",
-    "Region": "Western Visayas",
-    "Sales Code": "XXKSD40049",
-    "Trade Name": "John Jinard Apolinario"
-  },
-  {
-    "Territory Partner": "Koks",
-    "Class": "Community Sellers",
-    "Region": "Western Visayas",
-    "Sales Code": "XXKSE40056",
-    "Trade Name": "Jonathan Buendia"
-  },
-  {
-    "Territory Partner": "Oxworld",
-    "Class": "Community Sellers",
-    "Region": "NCR",
-    "Sales Code": "PSN4OW005225",
-    "Trade Name": "Michael Diamitas"
-  },
-  {
-    "Territory Partner": "PDI Panay",
-    "Class": "Community Sellers",
-    "Region": "Western Visayas",
-    "Sales Code": "PSPWESP00123",
-    "Trade Name": "Albert Vego"
-  },
-  {
-    "Territory Partner": "PDI Panay",
-    "Class": "Community Sellers",
-    "Region": "Western Visayas",
-    "Sales Code": "PSI4PW001523",
-    "Trade Name": "Artzen Dionela"
-  },
-  {
-    "Territory Partner": "PDI Panay",
-    "Class": "Community Sellers",
-    "Region": "Western Visayas",
-    "Sales Code": "PSI4PW001423",
-    "Trade Name": "Orly Palmares"
-  },
-  {
-    "Territory Partner": "TTANS",
-    "Class": "Community Sellers",
-    "Region": "Central South Luzon",
-    "Sales Code": "PSTSB40003",
-    "Trade Name": "ANNA LOU SADIWA"
-  },
-  {
-    "Territory Partner": "TTANS",
-    "Class": "Community Sellers",
-    "Region": "Central South Luzon",
-    "Sales Code": "PSTSB40004",
-    "Trade Name": "Arnold Siga-An"
-  },
-  {
-    "Territory Partner": "Vitalize",
-    "Class": "Community Sellers",
-    "Region": "NCR",
-    "Sales Code": "PSVIT10021",
-    "Trade Name": "Iris Resos"
-  },
-  {
-    "Territory Partner": "Vitalize",
-    "Class": "Community Sellers",
-    "Region": "NCR",
-    "Sales Code": "PSN4VI005325",
-    "Trade Name": "Sonny Amporias"
-  },
-  {
-    "Territory Partner": "Vitalize",
-    "Class": "Community Sellers",
-    "Region": "NCR",
-    "Sales Code": "PSN2VI003525",
-    "Trade Name": "Jane Rantungan"
-  },
-  {
-    "Territory Partner": "8 telcom",
-    "Class": "Satlite dealer",
-    "Region": "South Mindanao",
-    "Sales Code": "W84BASIE",
-    "Trade Name": "CMK ENTERPRISE"
-  },
-  {
-    "Territory Partner": "8 telcom",
-    "Class": "Satlite dealer",
-    "Region": "South Mindanao",
-    "Sales Code": "SDG38M001922",
-    "Trade Name": "jamie Sana Electronics"
-  },
-  {
-    "Territory Partner": "8 telcom",
-    "Class": "Satlite dealer",
-    "Region": "South Mindanao",
-    "Sales Code": "SDG38M000723",
-    "Trade Name": "Micahel Curayag Cignaltv Installation"
-  },
-  {
-    "Territory Partner": "Alain Asia North",
-    "Class": "Satlite dealer",
-    "Region": "Central Visayas",
-    "Sales Code": "SDANA10009",
-    "Trade Name": "ARCENAL ELECTRONICS 2 - Centro"
-  },
-  {
-    "Territory Partner": "Alain Asia South",
-    "Class": "Satlite dealer",
-    "Region": "Central Visayas",
-    "Sales Code": "SDA1AS000422",
-    "Trade Name": "Rnb Electronics Boljoon Branch"
-  },
-  {
-    "Territory Partner": "BSL Bulacan",
-    "Class": "Satlite dealer",
-    "Region": "NCR",
-    "Sales Code": "T6HHASAB",
-    "Trade Name": "WILDCARDS COMPUTERS"
-  },
-  {
-    "Territory Partner": "Cellcom Central East",
-    "Class": "Satlite dealer",
-    "Region": "East Visayas",
-    "Sales Code": "SDCRH10002",
-    "Trade Name": "A&J Store"
-  },
-  {
-    "Territory Partner": "Cellcom Central East",
-    "Class": "Satlite dealer",
-    "Region": "East Visayas",
-    "Sales Code": "SDCRH10004",
-    "Trade Name": "JARP LGELECTRONICS"
-  },
-  {
-    "Territory Partner": "Cellcom Central East",
-    "Class": "Satlite dealer",
-    "Region": "East Visayas",
-    "Sales Code": "SDE1CC000823",
-    "Trade Name": "Roldan Electronics"
-  },
-  {
-    "Territory Partner": "Cellcom Central East",
-    "Class": "Satlite dealer",
-    "Region": "East Visayas",
-    "Sales Code": "SDE1CC000523",
-    "Trade Name": "SHAN-TECH ELECTRONICS"
-  },
-  {
-    "Territory Partner": "Cellcom Northern East",
-    "Class": "Satlite dealer",
-    "Region": "East Visayas",
-    "Sales Code": "SDCEH10005",
-    "Trade Name": "Alfie's Satlite Store"
-  },
-  {
-    "Territory Partner": "Cellcom Northern East",
-    "Class": "Satlite dealer",
-    "Region": "East Visayas",
-    "Sales Code": "AIF1CL000822",
-    "Trade Name": "EL Dry Goods"
-  },
-  {
-    "Territory Partner": "Cellcom Northern East",
-    "Class": "Satlite dealer",
-    "Region": "East Visayas",
-    "Sales Code": "SDCEG10010",
-    "Trade Name": "Mars store and cignal loading station"
-  },
-  {
-    "Territory Partner": "Cellcom Northern East",
-    "Class": "Satlite dealer",
-    "Region": "East Visayas",
-    "Sales Code": "VSVEASCD",
-    "Trade Name": "RBB ENTERPRISE"
-  },
-  {
-    "Territory Partner": "Cellcom Northern East",
-    "Class": "Satlite dealer",
-    "Region": "East Visayas",
-    "Sales Code": "SDSWCL000823",
-    "Trade Name": "RICHIE store"
-  },
-  {
-    "Territory Partner": "Cellcom Southern East",
-    "Class": "Satlite dealer",
-    "Region": "East Visayas",
-    "Sales Code": "SDD1CS001122",
-    "Trade Name": "AS PRINTING SERVICES"
-  },
-  {
-    "Territory Partner": "Cellcom Southern East",
-    "Class": "Satlite dealer",
-    "Region": "East Visayas",
-    "Sales Code": "SDC1CS001422",
-    "Trade Name": "EFREN CABLE INSTALLATION SERVICES"
-  },
-  {
-    "Territory Partner": "Cellcom Southern East",
-    "Class": "Satlite dealer",
-    "Region": "East Visayas",
-    "Sales Code": "SDCLD10010",
-    "Trade Name": "LEGRAND ELECTRONICS"
-  },
-  {
-    "Territory Partner": "Cellcom Southern East",
-    "Class": "Satlite dealer",
-    "Region": "East Visayas",
-    "Sales Code": "SDD1CS000422",
-    "Trade Name": "SNB STORE"
-  },
-  {
-    "Territory Partner": "CRFT",
-    "Class": "Satlite dealer",
-    "Region": "Central Visayas",
-    "Sales Code": "SDC4CT004422",
-    "Trade Name": "Island Gadgets- Culion"
-  },
-  {
-    "Territory Partner": "CRFT",
-    "Class": "Satlite dealer",
-    "Region": "Central Visayas",
-    "Sales Code": "SDC4CT004522",
-    "Trade Name": "Isul Cellphone and Accessories"
-  },
-  {
-    "Territory Partner": "CRFT",
-    "Class": "Satlite dealer",
-    "Region": "Central Visayas",
-    "Sales Code": "SDC4CT002822",
-    "Trade Name": "KCE"
-  },
-  {
-    "Territory Partner": "CRFT",
-    "Class": "Satlite dealer",
-    "Region": "Central Visayas",
-    "Sales Code": "SDCTC40001",
-    "Trade Name": "Keely Shaye Store"
-  },
-  {
-    "Territory Partner": "CRFT",
-    "Class": "Satlite dealer",
-    "Region": "Central Visayas",
-    "Sales Code": "SDC4CT004322",
-    "Trade Name": "RJJL Satlite Store"
-  },
-  {
-    "Territory Partner": "CRFT",
-    "Class": "Satlite dealer",
-    "Region": "Central Visayas",
-    "Sales Code": "SDCTC4003325",
-    "Trade Name": "E- Device Cellphone accessories"
-  },
-  {
-    "Territory Partner": "Digilife",
-    "Class": "Satlite dealer",
-    "Region": "East Mindanao",
-    "Sales Code": "W36PASCB",
-    "Trade Name": "CELLPHONE SERVICE CENTER"
-  },
-  {
-    "Territory Partner": "Digilife",
-    "Class": "Satlite dealer",
-    "Region": "East Mindanao",
-    "Sales Code": "W37MJSCE",
-    "Trade Name": "DENCRIS DIRECT SATELLITE"
-  },
-  {
-    "Territory Partner": "Digilife",
-    "Class": "Satlite dealer",
-    "Region": "East Mindanao",
-    "Sales Code": "W36EYSCD",
-    "Trade Name": "J & M Electronic Shop"
-  },
-  {
-    "Territory Partner": "DLM",
-    "Class": "Satlite dealer",
-    "Region": "Lower South Luzon",
-    "Sales Code": "UMMDASAC",
-    "Trade Name": "DELLOSA LOADING STATION"
-  },
-  {
-    "Territory Partner": "DLM",
-    "Class": "Satlite dealer",
-    "Region": "Lower South Luzon",
-    "Sales Code": "URMDCABC",
-    "Trade Name": "PAYAGO STORE"
-  },
-  {
-    "Territory Partner": "Fixcells",
-    "Class": "Satlite dealer",
-    "Region": "North Luzon East",
-    "Sales Code": "TKC3QSSB",
-    "Trade Name": "ANCHETA SATLITE STORE"
-  },
-  {
-    "Territory Partner": "Fixcells",
-    "Class": "Satlite dealer",
-    "Region": "North Luzon East",
-    "Sales Code": "TKC7QSCD",
-    "Trade Name": "ARGIE RELOADING STATION"
-  },
-  {
-    "Territory Partner": "Fixcells",
-    "Class": "Satlite dealer",
-    "Region": "North Luzon East",
-    "Sales Code": "SDX1FS000823",
-    "Trade Name": "DOMINGO APPLIANCES"
-  },
-  {
-    "Territory Partner": "Fixcells",
-    "Class": "Satlite dealer",
-    "Region": "North Luzon East",
-    "Sales Code": "SDFSW10007",
-    "Trade Name": "Edgardo Barbas"
-  },
-  {
-    "Territory Partner": "Fixcells",
-    "Class": "Satlite dealer",
-    "Region": "North Luzon East",
-    "Sales Code": "TKCZASKL",
-    "Trade Name": "E-WORKZ"
-  },
-  {
-    "Territory Partner": "Fixcells",
-    "Class": "Satlite dealer",
-    "Region": "North Luzon East",
-    "Sales Code": "SDFSX10003",
-    "Trade Name": "F. Ramos Satellite Installation Services"
-  },
-  {
-    "Territory Partner": "Fixcells",
-    "Class": "Satlite dealer",
-    "Region": "North Luzon East",
-    "Sales Code": "TKCVASCL",
-    "Trade Name": "FLs STORE"
-  },
-  {
-    "Territory Partner": "Fixcells",
-    "Class": "Satlite dealer",
-    "Region": "North Luzon East",
-    "Sales Code": "TKC5ASCJ",
-    "Trade Name": "GS General Merchandise"
-  },
-  {
-    "Territory Partner": "Fixcells",
-    "Class": "Satlite dealer",
-    "Region": "North Luzon East",
-    "Sales Code": "SDX1FS001422",
-    "Trade Name": "Maximo Gogo"
-  },
-  {
-    "Territory Partner": "Fixcells",
-    "Class": "Satlite dealer",
-    "Region": "North Luzon East",
-    "Sales Code": "TKC7MSSD",
-    "Trade Name": "ROTAQUINO GEN MERCHANDISE"
-  },
-  {
-    "Territory Partner": "Fixcells",
-    "Class": "Satlite dealer",
-    "Region": "North Luzon East",
-    "Sales Code": "TKC7MSSF",
-    "Trade Name": "SATLAND ENTERPRISES "
-  },
-  {
-    "Territory Partner": "FM Marketing",
-    "Class": "Satlite dealer",
-    "Region": "North Luzon West",
-    "Sales Code": "SDFGO20001",
-    "Trade Name": "Iggy's Electronic Shop"
-  },
-  {
-    "Territory Partner": "FM Marketing",
-    "Class": "Satlite dealer",
-    "Region": "North Luzon West",
-    "Sales Code": "SDFGL20003",
-    "Trade Name": "It's me, RICHIE! SALES & SERVICES"
-  },
-  {
-    "Territory Partner": "FM Marketing",
-    "Class": "Satlite dealer",
-    "Region": "North Luzon West",
-    "Sales Code": "TMAYASDD",
-    "Trade Name": "JOSHUA SEVIDAL"
-  },
-  {
-    "Territory Partner": "Giga Dragon",
-    "Class": "Satlite dealer",
-    "Region": "South Mindanao",
-    "Sales Code": "SDV3M2000923",
-    "Trade Name": "Greenline Cellphone and Accessories"
-  },
-  {
-    "Territory Partner": "Giga Dragon",
-    "Class": "Satlite dealer",
-    "Region": "South Mindanao",
-    "Sales Code": "SDW3M2000723",
-    "Trade Name": "RJ Alefante Satellite Installation Services"
-  },
-  {
-    "Territory Partner": "Giga Dragon",
-    "Class": "Satlite dealer",
-    "Region": "South Mindanao",
-    "Sales Code": "SDV3M2000723",
-    "Trade Name": "Wise Telecom"
-  },
-  {
-    "Territory Partner": "Goodlife",
-    "Class": "Satlite dealer",
-    "Region": "Lower South Luzon",
-    "Sales Code": "UVM8ASCD",
-    "Trade Name": "J&L Delante Store"
-  },
-  {
-    "Territory Partner": "Goodlife",
-    "Class": "Satlite dealer",
-    "Region": "Lower South Luzon",
-    "Sales Code": "UVM9YSCC",
-    "Trade Name": "J. Basbas Cable Television Installation Services"
-  },
-  {
-    "Territory Partner": "Goodlife",
-    "Class": "Satlite dealer",
-    "Region": "Lower South Luzon",
-    "Sales Code": "UVM2ASCE",
-    "Trade Name": "Jordan Store"
-  },
-  {
-    "Territory Partner": "High End",
-    "Class": "Satlite dealer",
-    "Region": "Lower South Luzon",
-    "Sales Code": "UVNUASCC",
-    "Trade Name": "Anna Lisa Espano Marketing Services"
-  },
-  {
-    "Territory Partner": "High End",
-    "Class": "Satlite dealer",
-    "Region": "Lower South Luzon",
-    "Sales Code": "UVNYASCC",
-    "Trade Name": "Balquin Electronics"
-  },
-  {
-    "Territory Partner": "High End",
-    "Class": "Satlite dealer",
-    "Region": "Lower South Luzon",
-    "Sales Code": "UVNVASAF",
-    "Trade Name": "Cignal Satlite Installation Service"
-  },
-  {
-    "Territory Partner": "High End",
-    "Class": "Satlite dealer",
-    "Region": "Lower South Luzon",
-    "Sales Code": "URNAASCH",
-    "Trade Name": "Double X Store"
-  },
-  {
-    "Territory Partner": "High End",
-    "Class": "Satlite dealer",
-    "Region": "Lower South Luzon",
-    "Sales Code": "URNAASCE",
-    "Trade Name": "Fred Bellen"
-  },
-  {
-    "Territory Partner": "High End",
-    "Class": "Satlite dealer",
-    "Region": "Lower South Luzon",
-    "Sales Code": "UWNWABBB",
-    "Trade Name": "JDB ELECTRONICS"
-  },
-  {
-    "Territory Partner": "High End",
-    "Class": "Satlite dealer",
-    "Region": "Lower South Luzon",
-    "Sales Code": "URNPASAB",
-    "Trade Name": "Jerry Banico"
-  },
-  {
-    "Territory Partner": "High End",
-    "Class": "Satlite dealer",
-    "Region": "Lower South Luzon",
-    "Sales Code": "UWNAASSE",
-    "Trade Name": "LLANETA LOADING STATION"
-  },
-  {
-    "Territory Partner": "Innovasia Mindoro",
-    "Class": "Satlite dealer",
-    "Region": "Upper South Luzon",
-    "Sales Code": "SDA4IM001022",
-    "Trade Name": "Bayeta Variety Store"
-  },
-  {
-    "Territory Partner": "Innovasia Mindoro",
-    "Class": "Satlite dealer",
-    "Region": "Upper South Luzon",
-    "Sales Code": "SDA4IM000922",
-    "Trade Name": "FHG Satlite Installation"
-  },
-  {
-    "Territory Partner": "Innovasia Mindoro",
-    "Class": "Satlite dealer",
-    "Region": "Upper South Luzon",
-    "Sales Code": "SDA4IM000722",
-    "Trade Name": "Ruel Electronics Telecommunication"
-  },
-  {
-    "Territory Partner": "Innovasia Mindoro",
-    "Class": "Satlite dealer",
-    "Region": "Upper South Luzon",
-    "Sales Code": "SDA4IM001122",
-    "Trade Name": "SMJC Electronic Shop"
-  },
-  {
-    "Territory Partner": "Koks",
-    "Class": "Satlite dealer",
-    "Region": "Western Visayas",
-    "Sales Code": "SDE4KS000522",
-    "Trade Name": "Ipin Digital Satlite"
-  },
-  {
-    "Territory Partner": "Koks",
-    "Class": "Satlite dealer",
-    "Region": "Western Visayas",
-    "Sales Code": "SDD4KS001125",
-    "Trade Name": "KC Consumer Electronics Trading"
-  },
-  {
-    "Territory Partner": "Madera",
-    "Class": "Satlite dealer",
-    "Region": "Lower South Luzon",
-    "Sales Code": "USMNBSAC",
-    "Trade Name": "ALFIO ALFIRES"
-  },
-  {
-    "Territory Partner": "Madera",
-    "Class": "Satlite dealer",
-    "Region": "Lower South Luzon",
-    "Sales Code": "USVMAAAC",
-    "Trade Name": "ARIEL ESTRELLA"
-  },
-  {
-    "Territory Partner": "Madera",
-    "Class": "Satlite dealer",
-    "Region": "Lower South Luzon",
-    "Sales Code": "USMNLSCJ",
-    "Trade Name": "EMMANUEL CORREA"
-  },
-  {
-    "Territory Partner": "N. Phoenix",
-    "Class": "Satlite dealer",
-    "Region": "North Luzon East",
-    "Sales Code": "TNEJASSC",
-    "Trade Name": "Barcellano Welding Shop"
-  },
-  {
-    "Territory Partner": "N. Phoenix",
-    "Class": "Satlite dealer",
-    "Region": "North Luzon East",
-    "Sales Code": "SDNXB20007",
-    "Trade Name": "JAYDEN ELECTRONICS"
-  },
-  {
-    "Territory Partner": "N. Phoenix 2",
-    "Class": "Satlite dealer",
-    "Region": "North Luzon East",
-    "Sales Code": "SDG2PS000122",
-    "Trade Name": "J & K CONSUMER ELECTRONICS TRADING"
-  },
-  {
-    "Territory Partner": "N. Phoenix 2",
-    "Class": "Satlite dealer",
-    "Region": "North Luzon East",
-    "Sales Code": "SPE2PS000123",
-    "Trade Name": "JAY STORE"
-  },
-  {
-    "Territory Partner": "N. Phoenix 2",
-    "Class": "Satlite dealer",
-    "Region": "North Luzon East",
-    "Sales Code": "TYFHGSLB",
-    "Trade Name": "LEONARDO STORE"
-  },
-  {
-    "Territory Partner": "N. Phoenix 2",
-    "Class": "Satlite dealer",
-    "Region": "North Luzon East",
-    "Sales Code": "SDE2PS000522",
-    "Trade Name": "THOMTECH ELECTRONICS"
-  },
-  {
-    "Territory Partner": "NB Rebeta",
-    "Class": "Satlite dealer",
-    "Region": "Lower South Luzon",
-    "Sales Code": "URNEASCR",
-    "Trade Name": "Arman Bercasio"
-  },
-  {
-    "Territory Partner": "NB Rebeta",
-    "Class": "Satlite dealer",
-    "Region": "Lower South Luzon",
-    "Sales Code": "URNGASCG",
-    "Trade Name": "Xerxis Mijares"
-  },
-  {
-    "Territory Partner": "Oro graphic",
-    "Class": "Satlite dealer",
-    "Region": "Northwest Mindanao",
-    "Sales Code": "WK13ASIE",
-    "Trade Name": "ARLYN'S CIGNAL BEST"
-  },
-  {
-    "Territory Partner": "PDI Negros Or",
-    "Class": "Satlite dealer",
-    "Region": "Western Visayas",
-    "Sales Code": "SDPRG40022",
-    "Trade Name": "Ka Juls Cable and Satellite Installation"
-  },
-  {
-    "Territory Partner": "PDI Negros Or",
-    "Class": "Satlite dealer",
-    "Region": "Western Visayas",
-    "Sales Code": "SDG4PR000523",
-    "Trade Name": "Ostia Pisone"
-  },
-  {
-    "Territory Partner": "PDI Negros Or",
-    "Class": "Satlite dealer",
-    "Region": "Western Visayas",
-    "Sales Code": "VCSJASBD",
-    "Trade Name": "RICKY EVO STORE"
-  },
-  {
-    "Territory Partner": "PDI Negros Or",
-    "Class": "Satlite dealer",
-    "Region": "Western Visayas",
-    "Sales Code": "SDPRG40008",
-    "Trade Name": "SDTV Susan Digital TV and Loading Center"
-  },
-  {
-    "Territory Partner": "PDI Panay",
-    "Class": "Satlite dealer",
-    "Region": "Western Visayas",
-    "Sales Code": "SDPYK40066",
-    "Trade Name": "Mavsworld Cable Installation Services"
-  },
-  {
-    "Territory Partner": "PDI Panay",
-    "Class": "Satlite dealer",
-    "Region": "Western Visayas",
-    "Sales Code": "SDJ4PY000422",
-    "Trade Name": "NEXTGENE CABLE INSTALLATION SERVICES"
-  },
-  {
-    "Territory Partner": "PDI Panay",
-    "Class": "Satlite dealer",
-    "Region": "Western Visayas",
-    "Sales Code": "SDPYI40001",
-    "Trade Name": "Vic & Mommy Satellite Center"
-  },
-  {
-    "Territory Partner": "Save and Earn",
-    "Class": "Satlite dealer",
-    "Region": "Central Visayas",
-    "Sales Code": "SDI1SN002022",
-    "Trade Name": "Amba Cignal Store"
-  },
-  {
-    "Territory Partner": "Save and Earn",
-    "Class": "Satlite dealer",
-    "Region": "Central Visayas",
-    "Sales Code": "SDI1SN001222",
-    "Trade Name": "Janette Celphone Repairand Digital Installation"
-  },
-  {
-    "Territory Partner": "TTANS",
-    "Class": "Satlite dealer",
-    "Region": "Central South Luzon",
-    "Sales Code": "UAK97SHC",
-    "Trade Name": "LJEF Electronics & Appliance Center"
-  },
-  {
-    "Territory Partner": "Uniglobal",
-    "Class": "Satlite dealer",
-    "Region": "East Mindanao",
-    "Sales Code": "WU63ABDB",
-    "Trade Name": "CELL SAT"
-  },
-  {
-    "Territory Partner": "Vertext",
-    "Class": "Satlite dealer",
-    "Region": "North Luzon West",
-    "Sales Code": "TAAEASBE",
-    "Trade Name": "ERROL TRINIDAD"
-  },
-  {
-    "Territory Partner": "Vertext",
-    "Class": "Satlite dealer",
-    "Region": "North Luzon West",
-    "Sales Code": "TAAESSCE",
-    "Trade Name": "HISAGANI SAHAGUN"
-  },
-  {
-    "Territory Partner": "Vertext",
-    "Class": "Satlite dealer",
-    "Region": "North Luzon West",
-    "Sales Code": "TAAESSCF",
-    "Trade Name": "Jess Mansanillo"
-  },
-  {
-    "Territory Partner": "Vertext",
-    "Class": "Satlite dealer",
-    "Region": "North Luzon West",
-    "Sales Code": "TAACASSB",
-    "Trade Name": "Ryan Andres"
-  },
-  {
-    "Territory Partner": "Vertext 2",
-    "Class": "Satlite dealer",
-    "Region": "North Luzon West",
-    "Sales Code": "TAALSBBC",
-    "Trade Name": "ADRIAN CHRISTOPHER CAMBA"
-  },
-  {
-    "Territory Partner": "Vertext 2",
-    "Class": "Satlite dealer",
-    "Region": "North Luzon West",
-    "Sales Code": "TAALGSBB",
-    "Trade Name": "ARTEMON AGSANO"
-  },
-  {
-    "Territory Partner": "Vertext 2",
-    "Class": "Satlite dealer",
-    "Region": "North Luzon West",
-    "Sales Code": "TAAGASDB",
-    "Trade Name": "JION GADGET CLINIC ACCESSORIES AND GENERAL MERCHANDISE"
-  },
-  {
-    "Territory Partner": "Alain Asia South",
-    "Class": "TP Outlet",
-    "Region": "Central Visayas",
-    "Sales Code": "TSA1AS003123",
-    "Trade Name": "One Central Cignal Kiosk"
-  },
-  {
-    "Territory Partner": "BSL",
-    "Class": "TP Outlet",
-    "Region": "NCR",
-    "Sales Code": "XQXNAXXX",
-    "Trade Name": "BSL CABLE INSTALLATION SERVICES"
-  },
-  {
-    "Territory Partner": "BSL BULACAN",
-    "Class": "TP Outlet",
-    "Region": "NCR",
-    "Sales Code": "TSV1TE001323",
-    "Trade Name": "BSL2-Plaridel."
-  },
-  {
-    "Territory Partner": "Cayanan",
-    "Class": "TP Outlet",
-    "Region": "Central Luzon",
-    "Sales Code": "T2H9AXXX",
-    "Trade Name": "Eskuino 2 Tibag St. Lalawigan Samal Bataan"
-  },
-  {
-    "Territory Partner": "Cellcom Central East",
-    "Class": "TP Outlet",
-    "Region": "East Visayas",
-    "Sales Code": "VSW2ASCM",
-    "Trade Name": "Cellcom (Megastore branch)"
-  },
-  {
-    "Territory Partner": "Cellcom Central East",
-    "Class": "TP Outlet",
-    "Region": "East Visayas",
-    "Sales Code": "VSW2ASCN",
-    "Trade Name": "Cellcom (Sm savemore branch)"
-  },
-  {
-    "Territory Partner": "Cellcom Central East",
-    "Class": "TP Outlet",
-    "Region": "East Visayas",
-    "Sales Code": "VSW2ASCL",
-    "Trade Name": "Cellcom (Zamora branch)"
-  },
-  {
-    "Territory Partner": "Cellcom Central East",
-    "Class": "TP Outlet",
-    "Region": "East Visayas",
-    "Sales Code": "TSC1CC001122",
-    "Trade Name": "Cellcom Carigara"
-  },
-  {
-    "Territory Partner": "Cellcom Central East",
-    "Class": "TP Outlet",
-    "Region": "East Visayas",
-    "Sales Code": "TSE1CC001323",
-    "Trade Name": "Cellcom Store - Guiuan"
-  },
-  {
-    "Territory Partner": "Cellcom Central East",
-    "Class": "TP Outlet",
-    "Region": "East Visayas",
-    "Sales Code": "TSE1CC001423",
-    "Trade Name": "Cellcom Store - Sofia Borongan City"
-  },
-  {
-    "Territory Partner": "Cellcom Southern East",
-    "Class": "TP Outlet",
-    "Region": "East Visayas",
-    "Sales Code": "VSWBASCH",
-    "Trade Name": "CELLCOM CENTRAL BAYBAY BRANCH"
-  },
-  {
-    "Territory Partner": "Cellcom Southern East",
-    "Class": "TP Outlet",
-    "Region": "East Visayas",
-    "Sales Code": "VSWHQSAD",
-    "Trade Name": "CELLCOM IALODGE ORMOC"
-  },
-  {
-    "Territory Partner": "Cellcom Southern East",
-    "Class": "TP Outlet",
-    "Region": "East Visayas",
-    "Sales Code": "VSWHQSAC",
-    "Trade Name": "CELLCOM ROBINSONS ORMOC"
-  },
-  {
-    "Territory Partner": "Fixcells",
-    "Class": "TP Outlet",
-    "Region": "North Luzon East",
-    "Sales Code": "TKCBASCC",
-    "Trade Name": "FIXCELLS TELECOM AND ACCESSORIES - BONGABON"
-  },
-  {
-    "Territory Partner": "Fixcells",
-    "Class": "TP Outlet",
-    "Region": "North Luzon East",
-    "Sales Code": "TKCCASDH",
-    "Trade Name": "FIXCELLS TELECOM AND ACCESSORIES - CABANATUAN"
-  },
-  {
-    "Territory Partner": "Fixcells",
-    "Class": "TP Outlet",
-    "Region": "North Luzon East",
-    "Sales Code": "TKCLASCD",
-    "Trade Name": "FIXCELLS TELECOM AND ACCESSORIES - LAUR"
-  },
-  {
-    "Territory Partner": "Giga Dragon",
-    "Class": "TP Outlet",
-    "Region": "South Mindanao",
-    "Sales Code": "TSV3M2000623",
-    "Trade Name": "Mega Durian Gensan"
-  },
-  {
-    "Territory Partner": "Go Sigla",
-    "Class": "TP Outlet",
-    "Region": "Central South Luzon",
-    "Sales Code": "U21XJXXX",
-    "Trade Name": "Go Sigla Distribution, Inc."
-  },
-  {
-    "Territory Partner": "Greentelcom 2 (Rizal)",
-    "Class": "TP Outlet",
-    "Region": "NCR",
-    "Sales Code": "TSEPF3001325",
-    "Trade Name": "Greentelcom Rizal"
-  },
-  {
-    "Territory Partner": "Innovasia Batangas",
-    "Class": "TP Outlet",
-    "Region": "Upper South Luzon",
-    "Sales Code": "UAICBXXX",
-    "Trade Name": "Rizal Ave., Batangas City"
-  },
-  {
-    "Territory Partner": "Koks",
-    "Class": "TP Outlet",
-    "Region": "Western Visayas",
-    "Sales Code": "VDPXRCPS",
-    "Trade Name": "Kok's de Capiz SMART Products and Services - Gaisano City Mall Roxas"
-  },
-  {
-    "Territory Partner": "Oxworld",
-    "Class": "TP Outlet",
-    "Region": "NCR",
-    "Sales Code": "TSN4OW000723",
-    "Trade Name": "Oxworld International Inc."
-  },
-  {
-    "Territory Partner": "PDI Negros",
-    "Class": "TP Outlet",
-    "Region": "Western Visayas",
-    "Sales Code": "TSPNF40005",
-    "Trade Name": "POS Digital Ayala"
-  },
-  {
-    "Territory Partner": "PDI Negros",
-    "Class": "TP Outlet",
-    "Region": "Western Visayas",
-    "Sales Code": "VBRDAXXX",
-    "Trade Name": "POS DIGITAL CADIZ"
-  },
-  {
-    "Territory Partner": "PDI Negros",
-    "Class": "TP Outlet",
-    "Region": "Western Visayas",
-    "Sales Code": "TSPNF40002",
-    "Trade Name": "POS Digital Chinatown 888"
-  },
-  {
-    "Territory Partner": "PDI Negros",
-    "Class": "TP Outlet",
-    "Region": "Western Visayas",
-    "Sales Code": "VBRMBXXX",
-    "Trade Name": "POS DIGITAL KABANKALAN"
-  },
-  {
-    "Territory Partner": "PDI Negros",
-    "Class": "TP Outlet",
-    "Region": "Western Visayas",
-    "Sales Code": "VBRNAXXX",
-    "Trade Name": "POS DIGITAL LA CARLOTA"
-  },
-  {
-    "Territory Partner": "PDI Negros",
-    "Class": "TP Outlet",
-    "Region": "Western Visayas",
-    "Sales Code": "TSPNF40003",
-    "Trade Name": "POS Digital Robinsons"
-  },
-  {
-    "Territory Partner": "PDI Negros",
-    "Class": "TP Outlet",
-    "Region": "Western Visayas",
-    "Sales Code": "VBRVAXXX",
-    "Trade Name": "POS DIGITAL SAN CARLOS"
-  },
-  {
-    "Territory Partner": "PDI Negros",
-    "Class": "TP Outlet",
-    "Region": "Western Visayas",
-    "Sales Code": "VBRXASCE",
-    "Trade Name": "POS DIGITAL SILAY "
-  },
-  {
-    "Territory Partner": "PDI Negros",
-    "Class": "TP Outlet",
-    "Region": "Western Visayas",
-    "Sales Code": "TSPNF40004",
-    "Trade Name": "POS Digital SM"
-  },
-  {
-    "Territory Partner": "PDI Negros",
-    "Class": "TP Outlet",
-    "Region": "Western Visayas",
-    "Sales Code": "VBRAAXXX",
-    "Trade Name": "POS Digital, Ponce Building, Araneta St., Bacolod City, Negros Occidental"
-  },
-  {
-    "Territory Partner": "PDI Negros",
-    "Class": "TP Outlet",
-    "Region": "Western Visayas",
-    "Sales Code": "VBRAASDT",
-    "Trade Name": "POS Digital/POS HOME"
-  },
-  {
-    "Territory Partner": "Save and Earn",
-    "Class": "TP Outlet",
-    "Region": "Central Visayas",
-    "Sales Code": "VLUNAXXX",
-    "Trade Name": "Cignal Retail - SNE BQ"
-  },
-  {
-    "Territory Partner": "Save and Earn",
-    "Class": "TP Outlet",
-    "Region": "Central Visayas",
-    "Sales Code": "VLUMAXXX",
-    "Trade Name": "Cignal Retail - SNE The City Square"
-  },
-  {
-    "Territory Partner": "Save and Earn",
-    "Class": "TP Outlet",
-    "Region": "Central Visayas",
-    "Sales Code": "VLULFXXX",
-    "Trade Name": "SAVE 'N EARN - ALTURAS"
-  },
-  {
-    "Territory Partner": "Save and Earn",
-    "Class": "TP Outlet",
-    "Region": "Central Visayas",
-    "Sales Code": "VLUBAXXX",
-    "Trade Name": "SAVE 'N EARN - CALAPE"
-  },
-  {
-    "Territory Partner": "Save and Earn",
-    "Class": "TP Outlet",
-    "Region": "Central Visayas",
-    "Sales Code": "TSI1SN000822",
-    "Trade Name": "Save N Earn - Candijay Branch"
-  },
-  {
-    "Territory Partner": "Save and Earn",
-    "Class": "TP Outlet",
-    "Region": "Central Visayas",
-    "Sales Code": "VLUFAXXX",
-    "Trade Name": "SAVE 'N EARN - DIMIAO"
-  },
-  {
-    "Territory Partner": "Save and Earn",
-    "Class": "TP Outlet",
-    "Region": "Central Visayas",
-    "Sales Code": "VLUGAXXX",
-    "Trade Name": "SAVE 'N EARN - GUINDULMAN"
-  },
-  {
-    "Territory Partner": "Save and Earn",
-    "Class": "TP Outlet",
-    "Region": "Central Visayas",
-    "Sales Code": "VLULMCPS",
-    "Trade Name": "Save N' Earn - ICM Mall"
-  },
-  {
-    "Territory Partner": "Save and Earn",
-    "Class": "TP Outlet",
-    "Region": "Central Visayas",
-    "Sales Code": "VLUHAXXX",
-    "Trade Name": "SAVE 'N EARN - INABANGA"
-  },
-  {
-    "Territory Partner": "Save and Earn",
-    "Class": "TP Outlet",
-    "Region": "Central Visayas",
-    "Sales Code": "VLUJJXXX",
-    "Trade Name": "SAVE 'N EARN - JAGNA"
-  },
-  {
-    "Territory Partner": "Save and Earn",
-    "Class": "TP Outlet",
-    "Region": "Central Visayas",
-    "Sales Code": "VLURISAC",
-    "Trade Name": "SAVE 'N EARN - LOAY"
-  },
-  {
-    "Territory Partner": "Save and Earn",
-    "Class": "TP Outlet",
-    "Region": "Central Visayas",
-    "Sales Code": "VLUJAXXX",
-    "Trade Name": "SAVE 'N EARN - LOON"
-  },
-  {
-    "Territory Partner": "Save and Earn",
-    "Class": "TP Outlet",
-    "Region": "Central Visayas",
-    "Sales Code": "VLUSASCD",
-    "Trade Name": "SAVE 'N EARN - SAGBAYAN"
-  },
-  {
-    "Territory Partner": "Save and Earn",
-    "Class": "TP Outlet",
-    "Region": "Central Visayas",
-    "Sales Code": "VLUS3XXX",
-    "Trade Name": "SAVE 'N EARN - VALENCIA"
-  },
-  {
-    "Territory Partner": "Save and Earn",
-    "Class": "TP Outlet",
-    "Region": "Central Visayas",
-    "Sales Code": "TSI1SN002222",
-    "Trade Name": "Save N Earn Garcia"
-  },
-  {
-    "Territory Partner": "Save and Earn",
-    "Class": "TP Outlet",
-    "Region": "Central Visayas",
-    "Sales Code": "TSI1SN002122",
-    "Trade Name": "Save N Earn Sierra Bullones"
-  },
-  {
-    "Territory Partner": "Save and Earn",
-    "Class": "TP Outlet",
-    "Region": "Central Visayas",
-    "Sales Code": "TSI1SN000523",
-    "Trade Name": "SNE Alicia Branch"
-  },
-  {
-    "Territory Partner": "Save and Earn",
-    "Class": "TP Outlet",
-    "Region": "Central Visayas",
-    "Sales Code": "VLUOAXXX",
-    "Trade Name": "SNE Branch/Mirasol Aguilar"
-  },
-  {
-    "Territory Partner": "Save and Earn",
-    "Class": "TP Outlet",
-    "Region": "Central Visayas",
-    "Sales Code": "VLUDAXXX",
-    "Trade Name": "SNE Branch/Renalyn Milloren"
-  },
-  {
-    "Territory Partner": "Technoclear",
-    "Class": "TP Outlet",
-    "Region": "Central South Luzon",
-    "Sales Code": "TSS1002222",
-    "Trade Name": "CIGNAL TECHNOCLEAR STORE"
-  },
-  {
-    "Territory Partner": "Technoclear",
-    "Class": "TP Outlet",
-    "Region": "Central South Luzon",
-    "Sales Code": "TSS1002422",
-    "Trade Name": "CLEARCOM LUCBAN"
-  },
-  {
-    "Territory Partner": "Technoclear",
-    "Class": "TP Outlet",
-    "Region": "Central South Luzon",
-    "Sales Code": "UKKJAXXX",
-    "Trade Name": "CLEARCOM ONGVILLE"
-  },
-  {
-    "Territory Partner": "Technoclear",
-    "Class": "TP Outlet",
-    "Region": "Central South Luzon",
-    "Sales Code": "UKKKBXXX",
-    "Trade Name": "CLEARCOM PACIFIC"
-  },
-  {
-    "Territory Partner": "Technoclear",
-    "Class": "TP Outlet",
-    "Region": "Central South Luzon",
-    "Sales Code": "TSS1002322",
-    "Trade Name": "CLEARCOM SARIAYA BRANCH"
-  },
-  {
-    "Territory Partner": "Technoclear",
-    "Class": "TP Outlet",
-    "Region": "Central South Luzon",
-    "Sales Code": "UKKKCXXX",
-    "Trade Name": "CLEARCOM SM CITY"
-  },
-  {
-    "Territory Partner": "TTANS",
-    "Class": "TP Outlet",
-    "Region": "Central South Luzon",
-    "Sales Code": "UAK8ASCH",
-    "Trade Name": "T.TAN's DROP-IN SHOP"
-  },
-  {
-    "Territory Partner": "Vertext",
-    "Class": "TP Outlet",
-    "Region": "North Luzon West",
-    "Sales Code": "TAABASAF",
-    "Trade Name": "NEW VERTEXT HANDY PHONES (PUREGOLD LAOAG)"
-  },
-  {
-    "Territory Partner": "Vertext",
-    "Class": "TP Outlet",
-    "Region": "North Luzon West",
-    "Sales Code": "TAAAAXXX",
-    "Trade Name": "NEW VERTEXT HANDYPHONES (Batac)Washington St 1-s, Valdez  Batac City Ilocos Norte"
-  },
-  {
-    "Territory Partner": "Vertext",
-    "Class": "TP Outlet",
-    "Region": "North Luzon West",
-    "Sales Code": "TAABBXXX",
-    "Trade Name": "NEW VERTEXT HANDYPHONES (Capitol), 1222 JP Rizal Ave Laoag City Ilocos Norte"
-  },
-  {
-    "Territory Partner": "Vertext",
-    "Class": "TP Outlet",
-    "Region": "North Luzon West",
-    "Sales Code": "TAABCXXX",
-    "Trade Name": "NEW VERTEXT HANDYPHONES (Laoag City Public Market) Abadilla St. 17 Laoag City Ilocos Norte"
-  },
-  {
-    "Territory Partner": "Vertext 2",
-    "Class": "TP Outlet",
-    "Region": "North Luzon West",
-    "Sales Code": "TAAJAXXX",
-    "Trade Name": "Benjos Bldg. Bonifacio St. Brgy. 1, Vigan City, Ilocos Sur"
   }
 ];
 
