@@ -258,10 +258,155 @@
                                         <h4 class="header-title text-center"></h4>
                                         <div class="mb-3 text-center">
                                             <label class="form-label fw-bold text-danger" for="inputAddress">City / Province :</label>
-                                            <input type="text" id="inputAddress" class="form-control text-center text-dark" placeholder="Enter address here..." required="">
-
+                                            <!-- <input type="text" id="inputAddress" class="form-control text-center text-dark" placeholder="Enter address here..." required=""> -->
+                                            <select class="form-control select2" id="inputAddress" onchange="searchBilling()" data-toggle="select2" data-placeholder="Select Billing Cycle">
+                                                <option value="">Select Billing Cycle</option>
+                                                <optgroup label="Metro Manila (BC1)">
+                                                    <option value="Caloocan City">Caloocan City</option>
+                                                    <option value="Las Piñas City">Las Piñas City</option>
+                                                    <option value="Makati City">Makati City</option>
+                                                    <option value="Manila">Manila</option>
+                                                    <option value="Marikina City">Marikina City</option>
+                                                    <option value="Muntinlupa City">Muntinlupa City</option>
+                                                    <option value="Navotas City">Navotas City</option>
+                                                    <option value="Parañaque City">Parañaque City</option>
+                                                    <option value="Pasay City">Pasay City</option>
+                                                    <option value="Pasig City">Pasig City</option>
+                                                    <option value="Quezon City">Quezon City</option>
+                                                    <option value="San Juan City">San Juan City</option>
+                                                    <option value="Taguig City">Taguig City</option>
+                                                    <option value="Valenzuela City">Valenzuela City</option>
+                                                    <option value="Pateros">Pateros</option>
+                                                    <option value="Malabon City">Malabon City</option>
+                                                    <option value="Mandaluyong City">Mandaluyong City</option>
+                                                </optgroup>
+                                                <optgroup label="North Luzon (BC2)">
+                                                    <option value="Pangasinan">Pangasinan</option>
+                                                    <option value="La Union">La Union</option>
+                                                    <option value="Ilocos Norte">Ilocos Norte</option>
+                                                    <option value="Ilocos Sur">Ilocos Sur</option>
+                                                    <option value="Cagayan">Cagayan</option>
+                                                    <option value="Isabela">Isabela</option>
+                                                    <option value="Nueva Vizcaya">Nueva Vizcaya</option>
+                                                    <option value="Benguet">Benguet</option>
+                                                    <option value="Abra">Abra</option>
+                                                    <option value="Apayao">Apayao</option>
+                                                    <option value="Ifugao">Ifugao</option>
+                                                    <option value="Kalinga">Kalinga</option>
+                                                    <option value="Mountain Province">Mountain Province</option>
+                                                    <option value="Batanes">Batanes</option>
+                                                    <option value="Quirino">Quirino</option>
+                                                    <option value="Aurora">Aurora</option>
+                                                    <option value="Bataan">Bataan</option>
+                                                    <option value="Bulacan">Bulacan</option>
+                                                    <option value="Nueva Ecija">Nueva Ecija</option>
+                                                    <option value="Pampanga">Pampanga</option>
+                                                    <option value="Tarlac">Tarlac</option>
+                                                    <option value="Zambales">Zambales</option>
+                                                    <option value="Olongapo City">Olongapo City</option>
+                                                    <option value="Baguio City">Baguio City</option>
+                                                </optgroup>
+                                                <optgroup label="South Luzon (BC3)">
+                                                    <option value="Laguna">Laguna</option>
+                                                    <option value="Batangas">Batangas</option>
+                                                    <option value="Cavite">Cavite</option>
+                                                    <option value="Quezon">Quezon</option>
+                                                    <option value="Rizal">Rizal</option>
+                                                    <option value="Occidental Mindoro">Occidental Mindoro</option>
+                                                    <option value="Oriental Mindoro">Oriental Mindoro</option>
+                                                    <option value="Marinduque">Marinduque</option>
+                                                    <option value="Camarines Sur">Camarines Sur</option>
+                                                    <option value="Albay">Albay</option>
+                                                    <option value="Camarines Norte">Camarines Norte</option>
+                                                    <option value="Sorsogon">Sorsogon</option>
+                                                    <option value="Catanduanes">Catanduanes</option>
+                                                    <option value="Masbate">Masbate</option>
+                                                    <option value="Romblon">Romblon</option>
+                                                    <option value="Palawan">Palawan</option>
+                                                    <option value="Puerto Princesa City">Puerto Princesa City</option>
+                                                    <option value="Lucena City">Lucena City</option>
+                                                    <option value="Batangas City">Batangas City</option>
+                                                    <option value="Lipa City">Lipa City</option>
+                                                    <option value="San Pablo City">San Pablo City</option>
+                                                    <option value="Calapan City">Calapan City</option>
+                                                    <option value="Mamburao City">Mamburao City</option>
+                                                    <option value="Boac City">Boac City</option>
+                                                    <option value="Masbate City">Masbate City</option>
+                                                    <option value="Naga City">Naga City</option>
+                                                    <option value="Iriga City">Iriga City</option>
+                                                    <option value="Tabaco City">Tabaco City</option>
+                                                    <option value="Legazpi City">Legazpi City</option>
+                                                    <option value="Sorsogon City">Sorsogon City</option>
+                                                </optgroup>
+                                                <optgroup label="Visayas (BC4)">
+                                                    <option value="Iloilo">Iloilo</option>
+                                                    <option value="Negros Occidental">Negros Occidental</option>
+                                                    <option vlaue="Dumaguete">Dumaguete</option>
+                                                    <option value="Aklan">Aklan</option>
+                                                    <option value="Antique">Antique</option>
+                                                    <option value="Capiz">Capiz</option>
+                                                    <option value="Guimaras">Guimaras</option>
+                                                    <option value="Bohol">Bohol</option>
+                                                    <option value="Cebu">Cebu</option>
+                                                    <option value="Negros Oriental">Negros Oriental</option>
+                                                    <option value="Siquijor">Siquijor</option>
+                                                    <option value="Biliran">Biliran</option>
+                                                    <option value="Eastern Samar">Eastern Samar</option>
+                                                    <option value="Leyte">Leyte</option>
+                                                    <option value="Northern Samar">Northern Samar</option>
+                                                    <option value="Southern Samar">Southern Samar</option>
+                                                    <option value="Western Samar">Western Samar</option>
+                                                    <option value="Dinagat Islands">Dinagat Islands</option>
+                                                </optgroup>
+                                                <optgroup label="Mindanao (BC5)">
+                                                    <option value="Basilan">Basilan</option>
+                                                    <option value="Davao Del Sur">Davao Del Sur</option>
+                                                    <option value="Cagayan de Oro">Cagayan de Oro</option>
+                                                    <option value="Zamboanga Sibugay">Zamboanga Sibugay</option>
+                                                    <option value="Zamboanga Del Norte">Zamboanga Del Norte</option>
+                                                    <option value="Zamboanga Del Sur">Zamboanga Del Sur</option>
+                                                    <option value="Butuan">Butuan</option>
+                                                    <option value="Bukidnon">Bukidnon</option>
+                                                    <option value="Camiguin">Camiguin</option>
+                                                    <option value="Lanao Del Norte">Lanao Del Norte</option>
+                                                    <option value="Misamis Occidental">Misamis Occidental</option>
+                                                    <option value="Misamis Oriental">Misamis Oriental</option>
+                                                    <option value="Compostela Valley">Compostela Valley</option>
+                                                    <option value="Davao Oriental">Davao Oriental</option>
+                                                    <option value="Davao Del Norte">Davao Del Norte</option>
+                                                    <option value="Cotabato">Cotabato</option>
+                                                    <option value="Maguindanao">Maguindanao</option>
+                                                    <option value="Sarangani">Sarangani</option>
+                                                    <option value="South Cotabato">South Cotabato</option>
+                                                    <option value="Sultan Kudarat">Sultan Kudarat</option>
+                                                    <option value="Lanao Del Sur">Lanao Del Sur</option>
+                                                    <option value="Shariff Kabunsuan">Shariff Kabunsuan</option>
+                                                    <option value="Sulu">Sulu</option>
+                                                    <option value="Tawi-Tawi">Tawi-Tawi</option>
+                                                    <option value="Agusan Del Norte">Agusan Del Norte</option>
+                                                    <option value="Agusan Del Sur">Agusan Del Sur</option>
+                                                    <option value="Surigao Del Norte">Surigao Del Norte</option>
+                                                    <option value="Surigao Del Sur">Surigao Del Sur</option>
+                                                    <option value="Davao City">Davao City</option>
+                                                    <option value="General Santos City">General Santos City</option>
+                                                    <option value="Koronadal City">Koronadal City</option>
+                                                    <option value="Tagum City">Tagum City</option>
+                                                    <option value="Isabela City">Isabela City</option>
+                                                    <option value="Zamboanga City">Zamboanga City</option>
+                                                    <option value="Cotabato City">Cotabato City</option>
+                                                    <option value="Kidapawan City">Kidapawan City</option>
+                                                    <option value="Lamitan City">Lamitan City</option>
+                                                    <option value="Malaybalay City">Malaybalay City</option>
+                                                    <option value="Oroquieta City">Oroquieta City</option>
+                                                    <option value="Ozamiz City">Ozamiz City</option>
+                                                    <option value="Tangub City">Tangub City</option>
+                                                    <option value="Cabadbaran City">Cabadbaran City</option>
+                                                    <option value="Bayugan City">Bayugan City</option>
+                                                    <option value="Bislig City">Bislig City</option>
+                                                </optgroup>
+                                            </select>
                                             <script>
-                                                document.getElementById("inputAddress").addEventListener("keypress", function(event) {
+                                                document.getElementById("inputAddress").addEventListener("change", function(event) {
                                                     if (event.key === "Enter") {
                                                         event.preventDefault();
                                                         searchBilling();
