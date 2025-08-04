@@ -159,7 +159,7 @@ function searchBilling() {
             {
                 "Super Region": "Metro Manila",
                 "Regions": ["NCR"],
-                "Cities": ["Caloocan City", "Las Piñas City", "Makati City", "Manila", "Marikina City", "Muntinlupa City", "Navotas City", "Paranaque City", "Pasay City", 
+                "Cities": ["Caloocan City", "Las Piñas City", "Makati City", "Manila", "Marikina City", "Muntinlupa City", "Navotas City", "Parañaque City", "Pasay City", 
                     "Pasig City", "Quezon City", "San Juan City", "Taguig City", "Valenzuela City", "Pateros", "Malabon City", "Mandaluyong City"],
                 "Billing Cycle": "BC1",
                 "Bill generation": "1st",
