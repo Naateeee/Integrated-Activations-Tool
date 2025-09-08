@@ -249,9 +249,9 @@
                             <div class="page-title-box">
                                 <div class="page-title-right">
                                     <ol class="breadcrumb m-0">
-                                        <li class="breadcrumb-item"></i><a href="index.html">Integrateds Activation Tool</a></li>
-                                        <li class="breadcrumb-item"></i><a href="#">Notes Generator</a></li>
-                                        <li class="breadcrumb-item fw-bold">For Activation</li>
+                                        <li class="breadcrumb-item"><a href="index.html">Integrateds Activation Tool</a></li>
+                                        <li class="breadcrumb-item"><a href="javascript: void(0);">Notes Generator</a></li>
+                                        <li class="breadcrumb-item active">For Activation</li>
                                     </ol>
                                 </div>
                                 <h5 class="page-title text-dark">SUCCESSFUL CALL OUT FOR ACTIVATION</h5>
@@ -265,78 +265,137 @@
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col-6">
-                                            <h4 class="header-title mb-3 text-dark">Call Out details</h4>
+                                            <h4 class="header-title mb-3 text-danger">Account for Activation</h4>
 
-                                            <form class="form-horizontal">
-                                                <div class="row mb-2">
-                                                    <label class="col-4 col-form-label text-md-end text-danger">Phone Verification:</label>
-                                                    <div class="col-8">
-                                                        <select class="form-select text-dark" id="phoneVerification_input" oninput="forActivation()">
-                                                            <option></option>
-                                                            <option>Successful Call Out using Avaya</option>
-                                                            <option>Successful Call Out using Dialer</option>
-                                                            <option>Successful Call Out using SU</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="row mb-2">
-                                                    <label class="col-4 col-form-label text-md-end text-danger">1st Party Call Out:</label>
-                                                    <div class="col-8">
-                                                    <select class="form-select text-dark" id="PID_input" oninput="forActivation()">
-                                                            <option></option>
-                                                            <option>Not Applicable</option>
-                                                            <option>Customer</option>
-                                                            <option>Husband</option>
-                                                            <option>Wife</option>
-                                                            <option>Others (Son/Daughter etc.)</option>
-                                                            <option>Secondary Contact Person</option>
-                                                        </select>
-                                                    </div>
-                                                </div>
-                                                <div class="row mb-2">
-                                                    <label class="col-4 col-form-label text-md-end text-danger">Items Discussed:</label>
-                                                    <div class="col-8">
-                                                        <input class="form-control text-dark" id="itemsDiscussed_input" oninput="forActivation()">
-                                                    </div>
-                                                </div>
-                                                <br>
+                                            <ul class="nav nav-tabs mb-3">
+                                                <li class="nav-item">
+                                                    <a href="#input-types-activation" data-bs-toggle="tab" aria-expanded="true" class="nav-link active" onclick="forActivation()">
+                                                        <i class="mdi mdi-home-variant d-md-none d-block"></i>
+                                                        <span class="d-none d-md-block">Activation</span>
+                                                    </a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="#input-types-textblast" data-bs-toggle="tab" aria-expanded="true" class="nav-link" onclick="generateActivationMessage()">
+                                                        <i class="mdi mdi-home-variant d-md-none d-block"></i>
+                                                        <span class="d-none d-md-block">Text Blast</span>
+                                                    </a>
+                                                </li>
+                                            </ul>
 
-                                                <div class="dropdown float-end">
-                                                    <a href="#" class="dropdown-toggle card-drop text-dark" data-bs-toggle="dropdown" aria-expanded="false"></a>
-                                                    <div class="dropdown-menu dropdown-menu-end">
-                                                        <a class="dropdown-item" role="button" onclick="copiedOptionHPA('PLAN AVAIL')"><i class="uil-shopping-trolley text-danger"></i>
-                                                            <span class="small text-dark">&nbsp;Plan Avail</span></a>
-                                                        <a class="dropdown-item" role="button" onclick="copiedOptionHPA('290 1 BOX')"><i class="uil-shopping-trolley text-danger"></i>
-                                                            <span class="small text-dark">&nbsp;290 1 Box</span></a>
-                                                        <a class="dropdown-item" role="button" onclick="copiedOptionHPA('520 3 BOXES')"><i class="uil-shopping-trolley text-danger"></i>
-                                                            <span class="small text-dark">&nbsp;520 3 Boxes</span></a>
-                                                        <a class="dropdown-item" role="button" onclick="copiedOptionHPA('1990 4 BOXES')"><i class="uil-shopping-trolley text-danger"></i>
-                                                            <span class="small text-dark">&nbsp;1990 4 Boxes</span></a>
-                                                    </div>
+                                            <div class="tab-content">
+
+                                                <div class="tab-pane show active" id="input-types-activation">
+                                                    <form class="form-horizontal">
+                                                        <h4 class="header-title mb-3 text-danger">Call out details</h4>
+                                                        <div class="row mb-2">
+                                                            <label class="col-4 col-form-label text-end">Contact Method:</label>
+                                                            <div class="col-8">
+                                                                <select class="form-select" id="contactMethod" oninput="forActivation()">
+                                                                    <option></option>
+                                                                    <option>Successful Call Out using Avaya</option>
+                                                                    <option>Successful Call Out using Dialer</option>
+                                                                    <option>Successful Call Out using SU</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mb-2">
+                                                            <label class="col-4 col-form-label text-end">Call Respondent:</label>
+                                                            <div class="col-8">
+                                                                <select class="form-select" id="callRespondent" oninput="forActivation()">
+                                                                    <option></option>
+                                                                    <option>Not Applicable</option>
+                                                                    <option>Customer</option>
+                                                                    <option>Husband</option>
+                                                                    <option>Wife</option>
+                                                                    <option>Others (Son/Daughter etc.)</option>
+                                                                    <option>Secondary Contact Person</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mb-2">
+                                                            <label class="col-4 col-form-label text-end">Items Discussed:</label>
+                                                            <div class="col-8">
+                                                                <input class="form-control" id="itemsDiscussed" oninput="forActivation()">
+                                                            </div>
+                                                        </div>
+                                                        <br>
+
+                                                        <div class="dropdown float-end">
+                                                            <a href="#" class="dropdown-toggle arrow-none card-drop text-dark" data-bs-toggle="dropdown" aria-expanded="false"><i class="mdi mdi-dots-vertical"></i></a>
+                                                            <div class="dropdown-menu dropdown-menu-end">
+                                                                <a class="dropdown-item" role="button" onclick="copiedOptionHighestPlan('PLAN AVAIL')"><i class="uil-shopping-trolley text-danger"></i>
+                                                                    <span class="small text-dark">&nbsp;Plan Avail</span></a>
+                                                                <a class="dropdown-item" role="button" onclick="copiedOptionHighestPlan('290 1 BOX')"><i class="uil-shopping-trolley text-danger"></i>
+                                                                    <span class="small text-dark">&nbsp;290 1 Box</span></a>
+                                                                <a class="dropdown-item" role="button" onclick="copiedOptionHighestPlan('520 3 BOXES')"><i class="uil-shopping-trolley text-danger"></i>
+                                                                    <span class="small text-dark">&nbsp;520 3 Boxes</span></a>
+                                                                <a class="dropdown-item" role="button" onclick="copiedOptionHighestPlan('1990 4 BOXES')"><i class="uil-shopping-trolley text-danger"></i>
+                                                                    <span class="small text-dark">&nbsp;1990 4 Boxes</span></a>
+                                                            </div>
+                                                        </div>
+
+                                                        <h4 class="header-title mb-3 text-danger">Activation details</h4>
+                                                        <div class="row mb-2">
+                                                            <label class="col-4 col-form-label text-md-end">Highest Plan Approved:</label>
+                                                            <div class="col-8">
+                                                                <input class="form-control" id="highestPlan" oninput="forActivation()">
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mb-3">
+                                                            <label class="col-4 col-form-label text-md-end">Ticket Number:</label>
+                                                            <div class="col-8">
+                                                                <input class="form-control" id="ticketNumber" oninput="forActivation()">
+                                                            </div>
+                                                        </div>
+                                                    </form>
                                                 </div>
 
-                                                <h4 class="header-title mb-3 text-dark">Activation details</h4>
-                                                <div class="row mb-2">
-                                                    <label class="col-4 col-form-label text-md-end text-danger">Highest Plan:</label>
-                                                    <div class="col-8">
-                                                        <input class="form-control text-dark" id="HPA_input" oninput="forActivation()">
-                                                    </div>
+                                                <div class="tab-pane" id="input-types-textblast">
+                                                    <form class="form-horizontal">
+                                                        <div class="row mb-2">
+                                                            <label class="col-4 col-form-label text-md-end">Number Of Boxes:</label>
+                                                            <div class="col-8">
+                                                                <input class="form-control" id="numberOfBoxes" oninput="generateActivationMessage()">
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mb-2">
+                                                            <label class="col-4 col-form-label text-md-end">Plan Availed:</label>
+                                                            <div class="col-8">
+                                                                <select class="form-select" id="planAvailed" oninput="generateActivationMessage()">
+                                                                    <option></option>
+                                                                    <option>Plan 290</option>
+                                                                    <option>Plan 520</option>
+                                                                    <option>Plan 720</option>
+                                                                    <option>Plan 1050</option>
+                                                                    <option>Plan 1350</option>
+                                                                    <option>Plan 1650</option>
+                                                                    <option>Plan 1990</option>
+                                                                    <option>Basic Theme Pack 300 All Things Entertainment</option>
+                                                                    <option>Basic Theme Pack 300 Sports Action</option>
+                                                                    <option>Basic Theme Pack 300 Pinoy and Asian</option>
+                                                                    <option>Basic Theme Pack 300 Fam Time</option>
+                                                                    <option>Commercial Plan 350</option>
+                                                                    <option>Commercial Plan 550</option>
+                                                                </select>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mb-3">
+                                                            <label class="col-4 col-form-label text-md-end">Account Number:</label>
+                                                            <div class="col-8">
+                                                                <input class="form-control" id="accountNumber" oninput="generateActivationMessage()">
+                                                            </div>
+                                                        </div>
+                                                    </form>
                                                 </div>
-                                                <div class="row mb-3">
-                                                    <label class="col-4 col-form-label text-md-end text-danger">Ticket Number:</label>
-                                                    <div class="col-8">
-                                                        <input class="form-control text-dark" id="IRN_input" oninput="forActivation()">
-                                                    </div>
-                                                </div>
-                                            </form>
-
+                                            </div>
+                                        
                                         </div>
 
                                         <div class="col-6">
-                                            <h4 class="header-title mb-3 text-dark">Notes Result</h4>
+                                            <h4 class="header-title mb-3 text-danger">Preview</h4>
                                             <form>
                                                 <div class="mb-3">
-                                                    <textarea style="height: 300px; resize: none;" class="form-control" id="notes_value" readonly></textarea>
+                                                    <textarea style="height: 402px; resize: none;" class="form-control text-dark" id="notes_value" readonly></textarea>
                                                 </div>
                                             </form>
                                         </div>
@@ -345,137 +404,21 @@
                                             <div class="row">
                                                 <div class="col-6 d-flex flex-row justify-content-end">
                                                     <div class="btn-group">
-                                                        <button class="btn btn-danger btn-sm" id="clear_button" onclick="clearNotes()"><i class="uil-trash-alt"></i>&nbsp;clear fields</button>
+                                                        <button class="btn btn-danger btn-sm" id="clearText" onclick="clearNotes()"><i class="uil-trash-alt"></i>&nbsp;clear</button>
                                                     </div>
                                                 </div>
                                                 <div class="col-6 d-flex flex-row justify-content-end">
                                                     <div class="btn-group">
-                                                        <button class="btn btn-success btn-sm" id="copy_button" onclick="copyNotes()"><i class="uil-copy"></i>&nbsp;copy text</button>
-                                                        <button class="btn btn-success btn-sm dropdown-toggle dropdown-toggle-split" id="copySplit_button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="visually-hidden">Toggle Dropdown</span></button>
-                                                        <div class="dropdown-menu border-success">
-                                                            <a class="dropdown-item small text-success" id="calloutButtonForActivation" onclick="copyCallOutNotes()"><i class="uil-copy"></i>&nbsp;Call Out</a>
-                                                            <a class="dropdown-item small text-success" id="activationButtonForActivation" onclick="copyActivationNotes()"><i class="uil-copy"></i>&nbsp;Activation</a>
+                                                        <button class="btn btn-info btn-sm" id="copyNotes" onclick="copyNotes()"><i class="uil-copy"></i>&nbsp;copy</button>
+                                                        <button class="btn btn-info btn-sm dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="visually-hidden">Toggle Dropdown</span></button>
+                                                        <div class="dropdown-menu">
+                                                            <a class="dropdown-item small text-info" href="#" onclick="copyCallOutNotes()">&nbsp;Call Out</a>
+                                                            <a class="dropdown-item small text-info" href="#" onclick="copyActivationNotes()">&nbsp;Activation</a>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-
-                                        <script>
-                                            function checkNotesResult() {
-                                                var notesResult = document.getElementById("notes_value").value;
-                                                var clearButton = document.getElementById("clear_button");
-                                                var copyButton = document.getElementById("copy_button");
-                                                var copySplitButton = document.getElementById("copySplit_button");
-
-                                                var isEmpty = notesResult === '';
-
-                                                clearButton.disabled = isEmpty;
-                                                copyButton.disabled = isEmpty;
-                                                copySplitButton.disabled = isEmpty;
-                                                copySplitButton.style.display = isEmpty ? 'none' : 'inline'; // Hide the element
-                                            }
-
-                                            checkNotesResult();
-                                            document.getElementById("notes_value").addEventListener("input", checkNotesResult);
-
-                                            function forActivation() {
-                                                var phoneVerification = document.getElementById("phoneVerification_input").value;
-                                                var PID = document.getElementById("PID_input").value;
-                                                var itemsDiscussed = document.getElementById("itemsDiscussed_input").value;
-                                                var HPA = document.getElementById("HPA_input").value;
-                                                var IRN = document.getElementById("IRN_input").value;
-                                                var notesValue = document.getElementById("notes_value");
-
-                                                let notes = [];
-
-                                                let activationNotes = [];
-                                                if (phoneVerification) activationNotes.push(`PHONE VERIFICATION: ${phoneVerification}`);
-                                                if (PID) activationNotes.push(`1st PARTY CALL OUT: ${PID}`);
-                                                if (itemsDiscussed) activationNotes.push(`ITEMS DISCUSSED: ${itemsDiscussed}`);
-
-                                                if (activationNotes.length) {
-                                                    notes.push(...activationNotes, ``);
-                                                }
-
-                                                let activationDetails = [];
-                                                if (HPA) activationDetails.push(`HIGHEST PLAN: ${HPA}`);
-                                                if (IRN) activationDetails.push(`TICKET NUMBER: ${IRN}`);
-
-                                                if (activationDetails.length) {
-                                                    notes.push(`ACTIVATION DETAILS: `);
-                                                    notes.push(...activationDetails, ``);
-                                                }
-
-                                                notesValue.value = notes.length ? notes.join('\n') : '';
-                                                notesValue.style.fontFamily = 'Courier New, Courier, monospace';
-                                                notesValue.style.fontSize = '1.05rem';
-                                                checkNotesResult();
-                                            }
-
-                                            function clearNotes() {
-                                                var fields = [
-                                                    document.getElementById("phoneVerification_input"),
-                                                    document.getElementById("PID_input"),
-                                                    document.getElementById("itemsDiscussed_input"),
-                                                    document.getElementById("HPA_input"),
-                                                    document.getElementById("IRN_input")
-                                                ];
-
-                                                fields.forEach(field => field.value = '');
-
-                                                var notesValue = document.getElementById("notes_value");
-                                                notesValue.value = '';
-
-                                                checkNotesResult();
-                                            }
-
-                                            function copyNotes() {
-                                                var notesValue = document.getElementById("notes_value");
-                                                notesValue.select();
-                                                notesValue.setSelectionRange(0, 99999);
-                                                document.execCommand("copy");
-                                            }
-
-                                            function copiedOptionHPA(option) {
-                                                var HPA = document.getElementById("HPA_input");
-                                                HPA.value = option;
-                                                forActivation();
-                                            }
-
-                                            function copyCallOutNotes() {
-                                                var phoneVerification = document.getElementById("phoneVerification_input").value;
-                                                var PID = document.getElementById("PID_input").value;
-                                                var itemsDiscussed = document.getElementById("itemsDiscussed_input").value;
-                                                var notesValue = document.getElementById("notes_value").value;
-
-                                                var callOutValue = `PHONE VERIFICATION: ${phoneVerification}\n1st PARTY CALL OUT: ${PID}\nITEMS DISCUSSED: ${itemsDiscussed}`;
-                                                navigator.clipboard.writeText(callOutValue)
-                                                .then(() => {
-                                                    var startPos = notesValue.indexOf('PHONE VERIFICATION: ');
-                                                    var endPos = startPos + callOutValue.length;
-                                                    document.getElementById("notes_value").focus();
-                                                    document.getElementById("notes_value").setSelectionRange(startPos, endPos);
-                                                })
-                                                .catch(error => console.error('Error copying text: ', error));
-                                            }
-
-                                            function copyActivationNotes() {
-                                                var HPA_input = document.getElementById("HPA_input").value;
-                                                var IRN_input = document.getElementById("IRN_input").value;
-                                                var notesValue = document.getElementById("notes_value").value;
-
-                                                var activationValue = `ACTIVATION DETAILS: \nHIGHEST PLAN: ${HPA_input}\nTICKET NUMBER: ${IRN_input}`;
-                                                navigator.clipboard.writeText(activationValue)
-                                                .then(() => {
-                                                    var startPos = notesValue.indexOf('ACTIVATION DETAILS: ');
-                                                    var endPos = startPos + activationValue.length;
-                                                    document.getElementById("notes_value").focus();
-                                                    document.getElementById("notes_value").setSelectionRange(startPos, endPos);
-                                                })
-                                                .catch(error => console.error('Error copying text: ', error));
-                                            }
-                                        </script>
 
                                     </div> <!-- end row -->
 
@@ -491,7 +434,7 @@
             <!-- Footer -->
             <footer class="footer">
                 <div class="container-fluid">
-                    <div class="row small">
+                    <div class="row">
                         <div class="col-md-6">
                             <script>document.write(new Date().getFullYear())</script> &copy; Integrated Activations Tool</span>
                         </div>
@@ -517,8 +460,10 @@
     <div class="rightbar-overlay"></div>
         <!-- /End-bar -->
 
+    <!-- Vendor js -->
     <script src="assets/js/vendor.min.js"></script>
     <script src="assets/js/app.min.js"></script>
+    
     <script src="functions/base.js"></script>
 
 </body>
