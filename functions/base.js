@@ -1,5 +1,5 @@
 let baseModel  = {
-    clearButton: document.getElementById("clearText"),
+    clearText: document.getElementById("clearText"),
     copyNotes: document.getElementById("copyNotes")
 }
 
@@ -13,41 +13,60 @@ const inputs = {
     // Shared fields
     ticketNumber: document.getElementById("ticketNumber"),
     callRespondent: document.getElementById("callRespondent"),
+    itemsToVerify: document.getElementById("itemsToVerify"),
+    highestPlanApproved: document.getElementById("highestPlanApproved"),
+    accountNumber: document.getElementById("accountNumber"),
 
     // Successful Call Out for Activation - specific fields
     contactMethod: document.getElementById("contactMethod"),
     itemsDiscussed: document.getElementById("itemsDiscussed"),
+    sentViaSoprano: document.getElementById("sentViaSoprano"),
+
+    // Text Blast - specific fields
     numberOfBoxes: document.getElementById("numberOfBoxes"),
     planAvailed: document.getElementById("planAvailed"),
-    accountNumber: document.getElementById("accountNumber"),
-
-    // Activation - specific fields
-    highestPlan: document.getElementById("highestPlan"),
 
     // Unsuccessful Call Out for Activation - specific fields
     callOutResult: document.getElementById("callOutResult"),
     numberCalled: document.getElementById("numberCalled"),
     remarks: document.getElementById("remarks"),
-    itemsToVerify: document.getElementById("itemsToVerify"),
 
     // Successful Call Out with Compliance - specific fields
     ticketAssignment: document.getElementById("ticketAssignment"),
     pendingStatus: document.getElementById("pendingStatus"),
     complianceReason: document.getElementById("complianceReason"),
 
-    // Compliance - specific fields
-
-    // Docs for Approval - specific fields
-
-    // Supervisor Approval - specific fields
-
-    // Disapprove
+    // Docs for Approval, Supervisor Approval, Disapprove - specific fields
+    reasonApproved: document.getElementById("reasonApproved"),
+    reasonDisapproved: document.getElementById("reasonDisapproved"),
 
     // PLDT
+    setTopBox: document.getElementById("setTopBox"),
+    smartCard: document.getElementById("smartCard"),
+    serialNumber: document.getElementById("serialNumber"),
+    sameCustomer: document.getElementById("sameCustomer"),
+    diffCustomer: document.getElementById("diffCustomer"),
+    mainBox: document.getElementById("mainBox"),
+    secondBox: document.getElementById("secondBox"),
+    thirdBox: document.getElementById("thirdBox"),
 
     // Radius Dual Play
-    
+    radiusAcctNoDualPlay: document.getElementById("radiusAcctNoDualPlay"),
+    broadbandPlanDualPlay: document.getElementById("broadbandPlanDualPlay"),
+    iptvDualPlay: document.getElementById("iptvDualPlay"),
+    lockInDualPlay: document.getElementById("lockInDualPlay"),
+    promoDualPlay: document.getElementById("promoDualPlay"),
+    propertyTypeDualPlay: document.getElementById("propertyTypeDualPlay"),
+    acctNoDualPlay: document.getElementById("acctNoDualPlay"),
+    ticketNoDualPlay: document.getElementById("ticketNoDualPlay"),
+
     // Radius Standalone
+    radiusAcctNoStandalone: document.getElementById("radiusAcctNoStandalone"),
+    broadbandPlanStandalone: document.getElementById("broadbandPlanStandalone"),
+    lockInStandalone: document.getElementById("lockInStandalone"),
+    promoStandalone: document.getElementById("promoStandalone"),
+    propertyTypeStandalone: document.getElementById("propertyTypeStandalone"),
+    acctNoStandalone: document.getElementById("acctNoStandalone"),
 
     // Demo
 
@@ -88,19 +107,29 @@ function getValue(input) {
     return input?.value.trim() || "";
 }
 
+function copyNotes() {
+    inputs.notesValue.select();
+    inputs.notesValue.setSelectionRange(0, 99999);
+    document.execCommand("copy");
+}
+
 // Clear all fields
 function clearNotes() {
     Object.values(inputs).forEach(field => {
         if (!field) return; // skip if null (in case not all fields exist yet)
 
-        // Handle different input types properly
-        if (field.tagName === "INPUT" || field.tagName === "TEXTAREA") {
-            field.value = "";
-        } else if (field.tagName === "SELECT") {
-            field.selectedIndex = 0;
-        } else if (field.type === "checkbox" || field.type === "radio") {
+        // handle checkboxes and radios first
+        if (field.type === "checkbox" || field.type === "radio") {
             field.checked = false;
         }
+        // handle text-like inputs and textareas
+        else if (field.tagName === "INPUT" || field.tagName === "TEXTAREA") {
+            field.value = "";
+        } 
+        // handle selects
+        else if (field.tagName === "SELECT") {
+            field.selectedIndex = 0;
+        } 
     });
 }
 
@@ -108,7 +137,6 @@ function styleNotesArea() {
     inputs.notesValue.style.fontFamily = 'Courier New, Courier, monospace';
     inputs.notesValue.style.fontSize = '1.05rem';
 }
-
 
 /* ========================= FOR ACTIVATION ========================= */
 
@@ -127,8 +155,10 @@ function forActivation() {
 
     let activationDetails = [];
 
-    if (getValue(inputs.highestPlan)) activationDetails.push(`HIGHEST PLAN APPROVED: ${getValue(inputs.highestPlan)}`);
+    if (getValue(inputs.highestPlanApproved)) activationDetails.push(`HIGHEST PLAN APPROVED: ${getValue(inputs.highestPlanApproved)}`);
     if (getValue(inputs.ticketNumber)) activationDetails.push(`TICKET NUMBER: ${getValue(inputs.ticketNumber)}`);
+
+    if (inputs.sentViaSoprano.checked) activationDetails.push(`SENT ACTIVATION MESSAGE VIA SOPRANO`);
 
     if (activationDetails.length) {
         notes.push(`ACTIVATION DETAILS `);
@@ -139,53 +169,22 @@ function forActivation() {
     styleNotesArea();
 }
 
-// function generateActivationMessage() {
-//     const boxes = getValue(inputs.numberOfBoxes);
-//     const plan = getValue(inputs.planAvailed);
-//     const acct = getValue(inputs.accountNumber);
+function isNumberKeyAccount(evt) {  
+    const charCode = (evt.which) ? evt.which : evt.keyCode;
 
-//     let boxPart = '';
-//     let verbPart = '';
-//     let planPart = '';
+    // Allow only digits 0–9
+    if (charCode < 48 || charCode > 57) {
+        return false; // block anything not 0–9
+    }
 
-//     if (boxes) {
-//         const boxWord = boxes === '1' ? 'box' : 'boxes';
-//         verbPart = boxes === '1' ? 'is' : 'are';
-//         boxPart = `${boxes} Cignal ${boxWord}`;
-//     }
+    // Prevent more than 10 digits
+    const input = evt.target;
+    if (input.value.length >= 10) {
+        return false;
+    }
 
-//     if (plan) {
-//         if (/^commercial/i.test(plan)) {
-//         planPart = `under ${plan}`;
-//         } else if (/^basic/i.test(plan)) {
-//             // treat as Basic Theme Pack or anything else
-//             planPart = `under ${plan}`;
-//         }
-//     }
-
-//     const message = `Your ${boxPart} is now active ${planPart}. Account no is ${acct}. Got questions? Chat with us on FB at Cignal.`;
-
-//     inputs.notesValue.value = message.replace(/\s+/g, ' ').trim();
-
-//     styleNotesArea();
-// }
-
-// function isNumberKeyAccount(evt) {
-//     const charCode = (evt.which) ? evt.which : evt.keyCode;
-
-//     // Allow only digits 0–9
-//     if (charCode < 48 || charCode > 57) {
-//         return false; // block anything not 0–9
-//     }
-
-//     // Prevent more than 10 digits
-//     const input = evt.target;
-//     if (input.value.length >= 10) {
-//         return false;
-//     }
-
-//     return true; // allow the keypress
-// }
+    return true; // allow the keypress
+}
 
 // Helper: normalize a raw plan input into the desired display text
 function formatPlan(raw) {
@@ -281,14 +280,8 @@ function copyActivationNotes() {
         .catch(error => console.error('Error copying text: ', error));
 }
 
-function copyNotes() {
-    inputs.notesValue.select();
-    inputs.notesValue.setSelectionRange(0, 99999);
-    document.execCommand("copy");
-}
-
 function copiedOptionHighestPlan(option) {
-    highestPlan.value = option;
+    highestPlanApproved.value = option;
     forActivation();
 }
 
@@ -399,4 +392,162 @@ function copyPendingNotes() {
             }
         })
         .catch(error => console.error('Error copying text: ', error));
+}
+
+/* ========================= DOCS AND SUP APPROVAL ========================= */
+
+function docsForApproval() {
+    let notes = [];
+    let docsNotes = [];
+
+    if (getValue(inputs.itemsToVerify)) docsNotes.push(`ITEMS TO VERIFY: ${getValue(inputs.itemsToVerify)}`);
+    if (getValue(inputs.highestPlanApproved)) docsNotes.push(`HIGHEST PLAN APPROVED: ${getValue(inputs.highestPlanApproved)}`);
+    if (getValue(inputs.ticketNumber)) docsNotes.push(`TICKET NUMBER: ${getValue(inputs.ticketNumber)}`);
+
+    if (docsNotes.length) {
+        notes.push(`DOCS APPROVED `);
+        notes.push(...docsNotes, ``);
+    }
+
+    inputs.notesValue.value = notes.length ? notes.join('\n') : '';
+    styleNotesArea();
+}
+
+function supApproved() {
+    let notes = [];
+    let supApprovedNotes = [];
+
+    if (getValue(inputs.reasonApproved)) supApprovedNotes.push(`REASON: ${getValue(inputs.reasonApproved)}`);
+    if (getValue(inputs.ticketNumber)) supApprovedNotes.push(`TICKET NUMBER: ${getValue(inputs.ticketNumber)}`);
+
+    if (supApprovedNotes.length) {
+        notes.push(`FOR SUP APPROVAL `);
+        notes.push(...supApprovedNotes, ``);
+    }
+
+    inputs.notesValue.value = notes.length ? notes.join('\n') : '';
+    styleNotesArea();
+}
+
+function supDisapproved() {
+    let notes = [];
+    let supDisapprovedNotes = [];
+
+    if (getValue(inputs.reasonDisapproved)) supDisapprovedNotes.push(`REASON: ${getValue(inputs.reasonDisapproved)}`);
+    if (getValue(inputs.ticketNumber)) supDisapprovedNotes.push(`TICKET NUMBER: ${getValue(inputs.ticketNumber)}`);
+
+    if (supDisapprovedNotes.length) {
+        notes.push(`FOR SUP DISAPPROVAL `);
+        notes.push(...supDisapprovedNotes, ``);
+    }
+
+    inputs.notesValue.value = notes.length ? notes.join('\n') : '';
+    styleNotesArea();
+}
+
+/* ========================= PLDT AND RADIUS ========================= */
+
+function activationPLDT() {
+    const account = getValue(inputs.accountNumber);
+    const ticket = getValue(inputs.ticketNumber);
+    const stb = getValue(inputs.setTopBox);
+    const sc = getValue(inputs.smartCard);
+    const sN = getValue(inputs.serialNumber);
+
+    const nothingSelected =
+        !account && !ticket && !stb && !sc && !sN &&
+        !inputs.mainBox.checked &&
+        !inputs.sameCustomer.checked &&
+        !inputs.diffCustomer.checked &&
+        !inputs.secondBox.checked &&
+        !inputs.thirdBox.checked;
+
+    if (nothingSelected) {
+        inputs.notesValue.value = '';   // clear textarea
+        styleNotesArea();
+        return; // stop the function here
+    }
+
+    let message = '';
+    let dupText = '';
+        if(stb && sc) {
+            dupText = `STB ${stb} AND SC ${sc}`;
+        }
+        else if(sN) {
+            dupText = `SERIAL NO ${sN}`;
+        }
+
+    if (inputs.mainBox.checked) {
+        message = `Hi PLDT Team, the activation of the first box or Test Channel for the account should be included in the automation process.`;
+    }
+    else if (inputs.sameCustomer.checked) {
+        message = `PLDT CLOSED\n` +
+            `${dupText} ALREADY ACTIVATED UNDER THE SAME CUSTOMER NAME / ` +
+            `REFERENCE TO ACCOUNT NUMBER ${account} // ${ticket}`;
+    }
+    else if (inputs.diffCustomer.checked) {
+        message = `PLDT CLOSED\n` +
+            `${dupText} ALREADY ACTIVATED UNDER A DIFFERENT CUSTOMER NAME / ` +
+            `REFERENCE TO ACCOUNT NUMBER ${account} // ${ticket}`;
+    }
+    else {
+        message = `PLDT ACTIVE\n` +
+            `CIGNAL ACCOUNT NUMBER: ${account}\n` +
+            `TICKET NUMBER: ${ticket}`;
+
+        if (inputs.secondBox.checked && inputs.thirdBox.checked) {
+            message += ` / 2ND AND 3RD BOX`;
+        }
+        else if (inputs.secondBox.checked) {
+            message += ` / 2ND BOX`;
+        }
+        else if (inputs.thirdBox.checked) {
+            message += ` / 3RD BOX`;
+        }    
+    }
+
+    inputs.notesValue.value = message;
+    styleNotesArea();
+}
+
+function activationDualPlay() {
+    let notes = [];
+    let actiDualPlayNotes = [];
+
+    if (getValue(inputs.radiusAcctNoDualPlay)) actiDualPlayNotes.push(`RADIUS ACCOUNT NUMBER: ${getValue(inputs.radiusAcctNoDualPlay)}`);
+    if (getValue(inputs.broadbandPlanDualPlay)) actiDualPlayNotes.push(`BROADBAND PLAN: ${getValue(inputs.broadbandPlanDualPlay)}`);
+    if (getValue(inputs.iptvDualPlay)) actiDualPlayNotes.push(`IPTV: ${getValue(inputs.iptvDualPlay)}`);
+    if (getValue(inputs.lockInDualPlay)) actiDualPlayNotes.push(`LOCK-IN PERIOD: ${getValue(inputs.lockInDualPlay)}`);
+    if (getValue(inputs.promoDualPlay)) actiDualPlayNotes.push(`PROMOTION: ${getValue(inputs.promoDualPlay)}`);
+    if (getValue(inputs.propertyTypeDualPlay)) actiDualPlayNotes.push(`PROPERTY TYPE: ${getValue(inputs.propertyTypeDualPlay)}`);
+    if (getValue(inputs.acctNoDualPlay)) actiDualPlayNotes.push(`CIGNAL ACCOUNT NUMBER: ${getValue(inputs.acctNoDualPlay)}`);
+    if (getValue(inputs.ticketNoDualPlay)) actiDualPlayNotes.push(`TICKET NUMBER: ${getValue(inputs.ticketNoDualPlay)}`);
+
+    if (actiDualPlayNotes.length) {
+        notes.push(`RADIUS ACTIVE `);
+        notes.push(...actiDualPlayNotes, ``);
+    }
+
+    inputs.notesValue.value = notes.length ? notes.join('\n') : '';
+    styleNotesArea();
+}
+
+function activationStandalone() {
+    let notes = [];
+    let actiStandaloneNotes = [];
+
+    if (getValue(inputs.radiusAcctNoStandalone)) actiStandaloneNotes.push(`RADIUS ACCOUNT NUMBER: ${getValue(inputs.radiusAcctNoStandalone)}`);
+    if (getValue(inputs.broadbandPlanStandalone)) actiStandaloneNotes.push(`BROADBAND PLAN: ${getValue(inputs.broadbandPlanStandalone)}`);
+    if (getValue(inputs.lockInStandalone)) actiStandaloneNotes.push(`LOCK-IN PERIOD: ${getValue(inputs.lockInStandalone)}`);
+    if (getValue(inputs.promoStandalone)) actiStandaloneNotes.push(`PROMOTION: ${getValue(inputs.promoStandalone)}`);
+    if (getValue(inputs.propertyTypeStandalone)) actiStandaloneNotes.push(`PROPERTY TYPE: ${getValue(inputs.propertyTypeStandalone)}`);
+    if (getValue(inputs.acctNoStandalone)) actiStandaloneNotes.push(`CIGNAL ACCOUNT NUMBER: ${getValue(inputs.acctNoStandalone)}`);
+
+    if (actiStandaloneNotes.length) {
+        notes.push(`RADIUS ACTIVE `);
+        notes.push(...actiStandaloneNotes, ``);
+    }
+
+    inputs.notesValue.value = notes.length ? notes.join('\n') : '';
+    styleNotesArea();
 }

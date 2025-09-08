@@ -290,7 +290,7 @@
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-end">Contact Method:</label>
                                                             <div class="col-8">
-                                                                <select class="form-select" id="contactMethod" oninput="forActivation()">
+                                                                <select class="form-select text-dark" id="contactMethod" oninput="forActivation()">
                                                                     <option></option>
                                                                     <option>Successful Call Out using Avaya</option>
                                                                     <option>Successful Call Out using Dialer</option>
@@ -301,7 +301,7 @@
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-end">Call Respondent:</label>
                                                             <div class="col-8">
-                                                                <select class="form-select" id="callRespondent" oninput="forActivation()">
+                                                                <select class="form-select text-dark" id="callRespondent" oninput="forActivation()">
                                                                     <option></option>
                                                                     <option>Not Applicable</option>
                                                                     <option>Customer</option>
@@ -315,7 +315,7 @@
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-end">Items Discussed:</label>
                                                             <div class="col-8">
-                                                                <input class="form-control" id="itemsDiscussed" oninput="forActivation()">
+                                                                <input class="form-control text-dark" id="itemsDiscussed" oninput="forActivation()">
                                                             </div>
                                                         </div>
                                                         <br>
@@ -338,13 +338,24 @@
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-md-end">Highest Plan Approved:</label>
                                                             <div class="col-8">
-                                                                <input class="form-control" id="highestPlan" oninput="forActivation()">
+                                                                <input class="form-control text-dark" id="highestPlanApproved" oninput="forActivation()">
+                                                            </div>
+                                                        </div>
+                                                        <div class="row mb-2">
+                                                            <label class="col-4 col-form-label text-md-end">Ticket Number:</label>
+                                                            <div class="col-8">
+                                                                <input class="form-control text-dark" id="ticketNumber" oninput="forActivation()">
                                                             </div>
                                                         </div>
                                                         <div class="row mb-3">
-                                                            <label class="col-4 col-form-label text-md-end">Ticket Number:</label>
+                                                            <label class="col-4 col-form-label text-end">Text Blast:</label>
                                                             <div class="col-8">
-                                                                <input class="form-control" id="ticketNumber" oninput="forActivation()">
+                                                                <div class="row mt-1">
+                                                                    <div class="col-6">
+                                                                        <input type="checkbox" class="form-check-input" onclick="forActivation()" style="margin-right: .5rem;" id="sentViaSoprano">
+                                                                        <label class="form-check-label" for="sentViaSoprano"></label>
+                                                                    </div>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </form>
@@ -355,13 +366,13 @@
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-md-end">Number Of Boxes:</label>
                                                             <div class="col-8">
-                                                                <input class="form-control" id="numberOfBoxes" oninput="generateActivationMessage()">
+                                                                <input class="form-control text-dark" id="numberOfBoxes" oninput="generateActivationMessage()">
                                                             </div>
                                                         </div>
                                                         <div class="row mb-2">
                                                             <label class="col-4 col-form-label text-md-end">Plan Availed:</label>
                                                             <div class="col-8">
-                                                                <select class="form-select" id="planAvailed" oninput="generateActivationMessage()">
+                                                                <select class="form-select text-dark" id="planAvailed" oninput="generateActivationMessage()">
                                                                     <option></option>
                                                                     <option>Plan 290</option>
                                                                     <option>Plan 520</option>
@@ -374,15 +385,20 @@
                                                                     <option>Basic Theme Pack 300 Sports Action</option>
                                                                     <option>Basic Theme Pack 300 Pinoy and Asian</option>
                                                                     <option>Basic Theme Pack 300 Fam Time</option>
-                                                                    <option>Commercial Plan 350</option>
-                                                                    <option>Commercial Plan 550</option>
+                                                                    <option>Commercial Plan 290</option>
+                                                                    <option>Commercial Plan 520</option>
+                                                                    <option>Commercial Plan 720</option>
+                                                                    <option>Commercial Plan 1050</option>
+                                                                    <option>Commercial Plan 1350</option>
+                                                                    <option>Commercial Plan 1650</option>
+                                                                    <option>Commercial Plan 1990</option>
                                                                 </select>
                                                             </div>
                                                         </div>
                                                         <div class="row mb-3">
                                                             <label class="col-4 col-form-label text-md-end">Account Number:</label>
                                                             <div class="col-8">
-                                                                <input class="form-control" id="accountNumber" oninput="generateActivationMessage()">
+                                                                <input class="form-control text-dark" id="accountNumber" onkeypress="return isNumberKeyAccount(event)" oninput="generateActivationMessage()">
                                                             </div>
                                                         </div>
                                                     </form>
@@ -395,7 +411,7 @@
                                             <h4 class="header-title mb-3 text-danger">Preview</h4>
                                             <form>
                                                 <div class="mb-3">
-                                                    <textarea style="height: 402px; resize: none;" class="form-control text-dark" id="notes_value" readonly></textarea>
+                                                    <textarea style="height: 460px; resize: none;" class="form-control text-dark" id="notes_value" readonly></textarea>
                                                 </div>
                                             </form>
                                         </div>
