@@ -244,7 +244,7 @@
                                     <ol class="breadcrumb m-0">
                                         <li class="breadcrumb-item"><a href="index.html">Integrateds Activation Tool</a></li>
                                         <li class="breadcrumb-item"><a href="#">Notes Generator</a></li>
-                                        <li class="breadcrumb-item fw-bold">Demo and Syndication</li>
+                                        <li class="breadcrumb-item active">Demo and Syndication</li>
                                     </ol>
                                 </div>
                                 <h5 class="page-title text-dark">DEMO, CONTENT / SYNDICATION & HRH</h5>
@@ -258,7 +258,7 @@
                                 <div class="card-body">
                                     <div class="row">
                                         <div class="col-6">
-                                            <h4 class="header-title mb-3 text-dark">Activation details</h4>
+                                            <h4 class="header-title mb-3 text-danger">Activation details</h4>
 
                                             <ul class="nav nav-tabs mb-3">
                                                 <li class="nav-item">
@@ -268,7 +268,7 @@
                                                     </a>
                                                 </li>
                                                 <li class="nav-item">
-                                                    <a href="#input-types-content" data-bs-toggle="tab" aria-expanded="false" onclick="activationContent()" class="nav-link">
+                                                    <a href="#input-types-content" data-bs-toggle="tab" aria-expanded="false" onclick="activationSyndication()" class="nav-link">
                                                         <i class="mdi mdi-home-variant d-md-none d-block"></i>
                                                         <span class="d-none d-md-block">Content / Syndication</span>
                                                     </a>
@@ -286,25 +286,25 @@
                                                 <div class="tab-pane show active" id="input-types-demo">
                                                     <form class="form-horizontal">
                                                         <div class="row mb-2">
-                                                            <label class="col-4 col-form-label text-md-end text-danger">Account Number:</label>
+                                                            <label class="col-4 col-form-label text-end">Account Number:</label>
                                                             <div class="col-8">
                                                                 <input class="form-control text-dark" id="demoAccount" oninput="activationDemo()">
                                                             </div>
                                                         </div>
                                                         <div class="row mb-2">
-                                                                <label class="col-4 col-form-label text-md-end text-danger">Duration:</label>
+                                                                <label class="col-4 col-form-label text-end">Duration:</label>
                                                             <div class="col-8">
                                                                 <input class="form-control text-dark" id="duration" oninput="activationDemo()">
                                                             </div>
                                                         </div>
                                                         <div class="row mb-2">
-                                                            <label class="col-4 col-form-label text-md-end text-danger">Ticket Number:</label>
+                                                            <label class="col-4 col-form-label text-end">Ticket Number:</label>
                                                             <div class="col-8">
                                                                 <input class="form-control text-dark" id="demoTicket" oninput="activationDemo()">
                                                             </div>
                                                         </div>
-                                                        <div class="row mb-2">
-                                                            <label class="col-4 col-form-label text-md-end text-danger">Remarks:</label>
+                                                        <div class="row mb-3">
+                                                            <label class="col-4 col-form-label text-end">Remarks:</label>
                                                             <div class="col-8">
                                                                 <input class="form-control text-dark" id="demoRemarks" oninput="activationDemo()">
                                                             </div>
@@ -315,31 +315,31 @@
                                                 <div class="tab-pane" id="input-types-content">
                                                     <form class="form-horizontal">
                                                         <div class="row mb-2">
-                                                            <label class="col-4 col-form-label text-md-end text-danger">Account Number:</label>
+                                                            <label class="col-4 col-form-label text-end">Account Number:</label>
                                                             <div class="col-8">
-                                                                <input class="form-control text-dark" id="syndicationAccount" oninput="activationSyndication()">
+                                                                <input class="form-control text-dark" id="syndicationAcct" oninput="activationSyndication()">
                                                             </div>
                                                         </div>
                                                         <div class="row mb-2">
-                                                            <label class="col-4 col-form-label text-md-end text-danger">Channels:</label>
+                                                            <label class="col-4 col-form-label text-end">Channels:</label>
                                                             <div class="col-8">
                                                                 <input class="form-control text-dark" id="syndicationChannels" oninput="activationSyndication()">
                                                             </div>
                                                         </div>
                                                         <div class="row mb-2">
-                                                            <label class="col-4 col-form-label text-md-end text-danger">Contract Validity:</label>
+                                                            <label class="col-4 col-form-label text-end">Contract Validity:</label>
                                                             <div class="col-8">
                                                                 <input class="form-control text-dark" id="contract" oninput="activationSyndication()">
                                                             </div>
                                                         </div>
                                                         <div class="row mb-2">
-                                                            <label class="col-4 col-form-label text-md-end text-danger">Remarks:</label>
+                                                            <label class="col-4 col-form-label text-end">Remarks:</label>
                                                             <div class="col-8">
                                                                 <input class="form-control text-dark" id="syndicationRemarks" oninput="activationSyndication()">
                                                             </div>
                                                         </div>
-                                                        <div class="row mb-2">
-                                                            <label class="col-4 col-form-label text-md-end text-danger">Ticket Number:</label>
+                                                        <div class="row mb-3">
+                                                            <label class="col-4 col-form-label text-end">Ticket Number:</label>
                                                             <div class="col-8">
                                                                 <input class="form-control text-dark" id="syndicationTicket" oninput="activationSyndication()">
                                                             </div>
@@ -350,31 +350,31 @@
                                                 <div class="tab-pane" id="input-types-hrh">
                                                     <form class="form-horizontal">
                                                         <div class="row mb-2">
-                                                            <label class="col-4 col-form-label text-end text-danger">Plan:</label>
+                                                            <label class="col-4 col-form-label text-end">Plan:</label>
                                                             <div class="col-8">
                                                                 <input class="form-control text-dark" id="hrhPlan" oninput="activationHRH()">
                                                             </div>
                                                         </div>
                                                         <div class="row mb-2">
-                                                            <label class="col-4 col-form-label text-end text-danger">Lock-In Period:</label>
+                                                            <label class="col-4 col-form-label text-end">Lock-In Period:</label>
                                                             <div class="col-8">
                                                                 <input class="form-control text-dark" id="hrhLockIn" oninput="activationHRH()">
                                                             </div>
                                                         </div>
                                                         <div class="row mb-2">
-                                                            <label class="col-4 col-form-label text-end text-danger">Total Boxes:</label>
+                                                            <label class="col-4 col-form-label text-end">Total Boxes:</label>
                                                             <div class="col-8">
                                                                 <input class="form-control text-dark" id="hrhBoxes" oninput="activationHRH()">
                                                             </div>
                                                         </div>
                                                         <div class="row mb-2">
-                                                            <label class="col-4 col-form-label text-end text-danger">Account Number:</label>
+                                                            <label class="col-4 col-form-label text-end">Account Number:</label>
                                                             <div class="col-8">
-                                                                <input class="form-control text-dark" id="hrhAccount" oninput="activationHRH()">
+                                                                <input class="form-control text-dark" id="hrhAcct" oninput="activationHRH()">
                                                             </div>
                                                         </div>
-                                                        <div class="row mb-2">
-                                                            <label class="col-4 col-form-label text-end text-danger">Ticket Number:</label>
+                                                        <div class="row mb-3">
+                                                            <label class="col-4 col-form-label text-end">Ticket Number:</label>
                                                             <div class="col-8">
                                                                 <input class="form-control text-dark" id="hrhTicket" oninput="activationHRH()">
                                                             </div>
@@ -387,10 +387,10 @@
                                         </div>
 
                                         <div class="col-6">
-                                            <h4 class="header-title mb-3 text-dark">Notes Result</h4>
+                                            <h4 class="header-title mb-3 text-danger">Preview</h4>
                                             <form>
-                                                <div class="mb-2">
-                                                    <textarea style="height: 305px; color: black; resize: none;" class="form-control" id="notes" readonly></textarea>
+                                                <div class="mb-3">
+                                                    <textarea style="height: 305px; resize: none;" class="form-control text-dark" id="notes_value" readonly></textarea>
                                                 </div>
                                             </form>
                                         </div>
@@ -398,139 +398,13 @@
                                         <div class="col-12">
                                             <div class="row">
                                                 <div class="col-6 d-flex flex-row justify-content-end">
-                                                    <button class="btn btn-danger btn-sm" id="clearButton" onclick="clearNotes()"><i class="uil-trash-alt"></i>&nbsp;clear fields</button>
+                                                    <button class="btn btn-danger btn-sm" id="clearText" onclick="clearNotes()"><i class="uil-trash-alt"></i>&nbsp;clear</button>
                                                 </div>
-                                                <div class="col-6 d-flex flex-row justify-content-end pe-0">
-                                                    <button class="btn btn-success btn-sm" id="copyButton" onclick="copyNotes()"><i class="uil-copy"></i>&nbsp;copy text</button>
+                                                <div class="col-6 d-flex flex-row justify-content-end">
+                                                    <button class="btn btn-info btn-sm" id="copyNotes" onclick="copyNotes()"><i class="uil-copy"></i>&nbsp;copy</button>
                                                 </div>
                                             </div>
                                         </div>
-
-                                        <script>
-                                            function checkNotesValue() {
-                                                var notesValue = document.getElementById("notes").value;
-                                                var clearButton = document.getElementById("clearButton");
-                                                var copyButton = document.getElementById("copyButton");
-
-                                                clearButton.disabled = copyButton.disabled = notesValue === '';
-                                            }
-                                            checkNotesValue();
-                                            document.getElementById("notes").addEventListener("input", checkNotesValue);
-
-                                            function activationDemo() {
-                                                var demoAccount = document.getElementById("demoAccount").value;
-                                                var duration = document.getElementById("duration").value;
-                                                var demoTicket = document.getElementById("demoTicket").value;
-                                                var demoRemarks = document.getElementById("demoRemarks").value;
-                                                var notes = document.getElementById("notes");
-
-                                                if (demoAccount === '' && duration === '' && demoTicket === '' && demoRemarks === '') {
-                                                    notes.value = "";
-                                                } else if (demoRemarks === '') {
-                                                    notes.value = "DEMO ACTIVE\nACCOUNT NUMBER: " + demoAccount + "\nDURATION: " + duration + "\nTICKET NUMBER: " + demoTicket;
-                                                } else {
-                                                    notes.value = "DEMO ACTIVE\nACCOUNT NUMBER: " + demoAccount + "\nDURATION: " + duration + "\nTICKET NUMBER: " + demoTicket + "\nREMARKDS: " + demoRemarks;
-                                                }
-
-                                                notes.style.fontFamily = 'Courier New, Courier, monospace';
-                                                notes.style.fontSize = '1.05rem';
-
-                                                checkNotesValue();
-                                            }
-
-                                            function activationContent() {
-                                                var contenctAccount = document.getElementById("contenctAccount").value;
-                                                var contentChannels = document.getElementById("contentChannels").value;
-                                                var contentLockin = document.getElementById("contentLockin").value;
-                                                var contentRemarks = document.getElementById("contentRemarks").value;
-                                                var contentTicket = document.getElementById("contentTicket").value;
-                                                var notes = document.getElementById("notes");
-
-                                                if (contenctAccount === '' && contentChannels === '' && contentLockin === '' && contentRemarks === '' && contentTicket === '') {
-                                                    notes.value = "";
-                                                } else if (contentRemarks === '') {
-                                                    notes.value = "CONTENT CHANNEL ACTIVE\nACCOUNT NUMBER: " + contenctAccount + "\nCONTENT CHANNEL(s): " + contentChannels + "\nLOCK-IN: " + contentLockin + "\nTICKET NUMBER: " + contentTicket;
-                                                } else {
-                                                    notes.value = "CONTENT CHANNEL ACTIVE\nACCOUNT NUMBER: " + contenctAccount + "\nCONTENT CHANNELS: " + contentChannels + "\nLOCK-IN: " + contentLockin + "\nREMARKS: " + contentRemarks + "\nTICKET NUMBER: " + contentTicket;
-                                                }
-
-                                                notes.style.fontFamily = 'Courier New, Courier, monospace';
-                                                notes.style.fontSize = '1.05rem';
-
-                                                checkNotesValue();
-                                            }
-
-                                            function activationSyndication() {
-                                                var syndicationAccount = document.getElementById("syndicationAccount").value;
-                                                var syndicationChannels = document.getElementById("syndicationChannels").value;
-                                                var contract = document.getElementById("contract").value;
-                                                var syndicationRemarks = document.getElementById("syndicationRemarks").value;
-                                                var syndicationTicket = document.getElementById("syndicationTicket").value;
-                                                var notes = document.getElementById("notes");
-
-                                                if (syndicationAccount === '' && syndicationChannels === '' && contract === '' && syndicationRemarks === '' && syndicationTicket === '') {
-                                                    notes.value = "";
-                                                } else if (syndicationRemarks === '') {
-                                                    notes.value = "ACCOUNT ACTIVE\nACCOUNT NUMBER: " + syndicationAccount + "\nCHANNEL(s): " + syndicationChannels + "\nCONTRACT VALIDITY: " + contract + "\nTICKET NUMBER: " + syndicationTicket;
-                                                } else {
-                                                    notes.value = "ACCOUNT ACTIVE\nACCOUNT NUMBER: " + syndicationAccount + "\nCHANNEL(s): " + syndicationChannels + "\nCONTRACT VALIDITY: " + contract + "\nREMARKS: " + syndicationRemarks + "\nTICKET NUMBER: " + syndicationTicket;
-                                                }
-
-                                                notes.style.fontFamily = 'Courier New, Courier, monospace';
-                                                notes.style.fontSize = '1.05rem';
-
-                                                checkNotesValue();
-                                            }
-
-                                            function activationHRH() {
-                                                var hrhPlan = document.getElementById("hrhPlan").value;
-                                                var hrhLockIn = document.getElementById("hrhLockIn").value;
-                                                var hrhBoxes = document.getElementById("hrhBoxes").value;
-                                                var hrhAccount = document.getElementById("hrhAccount").value;
-                                                var hrhTicket = document.getElementById("hrhTicket").value;
-                                                var notes = document.getElementById("notes");
-
-                                                if (hrhPlan === '' && hrhLockIn === '' && hrhBoxes === '' && hrhAccount === '' && hrhTicket === '') {
-                                                    notes.value = "";
-                                                } else {
-                                                    notes.value = "HRH ACTIVATED\nPLAN: " + hrhPlan + "\nLock-In Period: " + hrhLockIn + "\nTOTAL BOXES: " + hrhBoxes + "\nACCOUNT NUMBER: " + hrhAccount + "\nTICKET NUMBER: " + hrhTicket;
-                                                }
-
-                                                notes.style.fontFamily = 'Courier New, Courier, monospace';
-                                                notes.style.fontSize = '1.05rem';
-
-                                                checkNotesValue();
-                                            } 
-
-                                            function clearNotes() {
-                                                document.getElementById("demoAccount").value = '';
-                                                document.getElementById("duration").value = '';
-                                                document.getElementById("demoTicket").value = '';
-                                                document.getElementById("demoRemarks").value = '';
-
-                                                document.getElementById("contenctAccount").value = '';
-                                                document.getElementById("contentChannels").value = '';
-                                                document.getElementById("contentLockin").value = '';
-                                                document.getElementById("contentRemarks").value = '';
-                                                document.getElementById("contentTicket").value = '';
-
-                                                document.getElementById("syndicationAccount").value = '';
-                                                document.getElementById("syndicationChannels").value = '';
-                                                document.getElementById("contract").value = '';
-                                                document.getElementById("syndicationRemarks").value = '';
-                                                document.getElementById("syndicationTicket").value = '';
-
-                                                document.getElementById("hrhPlan").value = '';
-                                                document.getElementById("hrhLockIn").value = '';
-                                                document.getElementById("hrhBoxes").value = '';
-                                                document.getElementById("hrhAccount").value = '';
-                                                document.getElementById("hrhTicket").value = '';
-
-                                                document.getElementById("notes").value = '';
-
-                                                checkNotesValue();
-                                            }
-                                        </script>
 
                                     </div> <!-- end row -->
 
@@ -546,7 +420,7 @@
             <!-- Footer -->
             <footer class="footer">
                 <div class="container-fluid">
-                    <div class="row small">
+                    <div class="row">
                         <div class="col-md-6">
                             <script>document.write(new Date().getFullYear())</script> &copy; Integrated Activations Tool</span>
                         </div>
@@ -568,6 +442,8 @@
     <!-- bundle -->
     <script src="assets/js/vendor.min.js"></script>
     <script src="assets/js/app.min.js"></script>
+
+    <script src="functions/base.js"></script>
 
 </body>
 </html>
