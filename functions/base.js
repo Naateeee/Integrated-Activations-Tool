@@ -69,15 +69,40 @@ const inputs = {
     acctNoStandalone: document.getElementById("acctNoStandalone"),
 
     // Demo
+    demoAccount: document.getElementById("demoAccount"),
+    duration: document.getElementById("duration"),
+    demoTicket: document.getElementById("demoTicket"),
+    demoRemarks: document.getElementById("demoRemarks"),
 
     // Content & Syndication
+    syndicationAcct: document.getElementById("syndicationAcct"),
+    syndicationChannels: document.getElementById("syndicationChannels"),
+    contract: document.getElementById("contract"),
+    syndicationRemarks: document.getElementById("syndicationRemarks"),
+    syndicationTicket: document.getElementById("syndicationTicket"),
 
     // HRH
+    hrhAcct: document.getElementById("hrhAcct"),
+    hrhLockIn: document.getElementById("hrhLockIn"),
+    hrhBoxes: document.getElementById("hrhBoxes"),
+    hrhPlan: document.getElementById("hrhPlan"),
+    hrhTicket: document.getElementById("hrhTicket"),
 
     // VSAT Docs for Approval
+    accountDocs: document.getElementById("accountDocs"),
+    serial: document.getElementById("serial"),
+    planCode: document.getElementById("planCode"),
+    planName: document.getElementById("planName"),
+    address: document.getElementById("address"),
+    coordinates: document.getElementById("coordinates"),
+    installer: document.getElementById("installer"),
+    remarks: document.getElementById("remarks"),
 
     // VSAT for Activation
-
+    planAvailed: document.getElementById("planAvailed"),
+    lockIn: document.getElementById("lockIn"),
+    modem: document.getElementById("modem"),
+    accountCignal: document.getElementById("accountCignal")
 };
 
 // inputs.accountNumber.addEventListener('input', function () {
@@ -263,8 +288,9 @@ function copyActivationNotes() {
     const parts = [];
     parts.push("ACTIVATION DETAILS ");
 
-    if (getValue(inputs.highestPlan)) parts.push(`HIGHEST PLAN APPROVED: ${getValue(inputs.highestPlan)}`);
+    if (getValue(inputs.highestPlanApproved)) parts.push(`HIGHEST PLAN APPROVED: ${getValue(inputs.highestPlanApproved)}`);
     if (getValue(inputs.ticketNumber)) parts.push(`TICKET NUMBER: ${getValue(inputs.ticketNumber)}`);
+    if (inputs.sentViaSoprano.checked) parts.push(`SENT ACTIVATION MESSAGE VIA SOPRANO`);
 
     const activationNotes = parts.join('\n');
 
@@ -445,7 +471,7 @@ function supDisapproved() {
     styleNotesArea();
 }
 
-/* ========================= PLDT AND RADIUS ========================= */
+/* ========================= PLDT & RADIUS ========================= */
 
 function activationPLDT() {
     const account = getValue(inputs.accountNumber);
@@ -481,19 +507,43 @@ function activationPLDT() {
         message = `Hi PLDT Team, the activation of the first box or Test Channel for the account should be included in the automation process.`;
     }
     else if (inputs.sameCustomer.checked) {
-        message = `PLDT CLOSED\n` +
-            `${dupText} ALREADY ACTIVATED UNDER THE SAME CUSTOMER NAME / ` +
-            `REFERENCE TO ACCOUNT NUMBER ${account} // ${ticket}`;
+        let ref = '';
+        if (account && ticket) {
+            ref = `REFERENCE TO ACCOUNT NUMBER ${account} // ${ticket}`;
+        }
+        else if (account) {
+            ref = `REFERENCE TO ACCOUNT NUMBER ${account}`;
+        }
+        else if (ticket) {
+            ref = `REFERENCE TO TICKET NUMBER ${ticket}`;
+        }
+
+        message = `PLDT CLOSED\n${dupText} ALREADY ACTIVATED UNDER THE SAME CUSTOMER NAME${ref ? ' / ' + ref : ''}`;
     }
     else if (inputs.diffCustomer.checked) {
-        message = `PLDT CLOSED\n` +
-            `${dupText} ALREADY ACTIVATED UNDER A DIFFERENT CUSTOMER NAME / ` +
-            `REFERENCE TO ACCOUNT NUMBER ${account} // ${ticket}`;
+        let ref = '';
+        if (account && ticket) {
+            ref = `REFERENCE TO ACCOUNT NUMBER ${account} // ${ticket}`;
+        }
+        else if (account) {
+            ref = `REFERENCE TO ACCOUNT NUMBER ${account}`;
+        }
+        else if (ticket) {
+            ref = `REFERENCE TO TICKET NUMBER ${ticket}`;
+        }
+
+        message = `PLDT CLOSED\n${dupText} ALREADY ACTIVATED UNDER A DIFFERENT CUSTOMER NAME${ref ? ' / ' + ref : ''}`;
     }
     else {
-        message = `PLDT ACTIVE\n` +
-            `CIGNAL ACCOUNT NUMBER: ${account}\n` +
-            `TICKET NUMBER: ${ticket}`;
+        message = `PLDT ACTIVE\n`;
+
+        if (account) {
+            message += `CIGNAL ACCOUNT NUMBER: ${account}\n`;
+        }
+
+        if (ticket) {
+            message += `TICKET NUMBER: ${ticket}`;
+        }
 
         if (inputs.secondBox.checked && inputs.thirdBox.checked) {
             message += ` / 2ND AND 3RD BOX`;
@@ -546,6 +596,107 @@ function activationStandalone() {
     if (actiStandaloneNotes.length) {
         notes.push(`RADIUS ACTIVE `);
         notes.push(...actiStandaloneNotes, ``);
+    }
+
+    inputs.notesValue.value = notes.length ? notes.join('\n') : '';
+    styleNotesArea();
+}
+
+/* ========================= DEMO CONTENT/SYNDICATION & HRH ========================= */
+
+function activationDemo() {
+    let notes = [];
+    let demoNotes = [];
+
+    if (getValue(inputs.demoAccount)) demoNotes.push(`ACCOUNT NUMBER: ${getValue(inputs.demoAccount)}`);
+    if (getValue(inputs.duration)) demoNotes.push(`DURATION: ${getValue(inputs.duration)}`);
+    if (getValue(inputs.demoTicket)) demoNotes.push(`TICKET NUMBER: ${getValue(inputs.demoTicket)}`);
+    if (getValue(inputs.demoRemarks)) demoNotes.push(`REMARKS: ${getValue(inputs.demoRemarks)}`);
+
+    if (demoNotes.length) {
+        notes.push(`DEMO ACTIVE `);
+        notes.push(...demoNotes, ``);
+    }
+
+    inputs.notesValue.value = notes.length ? notes.join('\n') : '';
+    styleNotesArea();
+}
+
+function activationSyndication() {
+    let notes = [];
+    let syndicationNotes = [];
+
+    if (getValue(inputs.syndicationAcct)) syndicationNotes.push(`ACCOUNT NUMBER: ${getValue(inputs.syndicationAcct)}`);
+    if (getValue(inputs.syndicationChannels)) syndicationNotes.push(`CHANNELS: ${getValue(inputs.syndicationChannels)}`);
+    if (getValue(inputs.contract)) syndicationNotes.push(`CONTRACT: ${getValue(inputs.contract)}`);
+    if (getValue(inputs.syndicationTicket)) syndicationNotes.push(`TICKET NUMBER: ${getValue(inputs.syndicationTicket)}`);
+    if (getValue(inputs.syndicationRemarks)) syndicationNotes.push(`REMARKS: ${getValue(inputs.syndicationRemarks)}`);
+
+    if (syndicationNotes.length) {
+        notes.push(`ACCOUNT ACTIVE `);
+        notes.push(...syndicationNotes, ``);
+    }
+
+    inputs.notesValue.value = notes.length ? notes.join('\n') : '';
+    styleNotesArea();
+}
+
+function activationHRH() {
+    let notes = [];
+    let hrhNotes = [];
+
+    if (getValue(inputs.hrhPlan)) hrhNotes.push(`ACCOUNT NUMBER: ${getValue(inputs.hrhAcct)}`);
+    if (getValue(inputs.hrhLockIn)) hrhNotes.push(`CHANNELS: ${getValue(inputs.hrhLockIn)}`);
+    if (getValue(inputs.hrhBoxes)) hrhNotes.push(`CONTRACT: ${getValue(inputs.hrhBoxes)}`);
+    if (getValue(inputs.hrhAcct)) hrhNotes.push(`TICKET NUMBER: ${getValue(inputs.hrhAcct)}`);
+    if (getValue(inputs.hrhTicket)) hrhNotes.push(`REMARKS: ${getValue(inputs.hrhTicket)}`);
+
+    if (hrhNotes.length) {
+        notes.push(`HRH ACTIVE `);
+        notes.push(...hrhNotes, ``);
+    }
+
+    inputs.notesValue.value = notes.length ? notes.join('\n') : '';
+    styleNotesArea();
+}
+
+/* ========================= VSAT DOCS APPROVAL & ACTIVATION ========================= */
+
+function approvalVSAT() {
+    let notes = [];
+    let approvalVSATNotes = [];
+
+    if (getValue(inputs.accountDocs)) approvalVSATNotes.push(`ACCOUNT NUMBER: ${getValue(inputs.accountDocs)}`);
+    if (getValue(inputs.serial)) approvalVSATNotes.push(`SERIAL NUMBER: ${getValue(inputs.serial)}`);
+    if (getValue(inputs.planCode)) approvalVSATNotes.push(`PLAN CODE: ${getValue(inputs.planCode)}`);
+    if (getValue(inputs.planName)) approvalVSATNotes.push(`PLAN NAME: ${getValue(inputs.planName)}`);
+    if (getValue(inputs.address)) approvalVSATNotes.push(`ADDRESS: ${getValue(inputs.address)}`);
+    if (getValue(inputs.coordinates)) approvalVSATNotes.push(`COORDINATES: ${getValue(inputs.coordinates)}`);
+    if (getValue(inputs.installer)) approvalVSATNotes.push(`INSTALLER: ${getValue(inputs.installer)}`);
+    if (getValue(inputs.remarks)) approvalVSATNotes.push(`REMARKS: ${getValue(inputs.remarks)}`);
+
+    if (approvalVSATNotes.length) {
+        notes.push(`VSAT DOCS APPROVED `);
+        notes.push(...approvalVSATNotes, ``);
+    }
+
+    inputs.notesValue.value = notes.length ? notes.join('\n') : '';
+    styleNotesArea();
+}
+
+function activationVSAT() {
+    let notes = [];
+    let actiVSATNotes = [];
+
+    if (getValue(inputs.planAvailed)) actiVSATNotes.push(`PLAN AVAILED: ${getValue(inputs.planAvailed)}`);
+    if (getValue(inputs.lockIn)) actiVSATNotes.push(`LOCK-IN: ${getValue(inputs.lockIn)}`);
+    if (getValue(inputs.modem)) actiVSATNotes.push(`MODEM SERIAL: ${getValue(inputs.modem)}`);
+    if (getValue(inputs.accountCignal)) actiVSATNotes.push(`ACCOUNT NUMBER: ${getValue(inputs.accountCignal)}`);
+    if (getValue(inputs.ticketNumber)) actiVSATNotes.push(`TICKET NUMBER: ${getValue(inputs.ticketNumber)}`);
+
+    if (actiVSATNotes.length) {
+        notes.push(`VSAT ACTIVE `);
+        notes.push(...actiVSATNotes, ``);
     }
 
     inputs.notesValue.value = notes.length ? notes.join('\n') : '';

@@ -246,7 +246,7 @@
                                     <ol class="breadcrumb m-0">
                                         <li class="breadcrumb-item"><a href="index.html">Integrateds Activation Tool</a></li>
                                         <li class="breadcrumb-item"><a href="#">Notes Generator</a></li>
-                                        <li class="breadcrumb-item fw-bold">Other Ticket Assignment</li>
+                                        <li class="breadcrumb-item active">Other Ticket Assignment</li>
                                     </ol>
                                 </div>
                                 <h5 class="page-title text-dark">OTHER TICKET ASSIGNMENT</h5>
@@ -261,10 +261,10 @@
 
                                     <div class="row">
                                         <div class="col-6">
-                                            <h4 class="header-title mb-3 text-dark">Ticket Assignment details</h4>
+                                            <h4 class="header-title mb-3 text-danger">Ticket Assignment details</h4>
                                             <form class="form-horizontal">
                                                 <div class="row mb-2">
-                                                    <label class="col-4 col-form-label text-md-end text-danger"></label>
+                                                    <label class="col-4 col-form-label text-end"></label>
                                                     <div class="col-8">
                                                         <div class="row">
                                                             <div class="col-6">
@@ -279,7 +279,19 @@
                                                     </div>
                                                 </div>
                                                 <div class="row mb-2">
-                                                    <label class="col-4 col-form-label text-md-end text-danger">Assign To:</label>
+                                                    <label class="col-4 col-form-label text-end">Ticket Assignment:</label>
+                                                    <div class="col-8">
+                                                        <select class="form-select text-dark" id="ticketAssignment" oninput="TicketAssignment()">
+                                                            <option></option>
+                                                            <option value="New Ticket">New Ticket</option>
+                                                            <option value="Reassignment">Reassignment</option>
+                                                            <option value="Duplicate Ticket">Duplicate Ticket</option>
+                                                            <option value="Closed">Closed - Create Baby Ticket</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="row mb-2">
+                                                    <label class="col-4 col-form-label text-end">Assign To:</label>
                                                     <div class="col-8">
                                                         <select class="form-select text-dark" id="assignTo" oninput="TicketAssignment()">
                                                             <option></option>
@@ -293,13 +305,13 @@
                                                     </div>
                                                 </div>
                                                 <div class="row mb-2">
-                                                    <label class="col-4 col-form-label text-md-end text-danger">Ticket Number:</label>
+                                                    <label class="col-4 col-form-label text-end">Ticket Number:</label>
                                                     <div class="col-8">
                                                         <input class="form-control text-dark" id="ticketNumber" oninput="TicketAssignment()">
                                                     </div>
                                                 </div>
-                                                <div class="row mb-4">
-                                                    <label class="col-4 col-form-label text-md-end text-danger">Remarks:</label>
+                                                <div class="row mb-3">
+                                                    <label class="col-4 col-form-label text-end">Remarks:</label>
                                                     <div class="col-8">
                                                         <input class="form-control text-dark" id="remarks" oninput="TicketAssignment()">
                                                     </div>
@@ -308,20 +320,20 @@
                                         </div>
 
                                         <div class="col-6">
-                                            <h4 class="header-title mb-3 text-dark">Notes Result</h4>
+                                            <h4 class="header-title mb-3 text-danger">Preview</h4>
                                             <form>
-                                                <div class="mb-2">
-                                                    <textarea style="height: 300px; color: black; resize: none;" class="form-control" id="notes" readonly></textarea>
+                                                <div class="mb-3">
+                                                    <textarea style="height: 300px; resize: none;" class="form-control text-dark" id="notes" readonly></textarea>
                                                 </div>
                                             </form>
                                         </div>
                                         <div class="col-12">
                                             <div class="row">
                                                 <div class="col-6 d-flex flex-row justify-content-end">
-                                                    <button class="btn btn-danger btn-sm" id="clearButton" onclick="clearNotes()"><i class="uil-trash-alt"></i>&nbsp;clear fields</button>
+                                                    <button class="btn btn-danger btn-sm" id="clearText" onclick="clearNotes()"><i class="uil-trash-alt"></i>&nbsp;clear</button>
                                                 </div>
-                                                <div class="col-6 d-flex flex-row justify-content-end pe-0">
-                                                    <button class="btn btn-success btn-sm" id="copyButton" onclick="copyNotes()"><i class="uil-copy"></i>&nbsp;copy text</button>
+                                                <div class="col-6 d-flex flex-row justify-content-end">
+                                                    <button class="btn btn-info btn-sm" id="copyButton" onclick="copyNotes()"><i class="uil-copy"></i>&nbsp;copy</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -357,6 +369,7 @@
                                                 }
                                                 else if(newTicket.checked) {
                                                     reassignTicket.checked = false;
+                                                    reassignTicket.disabled = true;
                                                     if(remarks === '') {
                                                         notes.value = "Created ticket endorse to " + assignTo + "\nTICKET NUMBER: " + ticketNumber;
                                                     }
@@ -366,6 +379,7 @@
                                                 }
                                                 else if(reassignTicket.checked) {
                                                     newTicket.checked = false;
+                                                    newTicket.disabled = true;
                                                     if(remarks === '') {
                                                         notes.value = "Reassign ticket endorse to " + assignTo + "\nTICKET NUMBER: " + ticketNumber;
                                                     }
@@ -378,24 +392,6 @@
                                                 notes.style.fontSize = '1.05rem';
 
                                                 checkNotesValue();
-                                            }
-
-                                            function clearNotes(){
-                                                document.getElementById("newTicket").checked = false;
-                                                document.getElementById("reassignTicket").checked = false;
-                                                document.getElementById("assignTo").value = '';
-                                                document.getElementById("ticketNumber").value = '';
-                                                document.getElementById("remarks").value = '';
-                                                document.getElementById("notes").value = '';
-
-                                                checkNotesValue();
-                                            }
-
-                                            function copyNotes() {
-                                                var copyText = document.getElementById("notes");
-                                                copyText.select();
-                                                copyText.setSelectionRange(0, 99999);
-                                                navigator.clipboard.writeText(copyText.value);
                                             }
                                         </script>
 
@@ -441,6 +437,8 @@
 
     <script src="assets/js/vendor.min.js"></script>
     <script src="assets/js/app.min.js"></script>
+
+    <script src="functions/base.js"></script>
 
 </body>
 </html>
