@@ -58,7 +58,7 @@ const inputs = {
     promoDualPlay: document.getElementById("promoDualPlay"),
     propertyTypeDualPlay: document.getElementById("propertyTypeDualPlay"),
     acctNoDualPlay: document.getElementById("acctNoDualPlay"),
-    ticketNoDualPlay: document.getElementById("ticketNoDualPlay"),
+    ticketNoDualPlay: document.getElementById("ticketNumberDualPlay"),
 
     // Radius Standalone
     radiusAcctNoStandalone: document.getElementById("radiusAcctNoStandalone"),
