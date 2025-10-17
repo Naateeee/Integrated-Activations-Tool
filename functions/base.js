@@ -219,9 +219,11 @@ function formatPlan(raw) {
     // If it's just digits: "290" -> "Plan 290"
     if (/^\d+$/.test(p)) return `Plan ${p}`;
 
-    // If it looks like "Commercial", normalize to "Commercial Plan {digits?}"
-    const cm = p.match(/^commercial(?:\s+plan)?(?:\s+(\d+))?/i);
-    if (cm) return `Commercial Plan ${cm[1] ? cm[1] : ''}`.trim();
+    // Match exact Commercial Plan entries
+    if (/^commercial plan basic 350$/i.test(p)) return "Commercial Plan Basic 350";
+    if (/^commercial plan sports 550$/i.test(p)) return "Commercial Plan Sports 550";
+    if (/^commercial plan lifestyle 550$/i.test(p)) return "Commercial Plan Lifestyle 550";
+    if (/^commercial plan gen ent 550$/i.test(p)) return "Commercial Plan Gen Ent 550";
 
     // If it starts with "Basic Theme Pack", keep as-is (e.g., "Basic Theme Pack 300 Sports Action")
     if (/^basic theme pack/i.test(p)) return p;
@@ -645,11 +647,11 @@ function activationHRH() {
     let notes = [];
     let hrhNotes = [];
 
-    if (getValue(inputs.hrhPlan)) hrhNotes.push(`ACCOUNT NUMBER: ${getValue(inputs.hrhAcct)}`);
-    if (getValue(inputs.hrhLockIn)) hrhNotes.push(`CHANNELS: ${getValue(inputs.hrhLockIn)}`);
-    if (getValue(inputs.hrhBoxes)) hrhNotes.push(`CONTRACT: ${getValue(inputs.hrhBoxes)}`);
-    if (getValue(inputs.hrhAcct)) hrhNotes.push(`TICKET NUMBER: ${getValue(inputs.hrhAcct)}`);
-    if (getValue(inputs.hrhTicket)) hrhNotes.push(`REMARKS: ${getValue(inputs.hrhTicket)}`);
+    if (getValue(inputs.hrhPlan)) hrhNotes.push(`PLAN: ${getValue(inputs.hrhPlan)}`);
+    if (getValue(inputs.hrhLockIn)) hrhNotes.push(`LOCK-IN PERIOD: ${getValue(inputs.hrhLockIn)}`);
+    if (getValue(inputs.hrhBoxes)) hrhNotes.push(`TOTAL BOXES: ${getValue(inputs.hrhBoxes)}`);
+    if (getValue(inputs.hrhAcct)) hrhNotes.push(`ACCOUNT NUMBER: ${getValue(inputs.hrhAcct)}`);
+    if (getValue(inputs.hrhTicket)) hrhNotes.push(`TICKET NUMBER: ${getValue(inputs.hrhTicket)}`);
 
     if (hrhNotes.length) {
         notes.push(`HRH ACTIVE `);
