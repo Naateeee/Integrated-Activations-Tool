@@ -1,5 +1,6 @@
-// Channel Line-Up as of February 21, 2025
 // end of contract "TAP Edge & Premium Football HD" December 31, 2024
+// end of contract "TechStorm" October 5, 2025
+// Channel Line-Up as of October 17, 2025
 
 const channels = [
     {
@@ -1530,22 +1531,6 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
-        Plan290: "yes",
-        Plan520: "yes",
-        Plan720: "yes",
-        Plan1050: "yes",
-        Plan1350: "yes",
-        Plan1650: "yes",
-        Plan1990: "yes"
-    },
-    {
-        No: "148",
-        ChannelName: "TechStorm",
-        Category: "EDUC / DOCU",
-        AllThingsEnt: "",
-        SportsAction: "yes",
-        PinoyAndAsian: "",
-        FamTime: "",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
