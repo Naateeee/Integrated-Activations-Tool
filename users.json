@@ -96,5 +96,19 @@
         "lastName": "Gamutin",
         "department": "CEG - InHouse Operation TFS",
         "avatar": "assets/images/users/undraw_male-avatar_zkzx.svg"
+    },
+    "MPOribio": {
+        "password": "991da4c438e3552a66704ee62701bf7a365d71d546eec9799105c15191ef07eb",
+        "firstName": "Maria Christina",
+        "lastName": "Oribio",
+        "department": "CEG - Quality Assurance",
+        "avatar": "assets/images/users/undraw_female-avatar_7t6k.svg"
+    },
+    "CPNaval": {
+        "password": "",
+        "firstName": "Catherine",
+        "lastName": "Naval",
+        "department": "CEG - Training",
+        "avatar": "assets/images/users/undraw_female-avatar_7t6k.svg"
     }
 }
