@@ -1,6 +1,7 @@
 // end of contract "TAP Edge & Premium Football HD" December 31, 2024
 // end of contract "TechStorm" October 5, 2025
 // Channel Line-Up as of October 17, 2025
+// Removed TV5 HD Ch 15 and retained TV5 HD Ch. 255 / Removed One Sports HD Ch. 17 and retained One Sports HD Ch. 258 / Updated channel number of RPTV HD from Ch 10 to Ch 259
 
 const channels = [
     {
@@ -84,7 +85,7 @@ const channels = [
         Plan1990: "yes"
     },
     {
-        No: "10",
+        No: "259",
         ChannelName: "RPTV HD",
         Category: "LOCAL CHANNEL",
         AllThingsEnt: "yes",
@@ -148,40 +149,8 @@ const channels = [
         Plan1990: "yes"
     },
     {
-        No: "15",
-        ChannelName: "TV5 HD",
-        Category: "LOCAL CHANNEL",
-        AllThingsEnt: "yes",
-        SportsAction: "yes",
-        PinoyAndAsian: "yes",
-        FamTime: "yes",
-        Plan290: "yes",
-        Plan520: "yes",
-        Plan720: "yes",
-        Plan1050: "yes",
-        Plan1350: "yes",
-        Plan1650: "yes",
-        Plan1990: "yes"
-    },
-    {
         No: "255",
         ChannelName: "TV5 HD",
-        Category: "LOCAL CHANNEL",
-        AllThingsEnt: "yes",
-        SportsAction: "yes",
-        PinoyAndAsian: "yes",
-        FamTime: "yes",
-        Plan290: "yes",
-        Plan520: "yes",
-        Plan720: "yes",
-        Plan1050: "yes",
-        Plan1350: "yes",
-        Plan1650: "yes",
-        Plan1990: "yes"
-    },
-    {
-        No: "17",
-        ChannelName: "One Sports HD",
         Category: "LOCAL CHANNEL",
         AllThingsEnt: "yes",
         SportsAction: "yes",
