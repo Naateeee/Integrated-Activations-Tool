@@ -2162,30 +2162,30 @@ function populateTable(data) {
     }
 
     // Update the thead cells with the total counts
-    allThingsEntCellTotal.textContent = totalChannelCounts["AllThingsEnt"] - 3;
-    sportsActionCellTotal.textContent = totalChannelCounts["SportsAction"] - 3;
-    pinoyAsianCellTotal.textContent = totalChannelCounts["PinoyAndAsian"] - 3;
-    famTimeCellTotal.textContent = totalChannelCounts["FamTime"] - 3;
-    plan290CellTotal.textContent = totalChannelCounts["Plan290"] - 3;
-    plan520CellTotal.textContent = totalChannelCounts["Plan520"] - 3;
-    plan720CellTotal.textContent = totalChannelCounts["Plan720"] - 3;
-    plan1050CellTotal.textContent = totalChannelCounts["Plan1050"] - 3;
-    plan1350CellTotal.textContent = totalChannelCounts["Plan1350"] - 3;
-    plan1650CellTotal.textContent = totalChannelCounts["Plan1650"] - 3;
-    plan1990CellTotal.textContent = totalChannelCounts["Plan1990"] - 3;
+    allThingsEntCellTotal.textContent = totalChannelCounts["AllThingsEnt"] - 1;
+    sportsActionCellTotal.textContent = totalChannelCounts["SportsAction"] - 1;
+    pinoyAsianCellTotal.textContent = totalChannelCounts["PinoyAndAsian"] - 1;
+    famTimeCellTotal.textContent = totalChannelCounts["FamTime"] - 1;
+    plan290CellTotal.textContent = totalChannelCounts["Plan290"] - 1;
+    plan520CellTotal.textContent = totalChannelCounts["Plan520"] - 1;
+    plan720CellTotal.textContent = totalChannelCounts["Plan720"] - 1;
+    plan1050CellTotal.textContent = totalChannelCounts["Plan1050"] - 1;
+    plan1350CellTotal.textContent = totalChannelCounts["Plan1350"] - 1;
+    plan1650CellTotal.textContent = totalChannelCounts["Plan1650"] - 1;
+    plan1990CellTotal.textContent = totalChannelCounts["Plan1990"] - 1;
 
     // Update the thead cells with the HD channel counts
-    allThingsEntCellHD.textContent = totalHDChannelCounts["AllThingsEnt"] - 3;
-    sportsActionCellHD.textContent = totalHDChannelCounts["SportsAction"] - 3;
-    pinoyAsianCellHD.textContent = totalHDChannelCounts["PinoyAndAsian"] - 3;
-    famTimeCellHD.textContent = totalHDChannelCounts["FamTime"] - 3;
-    plan290CellHD.textContent = totalHDChannelCounts["Plan290"] - 3;
-    plan520CellHD.textContent = totalHDChannelCounts["Plan520"] - 3;
-    plan720CellHD.textContent = totalHDChannelCounts["Plan720"] - 3;
-    plan1050CellHD.textContent = totalHDChannelCounts["Plan1050"] - 3;
-    plan1350CellHD.textContent = totalHDChannelCounts["Plan1350"] - 3;
-    plan1650CellHD.textContent = totalHDChannelCounts["Plan1650"] - 3;
-    plan1990CellHD.textContent = totalHDChannelCounts["Plan1990"] - 3;
+    allThingsEntCellHD.textContent = totalHDChannelCounts["AllThingsEnt"] - 1;
+    sportsActionCellHD.textContent = totalHDChannelCounts["SportsAction"] - 1;
+    pinoyAsianCellHD.textContent = totalHDChannelCounts["PinoyAndAsian"] - 1;
+    famTimeCellHD.textContent = totalHDChannelCounts["FamTime"] - 1;
+    plan290CellHD.textContent = totalHDChannelCounts["Plan290"] - 1;
+    plan520CellHD.textContent = totalHDChannelCounts["Plan520"] - 1;
+    plan720CellHD.textContent = totalHDChannelCounts["Plan720"] - 1;
+    plan1050CellHD.textContent = totalHDChannelCounts["Plan1050"] - 1;
+    plan1350CellHD.textContent = totalHDChannelCounts["Plan1350"] - 1;
+    plan1650CellHD.textContent = totalHDChannelCounts["Plan1650"] - 1;
+    plan1990CellHD.textContent = totalHDChannelCounts["Plan1990"] - 1;
 
     // Update the thead cells with the non-HD channel counts
     allThingsEntCellNonHD.textContent = totalNonHDChannelCounts["AllThingsEnt"];
