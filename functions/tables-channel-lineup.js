@@ -24,7 +24,7 @@ const channels = [
     },
     {
         No: "5",
-        ChannelName: "TV5 HD",
+        ChannelName: "TV5",
         Category: "LOCAL CHANNEL",
         AllThingsEnt: "yes",
         SportsAction: "yes",
@@ -654,7 +654,7 @@ const channels = [
     },
     {
         No: "41",
-        ChannelName: "Pinoy Box Office (PBO)",
+        ChannelName: "Pinoy Box Office",
         Category: "PINOY",
         AllThingsEnt: "yes",
         SportsAction: "yes",
@@ -708,7 +708,7 @@ const channels = [
     },
     {
         No: "44",
-        ChannelName: "JeepneyTV",
+        ChannelName: "Jeepney TV",
         Category: "PINOY",
         AllThingsEnt: "",
         SportsAction: "",
