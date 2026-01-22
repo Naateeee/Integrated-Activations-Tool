@@ -105,29 +105,6 @@ const inputs = {
     accountCignal: document.getElementById("accountCignal")
 };
 
-// inputs.accountNumber.addEventListener('input', function () {
-//     // remove all non-digits and limit to 9
-//     const cleaned = this.value.replace(/\D/g, '').slice(0, 9);
-//     if (this.value !== cleaned) {
-//         this.value = cleaned;
-//         this.setSelectionRange(cleaned.length, cleaned.length);
-//     }
-// });
-
-// // optional paste handler, also on inputs.accountNumber
-// inputs.accountNumber.addEventListener('paste', function (e) {
-//     e.preventDefault();
-//     const text = (e.clipboardData || window.clipboardData).getData('text');
-//     const digits = text.replace(/\D/g, '').slice(0, 10);
-//     const start = this.selectionStart;
-//     const end = this.selectionEnd;
-//     const newVal = (this.value.slice(0, start) + digits + this.value.slice(end)).replace(/\D/g, '').slice(0, 10);
-
-//     this.value = newVal;
-//     const caret = Math.min(start + digits.length, newVal.length);
-//     this.setSelectionRange(caret, caret);
-// });
-
 function getValue(input) {
     return input?.value.trim() || "";
 }
@@ -228,14 +205,14 @@ function formatPlan(raw) {
     // If it starts with "Basic Theme Pack", keep as-is (e.g., "Basic Theme Pack 300 Sports Action")
     if (/^basic theme pack/i.test(p)) return p;
 
-    // Otherwise, keep whatever the user typed (e.g., "Plan 1650", "Promo Gold 1499", etc.)
+    // Otherwise, keep whatever the user typed (e.g., "Plan 290", etc.)
     return p;
 }
 
 function generateActivationMessage() {
     const boxes = getValue(inputs.numberOfBoxes);   // e.g., "1", "2", "" (empty)
-    const planRaw = getValue(inputs.planAvailed);   // e.g., "1650", "Basic Theme Pack 300 Sports Action", "Commercial 520"
-    const acct = getValue(inputs.accountNumber);    // e.g., "9115392289"
+    const planRaw = getValue(inputs.planAvailed);   // e.g., "290", "Basic Theme Pack 300 Sports Action", "Commercial Plan Basic 350"
+    const acct = getValue(inputs.accountNumber);    // e.g., "9876543210"
 
     if (!boxes && !planRaw && !acct) {
         inputs.notesValue.value = '';
@@ -272,7 +249,7 @@ function copyCallOutNotes() {
     if (getValue(inputs.callRespondent)) parts.push(`CALL RESPONDENT: ${getValue(inputs.callRespondent)}`);
     if (getValue(inputs.itemsDiscussed)) parts.push(`ITEMS DISCUSSED: ${getValue(inputs.itemsDiscussed)}`);
 
-    const callOutValue = parts.join('\n');
+    const callOutValue = parts.join('\n').trim();
 
     navigator.clipboard.writeText(callOutValue)
         .then(() => {
@@ -294,7 +271,7 @@ function copyActivationNotes() {
     if (getValue(inputs.ticketNumber)) parts.push(`TICKET NUMBER: ${getValue(inputs.ticketNumber)}`);
     if (inputs.sentViaSoprano.checked) parts.push(`SENT ACTIVATION MESSAGE VIA SOPRANO`);
 
-    const activationNotes = parts.join('\n');
+    const activationNotes = parts.join('\n').trim();
 
     navigator.clipboard.writeText(activationNotes)
         .then(() => {
@@ -336,10 +313,10 @@ function unsuccessful() {
     if (getValue(inputs.itemsToVerify)) unsuccNotes.push(`ITEMS TO VERIFY: ${getValue(inputs.itemsToVerify)}`);
 
     if (unsuccNotes.length) {
-        notes.push(...unsuccNotes, ``);
+        notes.push(...unsuccNotes);
     }
 
-    inputs.notesValue.value = notes.length ? notes.join('\n') : '';
+    inputs.notesValue.value = notes.length ? notes.join('\n').trim() : '';
     styleNotesArea();
 }
 
@@ -374,7 +351,7 @@ function withCompliance() {
         notes.push(...pendingNotes, ``)
     }
 
-    inputs.notesValue.value = notes.length ? notes.join('\n') : '';
+    inputs.notesValue.value = notes.length ? notes.join('\n').trim() : '';
     styleNotesArea();
 }
 
@@ -388,7 +365,7 @@ function copyCallOutWithComplianceNotes() {
     if (getValue(inputs.ticketAssignment)) parts.push(`TICKET ASSIGNMENT: ${getValue(inputs.ticketAssignment)}`);
     if (getValue(inputs.ticketNumber)) parts.push(`TICKET NUMBER: ${getValue(inputs.ticketNumber)}`);
 
-    const callOutWithComplianceValue = parts.join('\n');
+    const callOutWithComplianceValue = parts.join('\n').trim();
 
     navigator.clipboard.writeText(callOutWithComplianceValue)
         .then(() => {
@@ -408,7 +385,7 @@ function copyPendingNotes() {
     if (getValue(inputs.pendingStatus)) parts.push(`PENDING STATUS: ${getValue(inputs.pendingStatus)}`);
     if (getValue(inputs.complianceReason)) parts.push(`COMPLIANCE REASON: ${getValue(inputs.complianceReason)}`);
 
-    const pendingNotes = parts.join('\n');
+    const pendingNotes = parts.join('\n').trim();
 
     navigator.clipboard.writeText(pendingNotes)
         .then(() => {
@@ -434,10 +411,10 @@ function docsForApproval() {
 
     if (docsNotes.length) {
         notes.push(`DOCS APPROVED `);
-        notes.push(...docsNotes, ``);
+        notes.push(...docsNotes);
     }
 
-    inputs.notesValue.value = notes.length ? notes.join('\n') : '';
+    inputs.notesValue.value = notes.length ? notes.join('\n').trim() : '';
     styleNotesArea();
 }
 
@@ -450,10 +427,10 @@ function supApproved() {
 
     if (supApprovedNotes.length) {
         notes.push(`FOR SUP APPROVAL `);
-        notes.push(...supApprovedNotes, ``);
+        notes.push(...supApprovedNotes);
     }
 
-    inputs.notesValue.value = notes.length ? notes.join('\n') : '';
+    inputs.notesValue.value = notes.length ? notes.join('\n').trim() : '';
     styleNotesArea();
 }
 
@@ -466,10 +443,10 @@ function supDisapproved() {
 
     if (supDisapprovedNotes.length) {
         notes.push(`FOR SUP DISAPPROVAL `);
-        notes.push(...supDisapprovedNotes, ``);
+        notes.push(...supDisapprovedNotes);
     }
 
-    inputs.notesValue.value = notes.length ? notes.join('\n') : '';
+    inputs.notesValue.value = notes.length ? notes.join('\n').trim() : '';
     styleNotesArea();
 }
 
@@ -577,10 +554,10 @@ function activationDualPlay() {
 
     if (actiDualPlayNotes.length) {
         notes.push(`RADIUS ACTIVE `);
-        notes.push(...actiDualPlayNotes, ``);
+        notes.push(...actiDualPlayNotes);
     }
 
-    inputs.notesValue.value = notes.length ? notes.join('\n') : '';
+    inputs.notesValue.value = notes.length ? notes.join('\n').trim() : '';
     styleNotesArea();
 }
 
@@ -597,10 +574,10 @@ function activationStandalone() {
 
     if (actiStandaloneNotes.length) {
         notes.push(`RADIUS ACTIVE `);
-        notes.push(...actiStandaloneNotes, ``);
+        notes.push(...actiStandaloneNotes);
     }
 
-    inputs.notesValue.value = notes.length ? notes.join('\n') : '';
+    inputs.notesValue.value = notes.length ? notes.join('\n').trim() : '';
     styleNotesArea();
 }
 
@@ -617,10 +594,10 @@ function activationDemo() {
 
     if (demoNotes.length) {
         notes.push(`DEMO ACTIVE `);
-        notes.push(...demoNotes, ``);
+        notes.push(...demoNotes);
     }
 
-    inputs.notesValue.value = notes.length ? notes.join('\n') : '';
+    inputs.notesValue.value = notes.length ? notes.join('\n').trim() : '';
     styleNotesArea();
 }
 
@@ -636,10 +613,10 @@ function activationSyndication() {
 
     if (syndicationNotes.length) {
         notes.push(`ACCOUNT ACTIVE `);
-        notes.push(...syndicationNotes, ``);
+        notes.push(...syndicationNotes);
     }
 
-    inputs.notesValue.value = notes.length ? notes.join('\n') : '';
+    inputs.notesValue.value = notes.length ? notes.join('\n').trim() : '';
     styleNotesArea();
 }
 
@@ -655,10 +632,10 @@ function activationHRH() {
 
     if (hrhNotes.length) {
         notes.push(`HRH ACTIVE `);
-        notes.push(...hrhNotes, ``);
+        notes.push(...hrhNotes);
     }
 
-    inputs.notesValue.value = notes.length ? notes.join('\n') : '';
+    inputs.notesValue.value = notes.length ? notes.join('\n').trim() : '';
     styleNotesArea();
 }
 
@@ -679,10 +656,10 @@ function approvalVSAT() {
 
     if (approvalVSATNotes.length) {
         notes.push(`VSAT DOCS APPROVED `);
-        notes.push(...approvalVSATNotes, ``);
+        notes.push(...approvalVSATNotes);
     }
 
-    inputs.notesValue.value = notes.length ? notes.join('\n') : '';
+    inputs.notesValue.value = notes.length ? notes.join('\n').trim() : '';
     styleNotesArea();
 }
 
@@ -698,9 +675,9 @@ function activationVSAT() {
 
     if (actiVSATNotes.length) {
         notes.push(`VSAT ACTIVE `);
-        notes.push(...actiVSATNotes, ``);
+        notes.push(...actiVSATNotes);
     }
 
-    inputs.notesValue.value = notes.length ? notes.join('\n') : '';
+    inputs.notesValue.value = notes.length ? notes.join('\n').trim() : '';
     styleNotesArea();
 }
