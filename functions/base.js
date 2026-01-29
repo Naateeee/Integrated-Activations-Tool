@@ -193,6 +193,12 @@ function formatPlan(raw) {
     const p = (raw || '').trim();
     if (!p) return '';
 
+    // Resi-Commercial Plan ### -> Commercial Plan ###
+    const resiCommercialMatch = /^resi-commercial plan\s*(\d+)$/i.exec(p);
+    if (resiCommercialMatch) {
+        return `Commercial Plan ${resiCommercialMatch[1]}`;
+    }
+
     // If it's just digits: "290" -> "Plan 290"
     if (/^\d+$/.test(p)) return `Plan ${p}`;
 
