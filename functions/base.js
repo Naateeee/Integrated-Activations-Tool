@@ -503,7 +503,7 @@ function activationPLDT() {
             ref = `REFERENCE TO TICKET NUMBER ${ticket}`;
         }
 
-        message = `PLDT CLOSED\n${dupText} ALREADY ACTIVATED UNDER THE SAME CUSTOMER NAME${ref ? ' / ' + ref : ''}`;
+        message = `PLDT CLOSED\n${dupText}ALREADY ACTIVATED UNDER THE SAME CUSTOMER NAME${ref ? ' / ' + ref : ''}`;
     }
     else if (inputs.diffCustomer.checked) {
         let ref = '';
@@ -517,7 +517,7 @@ function activationPLDT() {
             ref = `REFERENCE TO TICKET NUMBER ${ticket}`;
         }
 
-        message = `PLDT CLOSED\n${dupText} ALREADY ACTIVATED UNDER A DIFFERENT CUSTOMER NAME${ref ? ' / ' + ref : ''}`;
+        message = `PLDT CLOSED\n${dupText}ALREADY ACTIVATED UNDER A DIFFERENT CUSTOMER NAME${ref ? ' / ' + ref : ''}`;
     }
     else {
         message = `PLDT ACTIVE\n`;
