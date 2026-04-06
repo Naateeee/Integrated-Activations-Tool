@@ -1,4 +1,5 @@
 const channels = [
+    // LOCAL CHANNELS
     {
         No: "4",
         ChannelName: "PTV",
@@ -342,6 +343,24 @@ const channels = [
         Plan1990: "yes"
     },
     {
+        No: "256",
+        ChannelName: "Kapatid Channel HD",
+        Category: "LOCAL CHANNEL",
+        AllThingsEnt: "yes",
+        SportsAction: "yes",
+        PinoyAndAsian: "yes",
+        FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
+        Plan290: "yes",
+        Plan520: "yes",
+        Plan720: "yes",
+        Plan1050: "yes",
+        Plan1350: "yes",
+        Plan1650: "yes",
+        Plan1990: "yes"
+    },
+    {
         No: "258",
         ChannelName: "One Sports HD",
         Category: "LOCAL CHANNEL",
@@ -377,6 +396,8 @@ const channels = [
         Plan1650: "yes",
         Plan1990: "yes"
     },
+
+    // MOVIES
     {
         No: "50",
         ChannelName: "TAP Movies",
@@ -593,6 +614,8 @@ const channels = [
         Plan1650: "yes",
         Plan1990: "yes"
     },
+
+    // PINOY CHANNELS
     {
         No: "2",
         ChannelName: "BuKo",
@@ -809,6 +832,8 @@ const channels = [
         Plan1650: "yes",
         Plan1990: "yes"
     },
+
+    // SPORTS
     {
         No: "90",
         ChannelName: "PBA Rush SD",
@@ -972,6 +997,24 @@ const channels = [
         Plan1990: "yes"
     },
     {
+        No: "271",
+        ChannelName: "Setanta Sports HD",
+        Category: "SPORTS",
+        AllThingsEnt: "yes",
+        SportsAction: "yes",
+        PinoyAndAsian: "yes",
+        FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
+        Plan290: "yes",
+        Plan520: "yes",
+        Plan720: "yes",
+        Plan1050: "yes",
+        Plan1350: "yes",
+        Plan1650: "yes",
+        Plan1990: "yes"
+    },
+    {
         No: "272",
         ChannelName: "Premier Sports HD",
         Category: "SPORTS",
@@ -1043,6 +1086,8 @@ const channels = [
         Plan1650: "yes",
         Plan1990: "yes"
     },
+
+    // KIDS
     {
         No: "72",
         ChannelName: "Nickelodeon SD",
@@ -1205,6 +1250,8 @@ const channels = [
         Plan1650: "yes",
         Plan1990: "yes"
     },
+
+    // NEWS (LOCAL & INT'L)
     {
         No: "1",
         ChannelName: "One PH",
@@ -1252,6 +1299,24 @@ const channels = [
         FamPack: "yes",
         MaxPlan: "yes",
         Plan290: "yes",
+        Plan520: "yes",
+        Plan720: "yes",
+        Plan1050: "yes",
+        Plan1350: "yes",
+        Plan1650: "yes",
+        Plan1990: "yes"
+    },
+    {
+        No: "27",
+        ChannelName: "ANC",
+        Category: "NEWS (LOCAL & INT'L)",
+        AllThingsEnt: "",
+        SportsAction: "",
+        PinoyAndAsian: "",
+        FamTime: "",
+        FamPack: "",
+        MaxPlan: "",
+        Plan290: "",
         Plan520: "yes",
         Plan720: "yes",
         Plan1050: "yes",
@@ -1439,6 +1504,8 @@ const channels = [
         Plan1650: "yes",
         Plan1990: "yes"
     },
+
+    // GENERAL ENTERTAINMENT
     {
         No: "120",
         ChannelName: "ROCK Entertainment",
@@ -1601,6 +1668,8 @@ const channels = [
         Plan1650: "yes",
         Plan1990: "yes"
     },
+
+    // EDUC / DOCU
     {
         No: "140",
         ChannelName: "Discovery Channel SD",
@@ -1745,6 +1814,8 @@ const channels = [
         Plan1650: "yes",
         Plan1990: "yes"
     },
+
+    // LIFESTYLE
     {
         No: "62",
         ChannelName: "Asian Food Network SD",
@@ -1889,6 +1960,8 @@ const channels = [
         Plan1650: "yes",
         Plan1990: "yes"
     },
+
+    // MUSIC
     {
         No: "150",
         ChannelName: "MYX",
@@ -1907,6 +1980,8 @@ const channels = [
         Plan1650: "yes",
         Plan1990: "yes"
     },
+
+    // SPECIAL INTEREST
     {
         No: "12",
         ChannelName: "My Cignal",
@@ -1961,6 +2036,8 @@ const channels = [
         Plan1650: "yes",
         Plan1990: "yes"
     },
+
+    // REGIONAL
     {
         No: "115",
         ChannelName: "CLTV36",
@@ -1979,6 +2056,8 @@ const channels = [
         Plan1650: "yes",
         Plan1990: "yes"
     },
+
+    // FOREIGN CHANNELS
     {
         No: "161",
         ChannelName: "Arirang TV",
@@ -2141,6 +2220,8 @@ const channels = [
         Plan1650: "yes",
         Plan1990: "yes"
     },
+
+    // RELIGIOUS CHANNELS
     {
         No: "153",
         ChannelName: "Word of God",
