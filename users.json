@@ -20,19 +20,12 @@
         "department": "CEG -  Activation Officer",
         "avatar": "assets/images/users/undraw_male-avatar_zkzx.svg"
     },
-    "SBSalen": {
-        "password": "ab407c776becb329b1940d52b5eed34859f096ed1d1b99a1f7b4aa98b57cf607",
-        "firstName": "Sherry Joy",
-        "lastName": "Salen",
-        "department": "CEG - Activation Officer",
-        "avatar": "assets/images/users/user_sherry.jpg"
-    },
     "MBTripolca": {
         "password": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
         "firstName": "Maria Angela",
         "lastName": "Tripolca",
         "department": "CEG - Activation Officer",
-        "avatar": "assets/images/users/undraw_female-avatar_7t6k.svg"
+        "avatar": "assets/images/users/user_angela.jpg"
     },
     "NJAdriano": {
         "password": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
@@ -46,7 +39,7 @@
         "firstName": "Erick",
         "lastName": "Cerrado",
         "department": "CEG - Activation Officer",
-        "avatar": "assets/images/users/undraw_male-avatar_zkzx.svg"
+        "avatar": "assets/images/users/user_erick.jpg"
     },
     "CCVillafuerte": {
         "password": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8",
@@ -96,5 +89,19 @@
         "lastName": "Gamutin",
         "department": "CEG - InHouse Operation TFS",
         "avatar": "assets/images/users/undraw_male-avatar_zkzx.svg"
+    },
+    "MPOribio": {
+        "password": "beaf2dedbf356617a07b5f6776b30fd4d7a97d3f1230582657b76a041c3acb18",
+        "firstName": "Maria Christina",
+        "lastName": "Oribio",
+        "department": "CEG - Quality Assurance",
+        "avatar": "assets/images/users/undraw_female-avatar_7t6k.svg"
+    },
+    "CPNaval": {
+        "password": "d38619e848ac3900bf8ecf066b23b1875576c07e65623a6d99571a9f1439523f",
+        "firstName": "Catherine",
+        "lastName": "Naval",
+        "department": "CEG - Training",
+        "avatar": "assets/images/users/undraw_female-avatar_7t6k.svg"
     }
 }

@@ -1,7 +1,5 @@
-// Channel Line-Up as of February 21, 2025
-// end of contract "TAP Edge & Premium Football HD" December 31, 2024
-
 const channels = [
+    // LOCAL CHANNELS
     {
         No: "4",
         ChannelName: "PTV",
@@ -10,6 +8,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -20,12 +20,14 @@ const channels = [
     },
     {
         No: "5",
-        ChannelName: "TV5 HD",
+        ChannelName: "TV5",
         Category: "LOCAL CHANNEL",
         AllThingsEnt: "yes",
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -42,6 +44,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -58,6 +62,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -74,6 +80,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -84,12 +92,14 @@ const channels = [
     },
     {
         No: "10",
-        ChannelName: "RPTV HD",
+        ChannelName: "WilTV",
         Category: "LOCAL CHANNEL",
         AllThingsEnt: "yes",
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -106,6 +116,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -122,6 +134,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -138,6 +152,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -148,140 +164,14 @@ const channels = [
     },
     {
         No: "15",
-        ChannelName: "TV5 HD",
+        ChannelName: "Kapatid Channel",
         Category: "LOCAL CHANNEL",
         AllThingsEnt: "yes",
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
-        Plan290: "yes",
-        Plan520: "yes",
-        Plan720: "yes",
-        Plan1050: "yes",
-        Plan1350: "yes",
-        Plan1650: "yes",
-        Plan1990: "yes"
-    },
-    {
-        No: "255",
-        ChannelName: "TV5 HD",
-        Category: "LOCAL CHANNEL",
-        AllThingsEnt: "yes",
-        SportsAction: "yes",
-        PinoyAndAsian: "yes",
-        FamTime: "yes",
-        Plan290: "yes",
-        Plan520: "yes",
-        Plan720: "yes",
-        Plan1050: "yes",
-        Plan1350: "yes",
-        Plan1650: "yes",
-        Plan1990: "yes"
-    },
-    {
-        No: "17",
-        ChannelName: "One Sports HD",
-        Category: "LOCAL CHANNEL",
-        AllThingsEnt: "yes",
-        SportsAction: "yes",
-        PinoyAndAsian: "yes",
-        FamTime: "yes",
-        Plan290: "yes",
-        Plan520: "yes",
-        Plan720: "yes",
-        Plan1050: "yes",
-        Plan1350: "yes",
-        Plan1650: "yes",
-        Plan1990: "yes"
-    },
-    {
-        No: "258",
-        ChannelName: "One Sports HD",
-        Category: "LOCAL CHANNEL",
-        AllThingsEnt: "yes",
-        SportsAction: "yes",
-        PinoyAndAsian: "yes",
-        FamTime: "yes",
-        Plan290: "yes",
-        Plan520: "yes",
-        Plan720: "yes",
-        Plan1050: "yes",
-        Plan1350: "yes",
-        Plan1650: "yes",
-        Plan1990: "yes"
-    },
-    {
-        No: "19",
-        ChannelName: "True FM TV",
-        Category: "LOCAL CHANNEL",
-        AllThingsEnt: "yes",
-        SportsAction: "yes",
-        PinoyAndAsian: "yes",
-        FamTime: "yes",
-        Plan290: "yes",
-        Plan520: "yes",
-        Plan720: "yes",
-        Plan1050: "yes",
-        Plan1350: "yes",
-        Plan1650: "yes",
-        Plan1990: "yes"
-    },
-    {
-        No: "20",
-        ChannelName: "A2Z",
-        Category: "LOCAL CHANNEL",
-        AllThingsEnt: "yes",
-        SportsAction: "yes",
-        PinoyAndAsian: "yes",
-        FamTime: "yes",
-        Plan290: "yes",
-        Plan520: "yes",
-        Plan720: "yes",
-        Plan1050: "yes",
-        Plan1350: "yes",
-        Plan1650: "yes",
-        Plan1990: "yes"
-    },
-    {
-        No: "21",
-        ChannelName: "Solar Flix",
-        Category: "LOCAL CHANNEL",
-        AllThingsEnt: "yes",
-        SportsAction: "yes",
-        PinoyAndAsian: "yes",
-        FamTime: "yes",
-        Plan290: "yes",
-        Plan520: "yes",
-        Plan720: "yes",
-        Plan1050: "yes",
-        Plan1350: "yes",
-        Plan1650: "yes",
-        Plan1990: "yes"
-    },
-    {
-        No: "23",
-        ChannelName: "Aliw",
-        Category: "LOCAL CHANNEL",
-        AllThingsEnt: "yes",
-        SportsAction: "yes",
-        PinoyAndAsian: "yes",
-        FamTime: "yes",
-        Plan290: "yes",
-        Plan520: "yes",
-        Plan720: "yes",
-        Plan1050: "yes",
-        Plan1350: "yes",
-        Plan1650: "yes",
-        Plan1990: "yes"
-    },
-    {
-        No: "28",
-        ChannelName: "RJ TV",
-        Category: "LOCAL CHANNEL",
-        AllThingsEnt: "yes",
-        SportsAction: "yes",
-        PinoyAndAsian: "yes",
-        FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -298,6 +188,80 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
+        Plan290: "yes",
+        Plan520: "yes",
+        Plan720: "yes",
+        Plan1050: "yes",
+        Plan1350: "yes",
+        Plan1650: "yes",
+        Plan1990: "yes"
+    },
+    {
+        No: "19",
+        ChannelName: "True FM TV",
+        Category: "LOCAL CHANNEL",
+        AllThingsEnt: "yes",
+        SportsAction: "yes",
+        PinoyAndAsian: "yes",
+        FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
+        Plan290: "yes",
+        Plan520: "yes",
+        Plan720: "yes",
+        Plan1050: "yes",
+        Plan1350: "yes",
+        Plan1650: "yes",
+        Plan1990: "yes"
+    },
+    {
+        No: "20",
+        ChannelName: "A2Z",
+        Category: "LOCAL CHANNEL",
+        AllThingsEnt: "yes",
+        SportsAction: "yes",
+        PinoyAndAsian: "yes",
+        FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
+        Plan290: "yes",
+        Plan520: "yes",
+        Plan720: "yes",
+        Plan1050: "yes",
+        Plan1350: "yes",
+        Plan1650: "yes",
+        Plan1990: "yes"
+    },
+    {
+        No: "21",
+        ChannelName: "Solar Flix",
+        Category: "LOCAL CHANNEL",
+        AllThingsEnt: "yes",
+        SportsAction: "yes",
+        PinoyAndAsian: "yes",
+        FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
+        Plan290: "yes",
+        Plan520: "yes",
+        Plan720: "yes",
+        Plan1050: "yes",
+        Plan1350: "yes",
+        Plan1650: "yes",
+        Plan1990: "yes"
+    },
+    {
+        No: "23",
+        ChannelName: "Aliw",
+        Category: "LOCAL CHANNEL",
+        AllThingsEnt: "yes",
+        SportsAction: "yes",
+        PinoyAndAsian: "yes",
+        FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -314,6 +278,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -323,6 +289,116 @@ const channels = [
         Plan1990: "yes"
     },
     {
+        No: "28",
+        ChannelName: "RJ TV",
+        Category: "LOCAL CHANNEL",
+        AllThingsEnt: "yes",
+        SportsAction: "yes",
+        PinoyAndAsian: "yes",
+        FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
+        Plan290: "yes",
+        Plan520: "yes",
+        Plan720: "yes",
+        Plan1050: "yes",
+        Plan1350: "yes",
+        Plan1650: "yes",
+        Plan1990: "yes"
+    },
+    {
+        No: "31",
+        ChannelName: "PRTV Prime Media",
+        Category: "LOCAL CHANNEL",
+        AllThingsEnt: "yes",
+        SportsAction: "yes",
+        PinoyAndAsian: "yes",
+        FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
+        Plan290: "yes",
+        Plan520: "yes",
+        Plan720: "yes",
+        Plan1050: "yes",
+        Plan1350: "yes",
+        Plan1650: "yes",
+        Plan1990: "yes"
+    },
+    {
+        No: "255",
+        ChannelName: "TV5 HD",
+        Category: "LOCAL CHANNEL",
+        AllThingsEnt: "yes",
+        SportsAction: "yes",
+        PinoyAndAsian: "yes",
+        FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
+        Plan290: "yes",
+        Plan520: "yes",
+        Plan720: "yes",
+        Plan1050: "yes",
+        Plan1350: "yes",
+        Plan1650: "yes",
+        Plan1990: "yes"
+    },
+    {
+        No: "256",
+        ChannelName: "Kapatid Channel HD",
+        Category: "LOCAL CHANNEL",
+        AllThingsEnt: "yes",
+        SportsAction: "yes",
+        PinoyAndAsian: "yes",
+        FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
+        Plan290: "yes",
+        Plan520: "yes",
+        Plan720: "yes",
+        Plan1050: "yes",
+        Plan1350: "yes",
+        Plan1650: "yes",
+        Plan1990: "yes"
+    },
+    {
+        No: "258",
+        ChannelName: "One Sports HD",
+        Category: "LOCAL CHANNEL",
+        AllThingsEnt: "yes",
+        SportsAction: "yes",
+        PinoyAndAsian: "yes",
+        FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
+        Plan290: "yes",
+        Plan520: "yes",
+        Plan720: "yes",
+        Plan1050: "yes",
+        Plan1350: "yes",
+        Plan1650: "yes",
+        Plan1990: "yes"
+    },
+    {
+        No: "259",
+        ChannelName: "RPTV HD",
+        Category: "LOCAL CHANNEL",
+        AllThingsEnt: "yes",
+        SportsAction: "yes",
+        PinoyAndAsian: "yes",
+        FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
+        Plan290: "yes",
+        Plan520: "yes",
+        Plan720: "yes",
+        Plan1050: "yes",
+        Plan1350: "yes",
+        Plan1650: "yes",
+        Plan1990: "yes"
+    },
+
+    // MOVIES
+    {
         No: "50",
         ChannelName: "TAP Movies",
         Category: "MOVIES",
@@ -330,6 +406,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "",
         FamTime: "",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -346,6 +424,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "",
         FamTime: "",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -362,6 +442,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "",
         FamTime: "",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -378,6 +460,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "",
         FamTime: "",
+        FamPack: "",
+        MaxPlan: "",
         Plan290: "",
         Plan520: "yes",
         Plan720: "yes",
@@ -394,6 +478,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "",
         FamTime: "",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -410,6 +496,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "",
         FamTime: "",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -426,6 +514,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -442,6 +532,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -458,6 +550,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -474,6 +568,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "",
         FamTime: "yes",
+        FamPack: "",
+        MaxPlan: "yes",
         Plan290: "",
         Plan520: "yes",
         Plan720: "yes",
@@ -490,6 +586,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "",
+        MaxPlan: "yes",
         Plan290: "",
         Plan520: "yes",
         Plan720: "yes",
@@ -506,6 +604,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "",
         FamTime: "",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -514,22 +614,8 @@ const channels = [
         Plan1650: "yes",
         Plan1990: "yes"
     },
-    {
-        No: "216",
-        ChannelName: "TAP Action Flix HD",
-        Category: "MOVIES",
-        AllThingsEnt: "",
-        SportsAction: "yes",
-        PinoyAndAsian: "",
-        FamTime: "",
-        Plan290: "",
-        Plan520: "yes",
-        Plan720: "yes",
-        Plan1050: "yes",
-        Plan1350: "yes",
-        Plan1650: "yes",
-        Plan1990: "yes"
-    },
+
+    // PINOY CHANNELS
     {
         No: "2",
         ChannelName: "BuKo",
@@ -538,6 +624,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -554,6 +642,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -570,6 +660,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -586,6 +678,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -602,6 +696,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "yes",
         FamTime: "",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -612,12 +708,14 @@ const channels = [
     },
     {
         No: "41",
-        ChannelName: "Pinoy Box Office (PBO)",
+        ChannelName: "Pinoy Box Office",
         Category: "PINOY",
         AllThingsEnt: "yes",
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -634,6 +732,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "yes",
         FamTime: "",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -650,6 +750,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -660,12 +762,14 @@ const channels = [
     },
     {
         No: "44",
-        ChannelName: "JeepneyTV",
+        ChannelName: "Jeepney TV",
         Category: "PINOY",
         AllThingsEnt: "",
         SportsAction: "",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -682,6 +786,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -692,12 +798,14 @@ const channels = [
     },
     {
         No: "49",
-        ChannelName: "Tagalized Movie Channel (TMC)",
+        ChannelName: "Tagalized Movie Channel",
         Category: "PINOY",
         AllThingsEnt: "",
         SportsAction: "",
         PinoyAndAsian: "yes",
         FamTime: "",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -714,6 +822,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -722,6 +832,8 @@ const channels = [
         Plan1650: "yes",
         Plan1990: "yes"
     },
+
+    // SPORTS
     {
         No: "90",
         ChannelName: "PBA Rush SD",
@@ -730,6 +842,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -746,6 +860,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -762,6 +878,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "",
         FamTime: "",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -778,6 +896,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "",
         FamTime: "",
+        FamPack: "",
+        MaxPlan: "",
         Plan290: "",
         Plan520: "",
         Plan720: "",
@@ -794,22 +914,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
-        Plan290: "yes",
-        Plan520: "yes",
-        Plan720: "yes",
-        Plan1050: "yes",
-        Plan1350: "yes",
-        Plan1650: "yes",
-        Plan1990: "yes"
-    },
-    {
-        No: "98",
-        ChannelName: "MPTV",
-        Category: "SPORTS",
-        AllThingsEnt: "yes",
-        SportsAction: "yes",
-        PinoyAndAsian: "yes",
-        FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -826,6 +932,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -842,6 +950,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "",
+        MaxPlan: "",
         Plan290: "",
         Plan520: "yes",
         Plan720: "yes",
@@ -858,6 +968,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "",
         FamTime: "",
+        FamPack: "",
+        MaxPlan: "",
         Plan290: "",
         Plan520: "yes",
         Plan720: "yes",
@@ -874,6 +986,26 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
+        Plan290: "yes",
+        Plan520: "yes",
+        Plan720: "yes",
+        Plan1050: "yes",
+        Plan1350: "yes",
+        Plan1650: "yes",
+        Plan1990: "yes"
+    },
+    {
+        No: "271",
+        ChannelName: "Setanta Sports HD",
+        Category: "SPORTS",
+        AllThingsEnt: "yes",
+        SportsAction: "yes",
+        PinoyAndAsian: "yes",
+        FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -890,6 +1022,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "",
         FamTime: "",
+        FamPack: "",
+        MaxPlan: "",
         Plan290: "",
         Plan520: "yes",
         Plan720: "yes",
@@ -906,6 +1040,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "",
         FamTime: "",
+        FamPack: "",
+        MaxPlan: "",
         Plan290: "",
         Plan520: "yes",
         Plan720: "yes",
@@ -922,6 +1058,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "",
         FamTime: "",
+        FamPack: "",
+        MaxPlan: "",
         Plan290: "",
         Plan520: "yes",
         Plan720: "yes",
@@ -938,6 +1076,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "",
         FamTime: "",
+        FamPack: "",
+        MaxPlan: "",
         Plan290: "",
         Plan520: "yes",
         Plan720: "yes",
@@ -946,6 +1086,8 @@ const channels = [
         Plan1650: "yes",
         Plan1990: "yes"
     },
+
+    // KIDS
     {
         No: "72",
         ChannelName: "Nickelodeon SD",
@@ -954,6 +1096,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -970,6 +1114,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "yes",
         FamTime: "",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -986,6 +1132,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "",
         FamTime: "",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -1002,6 +1150,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -1018,6 +1168,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -1034,6 +1186,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -1050,6 +1204,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -1066,6 +1222,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -1082,6 +1240,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "",
         Plan290: "",
         Plan520: "yes",
         Plan720: "yes",
@@ -1090,6 +1250,8 @@ const channels = [
         Plan1650: "yes",
         Plan1990: "yes"
     },
+
+    // NEWS (LOCAL & INT'L)
     {
         No: "1",
         ChannelName: "One PH",
@@ -1098,6 +1260,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -1114,6 +1278,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -1130,7 +1296,27 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
+        Plan520: "yes",
+        Plan720: "yes",
+        Plan1050: "yes",
+        Plan1350: "yes",
+        Plan1650: "yes",
+        Plan1990: "yes"
+    },
+    {
+        No: "27",
+        ChannelName: "ANC",
+        Category: "NEWS (LOCAL & INT'L)",
+        AllThingsEnt: "",
+        SportsAction: "",
+        PinoyAndAsian: "",
+        FamTime: "",
+        FamPack: "",
+        MaxPlan: "",
+        Plan290: "",
         Plan520: "yes",
         Plan720: "yes",
         Plan1050: "yes",
@@ -1146,6 +1332,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "",
         FamTime: "",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -1162,6 +1350,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "",
         FamTime: "",
+        FamPack: "",
+        MaxPlan: "",
         Plan290: "",
         Plan520: "",
         Plan720: "yes",
@@ -1178,6 +1368,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "",
         FamTime: "",
+        FamPack: "",
+        MaxPlan: "",
         Plan290: "",
         Plan520: "",
         Plan720: "",
@@ -1194,6 +1386,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "",
         FamTime: "",
+        FamPack: "",
+        MaxPlan: "",
         Plan290: "",
         Plan520: "",
         Plan720: "",
@@ -1210,6 +1404,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "",
         FamTime: "",
+        FamPack: "",
+        MaxPlan: "",
         Plan290: "",
         Plan520: "",
         Plan720: "yes",
@@ -1226,6 +1422,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -1242,6 +1440,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "",
         FamTime: "",
+        FamPack: "",
+        MaxPlan: "",
         Plan290: "",
         Plan520: "yes",
         Plan720: "yes",
@@ -1258,6 +1458,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "",
         FamTime: "yes",
+        FamPack: "",
+        MaxPlan: "",
         Plan290: "",
         Plan520: "",
         Plan720: "",
@@ -1274,6 +1476,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -1290,6 +1494,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "",
         FamTime: "yes",
+        FamPack: "",
+        MaxPlan: "",
         Plan290: "",
         Plan520: "yes",
         Plan720: "yes",
@@ -1298,6 +1504,8 @@ const channels = [
         Plan1650: "yes",
         Plan1990: "yes"
     },
+
+    // GENERAL ENTERTAINMENT
     {
         No: "120",
         ChannelName: "ROCK Entertainment",
@@ -1306,6 +1514,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -1322,6 +1532,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -1338,6 +1550,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "",
         FamTime: "",
+        FamPack: "yes",
+        MaxPlan: "",
         Plan290: "",
         Plan520: "yes",
         Plan720: "yes",
@@ -1354,22 +1568,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "",
         FamTime: "yes",
-        Plan290: "yes",
-        Plan520: "yes",
-        Plan720: "yes",
-        Plan1050: "yes",
-        Plan1350: "yes",
-        Plan1650: "yes",
-        Plan1990: "yes"
-    },
-    {
-        No: "125",
-        ChannelName: "TAP TV",
-        Category: "GENERAL ENT",
-        AllThingsEnt: "yes",
-        SportsAction: "",
-        PinoyAndAsian: "",
-        FamTime: "",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -1386,6 +1586,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "",
         FamTime: "yes",
+        FamPack: "",
+        MaxPlan: "",
         Plan290: "",
         Plan520: "yes",
         Plan720: "yes",
@@ -1402,6 +1604,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "",
         FamTime: "",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -1418,6 +1622,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -1434,6 +1640,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -1450,6 +1658,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -1458,22 +1668,8 @@ const channels = [
         Plan1650: "yes",
         Plan1990: "yes"
     },
-    {
-        No: "101",
-        ChannelName: "TVUP",
-        Category: "EDUC / DOCU",
-        AllThingsEnt: "yes",
-        SportsAction: "yes",
-        PinoyAndAsian: "yes",
-        FamTime: "yes",
-        Plan290: "yes",
-        Plan520: "yes",
-        Plan720: "yes",
-        Plan1050: "yes",
-        Plan1350: "yes",
-        Plan1650: "yes",
-        Plan1990: "yes"
-    },
+
+    // EDUC / DOCU
     {
         No: "140",
         ChannelName: "Discovery Channel SD",
@@ -1482,6 +1678,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -1498,6 +1696,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "",
         FamTime: "",
+        FamPack: "",
+        MaxPlan: "",
         Plan290: "",
         Plan520: "yes",
         Plan720: "yes",
@@ -1514,6 +1714,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "",
         FamTime: "",
+        FamPack: "",
+        MaxPlan: "",
         Plan290: "",
         Plan520: "",
         Plan720: "",
@@ -1530,22 +1732,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
-        Plan290: "yes",
-        Plan520: "yes",
-        Plan720: "yes",
-        Plan1050: "yes",
-        Plan1350: "yes",
-        Plan1650: "yes",
-        Plan1990: "yes"
-    },
-    {
-        No: "148",
-        ChannelName: "TechStorm",
-        Category: "EDUC / DOCU",
-        AllThingsEnt: "",
-        SportsAction: "yes",
-        PinoyAndAsian: "",
-        FamTime: "",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -1562,6 +1750,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -1578,6 +1768,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "",
         FamTime: "",
+        FamPack: "",
+        MaxPlan: "",
         Plan290: "",
         Plan520: "",
         Plan720: "yes",
@@ -1594,6 +1786,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "",
         FamTime: "",
+        FamPack: "",
+        MaxPlan: "",
         Plan290: "",
         Plan520: "yes",
         Plan720: "yes",
@@ -1610,6 +1804,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -1618,6 +1814,8 @@ const channels = [
         Plan1650: "yes",
         Plan1990: "yes"
     },
+
+    // LIFESTYLE
     {
         No: "62",
         ChannelName: "Asian Food Network SD",
@@ -1626,6 +1824,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "",
         FamTime: "",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -1642,6 +1842,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "",
         FamTime: "yes",
+        FamPack: "",
+        MaxPlan: "",
         Plan290: "",
         Plan520: "",
         Plan720: "yes",
@@ -1658,6 +1860,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "",
         FamTime: "yes",
+        FamPack: "",
+        MaxPlan: "",
         Plan290: "",
         Plan520: "yes",
         Plan720: "yes",
@@ -1674,6 +1878,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -1690,6 +1896,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "",
         FamTime: "yes",
+        FamPack: "",
+        MaxPlan: "",
         Plan290: "",
         Plan520: "",
         Plan720: "yes",
@@ -1706,6 +1914,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "",
         FamTime: "yes",
+        FamPack: "",
+        MaxPlan: "",
         Plan290: "",
         Plan520: "",
         Plan720: "",
@@ -1722,6 +1932,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "",
         FamTime: "yes",
+        FamPack: "",
+        MaxPlan: "",
         Plan290: "",
         Plan520: "",
         Plan720: "yes",
@@ -1738,6 +1950,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "",
         FamTime: "",
+        FamPack: "",
+        MaxPlan: "",
         Plan290: "",
         Plan520: "",
         Plan720: "yes",
@@ -1746,6 +1960,8 @@ const channels = [
         Plan1650: "yes",
         Plan1990: "yes"
     },
+
+    // MUSIC
     {
         No: "150",
         ChannelName: "MYX",
@@ -1754,6 +1970,28 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "",
         FamTime: "",
+        FamPack: "yes",
+        MaxPlan: "yes",
+        Plan290: "yes",
+        Plan520: "yes",
+        Plan720: "yes",
+        Plan1050: "yes",
+        Plan1350: "yes",
+        Plan1650: "yes",
+        Plan1990: "yes"
+    },
+
+    // SPECIAL INTEREST
+    {
+        No: "12",
+        ChannelName: "My Cignal",
+        Category: "SPECIAL INTEREST",
+        AllThingsEnt: "yes",
+        SportsAction: "yes",
+        PinoyAndAsian: "yes",
+        FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -1770,6 +2008,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -1786,6 +2026,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -1794,6 +2036,8 @@ const channels = [
         Plan1650: "yes",
         Plan1990: "yes"
     },
+
+    // REGIONAL
     {
         No: "115",
         ChannelName: "CLTV36",
@@ -1802,6 +2046,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -1810,6 +2056,8 @@ const channels = [
         Plan1650: "yes",
         Plan1990: "yes"
     },
+
+    // FOREIGN CHANNELS
     {
         No: "161",
         ChannelName: "Arirang TV",
@@ -1818,6 +2066,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "yes",
         FamTime: "",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -1834,6 +2084,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "yes",
         FamTime: "",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -1850,6 +2102,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "yes",
         FamTime: "",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -1866,6 +2120,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "",
         FamTime: "",
+        FamPack: "",
+        MaxPlan: "",
         Plan290: "",
         Plan520: "",
         Plan720: "",
@@ -1876,12 +2132,14 @@ const channels = [
     },
     {
         No: "166",
-        ChannelName: "CGTN Documentary",
+        ChannelName: "CGTN",
         Category: "FOREIGN CH",
         AllThingsEnt: "yes",
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -1898,6 +2156,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "",
         FamTime: "",
+        FamPack: "",
+        MaxPlan: "",
         Plan290: "",
         Plan520: "yes",
         Plan720: "yes",
@@ -1914,6 +2174,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "",
         FamTime: "",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -1930,6 +2192,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "yes",
         FamTime: "",
+        FamPack: "",
+        MaxPlan: "",
         Plan290: "",
         Plan520: "yes",
         Plan720: "yes",
@@ -1946,6 +2210,8 @@ const channels = [
         SportsAction: "",
         PinoyAndAsian: "yes",
         FamTime: "",
+        FamPack: "",
+        MaxPlan: "",
         Plan290: "",
         Plan520: "yes",
         Plan720: "yes",
@@ -1954,6 +2220,8 @@ const channels = [
         Plan1650: "yes",
         Plan1990: "yes"
     },
+
+    // RELIGIOUS CHANNELS
     {
         No: "153",
         ChannelName: "Word of God",
@@ -1962,6 +2230,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -1978,6 +2248,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -1994,6 +2266,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -2010,6 +2284,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -2026,6 +2302,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -2042,6 +2320,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -2058,6 +2338,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -2074,6 +2356,8 @@ const channels = [
         SportsAction: "yes",
         PinoyAndAsian: "yes",
         FamTime: "yes",
+        FamPack: "yes",
+        MaxPlan: "yes",
         Plan290: "yes",
         Plan520: "yes",
         Plan720: "yes",
@@ -2109,6 +2393,8 @@ function populateTable(data) {
     const sportsActionCellTotal = document.getElementById('sportsActionTotal');
     const pinoyAsianCellTotal = document.getElementById('pinoyAsianTotal');
     const famTimeCellTotal = document.getElementById('famTimeTotal');
+    const famPackCellTotal = document.getElementById('famPackTotal');
+    const maxPlanCellTotal = document.getElementById('maxPlanTotal');
     const plan290CellTotal = document.getElementById('plan290Total');
     const plan520CellTotal = document.getElementById('plan520Total');
     const plan720CellTotal = document.getElementById('plan720Total');
@@ -2122,6 +2408,8 @@ function populateTable(data) {
     const sportsActionCellHD = document.getElementById('sportsActionHDTotal');
     const pinoyAsianCellHD = document.getElementById('pinoyAsianHDTotal');
     const famTimeCellHD = document.getElementById('famTimeHDTotal');
+    const famPackCellHD = document.getElementById('famPackHDTotal');
+    const maxPlanCellHD = document.getElementById('maxPlanHDTotal');
     const plan290CellHD = document.getElementById('plan290HDTotal');
     const plan520CellHD = document.getElementById('plan520HDTotal');
     const plan720CellHD = document.getElementById('plan720HDTotal');
@@ -2137,6 +2425,8 @@ function populateTable(data) {
     const sportsActionCellNonHD = document.getElementById('sportsActionNonHDTotal');
     const pinoyAsianCellNonHD = document.getElementById('pinoyAsianNonHDTotal');
     const famTimeCellNonHD = document.getElementById('famTimeNonHDTotal');
+    const famPackNonHD = document.getElementById('famPackNonHDTotal');
+    const maxPlanNonHD = document.getElementById('maxPlanNonHDTotal');
     const plan290CellNonHD = document.getElementById('plan290NonHDTotal');
     const plan520CellNonHD = document.getElementById('plan520NonHDTotal');
     const plan720CellNonHD = document.getElementById('plan720NonHDTotal');
@@ -2151,6 +2441,8 @@ function populateTable(data) {
         "SportsAction": 0,
         "PinoyAndAsian": 0,
         "FamTime": 0,
+        "FamPack": 0,
+        "MaxPlan": 0,
         "Plan290": 0,
         "Plan520": 0,
         "Plan720": 0,
@@ -2165,6 +2457,8 @@ function populateTable(data) {
         "SportsAction": 0,
         "PinoyAndAsian": 0,
         "FamTime": 0,
+        "FamPack": 0,
+        "MaxPlan": 0,
         "Plan290": 0,
         "Plan520": 0,
         "Plan720": 0,
@@ -2208,36 +2502,41 @@ function populateTable(data) {
     }
 
     // Update the thead cells with the total counts
-    allThingsEntCellTotal.textContent = totalChannelCounts["AllThingsEnt"] - 2;
-    sportsActionCellTotal.textContent = totalChannelCounts["SportsAction"] - 2;
-    pinoyAsianCellTotal.textContent = totalChannelCounts["PinoyAndAsian"] - 2;
-    famTimeCellTotal.textContent = totalChannelCounts["FamTime"] - 2;
-    plan290CellTotal.textContent = totalChannelCounts["Plan290"] - 2;
-    plan520CellTotal.textContent = totalChannelCounts["Plan520"] - 2;
-    plan720CellTotal.textContent = totalChannelCounts["Plan720"] - 2;
-    plan1050CellTotal.textContent = totalChannelCounts["Plan1050"] - 2;
-    plan1350CellTotal.textContent = totalChannelCounts["Plan1350"] - 2;
-    plan1650CellTotal.textContent = totalChannelCounts["Plan1650"] - 2;
-    plan1990CellTotal.textContent = totalChannelCounts["Plan1990"] - 2;
-
+    allThingsEntCellTotal.textContent = totalChannelCounts["AllThingsEnt"];
+    sportsActionCellTotal.textContent = totalChannelCounts["SportsAction"];
+    pinoyAsianCellTotal.textContent = totalChannelCounts["PinoyAndAsian"];
+    famTimeCellTotal.textContent = totalChannelCounts["FamTime"];
+    famPackCellTotal.textContent = totalChannelCounts["FamPack"];
+    maxPlanCellTotal.textContent = totalChannelCounts["MaxPlan"];
+    plan290CellTotal.textContent = totalChannelCounts["Plan290"];
+    plan520CellTotal.textContent = totalChannelCounts["Plan520"];
+    plan720CellTotal.textContent = totalChannelCounts["Plan720"];
+    plan1050CellTotal.textContent = totalChannelCounts["Plan1050"];
+    plan1350CellTotal.textContent = totalChannelCounts["Plan1350"];
+    plan1650CellTotal.textContent = totalChannelCounts["Plan1650"];
+    plan1990CellTotal.textContent = totalChannelCounts["Plan1990"];
     // Update the thead cells with the HD channel counts
-    allThingsEntCellHD.textContent = totalHDChannelCounts["AllThingsEnt"] - 2;
-    sportsActionCellHD.textContent = totalHDChannelCounts["SportsAction"] - 2;
-    pinoyAsianCellHD.textContent = totalHDChannelCounts["PinoyAndAsian"] - 2;
-    famTimeCellHD.textContent = totalHDChannelCounts["FamTime"] - 2;
-    plan290CellHD.textContent = totalHDChannelCounts["Plan290"] - 2;
-    plan520CellHD.textContent = totalHDChannelCounts["Plan520"] - 2;
-    plan720CellHD.textContent = totalHDChannelCounts["Plan720"] - 2;
-    plan1050CellHD.textContent = totalHDChannelCounts["Plan1050"] - 2;
-    plan1350CellHD.textContent = totalHDChannelCounts["Plan1350"] - 2;
-    plan1650CellHD.textContent = totalHDChannelCounts["Plan1650"] - 2;
-    plan1990CellHD.textContent = totalHDChannelCounts["Plan1990"] - 2;
+    allThingsEntCellHD.textContent = totalHDChannelCounts["AllThingsEnt"];
+    sportsActionCellHD.textContent = totalHDChannelCounts["SportsAction"];
+    pinoyAsianCellHD.textContent = totalHDChannelCounts["PinoyAndAsian"] ;
+    famTimeCellHD.textContent = totalHDChannelCounts["FamTime"];
+    famPackCellHD.textContent = totalHDChannelCounts["FamPack"];
+    maxPlanCellHD.textContent = totalHDChannelCounts["MaxPlan"];
+    plan290CellHD.textContent = totalHDChannelCounts["Plan290"];
+    plan520CellHD.textContent = totalHDChannelCounts["Plan520"];
+    plan720CellHD.textContent = totalHDChannelCounts["Plan720"];
+    plan1050CellHD.textContent = totalHDChannelCounts["Plan1050"];
+    plan1350CellHD.textContent = totalHDChannelCounts["Plan1350"];
+    plan1650CellHD.textContent = totalHDChannelCounts["Plan1650"];
+    plan1990CellHD.textContent = totalHDChannelCounts["Plan1990"];
 
     // Update the thead cells with the non-HD channel counts
     allThingsEntCellNonHD.textContent = totalNonHDChannelCounts["AllThingsEnt"];
     sportsActionCellNonHD.textContent = totalNonHDChannelCounts["SportsAction"];
     pinoyAsianCellNonHD.textContent = totalNonHDChannelCounts["PinoyAndAsian"];
     famTimeCellNonHD.textContent = totalNonHDChannelCounts["FamTime"];
+    famPackNonHD.textContent = totalNonHDChannelCounts["FamPack"];
+    maxPlanNonHD.textContent = totalNonHDChannelCounts["MaxPlan"];
     plan290CellNonHD.textContent = totalNonHDChannelCounts["Plan290"];
     plan520CellNonHD.textContent = totalNonHDChannelCounts["Plan520"];
     plan720CellNonHD.textContent = totalNonHDChannelCounts["Plan720"];
@@ -2255,6 +2554,8 @@ const planPrices = {
     FamTime: 300,
     SportsAction: 300,
     PinoyAndAsian: 300,
+    FamPack: 599,
+    MaxPlan: 549,
     Plan290: 290,
     Plan520: 520,
     Plan720: 720,
@@ -2348,44 +2649,56 @@ function compareChannels() {
         channelTableBody.appendChild(row);
     });
 
-    // Add total count row
+    
+    // Add summary label
+    const summaryRow = document.createElement("tr");
+
+    const summary = document.createElement("td");
+    summary.setAttribute("colspan", "4");
+    summary.textContent = "*** Channel & Price Comparison Summary ***";
+    summary.style.textAlign = "center";
+    summary.style.fontWeight = "bold";
+    summaryRow.appendChild(summary);
+
+    channelTableBody.appendChild(summaryRow);
+
+    // Count how many channels are from each plan
+    const firstPlanCount = firstPlanExclusiveChannels.length;
+    const secondPlanCount = secondPlanExclusiveChannels.length;
+    const diff = Math.abs(firstPlanCount - secondPlanCount);
+    const priceDifference = Math.abs(firstPlanTotal - secondPlanTotal);
+
+    // Create a total row to display the counts and price difference
     const totalRow = document.createElement("tr");
-    const totalCell = document.createElement("td");
-    totalCell.setAttribute("colspan", "3");
-    totalCell.textContent = "Total Channels";
-    totalCell.style.fontWeight = "bolder";
-    totalCell.style.textAlign = "right";
-    totalCell.style.fontSize = "16px";
-    totalRow.appendChild(totalCell);
 
-    const countCell = document.createElement("td");
-    countCell.textContent = combinedResults.length;
-    countCell.style.fontWeight = "bolder";
-    countCell.style.fontSize = "16px";
-    totalRow.appendChild(countCell);
+    // First Plan column
+    const plan1Cell = document.createElement("td");
+    plan1Cell.textContent = `${formatPlanName(firstPlan)}: ${firstPlanCount}`;
+    plan1Cell.style.textAlign = "right";
+    totalRow.appendChild(plan1Cell);
 
-    channelTableBody.appendChild(totalRow);
+    // Second Plan column
+    const plan2Cell = document.createElement("td");
+    plan2Cell.textContent = `${formatPlanName(secondPlan)}: ${secondPlanCount}`;
+    plan2Cell.style.textAlign = "right";
+    totalRow.appendChild(plan2Cell);
+
+    const channelDiffCell = document.createElement("td");
+    channelDiffCell.innerHTML = `<span style="color: black;">Channels difference:</span> <span style="color: red;">${diff}</span>`;
+    channelDiffCell.style.fontWeight = "bolder";
+    channelDiffCell.style.textAlign = "right";
+    channelDiffCell.style.fontSize = "16px";
+    totalRow.appendChild(channelDiffCell);
 
     // Calculate the price difference
-    const priceDifference = secondPlanTotal - firstPlanTotal;
-
-    const differenceRow = document.createElement("tr");
-    const differenceCell = document.createElement("td");
-    differenceCell.setAttribute("colspan", "3");
-    differenceCell.textContent = "Price Difference";
-    differenceCell.style.fontWeight = "bolder";
-    differenceCell.style.textAlign = "right";
-    differenceCell.style.fontSize = "16px";
-    differenceRow.appendChild(differenceCell);
-
     const priceCell = document.createElement("td");
-    priceCell.textContent = `₱${priceDifference}`;
+    priceCell.innerHTML = `<span style="color: black;">Price difference:</span> <span style="color: red;">₱${priceDifference}</span>`;
     priceCell.style.fontWeight = "bolder";
+    priceCell.style.textAlign = "right";
     priceCell.style.fontSize = "16px";
-    priceCell.style.color = "red";
-    differenceRow.appendChild(priceCell);
+    totalRow.appendChild(priceCell);
 
-    channelTableBody.appendChild(differenceRow);
+    channelTableBody.appendChild(totalRow);
 }
 
 function clearFilter() {
@@ -2395,5 +2708,5 @@ function clearFilter() {
     document.getElementById("secondFilterSelect").value = 0;
     document.getElementById("firstPlanPrice").value = "";
     document.getElementById("secondPlanPrice").value = "";
-    document.getElementById("boxSelect").value = 0;
+    document.getElementById("boxSelect").value = 1;
 }

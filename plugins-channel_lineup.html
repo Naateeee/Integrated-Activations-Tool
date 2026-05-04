@@ -30,7 +30,7 @@
             <!-- LOGO light -->
             <a href="index.html" class="logo text-center logo-light">
                 <span class="logo-lg">
-                    <img src="assets/images/cignal-logo-nobg.png" alt="" height="46">
+                    <img src="assets/images/cignal-logo-nobg.png" alt="" height="80">
                 </span>
                 <span class="logo-sm">
                     <img src="assets/images/cignal-logo-nobg.png" alt="" height="35">
@@ -254,7 +254,7 @@
                                         <li class="breadcrumb-item fw-bold">Channel Lineup</li>
                                     </ol>
                                 </div>
-                                <h5 class="page-title text-dark">CIGNAL POSTPAID RESIDENTIAL CHANNEL LINE-UP</h5>
+                                <h5 class="page-title text-dark">POSTPAID RESIDENTIAL CHANNEL LINE-UP</h5>
                             </div>
                         </div>
                     </div>
@@ -263,12 +263,14 @@
                         <div class="col-12">
                             <div class="card border">
                                 <div class="card-body">
-                                    <span class="badge badge-danger-lighten p-1 mb-3"><i class="uil-bookmark"></i>&nbsp;Postpaid Residential Channel Line-up as of February 21, 2025</span>
+                                    <span class="badge badge-info-lighten p-1 mb-3">Postpaid Residential Channel Line-up as of March 30, 2025</span>
                                     <table id="basic-datatable" class="table dataTable display dt-responsive w-100 nowrap table-bordered table-centered table-hover text-dark">
                                         <thead class="text-center">
                                             <tr class="table-dark">
                                                 <th colspan="3">Channel Line-Up</th>
-                                                <th colspan="4">Basic Theme Pack 300</th>
+                                                <th colspan="4">Theme Pack 300</th>
+                                                <th>Disney</th>
+                                                <th>HBO</th>
                                                 <th colspan="7">Postpaid Plan Residential</th>
                                             </tr>
                                             <tr class="table-secondary">
@@ -277,6 +279,8 @@
                                                 <th id="sportsActionTotal"></th>
                                                 <th id="pinoyAsianTotal"></th>
                                                 <th id="famTimeTotal"></th>
+                                                <th id="famPackTotal"></th>
+                                                <th id="maxPlanTotal"></th>
                                                 <th id="plan290Total"></th>
                                                 <th id="plan520Total"></th>
                                                 <th id="plan720Total"></th>
@@ -291,6 +295,8 @@
                                                 <th id="sportsActionHDTotal"></th>
                                                 <th id="pinoyAsianHDTotal"></th>
                                                 <th id="famTimeHDTotal"></th>
+                                                <th id="famPackHDTotal"></th>
+                                                <th id="maxPlanHDTotal"></th>
                                                 <th id="plan290HDTotal"></th>
                                                 <th id="plan520HDTotal"></th>
                                                 <th id="plan720HDTotal"></th>
@@ -305,6 +311,8 @@
                                                 <th id="sportsActionNonHDTotal"></th>
                                                 <th id="pinoyAsianNonHDTotal"></th>
                                                 <th id="famTimeNonHDTotal"></th>
+                                                <th id="famPackNonHDTotal"></th>
+                                                <th id="maxPlanNonHDTotal"></th>
                                                 <th id="plan290NonHDTotal"></th>
                                                 <th id="plan520NonHDTotal"></th>
                                                 <th id="plan720NonHDTotal"></th>
@@ -317,10 +325,12 @@
                                                 <th>No</th>
                                                 <th>Channel Name</th>
                                                 <th>Category</th>
-                                                <th>All Things Ent</th>
+                                                <th>Ultimate Ent</th>
                                                 <th>Sports Action</th>
-                                                <th>Pinoy & Asian</th>
+                                                <th>Asian & Pinoy</th>
                                                 <th>Fam Time</th>
+                                                <th>Fam Pack 599</th>
+                                                <th>Max Plan 549</th>
                                                 <th>290</th>
                                                 <th>520</th>
                                                 <th>720</th>
@@ -338,7 +348,14 @@
                         </div>
                     </div> <!-- end row-->
 
-                    <h5 class="page-title text-dark mb-4">CHANNEL PLAN COMPARISON</h5>
+                    <!-- page title -->
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="page-title-box">
+                                <h5 class="page-title text-dark">CHANNEL PLAN COMPARISON</h5>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="row">
                         <div class="col-12">
@@ -354,10 +371,12 @@
                                                     <div class="d-flex align-items-center">
                                                         <select id="firstFilterSelect" class="form-select">
                                                             <option value="0">Choose...</option>
-                                                            <option value="AllThingsEnt">All Things Entertainment</option>
+                                                            <option value="AllThingsEnt">Ultimate Ent</option>
                                                             <option value="FamTime">Family Time</option>
                                                             <option value="SportsAction">Sports Action</option>
                                                             <option value="PinoyAndAsian">Pinoy and Asian</option>
+                                                            <option value="FamPack">Family Pack</option>
+                                                            <option value="MaxPlan">Max Plan</option>
                                                             <option value="Plan290">Plan 290</option>
                                                             <option value="Plan520">Plan 520</option>
                                                             <option value="Plan720">Plan 720</option>
@@ -375,10 +394,12 @@
                                                     <div class="d-flex align-items-center">
                                                         <select id="secondFilterSelect" class="form-select">
                                                             <option value="0">Choose...</option>
-                                                            <option value="AllThingsEnt">All Things Entertainment</option>
+                                                            <option value="AllThingsEnt">Ultimate Ent</option>
                                                             <option value="FamTime">Family Time</option>
                                                             <option value="SportsAction">Sports Action</option>
                                                             <option value="PinoyAndAsian">Pinoy and Asian</option>
+                                                            <option value="FamPack">Family Pack</option>
+                                                            <option value="MaxPlan">Max Plan</option>
                                                             <option value="Plan290">Plan 290</option>
                                                             <option value="Plan520">Plan 520</option>
                                                             <option value="Plan720">Plan 720</option>
@@ -444,7 +465,14 @@
                         </div>
                     </div> <!-- end row-->
 
-                    <h5 class="page-title text-dark mb-4">ALA CARTE CHANNELS</h5>
+                    <!-- page title -->
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="page-title-box">
+                                <h5 class="page-title text-dark">CHANNEL ADD-ONS</h5>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="row">
                         <div class="col-12">
@@ -454,23 +482,86 @@
                                         <thead class="text-center">
                                             <tr class="table-dark">
                                                 <th>No</th>
-                                                <th>Channel Name</th>
-                                                <th>All Things Ent</th>
-                                                <th>Sports Action</th>
-                                                <th>Pinoy & Asian</th>
-                                                <th>Fam Time</th>
-                                                <th>290</th>
-                                                <th>520</th>
-                                                <th>720</th>
-                                                <th>1050</th>
-                                                <th>1350</th>
-                                                <th>1650</th>
-                                                <th>1990</th>
+                                                <th>Channel</th>
+                                                <th>Category</th>
+                                                <th>Price</th>
+                                                <th>Plan</th>
                                             </tr>
                                         </thead>
                                         <tbody id="addonChannelsTable">
+                                            <tr>
+                                                <td class="text-center">
+                                                    <span>261</span>
+                                                </td>
+                                                <td class="text-center">
+                                                    <img src="assets/images/channel-logo/onesportplus.png" alt="contact-img" title="contact-img" class="rounded me-1" height="36" />
+                                                    <p class="m-0 d-inline-block align-middle font-14">
+                                                        <a href="#" class="text-dark">One Sports + HD</a>
+                                                    </p>
+                                                </td>
+                                                <td class="text-center">
+                                                    <span>SPORTS</span>
+                                                </td>
+                                                <td class="text-center">
+                                                    <span class="text-danger fw-bold">₱ 150.00</span>
+                                                </td>
+                                                <td class="text-center">
+                                                    <span class="text-dark">For Plan 290</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center">
+                                                    <span>262</span>
+                                                </td>
+                                                <td class="text-center">
+                                                    <img src="assets/images/channel-logo/NBA TV Philippines.png" alt="contact-img" title="contact-img" class="rounded me-1" height="36" />
+                                                    <p class="m-0 d-inline-block align-middle font-14">
+                                                        <a href="#" class="text-dark">NBA TV Philippines HD</a>
+                                                    </p>
+                                                </td>
+                                                <td class="text-center">
+                                                    <span>SPORTS</span>
+                                                </td>
+                                                <td class="text-center">
+                                                    <span class="text-danger fw-bold">₱ 200.00</span>
+                                                </td>
+                                                <td class="text-center">
+                                                    <span class="text-dark">For Plan 290</span>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="text-center">
+                                                    <span>95</span>
+                                                </td>
+                                                <td class="text-center">
+                                                    <img src="assets/images/channel-logo/Fight Sports.png" alt="contact-img" title="contact-img" class="rounded me-1" height="36" />
+                                                    <p class="m-0 d-inline-block align-middle font-14">
+                                                        <a href="#" class="text-dark">Fight Sports</a>
+                                                    </p>
+                                                </td>
+                                                <td class="text-center">
+                                                    <span>SPORTS</span>
+                                                </td>
+                                                <td class="text-center">
+                                                    <span class="text-danger fw-bold">₱ 200.00</span>
+                                                </td>
+                                                <td class="text-center">
+                                                    <span class="text-dark">For Plan 290 to 1350</span>
+                                                </td>
+                                            </tr>
                                         </tbody>
                                     </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card border">
+                                <div class="card-body">
+                                    <p class="text-dark">Please refer to the <a href="https://elearning.cignal.tv/article/116#Postpaid%20Residential%20Channel%20Line-up" target="_blank">Postpaid Residential Channel Line-up</a> for the latest updates on channel line-up and channel availability.</p>
+                                    <p class="text-dark">For any inquiries or concerns, please contact the Quality Assurance Team.</p>
                                 </div>
                             </div>
                         </div>
